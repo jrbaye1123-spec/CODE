@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vaultlens"
+version = "0.1.0"
+description = "Multi-Variant GraphRAG without the single-vector bottleneck — knowledge-vault indexing, retrieval, adjudication, and federated query."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "R. Baye", email = "jrbaye1123@gmail.com" }]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=2.2"]
+llm = ["openai>=1.0"]
+full = ["sentence-transformers>=2.2", "openai>=1.0", "networkx>=3.0"]
+
+[project.scripts]
+vaultlens = "vaultlens.__main__:main"
+
+[tool.setuptools]
+packages = ["vaultlens", "vaultlens.retrieval", "vaultlens.cognitive",
+            "vaultlens.planner", "vaultlens.session", "vaultlens.scaling",
+            "vaultlens.foraging", "vaultlens.ingest", "vaultlens.storage",
+            "vaultlens.agents", "vaultlens.temple", "vaultlens.angels",
+            "vaultlens.answer", "vaultlens.federation", "vaultlens.consolidation",
+            "vaultlens.workspace", "vaultlens.adjudication", "vaultlens.cache",
+            "vaultlens.vector"]
+
+[tool.setuptools.package-data]
+vaultlens = ["*.py"]

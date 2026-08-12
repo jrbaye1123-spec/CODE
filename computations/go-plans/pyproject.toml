@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "go-plans"
+version = "0.1.0"
+description = "Go (Baduk/Weiqi) engine with LLM training — board, SGF parsing, engine, analysis, and network."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "R. Baye", email = "jrbaye1123@gmail.com" }]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+llm = ["torch>=2.0"]
+
+[project.scripts]
+go-plans = "go_plans.main:main"
+
+[tool.setuptools]
+packages = ["go_plans"]

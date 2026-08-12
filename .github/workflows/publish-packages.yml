@@ -1,0 +1,52 @@
+name: build-and-publish-packages
+
+# Builds each Python package (sdist + wheel) and publishes to GitHub Packages.
+# Trigger on tags like "pkg/vaultlens@0.1.0" or manually.
+
+on:
+  push:
+    tags:
+      - "pkg/*@*"
+  workflow_dispatch:
+    inputs:
+      package:
+        description: "Package to publish (vaultlens | agentic-triage | go-plans | summa-gap-ai | logdet-probe | all)"
+        required: true
+        default: "all"
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package:
+          - { name: vaultlens, path: computations/vaultlens }
+          - { name: agentic-triage, path: agentic-triage }
+          - { name: go-plans, path: computations/go-plans }
+          - { name: summa-gap-ai, path: summa-gap-ai }
+          - { name: logdet-probe, path: computations/logdet-probe }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install build tooling
+        run: pip install --upgrade build twine
+
+      - name: Build package
+        working-directory: ${{ matrix.package.path }}
+        run: python -m build
+
+      - name: Publish to GitHub Packages (pip)
+        working-directory: ${{ matrix.package.path }}
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          twine upload --repository-url https://pip.pkg.github.com/jrbaye1123-spec/CODE dist/*

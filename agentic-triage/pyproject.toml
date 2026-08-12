@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-triage"
+version = "0.1.0"
+description = "Agentic triage with MoE observer routing, epistemic gating, provenance, and memory curation."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "R. Baye", email = "jrbaye1123@gmail.com" }]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+llm = ["openai>=1.0"]
+full = ["openai>=1.0", "sentence-transformers>=2.2"]
+
+[project.scripts]
+triage = "agentic_triage.cli.__main__:main"
+
+[tool.setuptools]
+packages = ["agentic_triage", "agentic_triage.cli", "agentic_triage.apps",
+            "agentic_triage.curation", "agentic_triage.eval", "agentic_triage.llm",
+            "agentic_triage.memory", "agentic_triage.observability", "agentic_triage.ops",
+            "agentic_triage.provenance", "agentic_triage.safety", "agentic_triage.sources",
+            "agentic_triage.triage"]

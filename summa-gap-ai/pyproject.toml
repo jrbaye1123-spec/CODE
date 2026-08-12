@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "summa-gap-ai"
+version = "0.1.0"
+description = "Summa-Gap AI: QLoRA fine-tuning of foundation models on the Summa of the Gap framework, with logdet probing and quantum-proof deployment."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "R. Baye", email = "jrbaye1123@gmail.com" }]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+training = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "peft>=0.10",
+    "bitsandbytes>=0.41",
+    "datasets>=2.16",
+    "accelerate>=0.27",
+]
+
+[project.scripts]
+summa-gap-eval = "summa_gap_ai.eval.logdet_probe:main"
+
+[tool.setuptools]
+packages = ["summa_gap_ai"]
