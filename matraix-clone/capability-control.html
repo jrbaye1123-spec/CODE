@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Simulate a User, You Should Make Your LLM Dumber — MatrAIx Research</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="description" content="A frontier model is the right start for a human simulation and the wrong end. Turning capability down to match a real person, reliably and measurably, is an open research problem." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0a0b0d;--bg-2:#121418;--ink:#e8e9ec;--ink-dim:#969da8;--phos:#4A8FC2;--amber:#d99a46;--line:rgba(151,169,190,.18);--line-soft:rgba(151,169,190,.1);--mono:"JetBrains Mono",ui-monospace,monospace;--disp:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;overflow-x:hidden;background:var(--bg);color:var(--ink);font:16px/1.7 var(--disp)}::selection{background:var(--phos);color:#fff}
+    header{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:18px clamp(20px,5vw,40px);background:rgba(9,10,12,.9);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(15px)}.brand{color:var(--ink);font-weight:700;font-size:1.375rem;text-decoration:none;white-space:nowrap}.brand em{font-style:normal;background:linear-gradient(90deg,#a855f7,#4A8FC2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}nav{display:flex;gap:30px;align-items:center}nav a{color:var(--ink-dim);font-size:.78rem;letter-spacing:.06em;text-decoration:none;text-transform:uppercase}nav a:hover,nav a[aria-current="page"]{color:#fff}.btn-nav{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid rgba(74,143,194,.5);border-radius:7px;background:rgba(74,143,194,.14);color:#dceeff;font-size:.72rem;text-decoration:none}.dot.live{width:7px;height:7px;border-radius:50%;background:#72bdf1}.nav-toggle{display:none;padding:9px 13px;border:1px solid var(--line);border-radius:6px;background:none;color:var(--ink);font:500 .72rem var(--mono);text-transform:uppercase}
+    main{position:relative;z-index:2;max-width:1102px;margin:0 auto;padding:148px 30px 90px}.blog-header{margin-bottom:64px;padding-bottom:42px;border-bottom:1px solid var(--line);text-align:center}.blog-breadcrumb{display:flex;justify-content:center;gap:12px;margin-bottom:30px;color:#737b87;font:500 .68rem var(--mono);letter-spacing:.12em;text-transform:uppercase}.blog-breadcrumb a{color:#6daedb;text-decoration:none}.blog-title{max-width:900px;margin:0 auto 28px;color:#f3f4f6;font-size:clamp(2.7rem,6vw,5rem);font-weight:600;line-height:1.02;letter-spacing:-.055em;text-wrap:balance}.blog-deck{max-width:760px;margin:0 auto 30px;color:#aab0b9;font-size:1.12rem;line-height:1.65;text-wrap:balance}.blog-meta{display:flex;justify-content:center;gap:14px 28px;flex-wrap:wrap;color:#888f9a;font-size:.8rem}.blog-meta-item{display:flex;align-items:center;gap:9px}.blog-meta-item+.blog-meta-item{padding-left:28px;border-left:1px solid var(--line)}.blog-meta strong{color:#d8dbe0;font-weight:500}.blog-meta img{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;object-fit:cover}
+    .article{max-width:780px;margin:0 auto}.article-toc{max-height:calc(100vh - 140px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(109,174,219,.3) transparent}.article p{margin-bottom:20px;color:#c7cbd1;font-size:1.03rem;line-height:1.82}.article h2{margin:72px 0 22px;color:#f0f2f4;font-size:1.9rem;line-height:1.2;letter-spacing:-.025em}.article h3{margin:38px 0 16px;color:#e9ebee;font-size:1.25rem;line-height:1.3}.article strong{color:#eef6fc}.article em{color:#d8b27c}.article a{color:#78b7e2}.article ul,.article ol{margin:20px 0 24px 24px;color:#c7cbd1}.article li{margin-bottom:10px;padding-left:5px}.article li::marker{color:var(--phos)}sup a{text-decoration:none}.quote-card{margin:34px 0;padding:22px 26px;border-left:3px solid var(--phos);border-radius:4px;background:rgba(74,143,194,.06);color:#d3dae2;font-size:1.05rem;line-height:1.7}.callout{margin:34px 0;padding:20px 24px;border:1px solid var(--line);border-radius:8px;background:var(--bg-2)}.callout strong{display:block;margin-bottom:8px}.callout p{margin:0;color:#b9bfc8;font-size:.98rem}.path-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:34px 0}.path-card{padding:24px;border:1px solid var(--line);border-radius:8px;background:rgba(74,143,194,.05)}.path-card span,.figure-kicker{color:var(--phos);font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase}.path-card h3{margin:10px 0 12px;font-size:1.18rem}.path-card p{margin:0;font-size:.94rem;line-height:1.65}.evidence-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:38px 0;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}.evidence-stat{padding:22px 16px;background:#101216;text-align:center}.evidence-stat b{display:block;color:#f2f5f7;font-size:1.65rem;line-height:1.1}.evidence-stat span{display:block;margin-top:8px;color:#8f98a3;font:.68rem/1.45 var(--mono);text-transform:uppercase}.figure-card{margin:42px 0;padding:24px;border:1px solid var(--line);border-radius:8px;background:#0e1013}.figure-card h3{margin:8px 0 6px;font-size:1.25rem}.figure-note{margin:0 0 22px!important;color:#8f98a3!important;font-size:.85rem!important;line-height:1.55!important}.gap-chart{display:grid;gap:10px}.gap-row{display:grid;grid-template-columns:112px 1fr;gap:14px;align-items:center}.gap-label{color:#aeb5be;font:.72rem var(--mono);text-align:right}.gap-track{display:grid;grid-template-columns:repeat(3,1fr);min-height:44px;border:1px solid var(--line);border-radius:5px;overflow:hidden}.gap-track span{display:flex;align-items:center;padding:8px 10px;border-right:1px solid var(--line);color:#b8c0c9;font-size:.72rem;line-height:1.25}.gap-track span:last-child{border-right:0}.gap-track .yes{background:rgba(74,143,194,.18);color:#d9ebf8}.gap-track .partial{background:rgba(217,154,70,.12);color:#e3c393}.gap-track .no{color:#6f7781}.gap-axis{display:grid;grid-template-columns:112px repeat(3,1fr);gap:14px;margin:5px 0}.gap-axis span{color:#69727d;font:.62rem var(--mono);text-align:center}.study-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}.study{padding:18px;border:1px solid var(--line);border-radius:6px;background:rgba(74,143,194,.04)}.study b{display:block;color:#f0f2f4;font-size:1.35rem}.study strong{display:block;margin:5px 0;color:#cbd2d9;font-size:.86rem}.study p{margin:0;color:#929ba5;font-size:.78rem;line-height:1.5}.table-scroll{overflow-x:auto}.evaluation-table,.claim-table{width:100%;margin:20px 0;border-collapse:collapse;font-size:.8rem}.evaluation-table th,.evaluation-table td,.claim-table th,.claim-table td{padding:11px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.evaluation-table th,.claim-table th{color:#eef1f4;font-weight:600}.evaluation-table td,.claim-table td{color:#aab2bb}.evaluation-table td:first-child,.claim-table td:first-child{color:#d8dde2;font-weight:600}.evaluation-table .high{color:#8bc7eb}.evaluation-table .med{color:#d8b27c}.validity-ladder{display:grid;gap:10px;margin-top:20px}.validity-step{display:grid;grid-template-columns:38px 150px 1fr;gap:12px;align-items:start;padding:14px;border:1px solid var(--line);border-radius:6px}.validity-step>span{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(74,143,194,.18);color:#9ed3f3;font:600 .75rem var(--mono)}.validity-step b{font-size:.88rem}.validity-step p{margin:0;color:#929ba5;font-size:.78rem;line-height:1.5}.references{font-size:.84rem}.references li{margin-bottom:14px;color:#9fa7b0;line-height:1.65}.method-note{margin-top:35px!important;padding-top:20px;border-top:1px solid var(--line);color:#89929d!important;font-size:.86rem!important}footer{margin-top:80px;padding:40px 20px;border-top:1px solid var(--line);color:var(--ink-dim);font-size:.86rem;text-align:center}footer a{color:var(--phos);text-decoration:none}
+    @media(max-width:768px){header{padding:15px 20px}.nav-toggle{display:block}header nav{position:absolute;top:100%;left:0;right:0;display:flex;max-height:0;overflow:hidden;flex-direction:column;gap:0;background:#0b0d10;opacity:0;transition:.25s}header nav.active{max-height:420px;padding:8px 0;opacity:1}header nav a{width:100%;padding:12px 24px;text-align:center}.btn-nav{display:none}main{padding:118px 20px 70px}.blog-title{font-size:clamp(2.25rem,12vw,3.5rem)}.blog-deck{font-size:1rem}.blog-meta{flex-direction:column;align-items:center}.blog-meta-item+.blog-meta-item{padding-left:0;border-left:0}.path-grid,.study-grid{grid-template-columns:1fr}.evidence-strip{grid-template-columns:1fr 1fr}.figure-card{padding:18px 14px}.gap-chart{min-width:570px}.gap-row{grid-template-columns:76px 1fr}.gap-axis{grid-template-columns:76px repeat(3,1fr)}.validity-step{grid-template-columns:34px 1fr}.validity-step p{grid-column:2}.evaluation-table,.claim-table{min-width:650px}}
+  </style>
+  <link rel="stylesheet" href="blog-post.css%3Fv=21.css" />
+  <link rel="stylesheet" href="subpages-light.css%3Fv=2.css" />
+  <link rel="stylesheet" href="navigation.css%3Fv=2.css" />
+<link rel="icon" type="image/png" href="MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="index.html">Matr<em>AI</em>x</a>
+    <nav>
+      <a href="index.html">Home</a><a href="index.html.1.html" aria-current="page">Research</a><a href="index.html.1.1.html">Personas</a><a href="index.html.1.2.html">Applications</a><a href="index.html.1.3.html">Playground</a><a href="index.html.1.4.html">Community</a>
+    </nav>
+    <a href="index.html.1.4.html" class="btn-nav"><span class="dot live"></span> Join community</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <aside class="article-toc" aria-label="On this page"><span>On this page</span><ol></ol></aside>
+    <div class="blog-header">
+      <div class="blog-breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html.1.html">Research</a><span>/</span><span>Position</span></div>
+      <h1 class="blog-title">To Simulate a User, You Should Make Your LLM Dumber</h1>
+      <p class="blog-deck">A frontier model is the right place to start a human simulation and the wrong place to stop. Turning capability down to match a real person, reliably and measurably, is its own research problem.</p>
+      <div class="blog-meta">
+        <div class="blog-meta-item"><img src="MatrAIx_Logo.png" alt="MatrAIx" /><div><strong>Jintao Huang, Xiaomin Li, Yuexing Hao, and Core Team</strong></div></div>
+        <div class="blog-meta-item"><strong>July 20, 2026</strong></div>
+        <div class="blog-meta-item"><strong>10 min read</strong></div>
+      </div>
+    </div>
+
+    <article class="article">
+      <aside class="article-summary" aria-label="Article summary">
+        <span>Position in brief</span>
+        <p>For most of AI, the goal is a smarter model. For user simulation, the goal is often a <strong>dumber</strong> one. A frontier model knows too much, stays too consistent, and fails too rarely to stand in for a real person, and every measurement you take with it inherits that gap. We argue that faithful user simulation is partly a <strong>capability-control</strong> problem: taking a capable model and holding it inside a target person's competence envelope, on purpose and under measurement. Doing that so the agent fails the way the person fails, rather than randomly or as a caricature, is an open research question, not a prompting trick.</p>
+      </aside>
+
+      <p class="article-lead">Here is the blunt version. If you want an agent to behave like a real user, the single most capable model is the wrong tool, and making it worse is part of the job. Not broken, not random: worse in a specific, controlled way that matches the person you are simulating. The frontier model is where you start. A believably limited human is where you have to end up.</p>
+
+      <h2>1. Your model is too good to be a user</h2>
+      <p>A real person is bounded. They know some things and not others, they forget, they get tired, they misread a label and give up when something feels hard. A frontier model has none of those bounds by default. Condition it on a persona and it will still act at a skill ceiling the real person never had. If you are using the simulation to find where users struggle, this is fatal: the simulated user does not struggle where the real one does.</p>
+      <p>Left at full strength, a model does not answer like a person. It answers like an unusually well-informed, unusually careful, unusually consistent person, which is to say not like most people at all. And more capable does not even mean more useful: a stand-in that is smarter than your real users simply hides the friction they would actually hit.</p>
+
+      <div class="quote-card">The most useful agent in a simulation is not the smartest one. It is the one that is wrong in exactly the way a person would be.</div>
+
+      <h2>2. "Dumber" is not one dial</h2>
+      <p>Lowering the temperature or swapping in a smaller model misses what makes a person a person. Human limitation has at least four independent axes, and a faithful simulation has to move each one on purpose. Each axis has its own mechanism and recreates a different, recognizable human trait.</p>
+      <div class="figure-card">
+        <span class="figure-kicker">Figure 1 · The four dials of a bounded user</span>
+        <h3>One model, four independent axes of limitation</h3>
+        <p class="figure-note">Conceptual framework. Each dial moves separately; a faithful persona is a specific setting across all four, not a single "make it worse" slider.</p>
+        <div class="table-scroll">
+          <table class="claim-table">
+            <thead><tr><th>Dial</th><th>Frontier default</th><th>Turn it down by</th><th>The human trait it recreates</th></tr></thead>
+            <tbody>
+              <tr><td>Knowledge</td><td>Broad, near-complete</td><td>Ablate domain facts, restrict retrieval and context</td><td>"I have never seen this before"</td></tr>
+              <tr><td>Skill</td><td>Executes cleanly</td><td>Remove tools, block certain reasoning steps</td><td>Fumbling, taking the wrong approach</td></tr>
+              <tr><td>Consistency</td><td>Stable across turns</td><td>Cap memory, allow contradiction and drift</td><td>Changing one's mind, forgetting a decision</td></tr>
+              <tr><td>Effort</td><td>Grinds to completion</td><td>Limit steps and tokens, reward stopping early</td><td>Skimming, satisficing, giving up</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>The effort axis is the one people forget. Real users do not optimize, they satisfice: they stop at the first option that is good enough, skim instead of read, and quit when a task drags. A model grinds every task to an optimum, which is the opposite. A small model at high temperature, meanwhile, moves all four dials at once in an uncontrolled way. That is not a person, it is a noisy version of a smart one. The goal is a specific, shaped reduction, one axis at a time, that you can dial in and defend.</p>
+
+      <h2>3. Three ways to make a model dumber, and only one is right</h2>
+      <p>This is the part people get wrong. "Make it worse" has several implementations, and most of them produce something that looks human-ish and is not.</p>
+      <div class="figure-card">
+        <span class="figure-kicker">Figure 2 · Degradation is not one thing</span>
+        <h3>Three ways down, and what each actually produces</h3>
+        <div class="table-scroll">
+          <table class="claim-table">
+            <thead><tr><th>Approach</th><th>What you actually get</th><th>Faithful?</th></tr></thead>
+            <tbody>
+              <tr><td>Turn up randomness (high temperature, tiny model)</td><td>Noise sprayed evenly across every decision</td><td>No: unreliable, not human</td></tr>
+              <tr><td>Prompt a caricature ("act like a confused beginner")</td><td>Exaggerated, stereotyped mistakes on cue</td><td>No: plausible but systematically off</td></tr>
+              <tr><td>Match the real failure distribution</td><td>The specific misconceptions and give-up points of that population</td><td>Yes: this is the target</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>Human error is structured. A beginner does not make random mistakes; they make beginner mistakes, in a direction. A model that fails randomly has added noise. A model told to "act confused" has added a stereotype, which is worse, because it looks convincing while being wrong in a consistent way. The target is degradation that reproduces the same wrong turns, the same misconceptions, and the same moments of giving up as the real person. That is the harder and more useful thing to build.</p>
+
+      <h2>4. A worked example: three simulated users</h2>
+      <p>Give three simulated users the same job: cancel a subscription in an app they have never used, where the option is buried three menus deep.</p>
+      <ul>
+        <li><strong>Full-capability model.</strong> Finds the hidden setting in seconds and cancels cleanly. It never gets lost, so it tells you nothing about how hard the flow really is.</li>
+        <li><strong>Randomly degraded model.</strong> Taps around at random, opens screens no real person would, and fails in ways that have no pattern. Its trouble does not point at any real design problem.</li>
+        <li><strong>Faithfully bounded model.</strong> Looks for "Cancel" under Account, misses the menu that is labeled something else, hesitates at the retention offer, and gives up at the exact screen where real users give up. Its struggle is a measurement: it points at the step that actually needs fixing.</li>
+      </ul>
+      <p>Only the third one is useful. The first is too capable to find anything; the second finds problems that are not there.</p>
+
+      <h2>5. This is not just one kind of product</h2>
+      <p>The same mismatch shows up wherever a product has to serve people with different knowledge and habits.</p>
+      <ul>
+        <li>A <strong>support chatbot</strong> tested only against an all-knowing simulated user will never see the customer who does not know the name of the feature they are asking about.</li>
+        <li>A <strong>health tool</strong> evaluated by a simulated patient who reads every instruction carefully will miss the person who skims, panics, and clicks the wrong thing.</li>
+        <li>A <strong>shopping assistant</strong> judged by a simulated shopper with perfect price memory will not surface the confusion of someone comparing three tabs from memory.</li>
+      </ul>
+      <p>In each case the useful signal lives in the limitation. Turn the model's competence down to the right level and the failures it hits are the failures your real users will hit. Leave it at the ceiling and the product looks better in simulation than it will ever be in the world.</p>
+
+      <h2>6. How you would actually turn capability down</h2>
+      <p>Capability control is not one technique. It is a stack of them, applied per dial and per persona, and the research is in knowing which one moves which axis without spilling into the others.</p>
+      <ul>
+        <li><strong>Knowledge ablation and context control.</strong> Withhold domain facts, restrict what the agent may retrieve, and start it from only what the person would plausibly know.</li>
+        <li><strong>Tool and action restriction.</strong> Take away the shortcuts. A user who cannot run a shortcut has to work the way a user without one does.</li>
+        <li><strong>Memory and consistency limits.</strong> Cap what carries across turns so the agent can forget, repeat itself, and change its mind.</li>
+        <li><strong>Training on human traces.</strong> Fit the model to real people's attempts, including their errors, so it learns the shape of the mistakes rather than a description of them.</li>
+        <li><strong>Elicitation control.</strong> Actively steer the model to a target competence and hold it there, the inverse of the usual push to elicit maximum capability.</li>
+      </ul>
+
+      <h2>7. What would make a bounded agent credible</h2>
+      <p>A dumbed-down agent is a claim, and claims need evidence. The bar is not "does it seem less capable." It is whether the reduction reproduces the target population: the same patterns of behavior and error you would find across real people, not merely something that sounds believable. Three tests matter most.</p>
+      <ul>
+        <li><strong>Failure-distribution match.</strong> Does the agent fail <em>where</em> the person fails, with the same misconceptions and give-up points, not just less often on average?</li>
+        <li><strong>Counterfactual sensitivity.</strong> When you move a dial, does behavior change in the expected direction and only in that direction?</li>
+        <li><strong>Stability.</strong> Does the constraint hold over a long interaction, or does the underlying competence leak back in after a few turns?</li>
+      </ul>
+      <p>This slots directly into the validity ladder from our <a href="missing-human-layer.html">human-simulation position paper</a>: grounding the persona, showing it adheres, and checking the distribution before any decision rests on it.</p>
+
+      <div class="callout">
+        <strong>The point is not to build a worse model.</strong>
+        <p>It is to build a controllable one. A single capable model should be able to sit at many different human competence levels on demand, and to defend each of them under measurement. That control is the deliverable, and "dumber" is only one direction it has to move.</p>
+      </div>
+
+      <h2>8. The bet</h2>
+      <p>The instinct in AI is that more capability is always better. User simulation is where that instinct breaks. The frontier model is where you start. A person, bounded and fallible and specific, is where you have to end up, and the road between them is worth a paper, not just a prompt. If we want simulated users we can trust, we will have to get as good at turning capability down, precisely and provably, as the field has become at turning it up.</p>
+
+      <p class="method-note"><strong>Evidence note.</strong> This is a position piece describing an open research direction at MatrAIx, not a report of a completed study. Figures 1 and 2 are conceptual frameworks proposed by the authors. It builds on our human-simulation <a href="missing-human-layer.html">position paper</a>.</p>
+    </article>
+  </main>
+
+  <footer><p><a href="index.html">Home</a> · <a href="index.html.1.html">Research</a> · <a href="index.html.1.1.html">Personas</a> · <a href="index.html.1.2.html">Applications</a> · <a href="index.html.1.3.html">Playground</a> · <a href="index.html.1.4.html">Community</a> · <a href="index.html.1.4.html#contact">Contact</a></p><p style="margin-top:14px">SIMULATE BEFORE REALITY · © 2026 MATRAIX</p></footer>
+  <script src="site-performance.js%3Fv=1"></script>
+  <script src="blog-post.js%3Fv=7"></script>
+  <script>(function(){const toggle=document.querySelector('.nav-toggle'),nav=document.querySelector('header nav');if(!toggle||!nav)return;toggle.addEventListener('click',()=>nav.classList.toggle('active'));nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>nav.classList.remove('active')));})();</script>
+</body>
+</html>

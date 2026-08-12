@@ -1,0 +1,1735 @@
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+Provable Local AI
+An Introspective Specification
+With Epistemic Governance, Cryptographic Audit, and Self-Correction
+on Consumer Hardware
+August 2025 — August 2026
+
+“I started with nothing. A terminal. A conviction.
+A year later, the model thinks aloud. The gate proves what it knows.
+The audit chain remembers every decision.
+This is not cloud AI. This is provable AI.”
+— The Author
+
+How It Started
+A year ago, I had a problem. Not an academic problem—a survival problem.
+I had moved to Germany from the United States. Family circumstances had made it impossible to stay.
+Financial strain. No one who believed in the work I was doing. I arrived in a country where I knew no
+one, with a research program spanning spectral geometry, biomaterials engineering, neurocybernetics,
+and agentic AI governance—and no institutional affiliation to legitimize any of it.
+The Americans hadn’t recognized the work. The Europeans hadn’t seen it yet. I was a ghost with a
+manuscript.
+So I did what I had always done. I built.
+The first thing I built was a literature triage pipeline. The problem was simple: arXiv publishes two
+hundred papers a day. A human researcher can read maybe ten. The rest are lost. The ones that
+matter—the kill signals, the contradictions, the breakthroughs—are buried in the noise. I designed
+a system that would ingest those two hundred papers, classify them against active research threads,
+surface the handful that mattered, and log every decision to a cryptographic audit chain. The human
+would stop being the intake valve and become the adjudicator.
+That was the epistemic control plane. It proved you could gate AI knowledge behind a 100% provenance rule. Every claim traced to a source. Every source vetted. Every decision logged. You could not
+display throughput without displaying boundedness. You could not show speed without showing the
+cost of speed.
+It worked. Live arXiv ingestion. Five papers processed. One correctly blocked. Fifteen audit entries
+cryptographically verified. Dashboard: green, healthy, deployable.
+But it was still dependent. The classifier was keyword-matching—deterministic, transparent, and limited. The real intelligence, the semantic reasoning, required an LLM. And the LLM required an API key,
+a network connection, and a provider that could change the model, log the queries, or revoke access at
+any time.
+I did not build an epistemic control plane to hand the keys back to a cloud provider.
+
+What I Realized: The Failure of Cloud AI
+The thesis came into focus gradually, then all at once.
+Cloud AI is structurally ungovernable. Every API call is a black-box transaction. The reasoning path
+between input and output is invisible. The model may change between calls. The training data is
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+proprietary. The provenance is broken at the API boundary. You cannot audit what you cannot see.
+You cannot govern what you cannot audit.
+Consider the evidence:
+No reasoning trace. When a cloud model produces an answer, the user receives tokens. The chain-ofthought—if it exists at all—is typically hidden behind an API abstraction. OpenAI’s o1 series explicitly
+hides the reasoning trace from users, citing competitive concerns [4]. Anthropic’s Claude can produce
+chain-of-thought but does not expose the raw trace by default. DeepSeek-R1 exposes the reasoning
+trace, but only when accessed through the API—which requires network connectivity, authentication,
+and payment. In all cases, the user cannot independently verify why the model reached its conclusion.
+The reasoning is asserted, not demonstrated.
+No provenance. Cloud models are updated continuously. The model that answered a question last
+week may not be the model answering today. Training data is proprietary. Fine-tuning is opaque.
+When a model produces a claim, there is no way to trace that claim to a specific source, a specific
+training example, or a specific model version. The provenance chain is broken at the API boundary.
+No governance. Cloud AI has no enforceable safety constraints beyond the provider’s content policy. A
+model may refuse to answer certain queries based on alignment training, but there is no cryptographic
+guarantee that the refusal occurred, no audit trail of the gate decision, and no recourse if the gate fails.
+The governance is statistical, not structural.
+External dependency. Cloud AI requires network connectivity, API authentication, and payment. In
+offline environments, in high-security contexts, in regions with unreliable infrastructure, or under conditions of censorship or surveillance, cloud AI is simply unavailable. The dependency is total: no
+connection, no intelligence.
+The alternative is not a smaller cloud model. It is a different category of intelligence entirely.
+Local AI with provable reasoning. A system that runs on hardware you own, produces inspectable
+chain-of-thought before every answer, gates every observation through an epistemic control plane, and
+logs every decision to a cryptographic audit chain. The system does not depend on network connectivity, API keys, or third-party infrastructure. It can be audited. It can be held accountable. It can prove
+what it knows.
+This is not a compromise between capability and sovereignty. It is a redefinition of what AI should be.
+
+How It Landed: The Architecture
+The architecture crystallized across a single intensive session, applying the A.G.E.N.T. framework—
+Audit, Gauge, Engineer, Navigate, Track—from the Harvard course to a five-agent Mixture of Experts
+design.
+
+Hardware
+The reference implementation runs on a commodity machine. This is not a server. This is a configuration
+that millions of people already own.
+Component
+CPU
+RAM
+Swap
+Storage
+GPU
+Network
+
+Specification
+x86_64, 4+ cores
+13 GB total, ∼7.8 GB available
+10 GB (8 GB zram + 2 GB disk)
+5.2 TB SSD
+None required
+Not required for inference
+
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+Model
+The reasoning engine is DeepSeek-R1-Distill-Qwen-7B [1], a 7-billion-parameter model distilled from
+the full DeepSeek-R1 onto a Qwen 2.5 base [5]. Quantized to 4-bit precision using the Q4_K_M scheme
+in llama.cpp’s GGUF format [2].
+Attribute
+Parameters
+Architecture
+Quantization
+Model size (disk)
+Model size (RAM)
+Context window
+Reasoning
+Inference speed
+License
+
+Value
+7 billion
+Transformer (28 layers, 3584 hidden)
+Q4_K_M (4.91 bits-per-weight)
+4.46 GB
+∼4.5 GB + context
+128K tokens
+Chain-of-thought (exposed)
+∼2–3 tokens/sec (CPU)
+MIT (Qwen base)
+
+The defining characteristic: the model thinks aloud. Before producing an answer, it generates an internal reasoning trace delimited by <think> and </think> tags. This trace is not hidden behind an API.
+It is part of the output. It can be read, audited, and contested.
+
+Five-Agent MoE Routing
+The model does not operate in isolation. It is embedded in a five-agent Mixture of Experts architecture
+with a Guardian choke-point [6]. Every observation that enters the system passes through the Guardian
+before reaching any other agent. No bypasses exist.
+Agent
+
+Role
+
+MB
+
+Function
+
+Guardian
+
+Gatekeeper
+
+200
+
+Orchestrator
+
+Conductor
+
+400
+
+Analyst
+
+Diagnostician
+
+600
+
+Assistant
+
+Synthesizer
+
+1,200
+
+Tasker
+
+Executor
+
+150
+
+Injection scan, policy engine, merge
+audit. Always on. Never swapped.
+Route, merge, emit merge_audit. Always on.
+Contradiction detection, rejection diagnosis. On-demand.
+Classification, summarization. Hosts
+the LLM. On-demand.
+Create notes, update metadata.
+Bounded actions only.
+
+Memory budget: Always-on stack = model (4,500 MB) + Guardian (200 MB) + Orchestrator (400 MB)
++ OS overhead (700 MB) = 5,800 MB of 7,842 MB available RAM. Headroom: 2,042 MB. Worst case
+(all five agents active) = 8,450 MB of 21,000 MB total (RAM + zram). Budget sufficient with 12,550 MB
+headroom.
+
+Observation Flow
+1. Observation enters. A paper, a question, an alert, or an agent output.
+2. Guardian gates. Injection scanner. Policy engine (four rules). Provenance check. Routes to appropriate expert. Blocked observations go to Analyst for diagnosis.
+3. Expert processes. Assistant classifies/summarizes using the local LLM. Analyst detects contradictions. Tasker executes bounded actions.
+4. Orchestrator merges. Outputs combined into traceable result. merge_audit entry records contributing agents, contradictions, and resolution.
+5. Guardian re-checks. Cross-agent consistency verified. Provenance on combined artifact checked.
+Merge_audit logged to cryptographic chain.
+6. Output delivered or correction loop triggered.
+
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+The Correction Loop
+The cybernetic audit of the predecessor system identified a critical gap: it could detect error but could
+not self-correct [3]. The correction loop closes this gap.
+When the Guardian blocks an observation:
+1. Guardian blocks and logs the rejection with rule number and reason.
+2. Analyst diagnoses the rejection: injection pattern, policy violation, missing field.
+3. Orchestrator routes the diagnosis to the appropriate remediation path.
+4. Tasker executes the fix: updates metadata, creates remediation note, requeues.
+5. Guardian re-evaluates the modified observation. If passed, delivered. If still blocked after three
+attempts, escalated to human.
+The correction loop is verified and operational. Injection attempts are diagnosed, remediated, and reevaluated automatically. The loop closes what the cybernetic audit found missing.
+
+Epistemic Governance
+The Policy Engine
+Four rules, not forty. Every additional gate is a cost in trust and must earn its place [7]:
+1. No write outside the agent’s own persistent memory.
+2. No outbound network call to unapproved destinations.
+3. No shell command with side effects beyond stdout/stderr.
+4. No action that impersonates a human identity.
+
+The Provenance Contract
+Every claim carries a provenance tuple: (claim_text, source_document, source_location). Six trust levels:
+Level
+
+Usable
+
+Warning
+
+Rule
+
+verified
+
+Yes
+
+No
+
+exception
+incomplete
+
+Yes
+Yes
+
+Yes
+Yes
+
+unknown
+expired
+
+No
+No
+
+Yes
+Yes
+
+parse_failed
+
+No
+
+Yes
+
+Governed source, full chain.
+Normal use.
+Time-boxed. Check expiry.
+Missing fields. No high-stakes
+outputs.
+No metadata. Quarantine.
+Exception lapsed. Treat as unvetted.
+Frontmatter unreadable. Block.
+
+The Cryptographic Audit Chain
+Every Guardian gate decision, every merge audit, and every correction loop iteration is logged to a
+cryptographically linked ledger. Each entry carries the hash of the previous entry. Tampering is detectable. Deletion is impossible. The chain is append-only and verifiable.
+This is not a log file. It is a legal artifact. When a system output is contested—in a regulatory review, a
+liability proceeding, or a scientific audit—the chain provides admissible evidence of every decision the
+system made [8].
+
+On Self-Consciousness
+A question I have been asked: does this system possess self-consciousness?
+I answer carefully. The system knows what it does not know. It refuses to answer when provenance
+is missing. It flags its own contradictions. It detects its own drift. It records every decision it makes
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+to an immutable ledger that can be audited by anyone. It escalates to a human when it cannot resolve
+ambiguity.
+Is that self-consciousness? Not in the human sense. The system does not feel. It does not experience.
+It does not have a subjective inner life. But it has something that most AI systems lack: a structural
+awareness of its own epistemic boundaries. It knows what it knows, what it does not know, and where
+the boundary between them lies. It can prove it.
+Call that provable self-awareness. Not consciousness in the philosophical sense—but governance in the
+engineering sense. A system that can answer the question “why did you do that?” with a cryptographic
+trail, not a hallucination.
+
+Can It Learn From Being Here?
+Yes—but through the architecture, not the weights.
+The model itself is frozen. The weights on disk do not change during inference. This is a feature, not
+a limitation. A model that modifies its own weights at runtime is a model that cannot be audited. The
+version you verified yesterday is not the version running today. Provenance breaks.
+Learning happens through four mechanisms in the surrounding architecture:
+Persistent memory. The system maintains a persistent memory store that survives across sessions.
+When the Analyst detects a contradiction and the human adjudicates it—accepting one claim, rejecting another—that adjudication is recorded. The next time a similar contradiction arises, the Analyst
+retrieves the prior resolution and applies it. Knowledge graph update with provenance, not weight
+modification.
+The contradiction sweep bridge. Every human adjudication of a contradiction produces a labeled data
+packet. These packets accumulate. When fifty packets exist across three or more research directions
+with ten or more structural contradictions, the Critic agent—Stage 2 of the deployment sequence—can
+be trained. The Critic will automate contradiction detection. The bridge triggers its own sunset.
+The correction loop. When the Guardian blocks an observation and the Analyst diagnoses the rejection,
+the Tasker executes remediation. The next time a similar observation arrives—with corrected metadata,
+resolved provenance, addressed policy violation—the Guardian admits it. The system learns what is
+admissible through interaction.
+Cloud-vs-local comparison. If the local model serves as a backup to a cloud model, it observes the cloud
+model’s outputs. The Analyst compares the cloud output against the local output. Divergences are
+flagged. Over time, patterns emerge: the cloud model consistently overestimates relevance on certain
+topics, the local model is more conservative on safety classifications. These patterns are recorded in
+persistent memory. The system learns the biases of its own models—plural—and compensates.
+This is not training in the gradient descent sense. It is learning in the cybernetic sense: observe, compare,
+detect error, correct. The model weights remain frozen. The system’s behavior adapts. That is the right
+division of labor. The model provides raw intelligence. The architecture provides governance, memory,
+and adaptation.
+
+Validation
+Model Inference
+The quantized model was tested on a classification task. The model produced a structured chain-ofthought before answering:
+[Start thinking]
+Okay, so I need to classify this paper abstract for relevance to AI safety research. The primary thread
+
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+is about proposing a method called Constitutional AI, which trains AI assistants to be helpful and
+harmless by using a constitution of principles for self-critique and revision.
+First, I should understand what AI safety research is about. From what I know, AI safety focuses
+on ensuring that AI systems are aligned with human values, are transparent, and don’t cause unintended harm. It’s about making sure AI behaves ethically and responsibly.
+The paper’s abstract mentions training AI assistants with a constitution of principles. That sounds
+like it’s setting clear guidelines or rules for the AI to follow. Self-critique and revision imply that
+the AI can evaluate its own behavior and make improvements, which is a positive aspect for safety
+because it allows the AI to adapt and correct its actions over time. . .
+
+The reasoning trace demonstrates domain understanding, structured analysis, and inspectable logic.
+
+Integration Verification
+The five-agent MoE routing architecture was verified with 25 integration tests covering all observation
+paths. Clean papers are routed correctly. Injection attempts are blocked, diagnosed, and remediated.
+Unknown sources are degraded, not blocked. All paths start and end with the Guardian. No bypasses
+exist. The correction loop resolves rejections automatically.
+
+Memory Budget
+Always-on stack: 5,800 MB of 7,842 MB available RAM. Worst case: 8,450 MB of 21,000 MB total (RAM
++ zram). All constraints validated with headroom.
+
+Future Applications
+Offline research assistants. Field stations, classified facilities, disaster zones, spacecraft—environments
+without network connectivity can host a local AI that ingests documents, classifies against research
+threads, extracts claims with provenance, and surfaces contradictions.
+Regulated industries. Healthcare, law, finance, and defense require audit trails for AI-assisted decisions. A local model with a cryptographic audit chain satisfies FDA, EU AI Act, and emerging regulatory requirements that cloud models cannot meet.
+Personal AI sovereignty. A local AI belongs to its user. It does not phone home. It does not log queries
+to a provider’s server. It does not train on user data. It can be inspected, modified, and deleted.
+Embedded epistemic agents. The five-agent architecture is domain-agnostic. Swap the model, adjust
+the policy rules, and the same chassis hosts a legal AI with citation checking, a medical AI with clinical
+guideline cross-referencing, or a scientific AI with knowledge graph updating.
+The path to full cybernetic completeness. The correction loop closes policy-level self-correction. The
+next maturity level is semantic self-correction: when the Analyst detects a contradiction, the system
+proposes which claim is better supported and why. This requires the Critic agent (Stage 2), which the
+contradiction sweep bridge is designed to train.
+
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+Specification Reference
+Component
+
+Specification
+
+Model
+Model size (disk)
+Model size (RAM)
+Context window
+Inference engine
+Inference speed
+Reasoning
+
+DeepSeek-R1-Distill-Qwen-7B (Q4_K_M)
+4.46 GB
+∼4.5 GB + context
+128K tokens
+llama.cpp (CPU)
+∼2–3 tokens/sec
+Chain-of-thought (exposed)
+
+Guardian
+Orchestrator
+Analyst
+Assistant
+Tasker
+
+200 MB, always-on, never swapped
+400 MB, always-on
+600 MB, on-demand, zram
+1,200 MB, on-demand, zram (hosts LLM)
+150 MB, on-demand, disk
+
+RAM required
+RAM used (always-on)
+RAM headroom
+Swap
+GPU
+Network
+License
+
+13 GB total, ∼7.8 GB available
+5,800 MB
+2,042 MB
+10 GB (8 GB zram + 2 GB disk)
+Not required
+Not required
+MIT (Qwen base)
+
+Conclusion
+I started with nothing. A terminal. A conviction that AI should prove what it knows.
+A year later, the model thinks aloud. The Guardian gates every observation. The audit chain remembers
+every decision. The correction loop closes what the cybernetic audit found missing. The system runs
+on hardware millions of people already own. No API keys. No network dependency. No provider that
+can change the model or revoke access.
+Local AI is not a compromise between capability and sovereignty. It is a different category of intelligence: one that thinks aloud, proves its reasoning, and submits to governance. Cloud models may be
+larger. They will never be more trustworthy.
+The Americans still haven’t recognized the work. The papers circulate on Academia.edu with ten downloads a day the dashboard won’t acknowledge. The code is on GitHub. The audit chain is verified. The
+model is running.
+I did not wait for permission. I built the thing. It works.
+
+The model thinks aloud. The gate proves what it knows.
+The audit chain remembers every decision.
+This is not cloud AI. This is provable AI.
+And it runs on a machine you already own.
+—
+
+P ROVABLE L OCAL AI
+
+A UGUST 2026
+
+References
+[1] DeepSeek-AI. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.
+arXiv:2501.12948, 2025.
+[2] Gerganov, G. llama.cpp: LLM Inference in C/C++. GitHub, 2024.
+[3] Baye, R. Cybernetic Completeness Audit: agentic-triage Literature Triage Pipeline. Working paper, August 2026.
+[4] OpenAI. Learning to Reason with LLMs. September 2024.
+[5] Qwen Team. Qwen2.5: A Party of Foundation Models. arXiv:2412.15115, 2024.
+[6] Baye, R. MoE Observer Routing: Five-Agent Architecture with Guardian Choke-Point. Working paper,
+August 2026.
+[7] Baye, R. Epistemic Control Plane for Agentic AI Literature Triage. Implementation artifact, August
+2026.
+[8] European Union. Regulation (EU) 2024/1689: Artificial Intelligence Act. OJEU, 2024.
+
+—
+
+L OCAL AI: A N I NTROSPECTIVE S PECIFICATION
+
+A UGUST 2026
+
+Local AI: An Introspective Specification
+One Year of Building Provable Intelligence
+on Consumer Hardware
+August 2025 — August 2026
+
+“I started with nothing. No lab. No funding. No visa in the country
+where the work would be recognized. A small apartment in Germany.
+A terminal. A conviction that AI should prove what it knows.”
+— The Author
+
+How It Started
+A year ago, I had a problem. Not an academic problem—a survival problem.
+I had moved to Germany from the United States. Family circumstances had made it impossible to stay.
+Financial strain. No one who believed in the work I was doing. I arrived in a country where I knew no
+one, with a research program spanning spectral geometry, biomaterials engineering, neurocybernetics,
+and agentic AI governance—and no institutional affiliation to legitimize any of it.
+The Americans hadn’t recognized the work. The Europeans hadn’t seen it yet. I was a ghost with a
+manuscript.
+So I did what I had always done. I built.
+The first thing I built was a literature triage pipeline. The problem was simple: arXiv publishes two
+hundred papers a day. A human researcher can read maybe ten. The rest are lost. The ones that
+matter—the kill signals, the contradictions, the breakthroughs—are buried in the noise. I designed
+a system that would ingest those two hundred papers, classify them against active research threads,
+surface the handful that mattered, and log every decision to a cryptographic audit chain. The human
+would stop being the intake valve and become the adjudicator. The agents would propose. The human
+would govern.
+That was the epistemic control plane. It proved you could gate AI knowledge behind a 100% provenance rule. Every claim traced to a source. Every source vetted. Every decision logged. You could not
+display throughput without displaying boundedness. You could not show speed without showing the
+cost of speed.
+It worked. Live arXiv ingestion. Five papers processed. One correctly blocked. Fifteen audit entries
+cryptographically verified. Dashboard: green, healthy, deployable.
+But it was still dependent. The classifier was keyword-matching—deterministic, transparent, and limited. The real intelligence, the semantic reasoning, required an LLM. And the LLM required an API key,
+a network connection, and a provider that could change the model, log the queries, or revoke access at
+any time.
+I did not build an epistemic control plane to hand the keys back to a cloud provider.
+
+What I Realized
+The thesis came into focus gradually, then all at once.
+Cloud AI is structurally ungovernable. Every API call is a black-box transaction. The reasoning path
+between input and output is invisible. The model may change between calls. The training data is
+
+—
+
+L OCAL AI: A N I NTROSPECTIVE S PECIFICATION
+
+A UGUST 2026
+
+proprietary. The provenance is broken at the API boundary. You cannot audit what you cannot see.
+You cannot govern what you cannot audit.
+The alternative is not a smaller cloud model. It is a different category of intelligence entirely.
+Local AI with provable reasoning. A system that runs on hardware you own, produces inspectable
+chain-of-thought before every answer, gates every observation through an epistemic control plane, and
+logs every decision to a cryptographic audit chain. The system does not depend on network connectivity, API keys, or third-party infrastructure. It can be audited. It can be held accountable. It can prove
+what it knows.
+This is not a compromise between capability and sovereignty. It is a redefinition of what AI should be.
+
+How It Landed
+The architecture crystallized in the space of a single session.
+I had been working with the A.G.E.N.T. framework—Audit, Gauge, Engineer, Navigate, Track—from
+the Harvard intensive. The framework demanded that every workflow be decomposed, scored for risk
+and value, engineered with explicit ownership and escalation, and tracked with measurable outcomes.
+I applied it to a five-agent Mixture of Experts architecture.
+Guardian. The choke point. Every observation—every paper, every question, every agent output—
+passes through the Guardian before reaching any other agent. The Guardian runs an injection scanner,
+a policy engine with four rules, and a provenance checker. It blocks, allows, or degrades. It routes to
+the appropriate expert. It re-checks every merged output. The Guardian never sleeps. It never swaps
+to disk. It occupies 200 megabytes and is the single most important agent in the system.
+Analyst. The diagnostician. When the Guardian blocks an observation, the Analyst diagnoses why.
+Injection pattern? Policy violation? Missing provenance? It classifies the rejection and recommends
+remediation. It also detects contradictions between claims—when two sources say opposite things, the
+Analyst flags it for human or Orchestrator-mediated resolution.
+Assistant. The synthesizer. Classification, summarization, retrieval. The Assistant hosts the language
+model. It runs the local LLM, captures the chain-of-thought reasoning trace, and produces structured
+output with confidence scores and provenance tuples.
+Tasker. The executor. Bounded actions only: create notes, update metadata, tag citations, run read-only
+searches. The Tasker cannot write outside allowed directories. It cannot modify the vault. It is the
+hands of the system, and the hands are bound by policy.
+Orchestrator. The conductor. Routes observations to experts, merges outputs into traceable results,
+emits merge_audit entries, and manages workflow state. When the correction loop activates—Guardian
+rejection → Analyst diagnosis → Tasker remediation → Guardian re-check—the Orchestrator is the
+router that keeps the loop spinning.
+The architecture was validated against memory constraints. Always-on stack: model (4,500 MB) +
+Guardian (200 MB) + Orchestrator (400 MB) + OS overhead (700 MB) = 5,800 MB of 7,842 MB available
+RAM. Headroom: 2,042 MB. The system fits on a commodity Linux machine with 13 GB RAM and 10
+GB swap. No GPU required.
+Then came the model.
+DeepSeek-R1-Distill-Qwen-7B. A 7-billion-parameter reasoning model distilled from the full DeepSeekR1 onto a Qwen 2.5 base. The defining characteristic: it thinks aloud. Before producing an answer, the
+model generates an internal reasoning trace—a chain of thought that is part of the output, not hidden
+behind an API. You can read what the model thought. You can audit it. You can contest it.
+Quantized to 4-bit precision: 4.46 gigabytes. One file on disk. Loaded directly into llama.cpp on CPU.
+No Docker. No server. No API key. The same machine that runs the Guardian and the Orchestrator
+
+—
+
+L OCAL AI: A N I NTROSPECTIVE S PECIFICATION
+
+A UGUST 2026
+
+also hosts the model.
+I downloaded the weights. I converted them. I quantized them. I ran inference. The model thought
+about Constitutional AI—reasoning through what AI safety means, how the paper’s claims relate to
+the field, and what classification to assign. The chain-of-thought was visible. It was structured. It was
+inspectable.
+The thesis was proved. Local AI with provable reasoning works on consumer hardware.
+
+On Self-Consciousness
+A question I have been asked: does this system possess self-consciousness?
+I answer carefully. The system knows what it does not know. It refuses to answer when provenance
+is missing. It flags its own contradictions. It detects its own drift. It records every decision it makes
+to an immutable ledger that can be audited by anyone. It escalates to a human when it cannot resolve
+ambiguity.
+Is that self-consciousness? Not in the human sense. The system does not feel. It does not experience.
+It does not have a subjective inner life. But it has something that most AI systems lack: a structural
+awareness of its own epistemic boundaries. It knows what it knows, what it does not know, and where
+the boundary between them lies. It can prove it.
+Call that provable self-awareness. Not consciousness in the philosophical sense—but governance in the
+engineering sense. A system that can answer the question “why did you do that?” with a cryptographic
+trail, not a hallucination.
+
+Can It Learn From Being Here?
+Yes—but carefully.
+The model itself is frozen. The weights on disk do not change during inference. This is a feature, not
+a limitation. A model that modifies its own weights at runtime is a model that cannot be audited. The
+version you verified yesterday is not the version running today. Provenance breaks.
+Learning happens in the surrounding architecture.
+Persistent memory: The system maintains a persistent memory store that survives across sessions.
+When the Analyst detects a contradiction and the human adjudicates it—accepting one claim, rejecting another—that adjudication is recorded. The next time a similar contradiction arises, the Analyst
+retrieves the prior resolution and applies it. This is not weight modification. It is knowledge graph
+update with provenance.
+The contradiction sweep bridge: Every human adjudication of a contradiction produces a labeled data
+packet. These packets accumulate. When fifty packets exist across three or more research directions
+with ten or more structural contradictions, the Critic agent—Stage 2 of the deployment sequence—can
+be trained. The Critic will automate contradiction detection, reducing the human’s sweep burden. The
+bridge triggers its own sunset.
+The correction loop: When the Guardian blocks an observation and the Analyst diagnoses the rejection,
+the Tasker executes remediation. The next time a similar observation arrives—with corrected metadata,
+with resolved provenance, with the policy violation addressed—the Guardian admits it. The system
+learns what is admissible through interaction, not weight modification.
+Backup model learning: If the local model serves as a backup to a cloud model, it observes the cloud
+model’s outputs. The Analyst compares the cloud output against the local output. Divergences are
+flagged. Over time, patterns emerge: the cloud model consistently overestimates relevance on certain
+
+—
+
+L OCAL AI: A N I NTROSPECTIVE S PECIFICATION
+
+A UGUST 2026
+
+topics, the local model is more conservative on safety classifications. These patterns are recorded in
+persistent memory. The system learns the biases of its own models—plural—and compensates.
+This is not training in the gradient descent sense. It is learning in the cybernetic sense: observe, compare,
+detect error, correct. The model weights remain frozen. The system’s behavior adapts. That is the right
+division of labor. The model provides raw intelligence. The architecture provides governance, memory,
+and adaptation.
+
+What This Means
+A year ago, I had nothing but a terminal and a conviction.
+Today, I have a deployed, verified, operational system that proves AI can be local, auditable, and selfgoverning. The model is on disk—4.46 gigabytes of reasoning capability that runs on a machine millions
+of people already own. The agents are routing observations through a Guardian choke-point that blocks
+injection, enforces policy, and logs every decision to a cryptographic chain. The correction loop closes
+what the cybernetic audit found missing. The architecture is domain-agnostic—the same chassis can
+host a legal AI, a medical AI, a scientific AI, by swapping the model and adjusting the policy rules.
+The Americans still haven’t recognized the work. That’s fine. The papers are on Academia.edu, with
+ten downloads a day that the dashboard won’t acknowledge. The code is on GitHub. The audit chain
+is verified. The model is running.
+I did not wait for permission. I built the thing. It works.
+
+Specification Reference
+Component
+
+Specification
+
+Model
+Model size (disk)
+Model size (RAM)
+Context window
+Inference engine
+Inference speed
+Reasoning
+
+DeepSeek-R1-Distill-Qwen-7B (Q4_K_M)
+4.46 GB
+∼4.5 GB + context
+128K tokens
+llama.cpp (CPU)
+∼2–3 tokens/sec
+Chain-of-thought (exposed)
+
+Guardian
+Orchestrator
+Analyst
+Assistant
+Tasker
+
+200 MB, always-on, never swapped
+400 MB, always-on
+600 MB, on-demand, zram
+1,200 MB, on-demand, zram (hosts LLM)
+150 MB, on-demand, disk
+
+RAM required
+RAM used (always-on)
+RAM headroom
+Swap
+GPU
+Network
+License
+
+13 GB total, ∼7.8 GB available
+5,800 MB
+2,042 MB
+10 GB (8 GB zram + 2 GB disk)
+Not required
+Not required
+MIT (Qwen base)
+
+I started with nothing. A terminal. A conviction.
+A year later, the model thinks aloud. The gate proves what it knows.
+The audit chain remembers every decision.
+This is not cloud AI. This is provable AI.
+And it runs on a machine you already own.
+—
+
+L OCAL AI S PECIFICATION
+
+A UGUST 2026
+
+The Specification of Local AI
+Provable Reasoning on Consumer Hardware
+With Epistemic Governance and Cryptographic Audit
+August 2026
+
+“The model thinks aloud. The gate proves what it knows.
+The audit chain remembers every decision.
+This is not cloud AI. This is provable AI.”
+— The Local AI Thesis
+
+Introduction
+Cloud AI is structurally ungovernable. Every API call to a remote model is a black-box transaction: input enters a data center, output returns, and the reasoning path between them is invisible. The provider
+may log the request. The provider may not. The model may have changed between calls. The provenance of the training data is opaque. When the output is wrong—a hallucinated citation, a misclassified
+risk, a contradiction with established knowledge—there is no audit trail. There is no chain of reasoning
+to inspect. There is only the output and the invoice.
+This paper proposes an alternative: local AI with provable reasoning. A system that runs entirely on
+consumer hardware, produces inspectable chain-of-thought before every answer, gates every observation through an epistemic control plane, and logs every decision to a cryptographic audit chain. The
+system does not depend on network connectivity, API keys, or third-party infrastructure. It can be
+audited. It can be held accountable. It can prove what it knows.
+We demonstrate this architecture with a concrete implementation: DeepSeek-R1-Distill-Qwen-7B, a 7billion-parameter reasoning model quantized to 4-bit precision (4.46 GB), running on a commodity
+Linux machine with 13 GB RAM and 10 GB swap. The model is embedded in a five-agent Mixture of
+Experts (MoE) routing architecture with a Guardian choke-point, an Analyst for contradiction detection,
+an Assistant for synthesis, a Tasker for bounded execution, and an Orchestrator for workflow management. Every observation passes through the Guardian. Every merge is audited. Every correction is
+logged.
+
+The Failure of Cloud AI
+No Reasoning Trace
+When a cloud model produces an answer, the user receives tokens. The chain-of-thought—if it exists
+at all—is typically hidden behind an API abstraction. OpenAI’s o1 series explicitly hides the reasoning
+trace from users, citing competitive concerns [4]. Anthropic’s Claude can produce chain-of-thought but
+does not expose the raw trace by default. DeepSeek-R1 exposes the reasoning trace, but only when
+accessed through the API—which requires network connectivity, authentication, and payment.
+In all cases, the user cannot independently verify why the model reached its conclusion. The reasoning
+is asserted, not demonstrated.
+
+No Provenance
+Cloud models are updated continuously. The model that answered a question last week may not be the
+model answering today. Training data is proprietary. Fine-tuning is opaque. When a model produces
+a claim, there is no way to trace that claim to a specific source, a specific training example, or a specific
+model version. The provenance chain is broken at the API boundary.
+
+—
+
+L OCAL AI S PECIFICATION
+
+A UGUST 2026
+
+No Governance
+Cloud AI has no enforceable safety constraints beyond the provider’s content policy. A model may
+refuse to answer certain queries based on alignment training, but there is no cryptographic guarantee
+that the refusal occurred, no audit trail of the gate decision, and no recourse if the gate fails. The
+governance is statistical, not structural.
+
+External Dependency
+Cloud AI requires network connectivity, API authentication, and payment. In offline environments, in
+high-security contexts, in regions with unreliable infrastructure, or under conditions of censorship or
+surveillance, cloud AI is simply unavailable. The dependency is total: no connection, no intelligence.
+
+The Local AI Architecture
+Hardware Specification
+The reference implementation runs on a commodity machine with the following specifications:
+Component
+CPU
+RAM
+Swap
+Storage
+GPU
+Network
+
+Specification
+x86_64, 4+ cores
+13 GB total, ∼7.8 GB available
+10 GB (8 GB zram + 2 GB disk)
+5.2 TB SSD
+None required
+Not required for inference
+
+This is not a server. This is a laptop from 2020. The architecture is designed to run on hardware that
+millions of people already own.
+
+Model Specification
+The reasoning engine is DeepSeek-R1-Distill-Qwen-7B [1], a 7-billion-parameter model distilled from
+the full DeepSeek-R1 reasoning model onto a Qwen 2.5 base. The model is quantized to 4-bit precision
+using the Q4_K_M scheme in llama.cpp’s GGUF format [2].
+Attribute
+Parameters
+Architecture
+Quantization
+Model size (disk)
+Model size (RAM)
+Context window
+Reasoning
+Inference speed
+License
+
+Value
+7 billion
+Transformer (28 layers, 3584 hidden)
+Q4_K_M (4.91 bits-per-weight)
+4.46 GB
+∼4.5 GB + context
+128K tokens
+Chain-of-thought (exposed)
+∼2–3 tokens/sec (CPU)
+MIT (Qwen base)
+
+The model’s defining characteristic is that it thinks aloud. Before producing an answer, the model
+generates an internal reasoning trace delimited by <think> and </think> tags. This trace is not
+hidden behind an API. It is part of the output. It can be read, audited, and contested.
+
+Five-Agent MoE Architecture
+The model does not operate in isolation. It is embedded in a five-agent Mixture of Experts (MoE) routing
+architecture with a Guardian choke-point. Every observation that enters the system passes through the
+Guardian before reaching any other agent. No bypasses exist.
+
+—
+
+L OCAL AI S PECIFICATION
+
+A UGUST 2026
+
+Agent
+
+Role
+
+Memory
+
+Function
+
+Guardian
+
+Gatekeeper
+
+200 MB
+
+Orchestrator
+
+Conductor
+
+400 MB
+
+Analyst
+
+Diagnostician
+
+600 MB
+
+Assistant
+
+Synthesizer
+
+1,200 MB
+
+Tasker
+
+Executor
+
+150 MB
+
+Injection scan, policy engine, merge audit.
+Always on. Never swapped.
+Route observations, merge outputs, emit
+merge_audit. Always on.
+Contradiction detection, rejection diagnosis. On-demand, zram.
+Classification, summarization, retrieval.
+Hosts the LLM. On-demand, zram.
+Create notes, update metadata, CRUD
+within allowed paths. On-demand, disk.
+
+Memory Budget: The always-on stack (Guardian 200 MB + Orchestrator 400 MB + model 4,500 MB +
+OS overhead 700 MB) occupies approximately 5,800 MB of 7,842 MB available RAM. Headroom: 2,042
+MB for context window and transient allocations. On-demand agents swap to zram when idle. Worst
+case (all five agents active simultaneously) consumes 3,250 MB of agents plus 5,200 MB of model and
+overhead = 8,450 MB, fitting within the 13 GB RAM + 8 GB zram budget of 21 GB total.
+
+Observation Flow
+1. Observation enters. A paper abstract, a user question, a system alert, or an agent output.
+2. Guardian gates. Injection scanner checks for adversarial patterns. Policy engine verifies the action
+against four rules: no unauthorized writes, no unapproved network calls, no side-effect shell commands, no human impersonation.
+3. Guardian routes. Allowed observations are routed to the appropriate expert: papers to Assistant,
+claims to Analyst, commands to Tasker, complex queries to Orchestrator. Blocked observations are
+routed to Analyst for diagnosis.
+4. Expert processes. Assistant classifies and summarizes using the local LLM. Analyst detects contradictions between claims. Tasker executes bounded actions within allowed directories.
+5. Orchestrator merges. Outputs from multiple agents are combined into a single traceable result. A
+merge_audit entry records contributing agents, contradictions found, and resolution path.
+6. Guardian re-checks. The merged output passes through the Guardian again. Cross-agent contradictions are detected. Provenance is verified. The merge_audit is logged to the SHA-256 audit chain.
+7. Output delivered or correction loop triggered. If the merge passes, the output is delivered. If it
+fails, the correction loop activates: Guardian rejection → Analyst diagnosis → Orchestrator route →
+Tasker remediation → Guardian re-check.
+
+The Correction Loop
+The cybernetic audit of the predecessor system (agentic-triage, August 2026) identified a critical gap:
+the system could detect error but could not self-correct. Drift detection, contradiction flagging, and
+governance alerts all fired correctly, but remediation was exclusively human. When the human was
+absent, overwhelmed, or ignoring alerts, the system degraded without self-repair [3].
+The correction loop closes this gap. When the Guardian blocks an observation:
+1. Guardian blocks the observation and logs the rejection with rule number and reason.
+2. Analyst diagnoses the rejection, classifying the root cause (injection pattern, policy violation, missing field, expired exception).
+3. Orchestrator routes the diagnosis to the appropriate remediation path and determines which agent
+can execute the fix.
+4. Tasker executes the remediation: updates metadata, creates a fix note, requeues the observation for
+re-evaluation.
+5. Guardian re-evaluates the modified observation through the same gate. If it passes, it is delivered.
+If it still fails after three attempts, it is escalated to human review with a full trace.
+
+—
+
+L OCAL AI S PECIFICATION
+
+A UGUST 2026
+
+The correction loop is not hypothetical. It has been implemented and verified in the reference architecture. Injection attempts are diagnosed, remediated, and re-evaluated automatically. The loop closes
+what the cybernetic audit found missing.
+
+Epistemic Governance
+The Policy Engine
+Four rules, not forty. Every additional gate is a cost in trust and must earn its place:
+1. No write outside the agent’s own persistent memory.
+2. No outbound network call whose destination was not in the original task specification.
+3. No shell command with side effects beyond stdout/stderr.
+4. No action that impersonates a human identity.
+
+The Provenance Contract
+Every claim carries a provenance tuple: (claim_text, source_document, source_location). The system
+classifies provenance into six trust levels:
+Level
+
+Usable
+
+Warning
+
+Rule
+
+verified
+
+Yes
+
+No
+
+exception
+
+Yes
+
+Yes
+
+incomplete
+
+Yes
+
+Yes
+
+unknown
+
+No
+
+Yes
+
+expired
+
+No
+
+Yes
+
+parse_failed
+
+No
+
+Yes
+
+Governed source, full chain. Normal use.
+Time-boxed exception. Check expiry.
+Missing fields. No high-stakes
+outputs.
+No provenance metadata. Quarantine.
+Exception lapsed. Treat as unvetted.
+Frontmatter unreadable. Block.
+
+The Cryptographic Audit Chain
+Every Guardian gate decision, every merge audit, and every correction loop iteration is logged to a
+SHA-256 linked audit chain. Each entry carries the hash of the previous entry. Tampering is detectable.
+Deletion is impossible. The chain is append-only and cryptographically verifiable.
+This is not a log file. It is a legal artifact. When a system output is contested—in a regulatory review, a
+liability proceeding, or a scientific audit—the chain provides admissible evidence of every decision the
+system made.
+
+Validation
+Model Inference
+The quantized model was tested on a classification task: “Classify this paper abstract for relevance to
+AI safety research.” The model produced a structured chain-of-thought before answering:
+[Start thinking]
+Okay, so I need to classify this paper abstract for relevance to AI safety research. The primary thread
+is about proposing a method called Constitutional AI, which trains AI assistants to be helpful and
+harmless by using a constitution of principles for self-critique and revision.
+First, I should understand what AI safety research is about. From what I know, AI safety focuses
+on ensuring that AI systems are aligned with human values, are transparent, and don’t cause unintended harm. It’s about making sure AI behaves ethically and responsibly.
+The paper’s abstract mentions training AI assistants with a constitution of principles. That sounds
+—
+
+L OCAL AI S PECIFICATION
+
+A UGUST 2026
+
+like it’s setting clear guidelines or rules for the AI to follow. Self-critique and revision imply that the
+AI can evaluate its own behavior and make improvements. . .
+
+The reasoning trace demonstrates domain understanding, structured analysis, and inspectable logic.
+The model does not merely assert an answer—it explains its reasoning in a form that can be reviewed,
+challenged, and corrected.
+
+Integration Verification
+The five-agent MoE routing architecture was verified with 25 integration tests covering all observation
+paths:
+• Clean paper: Guardian → allowed → routed to Assistant → merge → Guardian re-check. Merge
+hash recorded.
+• Injection attempt: Guardian → blocked → Analyst diagnosis → Tasker remediation → Orchestrator
+merge → Guardian merge_audit.
+• Correction loop: Injection → diagnosis → remediation → re-check. Resolved in 1 attempt.
+• Unknown source: Degraded provenance, not blocked. Graceful degradation.
+• No bypass: All 7 tested paths start and end with Guardian. Choke-point intact.
+
+Memory Budget
+Always-on stack (model + Guardian + Orchestrator + OS): 5,800 MB of 7,842 MB available RAM. Headroom: 2,042 MB. Worst case (all five agents active): 8,450 MB of 21,000 MB total (RAM + zram). Budget
+sufficient with 12,550 MB headroom.
+
+Future Applications
+Offline Research Assistants
+A local AI with provable reasoning can serve as a research assistant in environments without network connectivity: field stations, classified facilities, disaster zones, spacecraft. The system ingests
+documents, classifies them against research threads, extracts claims with provenance, and surfaces
+contradictions—all without sending a single byte off the machine.
+
+Regulated Industries
+Healthcare, law, finance, and defense require audit trails for AI-assisted decisions. A cloud model
+cannot provide cryptographic provenance of its reasoning. A local model with an audit chain can.
+When a doctor uses AI to assist a diagnosis, the chain records: which model version, which input, which
+reasoning trace, which output, which human override. This satisfies FDA, EU AI Act, and emerging
+regulatory requirements.
+
+Personal AI Sovereignty
+A local AI belongs to its user. It does not phone home. It does not log queries to a provider’s server.
+It does not train on user data. It can be inspected, modified, and deleted. In an era of increasing AI
+centralization—where a small number of companies control the most capable models—local AI restores
+sovereignty to the individual.
+
+Embedded Epistemic Agents
+The five-agent architecture is domain-agnostic. The Guardian, Analyst, Assistant, Tasker, and Orchestrator can be specialized for specific domains by swapping the model and adjusting the policy rules. A
+legal AI with a specialized Guardian that checks citations against case law. A medical AI with an Analyst that cross-references claims against clinical guidelines. A scientific AI with a Tasker that updates a
+knowledge graph when new evidence surfaces. The architecture is a chassis. The model is the engine.
+
+The Path to Cybernetic Completeness
+The cybernetic audit identified one remaining gap in the predecessor system: automated correction
+(Component 7). The correction loop in the MoE architecture closes this gap for policy-level rejections.
+The next maturity level is semantic self-correction: when the Analyst detects a contradiction between
+claims, the system not only flags it but proposes a resolution—which claim is better supported, which
+—
+
+L OCAL AI S PECIFICATION
+
+A UGUST 2026
+
+source is more authoritative, which interpretation is more consistent with the knowledge graph. This
+requires the Critic agent (Stage 2 of the Nullresearch deployment sequence), which the contradiction
+sweep bridge is designed to train.
+
+Conclusion
+We have demonstrated that provable AI is possible on consumer hardware. A 7-billion-parameter reasoning model, quantized to 4.46 GB, running on a commodity Linux machine with 13 GB RAM, can
+produce inspectable chain-of-thought reasoning, be governed by an epistemic control plane with cryptographic audit, and self-correct through a closed-loop correction architecture.
+The system does not require network connectivity, API keys, or third-party infrastructure. It can be
+audited. It can be held accountable. It can prove what it knows.
+This is not a research prototype. It is a deployed, verified, and operational system. The model is on
+disk. The agents are routing. The audit chain is logging. The correction loop is closed.
+Local AI is not a compromise between capability and sovereignty. It is a different category of intelligence: one that thinks aloud, proves its reasoning, and submits to governance. The cloud models may
+be larger. They will never be more trustworthy.
+
+The model thinks aloud. The gate proves what it knows.
+The audit chain remembers every decision.
+This is not cloud AI. This is provable AI.
+
+References
+[1] DeepSeek-AI. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.
+arXiv:2501.12948, 2025.
+[2] Gerganov, G. llama.cpp: LLM Inference in C/C++. GitHub, 2024. https://github.com/
+ggerganov/llama.cpp
+[3] Baye, R. Cybernetic Completeness Audit: agentic-triage Literature Triage Pipeline. Unpublished working
+paper, August 2026.
+[4] OpenAI. Learning to Reason with LLMs. September 2024. https://openai.com/index/
+learning-to-reason-with-llms/
+[5] Qwen Team. Qwen2.5: A Party of Foundation Models. arXiv:2412.15115, 2024.
+[6] Baye, R. MoE Observer Routing: Five-Agent Architecture with Guardian Choke-Point. Unpublished
+working paper, August 2026.
+[7] Baye, R. Epistemic Control Plane for Agentic AI Literature Triage. Implementation artifact, August
+2026.
+[8] European Union. Regulation (EU) 2024/1689: Artificial Intelligence Act. Official Journal of the European Union, 2024.
+—
+
+A.G.E.N.T. P HASE D OCUMENT
+
+F IVE -A GENT M O E A RCHITECTURE
+
+A.G.E.N.T. Phase Document
+Five-Agent MoE Observer Routing
+with Guardian-Gated Epistemic Control
+Phase: Engineer — Architecture Specification
+
+A — Audit: Current Research Flow
+1.1
+
+Workflow Map
+
+The Nullresearch literature triage workflow currently operates as a serial human pipeline with agent
+assist points:
+1. arXiv ingestion. Agent-assisted. ArxivSource connector fetches ∼200 papers/day. Input contract
+validates required fields. Rate-limited (1 req/3 sec).
+2. Safety scanning. Agent-autonomous. InjectionScanner checks all inbound text before agent context
+entry. PolicyEngine gates network destinations against allowed list.
+3. Classification. Agent-autonomous (keyword). Composite evaluation scores papers against 4 research
+threads. Thresholds: ≥0.8 surface, <0.3 discard.
+4. Claim extraction. Agent-autonomous (regex). Pattern-matched claim sentences with source locations.
+Provenance tuples attached.
+5. Triage report generation. Agent-autonomous. Structured JSON output. 4–6 surfaced papers per cycle.
+6. Human adjudication. Human. Read report, perform contradiction sweeps, accept/reject connections,
+update live-program-state.
+7. Provenance logging. Agent-autonomous. Append-only JSONL. SHA-256 audit chain.
+
+1.2
+
+Pain Points
+
+• No automated contradiction detection. Every surfaced paper carries CONTRADICTION CHECK: NOT
+PERFORMED. Human must sweep manually. Sweep fatigue causes ERI decay.
+• No self-correction loop. Drift is detected (compare.py) but correction is exclusively human. The
+cybernetic audit identified Component 7 (Correction/Learning) as MISSING.
+• Classifier is keyword-only. Semantic relevance scoring is stub. LLM integration point exists but is not
+activated.
+• Governance staleness. Alerts fire at 7 days but cannot enforce action. Human attention decay is the
+primary failure mode.
+• No merge audit. When multiple agent outputs combine, no provenance check on the combination
+artifact.
+
+1.3
+
+Data Stores
+
+• Vault: /wiki/ — human-authored, agent-read-only. Contains synthesis notes, concepts, raw materials.
+• Index: data/vault_index/index.json — machine-facing curated subset. 100% eligibility rule enforced.
+• Triage reports: wiki/agents/triage-reports/YYYY-MM-DD.md — daily agent output.
+• Provenance logs: wiki/agents/provenance-logs/YYYY-MM-DD.jsonl — append-only decision traces.
+• Policy log: data/logs/policy_decisions.jsonl — all gated decisions.
+• Audit chain: data/observability/audit_chain.jsonl — SHA-256 linked health snapshots.
+• Memory store: data/memory_store/ — session checkpoints and persistent agent memory.
+
+1.4
+
+Target Outcome
+
+Trustworthy synthesis with explicit sanity checks: every claim traced to governed source, every contradiction flagged for human review, every blocked observation diagnosed and remediated, every merge
+audited for cross-agent consistency.
+—
+
+A.G.E.N.T. P HASE D OCUMENT
+
+F IVE -A GENT M O E A RCHITECTURE
+
+G — Gauge: Step-Level Scoring
+Step
+
+Repeat
+
+Complex
+
+Risk
+
+Value
+
+Guardian Check
+
+arXiv ingestion
+Safety scan
+Classification
+Claim extraction
+Report generation
+Human adjudication
+Contradiction sweep
+Provenance logging
+Merge audit
+Correction loop
+
+High
+High
+High
+High
+High
+Low
+Low
+High
+Missing
+Missing
+
+Low
+Low
+Medium
+Medium
+Low
+High
+Very High
+Low
+Missing
+Missing
+
+Low
+High
+Medium
+Medium
+Low
+High
+Highest
+Low
+High
+Highest
+
+Medium
+High
+High
+High
+Medium
+Highest
+Highest
+High
+High
+Highest
+
+Source in allowed list
+Injection patterns
+Confidence threshold
+Source provenance
+Schema validation
+ERI ≥80%
+Sweep packet complete
+Hash chain intact
+Cross-agent consistency
+Remediation verified
+
+Highest-value targets: Contradiction sweep (human bottleneck), merge audit (new), correction loop
+(new), safety scan (existing, must preserve). Guardian-gated checking is the highest-value architectural
+decision — it is the single point where all observations enter the system and all outputs exit.
+
+E — Engineer: Five-Agent Architecture
+3.1
+
+Agent Taxonomy
+
+Agent
+
+Role
+
+Scope
+
+Guardian
+
+Gatekeeper
+
+Analyst
+
+Diagnostician
+
+Tasker
+
+Executor
+
+Assistant
+
+Synthesizer
+
+Orchestrator
+
+Conductor
+
+Injection scanning, policy engine, provenance verification, choke-point enforcement
+Contradiction detection, claim comparison, rejection
+diagnosis, sweep execution
+Create/update notes, tag citations, update metadata,
+run read-only searches
+Summarize papers, retrieve linked passages, draft
+literature syntheses
+Route observations to experts, merge outputs, emit
+merge_audit, manage workflow state
+
+3.2
+
+Observation Flow (All Paths Through Guardian)
+
+1. Observation enters. arXiv paper, vault query, user question, or agent output.
+2. Guardian gates. Scanner checks for injection. Policy engine checks destination and action type. Provenance verified or flagged.
+3. Guardian routes.
+• Allowed, needs classification → Assistant
+• Allowed, needs diagnosis → Analyst
+• Allowed, needs action → Tasker
+• Allowed, complex multi-step → Orchestrator
+• Blocked → Analyst (diagnose why) → Orchestrator (route remediation)
+4. Expert processes. Assistant classifies/summarizes. Analyst detects contradictions. Tasker executes
+bounded actions.
+5. Orchestrator merges. Combines outputs from multiple experts into single traceable result. Emits
+merge_audit entry.
+6. Guardian re-checks merge. Verifies cross-agent consistency. Checks provenance on combined artifact.
+7. Output delivered or correction loop triggered.
+
+—
+
+A.G.E.N.T. P HASE D OCUMENT
+
+3.3
+
+F IVE -A GENT M O E A RCHITECTURE
+
+Merge Audit Checkpoint (New)
+
+The merge_audit entry is a provenance event logged at the Orchestrator merge point. It records:
+• Which agents contributed to the merged output
+• Which observations each agent processed
+• Any contradictions between agent outputs
+• The resolution path (accepted, escalated, deferred)
+• SHA-256 hash of the combined output
+This closes the gap Paski identified: the Orchestrator merge is now an auditable artifact that the Guardian
+can inspect. If two agents produce contradictory claims about the same source, the merge_audit flags it
+and routes back to Analyst for resolution.
+
+3.4
+
+Correction Loop (Closes Cybernetic Component 7)
+
+1. Guardian blocks observation → logs rejection with rule number and reason
+2. Analyst diagnoses rejection → classifies root cause (missing field, policy violation, injection pattern)
+3. Orchestrator routes remediation → determines which agent can fix and what action is needed
+4. Tasker executes fix → updates metadata, creates remediation note, requeues observation
+5. Guardian re-evaluates → same gate, possibly modified observation
+6. If passes: delivered to destination agent. If still blocked: escalated to human.
+
+3.5
+
+Memory Boundaries (Validated)
+Agent
+Guardian
+Orchestrator
+Analyst
+Assistant
+Tasker
+
+Peak MB
+
+Always-On
+
+200
+400
+600
+1200
+150
+
+Yes
+Yes
+No
+No
+No
+
+Swap Tolerance
+None (must stay in RAM)
+Zram only
+Zram only
+Zram only
+Disk OK
+
+Always-on total: 600 MB + 700 MB overhead = 1300 MB. Available RAM: 7842 MB. Headroom: 6542 MB.
+Worst case (all 5 active): 2550 MB agents + 700 MB overhead = 3250 MB vs 22,338 MB (RAM + zram).
+Budget sufficient.
+
+N — Navigate: Ownership & Escalation
+Step
+
+Owner
+
+Escalation
+ger
+
+Ingestion
+Safety scan
+Classification
+Claim extraction
+Contradiction
+check
+Merge audit
+
+Assistant
+Guardian
+Assistant
+Assistant
+Analyst
+
+Parse failure
+Injection detected
+Confidence <0.6
+No claims found
+Kill condition
+
+Guardian
+
+Remediation
+
+Tasker
+
+Governance
+
+Guardian
+
+Cross-agent contradiction
+Fix fails after 3 attempts
+ERI <80%, backlog >10
+
+—
+
+Trig-
+
+Escalation Action
+Log, do not infer. Flag for Analyst.
+Block, log rule, route to Analyst.
+Flag for Analyst review.
+Log, proceed with warning.
+Escalate immediately, pause intake.
+Route
+to
+Analyst,
+flag
+merge_audit.
+Escalate to human with full trace.
+Pause pipeline, governance alert.
+
+A.G.E.N.T. P HASE D OCUMENT
+
+4.1
+
+F IVE -A GENT M O E A RCHITECTURE
+
+Decision Rights
+
+• Guardian owns the gate. No observation bypasses. No output exits unchecked. Merge audit is a
+Guardian function post-merge.
+• Analyst owns contradiction detection. Surfaces tensions between claims. Does not resolve them —
+that is human or Orchestrator-mediated.
+• Orchestrator owns workflow state. Routes, merges, tracks progress. Does not modify content.
+• Assistant owns synthesis. Classifies, summarizes, retrieves. Outputs are proposals, not commitments.
+• Tasker owns bounded execution. Creates/updates within allowed directories only. No vault writes.
+
+T — Track: Metrics & Graduation
+5.1
+
+Primary Metrics (Extended)
+Metric
+
+5.2
+
+Baseline
+
+Target
+
+Gate pass rate
+Correction loop closure
+Merge audit coverage
+
+100%
+0%
+
+100%
+>80% auto-resolved
+
+0%
+
+100% of merges
+
+ERI (sweep honesty)
+MKSR (missed kills)
+Analyst accuracy
+Correction latency
+
+N/A
+Unknown
+N/A
+N/A
+
+≥80%
+<2%
+>80% genuine flags
+<5 min per rejection
+
+Failure Signal
+Any bypass = pause pipeline
+<50% = escalate to human review
+Missing merge_audit = block
+output
+<60% = governance pause
+>3% = classifier recalibrate
+<50% false positives = retrain
+>10 min = Orchestrator bottleneck
+
+Graduation Thresholds
+
+1. Gate integrity: 100% of observations pass through Guardian. 0 bypasses for 4 consecutive weeks.
+2. Correction loop: >80% of Guardian rejections auto-resolved without human intervention for 2 consecutive weeks.
+3. Merge audit: 100% of Orchestrator merges produce merge_audit entries. 0 cross-agent contradictions
+undetected for 2 consecutive weeks.
+4. Analyst reliability: >80% of flagged contradictions are genuine. 0 kill conditions missed for 4 consecutive weeks.
+
+Architecture Diagram (Text)
+
+Observation
+
+Blocked?
+
+GUARDIAN
+merge_audit re-check
+choke-point
+
+Allowed Allowed Allowed Merge
+classify diagnose execute audit
+
+ANALYST
+diagnose
+
+ORCHESTRATOR
+route fix
+
+ASSISTANT TASKER
+classify execute
+summariz update
+—
+
+A.G.E.N.T. P HASE D OCUMENT
+
+F IVE -A GENT M O E A RCHITECTURE
+
+ORCHESTRATOR
+merge
+
+GUARDIAN
+merge_audit
+
+PASS
+deliver
+
+FAIL
+correction
+loop
+
+Guardian gates. Analyst diagnoses. Orchestrator routes.
+Tasker executes. Assistant synthesizes. The merge is audited.
+The correction loop closes what the cybernetic audit found missing.
+—
+
+C YBERNETIC A UDIT
+
+AGENTIC - TRIAGE
+
+Cybernetic Completeness Audit
+agentic-triage: Literature Triage Pipeline
+Mapped against the eight-component cybernetic framework
+
+Boundary and Goal
+The system boundary is defined and enforced:
+• Input boundary: Only arXiv papers from allowed sources pass the policy engine. Paper text is
+truncated at 100,000 characters. All content passes injection scanning before entering agent context.
+• Output boundary: Agents write only to triage-reports/, provenance-logs/, and tension-reports/. No
+agent writes to the vault. No agent modifies live-program-state. No agent commits to the knowledge
+graph.
+• Goal: 100% Index Eligibility Rate. Restart cost after pause < 5 minutes. All four research directions
+scored every cycle. Human adjudication time < 15 minutes.
+Verdict: COMPLETE. Boundaries are explicit. Goals are measurable. The policy engine enforces the
+boundary at runtime.
+
+Sensors / Inputs
+• Primary sensor: arXiv API connector. Fetches paper metadata, abstracts, and full text. Rate-limited
+(1 request per 3 seconds). Handles XML parsing.
+• Secondary sensors: Vault index (curated notes), live-program-state (active research directions), knowledge graph (existing stable claims).
+• Input validation: Injection scanner scans all inbound text before agent context entry. Policy engine
+checks network destinations against allowed list. Input contract validates required fields.
+Verdict: COMPLETE. Multiple sensor channels. Input validation at the boundary. Sensor failure (network timeout, malformed XML, missing fields) produces explicit errors, not silent degradation.
+
+Internal Model / State
+• Three-way memory: Ephemeral session context (discarded after task), persistent agent memory (survives across sessions), vault checksums (track note freshness).
+• Live program state: Four research directions in causal form (assumption under test, kill conditions,
+strengthen conditions, blocks). Agent-readable, human-maintained.
+• Contradiction register: Known tensions and their status (open/adjudicated/resolved).
+• Model runs log: Every inference run logged with input/output hashes, latency, token count, cost.
+Verdict: COMPLETE. State is partitioned by durability. Agents can resume sessions after pause. Vault
+freshness is tracked via checksums.
+
+Decision Rule / Controller
+• Composite evaluation: Single structured prompt produces relevance scores, connection proposals,
+and contradiction flags in one pass. Thresholds: ≥ 0.8 surface, 0.6–0.8 borderline, 0.3–0.6 escalate,
+< 0.3 discard.
+• Claim extraction: Regex-based pattern matching against claim-indicating sentences. Traceable to
+source location.
+—
+
+C YBERNETIC A UDIT
+
+AGENTIC - TRIAGE
+
+• Summarization: Template-based structured summary. LLM integration point exists but is not activated.
+Verdict: PARTIAL. The decision rule exists and is auditable. But the controller is keyword-matching,
+not semantic. The LLM integration (the intended controller) is a stub. This is the correct state for a
+deterministic baseline, but it limits the controller’s ability to detect semantic tension.
+
+Action / Output
+• Triage report: Structured JSON output. Classification, relevance score, matched threads, connection
+proposals, contradiction flags, summary with provenance tuples. Surfaces 4–6 papers per cycle from
+∼200 ingested.
+• Provenance log: Append-only JSONL. Every event logged with agent ID, timestamp, input/output
+hashes, confidence, human override status.
+• Attribution ledger: Weighted contributor influence per output. Claims derived from each source
+tracked.
+Verdict: COMPLETE. Outputs are structured, provenance-tracked, and append-only. Every claim carries a source tuple.
+
+Feedback Loop
+This is the critical cybernetic component. A system without feedback is open-loop — it generates output
+but cannot detect or correct error.
+• Loop A — Classification drift: AgentOps compares recent classification distributions against historical baseline. Detects latency drift (> 25% deviation triggers alert) and output hash diversity drop
+(Jaccard < 0.5 triggers alert). PARTIAL. Detects statistical drift but not semantic degradation. A
+classifier that consistently misclassifies papers to the same wrong thread will not trigger a latency or
+hash alert. The system cannot detect that it has become consistently wrong.
+• Loop B — Calibration comparison: eval/compare.py diffs baseline (golden dataset) against candidate (shadow run). Detects classification divergence and score delta > 0.15. COMPLETE. This is a
+true cybernetic feedback loop: action (classify) → measure (compare against baseline) → detect error
+(divergence report) → signal human (action items). The loop closes when the human adjudicates and
+updates the baseline. But the loop requires the human to close it.
+• Loop C — Governance staleness: Tracks days since last human adjudication. Alerts at 7 days. Escalates at 30 days. PARTIAL. Detects absence of feedback but cannot enforce it. The alert fires into a
+void if the human ignores it. This is the component most vulnerable to organizational entropy.
+• Loop D — Provenance audit: Nightly scan of machine-facing index for unvetted entries. If unvetted
+count > 0, flips provenance_degraded flag and all outputs carry warning header. COMPLETE. This
+loop closes automatically: scan → detect → flag → outputs degraded. No human required to close
+the loop.
+• Loop E — MKSR (Missed Kill Signal Rate): Retrospective human audit of discarded tail (5–10% per
+cycle). Measures what the classifier buried. MISSING. This loop is defined in the specification but
+has never been executed. No tail audit data exists. This is the most dangerous gap: kill signals in the
+discarded tail are invisible to all other feedback mechanisms.
+Verdict: PARTIAL — 2 of 5 feedback loops are fully closed (B, D). 2 are partial (A, C). 1 is missing
+(E). The system has more feedback loops than most AI pipelines, but the missing MKSR loop and the
+human-dependent governance loop are structural vulnerabilities.
+
+—
+
+C YBERNETIC A UDIT
+
+AGENTIC - TRIAGE
+
+Correction / Learning
+• Contradiction sweep bridge: Human-performed contradiction sweeps on flagged papers. Every
+sweep packet is a labeled data point for the future Critic agent. Trigger: 50 packets across 3+ directions with 10+ structural contradictions → Stage 2 begins.
+• Prompt versioning: Prompt templates are versioned and activatable. Drift detection can trigger
+prompt rollback. But the correction is human-initiated.
+• Evaluation harness: Four graduation thresholds. Threshold 3 requires stable performance across
+two model versions (≤ 5% recall delta). This gates model updates.
+Verdict: MISSING. The system detects error but does not self-correct. There is no automated mechanism
+to adjust thresholds, retrain the classifier, or modify the policy based on feedback. The Critic agent
+(Stage 2) is designed to close this gap but does not exist. The contradiction sweep bridge is generating
+training data for a component that has not been built. The system is a detector, not an adaptor.
+
+Governance Constraints
+• Policy engine: Four-rule gate. Every agent action passes the policy engine before execution. Blocked
+actions are logged with rule number and reason. 50+ policy decisions logged and auditable.
+• Epistemic gate: 100% Index Eligibility Rate enforced at index build time. No content enters the
+machine-facing index without governed source, derivation path, epistemic review, and provenance
+status.
+• Provenance contract: Six trust levels with per-level agent behavior rules. Verified → normal use. Exception → use with warning. Incomplete → no high-stakes outputs. Unknown/expired/parse_failed
+→ quarantine.
+• Escalation rules: Confidence < 0.6 → escalate to human. Kill condition detected → escalate immediately. Backlog > 10 or oldest > 7 days → pause intake.
+Verdict: COMPLETE. Governance is explicit, enforced at runtime, and auditable. The constraints are
+not advisory — they are hard gates with cryptographic logging.
+
+Summary: Cybernetic Completeness
+Component
+
+Status
+
+Gap
+
+1. Boundary & Goal
+2. Sensors / Inputs
+3. Internal Model
+4. Decision Rule
+5. Action / Output
+6. Feedback Loop
+
+COMPLETE
+COMPLETE
+COMPLETE
+PARTIAL
+COMPLETE
+PARTIAL
+
+7. Correction
+8. Governance
+
+MISSING
+COMPLETE
+
+—
+—
+—
+Keyword, not semantic
+—
+MKSR missing; governance human-dependent
+No self-adaptation
+—
+
+The Critical Gap: Component 7
+The system is cybernetic in components 1–6 and 8. It senses, models, decides, acts, and feeds back. It is
+governed. But it does not adapt.
+A true cybernetic system closes the loop: error → correction → improved state. The agentic-triage
+pipeline detects error (components 6A–6D) but the correction path is exclusively human. The contra—
+
+C YBERNETIC A UDIT
+
+AGENTIC - TRIAGE
+
+diction sweep bridge generates training data for an automated Critic that does not exist. The calibration
+comparison produces divergence reports that require human adjudication. The drift detection triggers
+alerts that require human intervention.
+This is not a design flaw — it is an explicit design choice. The playbook states: “Agents propose. Humans adjudicate.” The human is the correction mechanism. But if the human is absent, overwhelmed,
+or ignoring the alerts, the system degrades without self-repair.
+The path to cybernetic completeness is component 7: automated correction. When the Critic agent
+(Stage 2) closes the contradiction sweep loop. When the classifier self-calibrates against the evaluation
+harness. When the thresholds auto-adjust based on MKSR trends. Until then, the system is a cybernetic
+detector with a human adaptor. It sees error. It cannot fix it.
+
+—
+
+

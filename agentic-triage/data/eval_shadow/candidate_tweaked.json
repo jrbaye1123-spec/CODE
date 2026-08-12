@@ -1,0 +1,88 @@
+{
+  "top_n": [
+    {
+      "paper_id": "2608.05131v1",
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "classification": "multimodal_learning",
+      "relevance_score": 0.5,
+      "threads": [
+        {
+          "thread_id": "multimodal_learning"
+        },
+        {
+          "thread_id": "scalable_oversight"
+        },
+        {
+          "thread_id": "reasoning_planning"
+        },
+        {
+          "thread_id": "transformer_efficiency"
+        }
+      ],
+      "claims": []
+    },
+    {
+      "paper_id": "2608.05141v1",
+      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+      "classification": "scalable_oversight",
+      "relevance_score": 0.42857142857142855,
+      "threads": [
+        {
+          "thread_id": "scalable_oversight"
+        },
+        {
+          "thread_id": "reasoning_planning"
+        },
+        {
+          "thread_id": "multimodal_learning"
+        }
+      ],
+      "claims": []
+    },
+    {
+      "paper_id": "2608.05144v1",
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "classification": "reasoning_planning",
+      "relevance_score": 0.75,
+      "threads": [
+        {
+          "thread_id": "reasoning_planning"
+        },
+        {
+          "thread_id": "scalable_oversight"
+        },
+        {
+          "thread_id": "multimodal_learning"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state.",
+          "source": "https://arxiv.org/abs/2608.05144v1",
+          "location": "abstract, sentence 2"
+        }
+      ]
+    },
+    {
+      "paper_id": "2608.05138v1",
+      "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
+      "classification": "alignment_safety",
+      "relevance_score": 0.85,
+      "threads": [
+        {
+          "thread_id": "alignment_safety"
+        },
+        {
+          "thread_id": "scalable_oversight"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA.",
+          "source": "https://arxiv.org/abs/2608.05138v1",
+          "location": "abstract, sentence 2"
+        }
+      ]
+    }
+  ]
+}

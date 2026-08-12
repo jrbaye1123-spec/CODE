@@ -1,0 +1,31 @@
+{
+  "output_id": "output_8525287fe263",
+  "workflow": "literature_triage",
+  "session_id": "session_abc",
+  "summary": "Paper on efficient transformers with two key claims.",
+  "claims": [
+    {
+      "claim_id": "claim_427846fa57ab",
+      "claim_text": "Our method reduces parameter count by 40%.",
+      "source_document": "arxiv.org/abs/2401.00001",
+      "source_location": "abstract, paragraph 1",
+      "confidence": 0.95,
+      "extraction_timestamp": "2026-08-06T12:44:07.656495+00:00"
+    },
+    {
+      "claim_id": "claim_3909563b643d",
+      "claim_text": "Attention head redundancy can be exploited through pruning.",
+      "source_document": "arxiv.org/abs/2401.00001",
+      "source_location": "section 3, paragraph 2",
+      "confidence": 0.9,
+      "extraction_timestamp": "2026-08-06T12:44:07.656500+00:00"
+    }
+  ],
+  "sources_consulted": [
+    "arxiv.org/abs/2401.00001"
+  ],
+  "agent_version": "v1",
+  "model_provider": "test",
+  "model_version": "1.0",
+  "created_at": "2026-08-06T12:44:07.656505+00:00"
+}

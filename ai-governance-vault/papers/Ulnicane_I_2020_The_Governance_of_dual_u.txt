@@ -1,0 +1,638 @@
+Emerging Security Technologies
+and EU Governance
+Actors, Practices and Processes
+Edited by Antonio Calcara, Raluca Csernatoni
+and Chantal Lavallée
+First published in 2020
+ISBN: 978-0-367-33831-2 (hbk)
+ISBN: 978-0-429-32229-7 (ebk)
+
+Chapter 11
+
+The governance of dual-use
+research in the EU
+The case of neuroscience
+Inga Ulnicane
+
+(CC BY-NC-ND 4.0)
+
+11 The governance of dual-use
+research in the EU
+The case of neuroscience
+Inga Ulnicane
+
+Introduction
+An important element of the European governance of emerging technologies is
+the European Union (EU) Framework Programme (FP) rules on dual-use
+research. This chapter analyses the challenges that might arise in implementing
+them at the project level and the ways to tackle these challenges. To do that, it
+draws on the work of one of the largest projects ever funded by the FP, namely,
+the Human Brain Project (HBP), which is also one of the large-scale international neuroscience initiatives.
+Neuroscience is seen as one of the most promising technologies of the
+twenty-first century that is expected to provide cures for mental disorders and
+contribute to the development of other technologies such as Information and
+Communication Technologies (ICT) and Artificial Intelligence (AI). At the same
+time, advances in neuroscience raise major concerns about potential misuse of
+sensitive research results. Neuroscience is seen as inherently a dual-use technology,
+which can be used for beneficial as well as harmful purposes (Ienca, Jotterand
+and Elger 2018).
+Against this background, this chapter focuses on the governance of dual-use
+research in neuroscience in the EU. At a time when many countries are making
+unprecedented investments in the field of neuroscience, which sometimes are
+described as the ‘gold rush’ or ‘golden age’ of neuroscience, the European
+Commission has been supporting neuroscience – or brain research as it is sometimes called – via its research and innovation FP. In the FP7 that lasted from
+2007–2013, the Commission invested €3.1 billion in neuroscience. In the first
+five years (until November 2018) of the following Horizon 2020 programme, a
+similar sum of €3.2 billion was invested (European Commission 2019a). This
+funding supports a number of neuroscience research projects included within the
+Future and Emerging Technologies (FET) programme.
+The biggest EU project in this area is one of the FET Flagships projects – the
+HBP. The HBP is a ten-year, large-scale, multidisciplinary project (2013–2023),
+with an EU funding of approximately €400 million, bringing together more than
+500 scientists and engineers at more than 100 universities and research institutes
+in some 20 countries (Human Brain Project 2020; Stahl et al. 2019). It is one of
+
+2
+
+Inga Ulnicane
+
+the large-scale neuroscience research projects in the world. Other major brain
+research initiatives have been launched or are about to be launched by the
+United States, Canada, Japan, South Korea, China and Australia (Savage 2019).
+These seven major neuroscience projects have established an International Brain
+Initiative, which is supported by the Kavli Foundation (International Brain Initiative 2020). While the International Brain Initiative aims to help these diverse
+projects to work together, it is also clear that they operate under very different
+governance, regulatory and ethical frameworks.
+What is specific about the governance of neuroscience in the EU? At the
+moment, the EU has not adopted either a binding legislation or voluntary code of
+conduct or guidelines specifically dedicated to neuroscience, as has been the
+case in other technological areas (e.g. nano, AI; see Csernatoni and Lavallée,
+Chapter 13 in this book). However, all neuroscience research that is funded by
+the EU FPs is governed by specific regulations and rules, which notably specify
+that selected projects should have an exclusive focus on civil applications. This
+requirement distinguishes the EU’s HBP from some of the other major brain
+initiatives around the world, in particular from the US Brain Initiative, which
+has been partly funded by the Defence Advanced Research Projects Agency
+(DARPA) with an explicit focus on developing neurotechnology for military use
+(DARPA 2020).
+Thus, in the context when there is a clear military interest in the advancements of neuroscience that can be used for military purposes, it is necessary to
+better understand how the EU FP’s commitment to fund only research that has
+an exclusive focus on civil applications can be implemented and what challenges might emerge in this process. Accordingly, the main research questions
+addressed in this chapter are – how is dual-use research in neuroscience governed in the EU and what challenges does it face?
+To address these questions, this chapter first introduces the main EU initiative
+in neuroscience research – the HBP and the way dual-use research is tackled in
+the HBP, which goes beyond the compulsory EU framework and additionally
+applies the Responsible Research and Innovation (RRI) approach to deal with
+the dual-use issues. Second, the chapter reviews the main concepts of dual-use
+and RRI. Third, the chapter looks at the main actors involved in the governance
+of dual-use research in the HBP. Fourth, the chapter discusses challenges of
+governing dual-use research at the project level. Thus, this chapter aims to contribute to the studies of the European governance of emerging technologies by
+focusing on the governance of dual-use research in the fast-developing field of
+neuroscience at the project level by analysing one of the biggest research projects ever funded by the EU – the HBP.
+The chapter draws on the review of academic literature and policy documents, as well as on the author’s critical reflection on her two-year experience
+(December 2017–November 2019) of contributing to the development of the
+governance of dual-use research in the HBP, where she participated in the development of Opinion on Responsible Dual-Use and is co-chairing the HBP Dual
+Use Working Group.
+
+Governance of dual-use research in the EU 3
+The governance of dual-use research
+in neuroscience in the EU: the case of the
+Human Brain Project
+The HBP was launched in 2013 as one of the two initial FET Flagship initiatives
+(with Graphene being the other one). Building on its well-regarded FET funding
+programme, the European Commission developed the FET Flagship model for
+large-scale multidisciplinary projects. This new funding model was established
+during a time of austerity with an aim to move the ICT research frontiers and
+establish the global EU leadership in FET research. According to the European
+Commission, the FET Flagships are ‘visionary, science-driven, large-scale initiatives addressing grand scientific and technological (S&T) challenges’ (2014).
+While the FET Flagships are often presented as ‘one billion projects’, in reality,
+the FPs fund only part of that amount (e.g. for the HBP, approximately 40 per
+cent) and the projects are expected to raise additional funding from other sources
+such as industry and national governments.
+Thus, the HBP is supported by the EU funding for multidisciplinary ICT
+research and it aims to integrate research from neuroscience, computing and
+other research fields and scientific disciplines. According to the Commission, the
+HBP was launched with a promise that it:
+will create the world’s largest experimental facility for developing the most
+detailed model of the brain, for studying how the human brain works and
+ultimately to develop personalised treatment of neurological and related diseases. This research lays the scientific and technical foundations for medical
+progress that has the potential to will dramatically improve the quality of
+life for millions of Europeans.
+(European Commission 2013)
+While the original FP funding for this project is planned until 2023, it is envisaged to be turned into sustainable research infrastructure that helps to advance
+neuroscience, medicine and computing (Amunts et al. 2019). This research
+infrastructure aims to provide access to a wide range of brain data and computing services. The work in the HBP is organised according to a number of divisions such as Neuroinformatics, Brain Simulation, High Performance Analytics
+and Computing, Medical Informatics, Neuromorphic Computing and Neurorobotics. The HBP also has a dedicated Ethics and Society division that includes
+work on foresight, public engagement, compliance and researchers’ awareness.
+Dual-use is one of the key ethical issues that the HBP has addressed.
+As the project is funded by the FPs (initially by the FP7 and afterwards by the
+Horizon 2020), the HBP has to comply with the relevant regulations. Ethical
+principles set out in Article 19 of the Horizon 2020 regulation stipulate that
+‘research and innovation activities carried out under Horizon 2020 shall have an
+exclusive focus on civil applications’ (European Parliament and the Council of
+the EU 2013). Issues of dual-use, exclusive focus on civil applications and
+
+4
+
+Inga Ulnicane
+
+potential misuse of research results is part of the Horizon 2020 ethics issues
+checklist and ethics self-assessment, which form part of the grant proposal, later
+becoming part of the grant agreement and can give rise to binding obligations
+that may be controlled through ethics checks, reviews and audits (European
+Commission 2019b).
+The Commission’s guidance document for completing the ethics self-assessment
+for Horizon 2020 draws on the EU Export Control Regulation in defining dualuse (European Commission 2019b; see Vila Seoane, Chapter 5 in this book).
+Accordingly, it focuses on research involving dual-use items that ‘are normally
+used for civilian purposes but might have military applications, or may contribute to the proliferation of weapons of mass destruction’ (European Commission
+2019b: 33). Furthermore, this guidance document specifies that exclusive focus
+on civil applications:
+does not rule out the participation of military partners or the development of
+generic technologies, products or knowledge that may meet the needs of both
+civil and military end-users (known as ‘dual-use’ goods or technologies),
+provided that the research itself has a clear focus on civil applications.
+(European Commission 2019b: 35)
+Additionally, the ethics issues checklist includes a question about a potential for
+misuse of research results that concerns ‘research involving or generating materials, methods, technologies or knowledge that could be misused for unethical
+purposes’ (European Commission 2019b: 37).
+In practice, a number of challenges emerge in answering and dealing with
+these important questions. To address these challenges, the HBP Ethics and
+Society division has undertaken a broad research and practice agenda that
+focuses on applying the Responsible Research and Innovation (RRI) approach.
+The RRI will be introduced in the following section dedicated to explaining the
+key concepts, while the application of RRI in the HBP will be addressed in the
+later sections on actors and challenges.
+
+What are dual-use research and Responsible
+Research and Innovation?
+This section will review the literature on the key concepts used in this chapter:
+dual-use research and RRI.
+Dual-use research
+The concept of dual-use research and technology is rather imprecise and contested
+(see Martins and Ahmad, Chapter 3 in this book). Traditionally, research and technology have been considered to be dual-use when they have current or potential
+military and civilian applications, recognising that distinction between military and
+civilian technologies is not sharp and clear-cut (see, e.g., Molas-Gallart 1997).
+
+Governance of dual-use research in the EU 5
+It can include both turning civilian/benevolent technology into military/hostile
+uses as well as turning military technology into civilian (e.g. Vogel et al. 2017).
+The dual-use concept has been questioned analytically because it simplifies the
+link between scientific knowledge and technological innovation (Vogel et al.
+2017: 977).
+While historically, the meaning of dual-use had a military–civilian connotation, today it is used more generally to distinguish research that has the potential
+to have benevolent/beneficial as well as malevolent/harmful applications
+(Oltmann 2015). Tara Mahfoud and her colleagues (2018) highlight the problem
+that distinguishing between military and civilian applications of scientific
+research and technology has become increasingly difficult. They call for a more
+nuanced framework that would go beyond the binary world implied by the term
+‘dual-use’. According to them, policy makers and regulators need to identify and
+focus on undesirable uses in the political, security, intelligence and military
+domains (Mahfoud et al. 2018).
+To clarify some of the questions involved, new terms such as ‘intentional
+misuse’ and ‘dual-use research of concern’ (DURC) have been introduced
+(Ienca et al. 2018: 269). The DURC label was introduced by the United
+States government to prevent the malicious application of life science
+research. While historically most attention to dual-use technology emerged in
+fields of molecular and cell biology, recently the focus has expanded to other
+fields such as neurotechnology (Ienca et al. 2018) and ICT (Langley and
+Parkinson 2017).
+Attitudes towards dual-use research and technology have varied considerably
+across times, areas of activity and political beliefs. Haico Te Kulve and Wim
+Smit (2003) explained how the meaning of dual-use technology historically has
+shifted from a problematic to a desirable feature. According to Te Kulve and
+Smit, during the Cold War,
+dual-use was viewed as a negative feature that complicated export controls:
+countries might try to obtain military sensitive technology under the guise
+of buying civilian technology. The presumed dual nature of some products
+and technologies also created tensions between the economic and defence
+perspective on technology exports.
+(Te Kulve and Smit 2003: 955–956)
+Te Kulve and Smit noticed a profound change in the discourse on dual-use products
+by the time the Cold War had ended, highlighting that then:
+rather than a negative feature, the dual-use aspect of technology was viewed
+as something that should be promoted and pursued, as it might solve the
+twin problem of maintaining a high tech defence technology base restrained
+by limited budgets, and improving a country’s economic competitiveness
+by a more efficient allocation of R&D funds.
+(Te Kulve and Smit 2003: 956)
+
+6
+
+Inga Ulnicane
+
+Similarly, Jordi Molas-Gallart (1997) demonstrates different understandings
+of dual-use technology from an arms control and industrial perspectives.
+According to him, ‘from an arms control outlook, dual-use technology has been
+seen as a problem for the control of the international diffusion of advanced
+weaponry’, while from industrial perspective, it is perceived ‘as providing an
+opportunity for the wider exploitation of research and manufacturing efforts
+beyond their initial (military or civilian) use’ (Molas-Gallart 1997: 370). Major
+differences in attitudes towards dual-use research and technology can also be
+seen when comparing the approach in research and innovation policy to promote
+dual-use research and technology (e.g. Molas-Gallart 1997) with the calls in bio- and
+neuro-ethics to regulate dual-use technology (e.g. Ienca et al. 2018).
+Diverging attitudes become even more pronounced in the area of military
+research and technology that is related but not identical to dual-use research.
+Economists often emphasise many benefits for civilian technologies such as
+computers, electronics and commercial airspace technology that have originated
+from military research. A well-known example is the iPhone. Many technologies
+behind the iPhone have originated from defence research funded by DARPA,
+Department of Defence, US military and Army Research Office (Mazzucato
+2013). However, the opposite argument emphasises the problem that military
+research leads to ‘the diversion of funding from better understanding of root
+causes of insecurity’ and therefore should be reduced (Langley and Parkinson
+2017: 205).
+Moreover, there are diverse views on the interaction and relationship between
+civilian, military and dual-use research and technology. In their case study of the
+development of an advanced battery in the Netherlands, Te Kulve and Smit
+investigate the cooperation between civilian and military actors and conclude
+that ‘in view of the difficulties of realising civilian–military integrated joint
+development projects, the establishment of “dual capacity networks” is suggested as part of possible strategy towards an integrated civilian–military technology and industrial base’ (2003: 955). In other contexts, interactions between
+civilian and military research are more restricted, either due to the secrecy of
+military research or because of funding rules such as the EU FP that require
+exclusive focus on civilian applications (but does not prohibit the participation
+of military partners).
+The implementation of the EU FP rule about an exclusive focus on civil
+applications faces old and new challenges. Jakob Edler and Andrew James
+(2015) pointed out that already in the mid-1990s the European Commission
+itself recognised that, although the FP is civilian in focus, half of all FP-funded
+projects have had a strong dual-use dimension in particular in areas such as
+aeronautics, information technology and materials. Furthermore, since the FP7,
+a programme dedicated to security research has been introduced within the FPs
+(see Martins and Ahmad, Chapter 3 in this book). Recently, new defence-related
+EU research funding mechanisms have emerged outside the FPs (see Fiott,
+Chapter 2 in this book). These include explicit funding for dual-use research
+from the European Structural and Investment Funds as well as dedicated defence
+
+Governance of dual-use research in the EU 7
+research funding from the European Defence Fund (EDF). The 2017 Communication from the European Commission on launching the EDF envisages that the
+planned funding for the EDF ‘would make the EU one of the biggest defence
+R&T investors in Europe and the first investor in collaborative defence research’
+(European Commission 2017). It also stipulates that the EDF research proposals
+‘will be reviewed in relation to ethical, legal, or societal aspects by a group of
+experts on defence ethical and legal issues’ and that the precise relationship
+between the EDF and the future FPs will be determined (European Commission
+2017). These developments increase the complexity of dual-use research in EU
+countries and can raise new practical challenges, for example, if a research
+group receives funding from both – the FP with its exclusive focus on civil
+applications and the EDF – how does it practically separate in its lab its research
+with exclusive focus on civil applications from its defence research.
+In the literature on dual-use research, a number of approaches have been
+suggested for addressing some of the challenges. These include regulation, selfregulation and education (Engel-Glatter and Ienca 2018) as well as participatory
+governance with a broader public input (Vogel et al. 2017). Putting these measures in place could intensify the tension between scientific freedom and public
+interest.
+In recent years, many of these issues related to dual-use and the relationship
+between military and civilian research have been discussed in the context of
+neuroscience research (Ienca et al. 2018; Mahfoud et al. 2018; Royal Society
+2012; Tennison and Moreno 2012). Concerns about dual-use and misuse of
+neuroscience are particularly relevant due to military funding for neurotechnologies in countries such as the USA and its applications including warfighter
+enhancement or neuroscientific deception detection and interrogation. For these
+reasons, Ienca and his colleagues (2018) suggest a ‘neurosecurity framework’
+involving calibrated regulation, (neuro)ethical guidelines and awareness-raising
+activities within the scientific community.
+Responsible Research and Innovation (RRI)
+In the past ten years, the RRI approach has been promoted by researchers and
+funding agencies across Europe as a way to shape research and innovation
+towards social goods (De Saille 2015). According to a well-known definition by
+Jack Stilgoe, Richard Owen and Phil Macnaghton, ‘responsible innovation
+means taking care of the future through collective stewardship of science and
+innovation in the present’ (Stilgoe, Owen and Macnaghton 2013:1570). They
+operationalise responsible innovation along four dimensions of anticipation,
+reflexivity, inclusion and responsiveness.
+The European Commission has been one of the major supporters of the RRI
+approach. The Horizon 2020 regulation recognises RRI as a cross-cutting issue
+that has to be promoted to improve societal engagement in research and innovation
+(European Parliament and the Council of the EU 2013). RRI is implemented in
+the Horizon 2020 via supporting thematic elements of RRI such as public
+
+8
+
+Inga Ulnicane
+
+engagement, open access, gender, ethics and science education as well as via
+integrated actions that foster uptake of the RRI approach by institutions and stakeholders (European Commission 2019c). One of the main political documents on
+RRI is the Rome Declaration on Responsible Research and Innovation in Europe,
+which defines RRI as an ‘on-going process of aligning research and innovation to
+the values, needs and expectations of society’ (Italian Presidency of the Council of
+the EU 2014). While the European Commission has extensively supported the
+implementation of RRI during the Horizon 2020, due to shifting political priorities
+(e.g. towards mission-oriented research), it is unlikely that RRI will receive the
+same amount of support in the following Horizon Europe programme.
+Furthermore, a number of national research funding councils are also implementing the RRI approach. One of the first funders that started to implement this
+approach was the Engineering and Physical Sciences Research Council
+(EPSRC) in the UK. The EPSRC approach to responsible innovation highlights
+the need to continuously seek to anticipate, reflect, engage and act and is therefore known as the AREA framework (EPSRC 2019). According to this
+approach, anticipation implies describing and analysing intended and unintended
+economic, social, environmental and other possible impacts of innovation, while
+reflection focuses on purposes, motivations and potential implications of
+research and associated uncertainties. Engagement allows the opening up future
+visions to broader deliberation and dialogue, but action aims to influence the
+direction and trajectory of the research and innovation process itself.
+While the RRI approach has an important aim of aligning research and
+innovation with societal values and needs, its practical implementation experiences a number of well-known research governance challenges, for example,
+how to deal with the diversity of societal values, what is the right balance
+between academic freedom and steering and how to address uncertainty inherent
+in research and innovation. The RRI approach still encounters the so-called
+‘Collingridge dilemma’ according to which, during the early stages of research,
+too little is known to regulate emerging technology, while later when technology
+is more extensively developed and used, it is difficult to modify it via regulation
+(Stilgoe et al. 2013).
+
+Actors involved in the governance of
+dual-use neuroscience research in the HBP
+To address the complex issues described above, a wide range of actors, internal
+and external to the HBP, have been involved in developing and implementing
+the governance of dual-use research. Internal actors are the project’s governing
+bodies, researchers and administrators from diverse disciplines and teams within
+the project. External actors are the European Commission as a funder as well as
+diverse stakeholders from citizens and patients to experts, other brain initiatives
+and international bodies such as the Organisation for Economic Co-operation
+and Development (OECD), which developed guidelines for governance of
+neuroscience and neurotechnology.
+
+Governance of dual-use research in the EU 9
+The HBP’s Ethics and Society division has undertaken a leading role in the
+development of the governance of dual-use research in the HBP. The Ethics and
+Society division brings together research from social sciences and humanities,
+ethicists and public engagement practitioners from a number of universities and
+research entities across Europe. As a major EU initiative in a highly sensitive
+research area, the HBP implements a broad RRI agenda to identify and address
+major ethical and societal concerns (Stahl et al. 2019). In particular, the HBP
+implements the AREA framework of the EPSRC, which was one of the first
+frameworks available for a practical implementation of the HBP. According to the
+AREA framework, anticipation activities implemented by the HBP’s Ethics and
+Society division include foresight analysis of future development of neuroscience
+and ICT developed by the HBP, while reflection activities focus on philosophical
+and neuroethical research. Engagement involves citizen workshops and online
+consultations to understand public views on neuroscience, while action focuses on
+developing and implementing processes, procedures and good practices to support
+RRI in the HBP. Thus, the HBP Ethics and Society division implements a wideranging research and practice agenda that goes well beyond complying with the
+FP regulatory requirements and includes anticipation, reflection, engagement and
+action on the conceptual and practical underpinnings of the regulatory requirements, their limitations and the ways of overcoming them.
+These principles of going beyond the legal FP requirements, critically reflecting on them and suggesting broader ethical and social agendas are also present
+in the HBP Ethics and Society team’s work on dual-use. The key element of this
+work is the ‘Opinion on “Responsible Dual-Use”: Political, Security, Intelligence
+and Military Research of Concern in Neuroscience and Neurotechnology’ (Ethics
+and Society 2018). This is the second opinion of the HBP Ethics and Society team,
+following the first one on Data Protection and Privacy published in the previous
+year. The Dual-Use Opinion starts with the recognition that ‘current and newly
+emerging insights and technologies arising from research in brain sciences
+increase capabilities to access, assess and affect thought, emotion and behaviour’
+(Ethics and Society 2018). These capabilities can be used in socially beneficial as
+well as harmful ways. Examples mentioned in the Opinion include:
+brain inspired neuro- and ICT technologies that are already in use or in
+advanced stages of development, for example, in warfighter ‘enhancement’,
+intelligence gathering, image analysis, threat detection, manipulation of
+emotional states, incapacitation of adversaries, and the development of
+autonomous or semi-autonomous weapons, or weaponized robots using artificial intelligence technologies and machine learning algorithms for target
+detection an elimination.
+(Ethics and Society 2018: 5–6)
+Thus, the Opinion discusses important social and ethical questions these developments raise and develops a set of recommendations for the HBP, the EU and
+social actors.
+
+10
+
+Inga Ulnicane
+
+The preparation of the Dual-Use Opinion took several years and was done
+according to the RRI principles and the AREA framework of anticipation,
+reflection, engagement and action. The anticipation activities included a
+number of scoping reports to identify current and potential applications of
+brain research and brain-inspired technologies and their social and ethical
+implications. The reflection part focused on the conceptual clarification of
+dual-use terminology and identification of ambiguities in existing regulations
+and guidelines. The engagement part consisted of a broad range of activities
+involving experts on dual-use and neuroscience and research policy makers
+as well as citizens in webinars, workshops and online consultations. The
+results of the engagement activities have been made public to researchers and
+stakeholders within and beyond the HBP and some of these activities have
+been positively evaluated by neuroscience and dual-use experts as ‘a first
+promising step in the direction of awareness-enhancing strategies’ (Ienca et al.
+2018: 273). The anticipation, reflection and engagement activities resulted in
+preparing recommendations for action.
+One of the key insights from the preparatory work was the need to go beyond
+the binary civilian–military distinction of the dual-use definition used in the
+Horizon 2020 approach to ethics and to broaden it. To do that, the Dual-Use
+Opinion develops a broader set of terminology, building on terms such as dualuse research of concern, RRI and political, security, intelligence and military
+research of concern. The Opinion suggests that applying the principles of RRI to
+the concept of dual-use could increase the ability to identify which programmes
+and projects of research, development and innovation are ‘of concern’ and distinguish between ‘responsible’ and ‘irresponsible’ systems of research and
+technological development. Accordingly, the Opinion uses the term ‘dual-use
+research of concern’ to refer to:
+neuroscience research and technological innovations, and brain inspired
+developments in information and communication technologies, for use in
+the political, security, intelligence and military domains, which are either
+directly of concern because of their potential for use in ways that threaten
+the peace, health, safety, security and well-being of citizens, or are undertaken without responsible regard to such potential uses.
+(Ethics and Society 2018: 5)
+Thus, the identification of research ‘of concern’ is not straightforward but rather
+is a matter of debate. The RRI principles should enable such a debate, capacity
+building to reflect and engagement of researchers and stakeholders. In the
+Opinion, responsibility does not simply refer to responsible conduct of individuals but also
+to processes and practices within research and development systems, and
+the extent to which they encourage or constrain the capacity of all those
+involved in the management and operations of research to reflect upon,
+
+Governance of dual-use research in the EU 11
+anticipate and consider the potential social and ethical implications of their
+research, to encourage open discussion of these, with a view to ensuring
+that their research and development does indeed contribute to the health and
+well-being of citizens, and to peace and security.
+(Ethics and Society 2018: 9)
+Thus, responsibility here means developing institutions and cultures that support
+socially beneficial research.
+To implement these principles of responsibility, the Opinion recommends
+that the HBP evaluates the potential implications for dual-use research of
+concern, ensures a responsible use of its data and services, considers conditions
+for partnering with institutions that receive military funding and develops educational activities and materials on dual-use. Furthermore, the Opinion includes a
+number of recommendations for the EU. These include suggestions to extend its
+policies on dual-use research beyond the focus on aims, objectives and intentions of the researchers, to support research on dual-use research of concern and
+to establish an advisory body to have an oversight of all EU funded research
+with political, security, intelligence and military potentials. The recommendations to other social actors include a strong focus on the education of neuroscientists on social and ethical issues including questions of dual-use as well as
+on self-regulation of research institutions and industry.
+The HBP governing bodies have approved the Opinion and established the
+HBP Dual-Use Working Group to implement its recommendations. This
+working group includes researchers, engineers and administrators from all HBP
+divisions.
+
+Challenges for developing and implementing
+governance structures for dual-use research at
+the project level
+Addressing issues related to dual-use research at the project level presents a
+number of challenges related to the complexity and sensitivity of the topic as
+well as uncertainties about potential uses and impacts of research results. On the
+basis of the ongoing work in the HBP discussed above, three challenges can be
+highlighted: first, limitations of the dual-use definition used in the EU FP;
+second, issues of education and awareness raising; and third, questions of global
+collaboration. These challenges can be relevant for research in other scientific
+disciplines and fields as well.
+First, the FPs use a definition of dual-use from the EU export control regulation (see Vila Seoane, Chapter 5 in this book). According to that definition, the
+dual-use items are goods, software and technologies, which ‘are normally used
+for civilian purposes but may have military applications, or may contribute to
+the proliferation of weapons of mass destruction’ (European Commission
+2019b: 13). Two limitations of this definition in particular can be highlighted.
+First, for basic research at the early stages of development, the definition’s focus
+
+12
+
+Inga Ulnicane
+
+on goods, items and software often is not relevant. Second, this definition still
+defines dual-use in binary terms of military versus civilian, while practitioners
+and scholars in this field have recognised that a broader understanding of beneficial and harmful uses is needed (Ienca et al. 2018; Oltmann 2015). Thus, rather
+than inviting anticipation and reflection on the potential future uses of research
+that is at early stages, for many scientists doing basic research, this definition
+suggests that dual-use questions are not relevant for them. To address this challenge, the Ethics and Society division of the HBP suggested broadening the
+understanding of dual-use by bringing in concepts of dual-use research of
+concern, RRI and political, security, intelligence and military research of
+concern. In a similar manner, future EU research funding programmes could
+benefit by broadening their approach to dual-use and developing definitions that
+are dedicated to specificity of research by adjusting and going beyond dual-use
+definitions in export controls.
+Second, building governance structures for dual-use research at the project
+level requires the involvement and support from the researchers. One limitation that such an approach faces is a lack of awareness about dual-use issues
+among researchers. Ethical and social issues of science and technology are not
+always included in science education nor are they required, supported or built
+into research career structures. The HBP has started to address these issues
+within the project’s dedicated Education programme that includes workshops,
+online lectures and webinars on ethical and social issues including dual-use.
+To make such education and awareness-raising activities relevant, a particular
+challenge is to adjust them to the specificities of each scientific discipline and
+research field. That is not a straightforward task in a multidisciplinary project
+bringing together scientists and researchers with very diverse scientific backgrounds. At the institutional and policy levels, the importance of education
+and awareness of dual-use issues among scientists cannot be underestimated
+and novel ways to engage and support scientists in these endeavours need to
+be sought.
+The third challenge focuses on global collaboration for addressing dual-use
+research issues. As research is global and scientific knowledge flows freely
+across national and regional borders, it is of paramount importance that dualuse issues are recognised at the global level. In the neuroscience field, the need
+to address issues of misuse has been recently recognised by the representatives
+of International Brain Initiative (Rommelfanger et al. 2018) that brings
+together the main large-scale neuroscience projects from the EU, USA, China,
+Japan, Australia, Canada and South Korea (see information in the Introduction)
+as well as by the OECD in its Recommendation of the Council on Responsible
+Innovation in Neurotechnology (OECD 2019). At the moment, the HBP is the
+only one among the main neuroscience projects that is developing and implementing dedicated governance structures to address issues of dual-use and
+potential misuse. To facilitate responsible neuroscience research globally,
+similar activities in other brain projects and global coordination efforts are
+needed.
+
+Governance of dual-use research in the EU 13
+Conclusions
+This chapter demonstrates that the fast-developing field of neuroscience research
+not only promises major health, economic and technological benefits, but also
+raises important concerns about the potential misuse or harmful uses of research
+results. To address these concerns, appropriate governance structures should be
+built at the global, regional, national, institutional and project levels. The chapter
+shows that the research project level plays a key role in the governance of
+dual-use research. At the same time, the project-level governance is closely
+intertwined with governance at other levels.
+The chapter reveals how one of the main neuroscience research projects
+worldwide – the EU-funded HBP – addresses a number of challenges such as
+the limitations of the EU FP’s definition of dual-use based on the export control
+regulation and focusing on binary distinction between civilian and military
+applications by developing a novel approach that incorporates concepts of dualuse research of concern, RRI and political, security, intelligence and military
+research of concern. The development and implementation of such an approach
+benefits from engaging a broad range of researchers, stakeholders, experts and
+citizens. The lessons learned so far suggest the need for education and awarenessraising activities, global collaboration and reconsideration of policy definitions of
+dual-use and their suitability for research activities. The HBP, as a large-scale
+project, benefits from having dedicated Ethics and Society as well as Education
+teams for the development and implementation of its project-level governance of
+dual-use research. Nevertheless, lessons learned and practices developed in this
+project could be relevant for other brain initiatives as well as research projects in
+other disciplines.
+
+Acknowledgement
+This chapter has benefitted from feedback on earlier versions presented at the
+CPERI workshop in Lancaster (UK) in July 2018 and the INTERSECT workshop in Bath (UK) in November 2018. Conversations and interactions with
+researchers and stakeholders of the HBP are gratefully acknowledged. Research
+reported in this chapter has received funding from the European Union’s
+Horizon 2020 Framework Programme for Research and Innovation under the
+Specific Grant Agreement No. 7202070 (HBP SGA1), No. 785907 (HBP SGA2)
+and No. 945539 (HBP SGA3).
+
+References
+Amunts K., Knoll, A.C., Lippert, T., Pennartz, C.M.A., Ryvlin, P., Destexhe, A., Jirsa,
+V.K., D’Angelo, E. and Bjaalie, J.G. (2019) The Human Brain Project – Synergy
+Between Neuroscience, Computing, Informatics, and Brain-Inspired Technologies.
+PLoS Biology 17(7): e3000344. https://doi.org/10.1371/journal.pbio.3000344.
+DARPA (2020) DARPA and the Brain Initiative. At: www.darpa.mil/program/ourresearch/darpa-and-the-brain-initiative (accessed 13 January 2020).
+
+14
+
+Inga Ulnicane
+
+De Saille, S. (2015) Innovating Innovation Policy: The Emergence of ‘Responsible Research
+and Innovation’. Journal of Responsible Innovation 2(2): 152–168. https://doi.org/10.1
+080/23299460.2015.1045280.
+Edler, J. and James, A. (2015) Understanding the Emergence of New Science and Technology Policies: Policy Entrepreneurship, Agenda Setting and the Development of the
+European Framework Programme. Research Policy 44(6): 1252–1265. https://doi.
+org/10.1016/j.respol.2014.12.008.
+Engel-Glatter, S. and Ienca, M. (2018) Life Scientists’ Views and Perspectives on
+the Regulation of Dual-Use Research of Concern. Science and Public Policy 45(1):
+92–102.
+EPSRC (2019) Anticipate, Reflect, Engage and Act (AREA). At: https://epsrc.ukri.org/
+research/framework/area/ (accessed 15 December 2019).
+Ethics and Society (2018) Opinion on ‘Responsible Dual-Use’. Political, Security, Intelligence and Military Research of Concern in Neuroscience and Neurotechnology.
+Human Brain Project, 21 December. At: www.humanbrainproject.eu/en/follow-hbp/
+news/opinion-on-responsible-dual-use-from-the-human-brain-project/.
+European Commission (2013) Graphene and the Human Brain Project win Largest
+Research Excellence Award in History. At: https://ec.europa.eu/digital-single-market/
+en/news/graphene-and-human-brain-project-win-largest-research-excellence-awardhistory (accessed 6 December 2019).
+European Commission (2014) FET Flagships: A Novel Partnering Approach To Address
+Grand Scientific Challenges and to Boost Innovation in Europe. Commission Staff
+Working Document SWD(2014) 283 final.
+European Commission (2017) Launching the European Defence Fund. Communication
+COM(2017) 295.
+European Commission (2019a) Brain Research. Commission activities in the area of
+Brain research. At: https://ec.europa.eu/info/research-and-innovation/research-area/
+health/brain-research_en (accessed 25 October 2019).
+European Commission (2019b) Horizon 2020 Programme Guidance How to Complete
+your ethics self-assessment. Version 6.1. 4 February 2019.
+European Commission (2019c) Responsible Research & Innovation. At: https://ec.europa.
+eu/programmes/horizon2020/en/h2020-section/responsible-research-innovation (accessed
+15 December 2019).
+European Parliament and the Council of the European Union (2013) Regulation (EU) No.
+1291/2013 of 11 December 2013 establishing Horizon 2020 – the Framework Programme for Research and Innovation (2014–2020).
+Human Brain Project (2020) Human Brain Project. At: www.humanbrainproject.eu/en/
+(accessed 13 January 2020).
+Ienca, M., Jotterand, F. and Elger, B.S. (2018) From Healthcare to Warfare and Reverse:
+How Should We Regulate Dual-Use Neurotechnology? Neuron 97: 269–274.
+International Brain Initiative (2020) International Brain Initiative. At: www.international
+braininitiative.org/ (accessed 13 January 2020).
+Italian Presidency of the Council of the European Union (2014) Rome Declaration on
+Responsible Research and Innovation in Europe. 21 November 2014.
+Langley, C. and Parkinson, S. (2017) The Political Economy of Military Science. In
+D. Tyfield, R. Lave, S. Randalls and C. Thorpe (eds), The Routledge Handbook of the
+Political Economy of Science. London: Routledge: 194–209.
+Mahfoud, T., Aicardi, C., Datta, S. and Rose, N. (2018) The Limits of Dual-Use. Issues
+in Science and Technology 34(4): 73–78.
+
+Governance of dual-use research in the EU 15
+Mazzucato, M. (2013) The Entrepreneurial State: Debunking Public vs Private Sector
+Myths. London: Anthem Press.
+Molas-Gallart, J. (1997) Which Way to Go? Defence Technology and the Diversity of
+‘Dual-Use’ Technology Transfer. Research Policy 26: 367–385.
+OECD (2019) Recommendation of the Council on Responsible Innovation in Neurotechnology. OECD. At: www.oecd.org/science/recommendation-on-responsible-innovationin-neurotechnology.htm.
+Oltmann, S. (2015) Dual-Use Research: Investigation Across Multiple Science Disciplines.
+Science and Engineering Ethics 21: 327–341. https://doi.org/10.1007/s11948-0149535-y
+Rommelfanger, K.S., Jeong, A.J., Ema, A., Fukushi, T., Kasai, K., Ramos, K., Salles, A.
+and Singh, I. (2018) Neuroethics Questions to Guide Ethical Research in the International Brain Initiatives. Neuron 100(1): 19–36.
+The Royal Society (2012) Brain Waves Module 3. Neuroscience, Conflict and Security.
+London: The Royal Society.
+Savage, N. (2019) Brain Work: Large-Scale National Research Projects Hope to Reveal
+the Secrets of the Human Brain. Nature 574: 49–51.
+Stahl, B.C., Akintoye, S., Fothergill, B.T., Guerrero, M., Knight, W. and Ulnicane, I.
+(2019) Beyond Research Ethics: Dialogues in Neuro-ICT Research. Frontiers in
+Human Neuroscience 13(105). https://doi.org/10.3389/fnhum.2019.00105.
+Stilgoe, J., Owen, R. and Macnaghten, P. (2013) Developing a Framework for Responsible Innovation. Research Policy 42(9): 1568–1580. https://doi.org/10.1016/j.
+respol.2013.05.008
+Te Kulve, H. and Smit, W.A. (2003) Civilian–Military Co-Operation Strategies in Developing New Technologies. Research Policy 32(6): 955–970. https://doi.org/10.1016/
+S0048-7333(02)00105-1.
+Tennison, M.N. and Moreno, J.D. (2012) Neuroscience, Ethics, and National Security:
+The State of the Art. PLoS Biology 10(3): e1001289.
+Vogel, K.M., Balmer, B., Weiss Evans, S., Kroener, I., Matsumoto, M. and Rappert, B.
+(2017) Knowledge and Security. In U. Felt, R. Fouché, C.A. Miller and L. SmithDoerr (eds), The Handbook of Science and Technology Studies, 4th edn. Cambridge,
+MA: The MIT Press, 973–1001.
+
+

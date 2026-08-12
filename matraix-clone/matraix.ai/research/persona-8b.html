@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulating the World with 8.3 Billion Personas — MatrAIx Research</title>
+  <link rel="canonical" href="https://matraix.ai/research/persona-8b.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../Assets/icons/apple-touch-icon.png" />
+  <meta name="description" content="The MatrAIx technical report in plain language: a population of 8.3 billion AI personas, four kinds of studies, and 1,010 reusable tasks for testing products with simulated users before real ones." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0a0b0d;--bg-2:#121418;--ink:#e8e9ec;--ink-dim:#969da8;--phos:#4A8FC2;--amber:#d99a46;--line:rgba(151,169,190,.18);--line-soft:rgba(151,169,190,.1);--mono:"JetBrains Mono",ui-monospace,monospace;--disp:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;overflow-x:hidden;background:var(--bg);color:var(--ink);font:16px/1.7 var(--disp)}::selection{background:var(--phos);color:#fff}
+    header{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:18px clamp(20px,5vw,40px);background:rgba(9,10,12,.9);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(15px)}.brand{color:var(--ink);font-weight:700;font-size:1.375rem;text-decoration:none;white-space:nowrap}.brand em{font-style:normal;background:linear-gradient(90deg,#a855f7,#4A8FC2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}nav{display:flex;gap:30px;align-items:center}nav a{color:var(--ink-dim);font-size:.78rem;letter-spacing:.06em;text-decoration:none;text-transform:uppercase}nav a:hover,nav a[aria-current="page"]{color:#fff}.btn-nav{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid rgba(74,143,194,.5);border-radius:7px;background:rgba(74,143,194,.14);color:#dceeff;font-size:.72rem;text-decoration:none}.dot.live{width:7px;height:7px;border-radius:50%;background:#72bdf1}.nav-toggle{display:none;padding:9px 13px;border:1px solid var(--line);border-radius:6px;background:none;color:var(--ink);font:500 .72rem var(--mono);text-transform:uppercase}
+    main{position:relative;z-index:2;max-width:1102px;margin:0 auto;padding:148px 30px 90px}.blog-header{margin-bottom:64px;padding-bottom:42px;border-bottom:1px solid var(--line);text-align:center}.blog-breadcrumb{display:flex;justify-content:center;gap:12px;margin-bottom:30px;color:#737b87;font:500 .68rem var(--mono);letter-spacing:.12em;text-transform:uppercase}.blog-breadcrumb a{color:#6daedb;text-decoration:none}.blog-title{max-width:900px;margin:0 auto 28px;color:#f3f4f6;font-size:clamp(2.7rem,6vw,5rem);font-weight:600;line-height:1.02;letter-spacing:-.055em;text-wrap:balance}.blog-deck{max-width:760px;margin:0 auto 30px;color:#aab0b9;font-size:1.12rem;line-height:1.65;text-wrap:balance}.blog-meta{display:flex;justify-content:center;gap:14px 28px;flex-wrap:wrap;color:#888f9a;font-size:.8rem}.blog-meta-item{display:flex;align-items:center;gap:9px}.blog-meta-item+.blog-meta-item{padding-left:28px;border-left:1px solid var(--line)}.blog-meta strong{color:#d8dbe0;font-weight:500}.blog-meta img{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;object-fit:cover}
+    .article{max-width:780px;margin:0 auto}.article-toc{max-height:calc(100vh - 140px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(109,174,219,.3) transparent}.article p{margin-bottom:20px;color:#c7cbd1;font-size:1.03rem;line-height:1.82}.article h2{margin:72px 0 22px;color:#f0f2f4;font-size:1.9rem;line-height:1.2;letter-spacing:-.025em}.article h3{margin:38px 0 16px;color:#e9ebee;font-size:1.25rem;line-height:1.3}.article strong{color:#eef6fc}.article em{color:#d8b27c}.article a{color:#78b7e2}.article ul,.article ol{margin:20px 0 24px 24px;color:#c7cbd1}.article li{margin-bottom:10px;padding-left:5px}.article li::marker{color:var(--phos)}sup a{text-decoration:none}.quote-card{margin:34px 0;padding:22px 26px;border-left:3px solid var(--phos);border-radius:4px;background:rgba(74,143,194,.06);color:#d3dae2;font-size:1.05rem;line-height:1.7}.callout{margin:34px 0;padding:20px 24px;border:1px solid var(--line);border-radius:8px;background:var(--bg-2)}.callout strong{display:block;margin-bottom:8px}.callout p{margin:0;color:#b9bfc8;font-size:.98rem}.path-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:34px 0}.path-card{padding:24px;border:1px solid var(--line);border-radius:8px;background:rgba(74,143,194,.05)}.path-card span,.figure-kicker{color:var(--phos);font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase}.path-card h3{margin:10px 0 12px;font-size:1.18rem}.path-card p{margin:0;font-size:.94rem;line-height:1.65}.figure-card{margin:42px 0;padding:24px;border:1px solid var(--line);border-radius:8px;background:#0e1013}.figure-card h3{margin:8px 0 6px;font-size:1.25rem}.figure-note{margin:0 0 22px!important;color:#8f98a3!important;font-size:.85rem!important;line-height:1.55!important}.video-frame{position:relative;margin:42px 0;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#000}.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.method-note{margin-top:35px!important;padding-top:20px;border-top:1px solid var(--line);color:#89929d!important;font-size:.86rem!important}footer{margin-top:80px;padding:40px 20px;border-top:1px solid var(--line);color:var(--ink-dim);font-size:.86rem;text-align:center}footer a{color:var(--phos);text-decoration:none}
+    @media(max-width:768px){header{padding:15px 20px}.nav-toggle{display:block}header nav{position:absolute;top:100%;left:0;right:0;display:flex;max-height:0;overflow:hidden;flex-direction:column;gap:0;background:#0b0d10;opacity:0;transition:.25s}header nav.active{max-height:420px;padding:8px 0;opacity:1}header nav a{width:100%;padding:12px 24px;text-align:center}.btn-nav{display:none}main{padding:118px 20px 70px}.blog-title{font-size:clamp(2.25rem,12vw,3.5rem)}.blog-deck{font-size:1rem}.blog-meta{flex-direction:column;align-items:center}.blog-meta-item+.blog-meta-item{padding-left:0;border-left:0}.path-grid{grid-template-columns:1fr}.figure-card{padding:18px 14px}}
+    .article.article--uniform-intro > .article-summary + p{color:#c7cbd1!important;font-size:clamp(1rem,1.5vw,1.08rem)!important;line-height:1.88!important}
+  </style>
+  <link rel="stylesheet" href="../css/blog-post.css?v=21" />
+  <link rel="stylesheet" href="../css/subpages-light.css?v=2" />
+  <link rel="stylesheet" href="../css/navigation.css?v=2" />
+<link rel="icon" type="image/png" href="/Assets/logos/MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Matr<em>AI</em>x</a>
+    <nav>
+      <a href="/">Home</a><a href="/research/" aria-current="page">Research</a><a href="/personas/">Personas</a><a href="/applications/">Applications</a><a href="/playground/">Playground</a><a href="/community/">Community</a>
+    </nav>
+    <a href="/community/" class="btn-nav"><span class="dot live"></span> Join community</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <aside class="article-toc" aria-label="On this page"><span>On this page</span><ol></ol></aside>
+    <div class="blog-header">
+      <div class="blog-breadcrumb"><a href="/">Home</a><span>/</span><a href="/research/">Research</a><span>/</span><span>Publication</span></div>
+      <h1 class="blog-title">Simulating the World with 8.3 Billion Personas</h1>
+      <p class="blog-deck">Before a product meets real people, what if thousands of simulated ones could try it first? Our new technical report describes MatrAIx: a population of AI personas, four kinds of studies they can take part in, and what happened when we ran 18,189 of those trials.</p>
+      <div class="blog-meta">
+        <div class="blog-meta-item"><img src="../Assets/logos/MatrAIx_Logo.png" alt="MatrAIx" /><div><strong>MatrAIx Core Team</strong></div></div>
+        <div class="blog-meta-item"><strong>August 6, 2026</strong></div>
+        <div class="blog-meta-item"><strong>11 min read</strong></div>
+      </div>
+    </div>
+
+    <article class="article article--uniform-intro">
+      <aside class="article-summary" aria-label="Article summary">
+        <span>Paper in brief</span>
+        <p>MatrAIx is an infrastructure for testing AI systems and digital products with <strong>simulated users</strong>. It has three parts: a population of 8.3 billion AI personas, a Playground where those personas take surveys, talk to chatbots, browse websites, and operate apps, and a library of 1,010 reusable study designs. In a controlled check, persona agents acted in line with their assigned traits in 91.5% of trials. This post explains the report for readers who are not AI researchers.</p>
+        <a href="https://arxiv.org/pdf/2608.04205" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:10px 18px;border:1px solid rgba(217,84,84,.55);border-radius:8px;background:rgba(179,27,27,.18);color:#f3f4f6;font-weight:600;font-size:.88rem;text-decoration:none">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 3l8 9.6L7 21" stroke="#c9ced6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.5 21L6.8 5.8" stroke="#e5484d" stroke-width="3" stroke-linecap="round"/></svg>
+          arXiv paper
+        </a>
+      </aside>
+
+      <p>Imagine you sell a soft drink and you are weighing a $2 price increase on a 12 pack. Will your regular buyers stay? The traditional way to find out is a market study: recruit hundreds of people, pay them, and wait weeks for results. It works, but it is slow and expensive, so most teams run studies rarely, late, or not at all.</p>
+
+      <p>AI products have the same problem in a sharper form. A coding assistant can pass every automated test and still frustrate half of its users, because those tests measure whether the answer is correct, not how the product feels to use. A beginner wants explanations, small steps, and reassurance. An expert wants two terse lines and no hand holding. The same product can delight one of them and annoy the other, and an average score hides both.</p>
+
+      <p>MatrAIx proposes a middle path: before you test with real people, test with simulated ones. AI agents play the roles of realistic, varied users. They take your survey, argue with your chatbot, shop on your website, and click through your app. Then they report back, and you can read every individual interaction to see exactly why a certain kind of user gave up. For the report we ran 18,189 of these trials across eight example studies.</p>
+
+      <h2>1. The three pieces of MatrAIx</h2>
+
+      <p>MatrAIx is built from three parts that plug into each other.</p>
+
+      <p><strong>A population to draw people from.</strong> Persona 8B is a collection of 8.3 billion personas. Each persona is a detailed description of a fictional but realistic person: their age, region, languages, job, personality, skills, habits, and interests, organized into 1,290 standard attributes. A persona becomes a <em>persona agent</em> when an AI model is asked to play that person.</p>
+
+      <p><strong>A place for them to act.</strong> The MatrAIx Playground runs the studies. You describe the audience you care about, MatrAIx pulls matching personas from the population, and each one independently works through your task while the system records what it thought, said, and did.</p>
+
+      <p><strong>A library of ready studies.</strong> MatrAIx Applications holds 1,010 reusable study designs across more than 25 industries, including commerce, software, finance, and healthcare. Each one specifies who takes part, what they try to do, and how the result is checked.</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-overview.png" alt="Three panel diagram: building the persona population, the Playground where persona agents run, and the four study types used to evaluate products" style="width:100%;border:1px solid var(--line);border-radius:8px;background:#fff" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">How the pieces fit together: build the population (A), run persona agents through studies in the Playground (B), and evaluate real products in four kinds of environments (C).</figcaption>
+      </figure>
+
+      <h2>2. Watch it in action</h2>
+
+      <p>The quickest way to understand MatrAIx is to see one study run end to end. The demo below sets up a question, picks a cohort of personas, lets them loose, and walks through the report that comes back.</p>
+
+      <div class="video-frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/cNFkz9Wo1y4" title="MatrAIx demo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <p class="figure-note" style="text-align:center">The MatrAIx demo: from a product question to a population of simulated users to an auditable report.</p>
+
+      <h2>3. Where 8.3 billion personas come from</h2>
+
+      <p>A persona in MatrAIx is more than a one line character sketch. Here is one from the Playground: <em>"Rachel Bennett, 35 to 44, North America. Working mother balancing a full time job, two school age children, and a tight household budget. Price sensitive and pragmatic."</em> Behind that summary sit hundreds of filled attributes that shape how she behaves in a study.</p>
+
+      <p>The population is built in two complementary ways.</p>
+
+      <p><strong>Some personas are grounded in real people's traces.</strong> About 600,000 of the released records were extracted from public sources: Wikipedia biographies, Amazon review histories, the Stack Overflow Developer Survey, the General Social Survey, the PRISM Alignment study, and 355 volunteers who filled out the MatrAIx Persona Survey themselves. Every record is stripped of names and contact details. What remains is the shape of a real life: what this person knows, values, buys, and struggles with.</p>
+
+      <p><strong>The rest are synthesized, carefully.</strong> You cannot just roll dice for each attribute independently, or you get a retired surgeon who is also 19 years old. MatrAIx samples each attribute in a way that respects how attributes depend on each other, using published population statistics. Someone's education level depends on their age. Their English proficiency depends on their region and first language. Impossible combinations are filtered out, while merely unusual ones are kept, because real populations contain unusual people. The web of dependencies behind that sampling covers all 1,290 attributes, and the paper draws it in full:</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-dependency-graph.jpg" alt="The full dependency graph over 1,290 persona attributes: colored dots arranged in 44 category lanes, connected by a haze of gray dependency threads" style="width:100%;border:1px solid var(--line);border-radius:8px;background:#fff" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">The web the sampler walks, from the paper. Every dot is one of the 1,290 attributes, grouped into 44 category lanes; every gray thread connects an attribute to one it is sampled from. Bigger dots are connected to more attributes.</figcaption>
+      </figure>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-persona-world.png" alt="The Persona World interface showing persona cards and a three step overlay: persona extraction, synthetic generation, and Persona World" style="width:100%;border:1px solid var(--line);border-radius:8px" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">Persona World, the browser for the population. Each card is one persona; the overlay shows the two construction paths that feed it.</figcaption>
+      </figure>
+
+      <p>From the full 8.3 billion records, we released a quality filtered set of about one million personas, roughly 600,000 grounded and 400,000 synthetic, as the public <a href="https://huggingface.co/datasets/MatrAIx2026/MatrAIx_Persona_1M">Persona 1M dataset</a> for research use.</p>
+
+      <h2>4. Four kinds of studies</h2>
+
+      <p>Different product questions need different settings, so the Playground offers four environments that a persona agent can act in.</p>
+
+      <div class="path-grid">
+        <section class="path-card">
+          <span>Type I</span>
+          <h3>Survey</h3>
+          <p>Personas answer questionnaires and explain their reasoning. Would this cohort still buy a 12 pack after a $2 price increase? How many would try a new sneaker concept?</p>
+        </section>
+        <section class="path-card">
+          <span>Type II</span>
+          <h3>AI Chatbot</h3>
+          <p>Personas hold real conversations with an assistant or support bot. Do users keep going after the bot gives a wrong answer and corrects itself? How much does a slow reply hurt satisfaction?</p>
+        </section>
+        <section class="path-card">
+          <span>Type III</span>
+          <h3>Web</h3>
+          <p>Personas browse actual websites, searching, comparing, and choosing. Can a shopper on a tight budget find a laptop they trust, and how long does it take them?</p>
+        </section>
+        <section class="path-card">
+          <span>Type IV</span>
+          <h3>App</h3>
+          <p>Personas operate desktop and mobile apps with mouse, keyboard, and touch. Can users discover a new feature? Can they find and change their privacy settings?</p>
+        </section>
+      </div>
+
+      <p>Setting up a study takes three choices: who takes part, what they try to do, and what counts as success. The Playground keeps a record of all three, so a study can be rerun after you change your product and the results compared fairly.</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-study-setup.png" alt="The Playground study setup screen: a persona catalog on the left, the price study question in the center, and a task catalog on the right" style="width:100%;border:1px solid var(--line);border-radius:8px" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">Configuring the soda price study: the cohort on the left, the decision to test in the center, and reusable task templates on the right. Interface shown with illustrative data.</figcaption>
+      </figure>
+
+      <h2>5. What comes back</h2>
+
+      <p>Each trial is recorded in full: the persona, the conversation or click path, the outcome, and an automatic check of whether the task's requirements were met. On top of those individual records, MatrAIx builds a population report: the headline number, how it splits across groups, and a table where every single response can be opened and read.</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-chat-evaluation.png" alt="A simulated focus group in the Playground: five personas react to the same AI counselor reply while a scorecard rates the reply on listening, boundaries, and human support" style="width:100%;border:1px solid var(--line);border-radius:8px" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">A simulated focus group. Five personas saw the same AI counselor reply; their reactions differ, and the scorecard on the right grades the reply itself. Interface shown with illustrative data.</figcaption>
+      </figure>
+
+      <p>The point of the report is not one number. It is the differences underneath. Take the report's meal planning study: 1,000 personas per AI model each asked the same assistant for a meal plan tailored to their needs, in conversations averaging about seven turns, and then rated how likely they were to follow it. Empty nesters said they would follow their plan far more often than people in the middle of a career change, 66% against 46%. The report keeps the fine print attached: none of these gaps stayed statistically significant after correction, so they are leads for a larger study, not settled facts.</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-meal-associations.png" alt="A dot plot of 82 persona attributes grouped into six families, showing the strength of association with the most common answer; subject specialty, role function, and company size are labeled as strongest" style="width:100%;border:1px solid var(--line);border-radius:8px;background:#fff" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">From the meal planning analysis in the paper: how strongly each of 82 persona attributes was associated with giving the most common answer to the follow-the-plan question. Each dot is one attribute; the three strongest signals are labeled. The paper reports these as descriptive differences, not confirmed persona effects.</figcaption>
+      </figure>
+
+      <p>Aggregate scores hide exactly this kind of structure, and it is often where the product decision lives.</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-population-report.png" alt="A population report for the price study: 61 percent would still buy, with intent distributions, decision drivers, and a table of individual verified responses" style="width:100%;border:1px solid var(--line);border-radius:8px" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">The population report for the price study: the headline answer, what drove decisions, and each individual response underneath, ready to audit. Interface shown with illustrative data.</figcaption>
+      </figure>
+
+      <h2>6. Can you trust simulated people?</h2>
+
+      <p>Only as far as you check them, which is why a large part of the report is validation. Three results matter most.</p>
+
+      <p><strong>Personas stay in character.</strong> We ran a controlled study of 400 trials across ten behavioral traits and all four environments. A persona assigned "impatient," for example, should act impatient, and a persona assigned the opposite should not. The assigned behavior showed up, or was correctly absent, in 366 of 400 trials, or 91.5%. Surveys, conversations, and web browsing were the easier settings, with 92% to 96% of trials succeeding; operating full desktop apps was the hardest, at 83%.</p>
+
+      <figure style="margin:40px 0">
+        <img src="../Assets/media/persona-8b/persona8b-adherence-heatmap.png" alt="A heatmap of ten behavioral traits by four environments, with most cells at 9 or 10 out of 10 successful trials" style="width:100%;border:1px solid var(--line);border-radius:8px;background:#fff" />
+        <figcaption class="figure-note" style="text-align:center;margin-top:12px">The controlled adherence study from the paper: ten traits, from humor, politeness, and storytelling to code commenting style, each tested ten times in every environment. A cell reads 10/10 when all five personas assigned the trait expressed it and all five assigned its opposite correctly did not.</figcaption>
+      </figure>
+
+      <p><strong>Extracted personas match their sources.</strong> Six human raters reviewed personas extracted from real material against the original sources and scored their quality at 4.135 out of 5 on average. Two AI judges scored the full set of 1,000, and their ratings tracked the human ones closely.</p>
+
+      <p><strong>Findings hold across AI models.</strong> Persona agents were powered by three different models: Claude Opus 4.8, GPT 5.5, and Claude Haiku 4.5. Where a persona trait had a clear connection to the task, all three models recovered the same group ordering. The clearest case was a financial research task in which every persona carried an assigned trust orientation, from hostile to trusting.</p>
+
+      <div class="quote-card">Simulated users are not a replacement for real ones. They are a way to find problems earlier, more often, and across far more kinds of people than any recruited panel can cover. Simulate before reality, then validate against reality.</div>
+
+      <p>The report is equally direct about limits. Simulated personas are imperfect models of human behavior. Important findings should be checked with more than one AI model, traced back to the underlying interactions, and confirmed with real humans before they drive consequential decisions.</p>
+
+      <h2>7. Try it</h2>
+
+      <p>Everything described here is public. You can browse the population and run a study yourself:</p>
+
+      <ul>
+        <li><a href="https://arxiv.org/pdf/2608.04205" target="_blank" rel="noopener">arXiv paper</a>, the full paper this post summarizes.</li>
+        <li><a href="/playground/">The MatrAIx Playground</a>, where the studies in this post were configured and run.</li>
+        <li><a href="/personas/">Persona World</a>, the browser for the persona population.</li>
+        <li><a href="https://huggingface.co/datasets/MatrAIx2026/MatrAIx_Persona_1M">Persona 1M on Hugging Face</a>, the released dataset of about one million personas.</li>
+        <li><a href="missing-human-layer.html">Our position paper</a>, on why human simulation is the next step for AI agents.</li>
+      </ul>
+
+      <p class="method-note"><strong>Evidence note.</strong> This post summarizes the MatrAIx technical report <a href="https://arxiv.org/pdf/2608.04205" target="_blank" rel="noopener">"Simulating the World with 8.3 Billion Persona Agents"</a> for a general audience. All numbers are quoted from the report: 8.3 billion records, 1,290 attributes, 1,010 tasks, 18,189 trials, the 400 trial adherence study (91.5%), and the extraction quality ratings (4.135/5). The Playground screenshots show the product interface with illustrative data; the charts are reproduced directly from the report's figures; the demo video shows a live run.</p>
+    </article>
+  </main>
+
+  <footer><p><a href="/">Home</a> · <a href="/research/">Research</a> · <a href="/personas/">Personas</a> · <a href="/applications/">Applications</a> · <a href="/playground/">Playground</a> · <a href="/community/">Community</a> · <a href="/community/#contact">Contact</a></p><p style="margin-top:14px">SIMULATE BEFORE REALITY · © 2026 MATRAIX</p></footer>
+  <script src="../js/site-performance.js?v=1"></script>
+  <script src="../js/blog-post.js?v=7"></script>
+  <script>(function(){const toggle=document.querySelector('.nav-toggle'),nav=document.querySelector('header nav');if(!toggle||!nav)return;toggle.addEventListener('click',()=>nav.classList.toggle('active'));nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>nav.classList.remove('active')));})();</script>
+</body>
+</html>

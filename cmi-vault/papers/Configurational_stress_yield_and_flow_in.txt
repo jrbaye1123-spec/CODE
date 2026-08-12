@@ -1,0 +1,1334 @@
+10.1098/rspa.2001.0786
+
+Conﬁgurational stress, yield and ﬂow in
+rate-independent plasticity
+By Paolo Cermelli1 , E l i o t F r i e d2 a n d S h a u n Sellers3
+1
+
+Dipartimento di Matematica, Università di Torino,
+Via Carlo Alberto 10, 10123 Torino, Italy
+2
+Department of Theoretical and Applied Mechanics,
+University of Illinois at Urbana-Champaign,
+Urbana, IL 61801-2935, USA
+3
+Department of Geological Sciences, University College London,
+Gower Street, London WC1E 5BT, UK
+Received 17 April 2000; revised 10 November 2000; accepted 22 January 2001
+
+The role of conﬁgurational stress in yield and plastic ﬂow is discussed for a macroscopic model of rate-independent, ﬁnite-strain plasticity. The model is based on
+the traditional elastic-plastic decomposition of the deformation gradient, on integral balance laws and on thermodynamically restricted, rate-independent constitutive relations. Its formulation emphasizes the intermediate conﬁguration in both the
+development of constitutive relations and the expression of balance laws. In addition to the usual balance laws, a couple balance is included to represent the action
+of plastic couples in the intermediate conﬁguration. In particular, it is shown that
+the internal couple decomposes into a non-dissipative conﬁgurational stress and a
+dissipative couple that resists plastic ﬂow. The couple balance thus determines a
+relation between the conﬁgurational stress and the plastic-ﬂow resistance, a relation
+that can be interpreted as a generalized yield condition. A dissipation function is
+introduced and a maximum-dissipation criterion is used to obtain additional constitutive restrictions, which lead to a counterpart in the intermediate conﬁguration
+of the classical normality conditions. The versatility of the framework is illustrated
+by applying it to rigid-plastic ﬂow, in which case a nonlinear generalization of the
+classical Lévy–von Mises theory is obtained.
+Keywords: conﬁgurational forces; rate-independent plasticity; yield condition;
+ﬂow rule; normality condition; maximum-dissipation criterion
+
+1. Introduction
+Conﬁgurational forces† have played a signiﬁcant role in the description of material inhomogeneities such as defects, cracks and phase interfaces (see, for example,
+Abeyaratne & Knowles 1990; Cherepanov 1967; Eshelby 1951, 1956, 1970; Fried &
+Gurtin 1996, 1999; Gurtin 1995, 1999; Heidug & Lehner 1985; Kienzler & Herrmann
+2000; Maugin 1993; Peach & Koehler 1950; Rice 1968; Simha & Bhattacharya 1998;
+Truskinovsky 1987). As plastic ﬂow is typically associated with the formation and
+† Conﬁgurational forces are also referred to as Eshelby forces, accretive forces and material forces.
+c 2001 The Royal Society
+
+
+Proc. R. Soc. Lond. A (2001) 457, 1447–1467
+
+1447
+
+1448
+
+P. Cermelli, E. Fried and S. Sellers
+
+motion of material inhomogeneities, it is natural to expect that conﬁgurational forces
+should be of similar importance in the description of plasticity. Here, we investigate
+the role of conﬁgurational forces in a nonlinear theory for rate-independent plasticity.
+Our formulation is based on the traditional elastic-plastic decomposition of the
+deformation gradient (Bilby et al . 1957; Kröner 1960; Lee 1969) and on integral forms
+of balance laws supplemented with rate-independent constitutive relations restricted
+by a dissipation inequality. In contrast to standard treatments of rate-independent
+plasticity (Besseling & van der Giessen 1994; Hill 1950; Kachanov 1974; Mandel
+1971; Maugin 1992; Prager 1959), we do not introduce a yield condition. Instead, we
+postulate an additional balance law. This alternative formulation is motivated by the
+following microstructural considerations. Since the early work of Ewing & Rosenhain
+(1899a, b, 1900), metal plasticity has commonly been attributed to crystallographic
+slip, a view that was supported by the extensive and detailed experiments performed
+by Taylor & Elam (1923, 1925). Later, Orowan (1934), Polanyi (1934) and Taylor
+(1934a, b) interpreted crystallographic slip in terms of the motion of dislocations.
+Recent continuum theories of dislocated crystals, however, have indicated the need
+for additional forces or couples subject to ancillary balance laws (Cermelli & Sellers
+1998, 2000; Gurtin 2000; Le & Stumpf 1996; Naghdi & Srinivasa 1993a, b, 1994a, b).
+For example, tensorial measures of dislocation density have been introduced and
+related to higher gradients of the strain, leading naturally to higher-order stresses.
+For crystalline solids, these additional forces can be viewed as acting in the intermediate conﬁguration, where they drive the motion of the dislocations. Motivated by
+such theories, we introduce macroscopic couples that act in the intermediate conﬁguration to drive plastic ﬂow. These couples are subject to a macroscopic couple
+balance. Although our motivation stems directly from considerations of a particular
+type of line defect in crystalline lattices, we view this additional balance as a basic
+law that governs general plastic degrees of freedom and holds whenever the elasticplastic decomposition is introduced. Because our objective is a theory that describes
+macroscopic plasticity in a broad range of materials, we formulate it independently
+of speciﬁc microstructural considerations.
+Restricting our attention to the particular case of rate-independent constitutive
+relations, we employ ideas introduced by Gurtin (2000) to show that the internal
+couple can be decomposed into two terms: a non-dissipative conﬁgurational stress
+and a dissipative couple that resists plastic ﬂow. The couple balance then shows that
+the second of these terms sets a critical threshold strength for plastic ﬂow, which
+suggests an identiﬁcation between the plastic-ﬂow resistance and the conﬁgurational
+yield stress acting in the intermediate conﬁguration. We thus interpret the couple
+balance as a generalized yield condition, a condition relating the conﬁgurational
+stress acting in the intermediate conﬁguration directly to the plastic-ﬂow resistance.
+Most importantly, this yield condition is, in contrast to conventional theories for
+plasticity that pose a yield condition as an independent constitutive postulate, a
+derived consequence of our theory.
+In conjunction with appropriately restricted constitutive relations, the couple balance provides the set of conﬁgurational stresses at which yield occurs. More classical
+approaches typically assume, however, that this set corresponds to a convex surface
+in an appropriate stress space. Further, this yield surface is taken as the boundary
+of a level set of a yield function that typically characterizes the elastic region of
+stresses, and the plastic ﬂow tensor is assumed to be normal to the yield surface.
+Proc. R. Soc. Lond. A (2001)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1449
+
+But convexity and a simple, closed yield surface with a normality condition in the
+space of conﬁgurational stresses are not automatic consequences of our general theory. However, by introducing additional hypotheses that restrict the generality of
+our theory, we can obtain, for the intermediate conﬁguration, a corresponding version of these classical results. Speciﬁcally, we introduce a dissipation function for the
+dissipation relative to the intermediate conﬁguration and assume that it depends on
+the elastic component of the deformation gradient and on the plastic ﬂow tensor.
+Further, we invoke a criterion of maximum dissipation (von Mises 1928; Hill 1948;
+Lubliner 1984; Rajagopal & Srinivasa 1998; Ziegler 1963) as a restriction on allowable processes. The maximum-dissipation criterion requires the dissipation function
+to be convex and restricts the region of elastic conﬁgurational stresses to a convex set
+corresponding to a subdiﬀerential† of the dissipation function. It also requires that
+the conﬁgurational yield stress belongs to the relative boundary of the subdiﬀerential
+and, hence, to be normal to a level set of the dissipation function. Inversion of these
+relations results in a corresponding normality condition for the plastic-ﬂow tensor, a
+condition that requires that the plastic-ﬂow tensor belongs to a normal cone at the
+boundary of the elastic region. Granted that the dissipation function is non-vanishing
+for non-vanishing values of the plastic-ﬂow tensor, we also construct a conventional
+scalar yield condition and use this condition to determine a ﬂow rule governing the
+evolution of the plastic component of the deformation gradient. For brevity and clarity, we do not address the potentially interesting problem of transforming our general
+tensorial yield condition to a condition in strain space. This problem is discussed by
+Casey & Naghdi (1983) for the case of a scalar yield condition.
+In our formulation, the intermediate conﬁguration has a prominent role in both
+the development of constitutive relations and the expression of the balance laws.
+The use of such an intermediate conﬁguration provides a consistent and systematic
+procedure for generating equations in nonlinear settings, as well as a direct physical
+interpretation of the relevant quantities (Hoger 1997). To illustrate this approach,
+we consider the case of rigid-plastic ﬂow, which leads to a nonlinear generalization
+of the classical Lévy–von Mises theory (Lévy 1871; von Mises 1913, 1928). While the
+equations that emerge under these assumptions are well known (see, for example,
+Besseling & van der Giessen 1994; Maugin 1992), our formulation and interpretations
+are novel.
+Finally, in our approach the conﬁgurational stress is a derived quantity which arises
+from rewriting the dissipation relative to the intermediate conﬁguration. We show
+that our theory is also consistent with a counterpart of the recent formulation of
+conﬁgurational stress introduced by Gurtin (1995, 1999). This alternative procedure
+rests on the imposition of an ancillary conﬁgurational force balance and on accounting for the power expended by conﬁgurational forces. This procedure avoids both the
+introduction of constitutive equations and the smoothness assumptions tacit in the
+traditional variational approach. In our case, however, requiring that the dissipation
+be invariant leads to an expression for the conﬁgurational stress that, granted conventional constitutive relations, coincides with the classical Eshelby relation relative
+to the intermediate conﬁguration and, thus, supports our view that plastic couples
+act in the intermediate conﬁguration.
+† The use of subdiﬀerentials allows for non-smooth dissipation functions, which arise, for instance, in
+the description of materials that display Tresca-like yield behaviour.
+Proc. R. Soc. Lond. A (2001)
+
+1450
+
+P. Cermelli, E. Fried and S. Sellers
+
+We consistently use direct notation (Gurtin 1981). Furthermore, we work in a
+context that allows for ﬁnite strains and rotations, but we avoid, for simplicity,
+discussion of a hardening equation.
+
+2. Elastic-plastic decomposition
+We consider a body identiﬁed with the region B of space that it occupies in a ﬁxed
+reference conﬁguration. A deformation of B is a mapping of points x in B and time t
+into points y(x, t) of space. We write F = Grad y for the deformation gradient and
+use the conventional multiplicative decomposition (Lee 1969)
+F = Fe Fp
+
+(2.1)
+
+of F into elastic and plastic components Fe and Fp . We assume that neither Fe nor
+Fp is the gradient of a deformation. In the case of a single crystal, the elastic component Fe of F typically reckons the deformation of the lattice, whereas the plastic
+component Fp of F reckons the deformation due to dislocations (Bilby et al . 1957;
+Kröner 1960). Generally, Fp can be viewed as a mapping that takes vectors in the reference conﬁguration into vectors in the intermediate conﬁguration, whereas Fe takes
+vectors in the intermediate conﬁguration into vectors in the current conﬁguration.†
+Associated with the tensors Fe , Fp and F , we introduce the determinants
+Je = det Fe ,
+
+Jp = det Fp
+
+and
+
+J = det F = Je Jp .
+
+(2.2)
+
+As is standard, we interpret J, Jp and Je as the relative volume changes between
+the corresponding conﬁgurations. All three determinants are required to be strictly
+positive.
+Theories for dislocated single crystals typically identify the rate Ḟp at which the
+plastic component Fp of the deformation gradient changes with respect to time, with
+the dislocation ﬂux measured relative to the reference conﬁguration (Fox 1966; Le
+& Stumpf 1996). Correspondingly, we view Ḟp as an additional, generalized velocity
+associated with the plastic degrees of freedom introduced by the decomposition (2.1).
+Alternatively, the plastic-ﬂow tensor (also known as the plastic-distortion rate)
+Lp = Ḟp Fp−1
+
+(2.3)
+
+provides an equivalent generalized velocity ﬁeld measured relative to the intermediate
+conﬁguration. As such, it will prove convenient to use this tensor when formulating
+constitutive relations relative to the intermediate conﬁguration.
+Using (2.3) and (2.1), the velocity gradient Ḟ = Grad ẏ is related to the plastic-ﬂow
+tensor Lp by Ḟ F −1 = Ḟe Fe−1 + Fe Lp Fe−1 . Given the plastic-ﬂow tensor Lp , we note
+that the plastic component Fp of the deformation gradient F can be reconstructed
+by solving the diﬀerential system
+Ḟp = Lp Fp ,
+
+(2.4)
+
+subject to initial conditions for Fp . In conjunction with a constitutive relation for
+Lp , such a kinematic relation can be used to obtain a nonlinear plastic-ﬂow rule.
+† Although the decomposition (2.1) is common in plasticity, there is no universal agreement concerning it. For alternative perspectives, see, for example, Davini & Parry (1989, 1991) and Casey (1998).
+Proc. R. Soc. Lond. A (2001)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1451
+
+3. Basic laws
+Our theory rests on the standard balances of force and torque, which represent the
+eﬀect of forces acting in the current conﬁguration, and an additional balance of couples, which represents the eﬀect of the generalized forces that act in the intermediate
+conﬁguration. In addition, we impose an energy imbalance, which, in our purely
+mechanical theory, represents the ﬁrst and second laws of thermodynamics.†
+(a) Force balance. Torque balance
+We introduce the ﬁrst Piola–Kirchhoﬀ stress TR and the external body-force density bR and enforce the conventional force and torque balances by requiring that
+
+
+TR n da +
+bR dv = 0
+(3.1)
+∂P
+
+and
+
+P
+
+
+
+
+
+∂P
+
+(y − 0) × TR n da +
+
+P
+
+(y − 0) × bR dv = 0
+
+(3.2)
+
+for all parts P of B and all time, where n is the outward unit normal to ∂P. We
+allow for inertia in the above by including the inertial contribution in the body-force
+density bR . Since P is arbitrary, these balances have equivalent local forms:
+Div TR + bR = 0
+
+and TR F T = F TRT .
+
+(3.3)
+
+The forces TR n and bR act in the current conﬁguration, but are deﬁned, respectively, on surfaces and volumes in the reference conﬁguration. We use the subscript
+R to denote such measurements relative to the reference conﬁguration.
+(b) Couple balance
+We introduce an internal-couple density MRint and an external-couple density
+MRext , both of which act power-conjugate to the plastic-strain rate Ḟp , and enforce
+a couple balance by requiring that
+
+(MRint + MRext ) dv = 0
+(3.4)
+P
+
+for all parts P of B and all time. Since P is arbitrary, this balance has the equivalent
+local form
+MRint + MRext = 0.
+(3.5)
+The couple densities MRint and MRext act in the intermediate conﬁguration to
+induce plastic ﬂow in the material, but are deﬁned on volumes measured relative to
+the reference conﬁguration. In terms of a microstructural model where plastic ﬂow
+is associated with the motion of dislocations through a lattice, the couple densities
+can be envisaged as forces acting on dislocations.
+The integral balance law (3.4) and its local equivalent (3.5) correspond to the
+special case of a general couple balance that arises on neglecting surface couples. As
+† Again, there is no universal agreement about the role of the second law in plasticity. For alternative
+points of view, see Bridgman (1950), Casey (1998) and Green & Naghdi (1965).
+Proc. R. Soc. Lond. A (2001)
+
+1452
+
+P. Cermelli, E. Fried and S. Sellers
+
+such, no additional boundary conditions are required. They also correspond, in the
+context of dislocation models, to the additional balance laws introduced by Cermelli
+& Sellers (1998, 2000), Gurtin (2000), Le & Stumpf (1996) and Naghdi & Srinivasa
+(1993a, b, 1994a, b).
+(c) Power
+We view ẏ as a velocity associated with the current conﬁguration and Ḟp as a
+velocity associated with the intermediate conﬁguration. In accordance with the view
+that the conventional forces in (3.3) act in the current conﬁguration to induce a
+macroscopic motion, whereas the couple densities in (3.5) act in the intermediate conﬁguration to induce plastic ﬂow, the net working W(P) associated with the agencies
+acting external to a region P in B is simply
+
+
+W(P) =
+TR n · ẏ da + (bR · ẏ + MRext · Ḟp ) dv.
+(3.6)
+∂P
+
+P
+
+Using the force and couple balances (3.3)1 and (3.5) along with the decomposition
+(2.1), we arrive at the power identity
+
+W(P) =
+((TR FpT ) · Ḟe − (MRint − FeT TR ) · Ḟp ) dv.
+(3.7)
+P
+
+(d ) Energy imbalance. Dissipation
+Restricting our attention to purely mechanical processes, we introduce the energy
+density ψR and the dissipation density δR , both of which are measured per unit
+referential volume, and impose energy imbalance by requiring that
+ ˙
+
+δR dv = W(P) −
+ψR dv ⩾ 0
+(3.8)
+D(P) =
+P
+
+P
+
+for all parts P of B and all time.† Bearing in mind the power identity (3.7) and the
+arbitrary nature of P, this imbalance has the equivalent local form
+δR = −ψ̇R + (TR FpT ) · Ḟe − (MRint − FeT TR ) · Ḟp ⩾ 0.
+
+(3.9)
+
+4. Energy imbalance in terms of objects deﬁned
+on intermediate conﬁguration
+It is convenient to reformulate the basic equations in terms of quantities measured
+in the intermediate conﬁguration associated with the elastic-plastic decomposition
+(2.1). Recalling that Jp = det Fp , we introduce the intermediate free-energy density
+ψI = Jp−1 ψR ,
+
+(4.1)
+
+which measures the energy density, per unit volume, in the intermediate conﬁguration. Analogously, we introduce intermediate counterparts
+TI = Jp−1 TR FpT
+
+and MIint = Jp−1 MRint FpT
+
+(4.2)
+
+† Note that any inertial contribution to (3.8) would be included in the work done by the external
+supplies, due to the inclusion of the inertial terms in the external supplies.
+Proc. R. Soc. Lond. A (2001)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1453
+
+of the Piola–Kirchhoﬀ stress TR and the internal-couple density MRint , which represent, respectively, the force acting in the current conﬁguration per unit area of
+the intermediate conﬁguration, and the couple density acting in the intermediate
+conﬁguration per unit volume of the intermediate conﬁguration.
+By (4.1),
+ψ̇R = Jp ψ̇I + J˙p ψI = Jp ψ̇I + Jp (1 · Lp )ψI ,
+so that, using (4.2), we obtain
+δR = Jp (−ψ̇I + TI · Ḟe − (MIint + ψI 1 − FeT TI ) · Lp ).
+
+(4.3)
+
+Thus, introducing the intermediate dissipation density
+δI = Jp−1 δR ,
+
+(4.4)
+
+which measures the dissipation density per unit volume of the intermediate conﬁguration, and recalling that Jp > 0, we ﬁnd that
+δI = −ψ̇I + TI · Ḟe − (MIint + ψI 1 − FeT TI ) · Lp ⩾ 0.
+
+(4.5)
+
+CI = ψI 1 − FeT TI
+
+(4.6)
+
+The tensor
+
+appearing in (4.5) can be recognized as the conﬁgurational stress (Eshelby 1951)
+associated with deformations relative to the intermediate conﬁguration. This observation is of fundamental importance in the further development of our theory.
+On writing
+YI = −(MIint + CI ),
+(4.7)
+the dissipation inequality (4.5) becomes
+δI = −ψ̇I + TI · Ḟe + YI · Lp ⩾ 0,
+
+(4.8)
+
+which suggests an interpretation of YI as a plastic couple that acts in the intermediate
+conﬁguration and expends power in conjunction with plastic ﬂow. We view YI as a
+quantity basic to the description of plastic ﬂow.
+In particular, when the external-couple density MRext vanishes, so that, by the
+couple balance (3.5), the internal-couple density MRint vanishes as well, (4.7) yields
+YI = −CI . Thus, in the absence of external couples, the plastic couple YI and the
+negative conﬁgurational stress CI coincide.
+
+5. Constitutive theory
+The dissipation inequality (4.8) suggests a constitutive theory in which the energy
+density ψI , the stress TI , and the plastic couple YI are determined by the elastic
+component Fe of the deformation gradient and the plastic-ﬂow tensor Lp , namely
+ψI = ψ̃I (Fe , Lp ),
+
+TI = T̃I (Fe , Lp ),
+
+YI = ỸI (Fe , Lp ).
+
+(5.1)
+
+Here we are guided by the notion that constitutive quantities relative to the intermediate conﬁguration should, at the very least, depend upon the objects that characterize the deformation of the intermediate conﬁguration. The most basic of these
+objects are Fe , which describes the deformation of the intermediate conﬁguration to
+Proc. R. Soc. Lond. A (2001)
+
+1454
+
+P. Cermelli, E. Fried and S. Sellers
+
+the current conﬁguration, and Lp , which acts as a generalized velocity for the intermediate conﬁguration. For simplicity, we ignore explicit constitutive dependencies
+on other variables, including, in particular, Fp .
+The constitutive relations (5.1)1,2 determine an auxiliary constitutive relation
+CI = C̃I (Fe , Lp ) = ψ̃I (Fe , Lp )1 − FeT T̃I (Fe , Lp )
+
+(5.2)
+
+for the conﬁgurational stress CI . We allow the external ﬁelds bR and MRext to be
+assigned arbitrarily in any manner consistent with the balances (3.3) and (3.5).
+(a) Rate independence and its consequences
+A common experimental observation in some materials, however, is an insensitivity
+to ﬂow rate in the material response. To capture such rate independence within our
+framework, we allow for singularities in the dependence of the constitutive functions
+on Lp . Speciﬁcally, we assume the following hypotheses:
+(H1) ψ̃I and T̃I are continuous for all pairs (Fe , Lp ); ψ̃I is smooth in Fe ; and
+(H2) ỸI is bounded and continuous for Lp = 0.
+Since the term YI · Lp appears in the dissipation (4.8), YI must be well deﬁned
+when Lp = 0, which is guaranteed by (H2). Our assumptions, however, allow YI
+to be singular at Lp = 0. To have a physically meaningful theory consistent with
+singularities such as discontinuities at Lp = 0, we take YI to be constitutively indeterminate in this case. To motivate this choice, we observe that when Lp = 0, Fp is
+constant in time, so that the couple balance should provide no additional information. Consequently, we introduce the additional hypothesis that
+(H3) YI is constitutively indeterminate when Lp = 0 and, hence, is deﬁned via the
+couple balance (3.5) and the relation (4.7).
+Henceforth, we replace (5.1)3 with
+YI = ỸI (Fe , Lp ),
+
+for Lp = 0.
+
+(5.3)
+
+We now consider the consequences of imposing rate independence on the constitutive relations (5.1)1,2 and (5.3). Our procedure follows that presented by Gurtin
+(2000) closely.
+A change in time-scale is given by the transformation t → θt, with θ positive. We
+now assume that the constitutive relations (5.1)1,2 and (5.3) are rate independent in
+the sense that, for all positive θ,
+
+ψ̃I (Fe , Lp ) = ψ̃I (Fe , θLp ),
+
+
+(5.4)
+T̃I (Fe , Lp ) = T̃I (Fe , θLp ),
+
+
+ỸI (Fe , Lp ) = ỸI (Fe , θLp ), for Lp = 0.
+That is, we stipulate that ψ̃I , T̃I , and ỸI be homogeneous of degree zero in Lp .
+Assumption (H1) implies that
+lim ψ̃I (Fe , θLp ) = ψ̃I (Fe , 0).
+
+θ→0
+
+Proc. R. Soc. Lond. A (2001)
+
+(5.5)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1455
+
+However, granted rate independence, this must also equal ψ̃I (Fe , Lp ). It follows that
+the response function ψ̃I determining the intermediate free-energy density ψI reduces
+to a function of the elastic component Fe of the deformation gradient, namely
+ψI = ψ̃I (Fe ),
+
+(5.6)
+
+and an analogous assertion holds for T̃I .
+Next, when Lp = 0, rate independence implies that
+YI = ỸI (Fe , L̂p ),
+with
+L̂p =
+
+Lp
+,
+|Lp |
+
+|Lp | =
+
+
+tr(LT
+p Lp ),
+
+(5.7)
+(5.8)
+
+which shows that, for Fe ﬁxed, ỸI (Fe , ·) can be thought of as deﬁned on the unit
+sphere in the space Lin of second-order tensors.
+(b) Consequences of energy imbalance
+In view of the consequences (5.6) and (5.7) of rate independence, we insert the
+constitutive relations for ψI , TI and YI in the energy imbalance (4.8) and arrive at
+the functional inequality
+
+
+∂ ψ̃I (Fe )
+− T̃I (Fe ) · Ḟe − ỸI (Fe , L̂p ) · Lp ⩽ 0,
+(5.9)
+∂Fe
+where (H1) guarantees the diﬀerentiability of ψ̃I . Following the procedure founded
+by Coleman & Noll (1963), we postulate that all constitutive processes are consistent
+with the dissipation relation (5.9). The fact that there is a constitutive process where,
+at some point, Fe , Fp , Ḟe and Lp can be speciﬁed arbitrarily† implies that
+(i) the response functions ψ̃I and T̃I determining the free-energy density ψI and
+the stress tensor TI must be related through
+T̃I (Fe ) =
+
+∂ ψ̃I (Fe )
+;
+∂Fe
+
+(5.10)
+
+(ii) the response function ỸI , determining the plastic couple YI for Lp = 0, must
+comply with the residual inequality
+ỸI (Fe , L̂p ) · Lp ⩾ 0,
+
+(5.11)
+
+so that ỸI embodies the frictional resistance to plastic ﬂow.
+In view of the restrictions (5.6) and (5.10), the deﬁnition (5.2) of the auxiliary
+response function C̃I determining the conﬁgurational stress tensor CI becomes
+C̃I (Fe ) = ψ̃I (Fe )1 − FeT T̃I (Fe ).
+
+(5.12)
+
+† The presence of external supplies in the balance laws guarantees this arbitrariness. With (5.4) and
+its consequences (5.6) and (5.7), our treatment is conﬁned to rate-independent materials. An extension
+of our treatment to rate-dependent materials can be achieved following Gurtin (2000). An alternative
+approach, predicated on the provision of a scalar yield condition, is given by Green & Naghdi (1965).
+Proc. R. Soc. Lond. A (2001)
+
+1456
+
+P. Cermelli, E. Fried and S. Sellers
+
+Further, the intermediate dissipation density δI , as given by (4.8), reduces to
+δI = YI · Lp =
+
+ỸI (Fe , L̂p ) · Lp ⩾ 0,
+0,
+
+when Lp = 0,
+when Lp = 0.
+
+(5.13)
+
+Result (5.10) demonstrates that the stress TI arises in response to elastic distortions of the intermediate conﬁguration. In the absence of plastic ﬂow, (5.10) reduces
+to the usual expression for the Piola–Kirchhoﬀ stress. Further, by (4.7), the intermediate internal-couple density MIint is the sum of an equilibrium contribution −CI ,
+the negative intermediate conﬁgurational stress, and a dissipative contribution −YI ,
+the frictional resistance to plastic ﬂow. This result is particularly signiﬁcant, as (3.5)
+shows that the negative conﬁgurational stress balances the plastic-ﬂow resistance
+and external-couple density.
+Although the constitutive relations (5.1) are assumed to be independent of Fp ,
+as a consequence of (4.2), the Piola–Kirchhoﬀ stress TR and the internal-couple
+density MRint depend on both components Fe and Fp of the deformation gradient.
+This dependence on Fp is rather restrictive and arises from the transformation of
+quantities from the intermediate conﬁguration to the current conﬁguration. Relaxing our constitutive assumptions (5.1) to include Fp among the list of independent
+constitutive variables would allow for more general dependence on Fp .
+(c) Yield conditions
+The couple balance (3.5), the deﬁnition (4.7) of the dissipative couple YI , and the
+rate-independent constitutive relations yield
+C̃I (Fe ) = −ỸI (Fe , L̂p ) + MIext ,
+
+if Lp = 0,
+
+YI ≡ −C̃I (Fe ) + MIext ,
+
+if Lp = 0.
+
+(5.14)
+
+The distinction between (5.14)1 and (5.14)2 is important: the ﬁrst is a restriction on
+the manner in which plastic ﬂow may occur; the second is an identity that deﬁnes
+YI when there is no plastic ﬂow. This deﬁnition guarantees that the couple balance is automatically satisﬁed when there is no plastic ﬂow. On the other hand,
+(5.14)1 expresses the requirement that when C̃I (Fe ) = −ỸI (Fe , L̂p ) + MIext for every
+Lp = 0, then plastic ﬂow cannot occur. Thus (5.14)1 serves as a criterion for plastic ﬂow, which allows us to interpret (5.14)1 as a (tensorial) yield condition for the
+intermediate conﬁgurational stress CI .
+We have allowed for an inertial contribution to the external-couple density MRext ,
+so that (5.14)1 shows that inertia can also contribute to the yield condition. For most
+problems of physical importance, however, MRext is negligible or, indeed, zero. For
+the remainder of this paper, we assume that
+MRext = 0,
+
+(5.15)
+
+so that, bearing in mind (4.2)2 , (5.14) takes the form
+C̃I (Fe ) = −ỸI (Fe , L̂p ),
+
+if Lp = 0,
+
+YI ≡ −C̃I (Fe ),
+
+if Lp = 0.
+
+Proc. R. Soc. Lond. A (2001)
+
+(5.16)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1457
+
+Thus, ỸI provides the critical values of the conﬁgurational stress for plastic ﬂow to
+occur, which, given (5.15), allows us to identify the plastic-ﬂow resistance ỸI as the
+conﬁgurational yield stress. The relation (5.16)1 implicitly deﬁnes a subset of the
+set of stresses, namely the range of the function ỸI , which in the rate-independent
+case is the conﬁgurational-yield set. Without further restrictions on ỸI , this set is
+not necessarily a simple, closed surface.
+When (5.15) holds, it follows that the yield condition (5.16)1 is equivalent to
+T̃I (Fe ) = Fe−T (ψ̃I (Fe )1 + ỸI (Fe , L̂p )),
+
+(5.17)
+
+which provides a yield condition for the stress TI . Alternatively, by (4.1) and (4.2),
+C̃R (Fe , Fp ) = −Jp ỸI (Fe , L̂p )Fp−T ,
+T̃R (Fe , Fp ) = Jp Fe−T (ψ̃I (Fe )1 + ỸI (Fe , L̂p ))Fp−T .
+
+(5.18)
+
+Further, introducing the Cauchy stress T = J −1 TR F T , the yield condition becomes
+T̃ (Fe ) = Je−1 (ψ̃I (Fe )1 + Fe−T ỸI (Fe , L̂p )FeT ).
+
+(5.19)
+
+The symmetry of the Cauchy stress T = T T is a consequence of the torque balance
+(3.3)2 . When the external-couple density vanishes, (5.19) shows that the plastic-ﬂow
+resistance ỸI must obey the symmetry condition
+Fe−T ỸI (Fe , L̂p )FeT = Fe ỸIT (Fe , L̂p )Fe−1 .
+
+(5.20)
+
+When the conﬁgurational yield stress vanishes, the yield criterion (5.16)1 requires
+that the conﬁgurational stress also vanishes, so that by (5.19) the Cauchy stress is
+spherical. Thus the material cannot support shear stress and ﬂows to accommodate
+this requirement.
+
+6. Further restrictions
+In irreversible thermodynamic theories of plasticity it is common to introduce a function that constitutively speciﬁes the dissipation and that also serves as a potential
+for various dissipative quantities (see, for example, Ziegler 1963).† This raises the
+question of whether a corresponding result can be obtained within the framework of
+the theory developed here.
+Moreover, consider the constitutive relation
+YI =
+
+ỸI (Fe , L̂p ),
+indeterminate,
+
+when Lp = 0,
+when Lp = 0
+
+(6.1)
+
+for the dissipative couple and note that, to directly determine the plastic component
+Fp of the deformation gradient via the kinematic condition (2.4), it is desirable to
+deal instead with constitutive relations that express the plastic-ﬂow tensor Lp in
+terms of YI (and, thus, CI ). However, (6.1) cannot generally be inverted as it stands.
+These two points can be resolved by introducing some additional structure that
+reduces the generality of the theory. We now introduce a constitutive relation for the
+† Under these circumstances, the dissipation inequality (3.9) and, hence, the residual inequality (5.13)
+become equalities.
+Proc. R. Soc. Lond. A (2001)
+
+1458
+
+P. Cermelli, E. Fried and S. Sellers
+
+dissipation density relative to the intermediate conﬁguration and impose a maximumdissipation criterion as an additional restriction on allowable processes. The resulting
+restrictions make it possible to relate the dissipative couple to the dissipation function, and to invert (6.1) and, thereby, provide a ﬂow rule.
+(a) Dissipation function
+The quantity δI reckons the dissipation associated with plastic changes in the
+intermediate conﬁguration. We now assume that δI is determined by a constitutive
+response function δ̃I , namely
+(6.2)
+δI = δ̃I (Fe , Lp ),
+supplemental to those provided earlier. By (5.13), the dissipation function δ̃I must
+be consistent with the requirements
+δ̃I (Fe , Lp ) =
+
+ỸI (Fe , L̂p ) · Lp ,
+0,
+
+when Lp = 0,
+when Lp = 0.
+
+(6.3)
+
+By (H2), (5.4)3 and (6.3)1 , δ̃I (Fe , ·) is homogeneous of degree one and, thus, continuous at Lp = 0.
+Since the residual inequality (5.11) requires that δ̃I (Fe , Lp ) ⩾ 0 for all Fe and all
+Lp , δ̃I (Fe , ·) must, for each Fe , attain a minimum and be subdiﬀerentiable at Lp = 0.
+Hence, the subdiﬀerential
+∂ δ̃I (Fe , Lp ) = {A ∈ Lin : δ̃I (Fe , L) − δ̃I (Fe , Lp ) ⩾ A · (L − Lp ) ∀L ∈ Lin}
+
+(6.4)
+
+of δ̃I (Fe , ·) at Lp is a convex subset of Lin that is not empty when Lp = 0. For
+convenience, we write
+(6.5)
+E(Fe ) = ∂ δ̃I (Fe , 0)
+for the subdiﬀerential of δ̃I (Fe , ·) at Lp = 0.
+(b) Admissibility. Maximum-dissipation criterion
+Let a dissipation function δ̃I and a dissipative couple ỸI , consistent with (6.3), be
+given. For notational simplicity, we suppress constitutive dependencies on the elastic
+component Fe of the deformation gradient in what follows.
+We say that a process satisﬁes the maximum-dissipation criterion if, for all L ∈ Lin
+throughout that process,
+δ̃I (L) ⩾
+
+ỸI (L̂p ) · L,
+YI · L,
+
+for Lp = 0,
+for Lp = 0.
+
+(6.6)
+
+Imposing this admissibility criterion restricts the possible processes, even when Lp =
+0. To discern the nature of these restrictions, we henceforth require that all processes
+be consistent with (6.6).
+First, we show that the criterion (6.6) requires the dissipation function δ̃I to be
+convex. In fact, for Lp = 0, we have the stronger result δ̃I (Lp ) = Lp · ỸI (L̂p ), which,
+in conjunction with (6.6), implies that
+δ̃I (L) − δ̃I (Lp ) ⩾ (L − Lp ) · ỸI (L̂p ),
+Proc. R. Soc. Lond. A (2001)
+
+for all L,
+
+(6.7)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1459
+
+so that δ̃I is subdiﬀerentiable for Lp = 0. Moreover, it is trivially subdiﬀerentiable
+at Lp = 0 by (6.6), hence everywhere, and hence convex.
+Second, we show that (6.6) restricts the dissipative couple (6.1). In view of the
+deﬁnition (6.4) of the subdiﬀerential, the admissibility criterion (6.6) holds if and only
+if YI is an element of E. Also, when Lp = 0, (6.7) shows that ỸI (L̂p ) is in ∂ δ̃I (Lp ).
+Since, by theorem A 1 in the appendix, ∂ δ̃I (Lp ) is contained in the boundary ∂E of
+E, when restricted by (6.6), the expression (6.1) becomes the set-valued relation
+YI
+
+= ỸI (L̂p ) ∈ ∂E,
+∈ E,
+
+if Lp = 0,
+if Lp = 0.
+
+(6.8)
+
+Finally, given a convex and continuous response function δ̃I for the dissipation density
+δI , the criterion (6.6) and theorems A 1 and A 2 in the appendix imply the existence
+of a unique set-valued relation,
+YI
+
+= ∂ δ̃I (Lp ) ∈ ∂E,
+∈ E,
+
+if Lp = 0,
+if Lp = 0,
+
+(6.9)
+
+a restriction on any YI compatible with (6.6) and satisfying δ̃I (Lp ) = ỸI (L̂p ) · Lp
+when Lp = 0. The set E and its boundary ∂E correspond, respectively, to the elastic
+range and the yield surface of classical plasticity.
+In particular, when ỸI and δ̃I are smooth at Lp = 0, (6.8)1 and (6.9)1 are replaced
+by the stronger relation
+∂ δ̃I (Lp )
+YI = ỸI (L̂p ) =
+,
+(6.10)
+∂Lp
+which uniquely determines YI and requires it to be normal to the level sets of δ̃I .
+(c) Scalar yield condition
+We assume here that the dissipation function δ̃I obeys the strict inequality δ̃I (Lp ) >
+0 for all Lp = 0. Then, we say that a function f on Lin deﬁnes a scalar yield condition
+if
+f (YI ) =
+sup
+(YI · Lp ).
+(6.11)
+{Lp :δ̃I (Lp )⩽1}
+
+The function f is homogeneous of degree one. Further, as shown in the appendix,
+YI ∈
+
+E
+∂E
+
+if and only if f (YI )
+
+⩽1
+= 1,
+
+(6.12)
+
+so that the unit level set {YI ∈ Lin : f (YI ) = 1} of f coincides with ∂E.
+The introduction of a function f deﬁning a scalar yield condition makes it possible
+to write inverse constitutive relations that express Lp as a function of the yield stress
+YI . Speciﬁcally, by theorem A 2 in the appendix, if YI belongs to ∂E, there exists an
+Lp such that YI belongs to ∂ δ̃I (Lp ) and, again by theorem A 2, (X − YI ) · Lp ⩽ 0
+for all X in E, which is equivalent to the classical normality condition:
+Lp belongs to the normal cone to ∂E at YI .
+Proc. R. Soc. Lond. A (2001)
+
+(6.13)
+
+1460
+
+P. Cermelli, E. Fried and S. Sellers
+
+However, ∂E is the unit level set of the function f , and, by theorem 23.7 of Rockafellar
+(1970),
+(6.14)
+YI ∈ ∂ δ̃I (Lp ) =⇒ Lp ∈ λ∂f (YI )
+for some non-negative λ, which, if f is smooth, becomes
+YI = ỸI (L̂p ),
+
+for Lp = 0
+
+=⇒
+
+Lp = λ
+
+∂f (YI )
+.
+∂YI
+
+(6.15)
+
+Therefore, we ﬁnd the following counterpart to the classical normality rule
+Lp
+
+= 0,
+∈ λ∂f (YI ),
+
+if YI belongs to the interior of E,
+if YI belongs to ∂E,
+
+(6.16)
+
+expressing the plastic ﬂow in terms of the yield stress and representing a constitutive
+relation which is the inverse of (6.8). Moreover, when f is smooth, (6.16)2 can be
+replaced in accordance with (6.15) and combined with the kinematic condition (2.4)
+to give the ﬂow rule
+∂f (YI )
+Fp .
+(6.17)
+Ḟp = λ
+∂YI
+
+7. Example: rigid plastic
+We now specialize the preceding theory to the particular case of a rigid-plastic material. Since the elastic deformation is rigid, the elastic component of the deformation
+gradient is simply
+Je = 1,
+(7.1)
+Fe = Re ,
+with Re the elastic rigid-body rotation. Furthermore, we assume that the plastic
+deformation is incompressible, so that
+Jp = 1
+
+and
+
+tr Lp = 0.
+
+(7.2)
+
+An immediate consequence of the rigidity of the elastic deformation constraint (7.1)
+is that CI , although restricted to lie in the convex set E, is constitutively indeterminate. Thus, for non-zero plastic ﬂow, CI is determined by the yield condition (5.16)1 .
+Moreover, TI , T , TR and CR are all constitutively indeterminate, with TR and CR
+determined by the yield conditions (5.18) derived from the couple balance only when
+Lp = 0, and TI and T determined by the yield conditions (5.17) and (5.19), respectively. Further, the plastic-ﬂow constraint (7.2)2 implies that, for Lp = 0, the plasticﬂow resistance is constitutively determined only up to a spherical contribution with
+pressure π:
+(7.3)
+YI = −π1 + ỸI (L̂p ).
+Thus for rigid-plastic ﬂow, we only need to specify the dissipation function δ̃I and
+the deviatoric plastic-ﬂow resistance ỸI . And if the dissipation function is smooth
+for Lp = 0, then only the dissipation function needs to be speciﬁed.
+We consider the simple isotropic form
+δ̃I (Lp ) = k| sym Lp |,
+Proc. R. Soc. Lond. A (2001)
+
+(7.4)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1461
+
+with k a positive material constant. Then, for Lp = 0, condition (6.10) yields
+ỸI (L̂p ) =
+
+k
+sym Lp .
+| sym Lp |
+
+(7.5)
+
+In this case, YI is symmetric, so that the torque balance is automatically satisﬁed.
+It follows that (7.5) is equivalent to
+k = |ỸI (L̂p )|,
+
+(7.6)
+
+so that we can identify k with the magnitude of the conﬁgurational yield stress
+ỸI (Lp ), which is a material constant here. This corresponds to the usual von Mises
+yield condition, but is expressed in the intermediate conﬁguration. It is a consequence
+of the choice (7.4) for the dissipation function. Substituting (7.6) into the yield
+conditions (5.16)1 , (5.18) and (5.19), and using the constraints (7.1) and (7.2), we
+obtain
+
+k
+
+sym Lp ,
+CI = π1 −
+
+
+
+| sym Lp |
+
+
+
+
+k
+
+−T
+−T
+(sym Lp )Fp , 
+CR = πFp −
+
+
+| sym Lp |
+
+
+(7.7)
+k
+−T 
+
+
+TR = Re −p1 +
+sym Lp Fp ,
+
+| sym Lp |
+
+
+
+
+
+k
+T
+
+Re (sym Lp )R e , 
+T = −p1 +
+| sym Lp |
+with π and p constitutively indeterminate pressures that arise in response to the
+constraint expressed by (7.2). That π diﬀers from p is clear from (5.18)2 , which
+shows that TR accounts for the energy density of the reference state, a density that
+here—due to the rigidity of the elastic deformation—is an arbitrary constant.
+The plastic-ﬂow tensor Lp belongs to the normal cone to E at CI and is determined
+only up to a scalar multiple. Inversion of (7.5) yields Lp = λ(CI − 13 (tr CI )1), with
+λ non-negative. In conjunction with the kinematic condition (2.4), this leads to the
+rule
+(7.8)
+Ḟp = λ(CI Fp 13 (tr CI )Fp )
+for ﬁnite plastic ﬂow.
+The yield condition (7.7)4 for the Cauchy stress also implies that
+k = |T + p1|,
+
+(7.9)
+
+which corresponds to the classical von Mises yield condition for the deviatoric Cauchy
+stress. This relation shows how the constitutive parameter k could be experimentally
+determined. Note, however, that both p and T are constitutively indeterminate in
+this theory.
+The skew part skw Lp of Lp does not appear in this example, and, hence, is
+indeterminate. This is due to the particular choice of the dissipation function, which
+is independent of skw Lp . In this particular case, we may, without loss of generality,
+view Lp as symmetric.
+The equations resulting from this example provide a ﬁnite plastic-ﬂow version of
+the classical Lévy–von Mises theory (Lévy 1871; von Mises 1913, 1928), where the
+Proc. R. Soc. Lond. A (2001)
+
+1462
+
+P. Cermelli, E. Fried and S. Sellers
+
+elastic rotations are needed to satisfy objectivity. In contrast to classical plasticity,
+the stress relations (7.7) arise not from constitutive relations for the stresses (which,
+in the present setting, are constitutively indeterminate), but, rather, from the couple
+balance along with a constitutive relation ỸI for the deviatoric plastic-ﬂow resistance.
+
+8. Alternative view of the conﬁgurational stress
+The conﬁgurational stress CI deﬁned in (4.6) arises naturally on reckoning the dissipation relative to the intermediate conﬁguration. We now show that CI arises also in
+a counterpart, appropriate to our setting, of Gurtin’s (1995, 1999) theory of conﬁgurational forces. In particular, we introduce as primitive quantities a conﬁgurational
+stress CR and a conﬁgurational force fR and impose conﬁgurational force balance in
+the intermediate conﬁguration† by requiring that
+
+
+CR n da +
+fR dv = 0
+(8.1)
+∂P
+
+P
+
+for all parts P of B and all time, or, equivalently, that
+Div CR + fR = 0.
+
+(8.2)
+
+To obtain a representation for the conﬁgurational stress, we ﬁrst restate the basic
+laws, including the conﬁgurational balance, for a time-dependent subset Ωt (a migrating control volume) of the referential region B. In restating the balances, we are
+constrained by the requirement that their local forms agree with those obtained via
+the conventional setting of a time-independent, referential control volume. This is
+achieved by replacing P with Ωt in (3.1), (3.2), (3.4) and (8.1). In restating the
+energy imbalance, we must modify the working to account properly for the motion
+of ∂Ωt . Writing u for the velocity of ∂Ωt , we introduce the vector ﬁeld
+w = Fp u,
+
+(8.3)
+
+which represents the velocity of ∂Ωt in the intermediate conﬁguration. Writing ν
+for the outwardly directed unit normal vector to ∂Ωt , we view the conﬁgurational
+traction as a force that expends power in conjunction with the migration of ∂Ωt and,
+accordingly, identify w as the appropriate power-conjugate velocity. Further, since
+the traction TR ν on the boundary of a ﬁxed part P is power conjugate to the velocity
+ẏ, which is spatial in nature, we assume that the traction TR ν is power conjugate to
+the velocity ẏ + Fe w = ẏ + F u of the spatial image of the time-dependent surface
+∂Ωt . Thus, bearing in mind that material is added to Ωt only at its boundary ∂Ωt ,
+the power W(Ωt ) expended on Ωt by external agencies has the form
+
+
+(TR ν · (ẏ + Fe w) + CR ν · w) da +
+(bR · ẏ + MRext · Ḟp ) dv. (8.4)
+W(Ωt ) =
+∂Ωt
+
+Ωt
+
+In writing (8.4), we account for the power expenditures associated with all agencies
+acting external to Ωt . Our inclusion of the power expended by the external couple is
+† Without a global mapping to relate the reference and intermediate conﬁgurations, volume and
+surface integrals cannot be deﬁned in the intermediate conﬁguration, and we therefore formulate the
+conﬁgurational force balance in the reference conﬁguration. Notice that the notions of volume and area
+elements, being local, are still meaningful in the intermediate conﬁguration.
+Proc. R. Soc. Lond. A (2001)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1463
+
+analogous to the inclusion, in the work of Fried & Gurtin (1996, 1999) and Gurtin
+(2000), of the power expended by the external microforce. Given (8.4), the dissipation
+D(Ωt ) takes the form
+ ˙
+ψR dv,
+(8.5)
+D(Ωt ) = W(Ωt ) −
+Ωt
+
+which, since
+
+
+Ωt
+
+
+˙
+ψR dv =
+
+
+
+Ωt
+
+ψ̇R dv +
+
+∂Ωt
+
+ψR (F̂p−1 w) · ν da,
+
+can be rewritten as
+
+
+TR ν · ẏ da +
+(bR · ẏ + MRext · Ḟp ) dv
+D(Ωt ) =
+∂Ωt
+Ωt
+
+
+w · (CR + FeT TR − ψR Fp−T )ν da.
+ψ̇R dv +
+−
+Ωt
+
+∂Ωt
+
+(8.6)
+
+(8.7)
+
+We postulate that energy imbalance D(Ωt ) ⩾ 0 holds for all control volumes that,
+at a given time, coincide with Ωt . Thus, since only the ﬁnal term on the right-hand
+side of (8.7) depends on the velocity w, we must have
+
+w · (CR + FeT TR − ψR Fp−T )ν da = 0
+(8.8)
+∂Ωt
+
+for all w; since Ωt is arbitrary,
+w · (CR + FeT TR − ψR Fp−T )ν = 0
+for all vectors ν and w, whereby
+CR + FeT TR − ψR Fp−T = 0
+and we obtain the representation
+CR = ψR Fp−T − FeT TR
+
+(8.9)
+
+for the conﬁgurational stress CR . We emphasize that the representation (8.9) has
+been derived in the absence of any constitutive assumptions.
+In view of the arbitrary nature of Ωt , the force and couple balances (3.3)1 and
+(3.5), and the result (8.9), the requirement that D(Ωt ) ⩾ 0 for all Ωt is equivalent
+to the local ﬁeld inequality (3.9) obtained earlier. Further, the conﬁgurational balance (8.2), although stipulated a priori, is actually equivalent to the standard force
+balance (3.3)1 .
+More importantly, using the deﬁnitions (4.1), (4.2) and (4.6), we also obtain
+CI = Jp−1 CR FpT ,
+
+(8.10)
+
+whereby the stress CI , which arises naturally in the version of energy imbalance
+associated with the intermediate conﬁguration, coincides identically with the conﬁgurational stress deﬁned on the intermediate conﬁguration.
+P.C. was supported by the Italian MURST project ‘Metodi Matematici per la Scienza dei Materiali’, E.F. was supported by the US Department of Energy, and S.S. was supported in part by
+the EPSRC and the Isaac Newton Institute.
+Proc. R. Soc. Lond. A (2001)
+
+1464
+
+P. Cermelli, E. Fried and S. Sellers
+
+Appendix A.
+Here, we state and prove two elementary results (concerning the subdiﬀerential of
+a convex function) that are used in the preceding discussion, and also prove relation (6.12).
+Theorem A 1 (Euler’s theorem for convex homogeneous functions). If δ̃I
+is convex and homogeneous of degree one on Lin and YI is an element of E, then
+YI ∈ ∂ δ̃I (Lp )
+
+⇐⇒
+
+YI · Lp = δ̃I (Lp ).
+
+(A 1)
+
+Proof . First we note that, as a consequence of homogeneity, ∂ δ̃I (Lp ) is a subset
+of ∂ δ̃I (0) for any Lp = 0. Then, taking L = 0 in (6.4), we obtain YI · Lp ⩾ δ̃I (Lp ).
+However, replacing Lp by 0 and L by Lp in (6.4), we ﬁnd that YI · Lp ⩽ δ̃I (Lp ),
+and, since YI belongs to ∂ δ̃I (Lp ), it follows that YI · Lp = δ̃I (Lp ). On the other
+hand, by subtracting the identity YI · Lp = δ̃I (Lp ) from (6.4) computed at Lp = 0
+(which holds since YI is in E), we arrive, again, at (6.4). Thus, if YI · Lp = δ̃I (Lp ),
+
+then YI belongs to ∂ δ̃I (Lp ).
+Theorem A 2. For ﬁxed YI ∈ E the following assertions are equivalent:
+(i) there exists an Lp = 0 such that YI belongs to ∂ δ̃I (Lp );
+(ii) there exists an Lp = 0 such that (X − YI ) · Lp ⩽ 0 for all X in E; and
+(iii) YI is an element of ∂E.
+Before establishing theorem A 2, we observe that (iii) embodies the requirement
+that Lp belong to the normal cone to ∂E at YI .
+Proof . First, we note that (ii) is equivalent to (iii) as a consequence (Rockafellar
+1970) of the convexity of E. To show that (i) implies (ii), notice that, granted (i), it
+follows from (A 1) that YI · Lp = δ̃I (Lp ); thus, since X is in E, X · Lp ⩽ δ̃I (Lp ), and
+the assertion is proved. Finally, to show that (ii) implies (i), setting X in (ii) equal
+
+to ỸI (Lp ) gives YI · Lp = δ̃I (Lp ) and the proof follows from theorem A 1.
+We now give the proof of (6.12).
+Proof . To establish (6.12)1 , assume ﬁrst that YI belongs to E. Then, by (6.6),
+YI · Lp ⩽ δ̃I (Lp ) for any Lp , and thus YI · Lp ⩽ 1 for all Lp , such that δ̃I (Lp ) ⩽ 1.
+Conversely, assume that YI is not an element of E, so that there exists L such that
+YI · L > δ̃I (L). By the homogeneity of δ̃I , we may choose L such that δ̃I (L) = 1, and
+(6.12)1 follows. To establish (6.12)2 , assume ﬁrst that YI belongs to ∂E, so that, by
+(A 1), there exists Lp such that YI · Lp = δ̃I (Lp ). By the homogeneity of δ̃I , we may
+choose Lp such that δ̃I (Lp ) = 1, and, by (6.6) and (6.11), f (YI ) = 1. Conversely,
+assume that YI is not an element of ∂E (by (6.12)1 , we may take YI to be in E), so
+that for any Lp there exists an element X of E such that (X − YI ) · Lp > 0. Then,
+we must have YI · Lp < X · Lp , and, computing the supremum of YI · Lp over the
+
+set {Lp : δ̃I (Lp ) ⩽ 1}, we obtain (6.12)2 .
+Proc. R. Soc. Lond. A (2001)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1465
+
+References
+Abeyaratne, R. & Knowles, J. K. 1990 On the driving traction acting on a surface of strain
+discontinuity in a continuum. J. Mech. Phys. Solids 38, 345–360.
+Besseling, J. F. & van der Giessen, E. 1994 Mathematical modelling of inelastic deformation.
+London: Chapman & Hall.
+Bilby, B. A., Gardner, L. R. T. & Stroh, A. N. 1957 Continuous distributions of dislocations and
+the theory of plasticity. In Extrait des Actes du IXe Congrès Int. de Mécanique Appliquée,
+Brussels, pp. 35–44.
+Bridgman, P. W. 1950 The thermodynamics of plastic deformation and generalized entropy.
+Rev. Mod. Phys. 22, 56–63.
+Casey, J. 1998 On elasto-thermo-plastic materials at ﬁnite deformations. Int. J. Plasticity 14,
+173–191.
+Casey, J. & Naghdi, P. M. 1983 On the nonequivalence of the stress space and strain space
+formulations of plasticity theory. J. Appl. Mech. 50, 350–354.
+Casey, J. & Naghdi, P. M. 1992 A prescription for the identiﬁcation of ﬁnite plastic strain. Int.
+J. Engng Sci. 30, 1257–1278.
+Cermelli, P. & Sellers, S. 1998 On the nonlinear mechanics of bravais crystals with continuous
+distributions of defects. Math. Mech. Solids 3, 331–358.
+Cermelli, P. & Sellers, S. 2000 Multi-phase equilibrium of crystalline solids. J. Mech. Phys. Solids
+48, 765–796.
+Cherepanov, G. P. 1967 Crack propagation in continuous media. J. Appl. Math. Mech. 31,
+503–512.
+Coleman, B. D. & Noll, W. 1963 The thermodynamics of elastic materials with heat conduction
+and viscosity. Arch. Ration. Mech. Analysis 13, 167–178.
+Davini, C. & Parry, G. P. 1989 On defect-preserving deformations in crystals. Int. J. Plasticity
+5, 337–369.
+Davini, C. & Parry, G. P. 1991 A complete list of invariants for defective crystals. Proc. R. Soc.
+Lond. A 432, 341–365.
+Eshelby, J. D. 1951 The force on an elastic singularity. Phil. Trans. R. Soc. Lond. A 244, 87–112.
+Eshelby, J. D. 1956 The continuum theory of lattice defects. Prog. Solid State Phys. 3, 79–144.
+Eshelby, J. D. 1970 Energy relations and the energy momentum tensor in continuum mechanics. In Inelastic behavior of solids (ed. M. F. Kanninen, W. F. Alder, A. R. Rosenﬁeld &
+R. I. Jaﬀe). New York: McGraw-Hill.
+Ewing, J. A. & Rosenhain, W. 1899a Experiments in micro-metallurgy—eﬀects of strain. Preliminary notice. Proc. R. Soc. Lond. 65, 85–90.
+Ewing, J. A. & Rosenhain, W. 1899b The crystalline structure of metals. Proc. R. Soc. Lond.
+65, 172–177.
+Ewing, J. A. & Rosenhain, W. 1900 The crystalline structure of metals. Phil. Trans. R. Soc.
+Lond. A 193, 353–375.
+Fox, N. 1966 A continuum theory of dislocations for single crystals. J. Inst. Math. Appl. 2,
+285–298.
+Fried, E. & Gurtin, M. E. 1996 A phase-ﬁeld theory for solidiﬁcation based on a general
+anisotropic sharp-interface theory with interfacial energy and entropy. Physica D 91, 143–
+181.
+Fried, E. & Gurtin, M. E. 1999 Coherent solid-state phase transitions with atomic diﬀusion: a
+thermomechanical treatment. J. Statist. Phys. 95, 1361–1427.
+Green, A. E. & Naghdi, P. M. 1965 A general theory of elastic-plastic continua. Arch. Ration.
+Mech. Analysis 18, 251–281.
+Gurtin, M. E. 1981 An introduction to continuum mechanics. Academic.
+Proc. R. Soc. Lond. A (2001)
+
+1466
+
+P. Cermelli, E. Fried and S. Sellers
+
+Gurtin, M. E. 1995 The nature of conﬁgurational forces. Arch. Ration. Mech. Analysis 131,
+67–100.
+Gurtin, M. E. 1999 Conﬁgurational forces as basic concepts of continuum mechanics. Springer.
+Gurtin, M. E. 2000 On the plasticity of single crystals: free energy, microforces, plastic-strain
+gradients. J. Mech. Phys. Solids 48, 989–1036.
+Heidug, W. & Lehner, F. K. 1985 Thermodynamics of coherent phase transformations in nonhydrostatically stressed solids. Pure Appl. Geophys. 123, 91–98.
+Hill, R. 1948 A variational principle of maximum plastic work in classical plasticity. Q. J. Mech.
+Appl. Math. 1, 18–28.
+Hill, R. 1950 The mathematical theory of plasticity. Oxford: Clarendon.
+Hoger, A. 1997 Virtual conﬁgurations and constitutive equations for residually stressed bodies
+with material symmetry. J. Elasticity 48, 125–144.
+Kachanov, L. M. 1974 Fundamentals of the theory of plasticity. Moscow: Mir.
+Kienzler, R. & Herrmann, G. 2000 Mechanics in material space (with applications to defect and
+fracture mechanics). Springer.
+Kröner, E. 1960 Allgemeine Kontinuumstheorie der Versetzungen und Eigenspannungen. Arch.
+Ration. Mech. Analysis 4, 273–334.
+Le, K. C. & Stumpf, H. 1996 Nonlinear continuum theory of dislocations. Int. J. Engng Sci. 34,
+339–358.
+Lee, E. H. 1969 Elastic-plastic deformation at ﬁnite strains. J. Appl. Mech. 36, 1–6.
+Lévy, M. 1871 Extrait du mémoire sur les équations générales des mouvements intérieurs des
+corps solids ductiles au delà des limites où l’élasticité pourrait les ramener à leur premier
+état. J. Math. Pures Appl. 16, 369–372.
+Lubliner, J. 1984 A maximum-dissipation principle in generalized plasticity. Acta Mech. 52,
+225–237.
+Mandel, J. 1971 Plasticité classique et viscoplasticité. CISM lecture notes, Udine, Italy. Springer.
+Maugin, G. A. 1992 The thermomechanics of plasticity and fracture. Cambridge University Press.
+Maugin, G. A. 1993 Material inhomogeneities in elasticity. London: Chapman & Hall.
+Naghdi, P. M. & Srinivasa, A. R. 1993a A dynamical theory of structured solids. I. Basic
+development. Phil. Trans. R. Soc. Lond. A 345, 425–458.
+Naghdi, P. M. & Srinivasa, A. R. 1993b A dynamical theory of structured solids. II. Special
+constitutive equations and special cases of the theory. Phil. Trans. R. Soc. Lond. A 345,
+459–476.
+Naghdi, P. M. & Srinivasa, A. R. 1994a Characterization of dislocations and their inﬂuence on
+plastic deformation in single crystals. Int. J. Engng Sci. 32, 1157–1182.
+Naghdi, P. M. & Srinivasa, A. R. 1994b Some general results in the theory of crystallographic
+slip. Z. Angew. Math. Phys. 45, 687–732.
+Orowan, E. 1934 Zur Kristallplastizität. III. Über den Mechanismus des Gleitvorganges. Z. Phys.
+A 89, 634–659.
+Peach, M. O. & Koehler, J. S. 1950 The forces exerted on dislocations and the stress ﬁelds
+produced by them. Phys. Rev. 80, 436–439.
+Polanyi, M. 1934 Über eine Art Gitterstörung, die einen Kristall plastisch machen könnte. Z.
+Phys. A 89, 660–664.
+Prager, W. 1959 An introduction to plasticity. Reading: Addison-Wesley.
+Rajagopal, K. R. & Srinivasa, A. R. 1998 Mechanics of the inelastic behavior of materials.
+Part II. Inelastic response. Int. J. Plasticity 14, 969–995.
+Rice, J. R. 1968 A path independent integral and the approximate analysis of strain concentrations by notches and cracks. J. Appl. Mech. 35, 379–385.
+Rockafellar, R. T. 1970 Convex analysis. Princeton, NJ: Princeton University Press.
+Proc. R. Soc. Lond. A (2001)
+
+Conﬁgurational stress, yield and ﬂow in rate-independent plasticity
+
+1467
+
+Simha, N. K. & Bhattacharya, K. 1998 Kinetics of phase boundaries with edges and junctions.
+J. Mech. Phys. Solids 46, 2323–2359.
+Taylor, G. I. 1934a The mechanism of plastic deformation of crystals. Part I. Theoretical. Proc.
+R. Soc. Lond. A 145, 362–387.
+Taylor, G. I. 1934b The mechanism of plastic deformation of crystals. Part II. Comparison with
+observations. Proc. R. Soc. Lond. A 145, 388–404.
+Taylor, G. I. & Elam, C. F. 1923 The distortion of an aluminium crystal during a tensile test.
+Proc. R. Soc. Lond. A 102, 643–667.
+Taylor, G. I. & Elam, C. F. 1925 The plastic extension and fracture of aluminium crystals. Proc.
+R. Soc. Lond. A 108, 28–51.
+Truskinovsky, L. M. 1987 Dynamics of non-equilibrium phase boundaries in a heat conducting
+non-linearly elastic medium. J. Appl. Math. Mech. 51, 777–784.
+von Mises, R. 1913 Mechanik der festen Körper im plastisch deformablen Zustand. In
+Nachrichten der Königlichen Gesellschaft der Wissenchaften. Göttingen, Math. phys. Klasse,
+pp. 582–592.
+von Mises, R. 1928 Mechanik der plastischen Formänderung von Kristallen. Z. Angew. Math.
+Mech. 8, 161–185.
+Ziegler, H. 1963 Some extremum principles in irreversible thermodynamics. In Progress in solid
+mechanics (ed. I. N. Sneddon & R. Hill), vol. 4. Amsterdam: North-Holland.
+
+Proc. R. Soc. Lond. A (2001)
+
+View publication stats
+
+

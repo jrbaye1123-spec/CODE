@@ -1,0 +1,48 @@
+/* home-light.css — lighter typography + cleaner capability-card icons.
+   Follows Xiaomin''s Type 1-4 tab direction (badges kept). This file only
+   lowers font weights, softens glow, adds breathing room, swaps the card
+   icons to a unified static line set, and centers/enlarges card titles.
+   Font family unchanged (Inter, which supports 300). */
+
+/* ---- 1. Lighter headings ---- */
+.headline { font-weight: 300; letter-spacing: -0.025em; }
+.headline .line.dim { font-weight: 300; }
+.sec-title { font-weight: 400; margin: 14px 0 14px; letter-spacing: -0.02em; }
+.closing h2 { font-weight: 300; }
+.closing h2 span { font-weight: 400; text-shadow: none; }
+.megacount .count, .megacount .count-unit { font-weight: 500; }
+.stack-strip-intro h2 { font-weight: 400; }
+.stack-strip-flow b { font-weight: 500; }
+.svc h3 { font-weight: 500; }
+.eaas-tab .nm { font-weight: 500; }
+.stage-info h3 { font-weight: 400; }
+
+/* ---- 2. Mute secondary text ---- */
+.hero-subheading, .subhead, .stat-cap, .sec-sub { color: var(--ink-dim); font-weight: 400; }
+
+/* ---- 3. Soften / remove text glow ---- */
+.megacount .count { text-shadow: 0 0 18px rgba(74,143,194,0.20); }
+.megacount .count-unit { text-shadow: none; }
+.rsnap-lift, .verdict-lift, .tele-val { text-shadow: none; }
+
+/* ---- 4. Breathing room + lighter accents ---- */
+.sec-head { margin-bottom: 56px; }
+.sec-head .idx { font-weight: 500; letter-spacing: .16em; }
+
+/* ---- 5. Site-wide weight sweep (prominent titles + big numbers) ---- */
+.report-target, .paper-title, .os-card-id,
+.application-head > span:first-child { font-weight: 500 !important; }
+.globe-cap b, .fw-q, .os-card-vitals b, .rstat b,
+.tele-val, .verdict-lift, .rsnap-lift { font-weight: 500 !important; }
+.runway-hud h1 { font-weight: 400 !important; }
+
+/* ---- 6. Unified static line icons for capability cards ---- */
+.rf-icons .svc-anim { justify-content: center; width: 100%; height: 40px; display: flex; align-items: center; }
+.rf-icons .ic { width: 34px; height: 34px; color: var(--ink-dim); transition: color .2s ease, transform .2s ease; }
+.rf-icons .card:hover .ic, .rf-icons .card:focus-visible .ic { color: var(--phos); transform: translateY(-1px); }
+
+/* ---- 7. Center + enlarge capability card title ---- */
+.rf-icons .card { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 30px 22px; }
+.rf-icons h3 { margin-top: 16px; font-size: 1.25rem; font-weight: 500; }
+/* ---- 8. "Go Deeper" discovery card headings ---- */
+.discovery-card h2 { font-weight: 400; }

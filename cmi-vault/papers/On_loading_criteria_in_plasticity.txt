@@ -1,0 +1,552 @@
+C. R. Mecanique 330 (2002) 285–290
+
+On loading criteria in plasticity
+James Casey
+Department of Mechanical Engineering, 6125 Etcheverry Hall, University of California, Berkeley,
+CA 94720, USA
+Received 22 January 2002; accepted 18 February 2002
+Note presented by Évariste Sanchez-Palencia.
+
+Abstract
+
+The loading criteria of the Lagrangian strain-space formulation of rate-independent
+plasticity are compared with those of Nguyen and Bui and those of Kuhn–Tucker type.
+When the latter two sets of conditions are expressed in a fully strain-space form, their
+relationship to the loading criteria of the strain-space formulation becomes transparent. To
+cite this article: J. Casey, C. R. Mecanique 330 (2002) 285–290.  2002 Académie des
+sciences/Éditions scientifiques et médicales Elsevier SAS
+continuum mechanics / plasticity / loading criteria
+
+Sur des critères de chargement en plasticité
+Résumé
+
+Les critères de chargement dans la formulation dans l’espace des déformations de Lagrange
+pour la plasticité indépendante du taux de déformation sont comparés à deux autres
+types de conditions, celle de Nguyen et Bui et celle du type Kuhn–Tucker. Quand ces
+dernières sont exprimées entièrement dans l’espace des déformations, leur relation au
+critère de chargement en formulation d’espace de déformations devient transparent. Pour
+citer cet article : J. Casey, C. R. Mecanique 330 (2002) 285–290.  2002 Académie des
+sciences/Éditions scientifiques et médicales Elsevier SAS
+milieux continus / plasticité / critères de chargement
+
+1. Introduction
+For general strain-hardening behavior of elastic-plastic materials (i.e., including softening and perfectly
+plastic behavior), the inadequacy of the classical stress-space loading criteria is well known [1,2]. In 1975,
+Naghdi and Trapp [2] proposed an alternative formulation of plasticity theory in which loading criteria
+are formulated with reference to loading surfaces in strain space. Casey and Naghdi [3] showed that when
+the strain-space loading criteria are adopted as primary, the associated conditions in stress space lead to
+a geometrically appealing characterization of hardening, softening, and perfectly plastic behavior. Related
+material is contained in [4–11].
+In 1974, Nguyen and Bui [1], wishing to accommodate softening behavior in infinitesimal plasticity,
+suggested new loading criteria in terms of the yield function in stress space. These authors did not employ
+a yield function in strain space, but they did derive a loading criterion involving the strain rate tensor. In the
+present Note, a reinterpretation of the Nguyen–Bui conditions is given in strain space – where they attain
+their simplest form – and a comparison is made with the loading criteria of the strain-space formulation.
+Another widely used set of loading criteria, the “Kuhn–Tucker conditions” [12–15], are also discussed.
+The presentation by Simo and Hughes [15], although it is confined to infinitesimal plasticity, is especially
+E-mail address: jcasey@newton.berkeley.edu (J. Casey).
+ 2002 Académie des sciences/Éditions scientifiques et médicales Elsevier SAS. Tous droits réservés
+S 1 6 3 1 - 0 7 2 1 ( 0 2 ) 0 1 4 6 0 - 2 /FLA
+
+285
+
+J. Casey / C. R. Mecanique 330 (2002) 285–290
+
+relevant. These authors describe their formulation as “strain-driven” – strain rather than stress is the basic
+independent variable. They employ yield surfaces only in stress space, but the strain rate tensor eventually
+appears in their loading criteria. Simo [14] expresses his yield function in strain-space form, and then
+employs Kuhn–Tucker loading conditions.
+The equations in Section 2 hold equally well in the various formulations discussed in Sections 3, 4, and 5.
+In Sections 3–5, one needs to distinguish carefully between different characterizations of “plastic loading”.
+2. Basic equations
+Let the Lagrangian strain and plastic strain tensors be E and E p , respectively, and let S be the symmetric
+Piola–Kirchhoff stress tensor. We regard E and E p as points in a six-dimensional Euclidean space (strain
+space), and S as a point in another six-dimensional Euclidean space (stress space). Further, let the scalar κ
+and the second-order tensor α be hardening parameters. For brevity, represent the list of variables (E p , κ, α)
+
+by the symbol Z. Assume a smooth stress response function of the form S = S(E,
+Z). Equivalently,
+S may be expressed as a function of the strain difference E − E p and Z. (Alternatively, a multiplicative
+decomposition of the deformation gradient may be employed, but, in general, the intermediate configuration
+
+is not stress-free [16].) Denote the fourth-order elasticity tensor ∂ S/∂E
+by C. If f (S, Z) is the yield
+function in stress space, the yield function in strain space is defined by
+
+
+
+f (S, Z) = f S(E,
+Z), Z = g(E, Z)
+(1)
+Further, assume that ∂f/∂S = 0. It is clear that
+  T  
+ 
+∂f
+∂S
+∂f
+∂f
+∂g
+∂g
+= CT
+−
+=
+= 0,
+∂E
+∂S
+∂E p ∂E p
+∂E p
+∂S
+(2)
+  T  
+
+∂ S ∂f
+∂g
+∂f
+∂S
+∂f
+∂g ∂f
+−
+=
+·
+,
+−
+=
+∂κ ∂κ
+∂κ ∂S
+∂α ∂α
+∂α
+∂S
+T
+where the superscript T denotes transposition and C [∂f/∂S] has a component representation
+CMNKL ∂f/∂SMN , summation being performed on repeated indices.
+The elastic region in stress space corresponds to f < 0, and the elastic region in strain space to g < 0.
+The yield surface in stress space corresponds to f = 0, and the yield surface in strain space to g = 0. The
+point E p belongs to the region g < 0 in strain space, according to the prescription given in [16]. It follows
+from (1) that during any motion of the continuum, the material derivatives of f and g coincide:
+f˙ = ġ
+(3)
+Hence,
+
+where
+
+∂f
+∂g
+∂g
+∂f
+∂g
+∂f
+κ̇ +
+· α̇ = g +
+κ̇ +
+· α̇
+· Ė p +
+· Ė p +
+f +
+∂E p
+∂κ
+∂α
+∂E p
+∂κ
+∂α
+
+(4)
+
+∂f
+∂g
+f =
+· Ṡ,
+g =
+· Ė
+(5)
+∂S
+∂E
+In view of (2)1 and (5)2 , g can also be written as
+ 
+
+∂f
+∂f
+· C Ė
+g = C T
+· Ė =
+(6)
+∂S
+∂S
+But, it is still the strain rate rather than the stress rate, that appears in (6).
+In all of the formulations discussed below, despite differences in their characterization of “plastic
+loading”, there is agreement on the following points (a)–(c):
+(a) An “elastic state” is characterized by f < 0, and, equivalently by g < 0; an “elastic–plastic state” is
+characterized by f = 0, and equivalently by g = 0. No other states are attainable. In an elastic–plastic
+state, the quantity f represents the inner product between the tangent to a stress path and the outward
+
+286
+
+To cite this article: J. Casey, C. R. Mecanique 330 (2002) 285–290
+
+normal to the yield surface in stress space; likewise, g represents the inner product between the tangent
+to a strain path and the outward normal to the yield surface in strain space.
+(b) If f < 0 (or, equivalently g < 0), then
+Ė p = 0, κ̇ = 0, α̇ = 0
+(7)
+Hence, in this case, both the yield surface in stress space and the yield surface in strain space are
+stationary. Moreover, it follows from (3), (4), and (7)1,2,3 that in this case
+f = g = f˙ = ġ
+(8)
+which can be positive, zero, or negative.
+(c) Consistency condition: “Plastic loading” from an elastic–plastic state always leads to an elastic–plastic
+state. Consequently, during “plastic loading”, it is necessary that
+f˙ = 0
+(9)
+By virtue of (3), the latter condition is equivalent to
+ġ = 0
+(10)
+3. Loading criteria of the strain-space formulation
+In the strain-space formulation of plasticity, due to Naghdi and Trapp [2], the following definitions occur
+(in addition to (a) above):
+(NT 1) “unloading from an elastic–plastic state” is defined by the conditions
+g = 0,
+g < 0
+(11)
+(NT 2) “neutral loading from an elastic–plastic state” is defined by
+g = 0,
+g = 0
+(12)
+(NT 3) “loading from an elastic–plastic state” is defined by
+g = 0,
+g > 0
+(13)
+Geometrically, (11), (12), and (13) correspond respectively to the situations in which the tangent to a strain
+path makes an angle smaller than, equal to, or greater than 90◦ with the outward normal to the yield surface
+in strain space.
+It is assumed that in cases (11) and (12), the rates of the variables Z vanish, as in (7)1,2,3 . It then follows
+from (3) and (4) that during “unloading from an elastic–plastic state”,
+f˙ = f = ġ = g < 0
+(14)
+whereas during “neutral loading from an elastic-plastic state”,
+f˙ = f = ġ = g = 0
+(15)
+It is further assumed that in case (13), the rates of the variables Z are linear in the rate of E. The classical
+continuity argument of Prager then leads to relations of the form
+Ė p = π gρ, κ̇ = π gλ, α̇ = π gβ
+(16)
+where the constitutive functions ρ, λ, β depend on the variables (E, Z), and π is a Lagrange multiplier that
+may depend on the variables (E, Z). The extra multiplier π is introduced only for the convenience it affords
+in satisfying a restriction that will be derived momentarily; a development without the extra multiplier is
+contained in [5, pp. 235–236].
+The consequence (10) of the consistency condition (c), together with (5)2 , and (16)1,2,3, leads to
+
+
+∂g
+∂g
+∂g
+λ+
+·β
+=0
+(17)
+·ρ+
+g 1 + π
+∂E p
+∂κ
+∂α
+And, since by the definition NT 3 of “loading”, g is positive, it follows immediately from (17) that
+
+
+∂g
+∂g
+∂g
+1+π
+λ+
+·β =0
+(18)
+·ρ +
+∂E p
+∂κ
+∂α
+
+287
+
+J. Casey / C. R. Mecanique 330 (2002) 285–290
+
+It is therefore impossible for π to be zero, and without any loss in generality, we may take it to be positive.
+This choice is equivalent to the convention that ρ, λ, β in (16)1,2,3 have the same sense as the corresponding
+rates. Thus, in the strain-space formulation of plasticity one obtains
+
+
+∂g
+∂g
+∂g
+1
+=−
+λ+
+·β >0
+(19)
+·ρ +
+π
+∂E p
+∂κ
+∂α
+With the help of (2)2,3,4, (19) may be expressed in the equivalent form
+
+
+
+
+
+∂f
+∂S
+∂f
+∂f
+∂S
+∂f
+∂S
+1
+·ρ+
+[ρ] +
+=−
+λ+
+·β −
+·
+λ+
+·β >0
+(20)
+π
+∂E p
+∂κ
+∂α
+∂S
+∂E p
+∂κ
+∂α
+If, instead of ρ, λ, β, another set of functions, ρ ∗ , λ∗ , β ∗ having the same sense are chosen, with a
+corresponding (positive) multiplier π ∗ , it is obvious that π ∗ ρ ∗ = πρ, π ∗ λ∗ = πλ, π ∗ β ∗ = πβ, and the
+results (19) and (20) would hold for π ∗ , ρ ∗ , λ∗ , β ∗ .
+4. Conditions of Nguyen and Bui
+Recognizing the inadequacy of the classical loading criteria, Nguyen and Bui [1] proposed an alternative
+set of conditions in stress space. Thus, instead of (16)1,2,3, suppose in the present section that the rates of
+the variables Z are of the form
+Ė p = γ ρ,
+
+κ̇ = γ λ,
+
+α̇ = γ β
+
+(21)
+
+where γ ⩾ 0 is an undetermined multiplier having a dimension of 1/time. Here, one does not pre-suppose
+that γ is linear in the strain-rate – this property will follow later. There is no loss in generality in selecting
+the functions ρ, λ, β in (21)1,2,3 to be the same as those in (16)1,2,3. If f < 0 (and hence also g < 0), γ is
+assumed to vanish, and (21)1,2,3 reduce to (7)1,2,3.
+Nguyen and Bui [1] define “elastic unloading” by the conditions
+f = 0,
+f˙ < 0
+(22)
+and they assume that γ then vanishes. The conditions (22)1,2 are equivalent to the strain-space conditions
+g = 0,
+ġ < 0
+(23)
+Further, with γ = 0, it follows from (21)1,2,3, (3), (4), and (22)2 that
+f˙ = f = g = ġ < 0
+(24)
+
+Thus, “elastic unloading” in the sense of Nguyen and Bui [1] is equivalent to “unloading from an elastic–
+plastic state” in the sense of Naghdi and Trapp [2].
+Nguyen and Bui [1] define “plastic loading” by the conditions
+f = 0,
+f˙ = 0
+(25)
+[It would be preferable here to regard (25)1,2 as following from the consistency condition (c) of Section 2,
+and to define “plastic loading” by the condition γ > 0 (see (29) below, and also the development in
+Section 5).] From (25)1,2 , (5)1 , and (21)1,2,3, it follows that
+
+
+∂f
+∂f
+∂f
+λ+
+·β =0
+(26)
+·ρ +
+f + γ
+∂E p
+∂κ
+∂α
+The conditions (25)1,2 are equivalent to
+g = 0,
+ġ = 0
+(27)
+Equations (27)1,2, (5)2 , and (21)1,2,3 imply that
+
+
+∂g
+∂g
+∂g
+λ+
+·β =0
+(28)
+g + γ
+·ρ +
+∂E p
+∂κ
+∂α
+It is important to note that at this stage of the development, the conditions that have been obtained in strain
+space have exactly the same form as those in stress space. Consequently, the loading conditions (NT 1,2,3)
+cannot possibly be deduced yet, because it is known that these are not equivalent to stress-space conditions
+
+288
+
+Pour citer cet article : J. Casey, C. R. Mecanique 330 (2002) 285–290
+
+having the same form as (11), (12), and (13) (see [3,17]). Moreover, one cannot solve for the undetermined
+multiplier γ without making a further assumption. What assumption should be made? It is known from
+special cases that the terms in parentheses in (26) can vanish (e.g., when f is independent of E p and α,
+and λ is zero). Consequently, (26) cannot be used to solve for γ , in general. But, turning to (28), one
+recognizes the terms that have appeared previously in the inequality in (19) of the strain-space formulation.
+In the context of the development of Nguyen and Bui [1], let us therefore assume that the inequality in (19)
+holds. Equivalently, the inequality in (20) is satisfied. Upon appropriate specialization, the latter inequality
+reduces to the inequality (4) in [1]; see [6].
+It follows immediately from (28) and the inequality in (19) that
+
+
+∂g
+∂g
+∂g
+λ+
+·β
+(29)
+·ρ+
+γ = −
+g
+∂E p
+∂κ
+∂α
+If γ = 0, (28) implies that g = 0. We then have “neutral loading from an elastic–plastic state” in the sense
+of Naghdi and Trapp [2]. If γ > 0, it follows from the inequality in (19) and (29) that g > 0. We then have
+“loading from an elastic–plastic state” in the sense of Naghdi and Trapp [2]. In this case, it follows from
+(19) and (29) that
+γ = π g (>0)
+
+(30)
+
+Thus, γ is linear in the strain rate and (21)1,2,3 must take on the form (16)1,2,3.
+On the other hand, if the strain-space formulation is taken as primary, the inequality in (19) holds
+automatically, and (30) may be regarded as defining γ . The conditions (13)1,2 then imply that f = 0 and
+γ > 0, and (16)1,2,3 imply (21)1,2,3.
+Remark. – Note that (26), (30), and (19) furnish
+ 
+
+
+∂f
+∂g
+∂g
+∂f
+∂f
+∂g
+f
+λ+
+·β
+λ+
+·β
+(31)
+=
+·ρ +
+·ρ +
+∂E p
+∂κ
+∂α
+∂E p
+∂κ
+∂α
+g
+Casey and Naghdi [3] employed the quotient f/
+g to characterize hardening, softening, and perfectly
+plastic behavior, according as f/
+g is positive, negative, or zero. While the yield surface in strain space
+is moving outwards, the yield surface in stress space moves outwards, inwards, or is stationary, according
+as hardening, softening, or perfectly plastic behavior is occurring. Nguyen and Bui [1] characterized strain
+hardening in terms of the sign of −(∂f/∂E p · ρ + ∂f/∂κλ + ∂f/∂α · β). The characterizations of strainhardening given by Casey and Naghdi [3] and Nguyen and Bui [1] are equivalent to one another.
+5. Conditions of Kuhn–Tucker type
+Motivated by the manner in which inequality constraints are treated in optimization theory, a number of
+authors write loading conditions in Kuhn–Tucker form [12–15]. Thus, consider the conditions
+f ⩽ 0, γ ⩾ 0, f γ = 0
+(32)
+and suppose that the rates of the variables Z are given by (21)1,2,3. By virtue of (1), (32)1,2,3 are equivalent
+to the following conditions, expressed in terms of the yield function g:
+g ⩽ 0, γ ⩾ 0, gγ = 0
+(33)
+If f < 0, it follows from (32)3 that γ = 0 (equivalently, g < 0 and (33)3 imply that γ = 0), and (21)1,2,3
+then reduce to (7)1,2,3. If γ > 0, (32)3 implies that f = 0 and (33)3 implies that g = 0. Ortiz and Popov
+[12] and Simo and Ortiz [13] regard the condition “γ > 0” as characterizing “plastic flow”. The consistency
+condition (c) is enforced, and hence when γ > 0, both (9) and (10) hold. Eqs. (26) and (28) follow
+immediately from (9), (10) and (21)1,2,3, with γ now positive.
+At this stage of the argument, just as in Section 4, the Kuhn–Tucker conditions have exactly the same
+form in stress space as they do in strain space. And, here again, we cannot solve for γ without a further
+assumption. If the inequality in (19) is assumed to hold, γ is then given by (29), and further, satisfies (30).
+
+289
+
+J. Casey / C. R. Mecanique 330 (2002) 285–290
+
+Thus, once the inequality in (19) is adopted, the conditions (32)3 and γ > 0 are equivalent to the conditions
+(13)1,2 of the strain-space formulation. In the context of infinitesimal plasticity, Simo and Hughes [15,
+Section 2.2] assume an equality which is an appropriately specialized form of the inequality in (20).
+If both f (or g) and γ vanish, all three conditions in (32), and also in (33), are satisfied, and (21)1,2,3
+reduce to (7)1,2,3. Furthermore, (8) holds. Two separate cases are included here, namely (NT 1) and (NT 2).
+Conversely, if (NT 1) holds, then f = 0, and further, (7)1,2,3 and (21)1,2,3 lead to γ = 0. Similarly, if (NT 2)
+holds, then f = 0 and γ = 0.
+Remark. – Suppose that, in the strain-space formulation of Section 3, the relations (21)1,2,3 were adopted
+instead of (16)1,2,3. Then, during “loading from an elastic–plastic state”, instead of (18), we would obtain
+
+
+∂g
+γ
+∂g
+∂g
+·ρ +
+1+
+λ+
+·β =0
+(34)
+g ∂E p
+∂κ
+∂α
+Consequently, neither γ nor the terms in parentheses can vanish. Therefore, γ > 0 and the inequality in
+(19) must again hold. Also, now defining π through the equation in (19), from (35) we have γ = π g, and
+(21)1,2,3 revert to the form (16)1,2,3.
+
+Acknowledgement. This Note was written when the author was on a sabbatical visit at the Laboratoire de
+Modélisation en Mécanique at Université Pierre et Marie Curie (Paris 6). The hospitality of Professor Gérard A. Maugin
+is gratefully acknowledged.
+
+References
+[1] Q.S. Nguyen, H.D. Bui, Sur les matériaux élastoplastiques à écrouissage positif ou négatif, J. Méc. 13 (1974)
+321–342.
+[2] P.M. Naghdi, J.A. Trapp, The significance of formulating plasticity theory with reference to loading surfaces in
+strain space, Internat. J. Engrg. Sci. 13 (1975) 785–797.
+[3] J. Casey, P.M. Naghdi, On the characterization of strain-hardening in plasticity, J. Appl. Mech. 48 (1981) 285–296.
+[4] J. Casey, P.M. Naghdi, A remark on the definition of hardening, softening, and perfectly plastic behavior, Acta
+Mech. 48 (1983) 91–94.
+[5] J. Casey, P.M. Naghdi, Further constitutive results in finite plasticity, Quart. J. Mech. Appl. Math. 37 (1984)
+231–259.
+[6] J. Casey, H.H. Lin, Subcritical, critical and supercritical directions of loading in plasticity, J. Méc. Théor. Appl. 5
+(1986) 685–701.
+[7] J. Casey, P.M. Naghdi, Constitutive results for finitely deforming elastic-plastic materials, in: K.J. Willam (Ed.),
+Constitutive Equations. Macro and Computational Aspects, ASME, 1984, pp. 53–71.
+[8] P.M. Naghdi, A critical review of the state of finite plasticity, J. Appl. Math. Phys. (ZAMP) 41 (1990) 315–394.
+[9] P. Papadopoulos, R.L. Taylor, On the loading/unloading conditions of infinitesimal discrete elasto-plasticity,
+Engrg. Comput. 12 (1995) 373–383.
+[10] J. Casey, On elastic-thermo-plastic materials at finite deformations, Internat. J. Plast. 14 (1998) 173–191.
+[11] A.A. Brown, J. Casey, D.J. Nikkel, Experiments conducted in the context of the strain-space formulation of
+plasticity, Internat. J. Plast., in press.
+[12] M. Ortiz, E.P. Popov, Accuracy and stability of integration algorithms for elastoplastic constitutive relations,
+Internat. J. Numer. Methods Engrg. 21 (1985) 1561–1576.
+[13] J.C. Simo, M. Ortiz, A unified approach to finite deformation elastoplastic analysis based on the use of hyperelastic
+constitutive equations, Comput. Methods Appl. Mech. Engrg. 49 (1985) 221–245.
+[14] J.C. Simo, On the computational significance of the intermediate configuration and hyperelastic relations in finite
+deformation elastoplasticity, Mech. Mat. 4 (1985) 439–451.
+[15] J.C. Simo, T.J.R. Hughes, Computational Inelasticity, Springer, 1998.
+[16] J. Casey, P.M. Naghdi, A prescription for the identification of finite plastic strain, Internat. J. Engrg. Sci. 30 (1992)
+1257–1278.
+[17] J. Casey, P.M. Naghdi, On the nonequivalence of the stress-space and strain-space formulations of plasticity,
+J. Appl. Mech. 50 (1983) 350–354.
+
+290
+
+

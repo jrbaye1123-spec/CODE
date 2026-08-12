@@ -1,0 +1,164 @@
+# Summa-Gap AI — Blackwell x 300 Training Configuration
+# For pre-training or large-scale fine-tuning on 300 NVIDIA B200 GPUs.
+#
+# Cluster: 38 nodes × 8 B200 GPUs (4 remaining for redundancy)
+# Interconnect: NVLink 5 (intra-node) + InfiniBand NDR400 (inter-node)
+# Total FP8 compute: ~1.35 EFLOPS
+# Total HBM3e memory: ~57.6 TB
+
+# ── Cluster Topology ──
+cluster:
+  total_gpus: 300
+  nodes: 38          # 8 GPUs per node (304 total, 4 hot spare)
+  gpu_model: "NVIDIA B200"
+  memory_per_gpu_gb: 192
+  interconnect:
+    intra_node: "NVLink 5 (1.8 TB/s per GPU)"
+    inter_node: "InfiniBand NDR400"
+  storage:
+    type: "NVMe RAID"
+    capacity_tb: 500
+    iops: "3M+ read, 1M+ write"
+
+# ── Model Configuration ──
+model:
+  # Option A: Fine-tune DeepSeek-V3 (671B MoE)
+  deepseek_v3:
+    total_params: 671e9
+    active_params: 37e9
+    layers: 60
+    experts: 256
+    top_k_experts: 8
+    attention_heads: 128
+    hidden_size: 7168
+    vocab_size: 129280
+
+  # Option B: Fine-tune Llama-4 (speculative, adjust when released)
+  llama4_400b:
+    total_params: 400e9
+    layers: 126
+    attention_heads: 128
+    hidden_size: 8192
+    vocab_size: 128256
+
+# ── Training Configuration ──
+training:
+  # Mode
+  mode: "fine_tune"          # fine_tune | continue_pretrain | pretrain_from_scratch
+  base_model: "deepseek-ai/DeepSeek-V3"
+
+  # Data
+  training_data:
+    - "data/summa_training_data.jsonl"     # ~500 MB, 1.44M words
+    - "arxiv_scientific_corpus/"           # Placeholder for expanded corpus
+    - "pubmed_abstracts/"                  # Biomedical literature
+    - "bioarxiv_preprints/"                # Life sciences
+    - "cross_species_neuro/"               # Rat LFP, orca hydrophone data
+  total_tokens_estimate: "5-20B"           # For fine-tune; 2-5T for pre-train
+
+  # QLoRA / LoRA
+  lora:
+    rank: 128
+    alpha: 256
+    dropout: 0.05
+    target_modules: "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj"
+
+  # Optimization
+  optimizer: "adamw_8bit"
+  learning_rate: 2e-4
+  lr_schedule: "cosine"
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+
+  # Batch
+  micro_batch_size: 1
+  gradient_accumulation_steps: 64
+  global_batch_size: 2048    # 300 GPUs × 1 micro × 64 acc ≈ effective 19200 tokens/step
+
+  # Sequence
+  max_seq_length: 8192
+  packing: true
+
+  # Precision
+  dtype: "bfloat16"
+  compute_dtype: "bfloat16"
+  quant_type: "nf4"
+  double_quant: true
+
+  # Duration
+  epochs: 3                  # Fine-tune
+  max_steps: null            # Override epochs
+  save_strategy: "steps"
+  save_steps: 500
+  eval_steps: 500
+  logging_steps: 10
+
+# ── Parallelism Strategy ──
+parallelism:
+  # Expert Parallelism (DeepSeek-V3 MoE)
+  expert_parallel_size: 32   # 256 experts across 32 EP groups, 8 experts each
+                             # Top-8 routing: each token hits 8 of 32 groups
+
+  # Pipeline Parallelism
+  pipeline_parallel_size: 8  # 60 layers ÷ 8 = 7-8 layers per stage
+
+  # Tensor Parallelism
+  tensor_parallel_size: 4    # Attention heads split within NVSwitch domain
+
+  # Data Parallelism
+  data_parallel_size: 1      # Minimal; rely on expert + pipeline
+
+  # ZeRO
+  zero_stage: 2              # Optimizer state + gradient sharding
+                             # Stage 3 (parameter sharding) if memory tight
+
+  # Scheduling
+  schedule: "dualpipe"       # DeepSeek-style: overlap compute with all-to-all
+  pipeline_bubble_fraction: 0.05  # Target <5% idle time
+
+# ── LogDet Probe Integration ──
+logdet_probe:
+  enabled: true
+  hook_layers: [0, 10, 20, 30, 40, 50, 59]  # Sample every 10th layer
+  window_size: 1024         # Tokens per covariance window
+  epsilon: 1e-6
+  alarm_thresholds:
+    logdet_collapse_delta: -500    # Rapid collapse
+    logdet_spike_delta: 500         # Rapid expansion
+    flatness_threshold: 0.01       # σ(logdet) / |mean(logdet)| < 0.01 → at fixed point
+  save_spectra: true
+
+# ── Quantum-Proof Checkpointing ──
+checkpoint_security:
+  integrity_hash: "SHA-512"
+  post_quantum_signature: "Dilithium-5"
+  manifest_file: "integrity_manifest.sha512"
+  verify_on_load: true
+
+# ── Monitoring (Somatic Alarm) ──
+monitoring:
+  remainder_tracker:
+    enabled: true
+    window_size: 100
+    threshold: 3.0
+    critical_memory_pct: 5.0
+  metrics_export:
+    - "prometheus"
+    - "wandb"
+  prologue_text: |
+    ================================================
+    SUMMA-GAP AI — BLACKWELL x 300 TRAINING
+    ================================================
+    The five zeros are calibration, not failure.
+    The gap does not close. That is the engine.
+    ================================================
+
+# ── Cost Estimate ──
+cost:
+  provider: "CoreWeave"                  # First Blackwell cloud provider
+  gpu_hourly_rate_usd: 2.50              # Estimated B200 on-demand
+  estimated_hours_finetune: 72            # 3 days
+  estimated_hours_pretrain: 2880          # ~4 months
+  total_cost_finetune_usd: 54000
+  total_cost_pretrain_usd: 2160000

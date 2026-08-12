@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="index.html.1.html" />
+  <title>MatrAIx Research — Simulated Users & Agent Evaluation</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="description" content="Insights from the matrAIx community: building agent simulations, evaluation frameworks, and synthetic personas at scale." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ============================================================
+       matrAIx Research — light theme with Inter sans-serif
+       ============================================================ */
+
+    :root {
+      --bg:        #ffffff;
+      --bg-2:      #f8f9fa;
+      --bg-3:      #f3f4f6;
+      --ink:       #1a1a1a;
+      --ink-dim:   #404040;
+      --phos:      #4A8FC2;
+      --phos-deep: #365B8F;
+      --amber:     #d97706;
+      --rose:      #dc2626;
+      --cyan:      #4E7A82;
+      --line:      rgba(27, 42, 65, 0.12);
+      --line-soft: rgba(27, 42, 65, 0.06);
+      --glow:      0 0 22px rgba(27, 42, 65, 0.25);
+
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+      --disp: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --text-2xl:  1.95rem;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--mono);
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    ::selection { background: var(--phos); color: #04121f; }
+
+    /* Navigation */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px clamp(20px, 5vw, 40px);
+      background: var(--bg);
+      border-bottom: 1px solid var(--line-soft);
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+
+    .brand-mark {
+      display: none;
+    }
+
+    .brand-name {
+      font-family: var(--disp);
+      font-weight: 700;
+      font-size: var(--text-2xl);
+      letter-spacing: -0.02em;
+    }
+
+    .brand-name em {
+      font-style: normal;
+      background: linear-gradient(90deg, #a855f7, #4A8FC2);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: gradientShift 4s ease-in-out infinite;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 0%; }
+      50% { background-position: 100% 0%; }
+      100% { background-position: 0% 0%; }
+    }
+    .brand-name .tld { color: var(--ink-dim); font-weight: 600; }
+
+    @keyframes flick { 0%, 10%, 90%, 100% { opacity: 1; } 45%, 55% { opacity: 0.5; } }
+
+    .nav-toggle {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.25s ease;
+      flex-shrink: 0;
+      padding: 10px 18px;
+      font-family: var(--mono);
+      font-size: 0.86rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .nav-toggle:hover {
+      border-color: var(--phos);
+      color: var(--phos);
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      flex: 1;
+      justify-content: center;
+    }
+
+    .btn-nav {
+      font-family: var(--disp); font-size: 0.86rem; letter-spacing: 0.06em;
+      text-transform: uppercase; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 12px 22px; border: 1px solid var(--line); color: var(--ink);
+      background: transparent; cursor: pointer; transition: all 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .btn-nav:hover {
+      border-color: var(--phos); color: var(--phos);
+    }
+
+    .dot.live {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--phos);
+      display: inline-block;
+      box-shadow: 0 0 8px var(--phos);
+    }
+
+    nav a {
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.86rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.25s;
+      position: relative;
+      font-family: var(--disp);
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 1px;
+      background: var(--phos);
+      box-shadow: var(--glow);
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--phos);
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    /* Main content */
+    main {
+      position: relative;
+      z-index: 3;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 120px 20px 60px;
+    }
+
+    /* Blog header */
+    .blog-header {
+      margin-bottom: 60px;
+      animation: fadeInUp 0.8s ease 0.1s both;
+    }
+
+    .blog-breadcrumb {
+      font-size: 0.85rem;
+      color: var(--ink);
+      font-family: var(--disp);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .blog-breadcrumb a {
+      color: var(--phos);
+      text-decoration: none;
+      transition: color 0.25s;
+    }
+
+    .blog-breadcrumb a:hover {
+      color: var(--cyan);
+    }
+
+    .blog-breadcrumb span {
+      color: var(--line);
+    }
+
+    .blog-title {
+      font-family: var(--disp);
+      font-size: clamp(1.8rem, 6vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--ink);
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .blog-meta {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      color: var(--ink);
+      font-family: var(--disp);
+      font-size: 0.95rem;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .blog-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .blog-meta-item strong {
+      color: var(--ink);
+    }
+
+    .blog-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--phos), var(--cyan));
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #04121f;
+      font-size: 0.9rem;
+    }
+
+    /* Article content */
+    .article {
+      animation: fadeInUp 0.8s ease 0.2s both;
+    }
+
+    .article h1 {
+      font-family: var(--disp);
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin: 60px 0 20px;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+
+    .article h2 {
+      font-family: var(--disp);
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 50px 0 20px;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+
+    .article h3 {
+      font-family: var(--disp);
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 40px 0 16px;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+
+    .article h4 {
+      font-family: var(--disp);
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 30px 0 12px;
+      color: var(--ink);
+      letter-spacing: -0.005em;
+    }
+
+    .article h5 {
+      font-family: var(--disp);
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 24px 0 10px;
+      color: var(--ink);
+    }
+
+    .article h6 {
+      font-family: var(--disp);
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin: 20px 0 8px;
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .article h1:first-child, .article h2:first-child {
+      margin-top: 0;
+    }
+
+    .article p {
+      margin-bottom: 18px;
+      line-height: 1.8;
+      color: var(--ink);
+      font-family: var(--disp);
+      font-size: 1.05rem;
+    }
+
+    .article strong {
+      color: var(--phos);
+      font-weight: 600;
+    }
+
+    .article em {
+      color: var(--amber);
+      font-style: italic;
+    }
+
+    .article ul {
+      margin: 24px 0 24px 24px;
+      line-height: 1.9;
+    }
+
+    .article li {
+      margin-bottom: 12px;
+    }
+
+    .article li::marker {
+      color: var(--phos);
+    }
+
+    /* Code block */
+    .code-block {
+      background: rgba(80, 137, 184, 0.04);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 16px;
+      margin: 24px 0;
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      color: var(--cyan);
+      overflow-x: auto;
+      line-height: 1.5;
+    }
+
+    /* Highlight box */
+    .highlight-box {
+      background: rgba(255, 181, 71, 0.06);
+      border-left: 3px solid var(--amber);
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 4px;
+      line-height: 1.8;
+    }
+
+    .highlight-box strong {
+      color: var(--amber);
+    }
+
+    /* Stats grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 40px 0;
+    }
+
+    .stat-card {
+      background: rgba(80, 137, 184, 0.05);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .stat-card .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--phos);
+      text-shadow: var(--glow);
+      margin-bottom: 8px;
+      font-family: var(--disp);
+    }
+
+    .stat-card .stat-label {
+      font-size: 0.85rem;
+      color: var(--ink);
+      font-family: var(--disp);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 22px;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: transparent;
+      font-family: var(--mono);
+      font-size: 0.86rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 0.25s ease;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      border-color: var(--phos);
+      color: var(--phos);
+      box-shadow: inset 0 0 18px rgba(80, 137, 184, 0.08), 0 0 14px rgba(80, 137, 184, 0.12);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 40px 20px;
+      margin-top: 80px;
+      text-align: center;
+      color: var(--ink-dim);
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--phos);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Blog grid */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin: 50px 0;
+      max-width: 700px;
+    }
+
+    .blog-card {
+      background: rgba(80, 137, 184, 0.04);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 28px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      animation: fadeInUp 0.6s ease forwards;
+    }
+
+    .blog-card:nth-child(1) { animation-delay: 0.1s; }
+    .blog-card:nth-child(2) { animation-delay: 0.2s; }
+    .blog-card:nth-child(3) { animation-delay: 0.3s; }
+
+    .blog-card:hover {
+      border-color: var(--phos);
+      background: rgba(80, 137, 184, 0.08);
+      box-shadow: 0 0 20px rgba(80, 137, 184, 0.15);
+      transform: translateY(-4px);
+    }
+
+    .blog-card-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 12px;
+      width: fit-content;
+    }
+
+    .blog-card-title {
+      font-family: var(--disp);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .blog-card-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .blog-card-desc {
+      color: var(--ink);
+      font-family: var(--disp);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+      flex-grow: 1;
+      line-height: 1.6;
+    }
+
+    .blog-card-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.85rem;
+      line-height: 1.25;
+      color: var(--ink);
+      font-family: var(--disp);
+    }
+
+    .blog-card-meta > span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      white-space: nowrap;
+    }
+
+    .blog-card-author {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .blog-title {
+        font-size: 1.6rem;
+      }
+
+      .article h2 {
+        font-size: 1.4rem;
+      }
+
+      .blog-meta {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .blog-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="dark-theme.css%3Fv=5.css" />
+  <link rel="stylesheet" href="subpages.css%3Fv=8.css" />
+  <link rel="stylesheet" href="research.css%3Fv=15.css" />
+<link rel="stylesheet" href="subpages-light.css%3Fv=2.css" />
+<link rel="stylesheet" href="navigation.css%3Fv=2.css" /><link rel="icon" type="image/png" href="MatrAIx_Logo.png"></head>
+<body>
+  <!-- Navigation -->
+  <header class="mx-nav"><a class="mx-brand" href="index.html">Matr<em>AI</em>x</a><nav class="mx-links" id="research-nav"><a href="index.html">Home</a><a class="active" href="index.html.1.html">Research</a><a href="index.html.1.1.html">Personas</a><a href="index.html.1.2.html">Applications</a><a href="index.html.1.3.html">Playground</a><a href="index.html.1.4.html">Community</a></nav><a class="mx-github" href="https://github.com/MatrAIx-ai" target="_blank" rel="noopener">GitHub ↗</a><a class="mx-join" href="index.html.1.4.html">Join us</a><button class="mx-menu" type="button" aria-controls="research-nav" aria-expanded="false">Menu</button></header>
+
+  <main class="research-page">
+    <!-- Blog index header -->
+    <div class="blog-header">
+      <div class="blog-breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Research</span>
+      </div>
+
+      <h1 class="blog-title">The science of simulated users.</h1>
+      <p class="research-intro">
+        Questions, methods, and findings from the MatrAIx community—covering persona grounding, simulated users, interactive environments, evaluation, and identity drift.
+      </p>
+      <div class="research-orbit" aria-hidden="true"><span></span><i></i><b>HUMAN<br>BEHAVIOR</b></div>
+    </div>
+
+    <div class="research-list-head"><span>Featured research</span><a href="index.html.1.html#research-index">Browse all research ↓</a></div>
+    <!-- Blog posts grid -->
+    <div class="blog-grid">
+      <!-- Post: Persona 8.3B Research Overview (deck). Commented out until the
+      launch is ready; remove this wrapper to publish the card.
+      <a href="persona-8-3b-overview.html" class="blog-card">
+        <div class="featured-visual featured-media">
+          <img class="featured-diagram" src="../Assets/media/persona-8-3b-overview/persona-globe-render.jpg" alt="The MatrAIx population globe" style="background:#060807;object-fit:cover" />
+        </div>
+        <div class="featured-card-copy">
+          <span class="blog-card-tag">Overview</span>
+          <h3 class="blog-card-title">Persona 8.3B, in 15 Slides</h3>
+          <p class="blog-card-desc">The open release, the eight-task validation, and the three findings, as a plain-language deck. Arrow keys to navigate, F for fullscreen.</p>
+          <div class="blog-card-meta">
+            <div class="blog-card-author">
+              <img src="../Assets/logos/MatrAIx_Logo.png" alt="MatrAIx" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;" />
+              <span>Xiaomin Li, Yuexing Hao, and Core Team</span>
+            </div>
+            <span>15 slides</span>
+            <span>Aug 1</span>
+          </div>
+        </div>
+      </a>
+      -->
+
+      <!-- Post: Persona 8B technical report, plain-language blog post -->
+      <a href="persona-8b.html" class="blog-card">
+        <div class="featured-visual featured-media">
+          <img class="featured-diagram" src="persona8b-study-setup.png" alt="The MatrAIx Playground configuring a price study: a persona cohort, the question to test, and reusable task templates" style="background:#fff;object-fit:cover" />
+        </div>
+        <div class="featured-card-copy">
+          <span class="blog-card-tag">Publication</span>
+          <h3 class="blog-card-title">Simulating the World with 8.3 Billion Personas</h3>
+          <p class="blog-card-desc">The MatrAIx technical report in plain language: a persona population, four kinds of studies, 1,010 reusable tasks, and 18,189 trials, with the demo video.</p>
+          <div class="blog-card-meta">
+            <div class="blog-card-author">
+              <img src="MatrAIx_Logo.png" alt="MatrAIx" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;" />
+              <span>MatrAIx Core Team</span>
+            </div>
+            <span>11 min</span>
+            <span>Aug 6</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post: Human Simulation Position Paper -->
+      <a href="missing-human-layer.html" class="blog-card">
+        <div class="featured-visual featured-media">
+          <img class="featured-diagram" src="human-simulation-layer.png%3Fv=8" alt="General model flowing through a persona layer into blue population nodes and one orange individual node" style="background:#090c0f" />
+        </div>
+        <div class="featured-card-copy">
+          <span class="blog-card-tag">Position</span>
+          <h3 class="blog-card-title">Why Human Simulation Is the Next Step for AI Agents</h3>
+          <p class="blog-card-desc">Why AI needs human simulation: evidence, evaluation gaps, population models, individual digital twins, and a research agenda.</p>
+          <div class="blog-card-meta">
+            <div class="blog-card-author">
+              <img src="MatrAIx_Logo.png" alt="MatrAIx" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;" />
+              <span>Xiaomin Li, Yuexing Hao, and Core Team</span>
+            </div>
+            <span>16 min</span>
+            <span>Jul 1</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Post: Cost Analysis -->
+      <a href="cost-comparison.html" class="blog-card">
+        <div class="featured-visual featured-table" aria-label="Human collection and simulation cost preview">
+          <span class="featured-visual-label">Variable evaluation cost</span>
+          <table>
+            <thead><tr><th>Evaluation</th><th>Human</th><th>Simulation</th></tr></thead>
+            <tbody>
+              <tr><td>10K surveys</td><td>$28,560+</td><td>$3.60–$104</td></tr>
+              <tr><td>1K chats</td><td>$8,568+</td><td>$3–$87</td></tr>
+              <tr><td>100K outputs</td><td>$85,680</td><td>$12.60–$365</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <span class="blog-card-tag">Analysis</span>
+        <h3 class="blog-card-title">The Cost of Synthetic-User Evaluation: Five Comparative Estimates</h3>
+        <p class="blog-card-desc">What realistic evaluation programs cost in human time and AI inference across surveys, chatbots, product testing, experiments, and annotation.</p>
+        <div class="blog-card-meta">
+          <div class="blog-card-author">
+            <img src="MatrAIx_Logo.png" alt="MatrAIx" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;" />
+            <span>Xiaomin Li, Hanwen Xing, and Core Team</span>
+          </div>
+          <span>20 min</span>
+          <span>Jul 3</span>
+        </div>
+      </a>
+
+      <!-- Post: Environment -->
+      <a href="env-colm.html" class="blog-card">
+        <div class="featured-visual featured-media">
+          <video muted loop playsinline preload="metadata" data-autoplay="true" aria-label="MicroVerse long-horizon agent simulation">
+            <source src="microverse_demo.mp4" type="video/mp4">
+          </video>
+        </div>
+        <span class="blog-card-tag">Research</span>
+        <h3 class="blog-card-title">Measuring Persona Drift in Long-Horizon Agent Simulations</h3>
+        <p class="blog-card-desc">Measuring and correcting persona drift in long-horizon LLM agent interactions.</p>
+        <div class="blog-card-meta">
+          <div class="blog-card-author">
+            <img src="MatrAIx_Logo.png" alt="MatrAIx" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;" />
+            <span>Sky Ng, Benjamin Cheng, and Core Team</span>
+          </div>
+          <span>12 min</span>
+          <span>Jul 12</span>
+        </div>
+      </a>
+    </div>
+
+    <section class="research-index" id="research-index">
+      <div class="research-index-heading">
+        <h2>Research</h2>
+        <div class="research-filters" role="group" aria-label="Filter research by type">
+          <button class="active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="position" aria-pressed="false">Position</button>
+          <button type="button" data-filter="publication" aria-pressed="false">Publication</button>
+          <button type="button" data-filter="analysis" aria-pressed="false">Analysis</button>
+        </div>
+      </div>
+      <div class="index-list">
+        <a href="persona-8b.html" data-category="publication"><span><strong>Publication</strong><small>Aug 6, 2026</small></span><div><b>Simulating the World with 8.3 Billion Personas</b><small>The MatrAIx technical report for a general audience: the persona population, the four study environments, and what the validation showed.</small></div><i>↗</i></a>
+        <a href="survey-from-personas-to-simulated-users.html" data-category="publication"><span><strong>Publication</strong><small>Jul 29, 2026</small></span><div><b>From Personas to Simulated Users: When Is an AI-Generated User Fit for Purpose?</b><small>A fitness-for-purpose framework for deciding what persona-conditioned user simulations can and cannot show.</small></div><i>↗</i></a>
+        <a href="synthetic-persona-grounding.html" data-category="publication"><span><strong>Publication</strong><small>Jul 26, 2026</small></span><div><b>Position: Synthetic Persona Needs Explicit Grounding and Standardized Reporting</b><small>Explicit grounding and standardized reporting for credible persona-based simulation claims.</small></div><i>↗</i></a>
+        <a href="personaeval-colm.html" data-category="publication"><span><strong>Publication</strong><small>Jul 26, 2026</small></span><div><b>PersonaEval: Persona-Based User Simulation for Evaluating Interactive Applications</b><small>A plug-and-play persona evaluation workflow for surveys, chatbots, and web applications.</small></div><i>↗</i></a>
+        <a href="microverse-colm.html" data-category="publication"><span><strong>Publication</strong><small>Jul 26, 2026</small></span><div><b>MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations</b><small>Measuring self-authored identity drift in long-horizon multi-agent simulations.</small></div><i>↗</i></a>
+        <a href="capability-control.html" data-category="position"><span><strong>Position</strong><small>Jul 20, 2026</small></span><div><b>To Simulate a User, You Should Make Your LLM Dumber</b><small>A frontier model is the right start for a human simulation and the wrong end; turning capability down to match a real person is its own research problem.</small></div><i>↗</i></a>
+        <a href="adk-arena.html" data-category="publication"><span><strong>Publication</strong><small>Jul 18, 2026</small></span><div><b>LLM-as-a-Developer: Evaluating 51 Agent Frameworks</b><small>LLM-as-a-Developer: simulate the developer as the user of an agent framework to measure usability and effectiveness at ecosystem scale.</small></div><i>↗</i></a>
+        <a href="env-colm.html" data-category="publication"><span><strong>Publication</strong><small>Jul 12, 2026</small></span><div><b>Measuring Persona Drift in Long-Horizon Agent Simulations</b><small>Measuring and correcting persona drift in long-horizon agent interactions.</small></div><i>↗</i></a>
+        <a href="cost-comparison.html" data-category="analysis"><span><strong>Analysis</strong><small>Jul 3, 2026</small></span><div><b>The Cost of Synthetic-User Evaluation: Five Comparative Estimates</b><small>Human cost, AI inference, elapsed time, and validity across five evaluation modes.</small></div><i>↗</i></a>
+        <a href="persona-for-robotics.html" data-category="position"><span><strong>Position</strong><small>Jul 2, 2026</small></span><div><b>Giving Agents a “Soul”: Persona as the Missing Layer for AI and Robotics</b><small>Why preference settings are not enough, and agents need a persona that remains coherent across tasks.</small></div><i>↗</i></a>
+        <a href="missing-human-layer.html" data-category="position"><span><strong>Position</strong><small>Jul 1, 2026</small></span><div><b>Why Human Simulation Is the Next Step for AI Agents</b><small>An evidence-backed case for personas, evaluation, population simulation, and individual digital twins.</small></div><i>↗</i></a>
+      </div>
+    </section>
+
+    <div class="research-submit">
+      <p style="color: var(--ink); font-family: var(--disp); margin-bottom: 16px; font-size: 1.05rem;">
+        Have research or insights to share? We welcome community contributions.
+      </p>
+      <a href="mailto:info@matraix.ai" class="btn">Submit a post →</a>
+    </div>
+  </main>
+
+  <footer class="mx-footer"><span>MatrAIx · Research</span><span><a href="index.html">Home</a> · <a href="index.html.1.1.html">Personas</a> · <a href="index.html.1.2.html">Applications</a> · <a href="index.html.1.3.html">Playground</a> · <a href="index.html.1.4.html">Community</a> · <a href="index.html.1.4.html#contact">Contact</a></span><span>SIMULATE BEFORE REALITY · © 2026</span><img src="MIT_CSAIL_Alliance.svg" alt="MIT CSAIL Alliance" style="height:40px;width:auto;opacity:.8;align-self:center" /></footer>
+
+  <script src="site-performance.js%3Fv=1"></script>
+  <script>
+  /* Mobile nav toggle */
+  (function(){
+    const toggle = document.querySelector('.mx-menu');
+    const nav = document.querySelector('.mx-nav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', function(){
+      toggle.classList.toggle('active');
+      nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', nav.classList.contains('open') ? 'true' : 'false');
+    });
+    document.querySelectorAll('.mx-links a').forEach(link => {
+      link.addEventListener('click', function(){
+        toggle.classList.remove('active');
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+    window.addEventListener('resize', function(){
+      if (window.innerWidth > 850) {
+        toggle.classList.remove('active');
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', function(event){
+      if (event.key !== 'Escape' || !nav.classList.contains('open')) return;
+      toggle.classList.remove('active');
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.focus();
+    });
+  })();
+
+  /* Research type filters */
+  (function(){
+    const buttons = document.querySelectorAll('.research-filters button');
+    const entries = document.querySelectorAll('.index-list > [data-category]');
+    if (!buttons.length || !entries.length) return;
+    buttons.forEach(button => button.addEventListener('click', function(){
+      const filter = button.dataset.filter;
+      buttons.forEach(item => {
+        const selected = item === button;
+        item.classList.toggle('active', selected);
+        item.setAttribute('aria-pressed', String(selected));
+      });
+      entries.forEach(entry => {
+        entry.hidden = filter !== 'all' && entry.dataset.category !== filter;
+      });
+    }));
+  })();
+  </script>
+</body>
+</html>

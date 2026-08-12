@@ -1,0 +1,133 @@
+{
+  "gate": "index-eligibility",
+  "mode": "audit",
+  "build_timestamp": "2026-08-06T13:26:26.271405+00:00",
+  "vault_path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents",
+  "total_notes": 10,
+  "parsed_ok": 0,
+  "parse_failed": 10,
+  "missing_required_fields": 0,
+  "eligible": 0,
+  "rejected": 10,
+  "index_eligibility_rate": 0.0,
+  "rejection_reasons": {
+    "parse_failed": 10
+  },
+  "rejected_entries": [
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/AGENTS.md",
+      "title": "AGENTS",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/axiom-taxonomy.md",
+      "title": "axiom-taxonomy",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/contradiction-packet.md",
+      "title": "contradiction-packet",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/epistemic-supply-chain.md",
+      "title": "epistemic-supply-chain",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/literature-triage-pipeline.md",
+      "title": "literature-triage-pipeline",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/provenance-log-schema.md",
+      "title": "provenance-log-schema",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/retrieval-contract.md",
+      "title": "retrieval-contract",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/track-metrics.md",
+      "title": "track-metrics",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/track-section-5-1-outcome-metrics.md",
+      "title": "track-section-5-1-outcome-metrics",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/triage-report-schema.md",
+      "title": "triage-report-schema",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    }
+  ],
+  "parse_errors": [
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/AGENTS.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/axiom-taxonomy.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/contradiction-packet.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/epistemic-supply-chain.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/literature-triage-pipeline.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/provenance-log-schema.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/retrieval-contract.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/track-metrics.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/track-section-5-1-outcome-metrics.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    },
+    {
+      "path": "/home/nakamichi/workspace/rbaye/vault/wiki/agents/triage-report-schema.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    }
+  ],
+  "build_status": "AUDIT \u2014 REPORT ONLY",
+  "index_path": null,
+  "governance_action": "Audit complete. 0/10 notes eligible (0.0%). 10 rejected: parse_failed: 10. Switch to enforce mode when metadata schema is stable."
+}

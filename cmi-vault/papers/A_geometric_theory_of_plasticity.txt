@@ -1,0 +1,1116 @@
+IV International Conference on Computational Methods for Coupled Problems in Science and Engineering
+COUPLED PROBLEMS 2011
+M. Papadrakakis, E. Oñate and B. Schrefler (Eds)
+
+A Geometric Theory of Plasticity
+V. P. Panoskaltsis1, D. Soldatos1 and S. P. Triantafyllou2
+1
+
+2
+
+Department of Civil Engineering, Demokritos University of Thrace,
+12 Vassilissis Sofias Street, Xanthi, 67100, GREECE
+vpanoska@civil.duth.gr
+
+Institute of Structural Analysis and Aseismic Research, National Technical University of
+Athens, Zografou Campus, Athens, 15773, GREECE
+
+Key words: Metric, generalized plasticity, covariance, balance of energy, reversibility,
+dissipation, Lie derivative, second law of thermodynamics, internal variables
+Summary: A new geometric formulation of rate-independent generalized plasticity is presented.
+The formulation relies crucially on the consideration of the physical (referential) metric as a
+primary internal variable and does not invoke any decomposition of the kinematical quantities
+into elastic and plastic parts. On the basis of a purely geometrical argument the transition to
+classical plasticity is demonstrated. The covariant balance of energy is systematically employed
+for the derivation of the mechanical state equations. It is shown that unlike the case of finite
+elasticity, in finite plasticity, the covariant balance of energy does not yield the Doyle-Ericksen
+formula, unless a further assumption is made. As an application, a new material model is
+developed and is tested numerically for the solution of several problems of large scale plastic
+flow.
+1 Introduction
+The kinematics of large deformation plasticity has been for a long time a subject of serious
+debate. For instance, Nemat-Nasser [1] on the basis of the principle of energy conservation
+proposed an additive decomposition of the rate of deformation tensor. This decomposition
+constitutes the basic kinematical assumption adopted in several works of computational interest,
+such as those of Nagtegaal and De Jong [2], Key and Krieg [3], Atluri [4] and Panoskaltsis et al.
+[5]. Green and Naghdi [6, 7] considered the additive decomposition of the Lagrangian strain
+tensor, while Lee and Liu [8] and Lee [9] among others (e.g. Mandel [10], Kratochvil [11],
+Dashner [12], Lubliner [13, 14], Simo [15], Le and Stumpf [16]) advocated the multiplicative
+decomposition of the deformation gradient together with the concept of an elastically relaxed
+(intermediate) configuration. Additional suggestions constitute the combination of both additive
+and multiplicative theories proposed by Simo and Ortiz [17]. However, as it is pointed out in a
+review paper by Naghdi [19], almost all authors introduce some measure of plastic strain that can
+be either a primitive quantity or a solution of an evolution equation, from which the plastic strain
+
+506
+
+IV International Conference on Computational Methods for Coupled Problems in Science and Engineering
+COUPLED PROBLEMS 2011
+M. Papadrakakis, E. Oñate and B. Schrefler (Eds)
+
+is obtained after suitable initial conditions have been specified. Such an assumption has been
+subjected to the serious questioning of Gilman [20], among others. The basic objective of this
+paper is to propose a new formulation of the theory of plasticity, in the general case of finite
+deformations, which is not based on the introduction of an “artificial” quantity that will stand for
+plastic strain, but on the referential metric which is a natural quantity. The powerful concept of
+referential metric was introduced by Valanis [22] (who termed it “physical metric”) and it was
+advanced further by Valanis and Panoskaltsis [23]. The approach has its origins in the realization
+that since the body is embedded into some ambient space, it is automatically endowed with two
+distinct metrics, namely the ambient space metric and the body one. These metrics are of
+different thermomechanical origin and their interrelation in the course of deformation will
+inevitably specify both the elastic and the plastic (dissipative) properties of the body. As a result,
+the body (referential) metric is considered as the primary internal variable, while the metric of the
+ambient space is considered as the control variable, leading naturally to a strain space approach,
+which offers several advantages in the formulation of an elastic-plastic theory (see, for instance
+Naghdi [19]). Moreover, in our work we introduce non-Euclidean spaces providing some
+important advantages, that are not supplied by the classical Euclidean ones. In particular, the
+present approach can describe several internal material structures, which may differ vastly from
+the classical Euclidean ones, namely directional densities, curved material structures, pre-formed
+materials, pre- stressed reference configurations and the presence of dislocation fields, which
+may change a Euclidean internal structure to a non-Euclidean one (see, Valanis and Panoskaltsis
+[23]). Second, the introduction of manifold underlying spaces, besides allowing for the
+extraction of valuable geometrical information, provides the necessary mathematical tools for a
+covariant formulation of the theory. Generalized plasticity theory (Lubliner [13, 14, 21]) is used
+in this paper, since it is more general and versatile than classical plasticity. Also, as we have
+proved in another publication [41], classical plasticity is a particular case of generalized plasticity
+theory.
+The present paper is organized as follows: In section 2 generalized plasticity is presented in a
+covariant setting. For this purpose, manifold structure is considered not only for the body of
+interest and the ambient space, but also for the state space, that is the set of all realizable states
+over a material point. The involvement of the standard pull-back/push-forward operations (e.g.
+Marsden and Hughes [24, p. 67]), leads to the introduction of the convected Lie derivative (e.g.
+[24, p. 95], which eventually leads to a covariant formulation of the theory. Loading-unloading
+criteria, in both the reference and the spatial configurations, are derived as well. The spatial
+covariant balance of energy, which constitutes the keystone for any covariant theory, relativistic
+or non–relativistic, is presented in section 3. It is emphasized that even though this concept has
+been extensively studied within the context of finite elasticity this is not the case within the
+context of an inelastic theory. Our development shows that, unlike the case of finite elasticity,
+the covariant balance of energy does not yield the Doyle-Ericksen formula, unless a further
+assumption is made. As an application, a material model is derived and its predictions for several
+problems of large scale plastic flow are presented in section 4.
+
+507
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+2 Constitutive theory
+Since we deal with large scale plastic flow, we follow the geometrical approach proposed
+within the context of non-linear elasticity by Marsden and Hughes [24]. Accordingly, we
+consider both the body of interest and the ambient space S as three dimensional Riemannian
+manifolds with (covariant) metrics G and g, respectively. In particular, let Ω be the reference
+configuration of the body of interest with points labeled by (X 1, X 2 , X 3 ) and define a motion of
+the body within the ambient space as the time dependent mapping x:
+
+(
+)
+x = x (X , X , X , t ),
+x = x (X , X , X , t ),
+
+x : Ω → S , x 1 = x 1 X 1, X 2 , X 3 , t ,
+2
+
+2
+
+1
+
+2
+
+3
+
+3
+
+3
+
+1
+
+2
+
+3
+
+(1)
+
+which maps the points of the reference configuration onto the points x = x(X, t ) of the current
+(spatial) configuration.
+Then the deformation gradient is defined as the tangent map of (1), i.e.
+F (X, t ) =
+
+with determinant J (X, t ) = det ⎡⎢⎣F (X, t )⎤⎥⎦ > 0.
+
+∂x (X, t )
+∂X
+
+,
+
+(2)
+
+Additionally, we consider the right Cauchy-Green
+
+deformation tensor defined as the pull back of the spatial metric g and the Finger deformation
+tensor c defined as the push-forward of the referential metric G:
+C = x* (g) = FT g F,
+(3)
+-T
+T
+(4)
+c = x∗ (G) = F G F .
+A detailed analysis of the geometrical meaning of those quantities can be found in Valanis [22]
+(see also Yavari et al. [28]).
+Generalized plasticity (e.g. Lubliner [13, 14, 21]) is a local internal variable theory of rate
+independent behavior, which is based primarily on the assumption that plastic deformation may
+take place on loading but not on unloading. The theory may, in principle, be formulated
+equivalently with respect to the stress or the strain (deformation) space. Since we deal with
+manifold underlying spaces and their corresponding metrics, a strain space formulation of the
+theory seems more natural. In turn, in the absence of thermal effects1 the mechanical state at the
+referential point X with coordinates X 1, X 2 , X 3 is determined by the control variable, which is
+identified by the right Cauchy-Green tensor and the internal variable vector. The latter is
+assumed to be composed by the referential metric G and an additional internal variable vector Q.
+In general, the referential metric is unknown and several considerations must be made for its
+determination, including experimental procedures (Valanis and Panoskaltsis [23]). To this end, it
+is emphasized that for the elastic-plastic (dissipative) continuum studied here, the referential
+metric is a function of the history of deformation (see Valanis [22], Valanis and Panoskaltsis
+1
+
+The extension of the theory to the non-isothermal regime is a non-trivial task and may be done along the lines
+presented in this work in conjunction with some developments given in Marsden and Hughes [24] and Lubliner [14].
+
+508
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+[23]) and its consideration among the internal variables has a concrete physical basis. It is also
+emphasized that the only one case in which the referential metric is constant in the course of
+deformation is that of an elastic (non-dissipative) material, like the one discussed in the covariant
+approach of Marsden and Hughes [24]. The additional internal variable vector may be composed
+by hardening parameters (e.g. [15, 30]), evolving anisotropy directions (e.g. [29]) and multiple
+material metrics arising as a physical possibility when changes in the internal structure are due to
+multiple internal deformation mechanisms [22]. The internal variable vector Q is assumed to be
+covariant in the sense that under mapping (1) obeys the general transformation law, that is:
+j ... jr
+
+q1
+
+=
+i ...i
+1
+
+s
+
+j
+
+∂x 1
+∂X
+
+j
+
+...
+I
+1
+
+K
+
+∂x r ∂ X 1
+∂X
+
+Ir
+
+∂x
+
+i1
+
+K
+
+...
+
+∂X s
+∂x
+
+is
+
+I ...I r
+
+Q1
+
+K1 ...Ks
+
+,
+
+(5)
+
+where q j ... j i ...i are the components of q which is the push-forward of Q, i.e. q = x* (Q) .
+1
+
+r
+
+1
+
+s
+
+The state space D=(C, G, Q) is assumed to be attached at the point X so that the set {X} × D is
+a fiber of X. A dynamical process P may be identified by the local vector bundle mapping (e.g.
+Abraham et al. [27, p. 167]):
+P : Ω× D → S × D' ,
+
+defined as:
+
+P ((X, t ), C, G, Q) = ((x,t ), x* (C), x* (G), x* (Q)) = ((x,t ), g, c, q ) .
+
+(6)
+
+Accordingly, the material state in the current configuration at the point x with coordinates
+x 1, x 2 , x 3 is determined by the spatial metric g and the internal variable vector (c, q). A local
+
+process Ψ in the state space D is defined as a curve in D, i.e. as a mapping:
+Ψ:I ∈R → D
+
+defined as:
+
+Ψ(t ) = (C(t ), G(t ), Q(t )) .
+
+The direction and the speed of such a process is determined by the tangent vector,
+ : D → T D, with Ψ
+ (t ) = (C (t ), G
+ (t ), Q
+ (t )),
+Ψ
+
+or simply Ψ = (C ,G ,Q ) , where T D is the tangent space of D . Since C is always known under
+deformation control, the components (G , Q ) have to be determined. The latter are assumed to be
+given as:
+ = A (C,G,Q, C ),
+G
+Q = B (C,G,Q, C ) .
+
+or equivalently,
+
+Lv c = a (g,c,q,F, Lv g),
+
+Lv q = b (g,c, q,F, Lv g),
+
+(7)
+
+(8)
+
+where A and B : T D × D → T D and a and b : T D ′ × D ′ → T D ′ are vector fields in T D andT D ′,
+respectively and hence they are considered as tensorial functions of the denoted arguments and
+Lv (·) stands for the Lie derivative, defined as the convected derivative relative to the current
+configuration (e.g., [25, 27]). Further, the dependence of the functions a, b on the deformation
+
+509
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+gradient F, because of the push-forward operation by which Equation (8) is derived from
+Equation (7) is noteworthy.
+Rate independence implies that Equations (7) and (8) are invariant under a replacement of t by
+χ(t ) where χ(⋅) is any monotonically increasing function. Then a necessary and sufficient
+condition for rate independence is that A and B be homogeneous to the first degree (see [14]),
+that is for any positive number α :
+ = α ⋅ A(C,G,Q,C)
+ ,
+A(C,G,Q,α ⋅ C)
+ = α ⋅ B(C,G,Q,C)
+
+B(C,G,Q,α ⋅ C)
+
+(9)
+
+or equivalently in the spatial description:
+a(g,c,q,α ⋅ Lv g) = α ⋅ a(g,c, q,F,Lv g),
+b(g,c,q,α ⋅ Lv g) = α ⋅ b(g,c,q,F,Lv g).
+
+(10)
+
+A local process is defined as elastic if it lies entirely in a six dimensional submanifold of D
+defined by (G, Q) = constant; otherwise is defined as plastic. The basic concept of generalized
+plasticity is that of the elastic range of a state (e.g. Pipkin and Rivlin [31], Lucchesi and PodioGuidugli [32], Bertram [33]). The latter is introduced as a submanifold of the state space, defined
+as the manifold comprising the values of C that can be reached by an elastic process from the
+current state. It is further assumed that the boundary of the elastic range is a five dimensional
+manifold, the points of which have coordinate neighborhoods, and which is attached to the
+interior in much the same way a face of a cube is attached to the interior. The latter manifold
+may be defined as a loading surface at (G, Q) (e.g., Lubliner [14], Eisenberg and Phillips [34]).
+A state within the elastic range may be defined as plastic if it lies on a loading surface and elastic
+otherwise. Accordingly, the rate equations for the internal variables may be derived on the basis
+of the defining property of a plastic state and the irreversibility of a process from such a state.
+Thus, if (C, G, Q) is a plastic state and N is the outward normal to the loading surface in the state
+under consideration, then a simple form for the functions A and B which fulfills both
+requirements together with the homogeneity conditions is:
+A = ΓΛ(C, G, Q) N : C ,
+B = ΓM(C, G, Q) N : C ,
+
+(11)
+
+where Γ is a scalar function of the state variables related to the yielding properties of the
+continuum and which must be positive at any plastic state and zero at any elastic one and <·>
+stands for the Macauley bracket defined as:
+⎧⎪x if x > 0
+x = ⎪⎨
+⎪⎪0 if x ≤ 0.
+⎩
+
+Finally, Λ and Μ are assumed to be non-vanishing functions of the state variables which are
+associated with the direction of the plastic flow.
+In view of Equations (11) the final form for the rate equations for the internal variables may be
+stated as:
+ = ΓΛ(C, G, Q) N : C ,
+G
+Q = ΓM(C, G, Q) N : C .
+
+5
+
+510
+
+(12)
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+From the rate Equations (12) one can derive directly the loading-unloading criteria for
+generalized plasticity theory as:
+⎧⎪Γ(C,G,Q) = 0
+elastic state,
+⎪⎪
+⎪⎪Γ(C,G,Q) ≠ 0 and N:C < 0 elastic process,
+⎪⎨
+⎪⎪
+N:C = 0 neutral process,
+⎪⎪
+N:C > 0 plastic process.
+⎪⎪⎩
+
+(13)
+
+To this end it is emphasized that the loading-unloading criteria play a paramount role for the
+numerical implementation for a generalized plasticity based model (see Panoskaltsis et al. [5,
+30]).
+The equivalent spatial formulation can be derived either in a similar manner (see [5]), or by
+performing a push-forward operation to Equations (12) as:
+Lv c = γ λ(g,c,q,F) n:Lv g ,
+Lv q = γ µ(g,c,q,F) n:Lv g ,
+
+(14)
+
+where λ, µ and n are the push-forwards of the functions Λ, Μ, Ν in the current configuration and
+γ is the expression of Γ in terms of the spatial variables. The loading - unloading criteria follow
+in a similar manner as:
+⎧⎪γ(g,c,q,F) = 0
+elastic state,
+⎪⎪
+⎪⎪γ(g,c,q,F) ≠ 0 and n : L g < 0 elastic process,
+v
+⎪⎨
+⎪⎪
+n : Lv g = 0 neutral process,
+⎪⎪
+n : Lv g > 0 plastic process.
+⎪⎪⎩
+
+(15)
+
+The rate Equations (12) or (14) along with the mathematical expression of the loading (hyper)
+surfaces in the state space, which in general are assumed to be given as single parameter families
+of the form:
+Φ(C,G,Q) = K ,
+(16)
+or equivalently:
+ϕ(g,c,q,F) = k,
+(17)
+constitute the basic ingredients of rate-independent generalized plasticity. It is concluded that the
+theory does not employ the concept of the yield surface as a basic ingredient. Nevertheless, the
+concept of the yield surface may be introduced on the basis of purely geometric arguments and an
+equivalent approach for classical plasticity may be obtained.
+3 The covariant balance of energy and the stress tensor
+The keystone element of any covariant constitutive theory, relativistic or non- relativistic, is
+that of the covariant balance of energy. A first approach to this concept, within the context of
+non-linear elasticity and manifold underlying spaces, is given in Marsden and Hughes [24] (see
+also Simo and Marsden [26]). In particular, these authors by postulating the invariance of the
+energy density under arbitrary spatial diffeomorphisms, that is spatial transformations which may
+
+6
+
+511
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+change the whole ambient space, derived the conservation and balance laws of classical
+mechanics, together with the Doyle-Ericksen formula (see Doyle and Ericksen [36]). The concept
+has been studied further by Yavari et al. [28], where particular emphasis is placed on the
+transformation properties of the balance of energy under arbitrary referential diffeomorphisms;
+this approach leads to the notion of the configurational forces, which are forces acting on the
+reference configuration. Nevertheless, the concept seems to have passed largely unnoticed within
+the context of materials with internal variables, which do not appear explicitly in the balance laws
+(Bertram [33]). Its generalization for the elastic-plastic body studied herein, constitutes the
+primary objective of this section.
+The principle of balance of energy may be stated as an axiom as follows:
+Let U be any open subset of Ω and let P :U × D → S × D' be a fixed dynamical process of the
+body within the space S × D' , which is modeled by the local vector bundle map (6). Let ρ(x, t )
+be the mass density, e(x, t ) the internal energy function per unit mass, υ(x, t ) the spatial velocity,
+b(x, t ) the external body force per unit mass and t(x, t, m) the Cauchy traction vector, where m is
+the unit normal to the boundary ∂x(U ). Then, for a purely mechanical theory the balance of
+energy axiom reads as follows:
+Axiom (Balance of Energy): The dynamical process satisfies balance of energy if:
+d
+ρ e + 12 υ, υ dv = ∫ ρ b, υ dv + ∫
+t, m da
+x (U )
+∂x (U )
+dt ∫x (U )
+
+(
+
+)
+
+(
+
+)
+
+(24)
+
+where ⋅, ⋅ stands for the inner product in S and dv, da are the volume and area elements
+respectively, in the current configuration. The covariant balance of energy axiom within the
+context of the elastic-plastic body in question may be stated as follows:
+Axiom (Covariant Balance of Energy): For the fixed dynamical process
+P :U × D → S × D' which satisfies the balance of energy axiom, consider an arbitrary superposed
+spatial diffeomorphism ξ : (S , D' ) → (S , D' ). Postulate that the new dynamical process x = ξ D x
+satisfies the balance of energy axiom, provided that the metric g is replaced by ξ *g , the Finger
+deformation tensor c is replaced by ξ* c, the additional internal variable vector q is replaced by
+ξ * q and velocities, forces, accelerations, etc. are transformed according to the standard laws of
+tensorial calculus (e.g., Marsden and Hughes [24, p. 163]), i.e.:
+d
+ρ e + 12 υ, υ dv = ∫ ρ
+x (U )
+dt ∫x (U )
+
+(
+
+)
+
+( b, υ )dv + ∫
+
+∂x (U )
+
+t, m da .
+
+(25)
+
+We assume that unlike the classical elastic case discussed for instance in Marsden and Hughes
+[24], where the functions e, ρ, etc. depend solely on the spatial metric, in the case of an inelastic
+material with internal variables, these functions depend on the internal variables as well. This
+plausible consideration follows from the fact that the internal variables -even though not
+controllable- they are measurable (e.g. Maugin [37, p. 277]) and play an equally weighted role to
+the continuum response.
+The basic assumption for postulating Equation (25) lies crucially on the adopted
+transformation law for the internal energy density, namely:
+
+512
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+x = ξ(x), e (x, t, g,c,q) = e(x,t,ξ *g,ξ * c, ξ * q) .
+
+(26)
+As it is noted in Simo and Marsden [26], this assumption is rather natural and is based on the
+fact that referential tensors such as the right Cauchy-Green tensor C, the referential metric G and
+the additional internal variable vector Q, remain unchanged under the superposed spatial
+diffeomorphism. In particular, if ξ : (S , g, c, q) → (S , g, c, q) is a spatial diffeomorphism, the new
+metric g and the new internal variable vector ( c, q) must be such that C = C and (G, Q) = (G, Q) ,
+that is:
+g = ξ D x* (C) = ξ D x* (C) = ξ * (g)
+(27)
+and similarly,
+( c, q) = ξ D x* [(G, Q)] = ξ D x* [(G, Q)] = ξ * (c, q).
+(28)
+Furthermore, by extending the classical elastic case, one can define the set
+
+{
+
+O(g,c,q ) = (ξ * (g), ξ * (c, q ) | ξ : (S , D') → (S , D') is a diffeomorphism
+
+}
+
+as the orbit of the state variables.
+The covariance axiom may be systematically used in order to find restrictions on constitutive
+equations of materials and in particular, when deformation is the primary variable, to show how
+the stress can be derived from the internal energy density. For instance, Doyle and Ericksen [36,
+p. 57] proved that for an elastic continuum, the Cauchy stress tensor σ is given as:
+σ = 2ρ
+
+∂e
+.
+∂g
+
+(29)
+
+For the rate independent continuum, with the rate equations taking the form (14), the
+procedure is the following: Equation (25) is evaluated at time t = t0 for which
+ξ
+
+t =t0
+
+= identity and w =
+
+∂ξ
+,
+∂t t =t
+0
+
+is the velocity of ξ (at t = t0 ).
+Then, by applying a standard procedure (see Marsden and Hughes [24, pp. 166, 167]), which
+involves the transport theorem, the divergence theorem and the Cauchy tetrahedron, we obtain
+the equations of conservation of mass, balance of momentum, balance of moment of momentum,
+together with the additional identity:
+(30)
+∫ ⎢⎣⎡ρ (e − e) − 12 σ : Lw g⎥⎦⎤ dv = 0.
+x (U )
+
+The definition of the Lie derivative yields:
+∂e d
+∂e d
+∂e d
+e = e +
+:
+ξ * (g) +
+:
+ξ * (c) +
+:
+ξ * (q) =
+∂g dt t =t
+∂c dt t =t
+∂q dt t =t
+0
+
+0
+
+∂e
+∂e
+∂e
+= e +
+: Lw g +
+: Lw c +
+: L q.
+∂g
+∂c
+∂q w
+
+Substitution of (31) into (30) yields:
+
+513
+
+0
+
+(31)
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+⎡ ∂e
+⎤
+∂e
+∂e
+1
+⎢ρ
+⎥ dv = 0.
++
++
+−
+L
+L
+L
+L
+:
+g
+ρ
+:
+c
+ρ
+:
+q
+σ
+:
+g
+∫x (U ) ⎢ ∂g w
+w ⎥
+2
+∂c w
+∂q w
+⎣
+⎦
+
+(32)
+
+Substitution of the rate Equations (12) into Equation (31) yields
+⎧⎪⎡ ∂e
+⎫⎪
+⎤
+∂e
+∂e
+⎪⎨⎢ ρ
++ρ
+: λ(g, c, q, F)n + ρ
+: µ(g, c, q, F)n − 12 σ ⎥ : Lw g⎪⎬ dv = 0 ,
+⎥
+x (U ) ⎪ ⎢ ∂g
+⎪⎪
+∂c
+∂q
+⎪⎩⎣
+⎦
+⎭
+from which and by noting that Lw g can be arbitrarily specified, we derive
+
+∫
+
+ρ
+
+1
+∂e
+∂e
+∂e
+: λ(g, c, q, F)n + ρ
+: µ(g, c, q, F)n − σ = 0 .
++ρ
+2
+∂g
+∂c
+∂q
+
+(33)
+
+(34)
+
+Therefore, the covariance axiom does not yield the Doyle-Ericksen formula, unless a further
+assumption is made, namely that an unloading process (i.e. a process with n:Lv g ≤ 0 ) from a
+plastic state is quasi-reversible, which means that in such a process the plastic dissipation,
+defined as
+dp = −
+
+⎛
+∂e
+∂e
+∂e
+∂e  ⎞⎟
+: Lv c −
+: Lv q ⎜⎜⎜= −
+:G−
+: Q⎟⎟
+∂c
+∂q
+∂G
+∂Q
+⎝⎜
+⎠⎟
+
+vanishes. If this is the case, the Doyle-Ericksen formula can be derived as in the classical elastic
+case directly from Equation (32).
+It is interesting to note that Lubliner [14] arrives at a similar result by working entirely in the
+reference configuration and on the basis of the second law of thermodynamics, expressed in the
+form of the Clausius-Plank inequality. In our covariant approach we bypass the second law,
+focusing on all transformations of a given process, unlike the second law of thermodynamics
+where we focus on all processes (Marsden and Hughes [24, p. 201]).
+4 A model problem
+In order to illustrate the application of the presented concepts to the constitutive modeling of
+solid materials a specific model is developed. The formulation of the model is motivated by
+classical metal plasticity and in particular it comprises von-Mises loading surfaces with both
+isotropic and kinematical hardening.
+Since we deal with large scale inelastic flow, the kinematics of the problem together with the
+covariance principle, suggest that a formulation of the model in terms of the spatial metrics and
+their Lie derivatives is more fundamental. Further, in the current configuration the spatial metric
+has usually a diagonal form, which makes the computations simpler than those in the reference
+configuration, where the (Lagrangian) metric C is fully populated (e.g. see [29]). Accordingly,
+the stress response is assumed to be hyperelastic, governed by an isotropic strain energy function,
+which is given in terms of the invariants of the tensor gb, where b is the left Cauchy-Green tensor,
+defined as the push-forward of the reciprocal (contravariant) metric G−1 , i.e. b = x∗ (G−1 ) = FG FT ,
+as:
+ρ0 ψ = λ
+
+(I 3 )2 − 1
+4
+
+−
+
+1
+
+1 −
+λ
+ln I 3 + µI 3 3 ⎢⎡I 1 − 3⎥⎤ ,
+⎣
+⎦
+2
+2
+
+514
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+where λ and µ are Lame ′ type of parameters, ρ0 is the referential density and I 1 and I 3 are the first
+and the third invariants of the tensor gb.
+Then, the Kirchhoff stress tensor τ, (τ = J σ) is given by the Doyle-Ericksen formula (see [24, p.
+204]) as:
+τ = 2ρ0
+
+−
+I − 1 −1
+∂ψ
+=λ 3
+g + µI 3 3devb,
+2
+∂g
+1
+
+(35)
+
+where dev(⋅) stands for the deviatoric operator in the current configuration and is given as:
+1
+dev(⋅) = (⋅) − [g : (⋅)]g−1 .
+3
+
+The loading surfaces are assumed to be given by a von-Mises type of expression in the form:
+
+(
+
+ϕ(τ,g,a, q) = (τ ij − q ij )(τ kl − q ij )gik g jl − 13 τ kl gkl
+
+) − (σ + δHa ),
+2
+
+2
+3
+
+y
+
+(36)
+
+where α is a scalar internal variable, that stands for the description of the isotropic hardening of
+the von-Mises loading surface and q is a purely deviatoric tensorial internal variable (backstress), which stands for its kinematic hardening. Finally, σy denotes the uniaxial yield stress and
+δ and H are two model parameters related to the hardening properties of the material.
+
+The evolution of the contravariant metric is assumed to be given by a normality flow rule,
+which resembles the one derived on the basis of the maximum plastic dissipation by Simo [15],
+within the context of classical multiplicative elastoplasticity:
+−
+
+1
+
+µI 3 3 Lv b = −2
+
+1 ϕ
+n n : Lv g ,
+β ϕ
+
+(37)
+
+where β is an additional parameter. For the rate equations for the evolution of the hardening
+variables, motivated from the infinitesimal theory (e.g. see Simo and Hughes [38, p. 90]), we
+consider the following forms:
+a =
+
+2 1 ϕ
+3β ϕ
+
+n : Lv g ,
+
+(38)
+
+2
+(39)
+(1 − δ )HLv b.
+3
+∂ϕ
+to the loading surfaces, after lengthy computations (see
+Finally, the normal vector n =
+∂g
+Lv q =
+
+Simo [15]), can be found to be:
+n=
+−
+
+1
+
+⎛
+⎞⎟
+devτ
+⎜
+∂ϕ
+dev[m 2 ]⎟⎟⎟,
+= µ ⎜⎜m +
+⎜⎜
+⎟
+µ
+∂g
+⎝
+⎠⎟
+
+where µ = µI 3 3 I 1 and m =
+
+devτ
+devτ
+
+(40)
+
+is the normal vector to the yield surface in the stress space.
+
+An equivalent expression of the model in the reference configuration can be derived in a similar
+
+515
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+manner like the one discussed in section 2, by a pull-back operation to the basic equations (e.g.
+[16, 29, 30]).
+The proposed model can be implemented numerically by employing a predictor-corrector
+scheme like the one proposed within the context of a classical elastic-plastic formulation by
+Simo and Hughes [38, pp. 311-321]. In sharp contrast to the classical elastic-plastic case, for the
+model in question the state variables are not constrained to lie within the manifold enclosed by
+the yield surface, because of the absence of the concept of the yield surface. Accordingly, unlike
+the classical elastic-plastic case where the governing equations define a unilaterally constrained
+problem of evolution (e.g. Simo and Ortiz [17], Simo and Hughes [38, pp. 311-321]), in the
+present case the governing equations define a differential system which must obey the loadingunloading conditions stated in Section 2 (see Equations (13), (15)). The resulting system is in
+general highly non-linear and it can be solved by an iterative technique. Algorithmic details
+related to the crucial role played by the loading-unloading criteria for the numerical
+implementation of a generalized plasticity model, within the context of the infinitesimal theory,
+can be found in Panoskaltsis et al. [39]. Additional details, encompassing several algorithmic
+forms of the time continuous loading-unloading criteria within the context of large deformation
+plasticity and algorithmic approximations for the Lie derivatives appearing in the formulation, are
+given in Panoskaltsis et al. [5, 30].
+Due to lack of space one problem of large scale plastic flow is considered, that of finite shear.
+This problem has been used extensively as a testing problem within the context of large
+deformation constitutive theory (e.g. [4, 5, 18, 40] and is defined by:
+x 1 = X 1 + γX 2, x 2 = X 2, x 3 = X 3,
+
+where γ is the shearing parameter. The material parameters are similar to those considered by
+Simo and Hughes [38, p. 326] (where a related problem, i.e. the elastic- plastic upsetting of an
+axisymmetric billet is examined):
+λ = 833.33 MPa, µ = 384, 62MPa, σy = 1MPa, H = 3MPa, δ = 0.2.
+
+In our example both isotropic and kinematic hardening mechanisms are considered. The
+referential metric is assumed initially to be equal to the Euclidean metric.
+The stress-deformation curves predicted by the model for different values of the plastic
+parameter β are shown in Figures 1 and 2. The predicted response corresponds to stresses which
+increase monotonically with strain and the oscillating response, reported among others by Atluri
+[4] in a finite shear problem, due to the use of the (corrotational) Jaumannn rate, does not appear.
+The salient feature of a generalized plasticity predicted stress-strain curve, according to which
+reloading, following unloading from a plastic state, results in plastic behavior before the stress
+level from which the unloading began (see [30, 35]), is verified.
+5 Concluding Remarks
+A new approach to large deformation plasticity has been proposed. The approach considers
+the referential, ‘‘physical” metric as the primary internal variable, the time derivative of which
+accounts for the description of the plastic (dissipative) mechanisms within the material.
+
+516
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+The proposed approach has several advantages over the classical approaches to large deformation
+elastic-plastic theory since:
+(1) It is based on a physical quantity namely the physical metric, which can be determined by
+experimental procedures and does not consider neither the introduction of an “artificial”
+primary measure accounting for plastic deformation, nor any decomposition of the
+kinematical quantities in elastic and plastic parts.
+(2) By considering the “physical” metric as the primary internal variable and the spatial
+metric as the control variable, a natural strain-space formulation of the theory is achieved.
+(3) It can describe several internal structures, which may differ vastly from the classical
+Euclidean one.
+(4) It constitutes a natural extension of the well established theory of elasticity of Marsden
+and Hughes [24] to the elastic-plastic range.
+(5) It can be extended naturally to a covariant one.
+Furthermore, in the course of this development two additional novel features are presented:
+(1) The derivation of the Doyle-Ericksen formula within the context of an elastic- plastic
+continuum.
+(2) The derivation of a simple elastic-plastic model within a strain-space formulation and its
+numerical implementation for the solution of large scale plastic flow problems.
+References
+[1] Nemat-Naser, S.: On finite deformation elasto-plasticity. Int. J. Solids Structures 18, 857-872
+
+(1982)
+[2] Nagtegaal, J.C., De Jong, J.E.: Some computational aspects of elastic-plastic large strain
+analysis. Int. J. Num. Methods Engrg. 17, 15-41 (1981)
+[3] Key, S.W., Krieg, R.D.: On the numerical implementation of inelastic time dependent and
+time independent, finite strain constitutive equations in structural mechanics. Computer
+Methods Appl. Mech. Engrg. 33, 439-452 (1982)
+[4] Atluri, S.N.: On constitutive relations at finite strain: Hypo-elasticity and elasto– plasticity
+with isotropic or kinematic hardening. Computer Methods Appl. Mech. Engrg. 43, 137-171
+(1984)
+[5] Panoskaltsis, V.P., Polymenakos L.C., Soldatos D. Eulerian structure of generalized
+plasticity: Theoretical and computational aspects. ASCE, J. Engrg. Mech., 134, 354-361
+(2008)
+[6] Green, A. E., Naghdi, P.M.: A general theory of an elastic-plastic continuum. Arch. Rat.
+Mech. Anal. 18, 251-281 (1965)
+[7] Green, A. E., Naghdi, P.M.: A thermodynamic development of elastic-plastic continua. In:
+Parker, H., Sedov, L.I. (Eds.), Proc. IUTAM Symp. On Irreversible Aspects of Continuum
+Mechanics and Transfer of Physical Characteristics in Moving Fluids, Springer-Verlag,
+117–131 (1966)
+[8] Lee, E.H., Liu, D.T.: Finite strain elastic-plastic theory with application to plane– wave
+analysis. J. Appl. Phys. 38, 19-27 (1967)
+
+517
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+[9] Lee, E.H.: Elastic-plastic deformation at finite strains. J. Appl. Mech. 36, 1-6, (1969)
+[10] Mandel, J.: Plasticité classique et viscoplasticité. CISM, Udine 1971, Springer-Verlag,
+
+Vienna, New York (1972).
+[11] Kratochvil, J.: On finite strain theory of elastic–inelastic materials. Acta Mech. 16, 127-142
+
+(1973).
+[12] Dashner P. A.: Invariance considerations in large strain elasto-plasticity ASME J. Appl.
+Mech. 53, 55-60 (1986)
+[13] Lubliner, J.: Normality rules in large-deformation plasticity. Mech. Matls 5, 29-34 (1986)
+[14] Lubliner, J.: Non-isothermal generalized plasticity. In Thermomechanical Couplings in
+solids, eds. H. D. Bui and Q. S. Nyugen, 121-133 (1987)
+[15] Simo, J. C.: A Framework for finite strain elastoplasticity based on maximum plastic
+dissipation and multiplicative decomposition Part I: Continuum formulation. Computer
+Methods Appl. Mech. Engrg. 66, 199-219 (1988)
+[16] Le, K.H., Stumpf, H.:Constitutive equations for elastoplastic bodies at finite strain:
+thermodynamic implementation. Acta Mech. 100, 155-170, (1993)
+[17] Simo, J.C., Ortiz, M.: A unified approach to finite deformation elastoplastic analysis based
+on the use of hyperelastic constitutive equations. Computer Methods Appl. Mech. Engrg.
+49, 221-245 (1985)
+[18] Agah-Tehrani, A., Lee, E.H., Mallet, R.L., Onat, E.T.: The theory of elastic-plastic
+deformation at finite strain with induced anisotropy modeled as combined isotropickinematic hardening. J. Mech. Phys. Solids 35, 519-539 (1987)
+[19] Naghdi, P.M.: A critical review of the state of finite plasticity. Z. Angew. Math. Phys. 41,
+315-387, (1990)
+[20] Gilman, J.J.: Physical nature of plastic flow and fracture, In Lee, E.H., Symonds, P.S. (Eds),
+Plasticity, Proc. 2. Symp. On Naval Structural Mechanics, Pergamon Press, Oxford, 43-99
+(1960)
+[21] Lubliner, J.: An axiomatic model of rate-independent plasticity. Int. J. Solids Structures 16,
+709-713 (1980)
+[22] Valanis, K.C.: The concept of physical metric in thermodynamics. Acta Mech. 113, 169-184
+(1995)
+[23] Valanis K.C., Panoskaltsis V.P.: Material metric, connectivity and dislocations in continua.
+Acta Mech. 175, 77-103 (2005)
+[24] Marsden, J. E., Hughes, T. J. R.: Mathematical foundations of elasticity, Dover
+
+Publications, New York (1994)
+[25] Stumpf, H., Hoppe, U.: The application of tensor algebra on manifolds to nonlinear
+continuum mechanics - Invited survey article. Z. Angew. Math. Mech. 77, 327-339 (1997)
+[26] Simo, J. C., Marsden, J. E.: On the rotated stress tensor and the material version of the
+Doyle-Ericksen formula. Arch. Ration. Mech. Anal. 86, 213-231 (1984)
+nd
+[27] Abraham, R., Marsden, J.E., Ratiu, T: Manifolds, tensor analysis and applications, 2 ed.,
+Springer-Verlag, New Work (1988)
+
+518
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+[28] Yavari, A., Marsden, J.E., Ortiz, M.: On spatial and material covariant balance laws in
+
+elasticity. J. Math. Phys. 47, 1-53 (2006)
+[29] Miehe, C.: A constitutive frame of elastoplasticity at large strains based on the notion of a
+plastic metric. Int. J. Solids Structures. 35, 3859-3897 (1998)
+[30] Panoskaltsis, V.P., Polymenakos, L.C., Soldatos, D.: On large deformation generalized
+plasticity. J. Mech. Matls Struct. 3, 441-457 (2007)
+[31] Pipkin, A. C., Rivlin, R. S.: Mechanics of rate-independent materials. Z. Angew. Math.
+Physik 16, 313-326 (1965)
+[32] Lucchesi, M., Podio-Guidugli, P.: Materials with elastic range: a theory with a view toward
+applications: Part II Arch. Ration. Mech. Anal. 110, 9-42 (1992)
+[33] Bertram, A.: An alternative approach to finite plasticity based on material
+isomorphisms. Int. J. Plasticity 52, 353-374 (1998)
+[34] Eisenberg, M.A., Phillips, A.; A theory of plasticity with non-coincident yield and loading
+surfaces. Acta Mech. 11, 247-260 (1971)
+[35] Lubliner, J.: On loading, yield and quasi-yield hypersurfaces in plasticity theory. Int. J.
+Solids Structures 11, 1011-1016 (1975)
+[36] Doyle, T.C., Ericksen, J.L.: Nonlinear elasticity. Advances in Applied Mechanics,
+Academic Press, New York (1956)
+[37] Maugin, G.A.: The thermodynamics of plasticity and fracture Cambridge University Press
+(1992)
+[38] Simo, J. C. and Hughes, T. J. R.: Computational inelasticity, Springer-Verlag, New York
+(1997)
+[39] Panoskaltsis, V. P., Bahuguna, S. and Soldatos, D.: A general consistent integration scheme
+for rate-independent generalized plasticity. In eds. D. R. J. Owen, E. Onãte and E. Hinton,
+COMPLAS, International Conference on Computational Plasticity, Fundamentals and
+Applications, Barcelona, Spain (1997)
+[40] Haupt, P., Tsakmakis, C.: On kinematic hardening and large plastic deformations. Int. J.
+Plasticity 2, 279-293 (1986)
+[41] Panoskaltsis, V. P., Soldatos, D., Triantafyllou, S., P.: The concept of physical metric in rate
+– independent generalized plasticity. Acta Mech. in press. Published on line: DOI
+10.1007/s00707-010-0417-3 (2011)
+
+519
+
+V. P. Panoskaltsis, D. Soldatos and S. P. Triantafyllou.
+
+300
+β/µ=10
+β/µ=3
+β/µ=2.1
+
+Shear Stress τ12 (ΜPa)
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+Shear Strain γ
+
+0.6
+
+0.7
+
+0.8
+
+0.9
+
+1
+
+0.9
+
+1
+
+Figure 1: Finite Shear. Shear stress τ12 vs. shear strain γ.
+150
+
+Normal Stress τ11 (ΜPa)
+
+β/µ=10
+β/µ=3
+β/µ=2.1
+
+100
+
+50
+
+0
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+Shear Strain γ
+
+0.6
+
+0.7
+
+0.8
+
+Figure 2: Finite Shear. Normal Stress τ11 vs. shear strain γ.
+
+520
+
+

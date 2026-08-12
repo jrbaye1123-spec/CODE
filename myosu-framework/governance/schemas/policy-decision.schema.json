@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vault.nousresearch.com/schemas/policy-decision-v1.0.0.json",
+  "title": "Policy Decision Schema",
+  "description": "Record of every governance policy evaluation.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "timestamp",
+    "action",
+    "subject",
+    "object",
+    "decision"
+  ],
+  "properties": {
+    "decision_id": { "type": "string", "pattern": "^pol_[a-zA-Z0-9]{10,}$" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "action": {
+      "type": "string",
+      "enum": [
+        "vault.write",
+        "vault.read",
+        "retrieval.request",
+        "handoff.create",
+        "synthesis.run",
+        "promotion.request",
+        "export.request",
+        "quarantine.create",
+        "exception.create"
+      ]
+    },
+    "subject": {
+      "type": "object",
+      "properties": {
+        "agent_id": { "type": "string" },
+        "role": { "type": "string" },
+        "token_id": { "type": "string" }
+      }
+    },
+    "object": {
+      "type": "object",
+      "properties": {
+        "note_id": { "type": "string" },
+        "space": { "type": "string" },
+        "source_id": { "type": "string" }
+      }
+    },
+    "decision": { "type": "string", "enum": ["allow", "deny", "quarantine", "flag"] },
+    "rules_evaluated": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "obligations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "violations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rule": { "type": "string" },
+          "reason": { "type": "string" },
+          "severity": { "type": "string" }
+        }
+      }
+    }
+  }
+}

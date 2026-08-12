@@ -1,0 +1,147 @@
+{
+  "run_at": "2026-08-06T13:51:32.774658+00:00",
+  "provider": "keyword",
+  "model": "",
+  "source": "arxiv_ids",
+  "papers_submitted": 4,
+  "papers_triaged": 4,
+  "papers_blocked": 0,
+  "top_n": [
+    {
+      "paper_id": "2608.05131v1",
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "classification": "multimodal_learning",
+      "relevance_score": 0.5,
+      "summary": "Paper: OPD-V: Visual On-Policy Self-Distillation with Modality Balance\nClassification: multimodal_learning\nRelevant threads: Multimodal Learning, Scalable Oversight, Reasoning & Planning\nSummary: On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model cannot fully integrate its multimodal input. Consequently, carefully designed privileged information...",
+      "threads": [
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.5,
+          "reasoning": "Matched 3/9 keywords from thread 'Multimodal Learning'"
+        },
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.21428571428571427,
+          "reasoning": "Matched 1/7 keywords from thread 'Scalable Oversight'"
+        },
+        {
+          "thread_id": "reasoning_planning",
+          "thread_name": "Reasoning & Planning",
+          "score": 0.1875,
+          "reasoning": "Matched 1/8 keywords from thread 'Reasoning & Planning'"
+        },
+        {
+          "thread_id": "transformer_efficiency",
+          "thread_name": "Transformer Efficiency",
+          "score": 0.15000000000000002,
+          "reasoning": "Matched 1/10 keywords from thread 'Transformer Efficiency'"
+        }
+      ],
+      "claims": []
+    },
+    {
+      "paper_id": "2608.05141v1",
+      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+      "classification": "scalable_oversight",
+      "relevance_score": 0.42857142857142855,
+      "summary": "Paper: OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling\nClassification: scalable_oversight\nRelevant threads: Scalable Oversight, Reasoning & Planning, Multimodal Learning\nSummary: Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context engineering pipeline that instruments an AST parser, a language server backend, and a package manager...",
+      "threads": [
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.42857142857142855,
+          "reasoning": "Matched 2/7 keywords from thread 'Scalable Oversight'"
+        },
+        {
+          "thread_id": "reasoning_planning",
+          "thread_name": "Reasoning & Planning",
+          "score": 0.375,
+          "reasoning": "Matched 2/8 keywords from thread 'Reasoning & Planning'"
+        },
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.16666666666666666,
+          "reasoning": "Matched 1/9 keywords from thread 'Multimodal Learning'"
+        }
+      ],
+      "claims": []
+    },
+    {
+      "paper_id": "2608.05144v1",
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "classification": "reasoning_planning",
+      "relevance_score": 0.375,
+      "summary": "Paper: Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning\nClassification: reasoning_planning\nRelevant threads: Reasoning & Planning, Scalable Oversight, Multimodal Learning\nSummary: Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent from operational objectives, constraints, and verification criteria, and admits memories, skills, proce...",
+      "threads": [
+        {
+          "thread_id": "reasoning_planning",
+          "thread_name": "Reasoning & Planning",
+          "score": 0.375,
+          "reasoning": "Matched 2/8 keywords from thread 'Reasoning & Planning'"
+        },
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.21428571428571427,
+          "reasoning": "Matched 1/7 keywords from thread 'Scalable Oversight'"
+        },
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.16666666666666666,
+          "reasoning": "Matched 1/9 keywords from thread 'Multimodal Learning'"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state.",
+          "source": "https://arxiv.org/abs/2608.05144v1"
+        }
+      ]
+    },
+    {
+      "paper_id": "2608.05138v1",
+      "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
+      "classification": "multimodal_learning",
+      "relevance_score": 0.3333333333333333,
+      "summary": "Paper: Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains\nClassification: multimodal_learning\nRelevant threads: Multimodal Learning, Scalable Oversight, Reasoning & Planning\nSummary: Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA. Our study shows that a parameter-...",
+      "threads": [
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.3333333333333333,
+          "reasoning": "Matched 2/9 keywords from thread 'Multimodal Learning'"
+        },
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.21428571428571427,
+          "reasoning": "Matched 1/7 keywords from thread 'Scalable Oversight'"
+        },
+        {
+          "thread_id": "reasoning_planning",
+          "thread_name": "Reasoning & Planning",
+          "score": 0.1875,
+          "reasoning": "Matched 1/8 keywords from thread 'Reasoning & Planning'"
+        },
+        {
+          "thread_id": "transformer_efficiency",
+          "thread_name": "Transformer Efficiency",
+          "score": 0.15000000000000002,
+          "reasoning": "Matched 1/10 keywords from thread 'Transformer Efficiency'"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA.",
+          "source": "https://arxiv.org/abs/2608.05138v1"
+        }
+      ]
+    }
+  ],
+  "output_id": "output_992b1e00e462",
+  "session_id": "910b4a11"
+}

@@ -1,0 +1,12 @@
+{
+  "run_at": "2026-08-06T14:06:21.557087+00:00",
+  "provider": "deepseek",
+  "model": "",
+  "source": "demo",
+  "papers_submitted": 5,
+  "papers_triaged": 0,
+  "papers_blocked": 5,
+  "top_n": [],
+  "output_id": "output_b8e650338c26",
+  "session_id": "0c048cb1"
+}

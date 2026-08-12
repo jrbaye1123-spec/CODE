@@ -1,0 +1,625 @@
+Gauge theory of defects in elastic continua- I
+
+Visiting Professor, Sri Sathya Sai Institute of Higher Learning,
+Prasanthi Nilayam, Puttaparthy, A.P. 515 134, India
+E-mail: dsahoo@iopb.res.in
+
+M.C. Valsakumar
+Materials Science Division
+Indira Gandhi Centre for Atomic Research
+Kalpakkam, Tamil Nadu 603 102, India
+E-mail: valsa@igcar.ernet.in
+We present a selective review of the gauge theory of defects in the elastic continuum. After
+introducing the essential geometric concepts of continuum mechanics in the presence of defects,
+the classical defect dynamics equations involving dislocation and disclination density tensors are
+introduced. The mathematical structure of gauge theories is briefly discussed. Typical recent
+works covering Yang-Mills type gauge theories and gravity type gauge theories are touched upon
+in a qualitative way.
+
+Statistical Mechanics of plasticity and Related Instabilities
+International Conference on Plasticity and Related Instabilities, 31 August-2 September, 2005
+Indian Institute of science
+Bangalore, India
+∗ Speaker.
+
+c Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike Licence.
+
+http://pos.sissa.it/
+
+PoS(SMPRI2005)005
+
+Debendranath Sahoo∗
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+Contents
+Introduction
+
+2
+
+2.
+
+Structure of manifold
+
+3
+
+3.
+
+Material manifold and its deformation
+
+4
+
+4.
+
+General structure of gauge theories
+
+7
+
+5.
+
+Yang-Mills type gauge theories
+
+8
+
+6.
+
+Gravity type gauge theories
+
+9
+
+7.
+
+Conclusion
+
+10
+
+1. Introduction
+The purpose of this work and the work presented in the accompanying work (part II[1]) is
+to review the application of gauge theories to defects in elastic continuum. As is well known,
+spectacular progress has taken place in understanding the behaviour of elementary particles and
+their interactions because of the gauge theories. Inspired by this, gauge concepts have been used in
+field theories of elastic continuum with defects. However, the hope that it could be the basis of a
+general theory of plasticity is yet to materialize. The question as to whether gauge concepts could
+be of real help in understanding defect continuum mechanics has been the subject of a three month
+long research project in 1982 in Kröner’s group at Stuttgart. Eleven experts including Kröner,
+Kunin, Hehl, Kleinert, Zorawski, among others have participated in a three-day long discussion
+meeting (7-9 July, 1982) entitled Gauge field theories of defects in solids[2] and have presented
+their views. We quote here the conclusion, as summarized by Kröner: “... there was optimism
+and pessimism, the former perhaps more on the side of field theorists, the latter on the side of the
+“defectists”... Nevertheless, the majority of participants appeared to be in favour of continuing the
+effort towards a gauge theoretical formulation of the defect theory...”. It can safely be said that the
+status of the field as of this day is not qualitatively different from that of 1982.
+Gauge approach may be said to be the ultimate in the geometric formulation of the theory.
+Geometric concepts have physical counterparts, but it is a challenging problem to specify the dynamics associated with point and line defects. The basic geometric identification made is that the
+underlying continuum used for describing the physical phenomenon is a differentiable manifold
+called the body manifold. Kondo[3, 4] and later Bilby, Bullough and Smith[5] have independently
+taken the bold step in identifying dislocation with the torsion of the manifold. Later, disclination
+2
+
+PoS(SMPRI2005)005
+
+1.
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+2. Structure of manifold
+The easiest way to introduce the geometric concepts needed for our purpose is via Cartan’s
+structure equations of a manifold. Let M be a differentiable manifold of dimension n. At a point
+p ∈ M, let {ei } (i = 1, · · · , n) constitute the basis of the cotangent space Tp∗ (M) and let {ei } be the
+base vectors of the tangent space Tp (M). The local coordinate form of the bases of Tx∗ (M) and
+Tx (M) at p = x are {dxi } and {∂i ≡ ∂∂xi } respectively. Let ωk i be the connection 1-form of M. Then
+the most important description of M is given by Cartan’s structure equations:
+1
+T i = Dei = dei + ωk i ∧ ek = Tkl i ek ∧ el ,
+2
+1
+i
+i
+i
+l
+i
+Rk = Dωk = dωk + ωl ∧ ωk = Rklm i el ∧ em .
+(2.1)
+2
+Here the symbol ∧ denotes the wedge product and ‘d’ is the exterior derivative operation and ‘D’
+denotes the covariant exterior derivative. The integrability conditions of the above equations are
+given by
+DT i = Rk i ∧ ek ,
+3
+
+(2.2)
+
+PoS(SMPRI2005)005
+
+has been identified with the curvature. The kinematics and dynamics of dislocations and disclinations has been investigated in the framework of classical elasticity by deWit and Kossecka[6, 7].
+Many versions and types of theories have been proposed, but the question as to what constitutes a gauge theory does not have a unique answer. The use of metric, connection, torsion
+and curvature and postulation of a Lagrangian depending on these quantities has been called[8] as
+a gauge theory. However, conventionally a gauge theory is understood as any theory which has
+kinematics based on a Lagrangian given in terms of some initial fields (matter fields) possessing
+invariance under some continuous Lie group, local gauge symmetry, gauge potential (connection),
+and gauge field (curvature). The scope of a gauge theory being vast, many aspects of defects have
+attracted attention. Gairola[9] has investigated the role of Noether’s theorem in the gauge theory
+of crystal defects. McCrea et. al.[10] have mapped Noether identities into Bianchi identities in the
+theory of static lattice defects.
+Broadly, there are two types of gauge theories: the standard Yang-Mills theories[11, 14, 15,
+16], modelled on gauge kinematics based on internal symmetries, and gravity type gauge theories
+based on external space-time symmetries[8, 12, 13]. Also existing are theories based on both
+internal as well as external symmetries[17, 18, 19]. Most theories are incomplete in the sense that
+they are not applied to calculation of any specific defect property. Only some workers[11, 1, 14, 15]
+have addressed to the solution of the stress field of a dislocation or a disclination. Our own effort
+has focussed on obtaining the stress field of a screw dislocation, finding the force between two
+screw dislocations, investigating the stress field of a screw dislocation pile-up. More recently we
+have also obtained the stress field of a point defect (references are given in part II[1]). The bottomline of our review is that there is as yet no fundamental theory of defects and their interactions.
+The plan of this paper is as follows. We start by introducing the structure of a manifold needed
+for the physics of defects following Vercin[8] and Kleinert[20]. In two subsequent sections we deal
+with a qualitative review of the Yang-Mills and the gravity type gauge theories. Finally we end up
+with some conclusive remarks.
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+DRk i = 0.
+
+(2.3)
+
+Dgik = dgik − gil ωk l − gkl ωi l = 0.
+
+(2.4)
+
+In general, the connection ωk i can have a torsion-free part ω̃ki and an additional part τk i which represents the non-Riemannian part, called the contorsion 1-form. The local coordinate representations
+of these objects are:
+ωl k = Γml k dxm ,
+
+ω̃l k =
+
+n
+
+k
+ml
+
+o
+
+dxm ,
+
+τl k = Sml k dxm ,
+
+1
+T k = Tml k dxm ∧ dxl . (2.5)
+2
+
+
+Here mk l = gks (∂m gsl − ∂s glm + ∂l gms ), and Sml k = gks (Smsl − Sslm + Slms ) are respectively the
+Christoffel symbol of the second kind and the contorsion tensor. We next relate the above structure
+to that of a material manifold.
+
+3. Material manifold and its deformation
+The material body is identified with a three dimensional differentiable manifold M embedded
+in the three-dimensional Euclidean space R3 . The current coordinates of the manifold of the deformed body M ′ are xi ( i, j, k, l, m, n, ... = 1, 2, 3) and the cartesian coordinates of the defect-free
+configuration (reference manifold M) are xa (a, b, c, d, ... = 1, 2, 3). If the current configuration is
+defect-free, then the functions xi = xi (xa ) and xa = xa (xi ) are well behaved, single-valued and difi
+ferentiable functions of their respective arguments. The matrix βa i = ∂a xi ≡ ∂∂xxa is the deformation
+or distortion matrix. It is orientation preserving and the determinant kβ k is positive. Its inverse
+matrix is β a i = ∂i xa .
+Let ea be a global orthonormal basis of the reference manifold. The metric ea · eb = δab is
+Euclidean and the connection ωb a = Γcb a dxc vanishes identically. The metric and the connection
+of the current configuration are gik = β a i β b k δab and ωk i = βa i dβ a k .
+A defect-free manifold M is characterized by a global coordinate basis ei = dxi and a (metriccompatible) flat connection ωk i = βa i dβ a k . These equations may be regarded as a set of differential
+equations for ei and ωk i . In this case the torsion and curvature tensors are zero and the integrability
+equations are (2.1) with the right sides set equal to zero. Torsion and curvature represent defects.
+Defects are obstructions to diffeomorphisms from M to M ′ . Extensive treatment of Kleinert[20]
+may be consulted for details.
+4
+
+PoS(SMPRI2005)005
+
+These are known as Bianchi identities. The Cartan equations and Bianchi identities are present
+in both Yang-Mills and gravity-type gauge theories. However, the latter type has the following
+additional structural features. A symmetric metric tensor g = gik ei ⊗ ek ,
+gik = gki is introduced
+on M. In local coordinates, the metric is used to describe the distance element: ds2 = gik dxi ⊗ dxk .
+The inverse metric gkl is such that gkl gli = δik . Also, gik = ei · ek . The metric and the connection
+are so far two independent fields, defined at each point of M. A manifold in which the covariant
+derivative of the metric tensor vanishes is singled out by the property that the angle between two
+vectors and their lengths remain unchanged by the operation of parallel displacement of vectors on
+M. It is this property which guarantees locally Euclidean structure of the manifold. A connection
+is called metric compatible if
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+In order to relate the mathematical structure to the defect description, consider the infinitesimal
+transformation
+(3.1)
+xa → xm = (xa + ua (xb ))δam .
+where the total displacement ua consists of an elastic part and a plastic part. The elastic part is
+integrable and the plastic part is not. The total distortion tensors are βa i = δa i + ∂a ui and β a i =
+δ a i − ∂i ua . The metric gets related to the total strain gik = βai β a k = δik − ∂i uk − ∂k ui = δik − 2eik .
+In the linear approximation, DT i = dT i = 0 gives T i = ωk i ∧ dxk = dβ i ; ωk i = Γlk i dxl and β i =
+βk i dxk = wk i dxk + ek i dxk . From these one obtains
+1
+dwik = (Γikl − Γlki )dxl ,
+2
+
+where wik is the antisymmetric part of the distortion βik (in linear elasticity). This is the local
+interpretation of the connection.
+When disclinations alone are present, the geometry is Riemannian:
+Dg = 0,
+
+Rk i = Dωk i 6= 0,
+
+DRk i = 0.
+
+When dislocations alone are present, the geometry is non-Riemannian (tele-parallel):
+Dg = 0,
+
+Rk i = 0,
+
+DRk i = 0,
+
+DT i = 0,
+
+T i = Dei 6= 0.
+
+When both disclinations and dislocations are present the manifold is characterized by (2.1), the
+Bianchi identities (2.3) and the geometry is non-Riemannian. It is also called Riemann-Cartan.
+Cartan’s structure equations are nothing but the very definition of dislocation and disclination
+density tensors:
+1
+α i j = ε ikm T j km ,
+θ i j = ε imn ε jkl Rklmn
+(3.2)
+2
+The Bianchi identities in this approximation turn out to be the kinematic equations of defects:
+θ i j,i = 0,
+
+α k m,k = −εm i j θi j .
+
+(3.3)
+
+The first equation implies that disclination lines cannot end within the body and dislocation lines
+can only end on disclinations.
+We close this section with the following observation. In the presence of defects, the coordinate
+system of M ′ is nonholonomic. Denoting the anholonomic coordinates by eα instead of ei , we may
+write eα = β α a dxa , but β α a is no longer a gradient field. This important fact has been first realized
+by Kondo who has pictured the deformed body as aggregation of small pieces of perfect lattices
+in which all internal stresses are relaxed. This is nothing but the natural state defined by him.
+The line element dxi in the deformed state is changed to dxα in the natural state. The length
+ds of dxi , he defined, by its natural length: ds2 = δκλ dxκ dxλ . He has defined the metric of the
+plastic manifold as hkl = δκλ β κ k β λ l . The small pieces of crystals can translate and rotate freely
+in the natural state. The matrix βk κ has a gauge degree of freedom, i.e., one could as well use
+the orthogonally transformed matrix ηk κ = Oκλ βk λ in this metric hkl . The metric is thus invariant
+under orthogonal transformations in the natural state. It is through remarkable insight that Kondo
+has introduced an Euclidean connection in the plastic manifold. He is the first to point out that
+5
+
+PoS(SMPRI2005)005
+
+1
+deik = (Γikl + Γlki )dxl ,
+2
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+the dislocation density tensor is mathematically identical to the torsion of the manifold. Latter
+independently, Bullough, Smith and Bilby have also arrived at the same identification. As regards
+incorporating point defects, Mistura[21] has proposed a geometric approach to a field theory of
+defects in crystalline solids including both dislocations and intrinsic point defects. In this theory,
+the manifold is not metric compatible. It is also worth noting that the simple requirement that
+the total displacement field utot (xi ,t) and the total velocity field vtot (xk ,t) (‘total’ means elastic
+and plastic together) be continuous and single-valued functions, leads to the following continuity
+equations within linear elasticity:
+
+θ pq,q = 0,
+α̇ pl + ε pmk (Jkl,m + εklq Imq ) = 0,
+θ̇ pq + ε pmk Ikq,m = 0.
+
+(3.4)
+
+Here the dot denotes the time derivative and following definitions are used. wik := β[ik] = εikl wl .
+The rotation vector wl is the dual of the tensor wik . The bend-twist tensor is defined as κmq =
+wq,m = 21 εklq ul,km and we have the definitions:
+p
+P ),
+Dislocation density: α pl = −ε pmk (ekl,m
++ εklq κmq
+P
+Disclination density: θ pq = −ε pmk κkq,m ,
+Dislocation current: Jkl = −vPl,k + ėPkl + εklq wPq ,
+P.
+Disclination current: Ikq = −wPq,k + κ̇kq
+
+The superscript ‘P’ denotes plastic part of the quantity. The first of the equations in (3.4) imply that
+dislocations can end on disclinations whereas the second one implies that disclinations cannot end
+inside the body. The last two equations imply that the changes in dislocation and disclination densities can only be achieved by their respective currents. Note that if one includes the elastodynamic
+equation
+∂ vi ∂ (Ci jkl ekl )
+ρ
+=
+∂t
+∂xj
+along with the set of continuity equations (3.4), then one has what may be called as the classical
+equations of defect dynamics. These were introduced by Kosseka and deWit[6, 7]. These equations
+when extended to include point defects should be taken as the basic equations of defects. However,
+no serious attention seems to have been given to this problem.
+Edelen[22] has formulated these equations in the four space-time dimensional form using
+exterior calculus notation. He has been able to uncover the underlying forty-five-fold gauge group
+structure behind the invariance of these equations. Günther[23] has developed a formalism of
+defect dynamics in the four-dimensional space-time manifold, but the interpretation of geometric
+objects that he has introduced has left many open questions. Kröner[24] in 1985 has reviewed the
+field theory of defects in solids and has examined its merits and open questions. He has presented
+the differential geometry of the continuized Bravais crystal identifying intrinsic point defects with
+the non-metric part of the affine connection and interface defects as the non-conservative part of a
+generalized curvature tensor. Sedov and Berditchevski[25] have proposed a dynamical theory of
+dislocations and constructed models of deformation based on a variational principle. It may also
+6
+
+PoS(SMPRI2005)005
+
+α pl,p + εl pq θ pq = 0,
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+be noted that Golebiewska-Lasota [26] has developed a gauge theory of dislocation dynamics in
+analogy with Maxwell’s electrodynamics. Even earlier, Turski[27] has developed the variational
+gauge theory approach to defects to derive the equilibrium field equations. A four-dimensional
+nonlinear geometric theory of defect continuum developed with particular reference to three states–
+the reference state, the current state and the natural state of Kondo has been proposed by Duan and
+Huang[28]. They have attempted to incorporate gauge fields and to formulate nonlinear defect
+kinematics within the framework of four dimensional Cartan geometry. With these remarks we
+proceed to describe the structure of gauge theories of defects.
+
+As we have already stated, gauge theories are divided into two classes: (classical) Yang-Mills
+type and gravity type. Let us first consider their general structure. We shall refrain from a terse
+mathematical presentation of the principal fibre-bundle structure since this can be done away with.
+Let ui (x), i = 1, 2, ..., n be a system of initial fields, called matter fields. Here x is a space-time
+point on a base manifold M. To each point x of M is attached a fibre space V whose elements are
+values of ui . This may be regarded as an internal space. The functions ui (x) are cross sections on
+the fibre-bundle M × V . Further we assume that a space-time group P0 and an internal group G0
+act on M and V respectively. The group P0 could be, for example, the Galilean group or one of its
+sub-groups (translation, rotation, or their semi-direct product, etc.). The group G0 could be another
+Lie group such as a rotation or a unitary group. The group actions are P0 : M → M and G0 : V → V .
+Thus both groups are continuous transformation groups. Both these groups are said to act globally
+(homogeneously), i.e., their actions do not depend on x.
+Let a matter field model be given by a Lagrangian L0 (∂ u, u) which is invariant with respect to
+P0 and G0 . This global symmetry is a necessary prerequisite of any gauge theory. The basic idea
+of gauging is to extend the global invariance group G0 or P0 to a local gauge group G (or P) by
+allowing the transformations G × V → V and P × M → M to be x dependent. The gauge theory
+based on G0 → G is of Yang-Mills type and that based on P0 → P is of gravity type. A mixed type
+could be based on gauging of both G0 and P0 .
+In order to ensure local invariance, the Lagrangian must contain, in addition to fields ui , a
+set of connection fields or gauge potentials Aµ (x). these are a set of compensating fields coupled
+(minimally) to the matter fields ui . The values of Aµ belong to the Lie algebra G of G0 (or P0 ).
+These fields are called connections on the corresponding principal fibre bundles.
+To obtain a closed system of equations for ui and Aµ , the gauge approach prescribes two
+recipes. Firstly, the derivatives ∂µ are to be replaced by covariant derivatives Dµ = ∂µ + Aµ (x).
+Secondly, the new Lagrangian L is supposed be given by L = L0 (Du, u)+L1 (F) (minimal coupling)
+where Fλ µ = Dλ Aµ is the Yang-Mills field (curvature field associated with the connection field).
+The piece L1 is usually chosen as [1] Tr(FF† ).
+In part II there is (perhaps) a repetition of this description, but in a more detailed form illustrated by the example of the Kadic-Edelen gauge theory.
+In the following two sections, we shall selectively restrict to those theories where applications
+have been illustrated via particular defects. Otherwise we are afraid that the review would take
+much more space than that permitted by the present proceedings.
+7
+
+PoS(SMPRI2005)005
+
+4. General structure of gauge theories
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+5. Yang-Mills type gauge theories
+
+8
+
+PoS(SMPRI2005)005
+
+The most elaborate work on the Yang-Mills type of gauge theory of defects is extensively
+covered in two books[11, 29]. The authors start with the Lagrangian of elasticity theory taking
+the field xi (xa ,t) as their initial fields. They choose G0 = SO(3) ⊲ T (3) where ⊲ denotes the semidirect product. They have chosen as G0 the semi-direct product of SO(3) and T (3). As their
+Lagrangian, they take the familiar quadratic elastic strain energy function and also included the
+velocity squared term as the kinetic energy function. The full Lagrangian, after local gauging, is of
+the form L = Lx + Lφ + LW , where the gauge potentials φ and W are tensor fields describing dislocations and disclinations respectively. The resulting field equations are coupled nonlinear partial
+differential equations in the field variables. Static solutions of their field equations exhibit unwanted exponential decay of displacement field as a function of distance far away from the defect.
+This is contrary to classical solution of the problem where in the decay law follows 1/r behaviour.
+In spite of this short-coming, the formalism has taught how exterior calculus of forms provides a
+convenient elegant tool for continuum mechanics of defects. Our own attempt in improving this
+theory has resulted in finding the correct asymptotic solution for the strain field of a screw dislocation. In our approach, discussed in part II[1] we have described our own results. Kadic and
+Edelen also obtain a static solution of the free Yang-Mills equations which exhibit the well known
+Wu-Yang like singular solution for a disclination displacement field.
+Osipov[31] has obtained exact static monopole like singular solutions for the fields xi and W
+for a dislocation-free continuum (φ = 0) and has shown that it corresponds to a disclination with
+the Frank index N = 1. He has further extended the Kadic-Edelen model to calculate electronic
+properties of defect systems. In this extended formalism, a term Lψ involving the spinor wave
+function ψ is added. There is also an interaction Lagrangian quadratic in ψ and linear in the
+deformation potential (proportional to trace of the gauged strain field). In this frame work he has
+been able to study the influence of electrons on defect dynamics. Recently he[30] has studied
+disclination-driven dislocations; has found an exact solution for a low-angle wedge disclination
+and has calculated forces between pairs of disclination vortices.
+In a series of three long papers[17, 18, 19] Edelen and Lagoudas have taken a different approach based on both external space-time symmetry and internal symmetry. The gauge group is
+G = Gs × Gm where Gs = SO(3) ⊲ T (3) and Gm = SO(3) ⊲ T (3) (suppressing time transformation).
+Gs acts on the range space of matter fields xi (xa ,t) just as in the earlier Kadic-Edelen theory[11].
+Gm acts on the base manifold: xa → Rab (xc ,t)xb . The local gauging proceeds by replacing ∂k xi by
+its covariant derivative as well as replacing the differential dxa of the base manifold by its covariant
+form. Naturally, new sets of gauge potential fields appear. The defects arising due to Gs are called
+spatial defects and these arising out of Gm are called material defects. In real applications, the
+spatial defects, which in the Kadic-Edelen model is used to model dislocations and disclinations,
+now refer to micro-cracks (in ceramic materials and composites). They are thought to model misfits, gaps and interstitials in the continuum. The formalism, developed in [17] is too involved and is
+developed using Cartan structure equations and exterior calculus. In [18] the problem is posed with
+a given material dislocation density. This means there is no free Lagrangian term for dislocations.
+Then the exact solution of the field equations is shown to reproduce the stress field of a straight
+screw dislocation. This approach produces the stress field of an edge dislocation only in the weak
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+6. Gravity type gauge theories
+Kleinert in his masterly text-book[20] demonstrates that a space with torsion and curvature can
+be generated from a Minkowski space via singular coordinate transformations and is completely
+equivalent to a crystal which has undergone plastic deformation being filled with dislocations and
+disclinations. The relation of this view with non-integrability of appropriate equations are amply
+clarified by him. A theory of defects in solids based on analogy with three dimensional gravity
+(two space plus one time) is proposed by Katanaev and Volovich[12](see also the recent article of
+Katanaev[13]). They have a metric affine space with a metric constructed from distortion eµ i and a
+SO(3)- connection ωµ i j . Here the index µ is a general curvilinear coordinate label of the material
+manifold and i labels the coordinate X i of the current configuration manifold. Using simple and
+physically reasonable assumptions they define a two-parameter static Lagrangian which is the sum
+of the Hilbert-Einstein Lagrangian for the distorsion and the square of the antisymmetric part of
+the Ricci tensor:
+1
+L = −κ R̃ + 2γRA i j RAi j .
+e
+Here the symbol A stands for the antisymmetric part and the tilde denotes the assumption of
+zero torsion. Note that in the linear approximation eµi = δµi . They obtain the solution for the
+u field, and the metric gi j for a wedge disclination in linear elasticity. They also obtain the results for an edge dislocation which, they show, is a dipole of two parallel wedge disclinations.
+They calculate elastic oscillations (phonons) in the defect medium with dislocations and also calculate scattering of phonons on a wedge dislocation. Further, they investigate the influence of
+a point defect on the stress field of a wedge dislocation. A point defect is characterized by its
+9
+
+PoS(SMPRI2005)005
+
+defect field limit. Time is also gauged and it is claimed to model relaxation phenomena. The third
+paper[19] contains further ramifications involving balance laws of stress-momentum. This line has
+not been pursued further in the literature.
+In a solitary piece of work, Gairola[32] has floated the idea of using the general affine group
+GL(3) ⊲ T (3) based gauge theory to model point defects and dislocations. In this theory, the transformations of base-vectors of the manifold associated with defects are considered and the resulting
+metric has non-vanishing covariant derivative, thus leading to nonmetricity needed to model point
+defects.
+Duan and Duan[33] have developed an interesting approach involving vielbeins (two-point
+tensor fields, also called distortion tensors), connecting three different configurations of deforming
+continuum– the reference configuration (xa ), the current configuration xi and the natural configuration. The last one implements Kondo’s[4] anholonomic coordinate frame xκ that arises when
+an infinitesimal piece of the current configuration is made to undergo stress-free relaxation (see
+discussion towards the end of section 3. This is a highly desirable ingredient absent in other gauge
+theories. Combining the geometric structure with Noether’s theorem, conservation laws for the
+defect continuum are formally derived. Duan and Zhang[34] have classified dislocations in terms
+of winding numbers and also characterized them by Brouwer degrees and Hopf indices.
+Our original results on application of the Kadic-edelen theory are contained in references given
+in part II.
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+7. Conclusion
+The material contained in this review has been highly selective. It is a formidable task to
+present all points of view in the space permitted to us. There is as yet no fundamental theory of
+defects in solids. The classical Kossecka-dewit equations of defect dynamics offers some guideline.
+However, even these equations do not contain the signature of point defects. An ideal gauge theory
+of defects should be consistent with these classical equations in appropriate limit. At the present
+time, it is perhaps fair to say that much more investigation need to be carried out in this area. Also,
+urgent attention need to be paid to obtain gauge theory solutions of specific defects.
+
+References
+[1] M.C. Valsakumar and D. Sahoo, Gauge theory of defects-II, these proceedings.
+[2] E. Kröner (ed.) Gauge field theories of defects in solids, abstract book, Max-Planck-Institut für
+Metallforschung, Stuttgart, 1982.
+[3] K. Kondo, On the geometrical and physical foundations of the theory of yielding, Proc. 2nd Japan
+Natl. Cong. Appl. Mech. held 1952, published 1953, 41-47.
+[4] K. Kondo et. al., Non-holonomic geometry of plasticity and yielding, RAAG Memoirs of the unifying
+study of basic problems in engineering and physical sciences by means of geometry:1, Division D,
+Gakujutsu Bunken Fukyu-kai, Tokyo, 1955, 453-572.
+[5] B.A. Bilby, R. Bullough and E. Smith, Continuous distributions of dislocation: A new application of
+the methods of non-Riemannian geometry, Proc. Roy. Soc., London:A 231 (1955) 263-273.
+[6] E. Kossecka and R. deWit, Disclination kinematics, Arch. Mech.:29 (1977) 633.
+[7] E. Kossecka and R. deWit, Disclination dynamics, Arch. Mech.:29 (1977) 749.
+[8] A. Vercin, Metric torsion gauge theory of continuum line defects, Inter. Jour. Theor. Phys.:29 (1990) 7.
+[9] B.K.D. Gairola, On the role of Noether’s theorem in the gauge theory of crystal defcts, Lecture Notes
+in Physics, Springer-Verlag, Berlin.
+[10] J.D. McCrea, F.W. Hehl and E.W. Mielke, Mapping Noether identities into Bianchi identities in
+general relativistic theories of gravity and in the field theory of static lattice defects, Inter. Jour. Theor.
+Phys.:29 (1990) 1185.
+
+10
+
+PoS(SMPRI2005)005
+
+
+R
+mass tensor M = ρ0 d 3 x det(eµ i − 1) where ρ0 is the density of the medium. The torsion tensor is zero everywhere except at the defect site where it has a δ -function singularity. Notable
+progress in this type of gauge theory has been made by Lazar[14] who has proposed a threedimensional Yang-Mills gauge theory of dislocations. The lagrangian has the symbolic form
+L ∼ (strain)2 +(dislocation density)2 . The second term is more precisely Ldis = − 14 T a i j Ha i j where
+Ha i j is the response quantity to the Dislocation density (torsion) T a i j . The local translational invariance ua → ua + τ a (x), φ a i → φ a i − ∂i τ a (x) with τ a (x) as local translations and the replacement
+β a i = ∂i ua + φ a i in the torsion tensor T a i j = ∂i β a j − ∂ j β a i and use of appropriate form for the
+tensor H leads to coupled field equations for u and φ . A non-singular solution for the stress field
+of an edge dislocation is shown to result. This solution also has correct asymptotic limit for the
+classical solution. Lazar[15] has also obtained a satisfactory solution for a screw dislocation.
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+[11] A. Kadic and D.G.B. Edelen, A gauge theory of dislocations and disclinations, Springer Lecture
+Notes in Physics: No.174, Springer-Verlag, Berlin Heidelberg, 1983.
+[12] M.O. Katanaev and I.V. Volovich, Theory of defects in solids and three-dimensional gravity, Ann.
+Phys:216(1992) 1.
+[13] M.O. Katanaev, Gometric theory of defects, cond-mat/0407469 (2004).
+[14] M. Lazar, A nonsingular solution of the edge dislocation in the gauge theory of dislocations, J.
+Phys.A: Math. Gen.:36 (2003) 1415.
+
+[16] C. Malyshev, The T(3)-gauge model, the Einstein-like gauge equation, and Volterra dislocations with
+modified asymptptics, Annals of Physics:286 (2000) 249-277.
+[17] D.C. Lagoudas and D.G.B. Edelen, Material and spatial gauge theories of solids–I. Gauge
+constructs, geometri, and kinematics, Int. J. Engng. Sci.:27 (1989) 411.
+[18] D.G.B. Edelen, Material and spatial gauge theories of solids–II. Problems with given material
+dislocation densities, Int. J. Engng. Sci.:27 (1989) 641.
+[19] D.C. Lagoudas and D.G.B. Edelen, Material and spatial gauge theories of solids–III. Dynamics of
+disclination free states, Int. J. Engng. Sci.:27 (1989) 653.
+[20] H. Kleinert,Gauge fields in condensed matter, Vol. II: Stresses and defects, World Scientific,
+Singapore, 1989.
+[21] L. Mistura, Cartan connection and defects in Bravais lattices, Int. J. Theor. Phys.:29 (1990) 1207.
+[22] D.G.B. Edelen, A four-dimensional formulation of defect dynamics and some of its consequences, Int.
+J. Engng. Sci.:18 (1980) 1095.
+[23] H. Günther, "On the geometrical approach to the theory of structural defects", Int. J. Engng. Sci.:19
+(1981), 1799.
+[24] E.Kröner, "Field theory of defects in solids: present state, merits and open questions", The Mechanics
+of Dislocations, Proc. Inter Symp., E.C. Aifantis and J.P. Hirth (eds), Amer. Soc. for Metals, Metals
+Park, Ohio, 1985.
+[25] L.I. Sedov and V.L. Berditchevski, "A dynamical theory of continual dislocations", in E. Kröner
+(ed.)Mechanics of Generalized Continua, IUTAM Symposium proceedings, Springer-Verlag, Berlin
+1968, p.214.
+[26] A.A. Golebiewska-Lasota, Dislocations and gauge invariance, Int. J. Engng. Sci.:17 (1979) 329.
+[27] L.A. Turski, Bull. Polish Acad. Sci. (Mech.):14 (1966) 289.
+[28] Z.P. Duan and Y.L. Huang, "A four dimensional nonlinear geometric theory of defect continuum", Int.
+J. Engng. Sci.:28 (1991) 989.
+[29] D.G.B. Edelen and D.C. Lagoudas,Gauge theory and defects in solids North-Holland, Amsterdam,
+(1988).
+[30] V.A. Osipov, Disclination vortices in elastic media, Nonlinearity:13 (2000) 459 and references
+therein.
+[31] V.A. Osipov, Extension of the Kadic-Edelen gauge model: Electronic properties of defect systems,
+Physica:A 175 1991 369, .
+
+11
+
+PoS(SMPRI2005)005
+
+[15] M. Lazar, An elastoplastic theory of dislocations as a physical field theory with torsion, J. Phys.A:
+Math. Gen.: 35 (2002) 1983.
+
+Debendranath Sahoo
+
+Gauge theory of defects in elastic continua- I
+
+[32] B.K.D. Gairola, Gauge invariant formulation of continuum thery of defects, in Continuum models of
+discrete systems-4, O. Brulin and R.K.T. Hsieh (eds), North-Holland, 1981, p.55.
+[33] Y. Duan and Z.P. Duan, Gauge field theory and conservation laws in elastic dislocation and
+disclination continuum mechanics, preprint SLAC-PUB-3302, March 1984.
+[34] Y. Duan and S. Zhang, Topological current structure of dislocations in the 4-dimensional gauge field
+theory of dislocation and disclination continuum, Int. J. Engng. Sci.:29 (1991) 1593 .
+
+PoS(SMPRI2005)005
+
+12
+
+

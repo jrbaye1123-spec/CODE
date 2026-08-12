@@ -1,0 +1,18 @@
+{
+  "session_id": "4d86e75e",
+  "task_id": "t1",
+  "task_description": "test",
+  "created_at": "2026-08-06T12:43:01.240892+00:00",
+  "context_variables": {
+    "count": 42
+  },
+  "conversation_history": [
+    {
+      "timestamp": "2026-08-06T12:43:01.240898+00:00",
+      "role": "user",
+      "content": "hello"
+    }
+  ],
+  "intermediate_results": {},
+  "pending_actions": []
+}

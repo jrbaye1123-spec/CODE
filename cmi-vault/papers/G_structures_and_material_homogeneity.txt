@@ -1,0 +1,679 @@
+See discussions, stats, and author profiles for this publication at:
+https://www.researchgate.net/publication/226356182
+
+G-structures and material
+homogeneity
+ARTICLE in JOURNAL OF ELASTICITY · JANUARY 1990
+Impact Factor: 1.35 · DOI: 10.1007/BF00054801
+
+CITATIONS
+
+READS
+
+24
+
+8
+
+3 AUTHORS, INCLUDING:
+Marek Elzanowski
+
+Portland State University
+39 PUBLICATIONS 143 CITATIONS
+SEE PROFILE
+
+Marcelo Epstein
+
+The University of Calgary
+183 PUBLICATIONS 2,341
+CITATIONS
+
+SEE PROFILE
+
+Available from: Marcelo Epstein
+Retrieved on: 04 February 2016
+
+Journal of Elasticity 23: 167-180, 1990.
+© 1990 Kluwer Academic Publishers. Printed in the Netherlands.
+
+167
+
+G-structures and material homogeneity
+MAREK EL~ANOWSKI ~'2'3, MARCELO EPSTEIN 2 &
+JI~DRZEJ gNIATYCKP
+Departments of ~Mathematics and Statistics; 2Mechanical Engineering, University of Calgary,
+Calgary, Alberta, Canada; 3present address: Department of Mathematical Sciences, Portland
+State University, Portland, Oregon 97207, USA
+Received 9 March 1988
+
+Abstract. The mathematical theory of inhomogeneities in simple elastic materials is reformulated
+in terms of G-structures, thereby allowing for the explicit solution of the homogeneity condition
+for a number of special material classes.
+
+Introduction
+
+The mathematical theory of uniform elastic bodies with inhomogeneities was
+originally proposed by Noll [1] and further developed by Wang [2]. Using the
+language of connections on manifolds they showed that for a uniform elastic
+body a connection on the material tangent bundle can be defined consistent
+with the given response functional of the body. This material connection,
+which is not unique in most cases, became the tool for the analysis and
+classification of uniform simple (elastic) bodies. Specifically, the existence of a
+flat (integrable) material connection was shown to be equivalent to the
+homogeneity of the (uniform) body. It should be noted, however, that the
+process of analyzing the material structure of an elastic body is two-fold.
+Initially, one needs to ascertain whether or not the given constitutive (response) functional defines a uniform material structure. Only after the material uniformity has been established, and thus material connections become
+available, is it possible to address mathematically the question of homogeneity. More specifically, even if the first step is successfully tackled - and the
+general solution to such problem is far from being available (see attempt in
+[3]) - , in order to answer the second question one would need to determine
+whether within the variety of the material connections there exists an integrable one. This may prove to be technically a very difficult task [4].
+In this paper we show how one can avoid, at least in some cases, such
+difficulties in solving the problem of homogeneity. Assuming that the uniformity of the material body has already been established, we attack the local
+homogeneity question by first showing that a definite material G-structure can
+
+168
+
+M. El~anowski, M. Epstein and J. ,~niatycki
+
+be associated with a uniform simple body.* Subsequently, we prove that a
+uniform elastic body is locally homogeneous if, and only if, the corresponding local material G-structure is fiat. There exists a well developed general
+theory based on the notion of prolongations of G-structures [6] which
+enables one to determine the flatness of the given geometric structure. In this
+paper, however, we only discuss some special important cases, where the
+integrability problem can be solved in a rather direct manner by comparing
+some typical geometric characteristics of the given G-structure with the
+characteristics of its standard fiat counterpart. For the sake of completeness
+some basic geometric and mechanical facts are reviewed in the next two
+sections.
+
+1. Mathematical preliminaries
+
+Let M be a differentiable n-manifold and let L(M) denote its bundle of linear
+frames (see [8]). The group GL(n, R) (general linear group in n-variables) acts
+on L(M) to the right as follows: if A e GL(n, R) and p ~ L(M), where
+p = (u~ . . . . , tin) is a linear frame at x e M, then pA ~ L(M) is the frame at
+x ~ M given by
+
+pA = (u,./~ . . . . . u;,8~,),
+
+(1.1)
+
+where A = (~.) and the summation convention is used. This action is free and
+transitive making L(M) into a fight principal GL(n, R)-bundle.
+Let G be a closed (Lie) subgroup of GL(n, R). A G-structure on M is a
+submanifold (a G-subundle) B~ of L(M) stable under the fight action of G on
+L(M), i.e., for any p e B6 and any A ~ GL(n, R) the point pA belongs to B¢
+if, and only if, A 6 G. Naturally, not every G-structure is admissible on a
+particular manifold M?f
+The induced action of G on B¢ is obviously free and transitive. If U is now
+a neighborhood of a point in M (i.e., U is an open submanifold of M) then
+the set B~ [U =-rr~ ~(U) is a G-structure on U, where ~r~ is the natural
+projection of B~ onto M. We shall call this "local" G-structure, which consists
+of all the frames in B6 attached at the point in U, the restriction of B6 to U.
+Since principal bundles are locally trivial, i.e., for each x ~ M there exists an
+open neighborhood U ~ M such that B~ [U is isomorphic to U x G, there
+
+* This fact has already been noticed in [5].
+~"For discussion of this point see [6].
+
+Material homogeneity
+
+169
+
+exists always a smooth frame field p(x) = (u~ (x) . . . . , u.(x)) on U such that
+
+= {p(x)A-'l A
+
+G}
+
+(1.2)
+
+for every x ~ U.
+DEFINITION 1. The G-structure Be [U is said to beflat if there exists a smooth
+section (ul . . . . . u~):U-~B~IU such that the coordinate vector fields aj
+commute with each other.
+A G-structure Be on M is said to be locally flat (integrable) at x ~ M if there
+exists a neighborhood V o f x in M such that Be IV is fiat.
+In the light of the above definitions the following is an obvious consequence
+of Frobenius' theorem.
+PROPOSITION 1: The G-structure Be on M is locally fiat if and only if there
+
+exists an atlas {U~, ~b~} on M with tF~ = (x~ . . . . . x]) such that
+d
+
+. . . .
+
+, d )=W~;I.U
+
+x V~-~Tv~ M
+
+is a cross-section of B~Iu~for any U~ ~ M, where V, is the translation space
+of R, and where ~ . ~ is understood, with some abuse of notation, as a section of
+
+L(M)IU .
+For a certain class of closed subgroups G o f GL(n, R), namely groups o f finite
+type, there exists a general theory based on the notion of prolongation of
+G-structures, [6], which enables one to determine whether a given G-structure
+is locally fiat (integrable) or not. However, in this paper we show that in some
+important special cases one can resolve the integrability problem in a more
+elementary manner, using, the notion of a characteristic field of a G-structure
+as introduced here.
+Before we make this more precise let us notice that any G-structure has its
+so-called "conjugate" structures. We say that the H-structure Bn on M is
+conjugate to the given G-structure B e on M if there exists an element
+g ~ GL(n, R) such that Bn can be obtained from Be by the right action of g.
+In particular, let g ~ GL(n,R) and let H =g-lGg. Suppose p is a frame field
+on U c M such that
+
+= LJ {p(x al A
+
+G}.
+
+x~.U
+
+Let Bn[U be now obtained from (pg)(U) = p(U)g by the right action o f H. It
+
+170
+
+M. El~anowski, M. Epstein and J. tSniatycki
+
+is easy to see that Bt.IIU is conjugate to BoIU as
+
+(pg)(x)(g - ' Ag) = (p(x)g)(g- IAg) = (pA)(x)g
+
+(1.3)
+
+for any x ~ U and any A ~ G. We shall call Bn the standard g-conjugate to Bo.
+If Bo is now locally fiat so is Bn as the right action of g is point independent.
+Let W be a finite dimensional vector space with the differentiable action of
+GL(n, R) to the left, and let ~ be the space of all equivalence classes in
+L(M) x IV under the following equivalence relation: ( p , f ) ~ L(M) x W is
+equivalent to (p',f') ~ L(M) x W, say ( p , f ) ~ (p',f'), if and only if there is
+A ~ GL(n, R) such that p ' = pA and f ' = A - i f The space ~ defined this way
+is an associated bundle of L(M) with a typical fibre W corresponding to the
+given action of GL(n, R) on W. Each equivalence class { ( p , f ) } defines a
+geometric quantity of type W, and for a given frame p the corresponding
+element f ~ IV can be understood as the components of the quantity in the
+frame p. Geometric object bundles and in particular tensor bundles and
+bundles of tensor densities on M are useful examples of associated bundles of
+
+L(M).
+A section s : M ~ ~ of the associated bundle ¢ (a field s of quantities of type
+IV) with a typical fibre W corresponds to a function s ~ : L(M) ~ W such that
+S #(pA) = A -ls'~(p)
+
+(1.4)
+
+for every p ~ L(M) and A ~ GL(n, R).
+The value s~'(p) of s # on a frame p ~ L(M) gives the components of the
+field s relative to this frame.
+Let now Bo be a G-structure over a manifold M.
+DEFINITION 2. A local characteristic field of Bo is a local section
+s : U c M -~ ~ of some associated bundle ~ of L(M) such that
+
+1.
+
+= s o I o(p)
+
+(1.5)
+
+for any p e Bo [U,
+2. There exists a section r : U ~ Bo IU such that s ~ o r : U -~ W is constant.
+In particular, if for any x ~ U c M the orbit {As '~ (p)l A e G} is a singleton,
+that is
+
+As#(p) = s#(pA --1) = s # ( p )
+
+(1.6)
+
+for any A e G, the characteristic field restricted to BolU will be called the
+characteristic object of Bo ]U.
+
+Material homogeneity
+
+171
+
+The name "characteristic" is justified by the following observation: Let
+once again {As#(p)lA e G} be a singleton, and let G~ c G be a closed
+subgroup of G, then
+
+s#-'{As#(p)lA ~ GI} = BGIU.
+
+(1.7)
+
+In other words, G is the maximal group for which the given object enjoys the
+property (1.5). It should be noted here that a G-structure Be need not
+necessarily have a unique characteristic field, as it is observed in the case of a
+k-dimensional differential system. If, however, Be possesses the characteristic
+object s, this object is unique as obtaining a G-structure on M is the same as
+obtaining on L(M) a section s satisfying Definition 2. This way, a characteristic field on the O(n)-structure (the orthogonal structure) is a Riemannian
+metric on the manifold. The importance of characteristic fields of G-structures
+and, in particular, characteristic objects lies in the f a c t that they provide
+convenient criteria for checking the local flatness (integrability) of these
+structures, by comparing the characteristic field (object) of a given structure
+with the characteristic field (object) of the standard flat G-structure. In
+particular, one can prove
+PRO~'OSITION 2. Let Be IU be a "local" G-structure over U c M, and let s be
+a characteristic object of Be IU. Then, Be ]U is integrable if and only if there
+exists a coordinate chart (U, qt~:) on M such that s ~ ° ~b~ : U-~ W is constant.
+Proof If Be ]U is integrable then by the very Definition 1 there exists a chart
+(U, q~:) such that ~b{2: U ~ L ( M ) I U is a section of BolU. Because s is the
+characteristic object of Be]U, s '~ o q~{.~ : U ~ W is constant, as required. On
+the other hand, suppose that (U, 4~:) is a coordinate chart such that
+s '~ o q~{.~ : U -~ W is constant and let y" U -~ Be ]U be a section on which s is
+constant (Definition 2.2). Then, for any y ~ U qb~.~(y)=y(y)g(y) where
+g(y) ~ GL(n, R) but not necessarily to G. However, s as the characteristic
+object of Be IU is constant on and only on frames from Be IU. Therefore, there
+exists g ~ GL(n, R) and A(y) ~ G such that g(y) = A(y)g.
+That means that ~b{.1 is a section of Bg-~ag[U, the standard g-conjugate
+structure to BG [U. As it follows from Proposition 1 that Bg_~Gg [U is integrable so is B~]U, as the section ~b~-~g-~ is integrable.
+2. Uniform elastic bodies
+
+A body B is a 3-dimensional connected open orientable differentiable manifold. The body B manifests itself through configurations in R3. These are
+embeddings
+
+~ :B~R3.
+
+(2.1)
+
+172
+
+M. El~anowski, M. Epstein and J. ~niatycki
+
+Choosing some X0 as a reference configuration, we can represent any other
+configuration X by a diffeomorphism
+g : x0(B) -} x(B)
+
+(2.2)
+
+as x(X) = (g ° Xo)(X) for any X ~ B.
+The mapping g is called a deformation of the body B from the reference
+configuration Xo. Henceforth we shall identify the body B with its image
+g0(B) --B in the reference configuration.
+For first order (simple) elastic materials the mechanical response of a
+material point X ~ B depends, by definition, only on the gradient F of the
+deformation ~ (relative to ~o) at that point, which is given by
+F(X) = ~:,(X) : Tzo(X)R3 "-~ T~(x)R3,
+
+(2.3)
+
+where the asterisk denotes the tangent map. Because of the structure of R3,
+F(X) can always be understood as a non-singular linear map of the translation
+space V3 of R 3 onto itself and therefore as an element of GL(3, R).
+Elastic bodies are completely defined by the so-called response functional,
+[7],
+
+~r :GL(3, R) x B-~ W,
+
+(2.4)
+
+where W is some real vector space.
+So as to be able to compare the mechanical reponse of the material body at
+different material points we adopt the following
+DEFINITION 3. Two material points X, Y of an elastic body with the response
+functional ~ = ~r(F, Z) are materially isomorphic if there exists a linear
+isomorphism
+Px(Y) : T~,B --,T,,B
+
+(2.~)
+
+such that
+~'(H, X) = ~r(HPx(Y), Y)
+
+(2.6)
+
+is identically satisfied for all linear non-singular mappings H : V3 -~ V3, where
+the natural isomorphism between TzB and V~ is assumed for any Z ~ B. A
+body whose points are pair-wise materially isomorphic is called uniform. If, in
+
+Material homogeneity
+
+173
+
+addition, Px(Y) is distributed smoothly over B the body is called smooth
+materially uniform.*
+In particular, the material isomorphisms Px (X) are called material symmetries
+at the point X e B and are assumed for physical reasons [7] to be elements of
+the special linear group SL(3). It can easily be shown that the set of material
+symmetries at the arbitrary material point X e B form a subgroup of SL(3)
+and that the intrinsic material symmetry groups (#x = {Px(X)} of a uniform
+body are all isomorphic. Let us now take an open, simply connected subbody
+U c B and let/z(x) : TxB ~ V3 be an isomorphism of Va with the fibre TxB.
+For a uniform body B we can define at each point Y~B, the isomorphism
+p(Y) = #(X) o Px(Y) : TvB ~ Va. This family of isomorphisms introduces in a
+natural way a smooth map (Px(Y) are smooth)
+
+I~v : TvB ~ U x Va
+
+(2.7)
+
+such that at any Y ~ U
+
+v ( v ) = pr20,,Av)).
+
+(2.8)
+
+Such a trivialization/zv of TvB is called a material chart of the uniform
+material body. For each material chart one can define the group
+G,~ = v ( X ) o ~ x ° P - ~(X) : V3 ~ V3
+
+(2.9)
+
+which will be called a typical isotropy group relative to p and, as defined, is
+obviously independent of position in U.
+PROPOSITION 2. For a uniform material body B the set Q~,IU =
+{Py(X)pIY~U}, of all linear frames on U obtained from a given frame
+p =/z-l(X) at some X ~ U by the action of all material isomorphisms Pv (X), is
+a G-structure on U whose structure group G, is a typical isotropy group of U
+relative to p. Q~, ]U will be called the material structure of U relative to #.
+Proof. Let #v be a material chart on U and let X ~ U be a material point.
+Clearly, the group G, acts freely and transitively on any fibre n61(x) of
+Q~, IU. Moreover, if p(Y) ~ QG, IU is a frame at Y e U and if g~, e Gu, then
+P(Y)g, ~ Qa~]U. Indeed, if p(Y) ~ Q~]U, then for some Py(X), p(Y)
+Pv(X)g-~(X) and, according to (2.9) g~=/z(x) ogxO/~-~(X) for some
+gx ~ f~x. Consequently, p(Y)gu = (Py(X)/z-~(X)) o (/z(X) °gx ° #-1(X)) =
+Pv(X)#-~(X)~Qo~[U. On the other hand if for some g ~ G L ( 3 , R),
+=
+
+* From this point onward we consider only smooth materially uniform bodies.
+
+174
+
+M. El~anowski, M. Epstein and J. tdniatycki
+
+p(Y)g ~ Q ~ IU, then there exists/~v(X) such that
+Pv (X)# -~(X) = p(Y)g = (Pv (X)/~ -t(X))g.
+Therefore, g = #(X)Px(Y)ffv(X)#--~(X)• G, as Px(Y)[/~v(X)#-'(X)I is, by
+definition, a frame at X and #(x) identifies the fibre of Qa, at x with the
+group G,. The above shows that Q~, IU is stable under the right action of G,.
+Hence, Q~, [U is a G,-structure on U.
+It is now elementary to observe
+PROPOSITION 3. Let X be a material point of a uniform body B. Then any two
+local material structures at X are conjugate.
+Proof. Suppose that #v : TvB -~ U x V3 is a material chart at X • U and let
+Vv : TvB -* V x V3 be another material chart at X e V. On the intersection
+U ~ V each of the charts generates its own material structure, Qr~ IU c~ V and
+Q~vlUc~V respectively. At any Y e U n V
+#(Y)=#(X)Px(Y), v(Y)=
+v(X)Qx(Y) and
+#(V) -----(/.~° V- l)(X)v(X)Px(V),
+
+(2.10)
+
+where v(X)Px(Y) is yet another material chart at X which differs from v
+only by the action of the intrinsic symmetry groups at X and/or ¥. Therefore, because of (2.9) both sections belong to 2 ,lur v. On the other
+hand,
+Gg = #(X)f~x#-~(X) = (# ° v - ~)(X)v(X)~xV-~(X)O ° v - l ) - t ( X ) =
+(#ov-1)(X)G,(#ov-~)-~(X) is conjugate to G, by the automorphism
+(# o v - 1)(X) : V3 -~ V3. Consequently,
+, -'(Y)G. = (v(X)ex(Y)) -~(, o v -') -'(X)G..
+= ( v ( X ) P x ( Y ) ) - ' G $ ~ o v-')- ~(X),
+
+(2.11)
+
+which shows that the right action of G~, (conjugate to Gv) on frames obtained
+from Q ,lun v by the right action of (# o v-~)-~(X) is stable. This constitutes, however, as seen from (2.10), Q ,luc v.
+Suppose now that Qr, IU is a material structure on U. To find its characteristic object, if one exists, one tries to find a finite dimensional vector space V
+and a representation
+y ," : ~ L ( 3 , ~ ) --, V
+
+such that there exists co • V for which y~'-~(co) = G~.
+
+(:~.13)
+
+Material homogeneity
+
+175
+
+The characteristic object of Q~. is then the constant map
+s : Q~lu-,o~.
+
+(2.14)
+
+Since every element p ~ L(M)IUis given by p - Pog where P0 ~ Qo. IU and
+g ~ GL(3, R), one can extend this mapping to a field on L(M)IUby setting
+s(p) = s(pog) = g-~o9 =- ~ ~(gog)
+
+(2.15)
+
+for any go ~ Gu. This extension is necessary so Proposition 2 can be utilized.
+If Q~v ]V is a g-conjugate to Q~. [u on u c~ v, then the characteristic object
+of Q~v is
+sg : Qa ~ IU ~ V-~g-lo~.
+
+(2.16)
+
+DEFINITION 4. A (smooth) uniform elastic body U is said to be homogeneous
+if there exists a material chart #v and a configuration xv : U-~ R3 such that
+#v(X) = xv,(X)
+
+(2.17)
+
+for every X ~ U.
+Accordingly, an elastic uniform body B is called locally homogeneous if for
+every material point X there exists a neighborhood (a subbody) U of X which
+is homogeneous. Any configuration xv of U such that xv* is a material chart
+on U is called a homogeneous configuration of U.
+Taking into account the above definitions as well as Propositions I, 2 & 3
+one can easily show that
+THEOREM 1. A uniform elastic body B is locally homogeneous if and only if for
+any material point X ~ B there exists a material chart #~ at X such that Qa, [U
+is flat.
+
+3. Material structures
+
+In this section we shall analyze a number of well-known uniform material
+structures often used in Elasticity. We shall only be concerned with the local
+homogeneity problem, i.e., with the conditions under which a given uniform
+elastic body is locally homogeneous.
+The structures which we analyze here can be divided into two different
+categories. The first category, which is represented by an elastic fluid, an
+
+176
+
+M. El~anowski, M. Epstein and J. ~niaty&i
+
+isotropic elastic solid and a transversely isotropic elastic solid is characterized
+by the fact that the corresponding material structures admit characteristic
+objects (all structures considered in this paper admit characteristic fields).
+These characteristic objects will be defined for each structure, and Proposition
+2 will be used in the process of deriving homogeneity conditions. The second
+category, represented by elastic fluid crystals of the first and second type, will
+be dealt with directly by means of Frobenius' Theorem.
+We start our investigation with an analysis of the so-called Elastic Fluid.
+DEFINITION 5. An Elastic Fluid is a uniform elastic body the typical isotropy
+group of which is the special linear group SL(3).
+It should be noted here that in the case of an elastic fluid it makes sense to
+talk about the typical isotropy group as any conjugate to SL(3) is the group
+itself.*
+It follows from Proposition 2 that there exists an SL(3)-structure (material
+structure) naturally associated with any elastic fluid uniform body. The
+characteristic object of such a structure is a nowhere zero exterior differential
+form (a volume form) on the body manifold B. As it is well known, [8], any
+two volume forms (maximal exterior forms) on a closed connected manifold
+which yield the same total volume can be transformed into each other by the
+pull-back of a diffeomorphism of the manifold. This naturally implies that
+every SL(3)-structure on a 3-dimensional orientable manifold is locally flat,
+which leads to the following statement.
+PROPOSITION 3. Every uniform elastic fluid body is locally homogeneous.
+We turn our attention now to the isotropic solid.
+DEFINITION 6. An Isotropic Elastic Solid is a uniform elastic body for which
+there exists a material chart such that a typical isotropy group, relative to this
+chart, is the group of all rotations in R3, that is, the proper orthogonal group
+SO(3). This special material chart is called undistorted.
+Any O(3)-structure is just a choice of a Riemann metric H on B, [6].
+Specifically, H is the pull-back of the cartesian inner product through an
+undistorted chart. On the other hand, the Riemann metric chooses the bundle
+of orthonormal frames. The characteristic object of any SO(3)-structure is a
+Riemann metric on B with the Riemannian volume element. As is shown in
+[9] an O(3)-structure is locally flat if and only if the Riemann curvature tensor
+
+* The respective material structure could still, however, be different.
+
+Material homogeneity
+
+177
+
+of the corresponding Riemannian metric vanishes. In 3-dimensions, however,
+the Riemann curvature tensor is proportional to the Ricci tensor. Hence, in
+order to be able to determine whether a given O(3)-structure is locally flat it
+suffices to verify whether the Ricci tensor of the characteristic Riemannian
+metric vanishes. In the light of the fact that SO(3) = 0(3) c~ SL(3), that any
+SL(3)-structure is locally integrable and that the Riemannian volume element
+is parallel with respect to any Riemannian parallel transport [12], we can
+claim that the SO( 3) -structure is locally flat if and only if the respective
+O(3)-structure is locally flat. Therefore,
+PROPOSITION 4 (Wang). A uniform isotropic elastic solid body is locally
+
+homogeneous if and only if the Ricci tensor of its intrinsic (material) metric
+vanishes.
+The response function for the isotropic elastic solid relative to an undistorted
+chart # has the form
+
+: ( r , x) = :'.(FH(X)F~).
+
+(3.1)
+
+In order to be able to determine if the particular uniform isotropic elastic
+body is locally homogeneous at X ~ B, one needs to check if the Ricci
+curvature tensor of H vanishes. Once this is verified, one can find a reference
+configuration #h (still undistorted) such that
+
+: ( F , Y) = ~-.~(FF ~)
+
+(3.2)
+
+for all Y in some neighborhood of X.
+The last material structure from the first category, which we consider here,
+is the so-called transversely isotropic elastic solid.
+DEFINITION 7. A Transversely Isotropic Elastic Solid is a uniform isotropic
+elastic body with an intrinsic field of unit vectors e in the tangent space of the
+body manifold.
+The typical isotropy group of this material is the SO(l) x SO(2) group, that
+is, the group of all rotations about the fixed axis e. Such a G-structure defines
+a Riemannian structure and an orientation (Riemannian volume element) on
+B. This Riemannian structure (called sometimes the associated Riemannian
+structure) can also be viewed as the embedded SO( 2) -structure. The characteristic object of the SO(1) x SO(2)-structure is given by the associated metric
+H, its volume element, and the distribution e. It can now be proven that
+
+178
+
+M. El~anowski, M. Epstein and J. ~niatycki
+
+PROPOSITION 5. The transversely isotropic uniform elastic structure is locally
+
+homogeneous (integrable) if and only if its associated Riemannian structure is
+locally flat, and the intrinsic vector field e is covariantly constant (holonomic
+structure [11]) with respect to the associated Levi-Civita connection.
+Proof. As was explained before, the orientation of the structure causes no
+trouble as it gives no new compatibility criteria for the local flatness. Now, if
+the given SO(1) x SO(2)-structure is locally flat, then there exists a trivialization of Q~ such that the vector field e as well as the associated metric H have
+constant components. But then the Riemann curvature tensor of H vanishes,
+and the associated structure SO(2) is integrable. On the other hand, if the
+associated Riemannian structure is locally flat, then there exists a local chart
+with respect to which H has constant components. Since e is parallel with
+respect to the Levi-Civita connection of H, then it has also constant components in this chart. Hence, according to Proposition 1, the material
+SO(l) x SO(2)-structure is locally flat.
+The next two material structures which are considered here do not admit
+characteristic objects, although they do have characteristic fields. They can,
+however, be dealt with in a different way by applying the Frobenius Theorem
+directly, as they are simply differential distributions (systems).
+DEFINITION 8. An (Anisotropic) Elastic Fluid Crystal of the First Type is a
+uniform elastic fluid body which possesses at each point an intrinsic orientation characterized by a fixed line in the tangent space of the body point and
+does not have any other intrinsic characteristic.
+Its typical symmetry group is a subgroup of SL(3) leaving, say, the z-axis
+invariant.* The corresponding material G-structure is the intersection of the
+so-called 1-dimensional differential system (distribution) on B [6], given by z,
+and the SL(3)-structure, or equivalently, a substructure of the SL(3)-structure
+given by a field of fixed lines in TB. As we have stated in Proposition 3 every
+SL(3)-structure on the orientable manifold is locally integrable. On the other
+hand, as the Frobenius Theorem implies, every 1-dimensional distribution
+(smooth distribution of 1-dimensional vector spaces) is completely integrable.
+Consequently,
+PROPOSITION 6. Every uniform elastic fluid of the first type is locally homoge-
+
+neous.
+
+* Notice that the choice of the z-axis depends on the choice of the particular material chart.
+
+Material homogeneity
+
+179
+
+In contrast to what we have just proved, a so-called uniform elastic fluid
+
+crystal of the second type need not be locally homogeneous.
+DEFINITION 9. An (Anisotropic) Elastic Fluid Crystal of the Second Type is a
+uniform elastic fluid body with a 2-dimensional distribution on the body
+manifold B as the only other intrinsic characteristic.
+Naturally, the corresponding material G-structure is once again the intersection of the SL(3)-structure and the 2-dimensional differential system (distribution) on B. Such a structure is characterized by a volume form on B and
+two linearly independent vector fields which span the 2-dimensional distribution. By Frobenius' Theorem a 2-dimensional distribution is locally ttat if and
+only if it is involutive, i.e., the commutator vector field [e~, e2] belongs to the
+distribution whenever the fields e~ and e2 belong to it. In fact, it was proven
+in [10] that any r-dimensional distribution is involutive if and only if it is
+parallel with respect to a certain torsion-free G-connection (material connection in Wang's sense [7]) on B. The involutiveness of the intrinsic material
+distribution is the only condition for the local flatness of this structure, as the
+SL(3)-structure is always locally integrable. Therefore,
+PROPOSITION 7. A uniform elastic fluid crystal of the second type is locally
+homogeneous if and only if its intrinsic 2-dimensional distribution is integrable.
+Using the same arguments as were used in [7] to develop the canonical form
+of the response function for the elastic fluid crystal of the first type, one can
+show that the response function (constitutive law) for the uniform elastic fluid
+crystal of the second type has, relative to its local homogeneous reference
+configuration, the form
+~ ( F , X) = ~bo(det F)i
+
+"3L )l(det r)Ilrel x re2 ll-2(re, x re2)
+
+(Fe x Fe2),
+
+(3.3)
+
+where el and e 2 are unit linearly independent vectors in the reference configuration. In an arbitrary (not necessarily homogeneous) configuration the
+intrinsic distribution will be spanned by a pair of vector fields u and v. The
+response function relative to this configuration takes the form
+:~r(F, X) = ~b0(det F, X)l
+
++ ~b~(det F, X)[[ru(X) x Fv(X)[]-2(Fu(X) x rv(X)) ® (ru(X) x rv(X)).
+(3.4)
+
+180
+
+M. El~anowski, M. Epstein and J. ~niatycki
+
+A uniform elastic fluid crystal with the constitutive law given by (3.6) is
+locally homogeneous if and only if locally
+(u × v). [u, v] = 0.
+
+(3.5)
+
+Acknowledgement
+We would like to thank Professor C.-C. Wang for a number of valuable
+comments concerning the original version of this paper. This work has been
+supported through respective grants of the Natural Science and Engineering
+Research Council of Canada.
+
+References
+1. Noll, W., Materially uniform simple bodies with inhomogeneitics, Arch. Rational Mech. Anal.
+27 (1967) 1-32.
+2. Wang, C.-C., On the geometric structure of simple bodies, a mathematical foundation for the
+theory of continuous distribution of dislocations, Arch. Rational Mech. Anal. 27 (1967)
+33 -94.
+3. El±anowski, M. and Epstein, M., Geometric characterization of hypcrplastic uniformity,
+Arch. Rational Mech. Anal. 88 (1985) 347-357.
+4. Cohen, H. and Epstein, M., Remarks on uniformity in hypcrelastic materials, Int. J. Solid~
+and Structures 20(3) (1984) 233-243.
+5. Epstein, M., l~l~anowski, M and ~niatycki, J., Locality and uniformity in global elasticity,
+Lecture Notes in Mathematics No. 1139, pp. 300-310, Springer-Veflag (1985).
+6. Sternbcrg, S., Lectures on Differential Geometry, Chelsea Publishing Company, N.Y. (1983).
+7. Wang, C.-C. and Truesdell, C., Introduction to Rational Elasticity, Noordhoff International
+Publishing, l_~yden (1973).
+8. Moser, J., On the volume elements of a manifold, Trans. Amer. Math. Soc. 120 (1965)
+286-294.
+9. Gullemin, V., The integrability problem for G-structures, Trans. Amer. Math. Soc. 116 (1965)
+544-560.
+10. Walker, A.G., Connections for parallel distribution in the large, Quart. J. Math. II, 9 (1958)
+221-231.
+11. Chern, S. S., The geometry of G-structures, Bull. Amer. Math. 72 (1966) 167-219.
+12. Poor, W. A., Differential Geometric Structures, McGraw-Hill Book Company (1981).
+
+

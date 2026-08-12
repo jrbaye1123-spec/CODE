@@ -1,0 +1,121 @@
+Governance, politics & policy of Artificial Intelligence II
+ethicsdialogues.eu/2023/01/30/governance-politics-policy-of-artificial-intelligence-ii/
+January 30, 2023
+
+How does society perceive Artificial Intelligence (AI) and what do people expect from it?
+Is AI seen as a major force that will change global power dynamics or is it perceived as a
+solution to the main problems that society face today like climate change and poverty?
+These are some of the questions explored in the recent publications from my research
+programme on governance, politics and policy of AI, analysing how policy documents
+from Europe and the United States frame AI, its purpose and recommendations to govern
+it.
+
+Dr. Inga Ulnicane giving talk on Responsible AI at the HBP workshop at
+Karolinska Institute. Photo credits: HBP Education
+
+Revolution, Transformation & Disruption
+In our recent chapter ‘Governance of Artificial Intelligence: Emerging International Trends
+and Policy Frames’ (Ulnicane et al 2022), we found that one of the dominant frames of AI
+depicts it as a revolutionary, transformative and disruptive technology. AI is associated
+with potential and promises to revolutionise the way we live, work and learn. The major
+impacts of AI are expected across all sectors including transport, health, education,
+defence and research. In policy discussions, many impacts of this transformative and
+disruptive technology are hyped, described in superlatives and expected to be very
+positive, for example, promising improvements in transport and health. However,
+transformation and disruption also raise concerns, for example, about the future of jobs
+and welfare state. The talk about revolution and transformation highlights the urgency to
+consider political and policy implications of AI and to reflect on its ethical and social
+aspects.
+1/4
+
+Occasionally, in policy discussions AI is compared to previous transformative
+technologies and revolutions like steam engine, electricity and industrial revolutions.
+Sometimes it is discussed as a part of the so-called Fourth Industrial Revolution,
+characterized by convergence of new physical, digital and biological technologies.
+
+AI & Europe as a power
+How does the European Union (EU) position itself in these discussions about AI? My
+recent chapter ‘Artificial Intelligence in the European Union: Policy, ethics, and regulation’
+(Ulnicane 2022a) examines the EU’s stance on AI by using the two concepts from Europe
+as a power debate in European studies, namely Normative Power Europe and Market
+Power Europe. The concept of Normative Power Europe focuses on how the EU aims to
+increase its global influence by diffusing its norms and values enshrined in its Treaties like
+human dignity, freedom, democracy, equality and the rule of law. The concept of the
+Market Power Europe highlights that the EU’s global power largely stems from regulating
+access to its large common market.
+Analysing the EU’s rhetoric on AI, I found a strong focus on Normative Power Europe, as
+exemplified by its attempts to promote its human-centric and value-based approach and
+its ethics guidelines for Trustworthy AI globally. This approach is closely connected to the
+EU’s attempts to be a Market Power with appropriate regulation of AI, which is based on
+the EU’s values and norms. However, the EU’s activities to promote an approach to AI
+based on its values have received not only appreciation, but also criticism for potential
+‘ethics washing’ and instrumentalising ethics to promote business interests.
+
+AI for global race or societal challenges?
+In Europe and elsewhere, recent advances in AI have revived an old rhetoric of a global
+technology race, where some countries are depicted as winners while others worry about
+lagging behind. A well-known historical example of this rhetoric is the space race of the
+20th century between the two then super-powers – the United States (US) and the Soviet
+Union. Today AI development has sometimes been pictured as a new space race or cold
+war between the US and China. In my recent publication ‘Against the new space race:
+global AI competition and cooperation for people’ (Ulnicane 2022b), I highlight some
+problematic aspects of this rhetoric. The new space race rhetoric can be damaging
+because it depicts the global development of AI as a zero-sum game, where one country
+wins and others loose. It can also prioritize political support for the development of
+prestigious new technologies over addressing social issues.
+This leads to the question – what is the purpose of the development and use of AI, which
+I examine in my recent article ‘Emerging technology for economic competitiveness or
+societal challenges? Framing purpose in Artificial Intelligence policy’ (Ulnicane 2022c). To
+do that, I use two stylized technology policy frames – the traditional frame of economic
+competitiveness and a more recent one of societal challenges. A lot of recent AI policy is
+focused on a very traditional idea about supporting technology development as a way to
+promote national economic competitiveness. These ideas are well-known since the
+2/4
+
+second half of the 20th century, when France was worried about the ‘American challenge’,
+the US was concerned about the ‘Japanese challenge’, the EU was worried about the
+technology gap with the US and so on. While as pointed out earlier, this obsession with
+economic competitiveness and a global race is problematic in many ways, this rhetoric
+remains very popular.
+Additionally, in AI policy discussions we also see the more recent frame of societal
+challenges, which perceives technology as a way to address the so-called Grand
+challenges in areas such as environment, health and energy and to contribute to the
+achievement of the United Nations Sustainable Development Goals. However, in policy
+debates AI is sometimes presented as a simple technological fix to these complex and
+uncertain social problems. Moreover, the question of compatibility of different goals of AI
+contributing to economic competitiveness as well as societal challenges is largely
+overlooked and needs more reflection.
+
+Watch Video At: https://youtu.be/L-S8Q6C-q2I
+
+The main results from these publications have been shared in several blog posts on
+economic competitiveness and Grand Challenges and on AI and Europe. They have also
+been discussed in several talks like this recent HBP Tea & Slides session ‘Towards
+Responsible Artificial Intelligence’. If you would like to join the discussion, please register
+for the upcoming AI talk organized by the European Trade Union Institute on 7 February
+‘The politics of purpose: Artificial Intelligence for global race or grand challenges?’
+
+3/4
+
+Dr. Inga Ulnicane is Senior Research Fellow at De Montfort University, UK. Her research
+interests focus on politics, policy and governance of science, technology and innovation.
+She has published on topics such as Artificial Intelligence, Grand Challenges, European
+integration in research, and dual use.
+
+References
+Ulnicane, I. (2022a) ‘Artificial Intelligence in the European Union: policy, ethics and
+regulation’, in T. Hoerber, I. Cabras and G. Weber (Eds) Routledge Handbook of
+European Integrations, Routledge, pp.254-269. https://doi.org/10.4324/978042926208119
+Ulnicane, I. (2022b) Against the new space race: global AI competition and cooperation
+for people. AI & Society https://doi.org/10.1007/s00146-022-01423-0
+Ulnicane, I. (2022c) Emerging technology for economic competitiveness or societal
+challenges? Framing purpose in Artificial Intelligence policy. Global Public Policy and
+Governance 2(3): 326-345. https://doi.org/10.1007/s43508-022-00049-8
+Ulnicane, I., W.Knight, T.Leach, B.C.Stahl and W.G. Wanjiku (2022) ‘Governance of
+Artificial Intelligence: Emerging international trends and policy frames’, in M.Tinnirello
+(Ed.) The Global Politics of Artificial Intelligence. CRC Press, pp.29-55.
+https://doi.org/10.1201/9780429446726-2
+
+4/4
+
+

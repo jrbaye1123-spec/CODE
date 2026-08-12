@@ -1,0 +1,114 @@
+Available online at www.sciencedirect.com
+
+3URFHGLD
+(QJLQHHULQJ
+
+Procedia
+Engineering
+1 (2009)
+1–3
+Procedia
+Engineering
+01 (2009)
+000–000
+www.elsevier.com/locate/procedia
+www.elsevier.com/locate/procedia
+
+Mesomechanics 2009
+
+Mesomechanics 2009 Foreword:
+Dissipation and damage across multiple scales in physical and
+mechanical systems
+George C. Siha, Alexander M. Korsunskyb,*, Daniele Dinic
+a
+
+International Center of Sustainability, Accountability and Eco-Affordability of Large Structures (ICSAELS ) Lehigh University, Bethlehem, PA
+18015, USA
+b
+University of Oxford, Department of Engineering Science, Parks Road, Oxford OX1 3PJ, UK
+c
+Department of Mechanical Engineering, Imperial College London, South Kensington Campus, Exhibition Road, SW7 2AZ, London, UK
+Received 15 May 2009; revised 20 May 2009; accepted 1 June 2009
+
+The annual international meetings in the Mesomechanics series are sponsored by the
+International Society of Mesomechanics with the long term mission to enhance the design and
+fabrication of engineering systems, large or small.
+Addressing energy efficiency and environmental concerns require science and engineering to
+stand on equal footing. Within the scope of this general theme, the Mesomechanics 2009
+conference being the 11th in the series will be hosted by the University of Oxford, and coorganised by Imperial College London, and Lehigh University, USA. The conference is
+concerned with the “Dissipation and Damage across Multiple Scales in Physical and
+Mechanical Systems”. The meeting will take place in Oxford, United Kingdom, on 24-26 June
+2009.
+Non-linearity of the system response to externally applied loads and physical fields is associated
+with the presence of various dissipative and/or irreversible processes. Dissipative processes are
+synonymous with the concept of ‘damage’. Damage induces modification and degradation of
+system properties, and also determines the durability of the system, i.e. the time and conditions
+for the onset of catastrophic failure.
+In many physical and mechanical systems the precise nature of dissipative processes varies
+depending on the scale of consideration. At the macroscopic, or continuum scale these
+
+* Corresponding author. Tel.: +44 1865 273043; fax: +44 1865 273010.
+E-mail address: alexander.korsunsky@eng.ox.ac.uk
+
+doi:10.1016/j.proeng.2009.06.002
+
+2
+
+G.C. Sih et al. / Procedia Engineering 1 (2009) 1–3
+
+phenomena are represented through the introduction of complex constitutive laws. These
+continuum quantities reflect the consequences of dissipative processes that take place at lower
+structural scales, e.g. intergranular and intragranular deformation in metallic polycrystals,
+interfacial decohesion processes in ceramic aggregates, crystalline and amorphous phases in
+polymers.
+The advent of nanotechnology has drawn attention to the difference between the behavior of
+large and small bodies that are governed, respectively, by the bulk (global) and microscopic
+(local) material properties. The physical laws are also different. Simply put, the volume governs
+the large and the surface controls the small. The distinction is particularly important for
+evaluating the energy dissipation. Although the scheme of unloading a tensile specimen may be
+adequate for large bodies, it is inappropriate for small bodies. Testing a small part of an
+inhomogeneous material microstructure is not sufficient for complete characterization. Relating
+the microstructure constituents and the behavior across the different scales is indeed a formidable
+task. Of particular concern are the uncertainties associated with interfaces, whether they define
+grain boundaries or atomic clouds. Yet, these are precisely the locations where energy
+dissipation is dominant. Describing the accumulation of dissipated energy from the micro- to the
+macro-scale involves crossing the divide between the large and the small. Newtonian/Einsteinian
+mechanics does not concern itself with attempting to reconcile the descriptions at the level of
+quantum mechanics (the extremely small) and gravitational theory (the extremely large).
+Ignoring the arrow of time in the quantum gravity theory is equivalent to neglecting energy
+dissipation.
+The arrow of time implies that the description of damage should proceed from the small to the
+large: pico→nano→micro→macro. Transitional thresholds need to be defined for connecting the
+segmented scales. Processes in real materials that experience ageing and damage entail energy
+dissipation, a manifestation of the development and existence of inhomogeneities and interfaces.
+Effective understanding and use of nanocomposites requires bridging the gap from the nanoscale behavior to that at the macro-scale, and ultimately the structural scale.
+The introduction of mesoscale considerations provides a connection between detailed fine scale
+analyses and large scale, coarse-grained, homogenized treatments. Multi-scale analyses aim to
+link the scales by establishing frameworks for communicating the necessary quantities between
+different levels of description.
+It is with these objectives in mind that the theme of Mesomechanics 2009 in Oxford was
+selected. The fact that the contributors to the conference proceedings volume address energy
+dissipation across the range of scales in relation to mesomechanics considerations is the
+indication of success of this choice.
+The proceedings of this conference will be of interest to researchers and practitioners concerned
+with the analysis of damage and dissipation in various engineering and physical systems, and
+seeking to identify and establish better predictive procedures for designing reliable systems and
+structures.
+
+G.C. Sih et al. / Procedia Engineering 1 (2009) 1–3
+
+The editors of this volume wish to express their gratitude to the authors for their contributions,
+and sincerely hope that, with the help of the Mesomechanics 2009 meeting, we have moved one
+step closer to understanding the elusive nature of assessing energy dissipation with account taken
+of material microstructure effects. We hope that this spirit will continue to grow to new
+strengths, and will be carried over into Mesomechanics 2010.
+
+George C. Sih
+Alexander M. Korsunsky
+Daniele Dini
+Oxford, United Kingdom
+June, 2009
+
+3
+
+

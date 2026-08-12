@@ -1,0 +1,672 @@
+arXiv:1912.10560v1 [math-ph] 22 Dec 2019
+
+Reflections on the structural and constitutive
+approaches to the theory of defects
+Marcelo Epstein∗
+
+To Yair Tene, fifty years later
+Abstract
+An attempt is made to bring into harmony two of the paradigms commonly used in the theory of continuous distributions of defects. It is shown
+that the common differential geometric apparatus is provided neatly by the
+theory of G-structures. In the case of a structural model, based on putative experimental observations at the microscopic level, a G-structure can
+be shown to emerge from the group of linear transformations that preserve
+a tensorial quantity. For the phenomenological (macroscopic) constitutive
+model, the G-structure arises from the notion of material isomorphism and
+the underlying local symmetry group of the constitutive law. A comparative
+example is presented in the framework of certain smectic liquid crystals.
+Keywords: Material isomorphism; uniformity; principal bundles; Gstructures; liquid crystals; smectics.
+
+1
+
+Introduction
+
+We will concern ourselves in these notes with two conceptually different
+paradigms that can be used to describe continuous distributions of defects in
+material bodies. These two paradigms can be roughly summarized as follows:
+∗
+
+University of Calgary, Calgary, Canada.
+
+1
+
+1. The structural paradigm is based on the imposition on the body of an
+additional geometric structure, which, it may be argued, is observable
+under a putative microscope. This structure is represented usually by
+one or more tensor fields over the continuum. The standard case consists of three linearly independent vector fields, supposedly representing
+an observable atomic lattice. In non-strictly crystalline materials, such
+as certain smectic liquid crystals, one may postulate the existence of a
+1-form, representing the partial arrangement of atomic planes typical
+of smectics. Some feature of this differential geometric structure is then
+used to define the presence of material defects.
+2. The constitutive approach, steadfastly holding on to a purely macroscopic point of view, consistent with the epistemological view that a
+continuum theory does not recognize the existence of atomic structures
+per se, was promulgated by Noll [9] and Wang [12] in the 1960s. Assuming that all the information about the material constitution of a body
+should be entirely contained in the constitutive functionals observable
+at the macroscopic level, the concept of material isomorphism is used
+as the basis for the generation of a well-defined differential geometric
+structure, which may or may not be integrable, in a precise sense. The
+failure of integrability reveals the presence of defects.
+A third approach, not included in our treatment here, is the Volterra
+paradigm, which considers the continuous limit of a sequence of Volterra cutand-glue operations. It has been shown in [6] that this limit is, in a precise
+sense, equivalent to some version of the structural paradigm. It is noteworthy
+that the structural and constitutive paradigms, stemming from apparently
+disparate viewpoints, lead in many cases to identical criteria to detect the
+presence of continuous distributions of defects. This coincidence manifests
+itself in the fact that, although starting from different points of departure,
+they end up invoking the same geometrical apparatus.
+When the structural paradigm is adopted, the absence of dislocations
+associated with the given tensor field (or fields) can be summarized as the
+answer to the following question: Is there a (local) chart such that the components of this tensor field (or fields) are constant throughout the chart? If
+the answer to this question is in the affirmative, we can reinterpret the chart
+as a local change of configuration and thereby obtain a tensor field invariant
+under Euclidean translations. If, for example, the tensor field is a differential
+2
+
+1-form, the condition for this to be the case is that the form must be closed.
+If, instead, the additional geometric structure consists of a field of bases, the
+condition is that the field must be holonomic, that is, the Lie bracket (or
+commutator) of each pair of the vector fields involved must vanish.
+In contradistinction, the point of departure for the constitutive paradigm
+is the notion of material isomorphism. Roughly speaking, two material points
+are said to be materially isomorphic if their constitutive equations can be
+brought into exact correspondence by a mere distortion or, somewhat more
+precisely, by a change of local reference configuration. A body is materially
+uniform if all of its points are mutually materially isomorphic. A uniform
+body is locally homogeneous (or defect-free) if every point has a neighbourhood such that a change of configuration renders the constitutive law independent of position.
+One of the obvious differences between these two paradigms is that the
+material symmetries encoded in the constitutive laws do not seem to play any
+role in the structural paradigm. To elucidate this and other aspects of the
+comparison of the two approaches, it is useful to carry out the formulation
+in the natural geometric setting provided by the linear frame bundle of the
+body manifold, and its associated bundles.
+
+2
+
+The linear frame bundle and its associated
+bundles
+
+2.1
+
+Review of fibre bundles
+
+Recall that a material body B is defined as a smooth manifold of dimension
+n = 3. As such, each material point X ∈ B is endowed with a tangent space
+TX B, which is an n-dimensional vector space. Each vector v ∈ TX B is an
+equivalence class
+S of mutually tangent smooth curves through X. The formal
+union T B =
+TX B is itself a smooth manifold of dimension 2n, which
+X∈B
+
+is called the tangent bundle of B. We think of it as a smooth collection of
+tangent spaces, each of which is assigned to a point of B. But it is precisely
+this assignation what gives a very special extra structure to the manifold T B,
+and this is precisely what is meant by the word bundle. We think of B as the
+base manifold and of TX B as the fibre over the point X ∈ B
+More generally, a smooth fibre bundle is a smooth manifold C and a
+3
+
+smooth surjective map π : C → B onto a smooth manifold B, called the
+base manifold. Technically, we require the projection to be a submersion.
+The inverse image CX = π −1 (X) is called the fibre at X ∈ B. We require,
+moreover, the condition of local triviality, which essentially requires that, locally, the fibre bundle resembles a Cartesian product. More specifically, for
+each point X ∈ B, there is an open neighbourhood U ⊂ B and a smooth and
+smoothly invertible map ψ : π −1 (U) → U × F , where F is a smooth manifold
+called the typical fibre of the bundle. This map ψ, called a local trivialization, is fibre preserving, namely, pr1 ◦ ψ = π. In other words, if we apply
+the map ψ to a point in the fibre over X we obtain a point of the product
+that lies precisely over X, and not anywhere else. We have denoted by pr1
+the projection over the first factor of a Cartesian product. This definition
+sounds very intricate, but it is in fact very intuitive, as suggested in Figure
+1.
+We are still not done with the definition, since we left the best for last.
+Noting that all the fibres CX are mutually diffeomorphic (they all look the
+same, so to speak),1 we ask what is the relation between two local trivializations whose domains have a non-empty intersection. If ψ1 : π −1 (U1 ) → U1 ×F
+and ψ2 : π −1 (U2 ) → U2 ×F are two local trivializations such that U1 ∩U2 6= ∅,
+the transition between the first and the second is the map ψ12 = ψ2 ◦ ψ1−1 :
+pr1−1 (U1 ∩ U2 ) → pr1−1 (U1 ∩ U2 ). At each point X of the intersection U1 ∩ U2 ,
+the transition map is a transformation of F . We will require that this transformation can only be construed as the left action of an element g of a fixed
+group G acting smoothly on the left on F , and that the dependence of g on
+X must be smooth. This group, which must be specified as part and parcel
+of the definition, is called the structure group of the bundle. In the case of
+the tangent bundle, the typical fibre is an n-dimensional vector space, and we
+allow all the possible linear automorphisms. Put differently, the typical fibre
+of the tangent bundle of a smooth n-dimensional manifold is Rn , and the
+structure group is the general linear group GL(n; R), which can be regarded
+as the group of all non-singular n × n matrices. The left action of the group
+on the typical fibre is, in this case, the matrix multiplication of a matrix
+times the column of the vector components in some basis. To summarize, a
+bundle consists of 5 ingredients and can be notated as (C, B, π, F , G).
+A section (or cross section) of a bundle (C, B, π, F , G). is a smooth map
+σ : B → C such that π ◦ σ = idB . In words, a section assigns smoothly to
+1
+
+The diffeomorphism between fibres, however, is in general not canonical.
+
+4
+
+ψ1
+ψ2
+
+ψ12
+F
+
+π
+
+|
+
+pr1
+
+U1 X
+B
+{z
+}
+U2
+{z
+}
+|
+
+|
+
+U1 X
+B
+{z
+}
+U2
+{z
+}
+|
+
+Figure 1: Schematic representation of a bundle and two trivializations
+each element X of the base manifold an element of its fibre CX . In physical
+applications, a section is a field over B. The nature of the field is given by the
+nature of the fibre. Thus, a section of the tangent bundle is a field of tangent
+vectors. A local section is a section of π −1 (U), where U is a connected open
+subset of B.
+
+2.2
+
+Principal bundles
+
+Consider a bundle (C, B, π, F , G), and let F ′ be manifold on which the group
+G has a smooth left action. Then, leaving everything else unchanged, including the local trivializations, we obtain a new fibre bundle (C, B, π, F ′ , G) with
+typical fibre F ′.2 Two bundles related in this way are said to be mutually
+associated.
+Since a group always has a natural left action on itself (by left translation), given a bundle (C, B, π, F , G) we can always construct the associated
+bundle (C, B, π, G, G), namely, a bundle whose typical fibre coincides with
+the structure group. This bundle is known as the principal bundle associated
+with the bundle of departure. It is essential, but not difficult, to show that in
+a principal bundle there is also a canonical right action of the structure group
+on the total space C. In fact, the fibres can be regarded as the orbits of this
+action. The existence of this right action is traceable to the existence of two
+canonical actions of a group on itself, namely, the left and right translations.
+It is not difficult to show that if p belongs to C the right action by a group
+2
+
+This construction is nicely explained and justified in [10], p 43.
+
+5
+
+element g ∈ G moves p to a point pg on the same fibre as p. If ψ is a local
+trivialization, then we have that pg = ψ −1 (ψ(p)g), where, with a clear abuse
+of notation, we use the apposition ag to indicate the right action of g on an
+element a, whether a belongs to a fibre of C or to the typical fibre G.
+Starting from the tangent bundle T B, consider at each point X of B the
+collection
+S FX B of all bases of the tangent space TX B. The formal union
+FB =
+FX B is a fibre bundle with the same trivialization maps as the
+X∈B
+
+tangent bundle. It is called the (linear) frame bundle of B. A local section of
+this bundle is a moving frame (or repère mobile). At each point X of an open
+set U ⊂ B, we have n linearly independent tangent vectors e1 , ..., en . Under a
+trivialization ψ, each of these vectors is mapped into a vector ψ(eα ) = Aβα gβ ,
+where gβ (β = 1, ..., n) is the standard basis of Rn , and where the summation
+convention is used. The components Aβα form a non-singular matrix, which
+shows that the fibres are in a one-to-one correspondence with the general
+linear group GL(n; R).3 The transition functions between two trivializations
+amount to a left translation of the typical fibre GL(n; R), as can be verified
+directly.
+We conclude that the linear frame bundle is, in fact, the principal bundle
+associated with the tangent bundle. The right action over the bundle can be
+exposed by noticing that, having chosen arbitrarily a basis eα (α = 1, ..., n)
+of TX B, each basis fβ at X can be expressed as fβ = f αβ eα . The right
+µ
+R) is the basis Rg (f) whose elements are
+action by an element
+ g να ∈ µGL(n;
+
+µ
+µ
+α
+g ν fµ = g ν f µ eα = f µ g ν eα .
+Other (non-principal) bundles associated with the frame bundle F B are
+the various tensor bundles. For example, the cotangent bundle T ∗ B is obtained by assigning to each point X ∈ B the dual space TX∗ B of TX B. Higher
+order tensor bundles are obtained by respective tensor products of copies of
+T B and T ∗ B.
+
+2.3
+
+G-structures
+
+An important question in the theory of principal bundles is the possibility
+of reducing a principal bundle to another principal bundle whose structure
+group is a subgroup of the original. More precisely, let P = (C, B, π, G, G) be
+a principal bundle and let G ′ be a proper subgroup of G. Consider another
+principal bundle of the form P ′ = (C ′ , B, π, G ′ , G ′ ), that is, a principal bundle
+3
+
+More technically, each fibre is a G- torsor.
+
+6
+
+over the same base manifold B but with the smaller structure group G ′ ⊂
+G. We say that P ′ is a reduction of P if there exists a fibre-preserving
+differentiable map f : P ′ → P such that
+∀p ∈ C ′ , g ∈ G ′ .
+
+f (pg) = f (p)g
+
+(1)
+
+A useful way to imagine a reduction is to think of the reduced bundle P ′
+as having as its total space a submanifold C ′ of C, with the property of being
+closed precisely under the action of the subgroup G ′ . This means that, under
+′
+the right action of g ∈ G every point p of the sub-fibre CX
+⊂ CX has the
+property of remaining in this sub-fibre if, and only if, g ∈ G ′ .4 In particular,
+a principal bundle is reducible to the trivial subgroup if, and only if, it admits
+a global section. For a principal bundle this condition is equivalent to the
+existence of a global trivialization.
+Definition 1 A G-structure on an n-dimensional base manifold B is a reduction of the frame bundle F B to a subgroup G of the general linear group
+GL(n; R).
+
+3
+
+The material G-structure
+
+3.1
+
+Introduction
+
+Having reviewed some basic geometric concepts, we proceed now to establish the relevance of G-structures in the theory of continuous distributions of
+dislocations. We will follow a two-pronged approach. In this section, we will
+arrive at the concept of a so-called material G-structure, uniquely (modulo
+conjugation) determined by the constitutive equation of a uniform body. In
+other words, we will be following the constitutive paradigm. In the next section, quite independently, we will rather adopt the structural paradigm and
+we will show how it too leads naturally to the emergence of a corresponding G-structure, which, for lack of a better term, we will call the geometric
+G-structure.
+
+3.2
+
+Material uniformity
+
+For definiteness, we restrict the treatment to elastic constitutive equations.
+Following the standard notation of continuum mechanics, if we adopt a refer4
+
+A rigorous proof of this assertion can be found in [11], pp 296, 310.
+
+7
+
+ence configuration for the body B and adopt thereat a (Cartesian) coordinate
+system X I (I = 1, 2, 3), a deformation maps the body into the translation
+space of R3 , with (Cartesian) coordinates xi (i = 1, 2, 3), according to 3
+smooth functions xi = χi (X 1 , X 2, X 3 ) with strictly positive Jacobian determinant. The deformation gradient F at a point X is given in coordinates by
+the Jacobian matrix, whose entries are the partial derivatives F iI = ∂χi /∂X I .
+An elastic constitutive equation specifies the components sij of the Cauchy
+stress tensor s as smooth functions of the deformation gradient and the body
+point, namely, s = s(F, X).
+Definition 2 Two body points, X1 , X2 ∈ B are materially isomorphic if
+there exists a linear isomorphism P12 between their respective tangent spaces
+in the reference configuration such that s(F, X2 ) = s(FP12 , X1 ), identically
+for all deformation gradients F.
+Note 3.1 This definition is the mathematical expression of the fact that
+the two points are made of the same material. Indeed, the constitutive
+equation depends subtly also on the reference configuration chosen. A change
+of reference configuration (which clearly does not affect the intrinsic material
+properties) results in the multiplication of the deformation gradient to the
+right by the Jacobian matrix of this change of reference. A constitutive
+response, therefore, is not to be identified with a particular function, but
+rather with a whole orbit of functions under the right action of the general
+linear group on the matrix argument. Two points are materially isomorphic
+if, and only if, their constitutive equations lie in the same orbit.
+We observe that a material symmetry G at a point X is nothing but a material automorphism, that is, G satisfies the identity s(F, X) = s(FG, X).
+Moreover, given a material isomorphism P12 between X1 and X2 , both P12 G1
+and G2 P12 are also material isomoprhisms, where G1 and G2 are, respectively, material symmetries at X1 and X2 . It follows that the symmetry
+groups of two materially isomorphic points are mutually conjugate, the conjugation being achieved by any material isomorphism between the two points.
+Definition 3 A body is said to be materially uniform if all its points are
+materially isomorphic to each other. The body is smoothly uniform if every
+point has a neighbourhood over which the material isomorphism can be chosen
+as smooth functions of the material point X.
+The two definitions listed above were originally given by Noll [9].
+8
+
+3.3
+
+Construction of the material G-structure
+
+Since material isomorphism is clearly an equivalence relation, when we are
+given a smoothly uniform body we may choose any point, X0 say, as a material archetype for the whole body. If its constitutive equation is s̄(F) =
+s(F, X0 ), we can describe the global constitutive equation as
+s(F, X) = s̄(FP(X)),
+
+(2)
+
+where P(X) is a material isomorphism from X0 to X. This field cannot
+in general be chosen smoothly over the whole body, but it certainly can be
+so chosen over each member of an open covering of B, since the body was
+assumed to be smoothly uniform.
+If, as done in Figure 2, we place the archetype outside of the body, for
+convenience of the representation, we can visualize each material isomorphism P(X) as a material implant of the archetype. Just as in a surgical
+implant, the archetype is in general deformed to fit the damaged area, but
+the material properties are unaltered.
+Consider the non-empty intersection of two open sets in the above mentioned cover. For each point of this intersection we have two different material
+isomorphisms with the archetype, say P and P′ , both from X0 to X. But
+the composition P′ P−1 is a material isomorphism of the archetype with itself. Consequently, the point-wise transition functions over the non-empty
+intersection belong to the symmetry group of the archetype. We have thus
+constructed a principal bundle whose structure group is the symmetry group
+of the archetype. But recalling that material symmetry groups are subgroups
+of the general linear group, we have obtained a G-structure.
+The presence of material defects (continuous distributions of dislocations,
+say) manifests itself by the lack of flatness of this G-structure, as presented,
+for example, in [4]. We will not go any further in this direction, since our
+main objective is only to compare the geometric structures entailed by the
+constitutive and structural paradigms. In this respect, an article by Marı́n
+and de León [7] presents many relevant details that are beyond this general
+presentation.
+
+9
+
+P(X)
+
+Archetype
+
+Figure 2: Material implants
+
+4
+
+The geometric G-structure
+
+4.1
+
+Tensors of type H
+
+The traditional way of defining a tensorial quantity at a point of a manifold
+consisted of giving some indexed quantities (the components of the tensor in
+some coordinate system) and then stipulating how these components change
+upon a coordinate transformation. This supposedly old-fashioned definition
+can be embellished and dissimulated under the cloak of more modern terminology to produce the more general notion of a tensor field whose components
+at each point of an n-dimensional manifold B take values on an arbitrary vector space.
+Let H be a finite-dimensional real vector space on which the general linear
+group GL(n; R) acts on the left. We start by forming the Cartesian product
+F B ×H. To be sure, the elements of this product are the ordered pairs (f, h),
+where f ∈ F B and h ∈ H. The first element f is a basis of the tangent space
+at π(f ) ∈ B, while we can think of the second element as giving us the idea
+of components in some sense related to this basis.
+Inspired by the classical definition, we establish the following equivalence
+relation between pairs: (f1 , h1 ) ∼ (f2 , h2 ) if, and only if, there is a group
+element g ∈ GL(n; R) such that (f2 , h2 ) = (f1 g, g −1h1 ). We can recognize
+10
+
+in this equivalence relation a kind of compensatory action, in the sense that
+a geometric object (H-tensor) manifests itself by means of components that
+depend on the basis chosen by counteracting the effect of a change of basis,
+which explains why the left action on h is performed with the inverse of
+the group element that, through its right action on f , performs the change
+of basis. We can now consider the quotient space of this product by the
+equivalence relation, that is: H = F B × H/ ∼. The elements of H are
+precisely the equivalence classes themselves. It is not difficult to show that
+H is a bundle over B with typical fibre H and structure group GL(n; R). It
+is, therefore, a (non-principal) associated bundle of the linear frame bundle
+F B.
+The cross sections of H are tensor (fields) of type H. Alternatively,
+and equivalently, we may regard these as entities defined directly over F B,
+without reference to the associated bundle. In this case, we talk about a
+tensor of type H over T B. Such a tensor is a smooth map t : F B → H
+satisfynig the identity
+t(f g) = g −1 t(f ),
+
+∀g ∈ GL(n; R) f ∈ F B.
+
+(3)
+
+We have worked on the principal frame bundle, but the same idea can be
+extended, mutatis mutandis, to any principal bundle.
+
+4.2
+
+G-structures generated by tensors
+
+Although implicit in other treatments of G-structures, the notion of Gstructures defined by tensors is explicitly introduced and treated in detail
+by Fujimoto [5]. A somewhat broader characterization is given in [7].
+Suppose that we arbitrarily fix an element u of the vector space H. Since
+GL(n; R) has been assumed to have a left action on H, we can define the
+isotropy group of u as the set
+Gu = {g ∈ GL(n; R) | gu = u}.
+
+(4)
+
+This is the largest closed subgroup of GL(n; R) that leaves u invariant. Consider now a Gu -structure Gu , that is, a reduction of F B that happens to have
+Gu as its structure group. Let us define the constant map t : Gu → H given
+by t(f ) = u for all f ∈ Gu . This map can be considered a tensor of type
+H defined on Gu . Indeed, all pairs (f, u) over each fibre are related by the
+11
+
+equivalence relation ∼, since the structure group has been chosen precisely
+to leave u invariant.
+We would like to characterize a G-structure by means of a vector field on
+F B, but so far we have been going in the opposite direction. Nevertheless,
+to gain a better appreciation of what kind of properties a tensor over F B
+must have so as to determine a G-structure, let us extend the constant map
+t, defined so far on Gu only, to the whole frame bundle. By the basic property
+(3) of tensors of type H, the extension t : F B → H can only be given by
+t(f ) = g −1u,
+
+(5)
+
+while g runs over the whole general linear group. Clearly, t takes values only
+on the orbit Hu of u, namely,
+Hu = {gu | g ∈ GL(n; R)}.
+
+(6)
+
+We assume the map t to be differentiable.5
+These two properties of the tensor t, namely, that it takes values on an
+orbit of Hu and that it is differentiable, are enough to completely define a
+G-structure whose structure group is the isotropy group of u.
+Theorem 1 Giving a G-structure on B is the same as giving a tensor t :
+F B → H of type H on F B which satisfies the following two conditions:
+1. t takes values on Hu ;
+2. t is a differentiable map (with an appropriate differentiable structure in
+Hu ).
+Given a tensor of type H with this property, the corresponding Gu structure
+is the inverse image of u, namely, Gu = t−1 (u). In practical applications, one
+may be able to choose a moving frame such that the components of the given
+tensor field are constant. This moving frame is in the Gu structure.
+
+4.3
+
+Constructing the geometric G-structure
+
+The basic tenet of the structural approach is the existence of an additional
+geometric object superimposed on the body manifold. This object is supposedly observable experimentally by microscopy. If we assume it to be tensorial,
+as one would expect in applications, we can generate the corresponding Gstructure, as defined above, and as illustrated in the following example.
+5
+
+See [5], p 22, for a proof of this fact and of the following theorem.
+
+12
+
+5
+
+An example
+
+5.1
+
+A structural description of a smectic A
+
+It is never easy to translate into mathematical terms a complex physical
+phenomenon and to distinguish the essential from the accessory. The case of
+smectic liquid crystals, however, provides an excellent example of clarity in
+this regard. Thus, we read in [2]
+Smectic liquid crystals have stratified structures but a variety
+of molecular arrangements are possible within each stratification.
+In smectic A the molecules are upright in each layer with their
+centres irregularly spaced in a ‘liquid-like’ fashion ... The interlayer attractions are weak as compared with the lateral forces
+between molecules and in consequence the layers are able to slide
+over one another relatively easily.
+Or, in added detail, as in [3],
+Smectic liquid crystals consist of rod-shaped molecules that
+spontaneously form both directional (nematic) order and a onedimensional density wave, commonly described as a layered system; the spacing between the layers is approximately the rod
+length, a. In two dimensions, we can picture the layers as a set of
+nearly equally spaced curves lying in the plane. The ground states
+are characterized by both equal spacing between these curves and
+vanishing curvature.
+It is clear from these physical descriptions that smectics are not necessarily representable by Bravais lattices. In the continuous limit, we can
+conjecture that a smectic is faithfully represented by a differential 1-form.
+Indeed, as suggested in another physical context [8], if we picture a vector as
+an arrow, then a covector should be represented by a stack of parallel planes
+endowed with a certain density. The action of a covector on a vector can
+be visualized as the ‘number’ of planes pierced by the arrow. Recall that a
+differential 1-form is a smooth field of covectors. Consequently, a differential
+1-form ω can be understood as the smooth specification of a stack of planes
+at each point of B, as shown schematically in Figure 3. The resemblance to
+the physical descriptions of a smectic A is obvious.
+13
+
+B
+
+Figure 3: Pictorial representation of a differential 1-form on B
+Suppose that this layering 1-form ω has been constructed on the basis of
+smoothed-out averages of microscopic observations, without any prejudice to
+constitutive equations of any kind. As a section of the cotangent bundle T ∗ B
+(which is associated to the bundle of frames), we conclude that it gives rise
+to a tensor over F B, in the sense explained in Section 4.1. We can adopt a
+moving frame e1 , e2 , e3 (that is, a basis of TX B at each point X) such that its
+dual basis, e1 , e2 , e3 , has ω = e1 as its first element. In this system, therefore,
+the components of ω are given by the row vector < ω >=< 1, 0, 0 >. The
+result of the left action of a matrix [g] ∈ GL(3; R) on a row vector < ω >
+is the row vector < ω > [g]−1 (since the action on a column vector {v} is
+[g]{v}, and the linear evaluation of covectors on vectors must be preserved).
+We conclude that the isotropy group Gω of our < ω >=< 1, 0, 0 > (namely,
+the collection of matrices such that < ω > [g]−1 =< ω >) consists of all the
+matrices [k] of the form
+
+
+1 0 0
+[k] = a b c 
+(7)
+d e f
+For physical reasons, we may want to further restrict this isotropy group by
+demanding that, once a co-frame eα (α = 1, 2, 3) (that is, 3 linearly independent covectors) has been chosen, the volume form e1 ∧ e2 ∧ e3 must be
+preserved. The implication of this additional condition is that the determinant of the matrix [k] must be equal to 1.
+According to the notion of a G-structure defined by a tensor, as described
+in Section 4.2, we conclude that the geometric G-structure generated by our
+differential form consists of the given basis (e1 = ω, e2, e3 ) and all the bases
+14
+
+obtained from it via the right action of the isotropy group just described.
+
+5.2
+
+A constitutive model
+
+The constitutive response of a hyperelastic material can be completely characterized by a single scalar function ψ of the deformation gradient F. The
+principle of material frame indifference requires that this dependence be mediated exclusively by the (symmetric) right Cauchy-Green tensor C = FT F.
+Clearly, for this definition to make sense, the Euclidean metric is presupposed. Be that as it may, in the constitutive approach we are at freedom to
+choose any function ψ = ψ(C) that can, in principle, be determined from
+macroscopic experiments in a laboratory, without any need to invoke microstructural considerations or microscopic observations.
+Accordingly, we can imagine an experimental setup, perhaps in a biomaterials laboratory, capable of carrying out accurate measurements with soft
+materials. The sample would be aligned with a machine-related Cartesian
+coordinate system and then subjected to arbitrary values of the CauchyGreen tensor with Cartesian components CIJ measured with respect to the
+unloaded reference configuration. Suppose that the execution of many experiments on the given sample leads to the following reasonably accurate
+formula for the free energy ψ as a function of two scalar variables
+ψ = ψ(r, d),
+
+(8)
+
+2
+.
+r = C22 C33 − C23 C32 = C22 C33 − C23
+
+(9)
+
+where d = det C, and where
+
+An arbitrary function of these variables has precisely the material symmetries given by Equation (7), with the additional condition that det[k] = 1.
+Therefore, the material G-structure of a uniform body modeled after the
+archetypal constitutive equation (8) is precisely a reduction of the frame bundle F B to this subgroup of GL(3; R). Consequently, the material G-structure
+coincides with the geometric G-structure.
+
+6
+
+Final thoughts
+
+A shrewd inspection of the constitutive equation (8) would reveal that the
+independent variable r can be regarded as the square of the magnitude of
+15
+
+the cross product of the deformed images of two initially orthonormal vectors
+aligned with the referential coordinate axes X 2 and X 3 . It would appear,
+therefore, that there has been a certain amount of borrowing of information
+from the microscopic level. This may well have been the case, historically
+speaking. Nevertheless, we have already witnessed other historical instances
+when the process was actually reversed. Think, for example, of the atomic
+theory, not so much the one that grew spontaneously out of the unique
+genius of the ancient Greek mind, but that which arose out of observations
+at the macroscopic level of chemical experiments by John Dalton (1766-1844)
+and Amedeo Avogadro (1776-1856). Atoms had to be invented before they
+could be observed more directly, two or three generations after the pioneers.
+A similar historical phenomenon occurred when Max Planck (1858-1947)
+reluctantly posited the quantized nature of electromagnetic radiation.
+Within the more mundane framework of these notes, we may venture to
+say that, if a constitutive equation such as (8) had been available at the
+early stages of the discovery of liquid crystals, one would have been led to
+suspect that there are preferred planes of some sort at the microscopic level,
+as it turned out to be the case for smectics.6 What seems to be remarkable
+is that at least some of the detailed geometric information that is made
+available at the microscopic level is somehow encapsulated in the macroscopic
+(phenomenological) constitutive equation. The theory of G-structures is the
+common differential geometric apparatus that harmonizes the two paradigms
+with each other.
+
+References
+[1] Bunge M A (1998), Philosophy of Science, Transaction Publishers, New
+Brunswick, New Jersey.
+[2] Chandrasekhar S (1992), Liquid crystals, 2nd. edition, Cambridge University Press.
+6
+
+The interrelation between scientific levels of discourse and its implications for the
+question of scientific explanation have been considered at length by the noted Canadian
+philosopher of science Mario Bunge [1]. Bunge distinguishes between subsumptive (or
+phenomenological) and interpretive explanations, the latter involving a deeper analysis at
+more basic levels of reality than the level to which the explanation belongs. With scholastic
+irony, Bunge calls the former ‘explicatio obscurum per obscurius’.
+
+16
+
+[3] Chen BG, Alexander GP and Kamien RD (2009), Symmetry breaking in
+smectics and surface models of their singularities, Proc. Nat. Acad. Sci.
+USA 106/37, 15577-15582.
+[4] Elżanowski M, Epstein M and Śniatycki J (1990), G-structures and material homogeneity, J of Elasticity 23, 167-180.
+[5] Fujimoto A (1972), Theory of G-structures, English edition, Publications
+of the Study Group of Geometry, Vol. 1.
+[6] Kupferman R and Maor C (2015), The emergence of torsion in the continnum limit of distributed dislocations, J Geom Mech 7, 361-387.
+[7] Marı́n D and de León M (2004), Classification of material G-structures,
+Mediterranean J of Mathematics 1, 375-416.
+[8] Misner W, Thorne K S and Wheeler J A (1973), Gravitation, Freeman,
+San Francisco.
+[9] Noll W (1967), Materially Uniform Bodies with Inhomogeneities, Archive
+for Rational Mechanics and Analysis 27, 1-32.
+[10] Steenrod N (1951), The topology of fiber bundles, Princeton University
+Press.
+[11] Sternberg S (1983), Lectures on Differential Geometry, 2nd edition,
+Chelsea Publishing, New York.
+[12] Wang C-C (1967), On the Geometric Structure of Simple Bodies, a
+Mathematical Foundation for the Theory of Continuous Distributions of
+Dislocations, Archive for Rational Mechanics and Analysis 27, 33-94.
+
+17
+
+

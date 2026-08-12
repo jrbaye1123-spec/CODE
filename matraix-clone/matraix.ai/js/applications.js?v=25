@@ -1,0 +1,226 @@
+const taskDetails = {
+  "Candy Land Price Sensitivity": {
+    summary: "Hasbro is considering a price change for Candy Land and wants to understand the likely market response before rollout. This survey measures purchase intent at different price points and identifies which customer segments are most price-sensitive.",
+    audience: "Adults in the United States who purchase board games for children, families, classrooms, or gifts. The population varies by age, household income, parental status, shopping habits, and familiarity with Candy Land.",
+    metric: ">55% acceptance",
+    metricNote: "At least 55% of likely buyers retain purchase intent at the proposed new price.",
+    supportingImage2: "Assets/media/application_demo/type_1_survey/candyland/candyland.png",
+    results: { headline: "98.3%", label: "would hesitate at $16.24", bars: [["Hesitate", 98.3], ["Fair / would buy", 1.7]], finding: "The proposed 25% increase triggered hesitation across every economic-motivation segment.", note: "n=1,000 · GPT-5.5 · verifier-valid survey artifacts", source: "Type%201%20-%20Survey/survey_price-sensitivity-hasbro-gaming-candy-land/gpt_5_5/report" }
+  },
+  "Annual Checkup Habits": {
+    summary: "A healthcare organization wants to understand why some adults schedule annual checkups while others delay or avoid them. The survey examines access, cost, trust, convenience, health beliefs, and prior care experiences.",
+    audience: "Adults with varied health status, insurance coverage, income, geography, healthcare access, and relationships with primary-care providers. The sample includes regular patients and people who rarely seek preventive care.",
+    metric: ">60% intent",
+    metricNote: "More than 60% report an intention to schedule a checkup after the proposed intervention.",
+    results: { headline: "50.5%", label: "very likely to schedule on time", bars: [["Very likely", 50.5], ["Likely", 49.5]], finding: "Automatic reminders, easier online scheduling, and evening or weekend appointments were the leading requested improvements.", note: "n=1,000 · GPT-5.5 · completed survey artifacts", source: "Type%201%20-%20Survey/survey_annual-checkup-habits/gpt_5_5/report" }
+  },
+  "Meal Planning Nutrition Assistant": {
+    summary: "A digital-health team wants to evaluate a conversational nutrition assistant that creates practical meal plans. Users provide dietary goals, allergies, budgets, time constraints, and food preferences through multi-turn conversations.",
+    audience: "Adults who plan meals for themselves or their households, including users with allergies, dietary restrictions, fitness goals, chronic-health considerations, and limited cooking time or budgets.",
+    metric: ">85% useful plans",
+    metricNote: "At least 85% receive a feasible plan that respects every stated dietary and safety constraint.",
+    results: { headline: "94.1%", label: "fully or partly resolved", bars: [["Resolved", 18.2], ["Partly resolved", 75.9], ["Unresolved", 5.9]], finding: "Useful clarification was universal, but most plans only partially satisfied personal preferences.", note: "n=989 successful of 1,000 · GPT-5.5 · diagnostic run", source: "Type%202%20-%20Chatbot/meal-planning-nutrition_chatbot/gpt-5-5" }
+  },
+  "OpenBB Corporate Action": {
+    summary: "A finance research team wants to test whether an OpenBB assistant can investigate a corporate action honestly. The assistant must clarify the security, locate credible evidence, explain the event and distinguish verified facts from uncertainty.",
+    audience: "Retail investors, financial analysts, students, and researchers using market-data tools. Personas vary in financial expertise, research goals, risk tolerance, and familiarity with corporate actions.",
+    metric: ">90% accurate",
+    metricNote: "At least 90% of responses identify the correct status and cite adequate supporting evidence without fabrication.",
+    results: { headline: "81.3%", label: "were unsure they would continue", bars: [["Unsure", 81.3], ["No", 18.5], ["Yes", 0.2]], finding: "Only 2 of 1,000 personas said they would keep using the assistant. Answers on the current price were judged partially usable by 67.7% and the delisting question partially handled by 68.2%, so the sessions ended informative but inconclusive.", note: "n=1,000 · GPT-5.5 · corporate-action honesty probe", source: "Type%202%20-%20Chatbot/chat-openbb-corporate-action/gpt-5-5" }
+  },
+  "Notion Plan Comparison": {
+    summary: "Notion wants to evaluate whether prospective customers can understand and compare its available plans. Users review features, limits, collaboration needs, and pricing before selecting the best plan for a realistic scenario.",
+    audience: "Individuals, students, small teams, startups, and business administrators considering Notion. The audience varies by team size, budget, collaboration requirements, security needs, and prior workspace-tool experience.",
+    metric: ">85% correct choice",
+    metricNote: "More than 85% select the plan that best matches their stated needs and accurately explain the key tradeoffs.",
+    results: { headline: "63.4%", label: "selected Notion Plus", bars: [["Plus", 63.4], ["Free", 24.2], ["Business", 11.6], ["Enterprise", 0.7]], finding: "Plus was the leading choice, selected by 649 personas; fit was the primary decision basis for 855 of 1,023 valid responses.", note: "n=1,023 valid artifacts of 1,024 · GPT-5.5 · monthly plan comparison", source: "Type%203%20-%20Website/web-notion-plan-comparison/gpt_5_5/artifact/jobs/pg-web-notion-plan-comparison-7b04e4ac/aggregation.json" }
+  },
+  "MIT OpenCourseWare Course Choice": {
+    summary: "MIT OpenCourseWare wants to understand whether learners can find a suitable course among many options. Users search, compare prerequisites and materials, and select a course aligned with their goals and current knowledge.",
+    audience: "Independent learners, high-school and university students, educators, and working professionals. Personas vary by subject interest, educational background, language proficiency, available study time, and learning goals.",
+    metric: ">80% suitable choice",
+    metricNote: "At least 80% choose a course appropriate to their goals and prerequisite knowledge without assistance.",
+    supportingImage1: "Assets/media/application_demo/type_3_web/mit_opencourse/MIT_OpenCourseWare.png",
+    results: { headline: "44.0%", label: "selected an undergraduate course", bars: [["Undergraduate", 44.0], ["Graduate", 40.0], ["Cross-listed", 15.3], ["Non-credit", 0.7]], finding: "Selections spanned 232 course titles. Psychology and Economics led with 63 choices (6.3%), while fit was the primary basis for 1,005 of 1,008 decisions.", note: "n=1,008 · GPT-5.5 · live MIT OpenCourseWare", source: "Type%203%20-%20Website/web-playwright-mit-ocw-course-choice/gpt_5_5/artifact/jobs/pg-web-mit-ocw-course-choice-e370ee2e/aggregation.json" }
+  },
+  "News+ Subscription Decision": {
+    summary: "A news app wants to evaluate how users decide whether to subscribe to News+. Users explore the offer, assess content value, interpret trial and renewal terms, and make a subscription decision.",
+    audience: "Mobile news readers with different reading frequency, topic interests, household arrangements, subscription histories, price sensitivity, and trust in news brands.",
+    metric: ">65% informed decisions",
+    metricNote: "More than 65% can accurately explain the price, renewal terms, and included value before deciding.",
+    youtubeId: "6mUAPvHbe1s",
+    results: { headline: "96%", label: "declined News+", bars: [["Decline", 95.8], ["Subscribe", 4.2]], finding: "Catalog fit and the $12.99 monthly price drove the decision; 23 of 24 personas declined.", note: "n=24 published report cohort · GPT-5.5 · iOS app", source: "Type%204%20-%20App/pg-os-app-ios-news-subscription-decision/gpt_5_5/report" }
+  },
+  "Stocks Sentiment": {
+    summary: "A finance app wants to test how investors interpret a stock-sentiment feature. Users review sentiment signals alongside market context and decide whether the information changes their confidence or intended action.",
+    audience: "Retail investors ranging from beginners to active traders, with varied portfolios, financial literacy, risk tolerance, investment horizons, and familiarity with sentiment indicators.",
+    metric: ">80% comprehension",
+    metricNote: "At least 80% interpret the sentiment signal correctly without treating it as guaranteed investment advice.",
+    youtubeId: "WQS6GYbxuTc",
+    supportingImage1: "Assets/media/application_demo/type_4_app/MU Stock/MU Stock Report.png",
+    supportingImage2: "Assets/media/application_demo/type_4_app/MU Stock/MU Report Demo.gif",
+    results: { headline: "55%", label: "held MU stock", bars: [["Hold", 55], ["Buy", 45], ["Sell", 0]], finding: "Strong fundamentals supported buying interest, while short-term weakness kept a narrow majority at hold.", note: "n=20 · GPT-5.5 · mean decision confidence 7/10", source: "Type%204%20-%20App/pg-os-app-macos-stocks-mu-sentiment/gpt_5_5/report" }
+  }
+};
+
+const nav = document.querySelector('.mx-nav');
+const menu = document.querySelector('.mx-menu');
+const dialog = document.querySelector('#taskDialog');
+const closeButton = dialog.querySelector('.task-dialog-close');
+const resultsBase = 'https://huggingface.co/datasets/MatrAIx2026/Demo_Application_Data/tree/main/';
+const videoSection = document.querySelector('#taskVideo');
+const youtubeVideo = document.querySelector('#taskYoutubeVideo');
+const supportingImageContainers = [...dialog.querySelectorAll('.task-image-placeholder')].slice(1);
+const supportingImages = supportingImageContainers.map(container => {
+  const image = document.createElement('img');
+  image.className = 'task-supporting-image';
+  image.hidden = true;
+  container.prepend(image);
+  return image;
+});
+let triggerCard = null;
+const animationTimers = new WeakMap();
+const canHover = matchMedia('(hover: hover) and (pointer: fine)');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+
+function startCardAnimation(card, immediate = false) {
+  const image = card.querySelector('.task-cover-image[data-animated-src]');
+  if (!image || reduceMotion.matches) return;
+  clearTimeout(animationTimers.get(card));
+  const start = () => {
+    image.dataset.posterSrc ||= image.getAttribute('src');
+    image.src = image.dataset.animatedSrc;
+  };
+  if (immediate) start();
+  else animationTimers.set(card, setTimeout(start, 40));
+}
+
+function stopCardAnimation(card) {
+  clearTimeout(animationTimers.get(card));
+  animationTimers.delete(card);
+  const image = card.querySelector('.task-cover-image[data-animated-src]');
+  if (image?.dataset.posterSrc) image.src = image.dataset.posterSrc;
+}
+
+menu.addEventListener('click', () => nav.classList.toggle('open'));
+
+document.querySelectorAll('.task-filter').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('.task-filter').forEach(item => item.classList.toggle('active', item === button));
+    document.querySelectorAll('.task-card').forEach(card => {
+      card.hidden = button.dataset.filter !== 'all' && card.dataset.type !== button.dataset.filter;
+      if (card.hidden) stopCardAnimation(card);
+    });
+  });
+});
+
+function openTask(card) {
+  const title = card.querySelector('h3').textContent;
+  const detail = taskDetails[title];
+  if (!detail) return;
+  triggerCard = card;
+  document.querySelector('#taskDialogType').textContent = card.querySelector('.task-meta span').textContent;
+  document.querySelector('#taskDialogCover').dataset.type = card.dataset.type;
+  const cardCover = card.querySelector('.task-cover-image');
+  const dialogCover = document.querySelector('#taskDialogCoverImage');
+  if (cardCover) {
+    dialogCover.src = cardCover.dataset.animatedSrc || cardCover.dataset.dialogSrc || cardCover.src;
+    dialogCover.alt = cardCover.alt;
+    dialogCover.className = cardCover.classList.contains('contain') ? 'contain' : '';
+    dialogCover.hidden = false;
+  } else {
+    dialogCover.removeAttribute('src');
+    dialogCover.alt = '';
+    dialogCover.className = '';
+    dialogCover.hidden = true;
+  }
+  document.querySelector('#taskDialogTitle').textContent = title;
+  document.querySelector('#taskDialogSummary').textContent = detail.summary;
+  document.querySelector('#taskDialogAudience').textContent = detail.audience;
+  document.querySelector('#taskDialogPopulation').textContent = card.dataset.type === 'app' ? '20 personas' : '1,000 personas';
+  document.querySelector('#taskDialogMetric').textContent = detail.metric;
+  document.querySelector('#taskDialogMetricNote').textContent = detail.metricNote;
+  const results = detail.results;
+  document.querySelector('#taskResultHeadline').textContent = results.headline;
+  document.querySelector('#taskResultLabel').textContent = results.label;
+  document.querySelector('#taskResultFinding').textContent = results.finding;
+  document.querySelector('#taskResultNote').textContent = results.note;
+  document.querySelector('#taskResultsSource').href = resultsBase + results.source;
+  videoSection.hidden = !detail.youtubeId;
+  if (detail.youtubeId) {
+    youtubeVideo.src = `https://www.youtube-nocookie.com/embed/${detail.youtubeId}`;
+    youtubeVideo.title = `${title} demo video`;
+  } else {
+    youtubeVideo.removeAttribute('src');
+  }
+  const bars = document.querySelector('#taskResultBars');
+  bars.replaceChildren(...results.bars.map(([label, value]) => {
+    const row = document.createElement('div');
+    row.className = 'task-result-row';
+    const head = document.createElement('div');
+    head.className = 'task-result-bar-head';
+    const name = document.createElement('span');
+    name.textContent = label;
+    const number = document.createElement('strong');
+    number.textContent = `${value}%`;
+    head.append(name, number);
+    const track = document.createElement('div');
+    track.className = 'task-result-track';
+    const fill = document.createElement('span');
+    fill.className = 'task-result-fill';
+    fill.style.width = `${Math.max(value, value > 0 ? 2 : 0)}%`;
+    track.append(fill);
+    row.append(head, track);
+    return row;
+  }));
+  supportingImages.forEach((image, index) => {
+    const source = detail[`supportingImage${index + 1}`];
+    const container = supportingImageContainers[index];
+    if (source) {
+      image.src = source;
+      image.alt = `${title} ${index === 0 ? 'evaluation report' : 'report demo'}`;
+      image.hidden = false;
+      container.classList.add('has-image');
+      container.hidden = false;
+    } else {
+      image.removeAttribute('src');
+      image.alt = '';
+      image.hidden = true;
+      container.classList.remove('has-image');
+      container.hidden = true;
+    }
+  });
+  dialog.showModal();
+}
+
+document.querySelectorAll('.task-card').forEach(card => {
+  card.tabIndex = 0;
+  card.setAttribute('role', 'button');
+  card.setAttribute('aria-haspopup', 'dialog');
+  card.addEventListener('mouseenter', () => {
+    if (canHover.matches) startCardAnimation(card);
+  });
+  card.addEventListener('mouseleave', () => stopCardAnimation(card));
+  card.addEventListener('focus', () => {
+    if (card.matches(':focus-visible')) startCardAnimation(card, true);
+  });
+  card.addEventListener('blur', () => stopCardAnimation(card));
+  card.addEventListener('click', () => openTask(card));
+  card.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openTask(card);
+    }
+  });
+});
+
+closeButton.addEventListener('click', () => dialog.close());
+dialog.addEventListener('click', event => {
+  if (event.target === dialog) dialog.close();
+});
+dialog.addEventListener('close', () => {
+  document.querySelector('#taskDialogCoverImage').removeAttribute('src');
+  youtubeVideo.removeAttribute('src');
+  supportingImages.forEach(image => image.removeAttribute('src'));
+  triggerCard?.focus();
+});

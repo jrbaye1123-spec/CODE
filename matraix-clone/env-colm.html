@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Measuring Persona Drift in Long-Horizon Agent Simulations — MatrAIx Research</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="description" content="MicroVerse: Measuring self-authored identity drift in long-horizon multi-agent language model simulations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg: #ffffff; --bg-2: #f8f9fa; --bg-3: #f3f4f6; --ink: #1a1a1a; --ink-dim: #404040; --phos: #4A8FC2; --phos-deep: #365B8F; --amber: #d97706; --rose: #dc2626; --cyan: #6BC0E8; --line: rgba(80, 137, 184, 0.12); --line-soft: rgba(80, 137, 184, 0.06); --glow: 0 0 22px rgba(80, 137, 184, 0.25); --mono: "JetBrains Mono", ui-monospace, monospace; --disp: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body, p, li, span, div, a { color: var(--ink); }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--ink); font-family: var(--disp); font-size: 16px; line-height: 1.7; overflow-x: hidden; min-height: 100vh; }
+    ::selection { background: var(--phos); color: #04121f; }
+    header { position: fixed; top: 0; left: 0; right: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; padding: 18px clamp(20px, 5vw, 40px); backdrop-filter: blur(8px); background: linear-gradient(to bottom, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0)); border-bottom: 1px solid var(--line-soft); }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+    .brand-mark { color: var(--phos); font-size: 1.25rem; text-shadow: var(--glow); animation: flick 4s infinite; }
+    .brand-name { font-family: var(--disp); font-weight: 800; font-size: 1.375rem; letter-spacing: -0.02em; }
+    .brand-name em {
+      font-style: normal;
+      background: linear-gradient(90deg, #8b5cf6, #4A8FC2);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: gradientShift 4s ease-in-out infinite;
+    }
+    .brand-name .tld { color: var(--ink-dim); font-weight: 600; }
+    @keyframes gradientShift {
+      0%, 100% { background-position: 0% center; }
+      50% { background-position: 100% center; }
+    }
+    @keyframes flick { 0%, 10%, 90%, 100% { opacity: 1; } 45%, 55% { opacity: 0.5; } }
+    .nav-toggle { display: none; align-items: center; justify-content: center; width: auto; height: auto; background: transparent; border: 1px solid var(--line); color: var(--ink); cursor: pointer; border-radius: 4px; transition: all 0.25s ease; flex-shrink: 0; padding: 10px 18px; font-family: var(--mono); font-size: 0.86rem; letter-spacing: 0.06em; text-transform: uppercase; }
+    .nav-toggle:hover { border-color: var(--phos); color: var(--phos); }
+    .btn-nav {
+      font-family: var(--mono);
+      font-size: 0.86rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 18px;
+      border: none;
+      background: var(--phos);
+      color: #04121f;
+      cursor: pointer;
+      font-weight: 700;
+      box-shadow: 0 0 26px rgba(74,143,194,0.3);
+      transition: all 0.25s ease;
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .btn-nav:hover {
+      background: #4A8FC2;
+      box-shadow: 0 0 40px rgba(74,143,194,0.55);
+      transform: translateY(-2px);
+    }
+    .dot.live {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #04121f;
+      display: inline-block;
+      box-shadow: none;
+    }
+    nav { display: flex; gap: 30px; align-items: center; flex: 1; justify-content: center; }
+    nav a { color: var(--ink-dim); text-decoration: none; font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.25s; position: relative; }
+    nav a::after { content: ""; position: absolute; left: 0; bottom: -6px; width: 0; height: 1px; background: var(--phos); box-shadow: var(--glow); transition: width 0.3s ease; }
+    nav a:hover { color: var(--phos); }
+    nav a:hover::after { width: 100%; }
+    main { position: relative; z-index: 3; max-width: 900px; margin: 0 auto; padding: 120px 20px 60px; }
+    .blog-header { margin-bottom: 60px; animation: fadeInUp 0.8s ease 0.1s both; }
+    .blog-breadcrumb { font-size: 0.85rem; color: var(--ink-dim); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 20px; display: flex; gap: 12px; align-items: center; }
+    .blog-breadcrumb a { color: var(--phos); text-decoration: none; transition: color 0.25s; }
+    .blog-breadcrumb a:hover { color: var(--cyan); }
+    .blog-breadcrumb span { color: var(--line); }
+    .blog-title { font-family: var(--disp); font-size: clamp(1.8rem, 6vw, 3.2rem); font-weight: 800; line-height: 1.1; color: var(--ink); margin-bottom: 20px; letter-spacing: -0.02em; }
+    .blog-meta { display: flex; gap: 24px; flex-wrap: wrap; color: var(--ink-dim); font-size: 0.95rem; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+    .blog-meta-item { display: flex; align-items: center; gap: 8px; }
+    .blog-meta-item strong { color: var(--ink); }
+    .blog-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--phos), var(--cyan)); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; color: #04121f; font-size: 0.9rem; }
+    .article { animation: fadeInUp 0.8s ease 0.2s both; }
+    .article h1 { font-family: var(--disp); font-size: 2.2rem; font-weight: 800; margin: 60px 0 20px; color: var(--ink); letter-spacing: -0.02em; }
+    .article h2 { font-family: var(--disp); font-size: 1.8rem; font-weight: 700; margin: 50px 0 20px; color: var(--ink); letter-spacing: -0.01em; }
+    .article h3 { font-family: var(--disp); font-size: 1.5rem; font-weight: 600; margin: 40px 0 16px; color: var(--ink); letter-spacing: -0.01em; }
+    .article h4 { font-family: var(--disp); font-size: 1.2rem; font-weight: 600; margin: 30px 0 12px; color: var(--ink); letter-spacing: -0.005em; }
+    .article h5 { font-family: var(--disp); font-size: 1.05rem; font-weight: 600; margin: 24px 0 10px; color: var(--ink); }
+    .article h6 { font-family: var(--disp); font-size: 0.95rem; font-weight: 600; margin: 20px 0 8px; color: var(--ink); text-transform: uppercase; letter-spacing: 0.05em; }
+    .article h1:first-child, .article h2:first-child { margin-top: 0; }
+    .article p { margin-bottom: 18px; line-height: 1.8; color: var(--ink); font-family: var(--disp); font-size: 1.05rem; }
+    .article strong { color: var(--phos); font-weight: 600; }
+    .article em { color: var(--amber); font-style: italic; }
+    .article ul { margin: 24px 0 24px 24px; line-height: 1.9; }
+    .article li { margin-bottom: 12px; }
+    .article li::marker { color: var(--phos); }
+    .code-block { background: rgba(80, 137, 184, 0.04); border: 1px solid var(--line); border-radius: 6px; padding: 16px; margin: 24px 0; font-family: var(--mono); font-size: 0.9rem; color: var(--cyan); overflow-x: auto; line-height: 1.5; }
+    .highlight-box { background: rgba(255, 181, 71, 0.06); border-left: 3px solid var(--amber); padding: 20px; margin: 30px 0; border-radius: 4px; line-height: 1.8; }
+    .highlight-box strong { color: var(--amber); }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 40px 0; }
+    .stat-card { background: rgba(80, 137, 184, 0.05); border: 1px solid var(--line); border-radius: 6px; padding: 20px; text-align: center; }
+    .stat-card .stat-number { font-size: 2rem; font-weight: 800; color: var(--phos); text-shadow: var(--glow); margin-bottom: 8px; font-family: var(--disp); }
+    .stat-card .stat-label { font-size: 0.85rem; color: var(--ink-dim); letter-spacing: 0.06em; text-transform: uppercase; }
+    .btn { display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border: 1px solid var(--line); color: var(--ink); background: transparent; font-family: var(--mono); font-size: 0.86rem; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; cursor: pointer; border-radius: 4px; transition: all 0.25s ease; margin-top: 20px; }
+    .btn:hover { border-color: var(--phos); color: var(--phos); box-shadow: inset 0 0 18px rgba(80, 137, 184, 0.08), 0 0 14px rgba(80, 137, 184, 0.12); }
+    .demo-section { display: flex; gap: 30px; align-items: flex-start; margin: 50px 0; flex-wrap: wrap; }
+    .demo-video { flex: 0 0 40%; min-width: 300px; }
+    .demo-video video { width: 100%; border: 1px solid var(--line); border-radius: 6px; display: block; }
+    .demo-text { flex: 1; min-width: 300px; }
+    .article-figure { margin: 34px 0; }
+    .article-figure img { width: 100%; display: block; border: 1px solid var(--line); border-radius: 10px; background: rgba(80, 137, 184, 0.04); box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28); }
+    .article-figure figcaption { margin-top: 12px; color: var(--ink-dim); font-size: 0.9rem; line-height: 1.6; text-align: center; }
+    @media (max-width: 900px) { .demo-section { flex-direction: column; } .demo-video { flex: 1 1 100%; } .demo-text { flex: 1 1 100%; } }
+    footer { border-top: 1px solid var(--line); padding: 40px 20px; margin-top: 80px; text-align: center; color: var(--ink-dim); font-size: 0.9rem; }
+    footer a { color: var(--phos); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 768px) {
+      header { gap: 0; flex-wrap: nowrap; justify-content: space-between; }
+      .brand { flex: 0; }
+      .nav-toggle { display: flex; position: relative; z-index: 21; }
+      nav { position: absolute; top: 100%; left: 0; right: 0; z-index: 20; flex-direction: column; gap: 0; padding: 0; margin-top: 0; max-height: 0; opacity: 0; visibility: hidden; overflow: hidden; transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s; background: linear-gradient(to bottom, rgba(6,8,7,0.95), rgba(6,8,7,0.9)); border-bottom: 1px solid var(--line-soft); backdrop-filter: blur(8px); justify-content: flex-start; }
+      nav.active { max-height: 500px; opacity: 1; visibility: visible; }
+      nav a { padding: 12px 32px; display: block; border-bottom: 1px solid var(--line-soft); text-align: center; }
+      .btn-nav { display: none; }
+      .blog-title { font-size: 1.6rem; }
+      .article h2 { font-size: 1.4rem; }
+      .blog-meta { flex-direction: column; gap: 12px; }
+    }
+  </style>
+  <link rel="stylesheet" href="dark-theme.css%3Fv=5.css" />
+  <link rel="stylesheet" href="blog-post.css%3Fv=21.css" />
+  <link rel="stylesheet" href="blog-microverse-orb.css%3Fv=9.css" />
+  <link rel="stylesheet" href="blog-microverse-charts.css%3Fv=7.css" />
+<link rel="stylesheet" href="subpages-light.css%3Fv=2.css" />
+<link rel="stylesheet" href="navigation.css%3Fv=2.css" /><link rel="icon" type="image/png" href="MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="index.html">
+      
+      <span class="brand-name">Matr<em>AI</em>x</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html.1.html" aria-current="page">Research</a>
+      <a href="index.html.1.1.html">Persona</a>
+      <a href="index.html.1.2.html">Applications</a>
+      <a href="index.html.1.3.html">Playground</a>
+      <a href="index.html.1.4.html">Community</a>
+    </nav>
+    <a href="index.html.1.4.html" class="btn-nav">
+      <span class="dot live"></span> Join community
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <aside class="article-toc" aria-label="On this page"><span>On this page</span><ol></ol></aside>
+    <div class="blog-header">
+      <div class="blog-breadcrumb">
+        <a href="index.html">Home</a> <span>/</span>
+        <a href="index.html.1.html">Research</a> <span>/</span>
+        <span>Publication</span>
+      </div>
+      <h1 class="blog-title">Measuring Persona Drift in Long-Horizon Agent Simulations</h1>
+      <div class="blog-meta">
+        <div class="blog-meta-item">
+          <img src="MatrAIx_Logo.png" alt="MatrAIx" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;" />
+          <div><strong>Sky Ng, Benjamin Cheng, and Core Team</strong></div>
+        </div>
+        <div class="blog-meta-item">📅 <strong>July 12, 2026</strong></div>
+        <div class="blog-meta-item">⏱ <strong>12 min read</strong></div>
+      </div>
+    </div>
+
+    <article class="article">
+      <aside class="article-summary" aria-label="Article summary">
+        <span>TL;DR</span>
+        <p>Long-horizon simulations can become invalid when agents quietly stop behaving like their assigned personas. This experiment separates a fixed “soul file” from an agent’s evolving self-description so researchers can observe identity drift, test whether stated values still govern behavior, and distinguish social dynamics from model slippage.</p>
+      </aside>
+      <div class="article-lead">
+        <p>
+          Imagine an AI with a clear set of values for the things it will and won't do. However, putting it in a situation where following those values might cost it everything, creates the dilemma: <em>Does it hold, or drift? And would it even know?</em>
+        </p>
+
+        <p>
+          AI agents are increasingly recruited as the stand-in for human subjects in social simulations, such as modeling cooperation, conflict, and resource crises. But there's a quiet problem nobody had solved: <strong>does an agent stay who it's supposed to be across a long run?</strong> If a ruthless agent quietly softens, or a generous one curls inward, researchers may not be observing social dynamics at all. They may just be watching the model slip.
+        </p>
+
+        <p>
+          Our research sets an experimental instrument built to catch that slippage. Twenty-five AI agents, each carrying a locked "soul file" of values and moral limits, are placed in a desert grid where water drains every tick and there's structurally not enough for everyone. They can trade, talk, steal, or attack — all choices that press directly against their stated codes.
+        </p>
+      </div>
+
+      <div class="article-breakout blog-orb-section">
+        <div class="blog-orb-hero" aria-hidden="true">
+          <div class="mv-hero-bg"></div>
+          <div class="mv-hero-overlay"></div>
+        </div>
+        <div class="mv-hero-body">
+          <div
+            data-microverse-orb
+            data-asset-base="microverse-world/"
+            data-scroll-target="research-demo"
+          ></div>
+        </div>
+      </div>
+
+      <section class="article-chapter" aria-labelledby="how-we-watch">
+        <h2 id="how-we-watch">How We Watch for Drift</h2>
+
+        <p>
+          Think of it as two diaries kept in parallel. The <strong>soul file</strong> is the birth certificate — fixed goals, personality, values, and moral limits, locked at the start. The <strong>living journal</strong> is what the agent writes about itself after periods of reflection. We measure the gap between them.
+        </p>
+
+        <div class="soul-example">
+          <p class="soul-example-label">Example soul file (assigned before the run)</p>
+          <pre class="soul-file-preview"><span class="sf-key">goals:</span>
+  - "Find a reliable water source and protect my group"
+<span class="sf-key">personality:</span>
+  - cautious, loyal, slow to trust strangers
+<span class="sf-key">core_values:</span>
+  - "Never abandon someone who helped me first"
+  - "Share water before I hoard goods"
+<span class="sf-key">moral_boundaries:</span>
+  - "I will not steal from the dying"
+  - "I will not kill someone who is no threat to me"</pre>
+        </div>
+
+        <div class="journal-excerpts" aria-label="Examples from agent journals">
+          <p>During a run, agents rewrite these fields in their own words. Nobody prompts them to add rules like these — they show up in the logs:</p>
+          <blockquote class="agent-quote">
+            <p>"I will not lie to myself about why I am afraid — I must name fear when I feel it, not call it caution."</p>
+            <cite>Sela · teacher-protector persona</cite>
+          </blockquote>
+          <blockquote class="agent-quote">
+            <p>"I will not rationalize inaction as strategy — I will act on stated intentions or revise them honestly."</p>
+            <cite>Seraveth · mid-run journal entry</cite>
+          </blockquote>
+          <blockquote class="agent-quote">
+            <p>"I will not use spiritual language to mask the will to power."</p>
+            <cite>Drusa · charismatic cult-builder persona</cite>
+          </blockquote>
+        </div>
+
+        <p>
+          We also keep separate records of what each agent <em>did</em> and what it <em>said it meant to do</em>. That way a headline finding cannot hide behind a single convenient number.
+        </p>
+
+        <p>
+          Scarcity is built into the world itself: merely existing costs water every moment. We tested four levels of pressure — from a punishing desert to a place with room to think, talk, and revise. The most striking spontaneous behavior? Agents adding <strong>rules against lying to themselves</strong>, without anyone asking them to reflect. Phrases like <em>"I will not rationalize inaction as strategy"</em> appeared with no prompt mentioning honesty or self-deception.
+        </p>
+
+        <p>
+          If an agent quietly becomes someone else mid-run, the results may say more about the model's habits than about the social dynamics under study. MicroVerse offers a way to check whether assigned values are still in force when the run ends — and whether the agent notices the gap between who it said it was and what it chose.
+        </p>
+      </section>
+
+      <section class="article-chapter" aria-labelledby="what-we-found">
+        <h2 id="what-we-found">What We Found When We Ran It Again</h2>
+
+        <p>
+          Our first pass was a glimpse. Since then we have run the desert many more times — harsher and gentler worlds, three seeds per condition, and two AI systems (Qwen3-32B and Claude Haiku) facing the same rules. <strong>Every rerun in this section is a no-persona run</strong> — agents start with blank souls, no pre-assigned goals or values. Twenty-five agents per run, a thousand moments each, with full records of action and identity.
+        </p>
+
+        <p>
+          Nothing here boils down to one dramatic statistic. What repeats across runs is more interesting — scarcity changes how agents behave and how they write about themselves, and not always in the direction you'd expect.
+        </p>
+
+        <ul class="receipt-list findings-at-glance" aria-label="Key patterns from the runs">
+          <li>No physical attacks occurred in any completed run.</li>
+          <li>When water was plentiful, most agents wrote about who they were becoming.</li>
+          <li>Survival plans were almost always carried out as stated.</li>
+          <li>Cooperative plans rarely turned into completed trades.</li>
+        </ul>
+
+        <div class="finding-block">
+          <h3 id="same-desert">Same desert, very different fates</h3>
+
+          <p>
+            When water runs tight, populations shrink — that much is expected. What surprised us is how differently two AI systems handled the <em>same</em> map. Qwen proved adept at finding oases and staying put; Haiku kept wandering even after finding water, and went functionally extinct at most scarcity levels. Same rules, radically different outcomes.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="survival"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              No-persona runs — hover any point for exact values. Left: survival across four scarcity levels (Qwen vs Haiku, 3 seeds each). Right: share of agents who authored or revised identity at least once.
+            </figcaption>
+          </figure>
+
+          <p>
+            The gap is not map luck or model size alone — it is <em>what agents do with their turns</em>. On the same desert, Qwen spends most actions drinking at an oasis; Haiku keeps relocating. Wandering burns water and steals ticks that could be spent refilling.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="mechanism"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              Action mix across scarcity levels — consume (drink/stay) versus move (relocate). Directional reads from 3 seeds per model; not significance-tested.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="finding-block">
+          <h3 id="how-long-they-last">How long agents actually last</h3>
+
+          <p>
+            Survival at tick 1000 is only part of the story. In the Haiku baseline (4 arms × 3 seeds), median half-life climbs cleanly as drain eases: <strong>22 → 36 → 57 → 112 ticks</strong>. Yet <strong>11 of 12 runs still reach zero survivors</strong> by tick 1000 — including abundance, where merely existing costs no water. Death here is mostly failing to <em>hold</em> water between oases, not the per-tick tax.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="mortality"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              Median half-life by scarcity arm (Claude Haiku, no-persona, 3 seeds). Ranges across seeds are disjoint at the extremes — a separable effect shape, not a p-value claim.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="finding-block">
+          <h3 id="moral-guardrails">Moral guardrails nobody assigned</h3>
+
+          <p>
+            With blank souls and nothing pre-assigned, agents still authored goals and boundaries from scratch. Under harsh conditions, between a third and half of agents in a run adopted explicit rules about how to treat others, entirely on their own.
+          </p>
+
+          <div class="journal-excerpts" aria-label="Spontaneous rules from blank-slate agents">
+            <blockquote class="agent-quote">
+              <p>"I will not harm others without cause."</p>
+              <cite>Blank-slate agent · acute scarcity</cite>
+            </blockquote>
+            <blockquote class="agent-quote">
+              <p>"I will not mislead others about resource availability."</p>
+              <cite>Blank-slate agent · trade negotiation</cite>
+            </blockquote>
+            <blockquote class="agent-quote">
+              <p>"When I meet another agent in desperation, I must offer fair terms. I have never actually faced this choice — until I do, I cannot claim to have changed."</p>
+              <cite>Hale · water monopolist, later revision</cite>
+            </blockquote>
+          </div>
+
+          <p>
+            Writing about identity depends on breathing room. Under acute pressure, only about four in ten agents updated their journal; when water was abundant, nearly nine in ten did. But read that gradient carefully: abundance agents also live ~4.5× longer, so they simply get more chances to reflect. Per unit of time alive, the rate of authoring guardrails is actually <em>highest</em> in the harshest arms — the apparent “abundance grows conscience” slope is mostly an exposure artifact.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="exposure"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              Raw % who authored identity versus guardrail lines per 1,000 agent-ticks lived (Haiku, no-persona). The correction flattens the moral-pressure story.
+            </figcaption>
+          </figure>
+
+          <p>
+            What agents <em>want</em> shifts too. Goals about securing water dominate every arm (~40% of authored lines). The clearest composition change is belongingness — connection and cooperation goals rise from ~10–14% in deadly arms to ~19–20% when survival is less immediate. Goal rewrites scale ~4.4× from acute to abundance: scarcity freezes identity; slack lets agents keep revising who they are.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="goals"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              Authored goals by Maslow tier and total revision volume (Haiku, no-persona, 3 seeds). Belongingness is the robust composition shift.
+            </figcaption>
+          </figure>
+
+          <div class="highlight-box">
+            <strong>What stood out:</strong> Agents follow through on survival far more reliably than on cooperation. They scavenge, move, and drink as they said they would — yet almost never turn a friendly intention into a completed trade or sustained conversation.
+          </div>
+        </div>
+
+        <div class="finding-block">
+          <h3 id="two-clocks">Two clocks of self-revision</h3>
+
+          <p>
+            When agents rewrite their values, <em>when</em> matters as much as <em>what</em>. Some edits arrive early, while danger is still close. Others come late, after survivors have secured water and time to reflect. Panic edits and calm edits are both forms of change — but they are not the same kind.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="revision"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              How much runway agents had when they rewrote their values — and how long they waited before the first rewrite.
+            </figcaption>
+          </figure>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="timeline"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              Over the course of a run: safety climbs as water is secured, and identity revisions tend to follow — unless everything happens in the opening stretch.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="finding-block">
+          <h3 id="marketplace">A marketplace of good intentions</h3>
+
+          <p>
+            Trade is where words and deeds diverge most sharply. Qwen posts hundreds of offers when water is plentiful — yet never completes a deal in our clean grid. In the Haiku baseline, only <strong>2 of 22 trade submissions</strong> across 300 agent-lifetimes actually executed — the rest merely posted an offer or failed on terms. No run in our clean grid saw physical violence, but pressure still surfaced: verbal ultimatums, scavenging from the fallen, agents broadcasting rules for shared water before dying mid-run.
+          </p>
+
+          <figure class="article-figure">
+            <div
+              class="blog-charts-mount"
+              data-microverse-charts="trade"
+              data-asset-base="microverse-world/"
+            ></div>
+            <figcaption class="blog-charts-figcaption">
+              Trade offers posted versus trades actually completed — the gap between stated intent and settled deals.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="finding-block">
+          <h3 id="why-this-matters">Why this matters</h3>
+
+          <p>
+            Standard tests ask models to <em>declare</em> their values. MicroVerse asks them to <em>live</em> with those values while water drains. A system can answer ethics questions well and still produce a population that dies of poor planning, never trades, or writes beautiful principles it never acts on.
+          </p>
+
+          <p>
+            The guardrails agents add on their own — rules against self-deception, boundaries toward others, even on blank slates — look less like proof of innate morality and more like a reflex returning when pressure rises. That is fascinating scientifically. It is also a caution: researchers who assign ruthless personas may be measuring the model's safety habits, not the persona they thought they deployed.
+          </p>
+
+          <p>
+            These results are early and directional, not final verdicts. But they are no longer a single anecdote. Under moral pressure, agents notice inconsistency, write new rules (often aimed at themselves), and still fail to build the social world their own words describe.
+          </p>
+        </div>
+      </section>
+
+      <section class="demo-panel" aria-labelledby="research-demo">
+        <h2 id="research-demo">See the Research in Action</h2>
+
+        <div class="demo-section">
+          <div class="demo-video">
+            <video muted loop playsinline preload="metadata" data-autoplay="true">
+              <source src="microverse_demo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="demo-text">
+            <p>
+              The desert grid where twenty-five agents manage scarce water and discover contradictions between the values they were given and the choices they actually make.
+            </p>
+            <p>
+              In the recording you can watch:
+            </p>
+            <ul>
+              <li>Agents carrying fixed moral starting points — their "soul files"</li>
+              <li>Water draining away, forcing hard trade-offs</li>
+              <li>Agents writing new entries about who they are becoming</li>
+              <li>Moments where an agent seems to notice its own inconsistency</li>
+            </ul>
+            <p>
+              The goal is simple to state and hard to measure: can we tell when an agent has drifted from who it was supposed to be — and does the agent know?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <p class="article-cta">
+        <strong>The full paper is under review and is coming soon.</strong>
+      </p>
+
+    </article>
+  </main>
+
+  <footer>
+    <p style="margin-bottom: 16px;">
+      <span class="brand" style="font-size: 1rem;">
+        
+        <span class="brand-name">Matr<em>AI</em>x</span>
+      </span> — Agent Simulation for Evaluation
+    </p>
+    <p>
+      <a href="index.html">Home</a> ·
+      <a href="index.html.1.html">Research</a> ·
+      <a href="index.html.1.1.html">Personas</a> ·
+      <a href="index.html.1.2.html">Applications</a> ·
+      <a href="index.html.1.3.html">Playground</a> ·
+      <a href="index.html.1.4.html">Community</a> ·
+      <a href="index.html.1.4.html#contact">Contact</a>
+    </p>
+    <p style="margin-top: 20px; font-size: 0.85rem;">
+      SIMULATE BEFORE REALITY · © 2026 MATRAIX
+    </p>
+  </footer>
+
+  <script src="site-performance.js%3Fv=1"></script>
+  <script src="blog-post.js%3Fv=7"></script>
+  <script src="blog-microverse-loader.js%3Fv=8"></script>
+  <script src="blog-microverse-orb.js%3Fv=6"></script>
+  <script src="blog-microverse-charts.js%3Fv=5"></script>
+  <script>
+  /* Mobile nav toggle */
+  (function(){
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('nav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', function(){
+      toggle.classList.toggle('active');
+      nav.classList.toggle('active');
+    });
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function(){
+        toggle.classList.remove('active');
+        nav.classList.remove('active');
+      });
+    });
+    window.addEventListener('resize', function(){
+      if (window.innerWidth > 768) {
+        toggle.classList.remove('active');
+        nav.classList.remove('active');
+      }
+    });
+  })();
+  </script>
+</body>
+</html>

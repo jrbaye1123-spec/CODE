@@ -1,0 +1,532 @@
+/* MicroVerse hero orb for matrAIx blog — exact styles from ui/src/index.css */
+
+.blog-orb-section {
+  margin: 40px 0 0;
+}
+
+.article-breakout.blog-orb-section {
+  display: grid;
+}
+
+.blog-orb-caption-wrap {
+  padding: 32px 0 40px;
+  text-align: center;
+}
+
+.blog-orb-caption {
+  max-width: 580px;
+  margin: 0 auto;
+  text-align: center;
+  color: #8b929c;
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+.blog-orb-caption strong {
+  color: #c5dff2;
+  font-weight: 600;
+}
+
+/* Desert-sky hero strip — same context as MicroVerse Overview. */
+.blog-orb-hero {
+  --mv-bg-void: #f4ecdf;
+  --mv-line: rgba(90, 60, 30, 0.14);
+  --mv-gold-bright: #b9762f;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  padding: 0;
+  isolation: isolate;
+}
+
+.blog-orb-hero .mv-hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 50% 40% at 50% 18%, rgba(255,247,222,0.95) 0%, rgba(255,236,190,0.35) 30%, transparent 62%),
+    linear-gradient(180deg, #bcd6e8 0%, #cfe0e4 32%, #ecdcbb 64%, #f4ecdf 100%);
+}
+
+.blog-orb-hero .mv-hero-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 120% 60% at 35% 118%, #e6c896 0%, transparent 60%),
+    radial-gradient(ellipse 130% 55% at 65% 126%, #d9b074 0%, transparent 58%),
+    linear-gradient(180deg, transparent 60%, var(--mv-bg-void) 100%);
+}
+
+.blog-orb-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(90,60,30,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(90,60,30,0.05) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 70% 70% at 50% 45%, #000 0%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 70% at 50% 45%, #000 0%, transparent 80%);
+}
+
+.blog-orb-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--mv-line);
+  z-index: 6;
+}
+
+.mv-hero-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  gap: 0;
+  max-width: 780px;
+  width: 100%;
+}
+
+.blog-orb-hero .mv-orb-hint {
+  color: var(--mv-gold-bright);
+}
+
+/* ── Hero orb — a glass cube with a glowing core projecting a hologram ── */
+.mv-orb-stage {
+  position: relative;
+  width: 300px;
+  max-width: 78vw;
+  height: 300px;
+  margin: 4px 0 26px;
+  perspective: 1000px;
+  perspective-origin: 50% 46%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* opacity-only intro so `transform` stays free for the scale media queries
+     below (fill-mode `both` on a transform keyframe would otherwise pin it) */
+  animation: orb-fade-in 700ms ease both;
+}
+@keyframes orb-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* warm desert glow halo behind the whole rig */
+.mv-orb-stage::before {
+  content: '';
+  position: absolute;
+  inset: -16%;
+  border-radius: 40%;
+  background: radial-gradient(ellipse, rgba(255,206,128,0.5) 0%, rgba(255,180,90,0.12) 44%, transparent 72%);
+  filter: blur(18px);
+  z-index: -2;
+  pointer-events: none;
+  animation: orb-glow-pulse 4.5s ease-in-out infinite;
+}
+@keyframes orb-glow-pulse {
+  0%, 100% { opacity: 0.65; }
+  50%      { opacity: 1; }
+}
+
+/* the spinning transparent glass cube */
+.mv-orb-cube {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  transform-style: preserve-3d;
+  /* transform driven entirely by JS (continuous spin); no CSS transform-anim. */
+  transform: rotateX(-16deg) rotateY(0deg);
+  will-change: transform;
+}
+
+/* one transparent glass pane — faint tinted glass with a bright edge.
+   a diagonal light streak + brighter corner sells thickness; the six faces get
+   slightly different tints below so adjacent faces read as distinct planes. */
+.mv-orb-pane {
+  border-radius: 10px;
+  background:
+    /* moving glare streak, top-left light source */
+    linear-gradient(128deg,
+      rgba(255,248,232,0.22) 0%,
+      rgba(255,224,175,0.06) 30%,
+      rgba(255,205,140,0.02) 55%,
+      rgba(200,130,60,0.10) 100%),
+    /* soft corner glow, lower-right */
+    radial-gradient(circle at 82% 84%, rgba(255,190,110,0.14) 0%, transparent 55%);
+  border: 1px solid rgba(255,214,150,0.55);
+  box-shadow:
+    0 0 14px rgba(255,190,110,0.30),
+    inset 0 0 26px rgba(255,220,170,0.14),
+    inset 0 1px 0 rgba(255,250,235,0.5),          /* top bevel highlight */
+    inset 0 -1px 0 rgba(150,90,40,0.35);          /* bottom bevel shadow */
+  backface-visibility: visible;          /* glass is see-through from both sides */
+  -webkit-backface-visibility: visible;
+}
+/* differential face brightness → the box reads as a 3D volume, not flat squares.
+   front/back brightest, sides mid, top bright, bottom darkest (light from above) */
+.mv-orb-pane:nth-child(1) { filter: brightness(1.08); }             /* front */
+.mv-orb-pane:nth-child(2) { filter: brightness(0.9); }              /* right */
+.mv-orb-pane:nth-child(3) { filter: brightness(0.82); }             /* back  */
+.mv-orb-pane:nth-child(4) { filter: brightness(0.9); }              /* left  */
+.mv-orb-pane:nth-child(5) { filter: brightness(1.18); }             /* top   */
+.mv-orb-pane:nth-child(6) { filter: brightness(0.7); }              /* bottom*/
+
+/* glowing vertex nodes at the cube's 8 glass corners — small energy lights that
+   sell the "containment structure" read, and give the corners somewhere to
+   catch a glint as the cube spins. Pinned via 3D transform (see CORNERS in the
+   component), so no per-frame JS is needed to keep them on the vertices.
+   The pulse animation lives on an INNER span, not this element — an animated
+   `transform` here would replace the inline positioning translate3d entirely
+   (animated properties win over inline styles), collapsing every corner onto
+   the same point at the cube's centre. */
+.mv-orb-vertex {
+  position: absolute;
+  width: 5px; height: 5px;
+}
+.mv-orb-vertex::before {
+  content: '';
+  position: absolute; inset: 0;
+  border-radius: 50%;
+  background: rgba(255,236,200,0.95);
+  box-shadow:
+    0 0 6px rgba(255,206,140,0.9),
+    0 0 14px rgba(255,180,90,0.6);
+  animation: orb-vertex-twinkle 3.2s ease-in-out infinite;
+}
+.mv-orb-vertex[data-hue="teal"]::before {
+  background: rgba(190,240,235,0.95);
+  box-shadow:
+    0 0 6px rgba(120,220,215,0.85),
+    0 0 14px rgba(70,190,190,0.55);
+  animation-duration: 3.8s;
+}
+@keyframes orb-vertex-twinkle {
+  0%, 100% { opacity: 0.45; transform: scale(0.85); }
+  50%      { opacity: 1;    transform: scale(1.15); }
+}
+
+/* the hologram rig (core + beam + screen), counter-rotated in JS to face viewer.
+   sits at the cube centre via top/left 50% + the JS translate(-50%,-50%). */
+.mv-orb-billboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+
+/* the glowing energy bulb suspended at the centre — a lit globe with the live
+   world wrapped over its surface. Circular clip + spherical shading layers turn
+   the flat canvas into something that reads as curving over a sphere. */
+.mv-orb-bulb {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 168px;
+  height: 168px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background: #e9d3aa;
+  box-shadow:
+    0 0 0 1px rgba(255,224,170,0.7),
+    inset 0 0 22px rgba(120,70,20,0.45),
+    0 0 26px rgba(255,190,100,0.6),
+    0 0 60px rgba(255,170,80,0.35);
+  animation: orb-bulb-pulse 2.8s ease-in-out infinite;
+}
+@keyframes orb-bulb-pulse {
+  0%, 100% { filter: brightness(1);    transform: translate(-50%, -50%) scale(1); }
+  50%      { filter: brightness(1.14); transform: translate(-50%, -50%) scale(1.03); }
+}
+
+.mv-orb-world {
+  position: absolute;
+  /* overscan: the canvas is larger than the bulb so the curved edges of the
+     sphere still show world, not a flat cropped border */
+  inset: -22%;
+}
+
+/* spherical shading: bright lit pole + dark terminator, painted OVER the world
+   so the flat demo looks wrapped around a ball. multiply keeps the world's
+   colours but bends light/shadow across it. */
+.mv-orb-curve {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background:
+    /* lit pole, upper-left */
+    radial-gradient(circle at 36% 30%,
+      rgba(255,252,240,0.65) 0%,
+      rgba(255,228,175,0.16) 24%,
+      transparent 46%),
+    /* deep terminator sweeping around the lower-right — stronger falloff for
+       a rounder, more sculpted sphere */
+    radial-gradient(circle at 66% 74%,
+      rgba(50,25,6,0.0) 30%,
+      rgba(50,25,6,0.30) 62%,
+      rgba(40,18,4,0.62) 84%,
+      rgba(28,12,2,0.85) 100%);
+  mix-blend-mode: multiply;
+}
+
+/* curved scanlines that bow across the sphere — sells the "wrapped" look */
+.mv-orb-scan {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255,240,200,0.06) 0px,
+    rgba(255,240,200,0.06) 1px,
+    transparent 1px,
+    transparent 5px);
+  mix-blend-mode: screen;
+  animation: orb-scan-move 6s linear infinite;
+}
+@keyframes orb-scan-move {
+  from { background-position-y: 0; }
+  to   { background-position-y: 40px; }
+}
+
+/* glossy specular highlight on the top-left + fresnel rim on the far edge */
+.mv-orb-shine {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background:
+    /* tight hotspot */
+    radial-gradient(ellipse 26% 18% at 34% 24%, rgba(255,255,255,0.85) 0%, transparent 62%),
+    /* broader soft sheen */
+    radial-gradient(ellipse 46% 34% at 38% 28%, rgba(255,248,235,0.4) 0%, transparent 65%),
+    /* bright rim light hugging the lower-right edge → pops the sphere off the bg */
+    radial-gradient(circle at 62% 70%, transparent 80%, rgba(255,214,150,0.55) 92%, transparent 100%);
+  mix-blend-mode: screen;
+}
+
+/* hotspot lens-flare — dormant until hover, then blooms as if the viewer's
+   attention were focusing the core's light through the bulb like a lens. */
+.mv-orb-flare {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background:
+    radial-gradient(ellipse 20% 14% at 34% 24%, rgba(255,255,255,0.95) 0%, transparent 70%),
+    radial-gradient(circle at 34% 24%, rgba(255,240,210,0.5) 0%, transparent 40%);
+  mix-blend-mode: screen;
+  opacity: 0;
+  transform: scale(0.7);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.mv-orb-stage:hover .mv-orb-flare { opacity: 1; transform: scale(1); }
+
+/* HUD-style containment rings — two tilted, counter-spinning ellipses framing
+   the bulb like a sci-fi containment field. Sit OUTSIDE the bulb's own
+   overflow:hidden circle, as siblings in the billboard so they still face the
+   viewer via the same counter-rotation. */
+.mv-orb-containment {
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 0; height: 0;
+  pointer-events: none;
+}
+.mv-orb-ring {
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 208px; height: 208px;
+  margin: -104px 0 0 -104px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,214,150,0.4);
+  box-shadow: 0 0 10px rgba(255,180,90,0.25), inset 0 0 10px rgba(255,180,90,0.15);
+}
+.mv-orb-ring-a {
+  transform: rotateX(78deg) rotate(0deg);
+  animation: orb-ring-spin-a 9s linear infinite;
+}
+.mv-orb-ring-b {
+  width: 224px; height: 224px;
+  margin: -112px 0 0 -112px;
+  border-color: rgba(150,230,225,0.32);
+  box-shadow: 0 0 10px rgba(70,190,190,0.2), inset 0 0 10px rgba(70,190,190,0.12);
+  transform: rotateX(78deg) rotate(90deg);
+  animation: orb-ring-spin-b 13s linear infinite;
+}
+@keyframes orb-ring-spin-a {
+  from { transform: rotateX(78deg) rotate(0deg); }
+  to   { transform: rotateX(78deg) rotate(360deg); }
+}
+@keyframes orb-ring-spin-b {
+  from { transform: rotateX(78deg) rotate(90deg); }
+  to   { transform: rotateX(78deg) rotate(-270deg); }
+}
+
+/* energy aura — particles orbiting the bulb */
+.mv-orb-particles {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.mv-orb-particle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  /* --p-tint / --p-glow set per hue-family below */
+  --p-tint: rgba(255,224,160,0.95);
+  --p-glow: rgba(255,170,80,0.7);
+  background: var(--p-tint);
+  box-shadow:
+    0 0 6px var(--p-tint),
+    0 0 12px var(--p-glow);
+  /* rotate around the bulb centre; the translate pushes the dot out to its
+     orbit radius, so the spin sweeps it in a circle. starts at --p-angle. */
+  transform: rotate(var(--p-angle)) translateX(var(--p-radius));
+  animation-name: orb-particle-orbit, orb-particle-twinkle;
+  animation-duration: var(--p-dur), 2.2s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-delay: var(--p-delay), 0s;
+  will-change: transform, opacity;
+}
+/* a third of the dots orbit the other way → layered, parallax aura */
+.mv-orb-particle[data-reverse] { animation-name: orb-particle-orbit-rev, orb-particle-twinkle; }
+
+/* colour families */
+.mv-orb-particle[data-hue="gold"]  { --p-tint: rgba(255,224,160,0.95); --p-glow: rgba(255,170,80,0.75); }
+.mv-orb-particle[data-hue="amber"] { --p-tint: rgba(255,190,120,0.95); --p-glow: rgba(230,120,40,0.7);  }
+.mv-orb-particle[data-hue="teal"]  { --p-tint: rgba(150,230,225,0.95); --p-glow: rgba(70,190,190,0.7);  }
+.mv-orb-particle[data-hue="spark"] { --p-tint: rgba(255,255,255,0.98); --p-glow: rgba(255,225,180,0.9); }
+
+@keyframes orb-particle-orbit {
+  from { transform: rotate(var(--p-angle))            translateX(var(--p-radius)); }
+  to   { transform: rotate(calc(var(--p-angle) + 360deg)) translateX(var(--p-radius)); }
+}
+@keyframes orb-particle-orbit-rev {
+  from { transform: rotate(var(--p-angle))            translateX(var(--p-radius)); }
+  to   { transform: rotate(calc(var(--p-angle) - 360deg)) translateX(var(--p-radius)); }
+}
+@keyframes orb-particle-twinkle {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+
+/* energy surge arcs — luminous rings that expand and fade out from the bulb */
+.mv-orb-surges {
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 0; height: 0;
+  pointer-events: none;
+}
+.mv-orb-surge {
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 168px; height: 168px;
+  margin: -84px 0 0 -84px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,206,140,0.8);
+  box-shadow: 0 0 14px rgba(255,180,90,0.6), inset 0 0 14px rgba(255,200,120,0.4);
+  opacity: 0;
+  transform: scale(0.7);
+  animation: orb-surge 4.5s ease-out infinite;
+  animation-delay: var(--s-delay);
+  will-change: transform, opacity;
+}
+@keyframes orb-surge {
+  0%   { opacity: 0;    transform: scale(0.55); }
+  12%  { opacity: 0.85; }
+  70%  { opacity: 0;    transform: scale(1.9); }
+  100% { opacity: 0;    transform: scale(1.9); }
+}
+
+/* outer bloom radiating from the bulb */
+.mv-orb-bulb-glow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 168px;
+  height: 168px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow:
+    0 0 40px rgba(255,170,80,0.4),
+    0 0 90px rgba(255,150,60,0.25);
+  animation: orb-bulb-pulse 2.8s ease-in-out infinite;
+}
+
+/* soft warm ground shadow under the floating rig */
+.mv-orb-shadow {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  width: 220px;
+  height: 26px;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse, rgba(90,60,30,0.34) 0%, transparent 70%);
+  filter: blur(8px);
+  z-index: -1;
+  animation: orb-shadow-pulse 2.6s ease-in-out infinite;
+}
+@keyframes orb-shadow-pulse {
+  0%, 100% { transform: translateX(-50%) scale(1);    opacity: 0.7; }
+  50%      { transform: translateX(-50%) scale(0.92); opacity: 0.5; }
+}
+
+.mv-orb-hint {
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--mv-gold-bright);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.mv-orb-stage:hover .mv-orb-hint { opacity: 0.9; }
+
+@media (prefers-reduced-motion: reduce) {
+  .mv-orb-stage { animation: none; cursor: default; }
+  .mv-orb-stage::before,
+  .mv-orb-bulb,
+  .mv-orb-bulb-glow,
+  .mv-orb-scan,
+  .mv-orb-particle,
+  .mv-orb-vertex::before,
+  .mv-orb-ring-a,
+  .mv-orb-ring-b,
+  .mv-orb-shadow { animation: none; }
+  .mv-orb-surge { display: none; }
+}
+
+@media (max-height: 820px) {
+  .mv-orb-stage { transform: scale(0.8); margin: -18px 0 -6px; }
+  .blog-orb-hero .mv-hero-body { gap: 0; }
+}
+@media (max-height: 680px) {
+  .mv-orb-stage { transform: scale(0.62); margin: -40px 0 -28px; }
+}
+@media (max-width: 768px) {
+  .blog-orb-hero { min-height: 340px; padding: 28px 16px 36px; }
+}

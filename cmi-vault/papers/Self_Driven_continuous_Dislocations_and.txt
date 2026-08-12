@@ -1,0 +1,605 @@
+Chapter 13
+SELF-DRIVEN CONTINUOUS
+DISLOCATIONS AND G R O W T H
+Marcelo Epstein
+Department of Mechanical and Manufacturing Engineering
+The University of Calgary, Calgary, Alberta T2N IN4, Canada
+epstein@enme.ucalgary.ca
+
+1.
+
+INTRODUCTION
+
+That the Eshelby stress is, at least in part, at the very root of the motion of material defects and other inhomogeneities is a thermodynamic
+truth that few people doubt, although different people arrive at this conclusion in somewhat different ways [11, 12, 15,17]. As a matter of record,
+I will briefly revue one of these avenues, which will serve also to establish my notation and conceptual framework. This done, I will proceed
+to suggest an evolution law that, at least in principle, is independent of
+the Eshelby stress. This thermodynamic impasse is not resolved in my
+mind, but I suspect that the Clausius-Duhem inequality may not include
+a complete description of the phenomenon at hand. I am not taking a
+strong position on this issue and I am willing to accept criticism, even
+of the destructive kind. This is so because I am not deeply committed
+to this exercise, but I just consider it an exercise worth exploring. For
+the purpose of the resolution of the thermodynamic issue, one may suspend judgement at this point and simply imagine the existence of some
+extraneous entropy sink that fixes matters (for example: a distributed
+array of micro-actuators with an unlimited external power to effect the
+desired evolution, just as a distributed array of refrigerators might push
+the heat flux in the wrong direction).
+
+130
+
+Marcelo Epstein
+
+2.
+
+DISTRIBUTED INHOMOGENEITIES AND
+THEIR EVOLUTION
+
+Inhomogeneities (dislocations, defects, etc.) and their time evolution
+(plasticity, growth, etc.) dwell in the body manifold. For simplicity of
+the exposition, we assume that a material archetype^ that is a material
+"point" with a given constitutive response, has been established as a
+model. The geometric nature of this archetype depends on the type of
+body under consideration: If the material is simple^ then the archetype
+is a three-dimensional Euclidean vector space (or, more pictorially, an
+"infinitesimal parallelepiped"); if, on the other hand, the body has some
+internal structure (a la Cosserat), then the archetype must be suitably
+supplemented with a frame of higher order; if non-local response is in
+the cards, the archetype might be an entire neighbourhood of M , and so
+on. I have spent a considerable part of my life researching these topics
+[2, 3, 4, 5, 6, 7, 8, 10], a pursuit that can lead to truly fascinating vistas
+in differential geometry and its amazing physical interpretations. It is
+important to notice that what determines the nature of the archetype is
+not its actual constitutive response but rather the kinematic nature of its
+configuration space. Focusing our attention on local simple materials,
+the archetype (as mentioned above) is just a Euclidean vector space
+representing an infinitesimal die, whose homogeneous deformation into
+infinitesimal parallelepipeds is all that the material needs to know from
+the purely mechanical point of view in order to decide the value of its
+constitutive functional. For this case, the necessary theory reduces to
+Noll's [18] and Wang's [19] formulation (1967) and,-further back in time,
+to the ideas of Kondo and his collaborators [16].
+That a body is materially uniform means that its response at all points
+is that of the basic archetypal behaviour. In other words, there exists
+a (smooth) field of material implants P{X) of the archetype such that
+the (scalar, say) constitutive functional ip is related to the archetypal
+response T/S by composition as follows:
+^P{F;X)^Jp'i;{FP{X)).
+
+(1)
+
+Here, F denotes the deformation gradient at the point X in a fixed
+reference configuration of the body, and J denotes the determinant of its
+matrix subscript. The appearance of the determinant is due to the fact
+that we interpret -0 as a density (of free energy, say) per unit volume in
+the reference configuration. The material implant P{X) is, technically,
+a non-singular linear map between the archetype and the tangent space
+at the point X of the body in the reference configuration.
+Is the materially uniform body also homogeneous? This would be
+the case if the field of inverse implants P~^{X) is integrable (namely,
+
+Self-driven continuous dislocations and growth
+
+131
+
+it derives from a displacement field). This can be verified analytically
+(at least locally) by checking the equality of certain partial derivatives.
+Prom the geometric point of view, on the other hand, the integrability (homogeneity) condition has a striking interpretation. Indeed, the
+implants P{X) may be regarded as defining a distant parallelism in the
+body manifold by, for example, considering the local image at each point
+X of a fixed basis in the archetype. Two vectors at diff'erent points of
+the body are materially parallel if they have the same respective components in these local bases. The homogeneity condition can then be seen
+as the vanishing of the torsion tensor of the connection associated with
+this distant parallelism. If the torsion vanishes, one can find a change of
+reference configuration that renders the local bases parallel and identical
+to each other.
+But what can be said if the P's are not unique? In fact, they aren't
+in general. It can be shown that the degree of freedom in the choice
+of material implants is governed by the symmetry group of the archetypal response function {[J. More specifically, if G is a symmetry of the
+archetype and P{X) is an implant, then so is the composition P{X)G.
+If the symmetry group happens to be continuous (as in the case of a
+fully or transversely isotropic solid) then the material connection described above is not unique and its torsion becomes meaningless as a
+measure of local inhomogeneity. In the particularly important case of a
+fully isotropic archetype (the symmetry group being the whole orthogonal group), it can be shown that the Riemannian (metric) connection
+induced by the metric tensor
+9 = {PP^)-'
+
+(2)
+
+is a true measure of the inhomogeneity. More specifically, if the curvature
+tensor 71 of this metric vanishes, the body is homogeneous.-^
+
+3.
+
+MATERIAL EVOLUTION
+
+Material evolution can be defined as a change of the inhomogeneity
+pattern in time, namely, the field of implants is now regarded as:
+P = P{X,t).
+
+(3)
+
+This restricted kind of change in the material response of a body implies that the basic constitution of the material is not changing, but only
+the way in which the invariable material archetype is accommodated at
+^Fo
+• r the sake of clarity of the exposition, we are not emphgisizing here the subtle distinction
+between global and local homogeneity.
+
+132
+
+Marcelo Epstein
+
+the different points. The physical interpretation of this kind of evolution varies with the context. Thus, for example, if the determinant of
+P(X, t) is not constant in time, we may interpret this evolution as a process of volumetric growth or resorption. With a constant determinant,
+on the other hand, we may obtain plasticity and other such anelastic
+phenomena.
+Having alluded above to the relation between thermodynamics, evolution and the Eshelby tensor, we consider now briefly the implementation
+of the chain rule in calculating, say, the material time derivative ip of
+the constitutive functional, such as needed for the free energy density
+in the Clausius-Duhem inequahty. By virtue of the basic Equation (1),
+a rather straightforward calculation shows that the participation of the
+implants P in the residual inequality is given by the following dissipative
+term:
+tr{bLp) ,
+
+(4)
+
+where b is the Eshelby stress tensor and Lp = PP~^ is the inhomogeneity "velocity" gradient. The attractive features of this way of revealing
+the role of the Eshelby stress are: (i) the Eshelby stress appears naturally in the thermodynamic context by a mere use of the chain rule of
+differentiation; (ii) the derivation is close to the spirit of Eshelby's idea
+that the Eshelby stress is a change of energy brought about by a "movement" of a defect. Here, indeed, the Eshelby stress is essentially the
+partial derivative difj/dP] and (iii) this derivation clearly shows that the
+Eshelby stress is the driving force behind the motion of inhomogeneities.
+Let us now consider an evolution constitutive law of the first order,
+such as:
+P = / ( P , 6, other arguments) .
+
+(5)
+
+We say that the evolution is intrinsic or self driven if neither h nor any
+measure of stress or strain appear in the list of arguments, but only
+properties of the inhomogeneity pattern itself. This would mean that
+the inhomogenity moves just by virtue of its being there, perhaps in its
+effort to relax itself. If necessary, we may imagine, as mentioned above,
+that there exists a control micro-mechanism in charge of measuring the
+defect density and taking action accordingly. In previous work [9], we
+have considered the case of an intrinsic evolution of a trichnic solid body
+in which stresses remain identically zero throughout the evolution. Even
+in its simplicity this treatment afforded a qualitative description of such
+
+Self-driven continuous dislocations and growth
+
+133
+
+phenomena as dislocation pile-ups and annealing.^ In this paper, we will
+therefore consider the more difficult case of a fully isotropic body.
+We start by considering the following generic intrinsic evolution law:
+
+p = f{p,n,vn;X),
+
+(6)
+
+where V denotes the gradient operator in the reference configuration.
+Upon a change of reference configuration, whose gradient at X we denote
+by H{X), the arguments of this evolution law change in the following
+way:
+
+^JKL
+
+T^JKL,M
+
+P
+
+—> HP ,
+
+(7)
+
+P
+
+^
+
+(8)
+
+^ ^JKL^I
+
+^ ^JKL,M^I
+
+HP ,
+HQ H^
+
+H^
+
+,
+
+^B
+
+^D
+
+^E
+
+^C
+
+(9)
+
+'
+
+(l^)
+
+where we have used indicial notation wherever extra clarity was necessary. In particular, choosing instantaneously H — P~^^ and invoking
+uniformity, we see that the evolution is characterized by a function pulled
+hack to the archetype of the form:
+Lp = P-^P - f{1l, VcaiR) ,
+
+(11)
+
+where an overbar denotes quantities pulled back to the archetype.
+If we should now effect an arbitrary orthogonal transformation of
+the archetype and invoke its full isotropy, we would obtain the most
+general reduced form of the evolution law in terms of the invariants of
+the curvature tensor TZ, In particular, we will concentrate our attention
+on an evolution law of the following form:
+Lp = f{R,VK)I,
+
+(12)
+
+where K is the scalar curvature and I denotes the identity tensor. Notice
+that the skew-symmetric part of Lp is unimportant in this case since it
+would imply an evolution within the symmetry group (cf. the principle
+of actual evolution in [13]).
+
+^Moreover, because of the identical vanishing of the stress, the thermodynamic question did
+not arise.
+
+134
+
+4.
+4.1.
+
+Marcelo Epstein
+
+EXAMPLE
+GENERALITIES
+
+To investigate the possibility of travelling waves of dislocations we now
+specialize the results of the previous sections by restricting the implant
+maps to the following particular form:
+
+[p]
+
+=
+
+p(X,t)
+0
+0
+
+0
+l/p{X,t)
+0
+
+0
+0
+1
+
+(13)
+
+The curvature invariant K in this particular case can be obtained by
+the simple formula:
+
+« - {pr
+
+(14)
+
+where we use primes to indicate partial X-derivatives. The general
+evolution law, therefore, can be stated as:
+( ^ ) ' = /((p')".((p')»')
+
+(15)
+
+where / is an arbitrary function, and where a superimposed dot is
+used to denote partial time derivatives.
+
+4.2.
+
+INHOMOGENEITY FADING
+
+Excluding the gradient-of-curvature term, the evolution equation reduces to:
+
+( 0 ' = /((PY),
+
+(16)
+
+and further reducing the dependence to be linear we obtain:
+
+( 0 ' = C(PY,
+
+(17)
+
+where (7 is a material constant. Denoting u = p'^^ we may write this
+equation as:
+u = 2Cuu" ,
+(18)
+which is a nonlinear heat equation. In fact, linearizing for small implants
+(namely u close to 1) we obtain the classical heat equation. This shows
+that for this case the inhomogeneity will tend to disappear provided C
+is positive. As mentioned in the introduction, this positivity does not
+
+Self-driven continuous dislocations and growth
+
+135
+
+emerge from the un-doctored Clausius-Duhem inequality, since h has
+been excluded a priori from the list of arguments.
+
+4.3.
+
+HYPOCYCLOIDAL TRAVELLING
+WAVES
+
+Having observed that without the inclusion of the gradient of the
+curvature the evolution law is purely diffusive (and cannot, therefore,
+sustain travelling waves), we investigate now the case in which the evolution law includes just the gradient of the curvature. In particular, we
+consider the linear relation:
+
+{^^' = K\{v''rvf
+
+(19)
+
+where K is a positive material constant. A travelhng wave is, by
+definition, a solution of this PDE of the form:
+p{X,t)=p{X-vt)=p{i)
+
+(20)
+
+where v is the speed of the travelhng wave. With some abuse of
+notation, we will keep using primes to denote ordinary derivatives with
+respect to the new variable ^. Introducing the assumed form of the
+solution into Equation (19), we obtain the following ODE to be satisfied
+
+byp(0:
+^'(^)' =^'((^')»'
+
+(21)
+
+The fact that the speed v appears squared implies that for every
+solution of the form p{X — vt) the function p{X + vt) is also a solution.
+We consider now the negative square root of Equation(21), namely:
+
+I = -fipTp
+
+(22)
+
+We consider the whole of space-time M x K as the domain and we
+seek bounded solutions. We start by noting that Equation (22) can be
+rewritten as:
+"'
+
+2u3/2
+
+=-^u'"
+
+(23)
+
+136
+
+Marcelo Epstein
+
+where u = p^. This equation is easily seen to have the first integral:
+^-1/2 ^ ^ ^ / / + Ci
+
+(24)
+
+V
+
+where Ci is a constant of integration. If we regard this equation,
+for the sake of analogy, as the equation of "motion" of a particle, we
+conclude that the "mass" is — and the "force field" is iz~^/^ - Ci. The
+"potential energy" then is —2it^/^ + C\u. This analogy permits us to
+see immediately (see, e.g., [1]) that, provided Ci is positive, there will
+be continuous periodic (and, therefore, bounded) solutions. The "total
+energy" of any such solution is given by the first integral:
+^{u'f-2u^'^
+
++ Ciu = C2
+
+(25)
+
+Prom the particular shape of our potential energy, we conclude that
+the total energy C2 must be bounded as:
+^
+
+< C2 < 0
+
+(26)
+
+For any given value of C2 within these bounds, the solution will oscillate between the values corresponding to the vanishing of the "kinetic
+energy", namely:
+
+Notice that the integration constants Ci and C2 are related to the
+"initial" conditions i^o? '^0 ^^^d UQ (for some value ^0 of 0 by:
+K
+Ci = n - ' / ' - -ul
+
+(28)
+
+V
+
+and
+C2 = - n y ' - | t . o < + ^ K ) 2
+
+(29)
+
+Prom Equation(25) we obtain:
+du
+[2v
+I
+-V/r^^
+^C2 - Ciu + 2V^
+^^
+
+(30)
+
+Self-driven continuous dislocations and growth
+
+137
+
+which can be integrated by standard methods to:
+I2v_
+
+_
+
+2
+
+-
+
+-
+
+(
+
+^
+
+^
+
+)
+
+^ l + C i C 2 - ( C i v ^ - l ) 2 + C3
+
+(31)
+
+where C3 is an immaterial constant of integration fixing the "initial"
+value ^0To further clarify the shape of this solution, we notice that Equation
+(30) can be rewritten as the implicit formula:
+
+CiV^-1
+
+= ^/l + CiC2si
+sin
++ ^i +
+
+CiC2-{CiV^-ir
+
+(32)
+
+which clearly shows the periodicity of the solution. The period is
+easily seen to be given by T = ^TT. Z^^^? while the bounds agree with
+those anticipated in Equation (27).
+The imphcit form of the solution given in Equation (31) can be written
+more conveniently in parametric form. Introducing the parameter 9^ as
+suggested by Equation (31), as:
+sin9 =
+
+Cly^-l
+VI + C1C2
+
+(33)
+
+it follows that
+(
+/ z?;
+cf/^
+i2v
+
+/
+
+2 'V K
+
+(34)
+
+which, by virtue of (33), can be expressed as:
+
+0 = - y - ( V ; ^ e - C3) + Vl + C1C2 cose
+
+(35)
+
+Collecting the preceding results and restoring the notation p = ^/u^
+we arrive at the following parametric equations for the travelling wave
+shape:
+
+138
+
+Marcelo Epstein
+^3/2
+
+^ ( ^ - e - C s ) = e-V1 + C1C2 cose
+
+(36)
+
+and
+Cip=l
+
++ V^ + CiC2sine
+
+(37)
+
+These equations show that, in properly chosen scales, the graph of the
+travelling wave has the shape of a hypocycloid. We note that there is no
+a-priori hmitation on the size of these travelling waves. The treatment
+just presented shows that there axe definite relations between the size,
+shape and speed of travel. Specifically, given the maximum Pmax > 1?
+the minimum Pmin < 1 and the period T, we obtain:
+
+'
+
+C2
+V = -J^
+
+' ' ^ + r ^ )
+
+(39)
+
+[Pmin + Pmax)
+
+(40)
+
+Thus, except for the immaterial shift C3, the exact shape and speed
+of propagation of the travelling wave are completely determined by its
+maximum and minimum values and by the period. The larger the average and the shorter the period of the wave shape, the faster the speed
+of propagation.
+Acknowledgment This work has been partially supported by the
+Natural Sciences and Engineering Research Council of Canada.
+
+References
+[1] Arnold, V., Mathematical methods of Classical Mechanics^ Springer,
+1978
+[2] Elzanowski, M., Epstein, M. and Sniatycki, J., (1990), G-structures
+and material homogeneity, J. Elasticity^ 23, 167-180.
+[3] Epstein, M., (1992), Eshelby-like tensors in thermoelasticity, Nonlinear thermomechanical processes in continua, (W. Muschik and
+G.A. Maugin, eds.), TUB-Dokumentation, Berlin, 61, 147-159.
+[4] Epstein, M., (1999), On the anelastic evolution of second-grade materials, Extracta Mathematicae^ 14, 157-161.
+[5] Epstein, M., (1999), Towards a complete second-order evolution
+law. Math. Mech. Solids, 4, 251-266,
+
+Self-driven continuous dislocations and growth
+
+139
+
+[6] Epstein, M. and Bucataru, I., (in press), Continuous distributions
+of dislocations in bodies with microstructure, J. Elasticity.
+[7] Epstein, M. and de Leon, M., (1996), Homogeneity conditions for
+generalized Cosserat media, J, Elasticity^ 43, 189-201.
+[8] Epstein, M. and de Leon, M., (1998), Geometrical theory of uniform
+Cosserat media, J. Geom. Physics, 26, 127-170.
+[9] Epstein, M. and Elzanowski, M., (in press), A model of the evolution
+of a two-dimensional defective structure, J. Elasticity.
+[10] Epstein, M., Elzanowski, M. and Sniatycki, J., (1987), Locality and
+uniformity in global elasticity,", in Lecture Notes in Mathematical
+Physics, 1139, Springer Verlag, 300-310.
+[11] Epstein, M. and Maugin, G.A., (1990), Sur le tenseur de moment
+materiel d'Eshelby en elasticite non lineaire, C. R. Acad. Sci. Paris,
+310/11, 675-768.
+[12] Epstein, M. and Maugin, G.A., (1990), The energy-momentum tensor and material uniformity in finite elasticity, Acta Mechanica, 83,
+127-133.
+[13] Epstein, M. and Maugin, G.A., (1996), On the geometrical material
+structure of anelasticity. Acta Mechanica, 115, 119-134.
+[14] Eshelby, J.D., (1951), The force on an elastic singularity, Phil
+Trans. Roy. Soc. London, A244, 87-112.
+[15] Gurtin, M.E., (2000), Configurational forces as basic concepts of
+continuum physics. Springer-Verlag.
+[16] Kondo, K., (1955), Geometry of elastic deformation and incompatibility. Memoirs of the unifying study of the basic problems in engineering science by means of geometry, Tokyo Gakujutsu Benken
+Fukyu-Kai.
+[17] Maugin, G.A., (1993), Material inhomogeneities in elasticity. Chapman and Hall.
+[18] Noll, W., (1967), Materially uniform simple bodies with inhomogeneities. Arch. Rational Mech. Anal, 27, 1-32.
+[19] Wang, C.C., (1967), On the geometric structure of simple bodies: a
+mathematical foundation for the theory of continuous distributions
+of dislocations. Arch. Rational Mech. Anal, 27, 33-94.
+
+

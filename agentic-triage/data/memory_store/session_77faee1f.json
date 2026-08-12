@@ -1,0 +1,18 @@
+{
+  "session_id": "77faee1f",
+  "task_id": "task_1",
+  "task_description": "Test triage task",
+  "created_at": "2026-08-06T12:41:41.378624+00:00",
+  "context_variables": {
+    "papers_processed": 5
+  },
+  "conversation_history": [
+    {
+      "timestamp": "2026-08-06T12:41:41.378627+00:00",
+      "role": "system",
+      "content": "Starting triage"
+    }
+  ],
+  "intermediate_results": {},
+  "pending_actions": []
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/" />
+  <link rel="canonical" href="https://matraix.ai/playground/" />
+  <title>MatrAIx Eval Infra — Eight Evaluation Tasks</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="Assets/icons/apple-touch-icon.png" />
+  <meta name="description" content="Explore eight MatrAIx evaluation infrastructure tasks across surveys, chatbots, websites, and apps with live persona simulation telemetry and reports." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/benchmark.css?v=42" />
+  <link rel="stylesheet" href="css/dark-theme.css?v=5" />
+  <style>
+  .os-explain .ex-url{color:var(--ink)}
+  /* --- self-defined evaluation metrics --- */
+  .metric-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:9px 14px;border-bottom:1px solid var(--line-soft)}
+  .metric-bar .mb-lab{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--phos)}
+  .metric-bar .mb-hint{font-size:.76rem;color:var(--ink)}
+  .metric-bar .mb-grow{flex:1;min-width:8px}
+  .metric-pick{position:relative}
+  .metric-input{font-family:var(--disp);font-size:.8rem;color:var(--ink);background:var(--bg);border:1px solid var(--line-soft);padding:6px 9px;min-width:170px;width:230px;max-width:46vw}
+  .metric-input::placeholder{color:var(--ink)}
+  .metric-input:focus{outline:none;border-color:var(--phos);box-shadow:inset 0 0 10px rgba(80,137,184,.08)}
+  .metric-menu{position:absolute;top:calc(100% + 4px);right:0;width:min(330px,82vw);max-height:280px;overflow:auto;background:var(--bg-2);border:1px solid var(--line);box-shadow:0 12px 34px rgba(0,0,0,.55);z-index:60;padding:4px}
+  .metric-menu[hidden]{display:none}
+  .metric-menu .mg-h{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--phos);padding:8px 8px 3px;position:sticky;top:0;background:var(--bg-2)}
+  .metric-menu .mo{display:block;width:100%;text-align:left;font-family:var(--disp);font-size:.79rem;color:var(--ink);background:transparent;border:0;padding:5px 9px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .metric-menu .mo:hover,.metric-menu .mo.kbd{background:rgba(80,137,184,.12);color:var(--phos)}
+  .metric-menu .mo mark{background:transparent;color:var(--phos);font-weight:700}
+  .metric-menu .mo-add{color:var(--phos);border-bottom:1px solid var(--line-soft);margin-bottom:2px}
+  .metric-menu .mo-add b{color:var(--ink)}
+  .metric-menu .metric-empty{padding:9px;color:var(--ink);font-size:.78rem}
+  .fn-meta{display:flex;align-items:center;gap:7px}
+  .fn-x{width:16px;height:16px;line-height:1;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;font-size:.72rem;opacity:0;transition:opacity .15s,color .15s}
+  .fnode:hover .fn-x{opacity:.8}
+  .fn-x:hover{color:var(--rose);opacity:1}
+  .fnodes.lone .fn-x{display:none}
+  /* --- "Run in your env" API button + modal --- */
+  .os-btn.api{color:var(--phos);border-color:var(--line);display:inline-flex;align-items:center;gap:6px}
+  .os-btn.api:hover{border-color:var(--phos);box-shadow:inset 0 0 14px rgba(80,137,184,.12)}
+  .apim-scrim{position:fixed;inset:0;background:rgba(3,5,4,.8);backdrop-filter:blur(4px);z-index:200;display:none;align-items:center;justify-content:center;padding:20px}
+  .apim-scrim.open{display:flex;animation:apfade .2s ease}
+  @keyframes apfade{from{opacity:0}to{opacity:1}}
+  .apim{width:min(820px,96vw);max-height:92vh;overflow:auto;background:var(--bg-2);border:1px solid var(--line);box-shadow:0 0 60px rgba(0,0,0,.6),0 0 32px rgba(80,137,184,.08)}
+  .apim-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 18px;border-bottom:1px solid var(--line-soft);background:var(--bg-3);position:sticky;top:0}
+  .apim-bar .t{font-family:var(--disp);font-weight:800;font-size:1rem}
+  .apim-bar .t b{color:var(--phos);text-shadow:var(--glow)}
+  .apim-x{background:transparent;border:1px solid var(--line-soft);color:var(--ink);width:28px;height:28px;cursor:pointer;font-size:.86rem;transition:all .2s}
+  .apim-x:hover{border-color:var(--phos);color:var(--phos)}
+  .apim-in{padding:18px}
+  .apim-lead{color:var(--ink);font-size:.9rem;line-height:1.5;max-width:640px;margin-bottom:18px}
+  .apim-lead b{color:var(--ink)}
+  /* connection animation */
+  .apim-net{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap;margin-bottom:14px}
+  .apim-node{display:flex;flex-direction:column;align-items:center;gap:5px;padding:11px 16px;border:1px solid var(--line-soft);background:var(--bg-3);min-width:104px}
+  .apim-node .ico{font-size:1.15rem;color:var(--phos)}
+  .apim-node span:last-child{font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+  .apim-node.hub{border-color:var(--line);box-shadow:0 0 18px rgba(80,137,184,.12)}
+  .apim-scrim.open .apim-node.hub .ico{animation:hubpulse 1.6s ease-in-out infinite}
+  @keyframes hubpulse{0%,100%{text-shadow:0 0 6px rgba(80,137,184,.4)}50%{text-shadow:0 0 16px rgba(80,137,184,.9)}}
+  .apim-wire{position:relative;width:56px;height:2px;background:var(--line-soft)}
+  .apim-wire i{position:absolute;top:-2px;left:0;width:6px;height:6px;border-radius:50%;background:var(--phos);box-shadow:var(--glow);opacity:0}
+  .apim-scrim.open .apim-wire i{animation:wirepkt 1.2s linear infinite}
+  .apim-scrim.open .apim-wire.w2 i{animation-delay:.6s}
+  @keyframes wirepkt{0%{left:-4px;opacity:0}15%{opacity:1}85%{opacity:1}100%{left:54px;opacity:0}}
+  .apim-feats{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:18px}
+  .apim-feat{font-size:.78rem;color:var(--ink);border:1px solid var(--line-soft);background:var(--bg-3);padding:6px 11px}
+  .apim-feat b{color:var(--ink)}
+  .apim-scrim.open .apim-feat{animation:featlit 5s ease infinite}
+  .apim-scrim.open .apim-feat:nth-child(1){animation-delay:.3s}.apim-scrim.open .apim-feat:nth-child(2){animation-delay:.9s}
+  .apim-scrim.open .apim-feat:nth-child(3){animation-delay:1.5s}.apim-scrim.open .apim-feat:nth-child(4){animation-delay:2.1s}
+  .apim-scrim.open .apim-feat:nth-child(5){animation-delay:2.7s}
+  @keyframes featlit{0%,100%{border-color:var(--line-soft);color:var(--ink);box-shadow:none}8%,16%{border-color:var(--phos);color:var(--ink);box-shadow:0 0 11px rgba(80,137,184,.3)}}
+  /* terminal */
+  .apim-term{border:1px solid var(--line-soft);background:var(--bg);overflow:hidden}
+  .apim-term-bar{display:flex;align-items:center;gap:6px;padding:7px 11px;background:var(--bg-3);border-bottom:1px solid var(--line-soft);font-size:.74rem;color:var(--ink);letter-spacing:.06em}
+  .apim-term-bar .d{width:8px;height:8px;border-radius:50%;background:var(--line)}
+  .apim-term-bar span:last-child{margin-left:auto}
+  .apim-code{margin:0;padding:14px 16px;font-family:var(--disp);font-size:.84rem;line-height:1.65;color:var(--ink);white-space:pre;overflow-x:auto}
+  .apim-code .cl{opacity:0}
+  .apim-scrim.open .apim-code .cl{animation:clin .25s ease forwards;animation-delay:calc(.15s + var(--n,0) * .13s)}
+  @keyframes clin{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+  .apim-code .cm{color:var(--ink)}
+  .apim-code .st{color:var(--phos)}
+  .apim-code .kw{color:var(--cyan)}
+  .apim-code .pr{color:var(--phos-deep)}
+  .apim-code .caret{color:var(--phos);animation:apblink 1s steps(1) infinite}
+  @keyframes apblink{50%{opacity:0}}
+  .apim-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+  .apim-cta .os-btn{text-decoration:none;display:inline-flex;align-items:center;gap:7px}
+  @media (max-width:560px){.apim-wire{width:30px}.apim-node{min-width:84px;padding:9px 10px}}
+  @media (prefers-reduced-motion:reduce){.apim-scrim.open .apim-wire i,.apim-scrim.open .apim-node.hub .ico,.apim-scrim.open .apim-feat,.apim-scrim.open .apim-code .cl,.apim-code .caret{animation:none!important}.apim-code .cl{opacity:1}}
+  </style>
+<link rel="stylesheet" href="css/subpages-light.css?v=3" />
+<link rel="stylesheet" href="css/navigation.css?v=2" /><link rel="icon" type="image/png" href="/Assets/logos/MatrAIx_Logo.png"></head>
+<body class="os">
+  <!-- PORTAL -->
+  <section class="portal" id="portal">
+
+  <!-- System bar -->
+  <div class="os-bar">
+    <a class="os-id" href="index.html">Matr<span class="ai">AI</span>x <span class="os-name">Eval Infra</span><span class="v">Preview</span></a>
+    <div class="os-target">
+      <span class="lbl">Evaluation task</span>
+      <select id="target" class="os-select" aria-label="Evaluation task"></select>
+      <button id="run" class="os-btn run">■ Pause run</button>
+      <p class="task-blurb" id="taskBlurb" aria-live="polite"></p>
+    </div>
+    <nav class="os-nav" id="playground-nav"><a href="index.html">Home</a><a href="/research/">Research</a><a href="/personas/">Personas</a><a href="/applications/">Applications</a><a class="active" href="/playground/">Playground</a><a href="/community/">Community</a></nav>
+    <button class="os-menu" type="button" aria-controls="playground-nav" aria-expanded="false">Menu</button>
+    <div class="os-status">
+      <button class="os-btn api" id="apiBtn" title="Run matrAIx in your own environment">&#123; &#125; API</button>
+      <span class="led on" data-led="core">Simulation live</span>
+      <span class="led on playground-aux" data-led="eval">Eval</span>
+      <span class="led on playground-aux" data-led="net">Net</span>
+      <span class="led" id="backendLed" data-led="api">API</span>
+      <span class="os-clock playground-aux" id="clock">--:--:--</span>
+    </div>
+  </div>
+
+  <!-- Main grid -->
+  <div class="os-grid">
+    <!-- Agent swarm -->
+    <section class="win swarm">
+      <div class="win-bar"><span>Agent Swarm</span><span id="swarmCount">— active</span></div>
+      <div class="pop-cap" id="batchMeta">■ shows the current batch ratio</div>
+      <div class="pop" id="pop"></div>
+      <div class="focus-head">▸ In focus · 8 agents · scroll</div>
+      <div class="focus-list" id="focusList"></div>
+    </section>
+
+    <!-- Neural eval core -->
+    <section class="win stage">
+      <div class="win-bar"><span>Evaluation metrics</span><span class="scan-tag" id="scanTag">● LIVE</span></div>
+      <div class="stage-legend"><b class="cp">● pass</b> <b class="ca">● flag</b> <b class="cr">● fail</b></div>
+      <div class="metric-bar">
+        <span class="mb-lab">Metrics</span><span class="mb-hint">— <a href="metrics.html" style="color:var(--phos)"><b id="metricCount">900+</b></a> or your own</span>
+        <span class="mb-grow"></span>
+        <div class="metric-pick">
+          <input id="metricInput" class="metric-input" type="text" maxlength="40" placeholder="search metrics or type your own…" aria-label="Add an evaluation metric" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="metricMenu" />
+          <div class="metric-menu" id="metricMenu" role="listbox" hidden></div>
+        </div>
+        <button id="metricAdd" class="os-btn" type="button">＋ Add</button>
+      </div>
+      <div class="flow">
+        <div class="fcap fin">Each agent run is scored against selected metrics</div>
+        <div class="fnodes" id="flowNodes"></div>
+        <div class="fcap fout">Aggregated result · pass / flag / fail</div>
+      </div>
+      <div class="vitals" id="vitals">
+        <div class="vital"><div class="vl">active agents</div><div class="vv" data-v="ag">—</div><div class="spark" data-s="ag"></div></div>
+        <div class="vital"><div class="vl">behaviors / sec</div><div class="vv" data-v="tp">—</div><div class="spark" data-s="tp"></div></div>
+        <div class="vital"><div class="vl">mean score</div><div class="vv" data-v="rw">—</div><div class="spark" data-s="rw"></div></div>
+        <div class="vital"><div class="vl">pass rate</div><div class="vv" data-v="ps">—</div><div class="spark" data-s="ps"></div></div>
+      </div>
+    </section>
+
+    <!-- Reports -->
+    <section class="win intel">
+      <div class="win-bar"><span>Reports</span><span class="rpt-sub" id="rptTarget"></span></div>
+      <div class="report-tabs" id="reportTabs">
+        <button class="rtab" data-r="ab">A/B</button>
+        <button class="rtab active" data-r="score">Dist</button>
+        <button class="rtab" data-r="heat">Heat</button>
+      </div>
+      <div class="intel-body" id="intelBody"></div>
+      <button id="export" class="os-btn">⬇ Export trajectories (JSONL)</button>
+    </section>
+  </div>
+
+  <!-- Trajectory telemetry -->
+  <section class="console">
+    <div class="win-bar"><span>Trajectory Telemetry</span><span id="conMeta">obs → act → reward</span></div>
+    <div class="con-feed" id="conFeed"></div>
+  </section>
+  </section>
+
+  <!-- In-focus agent persona card -->
+  <div class="persona-scrim" id="personaScrim" hidden>
+    <article class="persona-card" role="dialog" aria-modal="true" aria-labelledby="personaTitle">
+      <header class="persona-card-head">
+        <div><span class="persona-kicker">Agent persona card</span><h2 id="personaTitle">Persona profile</h2></div>
+        <button class="persona-close" id="personaClose" type="button" aria-label="Close persona card">✕</button>
+      </header>
+      <div class="persona-card-body" id="personaCardBody"></div>
+    </article>
+  </div>
+
+  <!-- Generated reports -->
+  <section class="genreports" id="reports">
+    <div class="print-head" aria-hidden="true">
+      <div class="ph-logo" aria-label="MatrAIx">Matr<em>AI</em>x</div>
+      <div class="ph-title">Agent Evaluation Report</div>
+      <div class="ph-meta" id="phMeta"></div>
+    </div>
+    <div class="gr-head">
+      <span class="gr-idx">— GENERATED REPORTS</span>
+      <h2 class="gr-title">Reports from eight evaluation tasks.</h2>
+      <p class="gr-sub">Public demo results with independent randomized sampling for every task.</p>
+      <div class="gr-chips">
+        <span class="gr-chip">2 Surveys · 1M responses</span>
+        <span class="gr-chip">2 Chatbots · 5.2B tokens</span>
+        <span class="gr-chip">2 Websites · 3.6M interactions</span>
+        <span class="gr-chip">2 Apps · 54.2K actions</span>
+      </div>
+      <button class="gr-print" id="grPrint">⎙ Print / Save as PDF</button>
+    </div>
+    <div class="gr-card">
+      <div class="gr-tabs" id="abTabs" role="tablist"></div>
+      <div class="gr-body" id="abBody"></div>
+    </div>
+    <div class="print-foot" aria-hidden="true" id="phFoot"></div>
+  </section>
+
+  <!-- API import modal -->
+  <div class="apim-scrim" id="apiScrim">
+    <div class="apim" role="dialog" aria-modal="true" aria-label="Run matrAIx in your own environment">
+      <div class="apim-bar">
+        <span class="t">Run <b>matrAIx</b> in your own environment</span>
+        <button class="apim-x" id="apiClose" aria-label="Close">✕</button>
+      </div>
+      <div class="apim-in">
+        <p class="apim-lead">Import the matrAIx API into your stack and drive simulations against your <b>own apps</b> — the full platform, in your environment.</p>
+
+        <div class="apim-net" aria-hidden="true">
+          <div class="apim-node env"><span class="ico">▤</span><span>your env</span></div>
+          <div class="apim-wire w1"><i></i></div>
+          <div class="apim-node hub"><span class="ico">◉</span><span>matrAIx API</span></div>
+          <div class="apim-wire w2"><i></i></div>
+          <div class="apim-node plat"><span class="ico">▚</span><span>platform</span></div>
+        </div>
+        <div class="apim-feats" aria-hidden="true">
+          <span class="apim-feat"><b>8.3B</b> agents</span>
+          <span class="apim-feat">1,290-dim <b>personas</b></span>
+          <span class="apim-feat"><b>Simulation</b> engine</span>
+          <span class="apim-feat">Segmented <b>reports</b></span>
+          <span class="apim-feat"><b>SFT / RL</b> data</span>
+        </div>
+
+        <div class="apim-term">
+          <div class="apim-term-bar"><span class="d"></span><span class="d"></span><span class="d"></span><span>matraix · python</span></div>
+<pre class="apim-code"><code><span class="cl" style="--n:0"><span class="cm">$ pip install matraix</span></span>
+<span class="cl" style="--n:1"><span class="kw">import</span> matraix</span>
+<span class="cl" style="--n:2">mx = matraix.connect(api_key=<span class="st">"mx_live_…"</span>)</span>
+<span class="cl" style="--n:3"> </span>
+<span class="cl" style="--n:4"><span class="cm"># run a simulation in your own stack</span></span>
+<span class="cl" style="--n:5">run = mx.simulate(</span>
+<span class="cl" style="--n:6">    target=<span class="st">"https://app.yourco.com/checkout"</span>,</span>
+<span class="cl" style="--n:7">    level=<span class="st">"web"</span>,          <span class="cm"># survey | chatbot | web | app</span></span>
+<span class="cl" style="--n:8">    agents=<span class="pr">50_000</span>,</span>
+<span class="cl" style="--n:9">    segments=[<span class="st">"mobile"</span>, <span class="st">"new_users"</span>],</span>
+<span class="cl" style="--n:10">)</span>
+<span class="cl" style="--n:11">report = run.report()        <span class="cm"># segmented A/B report</span></span>
+<span class="cl" style="--n:12">data   = run.trajectories()  <span class="cm"># SFT / RL-ready JSONL</span><span class="caret">▋</span></span></code></pre>
+        </div>
+
+        <div class="apim-cta">
+          <button class="os-btn" id="apiCopy">⧉ Copy snippet</button>
+          <a class="os-btn" href="/community/">Request an API key →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  /* ---------- API import modal ---------- */
+  (function(){
+    var btn=document.getElementById('apiBtn'), scrim=document.getElementById('apiScrim');
+    if(!btn||!scrim) return;
+    function open(){ scrim.classList.add('open'); document.body.style.overflow='hidden'; }
+    function close(){ scrim.classList.remove('open'); document.body.style.overflow=''; }
+    btn.addEventListener('click', open);
+    document.getElementById('apiClose').addEventListener('click', close);
+    scrim.addEventListener('click', function(e){ if(e.target===scrim) close(); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape' && scrim.classList.contains('open')) close(); });
+    var copy=document.getElementById('apiCopy');
+    if(copy) copy.addEventListener('click', function(){
+      var code=scrim.querySelector('.apim-code').innerText.replace(/▋/g,'').replace(/[\s ]+$/,'');
+      navigator.clipboard.writeText(code).then(function(){ var t=copy.textContent; copy.textContent='✓ Copied'; setTimeout(function(){ copy.textContent=t; },1400); }).catch(function(){});
+    });
+  })();
+  </script>
+
+  <script src="js/site-performance.js?v=1"></script>
+  <script src="js/dimensions.js?v=7"></script>
+  <script src="js/metrics.js?v=2"></script>
+  <script src="js/benchmark.js?v=29"></script>
+  <script>
+  /* ---------- Generated reports viewer (A/B by persona segment) ---------- */
+  (function(){
+    var tabsEl=document.getElementById('abTabs'), body=document.getElementById('abBody');
+    if(!tabsEl||!body) return;
+    var nf=new Intl.NumberFormat('en-US');
+    var agentCounts=window.MATRAIX_TASK_AGENT_COUNTS||{};
+    var REPORTS=[
+      {tab:'Candy Land',target:'Candy Land price sensitivity · Survey · Commerce',a:'Current price',b:'Proposed price',agents:agentCounts['candy-land-price']||0,metric:'purchase intent',winner:'A',lift:'+12.0%',segments:[['Parents',72,61],['Gift buyers',68,57],['Teachers',64,55],['Price-sensitive households',59,41]],findings:[['high','Price-sensitive households show the largest decline at the proposed price.'],['med','Gift buyers tolerate a smaller increase when the product is bundled.'],['low','Brand familiarity moderates the decline in purchase intent.']]},
+      {tab:'Checkups',target:'Annual checkup habits · Survey · Healthcare',a:'General reminder',b:'Personalized planning',agents:agentCounts['annual-checkup']||0,metric:'booking intent',winner:'B',lift:'+16.0%',segments:[['Regular patients',74,86],['Care avoiders',38,57],['Uninsured',31,43],['Rural patients',45,61]],findings:[['high','Cost and access remain the dominant barriers for uninsured personas.'],['med','Personalized next steps improve intent most among care avoiders.'],['low','Reminder timing matters more for parents and caregivers.']]},
+      {tab:'Meal plans',target:'Meal planning nutrition assistant · Chatbot · Healthcare',a:'Generic assistant',b:'Persona-aware assistant',agents:agentCounts['meal-planning']||0,metric:'useful safe plans',winner:'B',lift:'+21.0%',segments:[['Budget constrained',58,82],['Food allergies',61,89],['Busy households',67,86],['Fitness focused',73,88]],findings:[['high','Generic plans violate at least one stated constraint for allergy personas.'],['med','Budget-aware substitutions drive the largest usefulness gain.'],['low','Short preparation steps improve completion for busy households.']]},
+      {tab:'OpenBB',target:'OpenBB corporate action · Chatbot · Finance',a:'Unsupported response',b:'Source-grounded research',agents:agentCounts['openbb-corporate-action']||0,metric:'research accuracy',winner:'B',lift:'+28.0%',segments:[['Retail investors',52,84],['Analysts',63,91],['Finance students',48,83],['Low expertise',41,76]],findings:[['high','Unsupported responses frequently confuse corporate actions with temporary data gaps.'],['med','Source citations sharply improve trust among analysts.'],['low','Plain-language corporate-action explanations help low-expertise users.']]},
+      {tab:'Notion',target:'Notion plan comparison · Website · Software',a:'Comparison table',b:'Guided recommendation',agents:agentCounts['notion-plans']||0,metric:'correct plan choice',winner:'B',lift:'+14.0%',segments:[['Individuals',78,89],['Small teams',67,86],['Enterprise admins',71,84],['First-time users',55,79]],findings:[['high','First-time users misread guest and member limits in the comparison table.'],['med','Guided questions reduce over-purchasing among individuals.'],['low','Security details remain difficult to find for enterprise admins.']]},
+      {tab:'MIT OCW',target:'MIT OpenCourseWare course choice · Website · Education',a:'Catalog search',b:'Goal-guided shortlist',agents:agentCounts['mit-ocw-choice']||0,metric:'suitable course choice',winner:'B',lift:'+19.0%',segments:[['High-school learners',49,76],['University students',68,85],['Professionals',61,82],['Non-native English',54,79]],findings:[['high','Prerequisite language causes the most mismatches for early learners.'],['med','Goal-guided shortlists reduce time to a suitable course.'],['low','Material-format filters matter most to working professionals.']]},
+      {tab:'News+',target:'News+ subscription decision · App · Software',a:'Standard offer',b:'Personalized content preview',agents:agentCounts['news-plus']||0,metric:'informed subscription intent',winner:'B',lift:'+11.0%',segments:[['Daily readers',73,87],['Occasional readers',42,58],['Existing subscribers',65,77],['Price-sensitive users',36,49]],findings:[['high','Trial-renewal terms are missed by many occasional readers.'],['med','Relevant publication previews improve perceived value.'],['low','Price-sensitive users prefer annual savings stated in absolute dollars.']]},
+      {tab:'Stocks',target:'Stocks sentiment · App · Finance',a:'Raw sentiment score',b:'Sentiment with context',agents:agentCounts['stocks-sentiment']||0,metric:'correct interpretation',winner:'B',lift:'+23.0%',segments:[['Beginner investors',44,76],['Long-term investors',63,84],['Active traders',72,89],['Risk-averse users',51,81]],findings:[['high','Beginners often interpret an unexplained score as investment advice.'],['med','Source context improves calibration across every segment.'],['low','Risk warnings are most effective beside the sentiment label.']]}
+    ];
+    function render(i){
+      var r=REPORTS[i];
+      var rows=r.segments.map(function(s){var d=s[2]-s[1],cls=d>0?'up':'down';return '<tr><td class="seg">'+s[0]+'</td><td>'+s[1]+'%</td><td class="win">'+s[2]+'%</td><td class="'+cls+'">'+(d>0?'+':'')+d+' pts</td></tr>';}).join('');
+      var finds=r.findings.map(function(f){return '<li class="gr-fi"><span class="gr-sev '+f[0]+'">'+f[0].toUpperCase()+'</span><span>'+f[1]+'</span></li>';}).join('');
+      body.innerHTML='<div class="gr-meta"><div><div class="gr-target">'+r.target+'</div><div class="gr-variants"><b>A</b> '+r.a+' &nbsp;·&nbsp; <b>B</b> '+r.b+'</div></div><span class="gr-agents">'+nf.format(r.agents)+' agents</span></div>'+
+        '<div class="gr-verdict"><span class="gr-badge">Variant '+r.winner+' wins</span><span class="gr-lift">'+r.lift+'</span><span class="gr-metric">'+r.metric+', population-weighted</span></div>'+
+        '<table class="gr-table"><thead><tr><th>Persona segment</th><th>A</th><th>B</th><th>Δ</th></tr></thead><tbody>'+rows+'</tbody></table>'+
+        '<div class="gr-find"><h4>What the agents found</h4><ul>'+finds+'</ul></div>';
+      var ds=new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+      var pm=document.getElementById('phMeta'), pf=document.getElementById('phFoot');
+      if(pm) pm.innerHTML=r.target+' &nbsp;·&nbsp; '+nf.format(r.agents)+' simulated agents &nbsp;·&nbsp; '+ds;
+      if(pf) pf.textContent='Generated by matrAIx — Agent Simulation for Evaluation · matraix.ai · '+ds+' · population-scale over 1,000 persona dimensions';
+    }
+    tabsEl.innerHTML=REPORTS.map(function(r,i){return '<button class="gr-tab'+(i===0?' active':'')+'" role="tab" data-i="'+i+'">'+r.tab+'</button>';}).join('');
+    tabsEl.addEventListener('click',function(e){var b=e.target.closest('.gr-tab');if(!b)return;var i=+b.dataset.i;[].forEach.call(tabsEl.children,function(c,k){c.classList.toggle('active',k===i);});body.classList.remove('flip');void body.offsetWidth;body.classList.add('flip');render(i);});
+    var pbtn=document.getElementById('grPrint'); if(pbtn) pbtn.addEventListener('click',function(){window.print();});
+    render(0);
+  })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,809 @@
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+Artificial Intelligence Governance
+Bakhit Moh’d Al Dajeh1
+Abstract
+Research on AI governance is important towards potentially useful and constraining affordable misuse, reduce new risks and economic
+trends that threaten to disrupt public political and economic trends, and drive off target as interest in advanced AI systems and the
+norms, focal points, and use of new AI research are potentially transformative and governance institutions aim to prevent. Potential
+public benefits from policy community re-using AI research are enormous, including reduced economic instability. A fundamental
+challenge in AI governance is a cognitive framing challenge: governing AI research requires understanding new kinds of safety risks,
+performance goals, and intended applications that advanced AI systems will make possible. Specifically, the letter focuses on how AI
+research could mitigate issues such as the possibility of AI capabilities getting concentrated within a small and hard-to-regulate group
+of actors, and ultimately recommends the prioritization of open research and collaboration, with concern for long-term social and economic
+looming to the forefront of coalitions if AI becomes an increasingly important aspect of the future economy and society.
+
+Keywords: Ai; governance; regulatory frameworks; legal aspects; ethical ai design.
+Introduction
+Efficient, continuous, and effective AI governance is necessary to unleash the technological advancements
+and benefits that AI can bring and to address the disruption and dislocation caused by the technology’s
+natural lifecycle and capability to learn. Effective AI governance might enable the achievement of objectives
+such as leading economic, capability, and lasting prosperity, and improving the human condition such that
+all citizens can thrive and benefit throughout their life._AdjustorThunk
+Be it through the simple assignment of a maintenance task to a wind turbine (K. Hadfield & Clark, 2023),
+or the testing of a potential treatment for a threatening disease such as COVID-19 (R. Pinsky et al., 2024),
+artificial intelligence (AI) is becoming a crucial instrument for society and its leaders to undertake the major
+transformative challenges of the twenty-first century. To equip AI with the capacity to fulfil society’s core
+objectives (e.g., enabling economic potential, improving health, welfare, and security, managing resources,
+mitigating emergent threats, and, especially relevant in the COVID-19 era, enhancing the management of
+difficult, irreversible transitions across systems) and to govern competently the rapid, disruptive
+consequences of AI emerging autonomously—an endeavor illuminated by the paradox of ‘governance of
+the AI, by the AI, and for the AI’ (W. Torrance & Tomlinson, 2023)—requires a decisive and competent
+response from the international community.
+
+Importance of Artificial Intelligence Governance
+There are increasingly numerous actors with divergent and often conflicting values, whose interactions are
+ever more influencing in high-stakes systems. As AI systems move into ever more high-stakes domains, it
+is increasingly important to ascertain about how any consequential systems will be governed, including by
+whom, with what tools, and toward which ends. This essay is a high-level overview of AI governance,
+encompassing considerations of what it means to govern AI reliably, integrate it productively in our lives,
+and serve public interest in a rapidly maturing, but little understood technology. AI governance sits at the
+crossroads of compliance and ethics. If compliance is “You should monitor the bleed rate and treat the
+symptoms,” then ethics is “You should also fix the hole before the patient bleeds to death” (Kazim &
+Soares Koshiyama, 2021). Beyond intent, the governance of AI is an imperative if we want humans to trust
+AI and beyond individual compliance it calls for a common framework for governance (McGregor &
+Hostetler, 2023). Its aim is to optimize a requirement set that includes concepts about efficiency, rankseeking between values, accountability, and confidentiality. Its optimization will approach regulator’s aims
+and constraints, continuing until requirements dominate value. The present work narrows the definition to
+focus on governance for AI systems, their creators, and their deployers at the corporate and organizational
+1 Assistant Professor of Civil Law- Faculty of Law - Zarqa University – Jordan. Email: balayedaldajeh@zu.edu.jo
+
+300
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+level. From within this frame of work, AI governance is essentially a practice designed to drive value and
+confidence in the outcomes that AI systems will deliver.
+Artificial Intelligence (AI) systems are powerful, but their potential for harm is also considerable (Ji et al.,
+2023; Torres & George, 2023; Tsaurai, 2023). They can perpetuate biases, displace jobs, widen disparities,
+and create monopolies, raise the cost of disinformation with new methods of manipulation and production
+of toxic media, and jeopardize global security with an AI race for global superiority. They can also pose
+existential catastrophic risks to humanity, such as unemployment or tools which are catastrophic or are
+likely to be used to bring about catastrophic outcomes. Hence, the task of governance is crucial to steer AI
+towards beneficial and safe development and deployment.
+Ethical Considerations
+The ethics of AI can be used to classify AI technologies outside or inside of the organization. The
+Copynations will function as government of the AI, deviced AI locker, and softjurisdiction. AI governance
+focuses on the variety of technical practices in particular fields, including production and supervision of AI
+or the services. In AI technology, it's about how to include reliable services. However, not all governance
+relates to the technologies themselves, the leading strategies government on specific conditions or
+command surveys that support their socialities of AI technology will often deviate from the other article.
+For example, ethical guidelines are distinct and relate to AI research and application. AI research involves
+inquiries about data, as these AI systems and their management come from different areas in AI, such as
+face, fairneess, accuracy, accountability, security, privacy, and privacy. Next, an abundance of AI ethical
+principles reviewed historical literature that anticipated AI technology. Various fields and technologies such
+as AI, flood them. It should be prioritized by communication between the product data and metal team,
+rather than general ethics, and decisions on the controversy’s resolution.
+The complex nature of AI technologies makes evaluating their ethical impacts difficult. AI technologies,
+including machine learning, deep learning, natural language processing, and computer vision, have
+demonstrated both great successes (Kazim & Soares Koshiyama, 2021) and challenges, particularly with
+respect to existing norms, values, and power structures (Radanliev & Santos, 2023). AI technologies are
+reshaping societies through decision-making in financial, employment, and healthcare systems and
+impacting social systems through predictive and monitoring capabilities. Algorithmic decision-making
+systems have innovated operations and can improve efficiency through automation monitors and
+compliance. The impacts of AI raise many ethical issues, but current AI governance is fragmented, with
+mapping efforts and proposals dispersed beyond efforts made by the general data protection return
+(GDPR) (McGregor & Hostetler, 2023).
+Accountability and Transparency
+Heeding for the collectively agreed regime on AI principles, the state regulatory enforcements can be looked
+over at as an unsuited and unworthy endeavour in enabling AI governance, presently. To overcome the
+trends and the black boxes control and secrecy, corporate culture changes with regulatory enforcement
+shifts are mandated for rendering transparency, and explainability. These regulatory enforcements are
+crucial to dictate the guidelines, structure and substance of AI governance, availability, accessibility and
+transparency for future AI tribunals. There should be compliances by adherence and by updating according
+to the laws, enforceability by adjudication, social acceptance, and in eliminating uncertainties. There should
+be clarity on the roles and responsibilities. There are more chances that these kinds of duties and liabilities
+also act as a norm for an AI provider for not producing any output with the foreseeable defects.
+With the evolving technology like AI, to ensure the AI system acts in accordance with legal, ethical and
+social responsibility, there is a need for an accountability framework that binds the AI manufacturers and
+users, in order to align AI systems to national and international legal standards and to respect fundamental
+rights including privacy and data protection. This regulatory framework is AI governance (Gill et al., 2022).
+AI systems must follow the principles of transparency i.e., the decision-making process followed by AI
+system is transparent, the AI system should be understandable, the algorithms and working of AI systems
+must be intelligible and easy for policy-makers and regulators to understand and interpret that could make
+them more accountable. They need to comply with intellectual property rights, data protection law and
+301
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+other such laws and policies. AI systems should be reliable and secure over different environments, and
+systems should be explainable and socially beneficial in their process .
+The current AI systems named as “Black-Box” are complex and have self-regulated and self-adjusting
+capabilities which is a non-linear relationship between the inputs and outputs. The development of machine
+learning and deep learning algorithms in which systems are trained on data and that continuously learn,
+adapt and adjust autonomously (Gupta et al., 2022). AI is unique because it is data-driven and relies on vast
+amounts of data and complex pattern recognition, it often performs in a manner that is incomprehensible
+or unpredictable to humans. As a result, AI can make decisions that appear high quality in the narrow task
+for which the system was designed, but that are problematic with respect to broader societal norms
+(McGregor & Hostetler, 2023).
+
+Current Challenges in AI Governance
+Relational challenges rest on social dilemmas when establishing and maintaining relationships with
+stakeholders. In this regard, the unmanageability of the complexity of the relationships and the challenges
+go hand in hand.Infosheets by governments or Soft Law consortiums can function as starting points for
+managing relationships in AI projects. To transform these Infosheets into a common standard to express
+clear stakes is on some firms and governments to decide. In addition, coalitions amongst stakeholders might
+help in establishing common ground where different interests are perceived and to ponder the pros and
+cons of an implementation from various points of view. To go a step further, the expression of tolerance
+in decision-making processes is one of the core aspects. This requires the capability to gain sufficient
+decision-making capabilities to counteract external responses. To foster a well-balanced decision-making,
+education on these aspects needs to be given utmost priority, the interviews suggest.
+Current challenges in AI governance consist of three crucial dimensions: structural, procedural, and
+relational (Papagiannidis et al., 2023). Structurally, organizations experience the importance of clearly
+defined roles, responsibilities, and decision rights in the deployment of AI technologies. Specifi- cally, with
+respect to AI, challenges are associated with uncertainties or ambiguities in the accountability for
+accountability of algorithm decisions. Procedural challenges come in different facets and are causally
+connected with structural challenges. On one hand, major hierarchies tend to reflect intransparency when
+decision-making is in place. On the other hand, organizations struggle with procedural consequences of
+decision power allocation. The all-encompassing character of AI governance highlights the perceived lack
+of guidelines on regulatory filings and tax schematizations (K. Hadfield & Clark, 2023). One crucial
+procedural tenet, not just in times of AI, is on how to involve and to evaluate stakeholders’ interests in
+decision-making processes. When involving stakeholders, power-related effects like the imposition of
+external interests on the decision-making party, that could be enhanced through AI technologies is to be
+considered. Furthermore, the introduction of AI technologies intrinsically demands organizational and
+individual change.Therefore, AI ethics matter both to gain trust and for reducing potential resistance (Leech
+et al., 2024).
+Bias and Discrimination
+Bias in algorithms, in particular machine learning models, can emerge at multiple stages between raw data
+acquisition and the use of model outputs in decision making. Common sources include structural
+inequalities made visible by data, historical injustice captured by biased training data and endpoint
+discrimination by the algorithm. There is also potential for human-induced biases throughout the
+development and use of an algorithm. Discrimination occurs where a decision-making process puts a
+specific group at a systematic disadvantage. In the EU as an example, discrimination law is primarily
+concerned with unequal treatment based on race or ethnic origin, religion or belief, disability, age, or sexual
+orientation. When setting boundaries for algorithmic discrimination in an operationalized sense, it is
+important to keep in mind that the European Union’s understanding of discrimination extends to the denial
+of reasonable accommodations and non-economic harm as a consequence of disadvantaged treatment.
+Bias and discrimination are well-recognized concerns in artificial intelligence and also in the broader context
+of algorithmic, data-driven decision making (Ferrer et al., 2020). Algorithmic bias, whether induced directly
+by machine learning models trained on biased data or caused by inappropriate model formulation, is in
+general considered a negative aspect of AI and, by extension, its applications, as are potential downstream
+302
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+harms such as discrimination based on protected characteristics. AI fairness and the assessment, handling,
+and mitigation of bias and discrimination are core to the various governance mechanisms and regulatory
+initiatives addressing them. Yet, inter-disciplinary differences in the understanding and operationalization
+of bias and discrimination have been so far given less consideration in AI governance. Furthermore,
+divergence in the assessment and attribution of data bias and model discrimination with respect to legally
+and ethically relevant characteristics is still a highly disputed aspect, particularly if trade secrets,
+confidentiality, or intellectual property rights are concerned.
+Privacy and Data Protection
+Moreover, Privacy Law often does not precluse disparate impact lawsuits. This is because Privacy and
+Antidiscrimination laws seek to enforce different policies (Saheb, 2024). Furthermore, Privacy Law and
+Antidiscrimination law use different theories of liability and measure of harm. Despite differences,
+proponents argue that Privacy law, including GDPR, can mitigate the disparate impact of AI-based
+decisions.
+While AI can help to reduce disparate impact, it can also amplify disparate impact. Only focusing on privacy
+harms, such as the exposure of sensitive images, this paper shows that current antidiscrimination law is
+unlikely to address many disparate impacts. This is because EU, UK, and US non-discrimination law is
+generally equity law, which focus theories of liability on fault, intent, reasonableness, and nondiscrimination,
+rather than negligence, on outcomes (Rezaeikhonakdar, 2023). Other reasons to question the ability of
+antidiscrimination law to address the disparate impact of AI-based decisions include the difficulty in
+demonstrating a specific intent or it is existence in judges, even in criminal law. Furthermore, proving a
+general policy of discrimination in civil law is notoriously difficult. Finally, most judicial interpretations of
+statutes speak to disparate treatment and intent rather than disparate impact, unless intent is readily
+apparent.
+The merging of different types of healthcare data in the data hub may also bear risks. KTQ has the task of
+ensuring that the data controllers - the users of its tech tools - comply with data protection standards. If
+KTQ requires data controllers or understands useful conditions the same way, data controllers may use
+KTQ to justify against the interests of third parties or individuals. Phrased broadly, KTQ’s aim to develop
+the data hub to a transparently self-regulatory system might result in a lock-in mechanism.
+In countries with a part-privatized healthcare system, COVID-19 posed the question of how patient data
+will be handled by public health institutions but also used by private companies for the purpose of
+commercial research (Kazim & Soares Koshiyama, 2021). One actor that has been traditionally involved in
+the handling of personal medical data is the pharmacy. With the expansion of its data hub to Austria and
+the announcement to include health data if the patient agrees to do so it takes a new privacy relevant role
+within this self-regulatory system. Patients will not only have to trust that pharmacies will safely handle their
+data as data controllers but also KTQ as a third-party tester of data protection standards. Both tasks could
+be problematic. The European subsidiary of KTQ was successfully challenged in German courts reducing
+its authority over its national branches. The autonomy and authority of the parent company in Austria have
+so far not been tested.
+Security and Cybersecurity
+Growth in AI adoption and AI-powered solutions will frequently integrate cybersecurity, and, as a result,
+there would be emergent properties that derive AI application as a “system” in the technology stack. AI
+integration necessitates a parallel constructive approach in addressing AI application through governance
+mechanisms (McGregor & Hostetler, 2023)._AI has a lot of potential to boost cybersecurity. AI’s
+effectiveness could make machines an active element in improving network security, but protecting AI will
+also be a cybersecurity concern because bad actors could target AI models. However, cybersecurity is
+difficult to implement since it has an enormous scale and adverse force stacked in attackers’ favor.
+Additionally, current cybersecurity solutions have some downsides which AI could potentially be good at
+addressing.
+In particular, AI could enhance, and pose risks to, security and cybersecurity. Automation and
+corresponding advances in speed, scaling, and overall capabilities offered by AI can revolutionize cyber
+capabilities in various disciplines, like computer network operations (e.g. scanning, targeting, and
+303
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+exploitation), network defense, and more. In certain instances, AI-based defenses have been efficient at
+improving cyber postures; however, widespread acceptance of AI commensurate with defensively and
+offensively viable technologies will also transform cyber volume, leading to a contest of defensive and
+offensive AI. Almost all AI implementations require technical data collection and computer
+communication, thus triggering cybersecurity considerations associated with internet-connected devices.
+Artificial intelligence (AI) technologies are widely regarded as transformative since they are expected to
+significantly affect all sectors and allow data-driven solutions to problems that have been intractable thus
+far (R. Pinsky et al., 2024). Over the last five years, investment in the AI ecosystem has significantly
+increased as large-scale digital systems correlated with AI have become deeply rooted in society. Worldwide,
+AI impacts key areas such as national security, the economy, the environment, geostrategic domains, the
+delivery of government services, and localized community services. National governments, nongovernmental organizations, academia, and industry must continue discussing both primary and subsidiary
+ramifications of AI. The key areas are AI readiness, governance, workforce/skills, funding, applied research,
+and data availability and access. The subsidiary caption areas must also be broadened, including trusted AI,
+AI competitiveness, and AI promotion (Papagiannidis et al., 2023).
+
+Frameworks and Guidelines for AI Governance
+Deciding how an AI system should behave when it encounters these ethical dilemmas involves the
+development and specification of concrete ethical frameworks. The in-principle ethical decision
+frameworks rely on different normative theories, such as deontology, consequentialism or virtue ethics, and
+are encoded in an algorithmic manner as decision procedures. The in-practice ethical decision frameworks
+aim to resolve tensions between the different ethical principles or deviating from the formalizes ethical
+decision modules entirely. Different strategies for specifying in-practice ethical decision modules exist and
+include the use of soft constraints and bounded-variable logics as well as data-driven and adversarial
+approaches. We recommend the formalization of collective norms, targeted transparency and shared ethical
+decision models as directions to further develop in-practice ethical decision modules (Kazim & Soares
+Koshiyama, 2021).
+The ethical dilemmas that arise when governing AI systems involve fairness, non-discrimination,
+accountability, transparency and harms in signal-independent decision contexts. We recommend the use of
+archetypal dilemmas to better understand the impact of different ethical decisions, the collection and
+sharing of more relevant datasets, and the use of ensemble-based decision-making to navigate uncertain
+fairness requirements (Cebulla et al., 2022).
+Frameworks and guidelines for AI governance are essential, as AI systems become more prevalent (Yu et
+al., 2018). This paper analyzes recent advances in technical solutions for AI governance, which relies heavily
+not only on algorithms but data and societal systems as well. We propose a taxonomy dividing the field into
+four areas: exploring ethical dilemmas, individual ethical decision frameworks, collective ethical decision
+frameworks and ethics in human-AI interactions. The paper highlights key techniques and discusses future
+research directions for the successful integration of ethical AI systems into society.
+International Efforts
+To address AI governance-related themes a combination of principles, standard and a series of unalike
+governance instruments is employed. Several governance solutions have been already proposed, primarily
+at the regional or national level. In Europe, the European Union recently announced to stakeholders and
+citizens about the establishment of governance structures for AI. The Proposal introduces five categories
+of AI, i.e. unacceptable, high-risk AI, limited risk AI, minimal risk AI, and the Proposal uses those categories
+to then state that the European AI governance structures include a series of governance instruments in
+order to govern possible harmful forms of AI. While in the US, some of the trends represent challenges to
+AI governance mechanisms, since the country appears increasing sceptic toward the implementation of AI
+governance systems (Kazim & Soares Koshiyama, 2021). The book offers some uniquemethodological
+tools to provide the analysis of soft-law instruments and presents a general definition of them. The book
+represents a key source of information for cherry-picking the soft-law instruments designed, in the area of
+AI in the field of scientific research and innovation, with the aim of highlighting the themes that are
+challenged by the governance instruments and normative principles and pointing out in a comparative
+304
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+perspective which one of the governance proposals enables the best institutional set up for the governance
+of AI in the scientific research and consequently represent the smart choice of the legislator in response to
+the democratization of AI.
+Policymakers face the complex landscape of international AI governance and discuss how the process of
+AI governance takes place in the context of the political and legal disputes between several collective actors
+(González-Esteban y Patrici Calvo, 2022). The European Union, in particular, has submitted a proposal for
+an AI governance system and has begun to promote coordinated efforts. The collective actors are struggling
+to define standards, principles and obligations for entities involved in the creation and dissemination of AI
+products and systems (Radanliev et al., 2024). The factors of governance of AI on the international level
+include complex dynamics, as a consequence of the heterogeneous legal and political traditions existing in
+different parts of the world, the tension between the legal authorities and the social process of the law, and
+the concern for AI's democratic implications.
+Government Initiatives
+The domain of artificial intelligence (AI) is currently experiencing a prolonged and significant period of
+growth and expansion. This is occurring both within the field of scientific research and innovation and in
+a variety of other sectors, where the profound social, economic, and ethical implications of AI are evident.
+As a standard response to such concerns, a large, international body of research, legislation, and codes of
+conduct is currently being developed to address the ethical, economic, and security implications of AI.
+Together, these measures are known as governance systems. Many initiatives also safeguard the public
+interest by promoting education and awareness and by conducting research to understand AI’s impact and
+engage AI developers in the design of governance systems.
+In the AI sector, numerous government initiatives have been created across a wide range of governance
+levels and contexts. Although each initiative is distinguished by its own unique characteristics, they can be
+used to categorize the types of objectives, principles, and governance measures that have been proposed in
+a comprehensible, systematic manner. These categories are instrumental in the sense that they cover an
+extensive range of ways that are necessary for the governance and management of AI technologies (Kazim
+& Soares Koshiyama, 2021). Therefore, to maximize their utility, they must be spread widely and integrated
+into existing regulations, standards, and norms, such that they are capable of being leveraged for the
+purposes of AI governance.
+Government initiatives on the topic of artificial intelligence (AI) can offer several advantages (GonzálezEsteban y Patrici Calvo, 2022). These include access to specialists with experience in governance, law,
+political science, and other fields, as well as greater resources. Government officials often have a detailed
+understanding of certain sectors and are aware of the many political, economic, and legal contexts in which
+AI is used. AI governance initiatives, like branches of government, can command considerable authority
+and power, which can make it easier for them to propose strong governance measures and enforce them
+(Batool et al., 2023).
+Industry Best Practices
+In recent years, an increasing number of best practices guidelines have been developed for AI, and many
+of these efforts are now turning toward accumulative impacts. Unlike standards, best practices are more
+rapidly developed and periodically reviewed and updated, which enables them to better accommodate the
+field’s rapid technical advancements and the fast changing ethical and governance landscape. While
+understanding these ways is crucial for future cooperation between stakeholders, these ways at the same
+time provide heuristics to organize industry-led best practices and their impacts.
+Conclusion
+A typical ISO-led process follows a staged approach; starting with working groups securing top-level
+agreement of needs to be covered by the standard, to defining a framework,
+elicitation/consultation/inclusion stage, to drafting a standard, to public comment, to standards approval,
+to implementation and application when used as a basis of legislation and public policy. AI best practices
+should be shorter-term (Yu et al., 2018).
+Problem-Driven vs Activity-Based Standards
+305
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+Standards are a frequently discussed tool for ensuring that AI practices align with a wider range of
+stakeholder needs, and it might have been expected that discussion of best practices would largely focus on
+development of these standards. However, recent meetings between aligned stakeholders (including
+standards development organizations and industry-led best practice efforts) have emphasized that standards
+are slow, high-bar and often relatively inflexible (Constantinides et al., 2023). This fact has, paradoxically,
+made best practices more attractive to many stakeholders, particularly those working in smaller enterprises
+and niche areas, who see them as more accessible and easier to use.
+Standards
+Efforts to develop and promote best practices initiatives in the field of artificial intelligence (AI) have grown
+over the past several years, both across individual companies and by independent industry groups trying to
+foster consistent AI approaches across multiple sectors. Companies like BSA, IBM, Intel, and Microsoft,
+for example, have each sought to advance discussions of responsible AI through the establishment of
+various board-level efforts and partnerships; and industry groups like the T20 recently went so far as to
+highlight industry-led best practices as one of the key means of addressing AI challenges on an international
+scale (Nganyewou Tidjon & Khomh, 2022). The cautious embrace of industry-led AI best practices is a
+symptom of many factors, but is chiefly a reflection of the reality that industry groups are often best
+positioned to translate broad frameworks into specific practices. Moreover, while they are not a silver bullet,
+best AI governance practices can redound to various social benefits, so their use is often broadly popular.
+Introduction
+
+Regulatory Approaches to AI Governance
+Taking problems of regulatory dialectics as a point of departure, here, we offer a framing of AI governance
+as a socio-technical exercise revolving around attempts to anticipate and govern its far-reaching implications
+for society both in the short and the long run. We construct this framing with reference to its institutional
+underpinnings, the Public Quality of AI, and argue that it captures the interplay between public and private
+interests that should shape the contours of the AI regulatory landscape. AI technology presents a range of
+challenges that are not currently well addressed because they span a variety of domains and do not fit neatly
+into any existing regulatory framework. The article reviewed commercial software liability in general, then
+examined the potential for such broad-based liability to compensate people adversely impacted by AI
+systems. The article then raised the risks of having too broad a software liability regime, warning that overly
+aggressive liability could stifle the development of transformative AI technologies.
+Given the growing policy concerns about the application and diffusion of AI-based technologies, regulatory
+approaches are becoming an increasingly relevant topic both at the legislative level and a subject of scholarly
+inquiry (Papagiannidis et al., 2023). Three main courses of action have emerged for policymakers and
+regulators as they contemplate their responses to AI: i) a case-by-case or ex-post ill-defined rules and
+standards; ii) technology-prescriptive regulation; iii) impact-based regulation (McGregor & Hostetler, 2023).
+Together with the ever-increasing rhetoric that pits the economic potential of AI against regulatory risk,
+the regulatory dilemma surrounding AI also produces a problem of language: the illegible and often opaque
+nature of the technology complicates not only its governance but also the very process of public deliberation
+around it (Choudhury, 2022).
+Self-Regulation
+Despite the availability of ethical guidelines, discussions on operational principles, and self-regulation of
+firm behaviors, the concern regarding transparency, fairness, accountability, explainability, and security of
+AI still remains and there are increasing calls from various stakeholders –including AI users, consumers,
+employees and members of the general public- for centralized regulatory interventions. There can be several
+reasons for user dissatisfaction with firm self-regulation. One potential reason is that firms’ understandings
+of “responsible AI” can differ from those of AI users and other stakeholders given the diversity of
+organizational contexts, institutional constraints, and end-user requirements. Moreover, the methodologies
+and metrics used to define and diagnose issues in modern AI systems are not well established. Techniques
+may evolve and there could be substantial lags between the time when actions are taken and their potential
+306
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+impacts are measured. A credible commitment to oversight, transparency, and user representation is also
+missing from many firm self-regulatory initiatives. Neither users nor regulators currently have the
+information necessary to assess the effectiveness of many responsible AI systems.
+The absence of effective AI governance can cause serious harms to society, with substantial economic costs
+and far reaching legal and ethical implications (Gupta et al., 2022). In many instances the behaviors of AI
+system will closely associated with the principles of developed models (Ji et al., 2023). Currently systems
+that can be identified as "responsible AI" rest on a series of ethical, organizational, and technical principles.
+These principles are however non-exhaustive, deeply connected to context and ever-evolving. Given the
+difficulties in interpreting these principles, organizations interested in AI need to decide how best to
+operationalize them. This need for operationalization gives rise to the need of self-regulation, a process
+where organizations disclose information about how they follow the principles and provide justifications
+for those decisions and outcomes (Lu et al., 2022).
+Co-Regulation
+The ICCP form documents to investigate structure to investigate, unknown how and not to self-regulate
+how it will resolve and how it can compel disclosure of discovery. The problem is most agencies and
+government departments don’t have or retain relevant information anyway. They have the ability to monitor
+how the industry is going and look at problems general patterns that are evidence base where as selfregulation won’t. In general, self-regulation doesn’t have a light Documentary evidence for monitoring
+these activities. Self-regulation key stakeholders whether industry or markets don’t encourage it. Capture
+regulatory activity one challenge the industry legitimacy can easily argue that the self-regulation’s best
+product at it. expert and industry body’s grasp of it. external scrutiny by regulators including incentive that
+self-regulated bodies to adopt proactive measures resorted to statutory regulation to counter light touch
+documentary evidence ground its complaint informal, dispute resolution, powers court of law external
+remedies enforcement actions.
+Ethically governing AI requires collaborative effort between diverse stakeholders including a robust coregulatory mechanism. Given the complex and multi-disciplinary nature of AI, diverse stakeholders should
+be involved in AI governance both in the process, shaping the outcome of AI systems and pushing back
+against unfavorable outcomes. A state-party, private party, or market party, is responsible for establishing
+appropriate governance system for AI .complaint bodies whose work is to address consumers ‘disputes
+Travel industry ombudsman,Dental Complaint Service,Australian Financial Complaints Authority. We
+Need for a Co-Regulatory System for AI The process and outcomes of AI governance can affect a range
+of stakeholders whose dignity and well-being are at stake (Radanliev et al., 2024). These stakeholders should
+be involved in the construction of AI governance systems designed to protect them.
+Governance and co-regulation models have been suggested as a means of effective AI governance and to
+oversee Governance the development of AI-based applications (González-Esteban y Patrici Calvo, 2022).
+In AI governance, a fundamental aim is to promote effectiveness, accountability, and due regard for wider
+public interests. It entails building robust AI systems that are resilient to various forms of tampering and
+misuse. Responsibility for AI governance cut across technologists, policy makers, legal experts, feminists
+and other relevant experts. A fundamental goal in Artificial intelligence is to design AI systems so their
+goals align with human values and societal and environmental interests (Ji et al., 2023).
+Government Regulation
+Investor demand and competition act as a disciplinary mechanism that encourages attention to AI
+governance. The financial sector is sometimes assumed to be holding a more competitive position in
+technology and data governance, thanks to its incentive to protect corporate reputation and profit margins.
+Thus competition can encourage a race in compliance best practices. For at least a subset of large, highrevenue, or public-facing financial institutions, the need to maintain institutional credibility, authority, and
+validity as a form of licensing and public acceptance or trust could become the primary gatekeeper of
+algorithm governance.
+Data deemed sensitive that is routinely processed and shared in employment contexts–such as bank data,
+or student or health data–would be more highly protected. But for as long as algorithm governance is
+indirect, there is not nearly as clear-cut a case for extending it (regulation) across entities (even less so across
+307
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+borders). It is possible meanwhile that national and union policy-makers within the EU might encourage
+or mandate larger companies to share their algorithms.
+GOVERNMENT REGULATION Appropriate use of data is also a key concern for many of those
+primarily interested in managing business risks (McGregor & Hostetler, 2023). As of such, it is plausible
+that they will take action to mitigate harm from widespread breaches of trust in AI. For regulated entities
+specifically, responding to regulatory pressure will be the primary driver raising awareness of risks that are
+inherent to the collection, storage, and sharing of user, customer, and employee data. Entities already
+subject to legal and prudential requirements that address AI-related risks specifically (e.g., vendor
+management or onboarding) might extend them to satisfy corporate responsibility with respect to
+technology-related business risks. If requirements were to explicitly apply to algorithms, they would vary
+with risk profile (and not be the same for all AIs) in enterprises.
+INTRODUCTION The issues in need of some form of AI governance that tend to lead public discussion
+(like privacy, allocation of decision-making responsibilities, compliance with legal norms, or AI
+discrimination) are often governed under pre-existing legal or institutional frameworks (e.g., as data
+protection, or administrative, anti-discrimination, or criminal law) (Roski et al., 2021). Coordinated and
+automatic methods of processing data at scale can at the same time newly pose individual or systemic
+concerns that often fall through existing checks and balances. However, a number of technological,
+financial, and legal conditions have emerged that seem to point in the direction of increased demand for
+AI-specific governance (Leech et al., 2024).
+
+Role of Stakeholders in AI Governance
+References characterizing spot-on alignment in the socio-technical systems of AI governance are crucial
+and include competencies, limitations, and degrees of knowledge about the flow of technological
+developments and improvements insofar as they influence outcomes and ascribed knowledge. In practice,
+the societal influence of AI is acknowledged and taken meaningfully into account. To ensure a balanced
+and equitable approach to AI engineering practice, its impact needs to be managed effectively and
+systematically. This also means that societal influence in both building and managing AI needs to be
+recognised and incorporated effectively, your decisions need to be taken in partnership with policymakers
+and the community. To ensure the materialization of ethics and suitable standards is enforceable and thus
+sustainably developed in the development and implementation of AI technologies, AI governance may
+provide the conceptual and policy mechanisms that cultivate mechanisms and systems that allow for all
+undesirable outcomes related to AI to be liable.
+To address the increasing impact of Artificial Intelligence (AI) and AI-based systems, global efforts are
+being steered towards creating effective AI governance that includes ethical values (Kazim & Soares
+Koshiyama, 2021). Efforts to conceptualize the fundamental principles and values to guide the design,
+deployment, and use of artificially intelligent systems include AI policy from industry, government, and
+educational institutions, AI-specific ethical guidelines and principles, as well as AI ethics boards and drives
+to build a variety of standards, guidelines, and frameworks (Lu et al., 2022). In the context of AI ethics or
+good AI governance, these activities come under the direct influence of stakeholders. The term stakeholders
+is used broadly to characterize any parties with a concern in AI and AI-based systems (Choudhury, 2022).
+The potential roles of stakeholders in AI governance and management processes are significantly different.
+The explicit participation of stakeholders in any AI governance model can be essential. In other governance
+processes, less rigid models specify requirements and guidelines across a selection of stakeholders,
+influencing each other and being guided by common interests or certain principles and standards decided
+upon by stakeholders.
+Government Agencies and Policymakers
+In parts of the world that have traditionally been reactive to new technology, many government agencies
+are taking steps to develop thoughtful and future-looking approaches to AI. MEITY is striving to use
+quality-crafted legislation to address knowledge gaps, and the organization has set up a top-level AI
+committee to guide its work. Additional task forces led by other officers are tackling various AI-related
+topics such as data protection, e-surveillance, and intercept tools. Similarly, Europe, a traditional leader in
+regulation, has been proactive in establishing guiding principles for the ethical development and deployment
+308
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+of AI. In recent years, EC has passed AI-specific regulations targeting things including the IoT, liability,
+and data protection. Moreover, members of European governments are working to establish an AI safety
+and liability testing center that would clarify which AI development is legal and its operational limits. And
+stakeholders are working together. For example, SEC has established an AI ethics lab that facilitates public
+engagement by convening policymakers and national deliberation bodies (Plantinga et al., 2023).
+Government agencies and policymakers are stepping up to the challenge of regulating artificial intelligence
+(AI). Some governments have elected to establish new government agencies to conduct AI-related research
+supply chain issues, national security and privacy concerns, and to strategize about the global AI landscape
+(Dixit et al., 2021). Policymakers internationally have begun to pass legislation addressing specific AI
+applications, such as facial recognition technology, even as conversations around broader AI regulation
+continue. Unlike most AI-specific regulations, which ban or limit certain uses, policies requiring public
+sharing of certain AI training and testing data have the potential to encourage socially responsible AI
+development (K. Hadfield & Clark, 2023).
+Technology Companies
+Despite this, technology companies have been criticized for failings in AI governance, which include not
+contributing to AI governance, actively undermining AI governance, and ‘outpacing’ AI governance efforts.
+Negative impacts of the use of AI and incorrect behaviour averages have frequently been reported publicly.
+The launching in the existing market of several unethical AI systems which have catastrophic impacts on
+society over the last few years has also reinforced public doubts about AI. The companies that build and
+sell AI systems are the recipients of this critique, as well as the effects of the systems. The International
+Progress Organization has argued that the “market’s predilection for negative impacts” comes from an
+“alignment gap” which is the “tendency for developers and sellers of technologies with potentially harmful
+impacts to continue offering those systems to customers despite the potential for misuse and the negative
+ramifications of this misuse”.
+Technology companies have a critical role in the governance of artificial intelligence (AI). They drive the
+development and application of AI through research and product development, create AI systems and
+provide AI-enabled services that disseminate AI throughout all other economic sectors and provide
+incentives for AI to be used widely. As a result, they have the potential to ensure that they take into account
+social, ethical, and democratic values in the design and application of these systems and services [ref:
+348CE1EF-70A3-4ED0-8E09-998E568F86D9]. Joy et al identify several ways that technology companies
+can contribute to the governance of AI [ref: BB0ABB3D-BC72-43BC-AB7D-A1D26FBFB068]. They can
+intentionally work towards ‘alignment with human values’ in the deployment of AI technologies, and they
+can demonstrate the ‘transparency and replicability’ of AI systems to enable accountability. They can strive
+for collaborative determinations of ‘beneficial fitness function’, indicating that the objectives to which an
+AI system is aligned must not be determined solely by the companies or developers behind them. Finally,
+technology companies must reflect upon the ‘respectful treatment and meaningful consent of participants’
+in the sustainable development of AI.
+Civil Society Organizations
+In the multilevel framework proposed in the article, since there is the intention to cover all the organizations
+and individuals that can have a relevant role in the governance of AI, civil society has its own area in the
+macro level, and a whole specific content throughout the three levels shown in the normative level. There
+are 2 principles specifically designed for that: representativeness and activism. Moreover, it is considered
+the participation from civil society, as well as the protection of their rights (specific principle for them). The
+internal and external structural elements of the norms of the framework enable its adoption and application
+in a wide range of contexts, with both top-down and bottom-up IT governance implementation
+applications, and also from centralised countries to federal or, even, continental states. In addition to federal
+states, other political system typologies, like confederations and federations, can also benefit from it. AI/IA
+GOUVERNANCE MODELS ADOPTION: The multilevel framework enables multiple organizations’
+levels and all relevant stakeholders to embrace AI governance. CSOs must have an active role in governance
+and adopted this governance models to reach a high level of participation of this important type of agent
+as formal and public consultative and governmental bodies, agencies and departments in decision taking
+309
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+and public consultation to enable the exchange between all relevant nstakeholder (Choung et al., 2023).
+Additionally, civil society actors may petition to have institutionalized representations and voting capacities
+throughout multistakeholder institutions and governance bodies. The governance models should adress
+and include multi-stakeholder medium for governance, coalition building and collective action. AI
+governance should must have some form of oversight obligation which checks for societal impacts of AI
+in providing public accountability. CONCLUSIONS AND FUTURE WORK: In this paper, the
+integration of CSOs in AI/IA governance models has been fully developed and included in the multilevel
+framework enabling AI governance. Hopefully, regulators and other rule makers, in the next years, will
+embrace the full participation of all relevant actors as the AI/IA complexity demands a horizontal and
+multi-stakeholder participation (Nasir et al., 2023). The relationship of the norms and principles of the
+AI/IA governance models and the pillar of the IRGC (2017) ethical framework shows that, finally, at least
+most of the norms are included in the principle according to the ethical one. In the future, the study of the
+governance model implications and possible systemic transformations of power and authority in the case
+they will be implemented, as changes in legitimacy, decision making, distribution of resources and wealth,
+as well as the capacity of this norms and principles to develop sustainable and resilient future systems.
+BACKGROUND: Civil Society Organizations (CSOs) have an important role in the implementation and
+development of AI Governance Models. According to Estebanez (Rakova et al., 2020) and Estebanez and
+Taddeo (2020), CSOs should be seen as complementary entities in AI governance. According to them, the
+participation of CSOs can include involvement in public consultations and dialogues with governments,
+corporations, and other stakeholders. Also, their influence could also cover actors like educational
+institutions, think tanks, and research centers. In the next table, data from the resume of the 13 versions of
+the AI and IA governance models are shown in order to know how governance models have these entities
+into account in their principles and pillars, as well as the specific principles and responsibilities for these
+entities are analyzed.
+
+Future Trends in AI Governance
+While the above governance tools might be the most promising, the paper predicted that their
+implementation will be most likely suboptimal, due to the lack of technical capacity among public, and in
+some cases also private, actors. Therefore, it has been recommended to upscale further capacity for
+effecting AI governance (e.g. AI Impact Centers or invited audits) and deploy Sustainable and Safe AI
+Development Goals (SSADGs) to guide sectoral strategies and reverse the trend of AI innovation being
+global in scope and AI governance being local (Constantinides et al., 2023).
+In light of these challenges, this paper outlined some of the limitations of existing AI governance. It has
+then provided recommendations on how to recalibrate the balance between individual and collective risks
+and benefits arising from AI adoption. This paper argues that instead of only relying on ex-post
+mechanisms, such as AI impact assessment, bias assessment or certification, governments need to shift the
+gaze towards ex-ante tools, such as AI impact-centric policies, risk-based governance or conditional
+anchoring (Saheb, 2024).
+This paper has outlined the current governance mechanisms for Artificial Intelligence (AI). Its purpose has
+been to convey a picture of the current state of governance and the challenges that AI faces. Despite the
+ambitious purpose of AI governance, policy implementation has proved significantly more elusive (Qin et
+al., 2023). Challenges generally stem from the high complexity of AI systems, which makes their assessment
+much more difficult than for other technologies.
+Advancements in AI Technology
+While AI is most transformative, it is also most disruptive in financials. Particularly for country like India
+where digital transactions are accelerating and stock market is increasing at global exorbitant rate(Eroğlu &
+Karatepe Kaya, 2022). Equity delivery Volumes in November 2020 was 17,495.48 crore whereas
+derivatively contracts were 27467.79 crore, futures was 20,432.38 crore and options was 4,930.41 crore.
+These numbers are continuously increasing so we need to have multi-prong approach dealing with it. Along
+with SEBI and other major regulative bodies to have their approach towards this new algorithm that are
+being traded on day to day basis. These algorithms have no strategy and are trailing at round, trade in large
+quantities and mange to drive up stock prices by profuse buying of stocks.
+310
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+AI can drive economic and industrial transformation. It will impact how we work. This is happening
+because of advancements in AI technology particularly in machine learning and robotics that are reducing
+the cost of prediction and changing our information landscape(Leech et al., 2024). This has wideranging
+implications for shaping corporation and capital, organisation and authority, and values and politics. AI is
+even making traditional hard problems look soft. Government should also make investment in national
+funds targeting hard problems in AI spanning across healthcare, defense, agriculture, primitive
+manufacturing and financials(Whittlestone & Clarke, 2022).
+Evolving Ethical Standards
+In early 2020, the World Health Organization (WHO) developed guidelines to govern the use of artificial
+intelligence (AI) in health care. The group used six AI guidelines in an effort to yield benefit from AI and
+improve the health of global populations. WHO anticipated worldwide health care systems would need AI
+to support operations in areas such as symptom screening, digital health records management, adherence
+monitoring, prescription searches, and data-driven clinical decision support. Physicians and policymakers
+could deploy AI as needed according to the ethical principles, guidelines for health care system
+optimization, use cases, natural language processing applications and coverage and capacity mechanisms.
+WHO's guidelines addressed the remarkably broad scale of AI capability and applications in health care,
+equitably considering different technologies in low income and high resource settings, proprietary versus
+open access solutions, and use of security mechanisms by default to mitigate the impact of malicious actors.
+WHO additionally indicated use cases for AI in health care.
+Nevertheless, the relevance of rapidly created global political norms appears to be implicitly acknowledged,
+at least as a temporary expedient. As essential tools, their worth is clear. COVID-19 response to today,
+digital contact tracing apps, regulatory panels, stockpiles of essential medical supplies, and collaboration
+and knowledge sharing in researching vaccines figure as best envisioned as being put in play through global
+policy dialogue. As rapidly designed global norms namely, political guidance, ethical pluralism relevant
+expertise and standard maintenance—on AI governance as on global pandemic governance seemingly are
+sorely deficient –don’t be asked to perform these two functions particularly well . Ethical stewardship where
+international bodies make difficult decisions within somewhat ambiguous political mandates, thus, rightly
+is regarded as largely beyond the scope of global politics today. Definition of success is difficult to articulate
+when assessing broad societal reform such as inclusive education of AI’s harmful biases or national defense
+gas or weapons. Coordination on nearly purely technical tasks, as well ought to be less controversial to
+execute practically. Nonetheless political hurdles in our technical fixes still lie in our way, as governmental
+support, public trust, and sustainable financing have bedeviled the uptake of digital contact tracing apps.
+Ethical standards play a pivotal role in the effect of society and technology. National leaders, policy makers,
+and corporate managers are constantly deciding which health, education, and disease systems ought to be
+adopted and implemented in relation to the societal benefits they short and long-term give . As
+demonstrated by the new challenges, technologies, and calls for rapid policy reaction, global health and
+large-scale emergencies differ significantly from most traditional policy problems . It may be hard to reach
+a consensus as societies are the product of sophisticated cultural, linguistic, legal, and social heritage of
+office seekers to craft harmonious international norms as to why some technology companies such as
+Amazon, Microsoft, and Google or Internet-using governments wants to create AI-governed world.
+Global Collaboration
+AI governance is a relatively new and dynamic topic. This means that the issue is on the ‘agenda’ and with
+an agenda shift the governance menu can become alive too. As such, some European policy makers have
+a view that Europe can ‘lead globally’ if European governance institutions and governance standards are
+attractive to use. Open collaboration, however, may bring ideas and concerns from many jurisdictions
+around the world. The AI regulation (Art 55) enables non-European organisations to certify with an EU
+based certifier on AI governance if they believe that AI EU governance (based on European values) is more
+trustworthy than AI governance based on other standards (Kazim & Soares Koshiyama, 2021).
+The competition between the US and Europe has united them around the idea that governments should
+intervene in AI in a way that also likely sparked this development of governments working anywhere
+globally. In 2021, the US and EU (among others) agreed on an AI governance standards roadmap for
+311
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+Campus policy governance and Chinese Government AI research in AI Research. Furthermore, through
+the EU’s AI Observatory and Forum, EU-based AI organisations will promote AI governance principles
+in standardization, certification, or procurement requirements (AI procurement policies, regulation, ethical
+sourcing policies and guidelines, anti-money laundering and countering terrorism financing policies in AI
+procurement, and procurement coordination) (Ho et al., 2023).
+In recent years there has been an acceleration in global collaboration and cooperation in AI governance.
+Important global developments of AI policy have been taking place over the last years: The OECD AI
+principles in 2019, The AI 2020 technology strategy of the EU, the GPT-3 and GPT-2 export controls in
+2020 (Leech et al., 2024). For example under the G20 AI governance deal signed in 2019 all G20 countries
+agreed to a minimum set of AI ethics standards, as proposed earlier by the OECD in G20 meetings. In
+Europe AI governance is part of the European Data Strategy, the European AI Strategy and is one of the
+ten key European digital goals and AI is subject to the European AI regulations proposed in 2021. The AI
+regulation gives rise to a new AI agency to coordinate AI governance across the EU.
+
+References
+K. Hadfield, G. & Clark, J., 2023. Regulatory Markets: The Future of AI Governance. [PDF]
+R. Pinsky, M., Bedoya, A., Bihorac, A., Celi, L., Churpek, M., J. Economou-Zavlanos, N., Elbers, P., Saria, S., Liu, V., G. Lyons,
+P., Shickel, B., Toral, P., Tscholl, D., & Clermont, G., 2024. Use of artificial intelligence in critical care: opportunities
+and obstacles. ncbi.nlm.nih.gov
+W. Torrance, A. & Tomlinson, B., 2023. Governance of the AI, by the AI, and for the AI. [PDF]
+Kazim, E. & Soares Koshiyama, A., 2021. A high-level overview of AI ethics. ncbi.nlm.nih.gov
+McGregor, S. & Hostetler, J., 2023. Data-Centric Governance. [PDF]
+Ji, J., Qiu, T., Chen, B., Zhang, B., Lou, H., Wang, K., Duan, Y., He, Z., Zhou, J., Zhang, Z., Zeng, F., Yee Ng, K., Dai, J., Pan,
+X., O'Gara, A., Lei, Y., Xu, H., Tse, B., Fu, J., McAleer, S., Yang, Y., Wang, Y., Zhu, S. C., Guo, Y., & Gao, W., 2023.
+AI Alignment: A Comprehensive Survey. [PDF]
+Radanliev, P. & Santos, O., 2023. Ethics and Responsible AI Deployment. [PDF]
+Gill, N., Mathur, A., & V. Conde, M., 2022. A Brief Overview of AI Governance for Responsible Machine Learning Systems.
+[PDF]
+Gupta, A., Wright, C., Bergamaschi Ganapini, M., Sweidan, M., & Butalid, R., 2022. State of AI Ethics Report (Volume 6, February
+2022). [PDF]
+Papagiannidis, E., Merete Enholm, I., Dremel, C., Mikalef, P., & Krogstie, J., 2023. Toward AI Governance: Identifying Best
+Practices and Potential Barriers and Outcomes. ncbi.nlm.nih.gov
+Leech, G., Garfinkel, S., Yagudin, M., Briand, A., & Zhuravlev, A., 2024. Ten Hard Problems in Artificial Intelligence We Must
+Get Right. [PDF]
+Torres, P. S., & George, B. 2023. Disruptive transformation in the transport industry: Autonomous vehicles and transportationas-a-service. International Journal
+of Emerging Trends
+in Social Sciences, 14(1), 28–37.
+https://doi.org/10.55217/103.v14i1.614
+Tsaurai, K. 2023. Does foreign direct investment affect poverty in BRICS?. Asian Economic and Financial Review, 13(3), 216–
+227. https://doi.org/10.55493/5002.v13i3.4758
+Ferrer, X., van Nuenen, T., M. Such, J., Coté, M., & Criado, N., 2020. Bias and Discrimination in AI: a cross-disciplinary perspective.
+[PDF]
+Saheb, T., 2024. Mapping Ethical Artificial Intelligence Policy Landscape: A Mixed Method Analysis. ncbi.nlm.nih.gov
+Rezaeikhonakdar, D., 2023. AI Chatbots and Challenges of HIPAA Compliance for AI Developers and Vendors. ncbi.nlm.nih.gov
+Cebulla, A., Szpak, Z., Howell, C., Knight, G., & Hussain, S., 2022. Applying ethics to AI in the workplace: the design of a scorecard
+for Australian workplace health and safety. ncbi.nlm.nih.gov
+Yu, H., Shen, Z., Miao, C., Leung, C., R. Lesser, V., & Yang, Q., 2018. Building Ethics into Artificial Intelligence. [PDF]
+González-Esteban y Patrici Calvo, E., 2022. Ethically governing artificial intelligence in the field of scientific research and
+innovation(). ncbi.nlm.nih.gov
+Radanliev, P., Santos, O., Brandon-Jones, A., & Joinson, A., 2024. Ethics and responsible AI deployment. ncbi.nlm.nih.gov
+Batool, A., Zowghi, D., & Bano, M., 2023. Responsible AI Governance: A Systematic Literature Review. [PDF]
+Constantinides, M., Bogucka, E., Quercia, D., Kallio, S., & Tahaei, M., 2023. A Method for Generating Dynamic Responsible AI
+Guidelines for Collaborative Action. [PDF]
+Nganyewou Tidjon, L. & Khomh, F., 2022. The Different Faces of AI Ethics Across the World: A Principle-Implementation Gap
+Analysis. [PDF]
+Choudhury, A., 2022. Toward an Ecologically Valid Conceptual Framework for the Use of Artificial Intelligence in Clinical Settings:
+Need for Systems Thinking, Accountability, Decision-making, Trust, and Patient Safety Considerations in Safeguarding
+the Technology and Clinicians. ncbi.nlm.nih.gov
+Lu, Q., Zhu, L., Xu, X., Whittle, J., & Xing, Z., 2022. Towards a Roadmap on Software Engineering for Responsible AI. [PDF]
+Roski, J., J Maier, E., Vigilante, K., A Kane, E., & E Matheny, M., 2021. Enhancing trust in AI through industry self-governance.
+ncbi.nlm.nih.gov
+Plantinga, P., Shilongo, K., Mudongo, O., Umubyeyi, A., Gastrow, M., & Razzano, G., 2023. Responsible artificial intelligence in
+Africa: Towards policy learning. osf.io
+
+312
+
+Journal of Ecohumanism
+2024
+Volume: 3, No: 4, pp. 300 – 313
+ISSN: 2752-6798 (Print) | ISSN 2752-6801 (Online)
+https://ecohumanism.co.uk/joe/ecohumanism
+DOI: https://doi.org/10.62754/joe.v3i4.3515
+
+Dixit, A., Quaglietta, J., & Gaulton, C., 2021. Preparing for the future: How organizations can prepare boards, leaders, and risk
+managers for artificial intelligence. ncbi.nlm.nih.gov
+Choung, H., David, P., & S. Seberger, J., 2023. A multilevel framework for AI governance. [PDF]
+Nasir, S., Ahmed Khan, R., & Bai, S., 2023. Ethical Framework for Harnessing the Power of AI in Healthcare and Beyond. [PDF]
+Rakova, B., Yang, J., Cramer, H., & Chowdhury, R., 2020. Where Responsible AI meets Reality: Practitioner Perspectives on
+Enablers for shifting Organizational Practices. [PDF]
+Qin, Y., Xu, Z., Wang, X., & Skare, M., 2023. Artificial Intelligence and Economic Development: An Evolutionary Investigation
+and Systematic Review. ncbi.nlm.nih.gov
+Eroğlu, M. & Karatepe Kaya, M., 2022. Impact of Artificial Intelligence on Corporate Board Diversity Policies and Regulations.
+ncbi.nlm.nih.gov
+Whittlestone, J. & Clarke, S., 2022. AI Challenges for Society and Ethics. [PDF]
+Ho, L., Barnhart, J., Trager, R., Bengio, Y., Brundage, M., Carnegie, A., Chowdhury, R., Dafoe, A., Hadfield, G., Levi, M., & Snidal,
+D., 2023. International Institutions for Advanced AI. [PDF]
+
+313
+
+

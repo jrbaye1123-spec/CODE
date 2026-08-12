@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>matrAIx — Persona Attribute Survey</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="description" content="Fill all 1,290 persona dimensions across 43 categories and export attributes.json." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css%3Fv=9.css" />
+  <link rel="stylesheet" href="play.css%3Fv=32.css" />
+  <link rel="stylesheet" href="dark-theme.css%3Fv=5.css" />
+  <link rel="stylesheet" href="subpages-light.css%3Fv=2.css" />
+  <link rel="stylesheet" href="navigation.css%3Fv=2.css" />
+<link rel="icon" type="image/png" href="MatrAIx_Logo.png"></head>
+<body class="play-body">
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html" aria-label="MatrAIx home">
+      <span class="brand-name">Matr<em>AI</em>x</span>
+    </a>
+    <nav class="nav-links" id="primary-navigation" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="index.html.1.html">Research</a>
+      <a href="index.html.1.1.html">Personas</a>
+      <a href="index.html.1.2.html">Applications</a>
+      <a href="index.html.1.3.html">Playground</a>
+      <a href="index.html.1.4.html">Community</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+    <a href="https://github.com/MatrAIx-ai" class="nav-github" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="index.html.1.4.html" class="btn btn-solid nav-cta"><span class="dot live"></span> Join us</a>
+  </header>
+
+  <main class="play-main">
+    <section class="play-head">
+      <div class="hero-eyebrow">
+        <span class="tick">//</span> PERSONA ATTRIBUTE COLLECTION
+        <span class="sep">—</span>
+        <span class="status"><span class="dot live"></span> V1 BUILDER</span>
+      </div>
+      <h1 class="play-title" id="titleText">Persona Attribute Survey</h1>
+      <p class="play-intro" id="introText">
+        Curious to understand yourself through the MatrAIx persona framework? Share your experiences, preferences, and behavioral tendencies to build your own Persona. When you finish, you will receive a personalized report covering your core traits, strengths, behavioral patterns, and growth areas.
+      </p>
+      <p class="play-sub" id="subtitleText">
+        Work through 43 categories of persona dimensions, one category at a time. Every answer is saved locally the moment you make it, so you can stop and pick up where you left off.
+      </p>
+    </section>
+
+    <section class="play-quiz">
+      <div class="toolbar">
+        <label class="tool-field grow">
+          <span id="searchLabel">Search all dimensions</span>
+          <input id="dimensionSearch" type="text" placeholder="search all 43 categories..." />
+        </label>
+        <label class="tool-field">
+          <span id="languageLabel">Language</span>
+          <select id="langToggle">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="search-summary" id="searchSummary" hidden></div>
+      <div class="tab-wrap" id="groupTabs"></div>
+      <div class="play-progress" id="progressStats"></div>
+      <div class="play-step" id="groupContent"></div>
+
+      <div class="control-zone control-flow">
+        <button id="prevGroupBtn" type="button" class="btn btn-ghost">← Previous</button>
+        <button id="fillDefaultsBtn" type="button" class="btn btn-quiet">Fill category defaults</button>
+        <button id="nextGroupBtn" type="button" class="btn btn-solid control-next">Next →</button>
+      </div>
+
+      <div class="control-zone control-finish">
+        <p class="control-zone-label" id="finishZoneLabel">Finish</p>
+        <div class="control-zone-actions">
+          <button id="generateReportBtn" type="button" class="btn btn-solid">Reveal My MatrAIx Persona</button>
+          <button id="downloadBtn" type="button" class="btn btn-ghost">Download attributes.json</button>
+        </div>
+      </div>
+
+      <div class="control-zone control-danger">
+        <p class="control-zone-label" id="dangerZoneLabel">Danger zone</p>
+        <div class="control-zone-actions">
+          <button id="resetBtn" type="button" class="btn btn-danger">Reset category</button>
+          <button id="resetAllBtn" type="button" class="btn btn-danger">Reset all</button>
+        </div>
+      </div>
+
+      <div class="play-controls secondary">
+        <span id="status" class="play-status" role="status" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section id="reportPanel" class="matraix-report" aria-live="polite" hidden>
+      <div id="reportContent"></div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" type="button">
+    <span class="back-to-top-arrow" aria-hidden="true">↑</span>
+    <span id="backToTopLabel">Top</span>
+  </button>
+
+  <footer class="foot">
+    <span class="brand-name small">Matr<em>AI</em>x<span class="tld">.ai</span></span>
+    <span><a href="index.html.1.html">Research</a> · <a href="index.html.1.1.html">Personas</a> · <a href="index.html.1.2.html">Applications</a> · <a href="index.html.1.3.html">Playground</a> · <a href="index.html.1.4.html">Community</a> · <a href="index.html.1.4.html#contact">Contact</a></span>
+    <span class="foot-meta">SIMULATE BEFORE REALITY · © 2026</span>
+  </footer>
+
+  <script src="interactive-decks.js%3Fv=3"></script>
+  <script src="communication-smart-bank.js%3Fv=1"></script>
+  <script src="agent-adoption-smart-bank.js%3Fv=1"></script>
+  <script src="worldview-smart-bank.js%3Fv=1"></script>
+  <script src="values-motivation-smart-bank.js%3Fv=1"></script>
+  <script src="personality-character-smart-bank.js%3Fv=1"></script>
+  <script src="matraix-archetypes.js%3Fv=1"></script>
+  <script src="play.js%3Fv=45"></script>
+  <script src="site-performance.js%3Fv=1"></script>
+</body>
+</html>

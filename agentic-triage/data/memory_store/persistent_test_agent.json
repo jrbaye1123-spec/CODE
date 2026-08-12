@@ -1,0 +1,10 @@
+{
+  "agent_id": "test_agent",
+  "preferences": {
+    "relevance_threshold": 0.7
+  },
+  "learned_patterns": [],
+  "workflow_templates": {},
+  "evaluation_history": [],
+  "version": 1
+}

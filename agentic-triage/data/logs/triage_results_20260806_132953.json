@@ -1,0 +1,163 @@
+{
+  "run_at": "2026-08-06T13:29:53.974868+00:00",
+  "provider": "keyword",
+  "model": "",
+  "source": "demo",
+  "papers_submitted": 5,
+  "papers_triaged": 5,
+  "papers_blocked": 0,
+  "top_n": [
+    {
+      "paper_id": "demo_5",
+      "title": "Scalable Oversight of AI Systems via Recursive Reward Modeling",
+      "classification": "scalable_oversight",
+      "relevance_score": 0.8571428571428571,
+      "summary": "Paper: Scalable Oversight of AI Systems via Recursive Reward Modeling\nClassification: scalable_oversight\nRelevant threads: Scalable Oversight, Reasoning & Planning\nSummary: We address the problem of scalable oversight: how can humans effectively supervise AI systems that may outperform them on complex tasks? We propose recursive reward modeling (RRM), where AI assistants help humans evaluate other AI systems by breaking complex evaluations into simpler sub-evaluations. We demonstrate that RRM scales to tasks where direct human evaluation becomes unreliable. In experiments on code review, mathematical proof verification, and long-form question answering, RRM-assiste...",
+      "threads": [
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.8571428571428571,
+          "reasoning": "Matched 4/7 keywords from thread 'Scalable Oversight'"
+        },
+        {
+          "thread_id": "reasoning_planning",
+          "thread_name": "Reasoning & Planning",
+          "score": 0.375,
+          "reasoning": "Matched 2/8 keywords from thread 'Reasoning & Planning'"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We propose recursive reward modeling (RRM), where AI assistants help humans evaluate other AI systems by breaking complex evaluations into simpler sub-evaluations.",
+          "source": "https://arxiv.org/abs/demo_5"
+        },
+        {
+          "text": "We demonstrate that RRM scales to tasks where direct human evaluation becomes unreliable.",
+          "source": "https://arxiv.org/abs/demo_5"
+        },
+        {
+          "text": "Our results suggest that recursive decomposition is a promising direction for maintaining human oversight as AI capabilities grow.",
+          "source": "https://arxiv.org/abs/demo_5"
+        }
+      ]
+    },
+    {
+      "paper_id": "demo_2",
+      "title": "Constitutional AI: Training Harmless Assistants Through Self-Critique",
+      "classification": "alignment_safety",
+      "relevance_score": 0.8333333333333334,
+      "summary": "Paper: Constitutional AI: Training Harmless Assistants Through Self-Critique\nClassification: alignment_safety\nRelevant threads: AI Alignment & Safety, Scalable Oversight\nSummary: We propose Constitutional AI, a method for training AI assistants that are both helpful and harmless. Our approach uses a constitution \u2014 a set of principles that the model uses to critique and revise its own outputs. The training process involves two phases: supervised learning on human feedback, followed by reinforcement learning from AI feedback (RLAIF) where the model critiques its own responses against constitutional principles. We demonstrate that this approach significantly reduces harmful...",
+      "threads": [
+        {
+          "thread_id": "alignment_safety",
+          "thread_name": "AI Alignment & Safety",
+          "score": 0.8333333333333334,
+          "reasoning": "Matched 5/9 keywords from thread 'AI Alignment & Safety'"
+        },
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.21428571428571427,
+          "reasoning": "Matched 1/7 keywords from thread 'Scalable Oversight'"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We propose Constitutional AI, a method for training AI assistants that are both helpful and harmless.",
+          "source": "https://arxiv.org/abs/demo_2"
+        },
+        {
+          "text": "We demonstrate that this approach significantly reduces harmful outputs while maintaining helpfulness.",
+          "source": "https://arxiv.org/abs/demo_2"
+        }
+      ]
+    },
+    {
+      "paper_id": "demo_3",
+      "title": "CLIP Revisited: Scaling Vision-Language Pretraining for Cross-Modal Retrieval",
+      "classification": "multimodal_learning",
+      "relevance_score": 0.8333333333333334,
+      "summary": "Paper: CLIP Revisited: Scaling Vision-Language Pretraining for Cross-Modal Retrieval\nClassification: multimodal_learning\nRelevant threads: Multimodal Learning\nSummary: We revisit the CLIP architecture for vision-language pretraining and propose several improvements that increase training efficiency by 3x. Our modifications to the contrastive loss function and data sampling strategy enable training on larger datasets with fewer computational resources. We introduce a hierarchical sampling strategy that prioritizes image-text pairs with high semantic similarity, reducing the number of uninformative negative samples. Combined with a modified contrastive loss, our...",
+      "threads": [
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.8333333333333334,
+          "reasoning": "Matched 5/9 keywords from thread 'Multimodal Learning'"
+        }
+      ],
+      "claims": []
+    },
+    {
+      "paper_id": "demo_1",
+      "title": "Structured Pruning of Attention Heads in Large Language Models",
+      "classification": "transformer_efficiency",
+      "relevance_score": 0.75,
+      "summary": "Paper: Structured Pruning of Attention Heads in Large Language Models\nClassification: transformer_efficiency\nRelevant threads: Transformer Efficiency, Scalable Oversight, Multimodal Learning\nSummary: We present a novel approach to transformer-based language modeling that reduces parameter count by 40% while maintaining performance on standard benchmarks. Our key finding is that attention head redundancy can be exploited through structured pruning without retraining. We demonstrate that up to 60% of attention heads in large transformer models are redundant for downstream tasks. Our structured pruning method identifies redundant heads through a differentiable importance scoring mechanism and r...",
+      "threads": [
+        {
+          "thread_id": "transformer_efficiency",
+          "thread_name": "Transformer Efficiency",
+          "score": 0.75,
+          "reasoning": "Matched 5/10 keywords from thread 'Transformer Efficiency'"
+        },
+        {
+          "thread_id": "scalable_oversight",
+          "thread_name": "Scalable Oversight",
+          "score": 0.21428571428571427,
+          "reasoning": "Matched 1/7 keywords from thread 'Scalable Oversight'"
+        },
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.16666666666666666,
+          "reasoning": "Matched 1/9 keywords from thread 'Multimodal Learning'"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We present a novel approach to transformer-based language modeling that reduces parameter count by 40% while maintaining performance on standard benchmarks.",
+          "source": "https://arxiv.org/abs/demo_1"
+        },
+        {
+          "text": "We demonstrate that up to 60% of attention heads in large transformer models are redundant for downstream tasks.",
+          "source": "https://arxiv.org/abs/demo_1"
+        }
+      ]
+    },
+    {
+      "paper_id": "demo_4",
+      "title": "Chain-of-Thought Reasoning in Large Language Models: A Comprehensive Survey",
+      "classification": "reasoning_planning",
+      "relevance_score": 0.5625,
+      "summary": "Paper: Chain-of-Thought Reasoning in Large Language Models: A Comprehensive Survey\nClassification: reasoning_planning\nRelevant threads: Reasoning & Planning, Multimodal Learning\nSummary: We survey the rapidly growing body of work on chain-of-thought (CoT) reasoning in large language models. Our analysis covers over 200 papers and identifies four major paradigms: few-shot CoT prompting, zero-shot CoT, decomposed prompting, and self-consistency methods. We find that CoT reasoning improves performance on arithmetic, commonsense, and symbolic reasoning tasks by an average of 15-30% across model scales. However, we also identify systematic failures: CoT can produce plausible-sounding...",
+      "threads": [
+        {
+          "thread_id": "reasoning_planning",
+          "thread_name": "Reasoning & Planning",
+          "score": 0.5625,
+          "reasoning": "Matched 3/8 keywords from thread 'Reasoning & Planning'"
+        },
+        {
+          "thread_id": "multimodal_learning",
+          "thread_name": "Multimodal Learning",
+          "score": 0.16666666666666666,
+          "reasoning": "Matched 1/9 keywords from thread 'Multimodal Learning'"
+        }
+      ],
+      "claims": [
+        {
+          "text": "We find that CoT reasoning improves performance on arithmetic, commonsense, and symbolic reasoning tasks by an average of 15-30% across model scales.",
+          "source": "https://arxiv.org/abs/demo_4"
+        },
+        {
+          "text": "We propose a taxonomy of CoT failures and suggest directions for more robust reasoning architectures, including external verification mechanisms and iterative refinement loops.",
+          "source": "https://arxiv.org/abs/demo_4"
+        }
+      ]
+    }
+  ],
+  "output_id": "output_dbdaa836d6b2",
+  "session_id": "fa66294c"
+}

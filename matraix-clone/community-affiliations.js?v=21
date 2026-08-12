@@ -1,0 +1,193 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const extraAdvisorAffiliations = {
+    'Dawn Song': [
+      ['Meta Superintelligence Labs', 'meta.com']
+    ],
+    'Mitchell Gordon': [
+      ['OpenAI', 'openai.com']
+    ],
+    'Prasanna Tambe': [
+      ['OpenAI', 'openai.com']
+    ]
+  };
+
+  document.querySelectorAll('.advisor-grid .person').forEach(card => {
+    const name = card.querySelector('h3')?.textContent.trim();
+    const affiliation = card.querySelector('.advisor-affiliation');
+    const logo = card.querySelector('.advisor-school-logo');
+    const credential = card.querySelector('.advisor-credential');
+    if (!name || !affiliation || !logo || !credential) return;
+
+    logo.loading = 'eager';
+    logo.alt = '';
+    // Cards ship their affiliations as markup, so reuse that block: rebuilding
+    // it moved only the *first* row out and left the rest stranded above in an
+    // empty leftover block, which reversed multi-affiliation cards and pushed
+    // their logos out of line with everyone else's.
+    let affiliations = card.querySelector('.advisor-affiliations');
+    if (!affiliations) {
+      affiliations = document.createElement('div');
+      affiliations.className = 'advisor-affiliations';
+      const primaryRow = document.createElement('div');
+      primaryRow.className = 'advisor-affiliation-row';
+      primaryRow.append(affiliation, logo);
+      affiliations.appendChild(primaryRow);
+      credential.before(affiliations);
+    }
+
+    const shown = new Set(
+      [...card.querySelectorAll('.advisor-affiliation')].map(el => el.textContent.trim())
+    );
+
+    (extraAdvisorAffiliations[name] || []).forEach(([label, domain]) => {
+      // the card may already carry this affiliation in the markup
+      if (shown.has(label)) return;
+      shown.add(label);
+      const row = document.createElement('div');
+      row.className = 'advisor-affiliation-row';
+      const text = document.createElement('p');
+      text.className = 'advisor-affiliation';
+      text.textContent = label;
+      const extraLogo = document.createElement('img');
+      extraLogo.className = 'advisor-school-logo';
+      extraLogo.src = `https://www.google.com/s2/favicons?sz=128&domain_url=https://${domain}`;
+      extraLogo.alt = '';
+      extraLogo.loading = 'eager';
+      extraLogo.decoding = 'async';
+      row.append(text, extraLogo);
+      affiliations.appendChild(row);
+    });
+
+    affiliations.querySelectorAll('.advisor-school-logo').forEach(img => {
+      img.addEventListener('error', () => img.remove());
+      if (img.complete && img.naturalWidth === 0) img.remove();
+    });
+  });
+
+  const rows = document.querySelectorAll('.affiliation-row');
+  const academicCloud = rows[0]?.querySelector('.logo-cloud');
+  const cloud = rows[1]?.querySelector('.logo-cloud');
+  if (!academicCloud || !cloud) return;
+
+  const addAffiliation = (container, name, domain) => {
+    if ([...container.querySelectorAll('.affiliation-chip')].some(chip => chip.textContent.trim() === name)) return;
+    const chip = document.createElement('span');
+    chip.className = 'affiliation-chip';
+    chip.textContent = name;
+    const logo = document.createElement('img');
+    logo.src = `https://www.google.com/s2/favicons?sz=64&domain_url=https://${domain}`;
+    logo.alt = '';
+    logo.loading = 'lazy';
+    logo.decoding = 'async';
+    logo.addEventListener('error', () => logo.remove());
+    chip.prepend(logo);
+    container.appendChild(chip);
+  };
+
+  addAffiliation(academicCloud, 'U of Toronto', 'utoronto.ca');
+  addAffiliation(academicCloud, 'OSU', 'osu.edu');
+  addAffiliation(academicCloud, 'UCSC', 'ucsc.edu');
+  addAffiliation(academicCloud, 'UPenn', 'upenn.edu');
+  addAffiliation(academicCloud, 'JHU', 'jhu.edu');
+  addAffiliation(academicCloud, 'Caltech', 'caltech.edu');
+
+  const cambridge = [...academicCloud.querySelectorAll('.affiliation-chip')]
+    .find(chip => chip.textContent.trim() === 'Cambridge');
+  if (cambridge) {
+    const logo = cambridge.querySelector('img');
+    if (logo) {
+      logo.loading = 'eager';
+      logo.src = 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Coat_of_Arms_of_the_University_of_Cambridge.svg';
+    }
+    cambridge.classList.add('cambridge-affiliation');
+
+    if (![...academicCloud.querySelectorAll('.affiliation-chip')].some(chip => chip.textContent.trim() === 'USC')) {
+      const usc = document.createElement('span');
+      usc.className = 'affiliation-chip';
+      usc.textContent = 'USC';
+      const uscLogo = document.createElement('img');
+      uscLogo.src = 'https://www.usc.edu/favicon.ico';
+      uscLogo.alt = '';
+      uscLogo.loading = 'lazy';
+      uscLogo.decoding = 'async';
+      uscLogo.addEventListener('error', () => uscLogo.remove());
+      usc.prepend(uscLogo);
+      cambridge.insertAdjacentElement('afterend', usc);
+    }
+  }
+
+  const academicChips = Object.fromEntries(
+    [...academicCloud.querySelectorAll('.affiliation-chip')].map(chip => [chip.textContent.trim(), chip])
+  );
+  ['ETH Zürich', 'Tsinghua', 'Peking University'].forEach(name => academicChips[name]?.remove());
+
+  let chips = Object.fromEntries(
+    [...cloud.querySelectorAll('.affiliation-chip')].map(chip => [chip.textContent.trim(), chip])
+  );
+
+  [
+    'Stripe', 'Airbnb', 'Intel', 'Oracle', 'Tencent',
+    'IBM', 'Alibaba', 'Salesforce', 'Uber', 'Databricks'
+  ].forEach(name => chips[name]?.remove());
+  chips = Object.fromEntries(
+    [...cloud.querySelectorAll('.affiliation-chip')].map(chip => [chip.textContent.trim(), chip])
+  );
+
+  let xai = chips.xAI;
+  if (!xai) {
+    xai = document.createElement('span');
+    xai.className = 'affiliation-chip';
+    xai.textContent = 'xAI';
+    const logo = document.createElement('img');
+    logo.src = 'https://www.google.com/s2/favicons?sz=64&domain_url=https://x.ai';
+    logo.alt = '';
+    logo.loading = 'lazy';
+    logo.decoding = 'async';
+    logo.addEventListener('error', () => logo.remove());
+    xai.prepend(logo);
+  }
+
+  let snap = chips.Snap;
+  if (!snap) {
+    snap = document.createElement('span');
+    snap.className = 'affiliation-chip';
+    snap.textContent = 'Snap';
+    const logo = document.createElement('img');
+    logo.src = 'https://www.google.com/s2/favicons?sz=64&domain_url=https://snap.com';
+    logo.alt = '';
+    logo.loading = 'lazy';
+    logo.decoding = 'async';
+    logo.addEventListener('error', () => logo.remove());
+    snap.prepend(logo);
+    cloud.appendChild(snap);
+  }
+
+  const orderedFirst = [
+    chips.Google,
+    chips['Google DeepMind'],
+    chips.Microsoft,
+    chips.Anthropic,
+    chips.OpenAI,
+    chips.Meta,
+    xai
+  ];
+  orderedFirst.forEach(chip => chip?.remove());
+  const anchor = cloud.firstChild;
+  orderedFirst.forEach(chip => {
+    if (chip) cloud.insertBefore(chip, anchor);
+  });
+
+  const bytedanceLogo = chips.ByteDance?.querySelector('img');
+  if (bytedanceLogo) {
+    bytedanceLogo.src = 'Assets/logos/logo-bytedance-symbol.svg';
+  }
+
+    const cornell = [...academicCloud.querySelectorAll('.affiliation-chip')]
+      .find(chip => chip.textContent.trim() === 'Cornell');
+    const cornellLogo = cornell?.querySelector('img');
+    if (cornellLogo) {
+      cornellLogo.src = 'https://www.cornell.edu/favicon.ico';
+      cornell.classList.add('cornell-affiliation');
+    }
+
+});

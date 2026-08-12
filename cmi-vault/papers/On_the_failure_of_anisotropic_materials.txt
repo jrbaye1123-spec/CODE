@@ -1,0 +1,525 @@
+On the failure of anisotropic materials: Physical or Mathematical?
+Nikos P. Andrianopoulos 1,a , Ioannis T. Dernikas 2,b
+1,2
+
+Department of Mechanics, School of Applied Mathematical and Physical Sciences
+National Technical University of Athens, GR-157 73, Greece
+a
+
+nandrian@central.ntua.gr, b dernikasjohn@gmail.com
+
+Keywords: anisotropy, volume change, shape change, spectral decomposition, failure boxes.
+
+Abstract. In order to understand the mechanism of failure (yielding or fracture) of linear elastic
+anisotropic materials we examine the qualitative characteristics of two widely used methods in
+fracture mechanics:
+a. The physical decomposition of the elastic strain energy density into a dilatational
+(volume changes) and a distortional (shape changes) one.
+b. The mathematical (spectral) decomposition of the compliance tensor which leads to up to
+six independent energy-orthogonal terms.
+Whether one uses the first or the second proposed decomposition, this should obey to an
+undeniable physical truth: “none of the energetic terms can rise to infinity”. By precisely
+measuring those limits one can easily extract the failure box for a given material (or the safe
+states if preferred). If now, both of the above used methods are of some meaning for the failure
+of the material, then both of the extracted failure boxes should limit the same or almost the same
+area in the principal stress space. Results show that the two failure boxes differ significantly in a
+qualitative and a quantitative manner. A discussion on these results is presented.
+Introduction
+In the present analysis, we refer to linear elastic materials. Therefore, the constitutive equation
+they obey in will be the Generalized Hooke’s Law
+
+  C   or   S  
+  
+  
+
+(1)
+
+where C is the stiffness tensor and S is the compliance tensor. The stress and strain tensors are
+
+
+represented as vectors in a 6-dimensional space, according to Voigt’s notation. So,
+
+   1 ,  2 ,  3 ,  4 ,  5 ,  6  and   1 ,  2 ,  3 ,  4 ,  5 ,  6  .
+
+
+
+
+
+
+(2)
+
+The strain energy density of a linear elastic material can be defined as:
+
+1
+   S  
+1
+T      2   
+2   1
+ C 
+ 2   
+
+in stress terms
+(3)
+
+in strain terms
+
+Physical Decomposition. The first method, a physical one, is used by the authors with great
+success in the case of isotropic linear and non-linear elastic materials [1] in order to predict
+failure. The compliance tensor of an isotropic material is of the form:
+ s11
+s
+ 12
+ s12
+S 
+ 0
+0
+
+ 0
+
+s12
+
+s12
+
+0
+
+0
+
+s11
+
+s12
+
+0
+
+0
+
+s12
+
+s11
+
+0
+
+0
+
+0
+
+2  s11  s12 
+
+0
+
+0
+
+0
+
+0
+
+2  s11  s12 
+
+0
+
+0
+
+0
+
+0
+
+
+
+0
+
+
+0
+ (2 independent parameters) (4)
+0
+
+
+0
+
+2  s11  s12  
+0
+
+0
+
+With respect to the above imposed symmetries, the quality of the stress tensor that causes
+volume changes (equal normal strains  1   2   3  m ) is that of a hydrostatic stress tensor
+(equal normal stresses  1   2   3  p ). Given a stress tensor  , one can extract a hydrostatic
+
+part  p , where
+
+1 1 1
+
+ p  ( 1   2   3 )  , , , 0, 0, 0 
+
+3 3 3
+
+
+and a deviatoric one  d , where
+
+ 2   2   3
+d    p   1
+,
+3
+
+ 
+
+
+
+
+ 1  2 2   3
+,
+3
+
+(5)
+
+ 1   2  2 3
+
+, 4, 5,  6 
+3
+
+
+
+
+(6)
+
+Now, this hydrostatic tensor  p is the unique one (from the infinite number of possible forms)
+
+that is responsible for the whole volume change of the material. Consequently, the deviatoric
+stress tensor  d is responsible for the whole shape change of the material. In conclusion, we
+
+have
+
+   p d
+ 
+
+
+(7)
+
+and
+
+1
+1
+1
+1
+1
+T        S     p   d   S   p   d    p  S   p   d  S   d
+2  2   2 
+
+ 
+
+2  
+2  
+
+(8)
+
+where
+
+1
+TV   p  S   p is the energy associated with volume changes only and
+2  
+
+(9)
+
+1
+TD   d  S   d is the energy associated with shape changes only.
+2  
+
+(10)
+
+For the case of anisotropic materials though, one has to be very careful with the implementation
+of such decomposition. There is a high tendency to confuse volume changes with the application
+of the hydrostatic pressure only. But this is not correct in general. In fact, this is the main reason
+why all the previous attempts to decompose the elastic strain energy failed [2]. We present here a
+physical way of determining correctly the dilatational and the distortional energetic parts for a
+material possessing hexagonal symmetry. The same procedure can be followed for the rest of the
+anisotropic types of materials.
+The compliance tensor of a material possessing hexagonal symmetry is of the form:
+ s11
+s
+ 12
+ s13
+S 
+ 0
+0
+
+ 0
+
+s12
+
+s13
+
+0
+
+0
+
+s11
+
+s13
+
+0
+
+0
+
+s13
+
+s33
+
+0
+
+0
+
+0
+
+0
+
+s44
+
+0
+
+0
+
+0
+
+0
+
+s44
+
+0
+
+0
+
+0
+
+0
+
+
+
+0
+
+
+0
+ (5 independent parameters)
+0
+
+
+0
+
+2  s11  s12  
+0
+
+(11)
+
+Now with respect to these symmetries, which are different from those of an isotropic material,
+the quality of the stress tensor that causes volume changes (equal normal strains  1   2   3  m )
+is of the form
+
+
+
+(  s13  s33 )m
+(  s13  s33 ) m
+( s11  s12  2s13 ) m
+p  
+,
+,
+,
+0,
+0,
+0
+ ,
+2
+2
+2
+
+2
+(
+)
+2
+(
+)
+2
+(
+)
+
+
+
+
+
+
+
+
+
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+s
+ 13
+
+11
+12 33
+13
+11
+12 33
+13
+11
+12 33
+T
+
+(12)
+
+clearly not a hydrostatic one! One cannot choose whichever value for the parameter m on the
+above formula, but only this one that leads the term  p  S   d in Eq.(8) to zeroing. For the
+  
+hexagonal anisotropic materials this is equal to
+(2 s132  ( s11  s12 ) s33 )( 1   2   3 )
+.
+m
+s11  s12  4 s13  2 s33
+
+(13)
+
+Therefore,
+
+
+( s33  s13 )
+( s33  s13 )
+( s11  s12  2 s13 )
+ p  ( 1   2   3 ) 
+,
+,
+,0,0,0  (14)
+
+ s11  s12  4 s13  2 s33 s11  s12  4 s13  2 s33 s11  s12  4 s13  2 s33
+
+T
+
+Inserting the above value of  p to the Eqs.(7)-(10) one is able to determine the strain energy TV
+
+required for volume changes only and the strain energy TD required for shape changes only.
+
+Mathematical Decomposition. The second one is a pure mathematical method with an obscure
+and sometimes dark physical meaning. The diagonalization of the compliance tensor S (with its
+
+eigenvalues i as its diagonal terms) leads to six at most independent eigenstress tensors  mi .
+
+This way, the Generalized Hooke’s law can be decomposed into 6 at most simple (uniaxial)
+Hooke’s laws [3], through which the total elastic strain energy density can be decomposed into
+six independent energetic terms,
+
+ mi  i   mi
+
+
+
+(15)
+
+and
+1
+1 6
+  6
+ 1 6
+T         mi      mi     mi   mi 
+2   2  i 1    i 1   2 i 1  
+
+(16)
+
+1
+where Ti   mi   mi , i=1,…,6 are the six independent energetic terms.
+2 
+The compliance tensor S of a material possessing hexagonal symmetry has five distinct
+
+eigenvalues. So, the spectral decomposition leads to five distinct non-interactive energetic terms.
+Numerical example. Let us assume that we would like to investigate the qualitative
+characteristics of the failure box of an hexagonal anisotropic material, i.e. Beryllium. The elastic
+constants of Beryllium are shown in Table 1 below.
+Table 1. Elastic constants of Beryllium [4]
+c11 [GPa]
+c33 [GPa]
+c44 [GPa]
+292.3
+336.4
+162.5
+
+c12 [GPa]
+26.7
+
+c13 [GPa]
+14
+
+For simplicity reasons (in order to avoid plasticity effects), let as assume that failure occurs when
+the material reaches its yield point. We are going to plot the failure boxes (more specifically the
+yielding boxes) obtained by the physical and the mathematical decomposition of the strain
+energy density function. Both of the failure boxes were extracted by the notion that none of the
+energetic terms can keep rising up to infinity. We assumed that all of the energetic terms can rise
+up to the value of, say, 5 GPa. In fact, the distinct energetic terms have usually distinct energetic
+boundaries, but for a qualitative representation the same conclusions can be derived for a unique
+energetic boundary value. The results are shown in Figure 1.
+
+σ3
+100
+
+50
+
+σ1
+
+0
+
+ 50
+
+ 100
+
+ 100
+
+ 50
+
+0
+
+50
+
+100
+
+Fig.1. Physical (blue) and Mathematical Decomposition (red) Based Failure Boxes of Beryllium.
+In the above figure the results are plotted in the 1   3 stress space because 1   2 is an
+isotropic plane. We have drawn with blue lines the failure box obtained by bounding the
+energetic terms TV and TD (corresponding to volume change and shape change respectively).
+The set of parallel blue lines corresponds to volume changes and the ellipsoidal part corresponds
+to shape changes (alike the Mises boundary).
+Red lines correspond to three out of the five distinct energetic terms obtained by the spectral
+decomposition of the compliance tensors (Eq.16). Specifically, we have chosen arbitrarily the
+sum of Ti , i  3, 4,5 to obtain the ellipsoidal curve and T4 alone for the set of parallel red lines.
+The physical decomposition gives qualitatively similar results as in case of isotropy but nor the
+axis of ellipsoid (TD  const.) neither the direction of the set of parallel lines (TV  const.) are
+
+symmetric with respect to the diagonals of the space  1   3 .
+
+The mathematical decomposition results in a set of parallel lines for each distinct energetic term.
+A combination of more than one energetic term is required to obtain higher order curves and
+there is no rule for the selection of proper combinations to decide on what is the physical
+reaction of the material.
+Summary
+In the present work, two approaches are presented for the solution of the long pending problem
+of the separation of elastic strain energy density in case of linear anisotropic materials.
+Comparison of the results obtained indicates that the so-called physical decomposition is by far
+more reasonable and clear than those of the mathematical one. The main handicap of the latter
+method is that we cannot have sense on the effect on the material geometry of each of the six
+
+energetic terms. In fact, it is impossible, in general, to predict if a certain energetic term Ti causes
+volume, shape or both changes in the material. It seems that physical considerations are,
+absolutely, necessary for the solution of the present problem.
+It is hoped that the present physical decomposition may drive to better understanding of the
+failure behavior of materials
+
+References
+[1] N.P. Andrianopoulos and V.M. Manolopoulos: Can Coulomb criterion be generalized in
+case of ductile materials? An application to Bridgman experiments, International Journal of
+Mechanical Sciences 54 (2012), p.241-248.
+[2] K. Kowalczyk and J. Ostrowska-Maciejewska, Archives of Mechanics, Volume 54, 2002,
+Issue 5-6, pp.497-523.
+[3] J. Rychlewski: On Hooke’s law, PMM U.S.S.R., Vol.48, No.3, pp.303-314, 1984.
+[4] Freund and Suresh: Thin Film Materials, CUP 2003, p.163.
+
+

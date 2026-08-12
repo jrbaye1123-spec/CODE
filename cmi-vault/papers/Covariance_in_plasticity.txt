@@ -1,0 +1,1460 @@
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+Covariance in plasticity
+Paolo Maria Mariano1,2
+1 DICEA, Università di Firenze, via Santa Marta 3, 50139 Firenze, Italy
+2 Scuola Normale Superiore, piazza dei Cavalieri 7, 50133 Pisa, Italy
+
+rspa.royalsocietypublishing.org
+
+Research
+Cite this article: Mariano PM. 2013
+Covariance in plasticity. Proc R Soc A 469:
+20130073.
+http://dx.doi.org/10.1098/rspa.2013.0073
+Received: 3 February 2013
+Accepted: 10 May 2013
+Subject Areas:
+mechanics, mechanical engineering,
+mathematical physics
+Keywords:
+simple materials, elastic-perfectly plastic
+behaviour, covariance
+Author for correspondence:
+Paolo Maria Mariano
+e-mail: paolo.mariano@unii.it,
+paolo.mariano@sns.it
+
+Covariance is imposed to the second law of thermodynamics and consequences are shown for elasticperfectly plastic bodies. In this setting, pointwise
+balances of standard and conﬁgurational actions,
+constitutive restrictions on the ﬁrst Piola–Kirchhoff
+stress and the Eshelby one, and the structure of the
+dissipation are all derived from a unique source.
+
+1. Introduction
+The word covariance is used in continuum mechanics with
+reference to invariance properties with respect to changes
+in observers governed by the group of differentiable
+automorphisms of the geometric environment, where
+morphology and motions of a body are described.
+Covariance is considered as a tool for determining
+possible restrictions to constitutive structures and/or
+deriving balance equations [1] from an invariance
+requirement more stringent than the one based on the
+invariance of the external power alone, under isometric
+changes in observers. For elastic simple bodies, the
+evaluation of the ﬁrst variation of the energy around its
+minimizers furnishes pointwise balances of standard and
+conﬁgurational actions, and constitutive restrictions [2].
+The procedure can be viewed as a consequence of a
+covariance requirement in the same way we think of
+when we derive Nöther theorem in classical ﬁeld theories
+(for such a theorem, see, e.g. [1]). The view can include
+non-conservative body forces when we evaluate the ﬁrst
+variation of the energy balance [3], along the guidelines
+of the Marsden–Hughes theorem [1], or dissipative
+stresses, by considering a d’Alembert–Lagrange-type
+principle, as suggested in Mariano [4] within the
+general setting of the mechanics of complex materials.
+When dissipation plays the role that we recognize in
+standard viscosity and plasticity, a covariance approach
+based on the ﬁrst principle of thermodynamics is
+no more entirely satisfactory for it does not furnish
+indications on the possible dissipative component of
+the stress (the one occurring in viscoelasticity) and,
+above all, the expression of the dissipation. To get
+it, beyond balance equations and constitutive structures,
+2013 The Author(s) Published by the Royal Society. All rights reserved.
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+(a) Deformations and geometric preliminaries
+A connected, regularly open region B in the three-dimensional Euclidean point space E 3 , a region
+endowed with metric2 g and provided with surface-like boundary, oriented by the normal n
+everywhere but a ﬁnite number of corners and edges, is selected as a reference place for the
+generic body under analysis. Actual shapes Ba are reached from B by means of deformations:3
+differentiable, orientation preserving maps assigning to every point x in B its current place in a
+copy of E 3 , indicated by Ẽ 3 and endowed with metric g̃, namely
+x −→ y := u(x) ∈ Ẽ 3 .
+The difference between E 3 and Ẽ 3 is an isomorphism i : E 3 −→ Ẽ 3 , the identiﬁcation, indeed.
+The distinction will later render signiﬁcant the standard requirement that isometric changes in
+observers in the whole ambient space leave invariant the reference place B. The distinction can
+be accepted for it is not necessary that B be occupied by the body we are thinking of along
+any motion. It is just a geometric environment where we measure how lengths, volumes and
+surfaces change under deformations, and we use it to make the comparisons deﬁning what we
+can call defects.
+Here, F indicates the spatial derivative Du(x). We call it deformation gradient according to
+tradition, although it is clear that the difference from the gradient ∇u(x) is dictated by the
+metric, namely4 ∇u(x) = Du(x)g−1 . Consider a basis {e1 , e2 , e3 } in a neighbourhood of x ∈ B and
+another one, {ẽ1 , ẽ2 , ẽ3 }, at y ∈ Ba := u(B). With respect to them, and by adopting once and for
+all summation over repeated indices, we have F = FiA eA ⊗ ẽi = (∂ui (x)/∂xA )eA ⊗ ẽi , with eA the
+Ath element of the basis {e1 , e2 , e3 } dual to {e1 , e2 , e3 }. Lower case indices refer to coordinates on
+1
+
+In this paper, I maintain distinguished covariant components from contravariant ones, avoiding use of the identiﬁcation of
+R3 and its dual, as it is commonly left unexpressed. The choice is not just a matter of personal style. On one side, the intrinsic
+geometric nature of some objects is speciﬁed while, on the other side, the formalism opens the way to possible extension of
+what is discussed here to the more intricate setting of the mechanics of complex materials.
+2
+
+The metric g is a positive deﬁnite bilinear form over the tangent space to B. For a crystalline material, it is naturally
+determined at a point by the optical axes of the crystal associated with that point in the continuum representation [5–7].
+When the material is amorphous, the assignment of g is not always strictly dictated by the material texture, because it can
+be difﬁcult to put in evidence a unique periodic microscopic characteristic feature. In any case, a way to interpret plastic
+phenomena is to consider the evolution of g is time, as proposed in Miehe [8].
+3
+4
+
+Another word used by Truesdell is transplacement instead of deformation.
+
+The metric g is a fully covariant tensor. Since it is positive deﬁnite by deﬁnition, its inverse g−1 exists and is a fully
+contravariant tensor with components indicated by gAB .
+
+..................................................
+
+2. Multiplicative decomposition and the local metric in the intermediate
+coniguration
+
+2
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+we should need to impose covariance to the second law of thermodynamics. The path is not
+properly straightforward. We have an inequality instead of the equality occurring in the ﬁrst
+principle. We are then forced to formulate a covariance principle for it, as I do here.
+Dissipation is determined by material mutations. They can be pictured in the reference place,
+which can be considered not ﬁxed once and for all. So, in writing the mechanical dissipation
+inequality, we need to introduce an expression of the power of all actions involved in such
+mutations.
+I develop here these ideas for standard ﬁnite strain elastic-perfectly plastic bodies in the
+isothermal setting. The results are not too much different from what we know from other paths.
+However, the way in which they are obtained is not standard and gives further light on their
+nature, at least in my opinion. What is presented here can be naturally extended to hardening
+materials and models of strain-gradient plasticity. Also, the procedure can be in principle used
+to treat non-standard situations on the basis of an efﬁcient tool requiring a small number of
+assumptions. The foundational work in mechanics has also this intrinsic motivation, in fact.1
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+(b) The ‘intermediate’ coniguration
+Irreversible rearrangements of the structure of the matter—slips in crystals, the exit of
+dislocations from crystalline grains and their collective action along intergranular boundaries,
+disentanglements or entanglements of polymers and so on—generate collectively the residual
+permanent strain evidenced along loading–unloading processes, obtained by means of assigned
+deformations at parts of the boundary ∂B and/or other external agencies.
+A manner to represent these phenomena is the introduction of appropriate descriptors of
+the changes in the material morphology. This way we would enter the general model building
+framework of the mechanics of complex materials, developing certain classes of models as special
+cases. Examples exist: in plasticity such descriptors can be the slip velocity in single crystals
+or dislocation densities or something else. In contrast, if we accept to remain in the traditional
+scheme presented above, a reasonable description of plastic phenomena rests ﬁrst on appropriate
+decompositions of the strain measure, which should feature the experimental appearance that we
+are not able to come back to the reference shape after an elastic–plastic process, for the collective
+cooperation of microscopic irreversible phenomena renders it not accessible by means of elastic
+unloading.
+The common view—the one accepted here—is indicated by the multiplicative decomposition
+[9,10]
+(2.1)
+F = Fe Fp ,
+where Fe and Fp are, respectively, the elastic and plastic factors of the deformation gradient. The
+following assumptions apply:
+(2.2)
+det Fp > 0
+and
+
+curl Fp = 0.
+
+(2.3)
+
+With (2.2), we admit plastic volume changes. Moreover, Fe has positive determinant, since the
+
+transplacement is orientation preserving. With (2.3), we afﬁrm that Fp is not the spatial derivative
+of any transplacement ﬁeld. Fp maps the tangent space to B at x onto another linear space that we
+imagine (just this) be the tangent space to a sort of intermediate conﬁguration that we are not able to
+identify globally. We cannot attach to each other all linear spaces identiﬁed by Fp , varying x in B,
+hoping to construct the tangent bundle to a certain conﬁguration, because, at least in principle,
+these spaces could not belong to the same potential intermediate conﬁguration. In adopting the
+multiplicative decomposition, we are afﬁrming to be able to alter ﬁrst the structure of the matter
+5
+
+It is the space of all linear forms over the tangent space.
+
+6 T
+
+F is deﬁned through the scalar product in the same linear space, while F∗ by the duality pairing between a linear space and
+its dual.
+
+..................................................
+
+j
+
+tensor C = F∗ g̃F, namely the pull-back to B of the metric g̃, with components CAB = FiA g̃ij FB , is the
+version of the right Cauchy–Green tensor used below.
+Motions are time-parametrized families of deformations, namely maps of the type (x, t) −→
+y := u(x, t) ∈ Ẽ 3 , with t the time running in some interval of the real line. We assume (sufﬁcient)
+differentiability with respect to time, and we write ẏ for the velocity du(x, t)/dt, considered as a
+ﬁeld over B, taking values in Ty Ba , and v := ṽ(y, t) for the same velocity viewed now as the value
+in Ty Ba of a ﬁeld over the actual place Ba = u(B, t).
+
+3
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+Ba while capital indices label coordinates over B. We have then (∇ui (x))B = FiA gAB . By deﬁnition
+F is a linear operator mapping the tangent space to B at x, namely Tx B, to Ty Ba . In short, we
+write F ∈ Hom(Tx B, Ty Ba ). Two linear operators are naturally associated with F: the formal adjoint
+F∗ , which maps elements of the cotangent space5 Ty∗ Ba to elements of Tx∗ B, and the transpose
+FT , a linear map from Ty Ba to Tx B. The link between F∗ and FT is established by the metrics:6
+FT = g−1 F∗ g̃. The orientation preserving condition for the deformation written formally—it is well
+known—det F > 0. It assures then the existence of other two linear operators: the inverse F−1 of
+F, namely F−1 ∈ Hom(Ty Ba , Tx B) and its formal adjoint F−∗ ∈ Hom(Tx∗ B, Ty Ba ). The second-rank
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+which is
+
+C = Fp∗ Ce Fp ,
+
+once we deﬁne by
+
+Ce := Fe∗ g̃Fe
+
+the elastic right Cauchy–Green tensor (or better, the fully covariant version of it). At x ∈ B, Ce is a
+metric, for it is the pull-back of the spatial metric g̃ onto the linear space determined by Fp . Ce
+j
+
+has components Ceαβ = (Fe )iα g̃ij (Fe )β , where Greek indices refer to coordinates in the linear space
+individuated by Fp . In that space there is another metric deﬁned by
+ḡ := Fp−∗ gFp−1 .
+It is the push-forward of the material metric g determined by Fp . In components we have
+p−1 B
+ḡαβ = (Fp−∗ )A
+)β .
+α gAB (F
+
+Proposition 2.1. ḡ is independent of any change of frame on B, induced by diffeomorphisms of the
+reference space onto itself.
+Proof. Consider diffeomorphisms h : E 3 −→ E 3 and call xA the image of xA —the Ath component
+A
+A′
+of x ∈ B, under h. The spatial derivative of h−1 —call it G—has components GA
+A′ := ∂x /∂x . Under
+the action of G we get the following transformations:
+′
+
+Fp −→ Fp G
+
+and g −→ G∗ gG.
+
+As a consequence we have the map
+Fp−∗ gFp−1 −→ (Fp−∗ G−∗ )G∗ gG(G−1 Fp−1 ) = Fp−∗ gFp−1 ,
+and the last identity concludes this elementary proof.
+
+
+
+The metric ḡ allows us to deﬁne the 1-contravariant, 1-covariant version C̃e of Ce by
+C̃e := ḡ−1 Ce = FeT Fe .
+Here, C̃e can be interpreted as a ratio between metrics and has components
+j
+
+(C̃e )αβ = ḡαγ (Fe∗ )iγ g̃ij (Fe )β .
+Over B, a differentiable vector ﬁeld
+x −→ w := w̃(x) ∈ Tx B
+is used here to indicate the incoming irreversible mutations of the structure of matter leading
+to plastic strain. Not necessarily x −→ w is the derivative of a time parametrized family
+of differentiable maps transplacing B onto the intermediate conﬁguration because such a
+conﬁguration is not available in its whole. Here, w represents at x a rate determined by the
+incoming mutations: it tends to move the material elements in a sort of collective rearrangement
+of the matter. In this case, we would consider a time-parametrized family of diffeomorphisms
+mapping B onto other possible reference places; the vector ﬁeld x −→ w would be exactly the
+inﬁnitesimal generator of a family of reference conﬁgurations. Here, such a role can be tackled
+just in special cases.8
+7
+8
+
+For an extended critical review on the use of the multiplicative decomposition in proposing constitutive structures, see [11].
+
+Mathematical models are representations of the empirical world. They are addressed by the phenomenology but, in turn,
+the record of data is based at least on a preliminary theoretical view on the phenomenon under scrutiny. Distinction amid
+
+..................................................
+
+C = Fp∗ Fe∗ g̃Fe Fp ,
+
+4
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+irreversibly, and then to apply what we imagine as a reversible (elastic, in the common sense)
+deformation. Such a sequence is evidently just formal because, in general, irreversible structural
+changes and recoverable strain are mixed and cooperate with each other.7
+By using (2.1), the right Cauchy–Green tensor C becomes
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+3. Observers and three classes of their changes
+
+5
+
+ẏ∗ = ẏ + c(t) + q(t) × (y − y0 ),
+
+(3.1)
+
+where y0 is an arbitrary point in space, c := QT ȧ ∈ R3 , and q is the axial vector of the
+skew-symmetric tensor QT Q̇. The relation is standard.
+Class 2. O and O′ differ by time parametrized families of isometries not only in the representation
+of the ambient space Ẽ 3 , but also in one of the reference spaces E 3 . The part of the change
+dealing with Ẽ 3 is exactly as in the previous class and (3.1) holds. Analogous behaviour
+different views can be motivated by predictive ability, economy in the assumptions, elegance—all factors contributing to the
+deﬁnition of appropriateness. There is no unique view on the plastic behaviour of solids—everybody knows that. The picture
+involving the intermediate conﬁguration is just one of the possible approaches. I indicate here examples of possible alternative
+views. In the study of Miehe [8], the occurrence of plastic effects is pictured by considering a time-dependent material metric
+(an approach already mentioned). Views based on the geometrical properties of the material manifold date back to Kondo
+(plastic effects as topology non-preserving transformations [12,13]), Bilby and collaborators (material manifolds have torsion,
+but show distant parallelism [14,15]), also Noll [16] and Wang [17]. As shown in the study of Kondo [12], lattice distortions in
+which the Riemann–Christoffell curvature tensor cannot be made to vanish are produced physically ‘by replacing the normal
+lattice atoms by foreign atoms which act as centres of strain. It is shown that these may be formally replaced by distributions
+of dislocations, but that this replacement is not physically realistic’ (quotation from Nabarro’s review of Kondo [12] on
+Math. Rev., namely MR0201121 (34#1006) available from http://www.ams.org/mathscinet/). The initial geometric view
+on structural changes in materials has been developed variously (Edelen & Lagoudas’ [18] reviews result until 1988). For
+ordered solids, the topological theory of defects has been constructed: defects can be classiﬁed in terms of homological and/or
+cohomological properties of the material manifolds. In the case of crystal lattices, it is natural to deﬁne elastic invariants:
+‘quantities’ which do not change under the action of diffeomorphisms over the lattice [5–7]. One of them is the dislocation
+density tensor. It has been used variously as an indicator of the plastic behaviour. Example is [19], where the dislocation
+density tensor appears as an internal variable: no peculiar actions are power-conjugated with it (although we know [20]
+that two neighbouring dislocations exchange an action). This picture is included in a view in which the authors ‘show that
+in multiplicative plasticity one can combine the reference and ‘intermediate’ conﬁgurations into a parallelizable manifold’
+(p. 84). ‘In summary, instead of working with a[n] Euclidean reference manifold and an ‘intermediate’ conﬁguration, one
+can assume that the material manifold is equipped with a Weitzenböck connection’ (p. 85). Besides geometrical aspects,
+however, and taking into account that there are well constructed and useful solutions in dislocation mechanics (such as the
+ones presented in [21]), a point is whether the dislocation density tensor alone is sufﬁcient to describe the whole physics of
+the plastic behaviour, at least in metals. As regards the point, in concluding a paper on ‘Beneﬁts and shortcomings of the
+continuous theory of dislocations’, Kröner wrote in 2001 [22, p. 1132] that ‘The greatest shortcoming is that the dislocation
+density tensor α, no matter whether introduced through differential geometry or in the conventional way, measures the
+average dislocation density only and, therefore, regards the internal mechanical state utmost incompletely. In principle, this
+shortcoming could be overcome by reorientation of dislocation theory towards a statistical theory, but only with highest
+expenditure of computations’. Also, for crystal lattices, a view based on the dislocation density tensor and other elastic
+invariants leads naturally, for purely geometrical reasons, to a multiplicative decomposition of the type Fe1 Fp Fe2 [23], which
+reduces to the standard one, obviously, when Fe2 = identity. In contrast, a view on the elastic-perfectly plastic behaviour,
+free from the notion of multiplicative decomposition (or better, free from the pair reference-place/intermediate-conﬁguration
+combined in some structures, as the ones mentioned above), is possible in a ﬁnite-strain regime if we formulate a variational
+principle selecting among all admissible states—admissibility deﬁned by a certain criterion imposing constraints to the
+stress—as introduced in [24].
+
+..................................................
+
+Class 1. Two observers O and O′ differ by time parametrized families of isometries just in the
+representation of the ambient space Ẽ 3 . They leave invariant the reference space and the
+time scale. Smooth maps t −→ a(t) ∈ R3 and t −→ Q(t) ∈ SO(3) describe the isometries just
+mentioned. If ẏ and ẏ′ are the velocities evaluated at x and t by O and O′ , respectively,
+the pull-back of ẏ′ into the frame deﬁning O, namely ẏ∗ := QT ẏ′ is given by
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+An observer O is a representation of —that is the assignment of frames to—all the geometric
+environments necessary to describe the morphology of a body and its motion.
+These environments are here the ambient space Ẽ 3 , the reference one, E 3 , and the time axis.
+I do not include in the list the space where we could think of embedding the intermediate
+conﬁguration—in general, a copy of E 3 —because that conﬁguration is unknown globally, at least
+in the picture considered here. In principle, the linear spaces determined by Fp at two different
+points x and x̄ could be embedded in two different geometric environments, always because we
+do not know the intermediate conﬁguration globally. So, the notion of observer that I use and the
+classes of changes listed below do not refer at all to that conﬁguration.
+The classes of changes in observers that I consider below are synchronous. Including afﬁne
+changes in time would not alter the results. Moreover, more intricate changes in time would lead
+us towards a relativistic setting which is not considered here.
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+is in E 3 . If w and w′ are the values of the material velocities measured at x and t by O and
+O′ , respectively, the pull back of w′ into O, indicated by w∗ , is given by
+
+where c̄ is, as in class 1, the translational velocity and q̄ the rotational one. In principle, c
+may be different from c̄ so as q from q̄.
+Class 3. O and O′ differ by time parametrized families of diffeomorphisms not only in the
+representation of the ambient space Ẽ 3 but also in the one of the reference space E 3 . In
+other words, the two observers differ by ‘smooth’ deformations of the ambient space and
+the reference one. Formally, we deﬁne two time-parametrized families of maps, assumed
+to be smooth in time (t ∈ [t0 , t̂], t̂ > t0 ), namely t −→ ht : E 3 −→ E 3 , with ht ∈ Diff(E 3 , E 3 ),
+h0 = identity, and t −→ ĥt : Ẽ 3 −→ Ẽ 3 , with ĥt ∈ Diff(Ẽ 3 , Ẽ 3 ), ĥt0 = identity. The relevant
+inﬁnitesimal generators of the actions of these families are given by the vector ﬁelds
+v̄ := (d/ds)ĥt |t=t0 and w̄ := (d/ds)ht |t=t0 . By deﬁnition, ht depends on y; so, by indicating
+by v the velocity in Euclidean representation (i.e. as a ﬁeld over Ba ), the consequent
+changes in observers, as evaluated by O, are expressed by
+
+and
+
+v −→ v # := v + v̄
+
+(3.3)
+
+w −→ w# := w + w̄.
+
+(3.4)
+
+However, since ẏ = v (Lagrangian and Eulerian representations of the velocity coincide,
+it is well known), we can imagine that v̄ be the value of a ﬁeld deﬁned over the reference
+place, so that, instead of (3.3), we can write (with a slight abuse of notation)
+ẏ −→ ẏ# := ẏ + v̄.
+
+(3.5)
+
+A requirement of invariance of the structure of a basic principle, such as the balance of
+energy or the dissipation inequality, is what I call covariance in what follows.9
+Previous classes of changes in observers form a hierarchy becoming more and more stringent
+from class 1 to 3. Speciﬁc choices are structural ingredients of a model.
+
+4. The relative power in the presence of bulk mutations leading to plastic strain
+In 1973, Noll [25] observed that a requirement of invariance under isometric changes in observers
+(one observer roto-translates with respect to the other) of the external power of actions on a part
+of a Cauchy’s body10 leads to integral balances of forces and torques. The result has a counterpart
+in the conservative setting where we assign to simple bodies a Lagrangian and prove the relevant
+Nöther theorem (see [1]). In both cases, we ﬁnd that balances of forces and torques are related to
+the Killing ﬁelds of the metric in space—they are the ﬁelds along which the transport of the metric
+leaves the metric itself invariant. In Euclidean space such ﬁelds are just rotations and translations.
+The difference from what has been proposed by Noll and what emerges from the Nöther theorem
+has a twofold nature. In Noll’s procedure, constitutive issues are not involved, while Nöther’s one
+requires the assignment of the state variables. Moreover, from the Nöther theorem the balance
+of conﬁgurational actions emerge naturally, while Noll’s approach does not imply them. These
+9
+In calculus of variations, when we want to evaluate the ﬁrst variation of an integral functional, we can alter by means of
+diffeomorphisms the integration domain (which is what we call horizontal variations) or we can change the target of the ﬁelds
+involved (in nonlinear elasticity this change allows us to derive from the elastic energy a weak form of the balance of forces
+in terms of Cauchy stress). In a sense, the actions of diffeomorphisms just sketched can be interpreted as changes in observers
+in class 3. Moreover, adopting class 3 can be also considered a step towards the description of mechanical phenomena in
+ambient spaces not having the ‘rigidity’ of the Euclidean one—the essential example is the relativistic setting even if, there,
+it could be more natural to adopt a back-to-label description for we have at disposal world-lines, not just pairs of distinct
+elements indicating the actual place and the relevant instant.
+10
+
+I mean a body the morphology of which is described just by its place in space and actions over and inside it are just standard
+body forces and common stresses.
+
+..................................................
+
+(3.2)
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+w∗ = w + c̄(t) + q̄(t) × (y − y0 ),
+
+6
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+where
+Pbrel−a (ẏ, w) :=
+and
+
+Pbdis (w) :=
+
+
+
+
+
+b‡ · (ẏ − Fw) dx +
+b
+
+(n · w)ψ dH2 −
+∂b
+
+
+
+
+
+t · (ẏ − Fw) dH2
+∂b
+
+(∂x ψ + f ) · w dx +
+b
+
+
+
+µ · curl w dx,
+b
+
+with ∂x ψ the explicit derivative of ψ(x, t, ς ) with respect to x, holding ﬁxed all the other entries of
+the energy.11 The difference ẏ − Fw is a velocity relative to w. The push-forward of w through F is
+motivated by the membership of ẏ and w to two different geometric environments.
+If we impose that Pbrel (ẏ, w) be invariant under changes in observers in class 2 above, namely
+Pbrel (ẏ, w) = Pbrel (ẏ∗ , w∗ )
+for any choice of c, q, c̄ and q̄ in (3.1) and (3.2), which implies
+Pbrel (c, q; c̄, q̄) = 0,
+
+(4.1)
+
+11
+I have already afﬁrmed that when we have changes in the structure of the matter occupying a part b of a body, we can have
+in principle ﬂuxes across boundaries, ∂b in particular, and emergence of anisotropies in the distribution of the energy. These
+ﬂuxes are here summarized in the term with density (n · w)ψ. In the special case of elastic–plastic materials treated here, such
+a ﬂux can be considered as a consequence of plastic changes in volume—in crystalline materials, the ﬂux can be directly
+associated with ﬂows of dislocations which can determine changes in volume of portions of a body. In general, however,
+since the expression of Pbdis (w) (note: the apex dis means disarrangements) is not peculiar of plasticity—at least, I have this
+view—the energy ﬂux can be in principle attributed to migration of microstructures (even at ﬁxed chemical potential). The
+possible emergence of inhomogeneity in the energetic landscape, owing to material mutations, is accounted for by the term
+with density ∂x ψ, evidently.
+
+..................................................
+
+Pbrel (ẏ, w) := Pbrel−a (v, w) + Pbdis (w),
+
+7
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+two views are not the sole patterns leading to the emergence of balance equations. Here, I do
+not discuss further the issue. I want just to remind that the approach in [25] and its subsequent
+generalization, including material complexity in Mariano [26] are based on an expression of the
+external power written thinking of a reference place ﬁxed once and for all.
+When the occurrence of material mutations suggests to consider changes in the reference
+shape, the one represented by w, we can think of writing the external power relatively to w.
+Moreover, since the vector ﬁeld w(·) represents material mutations, we have to consider (i) changes
+in the energetic landscape and (ii) actions in B power conjugated with rupture and/or formation
+of new material bonds.
+In the presence of material mutations, we can have, in principle, energy ﬂuxes across
+boundaries and consequent emergence of anisotropies in the distribution of the energy itself.
+Taking into account, at this stage, energy does not mean that we have to introduce constitutive
+classes by specifying the list of state variables. We need just to afﬁrm that a free energy exists and
+changes in space and time when material mutations occur. b‡ and t denote below standard bulk
+and contact actions, the former ones including inertial effects. The other actions mentioned above
+are just summarized in ﬁelds of forces f and couples µ deﬁned over B. At every point, f and µ
+belong to the cotangent space to B. They are deﬁned by the power that they develop on w and its
+curl, respectively. Moreover, I assume that f may have just a dissipative nature (so it disappears
+along conservative processes), while µ has even a conservative component appearing when the
+rearrangements of material elements described by the ﬁeld x −→ w produce anisotropy without
+breaking and/or reforming material bonds.
+Take a part b of B, a subset of B with the same geometric regularity of B itself. The relative
+power over b, indicated below by Pbrel (ẏ, w), is deﬁned by the sum of the relative power of the
+standard actions, Pbrel−a (ẏ, w), and what I call the power of disarrangements, Pbdis (w), determined by
+the remaining mechanisms which are peculiar to the material mutations pictured in B. Formally,
+I write
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+and
+
+
+
+b
+
+∂b
+
+(y − y0 ) × b‡ dx +
+
+
+
+∂b
+
+(y − y0 ) × t dH2 = 0.
+
+(4.3)
+
+The standard balance of forces (4.2) brings us to Cauchy theorem and allows us to write t in terms
+of the ﬁrst Piola–Kirchhoff stress P (after Piola transform of Cauchy stress), with the common
+relation t(x, n) = P(x)n(x), where n is the normal at the point x of the smooth ideal cut that we
+make in the reference shape, and it is considered as a covector: the normalized derivative of the
+smooth function deﬁning the cut itself (the procedure to determine the stress tensor is standard,
+indeed). Then, since t is a covector (as all forces are, intrinsically) attached at y, the stress P is a
+linear map from the cotangent space to B at x onto the cotangent space to Ba at y. We write then
+i
+P ∈ Hom(Tx∗ B, Ty∗ Ba ), that is P = PA
+i eA ⊗ ẽ ; so, note, P is dual to F.
+By coming back to (4.1), and taking into account the occurrence of P, the arbitrariness of c̄ and
+q̄ leads to
+
+
+
+
+Pn dH2 −
+∂b
+
+∂b
+
+
+
+F∗ b‡ dx −
+b
+
+(x − x0 ) × Pn dH2 −
+
+−
+
+
+
+b
+
+
+
+b
+
+
+
+(∂x ψ + f ) dx = 0,
+
+(4.4)
+
+b
+
+(x − x0 ) × F∗ b‡ dx
+
+(x − x0 ) × (∂x ψ + f ) dx +
+
+
+
+2µ dx = 0,
+
+(4.5)
+
+b
+
+where P := ψI − F∗ P is Eshelby stress (or Hamilton–Eshelby stress, by taking into account its
+B e ⊗ eB , δ B Kronecker delta.
+occurrence in standard issues of calculus of variations), with I = δA
+B
+A
+— The integral balances of forces and couples (4.2) and (4.3) are associated with the Killing
+ﬁelds of the metric in the ambient space.
+— The integral balances of conﬁgurational actions (4.2) and (4.3) are related to the Killing
+ﬁelds of the metric in the reference space. The result adds further reasons to consider
+distinguished the ambient space and the one hosting the reference place. Moreover, there
+is no need to introduce a priori, besides f and µ, conﬁgurational stress and bulk forces and
+then to identify later then in terms of free energy, Piola–Kirchhoff stress, and bulk actions
+(remind: F∗ b‡ includes also inertia actions), by means of some procedure.
+Being connected with Killing ﬁelds, standard and conﬁgurational integral balances of actions
+do not appear directly when we consider changes in observers, of the type deﬁned in class 3.
+Rather, we meet ﬁrst pointwise balances. Moreover, we pay the stringent nature of a covariance
+requirement with the need to specify the list of state variables before ﬁnding the structure of
+balance equations, as it will be clear in what follows.
+
+5. Covariance and balance equations
+(a) A structural assumption on changes in observers
+The velocity v̄ determined by the change in observer in the ambient space, and naturally deﬁned
+as function of y, has been considered as the value of a ﬁeld over B, since y depends on x. Now I
+
+..................................................
+
+b
+
+8
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+we get integral balances of actions in the physical space and in the reference one. Precisely, the
+arbitrariness of c and q leads to
+
+
+b‡ dx +
+t dH2 = 0
+(4.2)
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+assume that the ﬁeld x −→ v̄ be differentiable and write then
+
+9
+
+·
+
+Dv̄ = He Fp .
+
+(5.1)
+
+The presence of Fp does not reduce the generality of Dv̄, owing to the arbitrariness of He , a linear
+operator from the linear space individuated by Fp to the translation space over Ẽ 3 . However,
+although (5.1) is innocuous with respect to the generality of the changes in observers considered
+here, its consequences are crucial for the results presented below.
+Let us deﬁne for the sake of notational convenience
+LeH := Ḣe Fe−1
+and
+Lp := Ḟp Fp−1 .
+We can write
+·
+
+·
+
+Dy v̄ = He Fp F−1 = He Fp Fp−1 Fe−1 = Ḣe Fe−1 + He Ḟp Fp−1 Fe−1
+= LeH + He Lp Fe−1 = SymLeH + SkwLeH + He Lp Fe−1 .
+
+(5.2)
+
+(b) A modiied mechanical dissipation inequality and its covariance
+The extended version of the mechanical dissipation inequality that I use here is the following one:
+
+d
+ψ dx − Pbrel (ẏ, w) ≤ 0.
+(5.3)
+E(ẏ, w; ψ, b) :=
+dt b
+The assumptions (H1) and (H2), listed below, apply.
+(H1) Perfect elastic–plastic behaviour is under scrutiny, so the free energy is of the form
+ψ = ψ̂(x, F, Fp ),
+and satisﬁes the following assumptions:
+(H1.a) For any linear operator G ∈ Hom(R3 , R3 ) with det G = 1,
+ψ̂(x, F, Fp ) = ψ̂(x, FG, Fp G).
+(H1.b) The free energy is objective12 in the sense that it is invariant with respect to changes of
+frames in the physical space, induced by the action of the orthogonal group SO(3), i.e. by
+isometries.
+— H1.a implies that
+ψ̂(x, F, Fp ) = ψ̄(x, Fe , ḡ),
+thanks to proposition 2.1, and the multiplicative decomposition.13
+12
+
+Objectivity emerges from the isotropy of the three-dimensional Euclidean point space.
+
+13
+
+In general, the invariance requirement H1.a is interpreted as a constraint leading to a structure of the free energy of the type
+
+ψ̂(F, Fp ) = ψ̄(Fe ) alone. However, evidently, such an interpretation is not the sole one, and proposition 2.1 allows us to accept
+the one adopted in this paper.
+
+..................................................
+
+Moreover, I assume for Dv̄ a multiplicative decomposition of the type
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+Dv̄ = Dy v̄F.
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+— Objectivity writes formally
+ψ̄(x, Fe , ḡ) = ψ̄(x, QFe , ḡ)
+
+Since C̃e = ḡ−1 Ce , we can write
+ψ̆(x, C̃e , ḡ) = ψ̃(x, Ce , ḡ).
+(H2) Under diffeomorphism-based changes in observers, including both the ambient space
+and the reference one (class 3, then), we get
+dψ # dψ
+∂ψ
+∂ψ
+=
++
+|∗ · Lw̄ g,
+|↓# · Sym LeH +
+dt
+dt
+∂Ce
+∂ ḡ
+where (·)|∗ indicates the pull-back in the reference place of (·) while (·)|↓# is the pushforward of (·) in the current conﬁguration with the additional lowering of the ﬁrst index.
+— (·)|↓# is explicitly expressed by
+
+∂ψ
+∂ψ 
+= g̃Fe e Fe∗ ,
+∂Ce ↓#
+∂C
+
+which is in components
+
+∂ψ/∂Ce |
+
+ j
+
+
+∂ψ αβ e∗ j
+∂ψ 
+e k
+= g̃ik (F )α
+(F )β .
+∂Ce ↓#
+∂Ce
+i
+
+↓# is then a 1-contravariant, 1-covariant tensor in the current place, an element of
+the dual space of SymLeH .
+— We have also
+
+∂ψ p−∗
+∂ψ 
+F
+= FpT
+,
+∂ ḡ ∗
+∂ ḡ
+
+which is, in components,
+
+
+
+ 
+
+
+∂ψ αβ p−∗ j
+∂ψ  ij
+pT i
+=
+(F
+)
+(F
+)β .
+α
+∂ ḡ ∗
+∂ ḡ
+
+— The (virtual) velocity w̄ alters the material metric g, dragging it, as indicated by Lw̄ g.
+So (locally, and place by place), it induces changes in the metric on the intermediate
+conﬁguration, because ḡ is the push-forward of g induced by Fp . For this reason, instead
+of writing (∂ψ\∂ ḡ)|∗ · Lw̄ g, we could consider the push-forward of Lw̄ g through Fp ,
+multiplying it by ∂ψ\∂ ḡ, which would conceptually be the same thing.
+— Changes in observers in the physical space of class 3 alter in principle even the spatial
+metric g̃. So, since Ce is no more than the pull-back through Fe of g̃ into the tangent space
+to the (globally unknown, I repeat) intermediate conﬁguration, possible changes in the
+spatial metric may alter ψ. This one is the reason justifying the introduction of the term
+(∂ψ/∂Ce )|↓# in (H2).
+— In H2, the factor Lw̄ g has no counterpart Lv̄ g̃ in the current place because He is not the
+spatial derivative of any vector ﬁeld. The remark gives reason for the presence of the
+factor SymLeH .
+(H3) Contact actions depend on the same state variables entering the energy.14
+14
+
+In presence of viscous effects such an assumption does not hold, obviously.
+
+..................................................
+
+ψ̄(x, Fe , ḡ) = ψ̆(x, C̃e , ḡ).
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+for any Q ∈ SO(3). The equality implies
+
+10
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+In computing the derivative with respect to α (we distinguish here between the parameter in ĥ and
+the time t, for Fe and Fp depend themselves on time, then, after calculating the derivative of ψ,
+we identify α with t), the term h∗α ◦ g generates the Lie derivative Lw̄ g which is the symmetric part
+of gDw̄. An analogous reasoning should be applied when we handle the term ĥ∗α ◦ g̃. However,
+in that case we have to be addressed by physics. In fact, owing to the decomposition (5.2), the
+symmetric part of Dy v̄ would include contributions of the plastic strain which does not affect
+either ĥ∗α ◦ g̃ or Ce . This is the reasoning leading to the presence of the term SymLeH in H2.
+
+(c) Covariance principle in fully dissipative setting
+For the observer O, the mechanical dissipation inequality is in summary something similar to
+B ≤ 0. The observer O′ evaluates another inequality: say B′ ≤ 0.
+Here, B and B′ are the left-hand side term of (5.3), calculated over the rates (ẏ, w) and (ẏ′ , w′ )
+and the entries of the energy measured by the two observers, respectively. Thanks to H2 and
+the linearity of the relative power with respect to the velocities ẏ and w, the pull-back of B′ into
+O gives rise to the inequality B∗ ≤ 0, with B∗ = B + B† . The addendum B† involves the rates v̄
+and w̄, which are the inﬁnitesimal generators of the change O −→ O′ induced by the action of
+h ∈ Diff(E 3 , E 3 ) over the reference space, and the one of ĥ ∈ Diff(Ẽ 3 , Ẽ 3 ) over the (physical) ambient.
+Conversely, if we push forward B to the frames deﬁning the observer O′ , we ﬁnd an inequality of
+the type B′ + B‡ ≤ 0 because now the change in observer O′ −→ O is governed by the inverse of
+the previous maps, namely h−1 and ĥ−1 . So, B‡ is in principle different from B† .
+I use here the following covariance principle in dissipative setting: In any change in observer of
+class 3, after pulling-back the mechanical dissipation inequality in the ﬁrst observer, the additional
+term arising in the new expression of the inequality evaluated by the second observer is always
+non-positive.
+With this principle, we are essentially afﬁrming that the dissipative nature of a process is
+indifferent to changes in observers.15
+
+(d) The covariance result
+Theorem 5.1. If we adopt for (5.3) the covariance principle in dissipative setting, under assumptions
+H1, H2 and H3, the expression of the contact actions in terms of stress follows and if the ﬁelds x −→ P and
+15
+I have introduced this principle in a yet unpublished paper (P. M. Mariano 2013, Observers, relative power, and covariance in
+continuum mechanics, unpublished), where I have discussed it in the case of viscoelastic and complex materials.
+
+..................................................
+
+ψ # = ψ̃(x, Ce (Fe , ĥ∗α ◦ g̃), ḡ(Fp , h∗α ◦ g)).
+
+11
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+Assumptions H1 and H3 are standard and do not require additional explanations, as it is, in
+contrast, necessary for H2. When we look at covariance in nonlinear elasticity, a basic assumption
+of the Marsden–Hughes theorem is that the energy is altered ‘tensorally’ under changes in
+observers determined by the action of the group of diffeomorphisms from the ambient space onto
+itself. In that theorem, the internal energy density e is considered to be function of time t, actual
+placement y and the metric g̃ in the ambient space. Under the action of parametrized families of
+diffeomorphisms ĥα : Ẽ 3 → Ẽ 3 , the tensorality requirement reads e(ĥα (y), t) = e(y, t, ĥ∗α ◦ g̃), where
+ĥ∗α indicates pull-back. The physical motivation of the requirement rests on the consciousness that
+deformation is a relative concept: a shape of a body is deformed with respect to another one that we
+consider ‘undeformed’. So, when we write the energy, considering only the actual place, to speak
+about deformation, we can alter the space and evaluate the energy always on the ‘original’ actual
+place, but taking into account a varied metric, namely ĥ∗t ◦ g̃—that is a varied way to measure
+lengths. When we want to transfer such a viewpoint in the setting that we are considering here,
+we should have to require ‘tensorality’ of the free energy with respect to changes of atlas in both
+the ambient space and the reference one. First we have to remember that Ce is a function of Fe
+and g̃, while ḡ is a function of the reference metric g and Fp . So, by considering both ĥα : Ẽ 3 → Ẽ 3
+and hα : E 3 → E 3 , as deﬁned in class 3, we should require
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+(5.4)
+
+∗
+
+Skw(PF ) = 0,
+
+(5.5)
+
+Div P − F∗ b‡ − ∂x ψ = f
+
+(5.6)
+
+−1
+
+Skw(g
+
+and
+
+(5.7)
+
+P) = −2ēµ,
+
+with ē Ricci’s symbol with all contravariant components, namely ēABC , hold in the bulk, while
+[P]m = 0
+
+and
+
+[P]m = 0
+
+(5.8)
+
+P = g̃Fe
+
+∂ ψ̃(x, Ce , ḡ) p−∗
+F
+∂Ce
+
+(5.9)
+
+P̄ = 2FpT
+
+∂ ψ̃(x, Ce , ḡ) p−T
+,
+ḡF
+∂ ḡ
+
+(5.10)
+
+are valid along Σ. Moreover, we get
+
+and
+
+with P̄ := g−1 Pg, and the local mechanical dissipation inequality
+P · Fe Ḟp ≥ 0.
+
+(5.11)
+
+Proof. The covariance principle in dissipative setting implies
+E# (ẏ + v̄, w + w̄; ψ # , b) − E(ẏ, w; ψ, b) ≤ 0
+for any choice of v̄ and w̄ (see the deﬁnition of changes in observers discussed previously).
+Without reducing generality, take a part b across the discontinuity surface Σ so that the
+intersection b ∩ Σ is a smooth portion of Σ itself, with boundary ∂b ∩ Σ a piecewise smooth
+curve. By taking into account the assumptions discussed above, the previous difference reduces to
+
+
+
+ 
+∂ψ 
+∂ψ 
+e
+· Lw̄ g dx − Pbrel (v̄, w̄) ≤ 0.
+· Sym LH +
+∂Ce 
+∂ ḡ 
+b
+
+↓#
+
+∗
+
+If we set for a while w̄ = 0 and we consider just the equality sign, the inequality reduces to the
+integral balance
+
+
+∂ψ 
+· Sym LeH dx − Pbext (v̄) = 0,
+e
+b ∂C ↓#
+
+which can be used in the standard Cauchy theorem to get the existence of the stress, and then the
+relation t(x, n) = P(x)n(x), involving the ﬁrst Piola–Kirchhoff stress after Piola transform of Cauchy
+stress, follows. Moreover, after some algebra, the relative power can be written as follows:
+
+
+‡
+rel
+Pn · ẏ dH2
+Pb (ẏ, w) = b · ẏdx +
+b
+
++
++
+16
+
+
+
+
+
+∂b
+
+Pn · w dH2 −
+∂b
+
+
+
+F∗ b‡ · w dx −
+b
+
+
+
+(∂x ψ + f ) · w dx
+b
+
+µ · curl w dx.
+b
+
+With {e1 , e2 , e3 } a vector basis in a neighbourhood of x ∈ B, and {e1 , e2 , e3 } its dual counterpart, tensor I is of the type
+I = δBA eB ⊗ eA .
+
+..................................................
+
+DivP + b‡ = 0,
+
+12
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+x −→ P := ψI − F∗ P, with I the identity the space of second-rank 1-contravariant, 1-covariant tensors,16
+are continuous and differentiable everywhere in B, except a (ﬁxed and free of its own energy) smooth
+surface Σ, oriented by the normal m, where they suffer bounded jumps, and the ﬁelds x −→ b, x −→ F∗ b,
+and x −→ ∂x ψ are integrable over B, the local balance equations
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+By combining the two relations, H2 and the Gauss theorem imply
+
+
+
+
+ 
+∂ψ 
+∂ψ 
+e
+·
+L
+g
+dx
+−
+·
+Sym
+L
++
+P · Dv̄ dx
+w̄
+H
+∂Ce ↓#
+∂ ḡ ∗
+b
+b
+
+− (b‡ + Div P) · v̄ + (DivP − F∗ b‡ − ∂x ψ − f ) · w̄ dx
+
+
+
+P · Dw̄ dx −
+b
+
+
+
+[P]m · w̄ dH2 −
+b∩Σ
+
+
+
+[P]m · v̄ dH2
+b∩Σ
+
+µ · curl w̄ dx ≤ 0.
+b
+
+The arbitrariness of v̄ and w̄ implies the validity of (5.4), (5.6) and (5.8), so that we get
+
+
+
+
+
+ 
+∂ψ 
+∂ψ 
+e
+P · Dw̄ dx
+P
+·
+D
+v̄
+dx
+−
+·
+Sym
+L
++
+·
+L
+g
+dx
+−
+w̄
+H
+∂Ce ↓#
+∂ ḡ ∗
+b
+b
+b
+
++ µ · curl w̄ dx ≤ 0.
+
+(5.12)
+
+b
+
+To continue, we note that
+P · Dv̄ = P · Dy v̄F = PF∗ · Dy v̄ = PF∗ · (Sym LeH + Skw LeH + He Lp Fe−1 ),
+the last identity following from (5.2), and also
+P · Dw̄ = gg−1 P · Dw̄ = g−1 P · gDw̄ = g−1 P · (Sym gDw̄ + Skw gDw̄)
+= 21 g−1 P · Lw̄ g + Skw g−1 P · SkwgDw̄.
+So, the inequality (5.12) changes into
+
+
+
+
+
+
+ 
+∂ψ 
+1 −1
+∂ψ 
+∗
+e
+− g P · Lw̄ g dx
+− PF · Sym LH +
+∂Ce ↓#
+∂ ḡ ∗ 2
+b
+
+
++ µ · curl w̄ dx − PF∗ · (Skw LeH + He Lp Fe−1 ) dx
++
+
+
+
+b
+
+b
+
+Skw g−1 P · Skw gDw̄ dx ≤ 0.
+b
+
+The arbitrariness of SymLeH , Lw̄ g, SkwLeH and Skw(gDw̄) imply, respectively, (5.9), (5.10), (5.5)
+and (5.7). More precisely, we have
+
+∂ψ 
+∂ψ
+PF∗ =
+= g̃Fe e Fe∗ ,
+∂Ce ↓#
+∂C
+
+from which
+
+P = g̃Fe
+
+∂ψ e∗ −∗
+∂ψ
+∂ψ
+F F = g̃Fe e Fe∗ Fe−∗ Fp−∗ = g̃Fe e Fp−∗ .
+∂Ce
+∂C
+∂C
+
+We also get
+g−1 P = 2
+
+
+∂ψ 
+∂ψ p−∗
+∂ψ −1 p−∗
+ḡḡ F
+= 2FpT
+,
+= 2FpT
+F
+∂ ḡ ∗
+∂ ḡ
+∂ ḡ
+
+and, by multiplying by the material metric g from the right, we ﬁnd
+g−1 Pg = 2FpT
+
+∂ψ p−T
+∂ψ −1 p−∗
+ḡḡ F
+ḡF
+g = 2FpT
+,
+∂ ḡ
+∂ ḡ
+
+which is (5.10). The derivation of (5.5) is immediate. For (5.7), consider that curl w̄ is the axial
+vector of 2 Skw(Dw̄g−1 ) = 2 Skw(∇ w̄), so that for any 3D vector a we can write
+2 Skw(gDw̄)a = g curl w̄ × ga
+
+..................................................
+
++
+
+b
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+−
+
+
+
+13
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+and
+
+14
+µ · curl w̄ = 2ēµ · Skw(gDw̄),
+
+which is (5.11) because
+PF∗ · He Lp Fe−1 = P · He Lp Fe−1 F = P · He Lp Fe−1 Fe Fp
+= P · He Lp Fp = P · He Ḟp Fp−1 Fp = P · He Ḟp ,
+and, since He is arbitrary, we can select He = Fe as a special case, getting the result.
+
+
+
+— The balance equations above include inertial effects. To recognize them we have just to
+presume that bulk action b‡ admit an additive decomposition into non-inertial (objective),
+b, and inertial (non-objective), bin , components, namely
+b‡ = b + bin ,
+with the explicit expression of the inertial part coming from the assumption, as a ﬁrst
+principle, of an integral balance stating that the rate of the kinetic energy is balanced by
+the opposite of the power developed by bin for any choice of the velocity ﬁeld, so that,
+eventually, we get
+bin = −ρ ÿ.
+The matter is standard and I do not reproduce it here.
+— Relation (5.10) has been obtained using a different procedure in [27] under the
+assumption that the intermediate conﬁguration be isotropic. Here, I remove that
+assumption and show the validity of the formula in a more general setting. It afﬁrms
+that variations of the metric in the intermediate conﬁguration—that is the metric after the
+structural changes summarized by the plastic strain—determine a tensor which coincides
+with the Eshelby one once it is pulled back in the reference place. There, such a tensor
+develops power in the changes of the material metric along w, the alterations leading to
+plastic strain. In this sense, the result is in agreement with a view on plastic ﬂows pictured
+through time changes of the material metric (cf. [8]).17
+— In absence of plastic phenomena, both (5.9) and (5.10) have counterparts in the
+Doyle–Ericksen formula [30,31] and Rosenfeld–Belinfante theorem [27]. In other words,
+the stress P is determined by energetic variations induced by variations in the metric in
+the ambient space (pull-back a part), whereas P is determined by analogous variations in
+the material metric, so by mutations in the structure of the matter.
+— An ingredient not appearing in the previous theorem is the ﬂow rule for Fp . As usual, we
+introduce a continuous function f(P) to deﬁne the admissible set in stress space, so that at
+x ∈ B the elastic domain El(P) is
+El(P) := {P ∈ Hom(Tx∗ B, Ty∗ Ba ) | f(P) ≤ 0}.
+In the case that f be differentiable, the acceptance of the maximum dissipation principle—
+the stress realized along an elastic–plastic process is the one maximizing the dissipation
+17
+
+Note that relations similar to (5.10) have already been derived but not in the context of a covariance theory [28,29].
+
+..................................................
+
+PF∗ · He Lp Fe−1 ≥ 0,
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+with ē deﬁned in the statement of the theorem. Finally, the arbitrariness of He and the one of Ḟp
+imply the local dissipation inequality
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+among all elements of El(P)—gives us an acceptable ﬂow rule for Fp from the relation
+
+15
+
+P = arg max P′ · Fe Ḟp ,
+
+Ḟp = γ Fe−1
+
+df(P)
+,
+dP
+
+with γ ≥ 0 and γ f(P) = 0, and characterizes what we call associate plasticity. The issue
+is standard, so I do not develop details (for them see, e.g. [32]). Moreover, when f(·) is
+not differentiable everywhere—it means that the boundary of El(P) displays corners and
+edges—the ﬂow rule has to be written in terms of subdifferential of the indicator function
+of El(P). Even this issue is largely investigated in literature: a basic starting point is in [33].
+— In what I have treated here, mass is considered constant and conserved in time. When
+the body is an open system (a grand-canonical ensemble from a statistical mechanics
+viewpoint), the mechanical dissipation inequality (5.3) has to be modiﬁed by the
+introduction of the chemical potential associated with the ﬂux of mass. The subsequent
+analysis is rather straightforward.
+— The assumption H1.b can be modiﬁed, enforced in a sense. We can accept, in fact, a
+different assumption.
+(H1.b-bis) ψ is covariant in the sense that its structure is invariant with respect to changes in the
+ambient space induced by diffeomorphisms, i.e. elements of the space Diff(Ẽ 3 , Ẽ 3 ).
+— Consider h ∈ Diff(Ẽ 3 , Ẽ 3 ). By altering by means of h the ambient space, we have
+transformations of the type
+F −→ KF
+and
+
+FT −→ FT K−1 ,
+
+where
+K := Dh(y) =
+
+∂hi (y) j
+ẽ ⊗ ẽi .
+∂yj
+
+Formally, the requirement of covariance for the free energy reads
+ψ̄(x, Fe , ḡ) = ψ̄(x, KFe , ḡ),
+for any K of the type deﬁned above which implies, obviously that
+ψ̄(x, Fe , ḡ) = ψ̆(x, C̃e , ḡ),
+which is the same consequence of the assumption H1.b (results on constitutive
+restrictions induced by a covariance requirement can be found in [34]18 .)
+It is natural to presume also that the procedure proposed here can be used in the case in which
+the discontinuity surface Σ is endowed with its own energy or there are many surfaces forming
+18
+
+Different is the case of the combined derivation of balance equations, essential aspects of constitutive structures and the
+expression of the dissipation produced along elastic–plastic processes, all from a unique covariance principle. I do not know
+any work of others adopting a covariant principle based on the second law of thermodynamics (as I do here), rather than the
+ﬁrst one. In fact, in the study of Yavari & Goriely [19], in a description of plasticity in which the deformation gradient from a
+stress-free conﬁguration and the dislocation density tensor enter alone the energy density, the combined covariant derivation
+of balance equations and constitutive issues is proposed (although this is not the main focus of that paper). However, in
+the study of Yavari & Goriely [19], the covariance principle is imagined just for the ﬁrst law of thermodynamics. So, once
+we recognize that the dislocation density is an elastic invariant, so it is indifferent to superposed orientation-preserving
+diffeomorphisms (a property proved, e.g. in [5,7], on the basis of atomic lattice description of crystalline materials), the proof
+in [19] is nothing but the one of Marsden–Hughes theorem, and the expression of the dissipation has to be added as a second
+ingredient beyond the theorem itself. The choice that I make here of using the second law of thermodynamics instead of the
+ﬁrst one allows us to derive also the dissipation. Such a character appears also when we would follow the same path for
+viscoelasticity.
+
+..................................................
+
+and the result is
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+P′ ∈El(P)
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+grant ‘Azioni Integrate Italia-Spagna, 2009’ and PRIN-2009 ‘Kinetic and hydrodynamic equations of complex
+collisional systems’) and the one of GNFM-INDAM are acknowledged.
+
+References
+1. Marsden JE, Hughes TRJ. 1983 Mathematical foundations of elasticity. Englewood Cliffs, NJ:
+Prentice Hall Inc.
+2. Giaquinta M, Modica G, Souček J. 1989 Cartesian currents, weak diffeomorphisms and
+existence theorems in nonlinear elasticity. Arch. Rational Mech. Anal. 106, 97–159. [Erratum
+and addendum, Arch. Rational Mech. Anal., 1990 109, 385–392.]
+3. Yavari A, Marsden JE, Ortiz M. 2006 On spatial and material covariant balance laws in
+elasticity. J. Math. Phys. 47, 042903, p. 53.
+4. Mariano PM. 2008 Cracks in complex bodies: covariance of tip balances. J. Nonlinear Sci. 18,
+99–141. (doi:10.1007/s00332-007-9008-4)
+5. Davini C. 1996 A proposal for a continuum theory of defective crystals. Arch. Rational Mech.
+Anal. 96, 295–317. (doi:10.1007/BF00251800)
+6. Parry GP. 2001 The ‘moving frame’, and defects in crystals. Int. J. Solids Struct. 38, 1071–1087.
+(doi:10.1016/S0020-7683(00)00074-3)
+7. Parry GP, Šilhavý M. 2000 Invariant line integrals in the theory of defective crystals. Atti Accad.
+Naz. Lincei Cl. Sci. Fis. Mat. Natur. Rend. Lincei 11, 111–140.
+8. Miehe C. 1998 A constitutive frame of elastoplasticity at large strains based on the notion of a
+plastic metric. Int. J. Solids Struct. 35, 3859–3897. (doi:10.1016/S0020-7683(97)00175-3)
+9. Kröner E. 1960 Allgemeine Kontinuumstheorie der Versetzungen und Eigenspannungen.
+Arch. Rational Mech. Anal. 4, 273–334.
+10. Lee EH. 1969 Elastic–plastic deformations at ﬁnite strains. J. Appl. Mech. 3, 1–6. (doi:10.1115/1.
+3564580)
+11. Lubarda V. 2004 Constitutive theories based on the multiplicative decomposition of
+deformation gradient: thermoelasticity, elastoplasticity and biomechanics. Appl. Mech. Rev. 57,
+95–108. (doi:10.1115/1.1591000)
+12. Kondo K. 1966 On the compensation of the Riemannian incompatibility by dislocation
+distributions, the Cottrell atmosphere, perfect and imperfect tearings. RAAG Res. Notes 113,
+i+13pp.
+13. Kondo K. 1969 On the Riemannian and non-Riemannian constructions of the variational
+criteria for plastic disturbances and the standpoint of the theory of yielding and dual yielding.
+J. Faculty Eng. Univ. Tokio 30, 73–81.
+14. Bilby BA, Bullough R, Smith E. 1955 Continuous distributions of dislocations: a new
+application of the methods on non-Riemannian geometry. Proc. R. Soc. Lond. A 231, 263–273.
+(doi:10.1098/rspa.1955.0171)
+15. Bilby BA. 1960 Continuous distribution of dislocations. In Progress in solid mechanics (eds IN
+Sneddon, R Hill), pp. 329–398. Amsterdam, The Netherlands: North-Holland.
+16. Noll W. 1967 Materially uniform simple bodies with inhomogeneities. Arch. Rational Mech.
+Anal. 27, 1–32. (doi:10.1007/BF00276433)
+17. Wang CC. 1967 On the geometric structure of simple bodies, a mathematical foundation of the
+theory of continuous distribution of dislocations. Arch. Rational Mech. Anal. 27, 33–94.
+(doi:10.1007/BF00276434)
+18. Edelen DGB, Lagoudas DC. 1988 Gauge theory and defects in solids. Amsterdam, The
+Netherlands: North-Holland.
+19. Yavari A, Goriely A. 2012 Riemann-Cartan geometry of nonlinear dislocation mechanics. Arch.
+Rational Mech. Anal. 205, 59–118. (doi:10.1007/s00205-012-0500-0)
+20. Landau LD, Lifshitz EM. 1970 Theory of elasticity. Oxford, UK: Pergamon Press.
+
+..................................................
+
+This research is part of the activities of the research group in ‘Theoretical Mechanics’ of the ‘Centro di Ricerca
+Matematica Ennio De Giorgi’ of the Scuola Normale Superiore in Pisa. The support of MIUR (under the
+
+16
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+junctions (an analysis of this situation in elastic–plastic solids has been proposed in [35] from
+another point of view). I conjecture also that previous theorem could be extended even to different
+models of gradient plasticity, provided a careful evaluation of the notion of observer and the
+appropriate choice of its changes. Such choices are structural ingredients of a model, and not
+something assigned once and for all. However, this is matter of another work.
+
+Downloaded from http://rspa.royalsocietypublishing.org/ on September 29, 2016
+
+17
+..................................................
+
+rspa.royalsocietypublishing.org Proc R Soc A 469: 20130073
+
+21. Acharya A. 2001 A model of crystal plasticity based on the theory of continuously distributed
+dislocations. J. Mech. Phys. Solids 49, 781–784. (doi:10.1016/S0022-5096(00)00060-0)
+22. Kröner E. 2001 Beneﬁts and shortcomings of the continuous theory of dislocations. Int. J. Solids
+Struct. 38, 115–1134.
+23. Parry GP. 2004 Generalized elastic-plastic decomposition in defective crystals. In Advances in
+multiﬁeld theories for continua with substructure (eds G Capriz, PM Mariano) pp. 33–50. Boston,
+MA: Birkhäuser.
+24. Giaquinta M, Mariano PM, Modica G. Submitted. Stress constraints in simple bodies
+undergoing large strains: a variational approach.
+25. Noll W. 1973 Lectures on the foundations of continuum mechanics and thermodynamics.
+Arch. Rational Mech. Anal. 52, 62–69. (doi:10.1007/BF00249093)
+26. Mariano PM. 2002 Multiﬁeld theories in mechanics of solids. Adv. Appl. Mech. 38, 1–93.
+(doi:10.1016/S0065-2156(02)80102-8)
+27. Mariano PM. 2012 Crystal plasticity: the Hamilton–Eshelby stress in terms of the metric in the
+intermediate conﬁguration. Theor. Appl. Mech. 39, 55–69. (doi:10.2298/TAM1201055M)
+28. Epstein M, Maugin G. 1996 On the geometric material structure of anelasticity. Acta Mech. 115,
+119–131. (doi:10.1007/BF01187433)
+29. Maugin G, Epstein M. 1998 Geometrical material structures of elastoplasticity. Int. J. Plasticity
+14, 109–115. (doi:10.1016/S0749-6419(97)00043-0)
+30. Doyle TC, Ericksen JL. 1956 Nonlinear elasticity. Adv. Appl. Mech. 4, 53–115. (doi:10.1016/
+S0065-2156(08)70371-5)
+31. Simo JC, Marsden JE. 1984 On the rotated stress tensor and the material version of the Doyle–
+Ericksen formula. Arch. Rational Mech. Anal. 86, 213–231. (doi:10.1007/BF00281556)
+32. Simo JC. 1988 A framework for ﬁnite strain elastoplasticity based on maximum plastic
+dissipation and the multiplicative decomposition: I. Continuum formulation. Comp. Methods
+Appl. Mech. Eng. 66, 199–219. (doi:10.1016/0045-7825(88)90076-X)
+33. Eve RA, Reddy BD, Rockafellar RT. 1990 An internal variable theory of elastoplasticity based
+on the maximum plastic inequality. Q. Appl. Math. 48, 59–83.
+34. Lu J. 2006 A covariance condition in ﬁnite plasticity and related constitutive results. Z. Angew.
+Math. Phys. 57, 313–323. (doi:10.1007/s00033-005-0010-0)
+35. Gupta A, Steigmann DJ. 2012 Plastic ﬂow in solids with interfaces. Math. Methods Appl. Sci.
+35, 1799–1824. (doi:10.1002/mma.1611)
+
+

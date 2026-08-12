@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vault.nousresearch.com/schemas/source-v1.0.0.json",
+  "title": "Source Object Schema",
+  "description": "Schema for external sources ingested into the vault.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source_id",
+    "title",
+    "type",
+    "locator",
+    "retrieved_at",
+    "retrieved_by",
+    "instruction_privilege",
+    "content_hash"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "source_id": { "type": "string", "pattern": "^src_[a-zA-Z0-9]{10,}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "enum": ["paper", "book", "article", "webpage", "dataset", "transcript", "other"] },
+    "locator": { "type": "string", "description": "DOI, URL, ISBN, or other persistent identifier" },
+    "retrieved_at": { "type": "string", "format": "date-time" },
+    "retrieved_by": { "type": "string" },
+    "lawful_basis": { "type": "string", "default": "licensed_database" },
+    "usage_restrictions": { "type": "string", "default": "citation_only" },
+    "language": { "type": "string" },
+    "geographic_tradition": { "type": ["string", "null"] },
+    "prestige_signal": { "type": "string" },
+    "trust_level": { "type": "string", "enum": ["peer_reviewed", "preprint", "institutional", "self_published", "unknown"] },
+    "content_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "instruction_privilege": { "type": "string", "const": "none" },
+    "quarantine_flag": { "type": "boolean", "default": false },
+    "review_status": { "type": "string", "default": "accepted" }
+  }
+}

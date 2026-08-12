@@ -1,0 +1,2095 @@
+THE INCOMPATIBILITY OPERATOR: FROM
+RIEMANN’S INTRINSIC VIEW OF GEOMETRY TO
+A NEW MODEL OF ELASTO-PLASTICITY
+Samuel Amstutz, Nicolas van Goethem
+
+To cite this version:
+Samuel Amstutz, Nicolas van Goethem. THE INCOMPATIBILITY OPERATOR: FROM RIEMANN’S INTRINSIC VIEW OF GEOMETRY TO A NEW MODEL OF ELASTO-PLASTICITY.
+2019. ฀hal-01789190v3฀
+
+HAL Id: hal-01789190
+https://hal.archives-ouvertes.fr/hal-01789190v3
+Preprint submitted on 11 Mar 2019
+
+HAL is a multi-disciplinary open access
+archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from
+teaching and research institutions in France or
+abroad, or from public or private research centers.
+
+L’archive ouverte pluridisciplinaire HAL, est
+destinée au dépôt et à la diffusion de documents
+scientifiques de niveau recherche, publiés ou non,
+émanant des établissements d’enseignement et de
+recherche français ou étrangers, des laboratoires
+publics ou privés.
+
+THE INCOMPATIBILITY OPERATOR:
+FROM RIEMANN’S INTRINSIC VIEW OF GEOMETRY
+TO A NEW MODEL OF ELASTO-PLASTICITY
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+Abstract. The mathematical modelling in mechanics has a long-standing history as related
+to geometry, and significant progresses have often been achieved by the invention of new geometrical tools. Also, it happened that the elucidation of practical issues led to the invention
+of new scientific concepts, and possibly new paradigms, with potential impact far beyond. One
+such example is Riemann’s intrinsic view in geometry, that offered a radically new insight in
+the Physics of the early 20th century. On the other hand, the rather recent intrinsic approaches
+in elasticity and elasto-plasticity also share this philosophical standpoint of looking from inside,
+i.e., from the ”manifold” point of view. Of course, this approach requires smoothness, and is
+thus incomplete for an analyst. Nevertheless, its first aim is to highlight the concepts of metric,
+curvature and torsion; these notions are addressed in the first part of this survey paper. In a
+second part, they are given a precise functional meaning and their properties are studied systematically. Further, a novel approach to elasto-plasticity constructed upon a model of incompatible
+elasticity is designed, carrying this intrinsic spirit. The main mathematical object in this theory
+is the incompatibility operator, i.e., a linearized version of Riemann’s curvature tensor. So far,
+this route not only has led the authors to a new model with a solid functional foundation and
+proof of existence results, but also to a framework with a minimal amount of ad-hoc assumptions, and complying with both the basic principles of thermodynamics and invariance principles
+of Physics. The questions arising from this novel approach are complex and intriguing, but we
+believe that the model is now sufficiently well posed to be studied simultaneously as a problem
+of mathematics and of mechanics. Most of the research programme remains to be done, and this
+survey paper is written to present our model, with a particular care to put this approach into a
+historical perspective.
+
+1. On the origin of curvature in science and the birth of intrinsic views
+A first axiomatisation of geometry can be assigned to Euclid of Alexandria (circa 300 B.C.)
+with The elements gathering the knowledge of the time in planar and solid geometry. A little
+later, a remarkable calculation of the perimeter of the Earth by Eratosthenes of Cyrene provided
+a first indirect measure of the curvature of the Earth. In the same third century B.C. Archimedes
+and Apollonius developed the first ideas of plane curvature in the theory of conic sections. The
+problem of mapping the earth on a planisphere raised the first projections by the geographers of
+the Antiquity, the principal one being Ptolemy (150 B.C.). Euler, in his Recherches sur la courbure
+des surfaces (1767) [23], laid the foundations of the differential geometry of surfaces. Two centuries
+before, in the age of discoveries arose the problem of navigation with planar representations of the
+Earth. A precursor in this field is the Portuguese mathematician Pedro Nunes, who distinguished
+the great circles from the rhumb lines, and in his Opera [56] of 1566 proposed the rectification of
+the rhumb line in the sea charts. Three years later, the Belgian mathematician and cartographer
+Gérard Mercator produced the first wall map of the world, that he called New and more complete
+representation of the terrestrial globe properly adapted for its use in navigation, with the conformal
+projection (i.e., angle-preserving) that now bears his name. In a certain sense, this can be regarded
+as the dawn of the co-existence of the intrinsic representation (as the map, with its intrinsic metric
+used by Mercator, preserves the shapes but not the areas) with the embedding view (the map can
+2010 Mathematics Subject Classification. 35J48,35J58,49S05,49K20,74C05,74G99,74A05,74A15, 80A17.
+Key words and phrases. Elasticity, plasticity, strain incompatibility, dislocations, virtual work, objectivity.
+1
+
+2
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+be embedded in the Euclidean space, yielding the terrestrial globe). The next crucial achievement
+arose 250 years later with the Gauss Theorema Egregium [28], stating that the scalar curvature
+is indeed an intrinsic property of a surface, in the sense that it can be computed only by local
+measurements of distances independently of the ambient space in which the surface is embedded.
+The generalization to higher dimensions of Gauss’ work for surfaces was initiated by one of
+his students, Bernhard Riemann in 1854 [58]. Riemann was the first to introduce the notion
+of differentiable manifold and of a quadratic form (the so-called Riemannian metric) in order
+to compute the length of a generalized notion of curve. Moreover, the manifold curvature is
+represented by a complicated object generalizing the Gauss curvature, which is called today the
+Riemann curvature tensor. In some sense, Gauss’ point of view of a geometry of embeddings (he was
+also concerned with the embedding in the Euclidean space of non-Euclidean – such as hyperbolic –
+geometries) was somehow bypassed with Riemann’s new standpoint of forgetting embeddings for
+a while, and thinking instead of surfaces intrinsically, with the notion of manifold. It should also
+be stressed that Riemann’s intrinsic approach is the essence of Einstein-Poincaré’s new paradigms
+of physics in the early 20th century.
+After Riemann (and Weyl [80]), Whitney was first in 1936 [69, 81] to provide a complete formulation of the notion of manifold. His famous result is the following: any m-dimensional differentiable manifold can be smoothly embedded in R2m . By embedding it is intended an injective
+immersion (an immersion is a differentiable function between manifolds where the derivative has
+everywhere full rank). Later, the Nash-Kuiper embedding theorem of 1954/55 [43, 54], in conjunction with Whitney’s result, states that any m-dimensional Riemannian manifold (M, g) can be
+C 1 -isometrically embedded in an Euclidean space of dimension 2m + 1 [14]. The importance of
+this theorem in the history of Mathematics is unvaluable, since it in particular reconciles (Gauss’)
+embeddings- with (Riemann’s) intrinsic views.
+With this survey, we would like to emphasize the potential of intrinsic approaches in the mathematical modeling of elasto-plastic solids. In particular we begin by identifying the deformation
+of our body with a metric g and emphasize the role of curvature and torsion in the presence of
+line-like defects, ultimately leading to plastic effects at the macroscale. Precisely, the notion of
+incompatibility is at the heart of a new paradigm to describe inelastic effects, since incompatibility is indeed a linearized version of Riemannian curvature, as we will see. The starting point of
+the theory is to accept that, in the spirit of Riemann, we should attack the modeling problem of
+elasto-plasticity with an instrinsic approach, that is geometric in nature. Indeed, incompatibility
+is a physical notion related to non-smooth, in a certain sense singular deformations in the following
+acception: quoting Cartan [12]1, “the Riemannian space is for us an ensemble of small pieces of
+Euclidean space, lying however to a certain degree amorphously”, while about crystals where dislocation form, Kondo [39] suggests that “the defective crystal is, by contrast [with respect to the
+above by him given definition of perfect crystal], an aggregation of an immense number of small
+pieces of perfect crystals (i.e. small pieces of the defective crystal brought to their natural state
+in which the atoms are arranged on the regular positions of the perfect crystal) that cannot be
+connected with one other so as to form a finite lump of perfect crystals as an organic unity”. In the
+sequel, we develop these ideas, and in particular we set up a precise mathematical understanding
+of these concepts.
+2. Curvature in nonlinear elasticity
+Consider now the manifold to be an open subset Ω of R3 , and consider a symmetric positive
+definite tensor gij . The question raised is the following: under which conditions is (Ω, g) flat,
+that is, there exists an immersion Θ : Ω → R3 such that g is the metric tensor of the open set
+Ω̂ := Θ(Ω) ? (Note that manifold and embedding spaces have here the same dimension, as opposed
+to Whitney-Nash theorems). To answer this question, let us first assume that such an immersion
+1This was in essence Riemann’s definition of a manifold: each point is in a neigborhood ressembling a distorted
+Euclidean space.
+
+THE INCOMPATIBILITY OPERATOR
+
+3
+
+exists. Then, by definition, it exists a local frame {g i }1≤i≤3 with g i := ∂i Θ such that gij := g i · g j .
+Then the following theorem holds: necessarily, the Riemann curvature tensor Riemg associated
+to gij vanishes in Ω. Of particular interest is the reciprocal statement: given an open, connected
+and simply connected set Ω and an arbitrary metric C := gij , if Riemg = 0, then there exists
+Θ ∈ C 3 (Ω; R3 ) such that C = (∇Θ)T ∇Θ, i.e., gij = ∂i Θ · ∂j Θ. Proof of these theorems and their
+variants can be found in [14].
+In elasticity Ω is the reference body, Ω̂ is its deformation, F := DΘ = ∇Θ is the associated
+deformation tensor, and C the right Cauchy-Green tensor. As a matter of fact, a restatement
+of this theorem reads: given a reference body Ω and an intrinsic measure C of its deformation
+(in elasticity C is known to account for local stretch and rotations, [67]), when does it exist a
+tensor F such that C = F T F also satisfying Curl F = 0? Indeed, it is well known (HelmholtzWeyl-de Rahm decompositon-type results, also known, in the sense of distributions, as Poincaré’s
+Lemma [14], [40]) that
+Curl F = 0 ⇔ F = Dφ for some φ,
+(2.1)
+with Curl and D intended in the sense of distributions. Therefore we can write that given Ω open
+connected and simply connected, and provided a symmetric, positive definite tensor C one has:
+∃F : Curl F = 0, C = F T F
+
+⇔
+
+RiemC = 0.
+
+(2.2)
+
+In the presence of line-like defects such as Volterra dislocations [35], we are typically faced to
+the following issue: we have an elastic body Ω with a dislocation loop L and we assume that we
+have the means for determining at any point of Ω \ L the stretch and rotation, in other words we
+are given a metric tensor C. It turns out that we are only able to construct such a deformation
+F as in (2.1) and (2.2) in Ω \ ΠL where ΠL is a surface containing L and dividing Ω into two
+subdomains Ω+ and Ω− [59]. Let SL ⊂ ΠL be the surface enclosed by the loop, i.e. ∂SL = L.
+Therefore, above and below ΠL there exists φ+ and φ− , respectively, such that C = F T F with
+F = Dφ± in Ω± . However, it turns out that by the Volterra construction, there is constant jump
+on SL that we denote by b, the Burgers vector of L. Specifically, φ := Id + u exists globally in
+Ω by means of a function of bounded variation u, i.e. whose distributional derivative satisfies
+2
+Du = ∇u + b ⊗ νSL dH⌊S
+where νSL is the unit normal to SL . Therefore, in Ω \ L one may define
+L
+the deformation tensor as F = I + ∇u (= Dφ± in Ω \ SL ) such that C = (I + ∇u)T (I + ∇u).
+However in L this representation fails, and hence the aforementioned approach holds piecewise.
+Nonetheless, something can be said at L, namely by use of Stokes theorem [59], one finds
+1
+− Curl F = − Curl ∇u = ΛTL := b ⊗ τL dH⌊L
+,
+
+(2.3)
+
+where ΛL is called the dislocation density. This reasoning can be generalized for L a countable
+union of rectifiable dislocations. This leads us to the following conclusion: the dislocations prevent
+the deformation to be Euclidean and indeed no global embedding exists. We refer to [82] for a
+recent contribution to the topic.
+The mathematical nature of the displacement field has been clarified in [60, 61]: given the set
+of dislocations L, an integral current (i.e., the generalization of a closed Lipschitz loop) and a
+deformation tensor F satisfying (2.3), there exists u ∈ W 1,p (Ω, T3 ) ∩ SBV (Ω, R3 ) ∩ C ∞ (Ω \ L, T3 )
+such that the following holds in the sense of distributions:
+1
+Div ∇u = ∆u = Div F and − Curl ∇u = b ⊗ τL dH⌊L
+= − Curl F.
+
+(2.4)
+
+The crucial point to note is that the displacement field can be seen in various ways: either as a
+multi-valued (i.e., in the three-dimensional distorted flat torus T3 for a normalized Burgers vector,
+meaning that each component ui is identified with ui + 2πZ) Sobolev vector field (note that (2.3)
+imposes that 1 ≤ p < 2), or as a special function of bounded variation, whereby it exhibits a jump
+on a surface SL which is not unique (it must be a Lipschitz surface with L as boundary). Moreover
+away from L the displacement is smooth, however multivalued. We can write
+Dislocation in nonlinear elastic bodies ⇒ Curl F 6= 0 and ∃u ∈ T3 s.t. F = ∇u.
+
+(2.5)
+
+4
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+3. Incompatibility in linearized elasticity and path integral formulae
+Linearized elasticity is obtained by neglecting the quadratic terms in C = (I + ∇u)T (I + ∇u),
+that is, we consider a metric g(u) defined as gij = δij +2eij (u) where e(u) = ∇S u := 12 (∇T u+∇u).
+Let us consider Rieme the associated Riemann curvature tensor. It was proved in [46, Proposition
+3.11] that
+(Rieme )ijkl = ǫijm ǫkln ( inc e)mn + h.o.t.,
+(3.1)
+where inc is the symbol standing for the incompatibility operator, writing in Cartesian coordinates
+as
+inc e := Curl CurlT e.
+(3.2)
+In the above, ǫ is the Levi-Civita symbol, and the Curl of a tensor is calculated row-wise, hence
+for a symmetric tensor inc takes the Curl column-wise then row-wise. The equation inc e = 0 is
+equivalent to the Saint-Venant compatibility conditions recalled and discussed thereafter. Pioneer
+contributions linking compatibility conditions and the Riemann curvature tensor can be found
+in [27, 63]. We also define the Frank tensor as
+F(e) := CurlT e.
+
+(3.3)
+
+Let us recall now the problem of reconstructing a displacement from a given symmetric tensor2.
+In linearized elasticity, if all the functions involved are smooth enough, the displacement field u
+turns out to be completely defined in terms of the linearized strain tensor e by an explicit recursive
+integral formula. Let e ∈ C ∞ (Ω, M3 ) be a symmetric tensor field in Ω. Let us fix x0 , x ∈ Ω, and
+let γ ∈ C 1 ([0, 1], Ω) be a curve in Ω such that γ(0) = x0 and γ(1) = x. We define the following
+quantities:
+Z
+Z
+wi (x; γ) := wi (x0 ) + ǫipn ∂p emn (y)dym , ui (x; γ) := ui (x0 ) + (eil (y) − ǫilk wk (y)) dyl . (3.4)
+γ
+
+γ
+
+Note that Fim = ǫipn ∂p emn , thence the name Frank tensor, since its integral on a closed curve γ
+making one loop around the dislocation L provides the jump of the rotation vector w, classically
+known as the Frank tensor. The quantities w(x) and u(x) defined in (3.4) do a-priori depend on the
+choice of the path from x0 to x. In such a case the quantities w and u define two C ∞ functions on
+Ω that will be called the multi-valued rotation and displacement vectors associated to the strain e,
+respectively (see [75] for the exact meaning of multivaluedness in this context). However, if one has
+inc e = 0 then u and w are single-valued
+fields,
+i.e., are unambiguously defined. Thus, in particular
+Z
+Z
+x
+
+in (3.4), one can use the notation
+
+to mean that the integral is path independent. In
+
+=
+
+γ
+
+x0
+
+order to prove this fact, we compute the jump of w and u between two arbitrary curves with
+the same endpoints, namely γ and γ̃, and observe that this quantity is zero if the incompatibility
+tensor vanishes. These are exactly the well-known Saint-Venant compatibility relations [14]. The
+rotation and displacement jumps at x are defined as
+[[wi ]] = wi (x; γ) − wi (x; γ̃),
+
+[[ui ]] = ui (x; γ) − ui (x; γ̃),
+
+(3.5)
+
+respectively, and hence depend on the chosen closed path γ − γ̃ at x. Let Ω ⊆ R3 be a simplyconnected domain, let x0 ∈ Ω be prescribed, and let w, u ∈ C ∞ (Ω, R3 ) be the functions defined in
+(3.4). Then the following formulae hold:
+Z
+Z
+[[wi ]] = (inc e(y))im dSm (y), [[ui ]] = (ym − xm )ǫimk (inc e(y))qk dSq (y),
+(3.6)
+S
+
+S
+
+2The history of this construction roots in the end of the 19th century. We have identified by chronological
+order the following relevant contributions: Kirchhoff in 1876 [37], Beltrami in 1886 [9], Volterra in 1887 [76] (see
+also [77, 78]), Love in 1892 [45], Michell in 1899 [48], Cesàro in 1906 [13] and the Cosserat brothers in 1909 [16]. The
+first rigourous proof must be assigned to Beltrami. According to Love, though, the bulk compatibility conditions
+should be credited to Barré de Saint-Venant in 1864 [7].
+
+THE INCOMPATIBILITY OPERATOR
+
+5
+
+for all x ∈ Ω, and where S is a surface enclosed by the the closed path γ − γ̃. In particular,
+inc e = 0 ⇒ [[wi ]] = [[ui ]] = 0 for every x and S .
+
+Thus, given the tensors e and F(e) = CurlT e, and as a consequence of inc e = 0, the vector
+fields w and u are univoquely defined in (3.4). We refer to [46, Proposition 2.2, Corollary 2.4] for a
+proof. Moreover, the following classical quantities can be introduced: (i) eij := 21 (∂j ui + ∂i uj ) is
+the linearized strain tensor (i.e., the linear part of Green St-Venant tensor Cij = eij + ∂i uk ∂k ui );
+(ii) ωij := 21 (∂j ui − ∂i uj ) is said rotation tensor, with wi := 12 ǫijk ωkj the rotation vector.
+Therefore, the linearized counterpart of (2.5) reads by (3.6),
+inc e 6= 0 ⇒ ∃u, w multiple-valued fields, s.t. e = ∇S u.
+
+(3.7)
+
+In particular, this happens if, given a dislocation loop L, γ − γ̃ is a curve making one or more
+loops around L. The multiplicity is precisely the number of loops made, while the jump of u is the
+Burgers vector b (and of w, the Frank tensor Ω).
+4. The legacy of Ekkehart Kröner: the geometry of a crystal with dislocations
+Given the dislocation density ΛL we have seen that there exists a map ϕ ∈ W 1,p (Ω, T3 ), 1 ≤
+p < 2 such that − Curl ∇ϕ = ΛTL with Div ∇ϕ = 0 in Ω, and (∇ϕ)N = 0 on ∂Ω. The first equality
+stems directly from the Stokes theorem and from the property [[ϕ]] = b on any enclosing surface
+SL [60]. In the same spirit [73], one can find a displacement field u ∈ W 1,p (Ω, T3 ), 1 ≤ p < 2
+satisfying − Div (A∇S u) = f and − Curl ∇u = ΛTL in Ω, (A∇S u)N = g on ∂Ω and satisfying
+[[u]] = b and [[A∇S u]] = 0 on Ω ∩ SL . Moreover, it is deduced in [73] that the following expression
+holds in the sense of distributions:
+
+
+I
+S
+in Ω.
+(4.1)
+inc e(u) = inc ∇ u = Curl ΛL − trΛL
+2
+This establishes at the mesoscopic scale the famous macroscopic Kröner formula relating elastic
+strain incompatibility and dislocation density.
+
+4.1. The geometric approach at the macroscale. At the mesoscale we have seen that the
+1
+dislocation density reads ΛL = τ ⊗ bdH⌊L
+and represents the quantity of Burgers vector per unit
+1
+area (as the density measure dH⌊L has the dimension of an inverse area). Let S be a small surface
+in Ω with unit normal n and define the cylinder Vǫ = {x + tn, x ∈ S, −ǫ ≤ t ≤ ǫ}. Consider a
+family L of N parallel mesoscopic dislocations with Burgers vector b and orientation τ = n. One
+has
+Z
+1
+ΛT ndV = N b.
+2ǫ Vǫ L
+This corresponds to the definition of dislocation density as used by practitioners and lead Kröner
+[41] to define the macroscopic Burgers vector of a surface S ⊂ Ω as
+Z
+B(S) :=
+ΛT dS,
+(4.2)
+S
+
+a macroscopic quantity related to the number of dislocation lines crossing S, with dS the oriented
+area element, and where Λ is the assumed smooth macroscopic dislocation density. Moreover, one
+defines the contortion tensor3 as κ = Λ − 2I trΛ. Recalling (3.1), there is a direct link between
+intrinsic curvature and dislocation density, since the macroscopic expression of Kröner’s formula
+(see [41, 71]) reads
+inc ε = Curl κ.
+(4.3)
+Further, at the macroscale we are given a smooth linearized strain ε, and consider the elastic
+metric
+gij := δij + εij .
+
+(4.4)
+
+3This object has a geometrical meaning in non-Riemannian manifolds, see e.g. [62], that we will not detail here.
+
+6
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+So far, we have introduced a metric and an intrinsic curvature related to the presence of dislocations.
+Yet an important notion is missing: that of connection. The connection in geometry is a notion that
+permits a comparison between the local geometry at one point and the local geometry at another
+point. It is thus related to the differentiation of tensor fields and indeed it is well-known [19]
+that a ”good notion” of gradient on a manifold is induced by the choice of the connection Γ (also
+known as the Christoffel symbols). Denoting this gradient by ∇Γ , one can introduce the notion
+of parallel transport along a curve: it is said that a vector v is parallely transported along γ(t) if
+γ̇ · ∇Γ v = 0. It is said that a connection is compatible with the metric if ∇Γ g = 0: in this case two
+vector fields v, w parallely transported along a curve have the property that their scalar product
+g(v, w) is constant. Further, in case of compatible symmetric connections, and in this case only,
+the Christoffel symbols write as (see [19, Theorem 29.3.2])
+1
+Γkij = g kl (∂i glj + ∂j gil + ∂l gij ).
+2
+This connection is termed Riemannian or Levi-Civita after the name of the Italian mathematician
+Tullio Levi-Civita (1873-1943). As a matter of fact, a manifold is said Riemannian if it is endowed
+with both a Riemannian metric and a Riemannian connection (see, e.g., [25]) and, for us, a nonRiemannian manifold means that the connection need not be symmetric and compatible. Note
+that this latter expression of Γkij is the unique symmetric connection compatible with the metric
+g := I+ε and is that considered to obtain (3.1) from the Riemann curvature tensor Riemε associated
+to it. In the sequel this metric connection will be denoted 4 by ΓB .
+Now, for non-Riemannian connections, the crucial notion is that of connection’s torsion, defined
+as the tensor T writing component-wise as
+1
+(4.5)
+Tijk = Γk[ij] := (Γkij − Γkji ).
+2
+4.2. Parallel displacement and curvature. The role of parallel displacement in a perfect crystal is emphasized by Kröner as he says [42]: “when a lattice vector is parallely displaced using
+ΓB along itself, say 1000 times, then its start and goal are separated by 1000 atomic spacings, as
+measured by g. Because the result of the measurement by parallel displacement and by counting
+lattice steps is the same, we say that the space is metric with respect to the connection [ΓB ].”
+Let us translate Kröner’s words in formulae. Consider a closed loop C = {γ(t) : t ∈ [0, 1]},
+with γ̇(t) the unit tangent vector. Let us transport a lattice vector e along C. In the absence
+of defects one has an Euclidean connection and hence e is parallely transported along C, i.e.
+∇;C e = γ̇∇e = γ̇ k ∂k e = 0. Assume now the presence of dislocations along C. We know that
+the manifold has some curvature and consider in a first step the Levi-Civita connection Γ = ΓB
+associated to g. To transport the contravariant vector e we need to compute its covariant derivative along C, namely (∇;C e)i := γ̇ k (∂k ei + Γijk ej ) (cf. [19, §28.2., Eq. (23)]). Therefore the
+instantaneous deviation of e due to dislocations is given by
+(∇;C e)i = Γijk ej γ̇ k .
+
+(4.6)
+
+In linearized elasticity it is assumed gkl = δkl + 2εkl and thus lowering and raising the indices can
+be considered indifferently, to the first order. So, from Γk;ji := gkl Γlji , the deviation of ei in a
+time interval dt writes as Γi;jk ej dxk + h.o.t., with dxk := γ̇ k dt. Let us compute
+R the total amount
+of deviation on a closed loop
+C
+up
+to
+the
+first
+order,
+that
+is,
+we
+calculate
+Γ dxk that by
+C i;jk
+R
+Stokes theorem rewrites as SC ǫmqk ∂q Γi;jk dSm , with SC a surface enclosed by C. The covariant
+derivative of Γi;jk reads (cf. [19, Eq. (32)])
+∇q Γi;jk = ∂q Γi;jk − (Γi;pk Γp;jq + Γi;pq Γp;jk ) − Γi;jp Γp;kq .
+
+(4.7)
+
+ǫmqk ∂q Γi;jk = ǫmqk ∇q Γi;jk .
+
+(4.8)
+
+By the symmetry in q and k of the term inside the parenthesis and of the last term, this yields in
+the absence of torsion
+
+4Subscript B stands for the Bravais crystal, cf. [70].
+
+THE INCOMPATIBILITY OPERATOR
+
+7
+
+Now, let {ai } denote an orthonormal basis, and recall that Γijk = (∇k aj )i (cf. [19, Eq. (33)]).
+Thus, by a property of the Riemann curvature tensor (or a definition, see [19, Theorem 30.1.1])),
+one has
+Z
+Z
+Z
+
+1
+B
+ǫmqk ∇q (∇k aj )i dSm + h.o.t. =
+Γi;jk dxk =
+ǫmqk RiemB
+g i;pkq (aj )p dSm + h.o.t.
+2
+S
+SC
+C
+Z C
+
+1
+=
+ǫmqk RiemB
+g i;jkq dSm + h.o.t..
+SC 2
+By virtue of (3.1)-(3.3) this yields
+Z
+Z
+Z
+(
+inc
+ε)
+dS
++
+h.o.t.
+=
+ǫ
+ΓB
+dx
+=
+ǫ
+−2
+pm
+m
+ijp
+k
+ijp
+i;jk
+SC
+
+C
+
+SC
+
+ǫmql ∂q (F(ε))pl dSm + h.o.t.,
+
+(4.9)
+
+that is, by (3.4),
+Z
+Z
+B
+(F(ε))pl dxl + h.o.t. = ǫijp [[wp ]](SC ) + h.o.t..
+Γi;jk dxk = ǫijp
+−2
+C
+
+C
+
+Therefore we see that at the first order, the total deviation of ei around C depends on the rotation
+jump on the surface, since
+Z
+1
+∇k ei dxk = ǫikl Ωk (SC )el + h.o.t.,
+2
+C
+where we have introduced the Frank tensor Ωk := [[wk ]]. So far we have established the following:
+Point view of the external observer:
+• g Riemannian metric, ΓB Riemannian connection ⇒ (Ω, g, ΓB ) Riemannian manifold.
+
+• Observation 1: ∇Λ 6= 0, T = T B = 0 ⇒ Riemg 6= 0 :
+non-homogeneous dislocation density ⇒ crystal manifold with curvature but no torsion.
+Z
+1
+• Observation 2:
+∇e · dL = Ω(SC ) × e + h.o.t. : disclinations ⇒ crystal curvature.
+2
+C
+In this case the anholonomy is given by the presence of disclinations, where the term ”holonomy”5
+of a connection refers to the extent to which parallel transport around closed loops achieves, or
+fails, to preserve the geometrical data being transported: for instance under a metric connection,
+the orthogonality of two parallely transported vector fields is preserved.
+In this first perspective, of the so-called external observer, the absence of isometric embedding
+in R3 is translated into the nonvanishing Riemann curvature tensor associated with the LeviCivita metric connection of g. Though, one can see that something is missing in this formalism,
+since a homogeneous (constant) density of dislocations yields a crystal manifold with vanishing
+curvature, that is, a flat manifold. Moreover a pure dislocation (i.e, with vanishing jump of the
+rotation tensor) would permit parallel transport of lattice vectors, in contradiction with the nature
+of the dislocations which is responsible for atomic jumps, hence inducing a geometry that is not
+Euclidean. Instead, we would like to find a geometry that is specific for crystals with dislocations.
+This will be achieved by means of a new, non-Riemannian connection, i.e. a connection with
+torsion. This new perspective requires from the standpoint of physics the introduction of the
+so-called internal observer, able to determine crystallographic defects. For a recent review on
+incompatible deformation fields and the Riemann curvature field, we refer to [65].
+5The holonomy group is defined as the set of linear transformations arising from parallel transport along closed
+loops.
+
+8
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+4.3. The non-Riemannian crystal manifold. To emphasize the perspective of the internal
+observer we define the following geometrical objects:
+DISLOCATION TORSION:
+CONNECTION CONTORTION:
+
+Ti;kj
+∆Γk;ij
+
+:=
+:=
+
+Γk;ij
+
+:=
+
+NON SYMMETRIC CONNECTION:
+
+ǫkjq Λqi
+−Tj;ik − Ti;jk + Tk;ji
+ΓB
+k;ij + ∆Γk;ij .
+
+(4.10)
+(4.11)
+(4.12)
+
+It is easily seen that Γ is a connection, since ΓB is a connection and ∆Γ is a tensor (by the
+transformation property of a connection, cf. [19, Eq. (22)]). Moreover the symmetric part of Γ
+namely Γk;(ij) is a connection and it can be proved [70, Theorem 5.2] that Γk;[ij] = Tk;ij . Denoting
+the symmetric part of the connection by Γ◦k;ij = ΓB
+k;ij +∆Γk;(ij) we have, by the above calculations,
+one has
+Z
+Z
+1
+ǫmqk (Riem◦ (ε))i;jkq ej dSm + h.o.t.,
+Γ◦i;jk ej dxk =
+SC 2
+C
+where Riem◦ (ε) is the Riemann curvature tensor associated to Γ◦ . Let us now compute the
+remaining term, namely
+Z
+Z
+Z
+Γi;[jk] ej dxk =
+Ti;jk ej dxk =
+Λpi dSp ,
+C
+
+C
+
+C
+
+where we have introduced the surface element dSp = ǫpjk ej dxk . The deviation of the second term
+is just simply the integral on C of the macrosopic Burgers vector Bi (dS), that is
+Z
+Z
+(n · τ )Bi (dS),
+Γi;[jk] ej dxk =
+C
+
+C
+
+with dSp = np dS.
+Thus we see that provided the metric and the connection of the internal observer, the lattice
+vector is deviated: the first source of deviation is the Riemannian curvature, whereas the second is
+the connection’s torsion. Note that this connection might also be not metric, i.e., if ∇g 6= 0. The
+metric tensor is considered to model point defects in crystals, but this is beyond the scope of this
+survey (cf [83]).
+4.4. Internal and external observers. These are physical concepts related to fictitious thought
+experiments. The external observer is only able to make experiments from the outside, namely it
+measures fiber elongations and/or rotations and hence it measures a deformation ε that provides
+the geometer with a metric g. For the external observer the utmost geometrical quantity available
+is the Riemannian curvature as derived from the metric connection ΓB . On the contrary, the
+internal observer acts at another scale. It is able to recognize crystallographic direction and count
+atomic steps, hence can measure a density of dislocations. Thus torsion is available to the internal
+observer, but not to the external. It is only a combined view that provides a complete geometrical
+picture of the dislocated crystal, thence described as a non-Riemannian manifold, summarized as
+follows:
+Combined views of the internal and external observers:
+• g Riemannian metric, Γ non-Riemannian connection ⇒ (Ω, g, Γ) non-Riemannian manifold.
+
+
+• Property: Λ 6= 0 ⇒ T 6= 0 and ∇Λ 6= 0 ⇒ RiemΓ 6= 0 :
+non-homogeneous dislocation density ⇒ crystal manifold with curvature and torsion;
+homogeneous dislocation density ⇒ crystal manifold with torsion.
+
+• Anholonomy by displacement and rotation jumps (i.e., dislocations and disclinations):
+Z
+Z
+(n · τ )Bi (dS) + ǫikl Ωk (SC )el + · · · .
+∇k ei dxk =
+C
+
+C
+
+THE INCOMPATIBILITY OPERATOR
+
+9
+
+R
+R
+We note that if one restricts to the first order then it holds true that C ∇k ei dxk = SC 12 ǫmqk
+(RiemΓ (ε))i;jkq ej dSm with RiemΓ the Riemann curvature of the connection Γ defined as a sum
+with ΓB in such a way that RiemΓ = RiemB + · · · with the remaining terms related to ∆Γ. Note
+also that it is solely RiemB that yields the term Ω(SC ) × e.
+As we see, Kröner’s macroscopic framework allows us to come back to the language of geometry,
+by stressing that the crystal geometry and the physical laws governing defects are inseparable,
+as is the case in the Einstein’s general theory of relativity. We entirely agree with Noll when he
+writes [55] that “the geometry [must be] the natural outcome, not the first assumption, of the
+theory”6. Many geometrical tools and mathematical theory required for a rigorous description of
+the dislocated crystal geometry can be found in the landmark papers by Noll [55] and Wang [79],
+while also pointing out a recent book on continuum mechanics in this spirit [22]. We emphasize
+that ∆Γk;[ji] was also introduced by Noll [55] and called the crystal inhomogeneity tensor.
+4.5. Inelastic effects and notion of eigenstrain. The geometric description of a dislocated
+body has been made so far for static dislocations, that is, at the macroscale for a constant in time
+dislocation density tensor. We have seen that spatial variation of Λ and hence of the contortion
+tensor κ induces a non vanishing Curl κ thence a nonzero elastic strain incompatibility inc ε. A
+further notion introduced by Kröner is the eigenstrain ε̄ satisfying inc ε̄ = − inc ε. Physically it
+represents the additional strain to recover compatibility, since inc (ε̄ + ε) = 0 implies the existence
+of a vector field u such that e(u) = ε̄ + ε as related to the so-called Beltrami decomposition of
+symmetric tensor fields and Saint-Venant conditions [46]. Plasticity is the macroscopic behaviour
+of a body whose dislocation density tensor varies in time, since dislocation motion is the physical
+cause of plasticity. The last sections of this survey will be dedicated to the description of a novel
+model of elasto-plastic bodies based on ε and inc ε, hence the model variables are (ε, κ), two
+intrinsic and objective tensors, in an extended sense to be defined later. Before, we intend to recall
+the intrinsic approach to linearized elasticity.
+5. A geometric conception of linearized elasticity: the intrinsic approach
+5.1. Gauss vs. Riemann in linearized elasticity. In the conventional mathematical treatment
+of linearized elasticity, the basic model variable is the displacement field u : Ω → R3 , with respect
+to which elastic problems are stated and solved. Further, the linearized strain is introduced in a
+second step as the symmetric gradient of the displacement field, ε = e(u) := ∇S u. However, in
+many computations and experiments, the strain is most naturally the ”observable” field, thence
+becoming the main model variable. In this spirit, the stress might also be considered as a root
+variable, in the sense that it is a field that is observable, measurable and controllable: by a possibly
+fictitious thought experiment, the stress is obviously measurable by extracting from the elastic body
+a small enough volume element and then measuring the Newtonian forces exerted on its facets.
+Moreover, given the stress tensor, the strain is well defined as soon as a constitutive law is provided,
+here a linear homogeneous, isothermal and isotropic law: the strain-stress constitutive law reads
+ε = Cσ, with C the compliance tensor, i.e., fourth-rank (inverse) tensor of elasticity.
+However, today most elasticity problems are treated using the displacement as basic model
+variable, from which the strain is defined by the kinematic relation ε = ∇S u, thence the stress
+by a constitutive law. This approach presumably comes from the study of elliptic boundary-value
+problems, where the elasticity system is most often presented as a vector-valued extension of elliptic
+equations in divergence form. Moreover, weak and variational formulations are most easily derived
+by means of the displacement, and show a convenient and elegant way of solving problems in
+elasticity.
+There are nonetheless profound theoretical reasons to refrain from taking the displacement as
+main model variable. For instance, its possible multi-valuedness, which is not to avoid from a
+physical standpoint, since multi-valuedness may have a meaning, but which must be addressed
+6As in the Continuous Distribution of Dislocation (CDD) theory of Bilby et al. [10].
+
+10
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+in an adequate manner in an appropriate mathematical formalism (see above). Another example
+is the reference configuration, from which the displacement is defined and which by definition is
+arbitrary: although natural in finite elasticity, it becomes somehow artificial in linearized elasticity, since Eulerian and Lagrangian representations coincide. Moreover, in elasto-plasticity or
+for elastic bodies with defects, the stress and defect-free reference configurations might not exist
+(simultaneously). Hence, to remedy this issue, it is often appealed to ”intermediate” reference
+configurations, from which plastic and elastic deformations are defined, but whose physical as well
+as mathematical meaning are far from clear. In fact, what is a plastic distortion (i.e., the ”plastic”
+part of the displacement gradient) as long as no constitutive law exist for the rotations (i.e., the
+skew-symmetric part of the gradient)? Not to mention some models which introduce plastic and
+elastic displacements, whose physical and mathematical meanings are extremely vague. Further,
+we should also mention the fact that any rigorous model should in principle be proven independent
+of the choice the reference configuration. Lastly, in the presence of crystal defects like dislocations
+the very notion of displacement or velocity is not clearly defined at any scale. For instance, at the
+atomic scale, bonds can move while atoms remain fixed.
+5.2. Ciarlet’s intrinsic approach to linearized elasticity. As we have seen, it may happen
+that because of defects or other incompatibilities, the very notion of a displacement field does
+not make sense as a conventional single-valued field. Instead, one would like to state the linearelastic problem in terms of the strain ε, which needs not a-priori be taken as a symmetric gradient.
+For these reasons, the intrinsic approach in linearized elasticity by Ph. Ciarlet and C. Mardare
+[15] constitutes a major breakthrough in mathematical elasticity, which was able to reconcile in
+an elegant manner the two aforementioned approaches. In their presentation, the strain is the
+main model variable in terms of which strong as well as variational formulations are sought. The
+displacement only appears in a second step if the Riemannian curvature tensor associated to the
+elastic metric vanishes (see above). In the approach of Ciarlet and Mardare, a differential geometry
+setting is chosen (see above), where the boundary under analysis is defined by means of smooth
+enough immersions, from which the curvilinear basis, the metric, the symmetric connection and
+the curvature tensors are derived. It should be emphasized that such derived curvilinear bases
+are indeed defined in the body itself as well as on its boundary, but are not mutually orthogonal,
+and have no particular physical meaning. The main difficulty is the treatment of the boundary
+conditions, since a condition such as u|Γ0 = 0 for some Γ0 ⊂ ∂Ω is not easily translated to a
+boundary condition on the deformation tensor.
+Let ε be a compatible strain tensor, i.e., by Saint-Venant theorem (see below), there exists a
+displacement field u such that ε = e(u) = ∇S u. Let εT be the tangential strain (i.e. the projection
+of e perpendicularly to the normal to the boundary) ∂Ω. Let γ ♯ := εT |∂Ω be the linearized changeof-metric and ρ♯ the linearized change-of-curvature tensors as introduced by Ciarlet-Mardare in [15].
+Let Γ ⊂ ∂Ω be a connected relatively open set, and let R(Γ) be the set of rigid motions (i.e., rototranslations) on Γ. Their main theorem states the following:
+Theorem 5.1 (Ciarlet-Mardare [15, Theorem 6.1]). Let u ∈ H 1 (Ω). Let either
+(i) u|Γ = 0
+(ii) γ̄ ♯ (e) = ρ̄♯ (e) = 0
+(iii) u|Γ ∈ R(Γ).
+
+One has (i) ⇒ (ii) ⇒ (iii), where γ̄ ♯ and ρ̄♯ are suitable extensions of γ ♯ and ρ♯ .
+To give a more physical understanding of the linearized change-of-curvature tensor, we need
+to anticipate the specific trace operators T0 and T1 that have been introduced in [3]. They have
+been obtained through a Green-like formula (see below Theorem 8.3 for details) where T and η
+are smooth enough symmetric tensors,
+Z
+Z
+Z
+Z
+T0 (T ) · ∂N η dS(x).
+T1 (T ) · η dS(x) +
+inc T · ηdx +
+T · inc ηdx =
+Ω
+
+Ω
+
+∂Ω
+
+∂Ω
+
+THE INCOMPATIBILITY OPERATOR
+
+11
+
+It has been proved in [2, Lemma 2.11] that that
+(i) ⇒ (ii)′
+
+εT = T0 (ε) = 0 and T1 (ε) = 0 on Γ,
+
+and that, for Γ = ∂Ω (see [2, Proposition 2.19]),
+
+(ii)′ ⇒ (iii).
+
+Note that the rigid displacement is set to zero as soon as the normal components of ε, i.e., ε − εT
+vanish. The link with the Frank tensor is the following:
+
+
+ε = 0 on Γ ⇒ CurlT ε × N = 0 ⇔ T1 (ε) = 0 on Γ ,
+
+with N the outer normal to ∂Ω. In this case either conditions inc ε = 0 in Ω together with
+ε = CurlT ε × N = 0 or ε = T1 (ε) = 0 on Γ implies that ε = ∇S v with v = 0 on Γ (since in this
+case ρ̄♯ (ε) = 0 [72]). Thus, the intrinsic elasticity system writes in strong form as
+
+
+− div C−1 ε = f in
+Ω
+
+
+
+inc ε = 0
+in
+Ω
+,
+T
+(ε)
+=
+T
+(ε)
+=
+0
+on
+Γ
+
+0
+
+1
+
+−1
+C ε N =g
+on ∂Ω \ Γ
+
+where the traces are intended in a weak sense, and with f and g the volume and surface loads,
+respectively. The corresponding intrinsic variational formulation reads
+
+Z 
+1 −1
+C e − K · edx,
+inf
+2
+Ω
+inc e=0
+T0 (e)=T1 (e)=0 on Γ
+
+where K is a tensor of external forces satisfying
+
+− div K = f
+KN = g
+
+in
+on
+
+Ω
+.
+∂Ω \ Γ
+
+6. The classical route to plasticity
+After the pioneer works by Coulomb (1773), the theory of plasticity finds its roots in the mid 19th
+and early 20th centuries by experimentalists (Tresca, 1864) and engineers/mathematicians/physicists
+(e.g., Saint-Venant7, 1870, Von Mises, 1913, Prandtl, 1924), and was later developed by Drucker
+(1947) and Hill (1950). Importants works were achieved by Taylor and Orowan (1934) putting the
+spot light on the link between plasticity and dislocation motion.
+6.1. The mathematical approaches: two perspectives. The mathematical literature starts
+with Hodge and Prager around 1950 who were first to understand plasticity in modern mathematical terms, proposing a variational formulation in terms of the stress rate and based on the principle
+of virtual power, while in parallel Greenberg [28] proposed a variational formulation in terms of
+the velocities. Thus we see that historically the two approaches of strain vs. displacement-based
+elasto-plasticity models have already coexisted since the beginning. This is a key aspect of our
+approach, which is an intrinsic model, i.e., considering the elastic strain as basic model variable,
+in the sense of the geometers mentioned above, of Prager, and recently (notably after decades of
+displacement-based approach) of Ciarlet and coauthors [14, 15]. The philosophical standpoint can
+be recast in view of the aformentioned history as follows:
+Riemann’s view
+Intrinsic models
+No reference configuration
+Strain/strain rate-based approaches
+
+Gauss’ view
+Embeddings models
+Reference configurations
+Displacement/velocity-based approaches.
+
+(6.1)
+
+7A name that we have encountered already above an which is also related to the incompatibility operator, see
+below.
+
+12
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+Let us now describe the main ingredients of the conventional, historical approach, which, we
+recall, has proven so far in complete agreement with the observations. It is hence an excellent
+model for all practical purposes. In the general framework of thermodynamics, one postulates the
+existence of a dissipation potential which provides the evolution laws for plastic deformation (the
+so-called flow rules) and possible other internal variables. This part of the theory is strongly linked
+with convex analysis and thus was fostered in the 60ies by the remarkable works by Rockafellar and
+Moreau [52]. In the end of the 70ies and in the 80ies, Strang and Temam [68] and their collaborators
+introduced a new functional space to describe plasticity, the space of bounded deformations, whose
+main feature is to allow the strain to have a regular part and a measure part, thus well-suited to
+modeling discontinuous phenomena, such as plastic slip on part of the boundary, or shear band
+formation in perfect plasticity. This theory yielded on the one hand a first rigorous mathematical
+formulation (i.e., with proofs of existence, etc., see the excellent textbook by Han and Reddy [32]),
+and on the other hand gave rise to performent numerical schemes. Summarizing, the conventional
+approach to elasto-plasticity is based on
+(i) the velocities (or the displacement field) as first model variable,
+(ii) a postulated decomposition in elastic and plastic parts of the total compatible strain,
+where each part is assumed to model distinct sub-scale phenomena (elastic deformation
+means variation in inter-atomic distance, whereas plastic deformation is a macroscopic
+manifestation of the modification of inter-atomic bonds, where dislocations play a role),
+(iii) separate constitutive laws for the elastic and plastic strains,
+(iv) a convex elastic domain (whose boundary is the so-called yield surface), which is a sufficient
+condition in order to satisfy the 2nd principle of thermodynamics and further permit the
+use of convex calculus.
+First existence results for linear elasticity/perfect plasticity were provided around 1980 by Johnson
+[36], Suquet [66], by means of visco-plastic approximations (see also Anzelotti, Giaquinta, Luckhaus
+[5, 6], Hardt and Kinderlehrer [33]). About 20 years later, a quasi-static evolutionary variational
+formulation was sucessfully proposed by Mielke and coauthors (Mainik, Roubı́c̆ek, Stefanelli, etc.
+[49, 50]) in the early 2000s, based on a balance between dissipative and potential restoring forces.
+Slightly later a series of refinements were provided by Dal Maso’s school [17], and also by other
+authors (such as, e.g., Ortiz, Francfort [18], De Simone, Neff [24]), some of them grounding their
+approach on the energy dissipation principle and De Giorgi’s theory of minimizing movements.
+In the 80ies and 90ies, computational plasticity has been developed, based on strain incremental
+schemes, see for instance the classical textbooks of Hughes and Simo [64] and Han and Reddy [32].
+6.2. Conventional (0th-order) elasto-plasticity models. Conventional models of small strain
+elasto-plasticity start with the following postulate. It is assumed that εe = A−1 σ is the elastic
+strain, with A the isotropic elasticity tensor and σ the Cauchy stress tensor. Then, the eigenstrain is called plastic strain, ε̄ = εp , and there exists a vector field u called the displacement field,
+satisfying
+e(u) = εe + εp .
+
+(6.2)
+
+Whereas at time t, the elastic strain εe (t) obeys the elasticity system
+− div (Aεe (t)) = f (t) in Ω,
+
+(Aεe (t))N = g(t) on ΓN ,
+
+(6.3)
+
+the plastic strain satisfies other laws, called the flow rules. These are based on another series of
+postulates. Before recalling these rules, it is important to have in mind three facts regarding (6.2).
+(i) The partition is local, i.e., ε(x) = εe (x) + εp (x) for any x ∈ Ω and is purely of physical
+nature, that is, there is not any sort of mathematical structure behind it.
+(ii) The geometric meaning of ε as an intrinsic metric has been lost, since each part has its
+own definition, given by solving some equations, whereas the total deformation is defined
+by their sum.
+
+THE INCOMPATIBILITY OPERATOR
+
+13
+
+(iii) By (6.2), it is conventionally postulated that the total deformation is compatible, that is,
+that there exists a displacement field u such that ε = ∇S u = e(u). This statement is
+not justified by any mathematical argument and the adoption of this hypothesis is made
+for simplicity. Indeed it automatically implies that the incompatibilities of elastic and
+plastic parts mutually compensate, without the need to let the flow rules comply with this
+property.
+As for the plastic part, following Moreau [52] it is assumed that:
+• There exists a compact and convex subset K of symmetric 3 × 3-matrices such that the
+condition σ ∈ K is always satisfied. The yield surface is represented by the boundary ∂K.
+Moreover, in the general context of plasticity with hardening, the elastic domain K(t) at
+time t depends on σ(t), to account for the back-stress tensor, and we write K(t) to mean
+K (σ(t)).
+• Let IK be the indicator function of K, i.e. IK (η) = 0 if η ∈ K and IK (η) = +∞ if η ∈
+/ K.
+Then the so-called associated flow rule (a special case commonly used) can be written as
+
+σ(t) ∈ int K(t) ⇒
+ε̇p (t) = 0
+(6.4)
+p
+σ(t) ∈ ∂K(t) ⇒ ε̇ (t) ∈ ∂IK(t) (σ(t)) ⇔ (η − σ(t)) · ε̇p (t) ≤ 0, ∀η ∈ K(t).
+Here ∂IK(t) is the normal cone NK (σ(t)) and σ(t) ∈ int K(t) ⇔ NK (σ(t)) = {0}. This formalism
+is to be compared with the model of Hill and Rice [34, 57], which is summarized as follows:
+• Introduce the dissipation potential D(ε̇p ) := sup{η · ε̇p |η ∈ K(t)}, that is the support
+function of K(t). Convex calculus entails
+D(ε̇p ) = σ(t) · ε̇p ⇔ σ(t) ∈ ∂D(ε̇p ).
+
+(6.5)
+
+• It is easily proven that the two formalisms are equivalent [32]:
+(6.4) ⇔ (6.5).
+Note that the ⇐ implication shows that Hill and Rice formalism does not require the notion of
+elastic domain and yield surface, which are obtained as consequences. However they postulate the
+existence of a potential D that is convex, positively homogeneous and lower semicontinuous. Thus
+we see that in both cases the model is strongly based on convex analysis.
+7. Gradient elasto-plasticity for continua with dislocations:
+towards an incompatibility-driven model
+7.1. The size effect. Zeroth-order models as described in Section 6 may not be sufficient with a
+view to several technological applications. For instance, it is essential for micro-electronics devices
+(such as silicon wafers for semiconductor production [53]) to accurately identify the mechanical
+properties of micro-structured materials, since there exist important strength differences that result
+from modification of the material micro-structural characteristics with changing size (where in
+general smaller sizes correlate with stronger responses). Indeed, the mechanical properties of
+micro-structured materials (e.g., yield strength, strain-hardening rate) with small-scale structures
+are extremely size-sensitive, and the increase in strength with decreasing scale can be related
+to increasing the strain gradients. For instance, industrial silicon is produced by the growth of
+a crystal seed, which by definition incorporates all material sizes and various types of microstructures (individual point-defects, voids, dislocations, volumic clusters, dislocations): present
+in the small-size material, they will grow together with the crystal and form defect structures of
+various sizes [53,74]. Further, serious issues prevent the use of classical (local) theories of plasticity
+and fracture (see [26] or [1]), since classical continuum mechanics cannot accurately capture size
+effects and highly localized deformations. On the other hand, atomistic simulations are out of
+reach in terms of computational cost, and therefore are restricted to small samples. In order to
+address the size effect problem, the so-called gradient plasticity models have gained an increasing
+interest in the scientific and technological communities.
+
+14
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+7.2. Gradient models. The success of gradient theories stems from the incorporation of a microstructural length scale parameter. Indeed, it is a general feature that gradient-theories do not
+assume stress as function of the sole history of strain at a point x, rather they take into account
+possible interactions with other material points in its neighbourhood. For example, the internal
+state variable that is responsible for isotropic hardening in classical plasticity theory is the Reffective
+plastic strain p, that, in a non-local media can be replaced by a weighted average p̄(x) = V p(x +
+ξ)h(ξ)dx, where x is the point of interest, ξ is the size of the localized plastic zone, and h(ξ) is
+a weighting function. Then p̄(x) can be approximated in terms of p(x), L∇p(x) and L2 ∇2 p(x),
+for a certain characteristic length L. The physical basis of the gradient plasticity theory rests on
+theoretical developments of geometrically necessary dislocations (GNDs), see Daya Reddy, Gurtin
+and Neff works for instance [8, 21, 30, 31]. For instance, the micro-mechanical modeling of the
+inelastic material behavior of metallic single crystals is based on the fact that resistance to glide
+is due to random trapping of mobile dislocations, “statistically stored” dislocations (SSDs), and
+acting as obstacles to further dislocation motion. On the other hand, the GND are related to the
+elastic strain incompatibility and are responsible for the observed macroscopic plastic behaviour, as
+stated by the famous Kröner’s relation [41] “ inc ǫ = Curl κ” with κ related to dislocation density.
+In the last two decades, another class of gradient theories was introduced, assuming higher-order
+gradients of the plastic strain field, as proposed in our model. These theories are a particular case
+of the generalized continua, such as continua with micro-structure, which were inspired by the
+pioneering work of the Cosserat brothers8 [16].
+7.3. Our approach: a gradient model based on the strain incompatibility. We believe
+that the intrinsic point of view together with continuum-and gradient-based theories as proposed
+by our approach (see Sections 8 and 9) are needed to bridge the gap between classical continuum
+and micro-mechanical theories. The main feature of our model is that we focus on dislocation
+micro-structure in single crystals with a novel continuum model making an explicit link between
+plasticity and dislocations, and based on a novel model paradigm. As we will explain, the model
+we propose is of gradient type, involving the curl and the incompatibility of the strain. Further,
+the deformation tensor is seen as a metric in the aforementioned geometric sense. In particular we
+do not distinguish between elastic or plastic deformations.
+The novel approach we propose has been introduced and discussed in [4]. In our model, neither
+of the three above postulates are considered. Our paradigm is radically different and our approach
+is based on the following rationales.
+(1) Strain rate is prefered to strain and is given the following, primordial definition. Identify
+three fibers at x, denoted by a1 , a2 , a3 , which at time t are oriented along the axes of a
+Cartesian coordinate system and of unit lengths. Then the deformation rate is defined at
+x as (see, e.g., [20, 67])
+
+
+1 d
+(ai · aj ) .
+(7.1)
+dij (t) =
+2 dt
+t
+Having fixed an initial time t0 = 0, the time
+R t integral of the objective tensor d, called the
+strain or deformation tensor reads ε(t) = 0 d(s)ds. Note that (7.1) holds for infinitesimal
+as well as for finite strains and hence one is not forced to specify the quantitative nature
+of the deformations before they take place.
+(2) This strain defined in this fashion is neither elastic nor plastic, it simply has a compatible
+and an incompatible part, that are given by a structure theorem called Beltrami decomposition [46]:
+ε = ∇S u + E 0 .
+(7.2)
+As opposed to elastic-plastic splittings this decomposition is unique once boundary conditions for u are prescribed. Moreover, while ε is an objective field (in a general sense
+8Indeed, the Cosserat (or micro-polar) continuum enhances the kinematic description of deformation by an
+additional field of local rotations.
+
+THE INCOMPATIBILITY OPERATOR
+
+15
+
+discussed in section 9, neither ∇S u nor E 0 are objective. Therefore the model will be
+constructed upon ε and its derivatives.
+(3) The governing equations should generalize classical linear elasticity in the sense that it
+must take into account the possible strain incompatibility. The idea behind is that the
+model should explicitely account for the physical cause of plasticity: the presence and
+motion of dislocations as microstructural perturbations.
+As detailed below, the key point upon which our model relies is the fact that strain incompatibility is directly related to the density of dislocations by (4.3). Moreover, our model involves a
+new tangent material coefficient ℓ, with the dimension of a force, representing the resistance of
+matter against incompatibility. In general, this scalar is space- and time-dependent, and evolves
+with the course of (at first quasi-static) deformation. If ℓ depends on space only, we proved in [2]
+that our model is a special case of the classical Mindlin gradient elasticity [51], whereas for a
+time-dependent ℓ, it gives rise to a drastically new approach and a novel nonlinear plasticity model
+in direct relation with dislocation motion.
+A difficult modelling problem that we have not yet achieved is to find an appropriate evolution
+equation for the incompatibility modulus ℓ. In principle it should be derived based on dislocation
+mechanics as a function of temperature, strain, strain rate, and a set of measurable micro-structural
+physical parameters. Further, due to the existence of plastic strain gradient terms, higher-order
+boundary conditions are required on both external (free surfaces) and internal boundary (interfaces)
+regions where plastic deformation occurs. Also, these higher-order boundary conditions, which are
+motivated from the physical understanding of the dislocation mechanics, may vary with the course
+of plastic deformation. It is a further principle of our approach that boundary conditions should
+be naturally integrated in the functional framework of our equations. Hence internal transmission
+conditions are only byproducts of weak formulations.
+7.4. Link with classical elasto-plasticity models. Recall that classical linearized elasto-plasticity
+models are based on the a priori decomposition εtot = εe + εp , where the total strain εtot is compatible ( inc εtot = 0), the elastic strain εe is derived from the Cauchy stress by Hooke’s law, and
+the plastic strain εp obeys flow rules. We now compare this decomposition with the Beltrami
+decomposition ε = ∇S u + ε0 . Since inc εtot = inc ∇S u = 0, there exists a vector field w (see [46])
+such that εtot = ∇S u − ∇S w and we can write
+
+
+εtot = ∇S u − ∇S w = − ε0 + ∇S w + ∇S u + ε0 .
+
+We then recognize ∇S u + ε0 as the strain ε. The correspondence with the Beltrami decomposition
+ε = ∇S u + ε0 can be made upon setting εe = ε, εp = −(ε0 + ∇S w).
+The interpretation is the following (see Fig. 1): for us, ε represents the deformation from a
+reference state, say state A to a neighbour state B of the same material. It can be viewed as
+the composition of the incompatible deformation ε0 from state A to an intermediate state A′ , and
+the compatible deformation ∇S u from A′ to B. In the classical approach, another configuration
+A′′ serves as reference configuration. The total deformation εtot from A′′ to B is the sum of the
+plastic deformation εp = −(ε0 + ∇S w) from A′′ to A and the elastic deformation εe = ε from A
+to B. Therefore, plastic effects play somehow the role of configurational forces [29] that account
+for the change of reference configuration. Of course, choosing w = 0 (thus A′′ = A′ ) would be
+a choice of simplicity, but in that case εp would be identified with −ε0 , hence it would not be
+trace-free as assumed in some standard flow rules. We emphasize the arbirariness of A”, whereas
+A’ is uniquely determined from Beltrami decomposition. However, a significant difference between
+the kinematical frameworks of the two approaches is that εp is usually supposed trace-free whereas
+ε0 is divergence-free. For us, incompressibility could be realized by an enrichment of the model,
+with possible additional variables and equations, but it is not prescribed a priori in the general
+setting.
+
+16
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+Figure 1. The Beltrami decomposition (A → A′ → B) vs the standard elastic/plastic decomposition (A′′ → A → B)
+8. The incompatibility operator: functional framework
+We have seen so far that the notion of incompatibility is a crucial ingredient in the modeling
+of dislocated crystals and therefore in the understanding of the plastic behavior of solids. From
+the mathematical point of view, inc is a second order differential operator that acts on (usually
+symmetric) tensor fields. We address in this section the analysis of this operator in the framework of Sobolev spaces. The Beltrami9 decomposition asserts that any symmetric tensor field can
+be split into a divergence-free part and an incompatibility-free part. It appears therefore natural to study the incompatibility operator in divergence-free spaces. As orthogonal complements,
+incompatibility-free spaces will also be discussed.
+Let Ω be a regular (C ∞ ) bounded domain of R3 . We denote by ∂Ω its boundary and by N its
+outward unit normal. Moreover S3 denotes the set of symmetric 3-matrices.
+8.1. Divergence-free lifting, Green formula and applications. We begin with the divergencefree lifting of traces of symmetric tensor fields. Set
+
+
+Z
+3/2
+3
+3/2
+3
+H̃ (∂Ω, S ) = E ∈ H (∂Ω, S ) :
+EN dS(x) = 0 .
+∂Ω
+
+Theorem 8.1 (Divergence-free lifting [3]). Let E ∈ H̃ 3/2 (∂Ω, S3 ) and G ∈ H 1/2 (∂Ω, S3 ). There
+exists E ∈ H 2 (Ω, S3 ) such that
+
+on ∂Ω,
+ E=E
+(∂N E)T = GT on ∂Ω,
+
+div E = 0
+in Ω,
+where the subscript T stands for the tangential part. In addition, such a lifting can be obtained
+through a linear continuous operator
+L∂Ω : (E, G) ∈ H̃ 3/2 (∂Ω, S3 ) × H 1/2 (∂Ω, S3 ) 7→ E ∈ H 2 (Ω, S3 ).
+9Eugenio Beltrami (1835-1900) is an Italian physicist and mathematician known in particular for his works on
+elasticity–stating the equilibrium equations of a body in terms of the stress in place of the strain [9]– but also in
+non-Euclidean geometries in the wake of Gauss and Riemann. He was indeed a friend of Riemann whom he met at
+Pisa university where he had a chair. Moreover, his chair of mathematical physics in Rome was later transmitted to
+Volterra in 1900. Vito Volterra (1860-1940) is presumably the first who gave a correct definition of dislocations and
+disclinations in [77]. It is thus not mere coincidence that the name of Beltrami will take a crucial place in our survey
+on incompatibility and dislocations. Neither that the second author of this survey started his study of dislocations
+with a book found in the main Scuola Normale library in Pisa in 2000 [38].
+
+THE INCOMPATIBILITY OPERATOR
+
+Define the subset of C ∞ (∂Ω, S3 )
+
+17
+
+G = {V ⊙ N, V ∈ R3 },
+
+with the notation U ⊙ V := (U ⊗ V + V ⊗ U )/2.
+Lemma 8.2 (Dual trace space [3]). Every E ∈ H −3/2 (∂Ω, S3 )/G admits a unique representative
+Ẽ such that
+Z
+ẼN dS(x) = 0.
+
+(8.1)
+
+∂Ω
+
+Moreover, the dual space of H̃ 3/2 (∂Ω, S3 ) is canonically identified with H −3/2 (∂Ω, S3 )/G.
+We define the spaces of symmetric tensor fields
+H div (Ω, S3 )
+
+:=
+
+H inc (Ω, S3 )
+
+:=
+
+{E ∈ L2 (Ω, S3 ) : div E ∈ L2 (Ω, R3 )},
+
+E ∈ L2 (Ω, S3 ) : inc E ∈ L2 (Ω, S3 ) ,
+
+endowed with the norms defined by kEk2H div = kEk2L2 +k div Ek2L2 , kEk2H inc = kEk2L2 +k inc Ek2L2 ,
+respectively.
+Recall that the Green formula for the divergence allows to define, for any T ∈ H div (Ω, S3 ), its
+normal trace T N ∈ H −1/2 (∂Ω, R3 ) by
+Z
+Z
+
+div T · ϕ̃ + T · ∇S ϕ̃ dx
+∀ϕ ∈ H 1/2 (∂Ω, R3 ),
+(T N ) · ϕdS(x) :=
+Ω
+
+∂Ω
+
+1
+
+3
+
+with ϕ̃ ∈ H (Ω, R ) an arbitrary lifting of ϕ. For the incompatibility operator one has the following
+counterpart.
+Lemma 8.3 (Green formula for the incompatibility [3]). Suppose that T ∈ C 2 (Ω, S3 ) and η ∈
+H 2 (Ω, S3 ). Then
+Z
+Z
+Z
+Z
+T0 (T ) · ∂N η dS(x) (8.2)
+T1 (T ) · η dS(x) +
+inc T · ηdx +
+T · inc ηdx =
+∂Ω
+
+∂Ω
+
+Ω
+
+Ω
+
+with the trace operators defined as
+T0 (T )
+
+:=
+
+T1 (T )
+
+:=
+
+T
+
+(T × N ) × N,
+Curl (T × N )
+
+(8.3)
+
+
+T S
+
+t
+
+
+
++ ((∂N + k)T × N ) × N + CurlT T × N
+
+S
+
+where k is twice the mean curvature of ∂Ω and T S = (T + T T )/2. In addition, it holds
+Z
+T1 (T )N dS(x) = 0.
+
+,
+
+(8.4)
+
+(8.5)
+
+∂Ω
+
+T
+
+Note that (T × N ) ×N is made of permutations of the tangential components of T . Alternative
+expressions of T1 (T ) are derived in [3]. Therefore, we can define the traces T0 (T ) ∈ H −1/2 (∂Ω, S3 )
+and T1 (T ) ∈ H −3/2 (∂Ω, S3 )/G for every T ∈ H inc (Ω, S3 ) by
+Z
+Z
+hT0 (T ), ϕ0 i =
+T · inc η0 dx −
+inc T · η0 dx,
+∀ϕ0 ∈ H 1/2 (∂Ω, S3 ),
+Ω
+
+hT1 (T ), ϕ1 i =
+
+Z
+
+Ω
+
+Ω
+
+T · inc η1 dx −
+
+Z
+
+Ω
+
+inc T · η1 dx,
+
+∀ϕ1 ∈ H̃ 3/2 (∂Ω, S3 ),
+
+with η0 = L∂Ω (0, ϕ0 ) and η1 = L∂Ω (ϕ1 , 0) (recall that L∂Ω is the lifting operator defined in
+Theorem 8.1). In addition, by Lemma 8.2, T1 (T ) admits a unique representative satisfying (8.5).
+By linearity of L∂Ω , this extends formula (8.2) to any functions T ∈ H inc (Ω, S3 ) and η ∈ H 2 (Ω, S3 ).
+From the two Green formulas recalled above one immediately infers that:
+• inc ∇S v = 0 in the sense of distributions for all v ∈ H 1 (Ω, R3 );
+• div inc E = 0 in the sense of distributions for all E ∈ H inc (Ω, S3 ).
+
+18
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+In particular, if E ∈ H inc (Ω, S3 ), then inc EN is defined in H −1/2 (∂Ω, R3 ) by
+Z
+Z
+inc E · ∇S ϕdx
+∀ϕ ∈ H 1 (Ω, R3 ).
+inc EN · ϕdx =
+Ω
+
+∂Ω
+
+Let Γ be a smooth subset of ∂Ω and set
+
+H0inc (Ω, S3 ) = the closure of D(Ω, S3 ) in H inc (Ω, S3 ).
+
+Further properties of the trace operators are given below.
+
+Proposition 8.4 (Trace properties [2]).
+(1) Let v ∈ H 1 (Ω, R3 ) be such that v = r on Γ in the
+sense of traces, with r a rigid displacement field. Then T0 (∇S v) = T1 (∇S v) = 0 on Γ.
+(2) We have the characterization
+
+H0inc (Ω, S3 ) = E ∈ H inc (Ω, S3 ) : T0 (E) = T1 (E) = 0 on ∂Ω .
+(3) If E ∈ H0inc (Ω, S3 ) then inc EN = 0 on ∂Ω.
+
+8.2. Saint-Venant compatibility conditions and Beltrami decomposition. We state the
+following two results in the setting of Lp spaces for generality, although we will be concerned with
+p = 2 only.
+Theorem 8.5 (Saint-Venant compatibility conditions [46]). Assume that Ω is simply-connected.
+Let p ∈ (1, +∞) be a real number and let E ∈ Lp (Ω, S3 ). Then,
+inc E = 0 in W −2,p (Ω, S3 ) ⇐⇒ E = ∇S v
+
+for some v ∈ W 1,p (Ω, R3 ). Moreover, u is unique up to rigid displacements.
+Theorem 8.6 (Beltrami decomposition [46]). Assume that Ω is simply-connected. Let p ∈ (1, +∞)
+be a real number and let E ∈ Lp (Ω, S3 ). Then, for any v0 ∈ W 1/p,p (∂Ω), there exists a unique
+v ∈ W 1,p (Ω, R3 ) with v = v0 on ∂Ω and a unique F ∈ Lp (Ω, S3 ) with Curl F ∈ Lp (Ω, R3×3 ),
+inc F ∈ Lp (Ω, S3 ), div F = 0 and F N = 0 on ∂Ω such that
+E = ∇S v + inc F.
+
+(8.6)
+
+A variant of Saint-Venant’s compatibility conditions in the presence of boundary conditions is
+the following.
+Proposition 8.7 (Saint-Venant with boundary condition [2]). Assume that Ω is simply-connected.
+If E ∈ L2 (Ω, S3 ) satisfies
+
+inc E = 0 in Ω,
+(8.7)
+T0 (E) = T1 (E) = 0 on ∂Ω
+
+then there exists v ∈ H01 (Ω, R3 ) such that ∇S v = E. Moreover, the map E ∈ L2 (Ω, S3 ) 7→ v ∈
+H01 (Ω, R3 ) is linear and continuous.
+We assume from now on that Ω is simply-connected.
+8.3. Orthogonal decompositions. For Γ being a smooth subset of ∂Ω, we define the sets
+
+V =
+E ∈ L2 (Ω, S3 ) : inc E = 0 ,
+VΓ0
+
+VΓ00
+W
+
+WΓ0
+
+=
+
+=
+=
+=
+
+{E ∈ V : T0 (E) = T1 (E) = 0 on Γ} ,
+ S
+∇ v : v ∈ H 1 (Ω), v = 0 on Γ ,
+
+E ∈ L2 (Ω, S3 ) : div E = 0 ,
+{E ∈ W : EN = 0 on Γ} .
+
+From what precedes we infer the following relations [2]:
+V = V∅0 = V∅00
+
+VΓ00 ⊂ VΓ0 ,
+
+00
+0
+V∂Ω
+= V∂Ω
+.
+
+A refinement of the Beltrami decomposition is obtained as follows.
+
+THE INCOMPATIBILITY OPERATOR
+
+19
+
+Theorem 8.8 (Orthogonal decomposition of L2 (Ω, S3 ) [2]). Assume that ∂Ω admits the partition
+∂Ω = Γ1 ∪ Γ2 with Γ1 ∩ Γ2 = ∅. We have the orthogonal decomposition
+L2 (Ω, S3 ) = VΓ001 ⊕ WΓ02 .
+
+Related to this decomposition, the following lemma will be useful.
+Lemma 8.9 (Boundary orthogonality relation [2]). If K ∈ VΓ001 and inc F̂ ∈ WΓ02 then
+Z 
+
+T1 (K) · F̂ + T0 (K) · ∂N F̂ dS(x) = 0.
+Γ2
+
+We now define the spaces with further differentiability properties
+Z
+
+=
+
+F
+
+=
+
+Z0
+
+=
+
+{E ∈ H inc (Ω, S3 ) : div E = 0 in Ω, EN = 0 on ∂Ω},
+{E ∈ Z : inc EN = 0 on ∂Ω},
+
+{E ∈ H inc (Ω, S3 ) : inc EN = 0 on ∂Ω}.
+
+A straightforward consequence of Theorem 8.8 is the following.
+Proposition 8.10. We have the orthogonal decompositions
+H inc (Ω, S3 ) = Z ⊕ V,
+
+F = Z0 ⊕ V.
+
+8.4. Boundary value problems for the incompatibility. If E ∈ H inc (Ω, S3 ) is split into
+E = Ei + Ec , Ei ∈ Z, Ec ∈ V, then inc E = inc Ei . Thus, a Poincaré inequality for the
+incompatibility is naturally sought in Z or one of its subspaces. In fact, the following holds.
+Proposition 8.11 (First Poincaré inequality [2]). There exists C > 0 such that, for all E ∈ Z,
+kEkH 1 ≤ Ck inc EkL2 .
+As a straightforward consequence, given K ∈ L2 (Ω, S3 ) and B a symmetric uniformly positive
+definite fourth order tensor field, we infer by the Lax-Milgram theorem the existence of a unique
+E ∈ Z such that
+Z
+Z
+B inc E · inc Êdx =
+K · Êdx
+∀Ê ∈ Z.
+(8.8)
+Ω
+
+Ω
+
+The same result holds if Z0 is substituted for Z. If div K = 0 in Ω, KN = 0 on ∂Ω and E ∈ Z
+solves (8.8), then Proposition 8.10 shows that (8.8) holds actually for any Ê in H inc (Ω, S3 ). This
+yields the strong form
+
+inc (B inc E) = K in Ω
+
+
+
+div E = 0 in Ω
+EN = 0 on ∂Ω
+
+
+
+T0 (B inc E) = T1 (B inc E) = 0 on ∂Ω.
+Dirichlet-type boundary conditions can be considered through the space
+
+H0 = {E ∈ H 2 (Ω, S3 ) : div E = 0 in Ω, E = (∂N E × N )T × N = 0 on ∂Ω}.
+Observe from the Green formula that the boundary conditions in H0 are dual to the trace operators
+T1 and T0 . We have the following Poincaré inequality:
+Proposition 8.12 (Second Poincaré inequality [3]). There exists C > 0 such that, for all E ∈ H0 ,
+kEkH 2 ≤ Ck inc EkL2 .
+Obviously, given K ∈ L2 (Ω, S3 ) and B a symmetric uniformly positive definite fourth order
+tensor field, there is a unique E ∈ H0 such that
+Z
+Z
+K · Êdx
+∀Ê ∈ H0 .
+(8.9)
+B inc E · inc Êdx =
+Ω
+
+Ω
+
+20
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+Nonhomogeneous boundary conditions can also be prescribed, using Theorem 8.1. In order to
+identify the strong form of (8.9), we first note that, if E ∈ H0 solves (8.9), then there exists a
+Lagrange multiplier (see e.g. [11]) p ∈ L2 (Ω, R3 ) such that
+Z
+Z
+Z
+K · Êdx
+p · div Êdx =
+B inc E · inc Êdx −
+Ω
+
+Ω
+
+2
+
+3
+
+Ω
+
+T
+
+for all Ê ∈ H (Ω, S ) with Ê = (∂N Ê × N ) × N = 0 on ∂Ω. Therefore the strong form reads
+
+inc (B inc E) + ∇S p = K in Ω
+
+div E = 0 in Ω
+
+E = (∂N E × N )T × N = 0 = 0 on ∂Ω.
+9. Towards an intrinsic approach to linearized elasto-plasticity
+
+9.1. Objectivity and principle of virtual powers. Consider a macroscopic solid represented
+by the domain Ω and subject to external loading. We place ourselves in a linearized setting, that
+is, our aim is to descibe the deformation of the solid between two close configurations (see Fig.
+1), when the load admits a small increment. The evolution of this tangent modeling between
+increments will be discussed later, but an integrated nonlinear approach is currently out of our
+scope.
+We will use the principle of virtual powers to describe the internal efforts acting within the
+solid and derive balance equations. In this framework, efforts are represented by powers, rather
+than forces. Two types of efforts are treated separately: the external efforts (the exterior medium
+acts on the body) and the internal efforts (the matter acts on itself). The corresponding powers
+are linear functionals that act on kinematical descriptors also called test or virtual fields. This
+is why we speak of virtual powers. The choice of these kinematical descriptors is of paramount
+importance.
+A kinematical field is said objective if it is independent of the observer. The classical mathematical definition is the following: it is a scalar, vector, or tensor field that obeys the standard
+rules of transformation for such quantities through a roto-translation of the frame with arbitrary
+speed. In this setting, it is well-known that the velocity is not objective, whereas its symmetric
+gradient is. Nonetheless, we have seen that in the presence of defects the notion of velocity is not
+always well-defined. More general kinematical concepts are the geometric data of the solid seen
+as a Riemannian manifold. For us, only these fields (or their time rates) will be considered as
+objective. Hence, objective kinematical descriptors will be built upon the metric g. Typically, we
+will consider the strain E := g − I and its rate Ė.
+In our model we assume that the internal virtual power is a continuous linear functional on
+L2 (Ω, S3 ), the set of virtual strain rates. By Riesz representation, there exists a generalized force
+field Σ ∈ L2 (Ω, S3 ) such that
+Z
+Σ · Êdx
+∀Ê ∈ L2 (Ω, S3 ).
+(9.1)
+P(i) (Ê) =
+Ω
+
+Unlike its internal counterpart, the virtual external power is a linear functional against kinematical fields which may be non-objective (see, e.g., [47]). Typically, the velocity is considered in
+order to represent standard forces. However, in our framework, the velocity is only a byproduct of
+the strain rate, defined by orthogonal projection onto an appropriate function space. Therefore,
+it is natural to assume that the virtual external power is a linear functional on the set of virtual
+strain rates and we write
+Z
+P(e) (Ê) =
+K · Êdx
+∀Ê ∈ L2 (Ω, S3 ),
+(9.2)
+Ω
+
+2
+
+3
+
+for some K ∈ L (Ω, S ). The interpretation of K will be discussed in section 9.4. In the absence of
+inertial effects, the principle of virtual powers reads
+P(i) (Ê) = P(e) (Ê),
+
+(9.3)
+
+THE INCOMPATIBILITY OPERATOR
+
+21
+
+for all Ê satisfying possible kinematical constraints.
+9.2. Constitutive law. We assume that the generalized force Σ is a function of the local geometric
+data of the solid. This relation is called constitutive law. In our linearized framework, we assume
+that Σ(x) is expressed as a linear function of the pair composed of E(x), the strain at point x, and
+inc E(x), the linearized Riemannian curvature. Therefore we can write
+Σ(x) = AE(x) + B inc E(x),
+for some fourth-order tensors A and B.
+In classical elasticity one has inc E = 0, so that A is recognized as the Hooke tensor of the
+material. We place ourselves in the isotropic case where the standard expression
+A = λI2 ⊗ I2 + 2µI4
+holds, with (λ, µ) the Lamé coefficients.
+Tensor B is a new object. An assumption of consistency with linear elasticity will reduce its
+expression. First, let us emphasize that classical compatible elasticity formally corresponds to B
+’large’: indeed, the term B inc E penalizes incompatible deformations. Second, the equations of
+linear elasticity are derived from the principle of virtual powers considering compatible test fields
+Ê = ∇S v̂. Thus, we want that following property be fulfilled: if B is homogeneous, then
+Z
+B inc E · Êdx = 0
+∀Ê = ∇S v̂, v̂ ∈ D(Ω, R3 ).
+Ω
+
+From the Green formula, it turns out that B = ℓI4 , where ℓ is a scalar coefficient which we call
+incompatibility modulus, is a sufficient condition. Eventually, we arrive at the constitutive law
+Σ = AE + ℓ inc E.
+
+(9.4)
+
+Different derivations of (9.4), based on Mindlin’s theory of gradient elasticity [51], are given in
+[4, 44].
+9.3. Equilibrium equations. Plugging (9.1), (9.2) and (9.4) into (9.3) entails that
+Z
+Z
+(AE + ℓ inc E) · Êdx =
+K · Êdx,
+Ω
+
+(9.5)
+
+Ω
+
+for all admissible Ê. In the following, we will not consider any kinematical constraint, whereby
+(9.5) reduces to
+AE + ℓ inc E = K.
+
+(9.6)
+
+9.4. Interpretation of the external power and kinematical framework. Assume that ∂Ω =
+Γ1 ∪ Γ2 , Γ1 ∩ Γ2 = ∅, and take Ê ∈ L2 (Ω, S3 ). In view of Theorem 8.8, we have the unique
+decomposition Ê = ∇S v̂ + inc F̂ with ∇S v̂ ∈ VΓ001 and inc F̂ ∈ WΓ02 . The Green formula yields
+Z
+Z
+Z
+Z
+inc K · F̂ dx
+KN · v̂dS(x) +
+div K · v̂dx +
+K · Êdx = −
+P(e) (Ê) =
+Ω
+Γ2
+Ω
+Ω
+Z 
+
++
+T1 (K) · F̂ + T0 (K) · ∂N F̂ dS(x).
+(9.7)
+∂Ω
+
+Therefore, f := − div K is identified with a body force, and g := KN is identified with a surface
+load on Γ2 . Now, if K ∈ VΓ001 the last two integrals of (9.7) vanish by virtue of Lemma 8.9. Then
+(9.7) rewrites as the classical expression of the external power in linear elasticity
+Z
+Z
+Z
+K · Êdx =
+f · v̂dx +
+g · v̂dS(x).
+(9.8)
+Ω
+
+Ω
+
+Γ2
+
+22
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+To sum up, given f ∈ L2 (Ω, R3 ) and g ∈ H −1/2 (Γ2 , R3 ), the standard external power is obtained
+after solving
+
+ − div ∇S w = f in Ω,
+w = 0 on Γ1 ,
+(9.9)
+ S
+∇ wN = g on Γ2 ,
+and setting K = ∇S w ∈ L2 (Ω, S3 ).
+
+9.5. Existence results and elastic limit. The main result of this section is the following.
+Theorem 9.1 (Well-posedness [2]). Assume Ω is simply connected. Let K ∈ L2 (Ω, S3 ). Let C be
+the Poincaré constant of Proposition 8.11. If A is uniformly positive definite and |ℓ| > C|A| a.e.,
+then there exists one and only one E ∈ F such that
+AE + ℓ inc E = K.
+
+(9.10)
+
+Moreover we have the a priori estimate
+k inc EkL2 ≤
+
+kℓ−1 AkL∞
+kA−1 KkL2 .
+1 − Ckℓ−1 AkL∞
+
+(9.11)
+
+The essential boundary condition inc EN = 0 (no incompatibility flux) appears naturally in the
+proof, through integrations by parts. It models the fact that the outside of Ω has a purely elastic
+behavior, however future work should go further into this point, see the discussion in [2] where an
+alternative condition for the modeling of free boundaries is also analyzed. Inequality (9.11) shows
+that inc E tends to 0 as |ℓ| → +∞. The following result is more precise.
+Theorem 9.2 (Elastic limit [2]). Assume that A, K are fixed, ℓ is constant, E ℓ ∈ F, AE ℓ +
+ℓ inc E ℓ = K in Ω. There exists a unique E ∞ ∈ V such that
+Z
+Z
+∞
+K · Êdx
+∀Ê ∈ V.
+(9.12)
+AE · Êdx =
+Ω
+
+ℓ
+
+Ω
+
+∞
+
+Moreover kE − E kL2 → 0 when |ℓ| → +∞.
+Theorem 9.2 shows that the standard linear elasticity problem with Neumann boundary condition is retrieved as a limit case when |ℓ| → +∞. The modeling of Dirichlet type boundary
+conditions require further work.
+From our derivations so far, the question of the sign of ℓ has not been fixed. The example of
+the bar in traction shown below suggests that ℓ be negative to obtain realistic solutions.
+9.6. Example: bar in traction. We present a variant of an example treated in [2]. Consider
+the domain Ω = R2 × (−h, h), for a given h > 0. Although the existence theory has been carried
+out for bounded domains, the semi-infinite case will allow analytical calculations through ordinary
+differential equations. We assume a uniform vertical traction on the planes {z = ±h}. In view of
+(9.7)-(9.9) we obtain
+
+
+0 0 0
+K = 0 0 0 .
+0 0 1
+We search for a strain field of form
+
+
+ϕ 0 0
+E = 0 ϕ 0 ,
+0 0 ψ
+where ϕ, ψ are functions of the z variable. One has
+
+
+ ′′
+2(λ + µ)ϕ + λψ
+0
+0
+ϕ
+ , inc E =  0
+0
+2(λ + µ)ϕ + λψ
+0
+AE = 
+0
+0
+2λϕ + (λ + 2µ)ψ
+0
+
+0
+ϕ′′
+0
+
+
+0
+0 ,
+0
+
+THE INCOMPATIBILITY OPERATOR
+
+23
+
+Figure 2. External work as a function of ℓ for ℓ > 0 (left) and ℓ < 0 (right)
+whereby AE + ℓ inc E = K if and only if
+
+2(λ + µ)ϕ + λψ + ℓϕ′′ = 0
+2λϕ + (λ + 2µ)ψ = 1.
+
+Substitution leads to
+
+ψ=
+
+(9.13)
+
+1
+(1 − 2λϕ),
+λ + 2µ
+
+(9.14)
+
+2µ(3λ + 2µ)ϕ + ℓ(λ + 2µ)ϕ′′ = −λ.
+
+Due to the unboundedness of Ω the above equation has no unique solution. Therefore we prescribe
+ϕ(±h) = 0. This entails
+!
+
+ωz
+cos √
+
+−λ
+
+ℓ
+
+1−
+if ℓ > 0,
+s
+
+
+√
+ 2µ(3λ + 2µ)
+cos ωh
+2µ(3λ + 2µ)
+ℓ
+
+
+with ω =
+.
+ϕ(z) =
+cosh √ωz
+
+λ + 2µ
+−λ
+|ℓ|
+
+
+
+
+1−
+if ℓ < 0,
+
+
+ωh
+ 2µ(3λ + 2µ)
+cosh √
+|ℓ|
+
+The external work is obtained as
+
+W =
+
+Z h
+
+with ψ given by (9.14), i.e.,
+
+"
+
+λ2
+2h
+
+
+1
++
+
+ λ + 2µ
+µ(3λ + 2µ)
+"
+W =
+
+λ2
+2h
+
+
+
+ λ + 2µ 1 + µ(3λ + 2µ)
+
+ψ(z)dz,
+
+−h
+
+√
+
+!#
+ωh
+ℓ
+1−
+tan √
+ωh
+ℓ
+!#
+p
+|ℓ|
+ωh
+1−
+tanh p
+ωh
+|ℓ|
+
+if ℓ > 0,
+if ℓ < 0.
+
+In the numerical outputs that follow we have used the data Y = 10, ν = 1/3 for the Young
+modulus and the Poisson ratio of the material, respectively, and h = 1. Figure 2 displays the
+work W in function of ℓ. Clearly, choosing ℓ > 0 is unphysical, since incompatible deformations
+produce less work that in the purely elastic case (ℓ → ∞). In contrast, choosing ℓ < 0 is consistent
+with our expectation from the energetic point of view, the difference of work between the inelastic
+(irreversible) and elastic (reversible) transformations being the dissipation, see [2, 4] for details.
+Figure 3 shows the functions ϕ and ψ for some negative values of ℓ. For ℓ → −∞, the classical
+elastic solution is retrieved.
+Figure 4 shows the same functions calculated with ℓ variable in space, namely ℓ = −1 in the
+interval [−0.1, 0.1] and ℓ = −1000 elsewhere. Although the domain is unbounded, the horizontal
+compression suggests that the model is able to predict necking phenomena. Let us stress once more
+that we have restricted ourselves to linearized equations. How to deal with finite deformations is
+briefly discussed thereafter.
+
+24
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+Figure 3. Planar (left) and vertical (right) deformations for ℓ = −10 (blue),
+ℓ = −100 (red), ℓ = −1000 (yellow).
+
+Figure 4. Planar (left) and vertical (right) deformations for ℓ variable in space.
+9.7. Incremental formulation of hardening problems. An incremental formulation consists
+in introducing a continuous family of loads, here denoted by (Kt ), parameterized by a fictitious time
+t, starting from K0 = 0 and reaching the target value KT = K at final time T . The interval [0, T ] is
+split into subintervals [tk , tk+1 ], and within each subinterval one solves the tangent problem (9.10).
+Here A and ℓ are tangent moduli, and E is the strain increment. Nonlinear phenomena occur when
+these moduli vary between two increments. In the first increment, for small load, the behavior is
+usually elastic: |ℓ| is taken very large, one can even solve the standard elasticity equations. At some
+point, according to some yield stress or energetic criterion, nonlinearity and irreversibility appear:
+|ℓ| should be locally decreased. As stipulated by the second principle of Thermodynamics, this
+modification of the incompatibility modulus must be associated with a dissipation of free energy.
+The procedure is repeated in the following increments. Of course, in case of elastic unloading, ℓ
+should be again taken everywhere ”infinite”.
+The process of update of ℓ (and also A) is obviously not completely determined. The point is to
+represent the complex hardening phenomenon. This will be investigated in future works. At least
+to comply with the Second Principle a sensitivity analysis of the free energy with respect to local
+perturbations of ℓ may be carried out. It has been done in [4] for the model (9.10) reduced to its
+principle part, i.e. (8.8). The full model is under scrutiny.
+Acknowledgements. The second author was supported by national funding from FCT - Fundaçâo
+para a Ciência e a Tecnologia, under the project: UID/MAT/04561/2019 as well as by the
+FCT Starting Grant “ Mathematical theory of dislocations: geometry, analysis, and modelling”
+(IF/00734/2013).
+References
+[1] R. Abu Al-Rub. Continuum-based modeling of size effects in micro-and nanostructured materials. In Handbook
+of Micromechanics and Nanomechanics. Pan Standford Publ., 2013.
+[2] S. Amstutz and N. Van Goethem. Existence results for an intrinsic model of incompatible elasticity. hal report:
+hal-02045046, 2019.
+
+THE INCOMPATIBILITY OPERATOR
+
+25
+
+[3] S. Amstutz and N. Van Goethem. Analysis of the incompatibility operator and application in intrinsic elasticity
+with dislocations. SIAM J. Math. Anal., 48(1):320–348, 2016.
+[4] S. Amstutz and N. Van Goethem. Incompatibility-governed elasto-plasticity for continua with dislocations.
+Proc. R. Soc. A, 473(2199), 2017.
+[5] G. Anzellotti and M. Giaquinta. On the existence of the fields of stresses and displacements for an elastoperfectly plastic body in static equilibrium. J. Math. Pures Appl., 61:219–244, 1982.
+[6] G. Anzellotti and S. Luckhaus. Dynamical evolution of elasto-perfectly plastic bodies. Appl. Math. Optim.,
+15(6):121–140, 1987.
+[7] M. Navier Barr de Saint-Venant, A. J. C. Premire section : De la rsistance des solides par navier. - 3e d. avec
+des notes et des appendices par m. barr de saint-venant. tome 1. In Rsum des leons donnes lEcole des Ponts
+et Chausses sur lapplication de la mcanique ltablissement des constructions et des machines. Dunod, Paris,
+1864.
+[8] Reddy B.D, Ebobisse F., and McBride. A. Well-posedness of a model of strain gradient plasticity for plastically
+irrotational materials. Int. J. of Plast., 24(5), 2008.
+[9] E. Beltrami. Sull’interpretazione meccanica delle formule di Maxwell. Mem. dell’Accad. di Bologna, 7:1–38,
+1886.
+[10] B. A. Bilby, R. Bullough, and E. Smith. Continuous distribution of dislocations: a new application of the
+methods of non-riemannian geometry. Proc. R. Soc. A, 231(1):263–273, 1955.
+[11] J. F. Bonnans and A. Shapiro. Perturbation analysis of optimization problems. Springer Series in Operations
+Research. Springer-Verlag, New York, 2000.
+[12] E. Cartan. Sur une generalisation de la notion de courbure de Riemann et les espaces a torsion. C. R. Acad.
+Sci. Paris, 174:593–597, 1922.
+[13] E. Cesaro. Sulle formole del Volterra, fondamentali nella teoria delle distorsioni elastiche. Rend. Accad. R.
+Napoli, 12:311–321, 1906.
+[14] P. G. Ciarlet. An introduction to differential geometry with applications to elasticity. J. Elasticity, 78-79(13):3–201, 2005.
+[15] Ph. G. Ciarlet and C. Mardare. Intrinsic formulation of the displacement-traction problem in linearized elasticity. Math. Models Methods Appl. Sci., 24(6):1197–1216, 2014.
+[16] F. Cosserat, E. Cosserat. Théorie des corps déformables. A. Hermann et Fils, Paris, 1909.
+[17] G. Dal Maso, A. De Simone, and M. G. Mora. Quasistatic evolution problems for linearly elastic-perfectly
+plastic materials. Arch. Ration. Mech. Anal., 180(2):237–291, 2006.
+[18] E. Davoli and G. A. Francfort. A critical revisiting of finite elasto-plasticity. SIAM J. Math. Anal., 47(1):526–
+565, 2015.
+[19] B. A. Dubrovin, A. T. Fomenko, and S. P. Novikov. Modern geometry - methods and applications, Part 1 (2nd
+edn). Cambridge studies in advanced mathematics. Springer-Verlag, New-York, 1992.
+[20] G. Duvaut. Mécanique des milieux continus. Collection Mathématiques appliquées pour la maı̂trise. Masson,
+1990.
+[21] F. Ebobisse and P. Neff. Existence and uniqueness for rate-independent infinitesimal gradient plasticity with
+isotropic hardening and plastic spin. Math. Mech. Solids, 15(6):691–703, 2010.
+[22] M. Epstein. The Geometrical Language of Continuum Mechanics. Cambridge University Press, 2010.
+[23] L. Euler. Recherces sur la courbure des surfaces. Mem. Acad. Sci. Berlin, 16:119–143, 1767.
+[24] P. Neff F. Ebobisse. Existence and uniqueness for rate-independent infinitesimal gradient plasticity with
+isotropic hardening and plastic spin. Mathematics and Mechanic of Solids, 14(8), 2009.
+[25] F. Flaherty and M.P. do Carmo. Riemannian Geometry. Mathematics: Theory & Applications. Birkhäuser
+Boston, 2013.
+[26] N. A. Fleck and J. W. Hutchinson. A reformulation of strain gradient plasticity. J. Mech. Phys. Solids,
+49(10):2245–2271, 2001.
+[27] A. E. Green and W. Zerna. Theory of elasticity in general coordinates (finite strain). Phil. Mag., 41:313–336,
+1950.
+[28] H. J. Greenberg. Complementary minimum principles for an elastic -plastic material. Q. Appl. Math., 7:85–95,
+1949.
+[29] M. E. Gurtin. Configurational Forces as Basic Concepts of Continuum Physics. Applied Mathematical Sciences,
+137. Springer, 2000.
+[30] M. E. Gurtin and L. Anand. A theory of strain-gradient plasticity for isotropic, plastically irrotational materials.
+i: small deformations. J. Mech. Phys. Solids, 53(7):1624–1649, 2005.
+[31] M. E. Gurtin and A. Needleman. Boundary conditions in small-deformation, single-crystal plasticity that account for the Burgers vector. J. Mech. Phys. Solids, 53(1):1–31, 2005.
+[32] W. Han and B. D. Reddy. Plasticity. Mathematical theory and numerical analysis. 2nd ed. Springer, New-York,
+2013.
+[33] R. Hardt and D. Kinderlehrer. Elastic plastic deformation. Appl. Math. Optim., 10:213–246, 1983.
+[34] R. Hill. Constitutive dual potentials in classical plasticity. Journal of the Mechanics and Physics of Solids,
+35(1):23 – 33, 1987.
+
+26
+
+SAMUEL AMSTUTZ AND NICOLAS VAN GOETHEM
+
+[35] D. Hull and D.J. Bacon. Introduction to Dislocations. Materials science and technology. Elsevier Science, 2011.
+[36] C. Johnson. Existence theorems for plasticity problems. J. Math. Pures Appl., 55:431–444, 1976.
+[37] G. Kirchhoff. Vorlesungen über Mechanik. Lecture notes in physics, 47. Birkhäuser, Basel, Leipzig, 1876.
+[38] H. Kleinert. Gauge fields in condensed matter, Vol.1. World Scientific Publishing, Singapore, 1989.
+[39] K. Kondo. Non-riemannian geometry of the imperfect crystal from a macroscopic viewpoint. in RAAG Memoirs
+of the unifying study of basic problems in engineering sciences by means of geometry, Vol.1, Division D,
+Gakuyusty Bunken Fukin-Day, pages 458–469, 1955.
+[40] H. Kozono and T. Yanagisawa. Lr -variational inequality for vector fields and the Helmholtz-Weyl decomposition
+in bounded domains. Indiana Univ. Math. J., 58(4):1853–1920, 2009.
+[41] E. Kröner. Continuum theory of defects. In R. Balian, editor, Physiques des défauts, Les Houches session
+XXXV (Course 3). North-Holland, Amsterdam, 1980.
+[42] J E. Kröner. C 1 isometric imbeddings. Int. J. Solids and Structures, 29(14/15):1849–1257, 1992.
+[43] N. H. Kuiper. On C 1 -isometric imbeddings. I, II. Nederl. Akad. Wet., Proc., Ser. A, 58:545–556, 683–689,
+1955.
+[44] M. Lazar and G. A. Maugin. Nonsingular stress and strain fields of dislocations and disclinations in first strain
+gradient elasticity. Int. J. Eng. Sci., 43:1157–1184, 2005.
+[45] A. E. H. Love. A treatise on the mathematical theory of elasticity. Cambridge University Press, 1892.
+[46] G. Maggiani, R. Scala, and N. Van Goethem. A compatible-incompatible decomposition of symmetric tensors
+in Lp with application to elasticity. Math. Meth. Appl. Sci, 38(18):5217–5230, 2015.
+[47] G.A. Maugin. The method of virtual power in continuum mechanics: Application to coupled fields. Acta Mech.,
+35:1–70, 1980.
+[48] J. H. Michell. On the direct determination of stress in an elastic solid, with application to the theory of plates.
+Proc. Lond. Math. Soc., s131:100124, 1906.
+[49] A. Mielke and T. Roubı́ček. Rate-independent elastoplasticity at finite strains and its numerical approximation.
+Math. Models Methods Appl. Sci., 12:2203–2236, 2016.
+[50] A. Mielke and U. Stefanelli. Linearized plasticity is the evolutionary γ-limit of finite plasticity. J. Eur. Math.
+Soc. (JEMS), 15(3):923–948, 2013.
+[51] R. D. Mindlin. Micro-structure in linear elasticity. Arch. Ration. Mech. Anal., 16:51–78, 1964.
+[52] J. J. Moreau. Application of convex analysis to the treatment of elastoplastic systems. In Applications of
+methods of functional analysis to problems in mechanicss. Springer, Berlin, 1976.
+[53] G. Müller and J. Friedrich. Challenges in modeling of bulk crystal growth. J. Cryst. Growth, 266(1-3):1–19,
+2004.
+[54] J. Nash. C 1 isometric imbeddings. Ann. Math. (2), 60:383–396, 1954.
+[55] W. Noll. Materially uniform bodies with inhomogeneities. Arch. Rational Mech. Anal., 27:1–32, 1967.
+[56] P. Nunes. Petri nonni salaciensis opera, basileae. Biblioteca Nacional de Portugal, Reediçãao e tradução, com
+comentários, pela Academia de Ciências de Lisboa Fundação Calouste Gulbenkian, Lisboa, 2008 e 2011, 1566.
+[57] J. R. Rice. On the structure of stress-strain relations for time-dependent plastic deformation in metals. Trans
+ASME. J. Appl. Mech, page 728, 1970.
+[58] B. Riemann. Über die hypothesen, welche der geometrie zu grunde liegen. in Riemann’s Gesamm. Math. Werke
+XIII, Abhandl. Kgl. GeseU. Wiss. GSttingen XIII:272–287, 1868.
+[59] R. Scala and N. Van Goethem. Currents and dislocations at the continuum scale. Methods Appl. Anal., 23(1):1–
+34, 2016.
+[60] R. Scala and N. Van Goethem. Geometric and analytic properties of dislocation singularities. Proc. Roy. Soc.
+Edinb Sect. A, 149(4), 2019.
+[61] R. Scala and N. Van Goethem. A variational approach to single crystals with dislocations. SIAM J. Math.
+Anal., 51(1):489–531, 2019.
+[62] J. A. Schouten. Ricci-Calculus (2nd edn). Springer Verlag, Berlin, 1954.
+[63] W. R. Seugling. Equations of compatibility for finite deformation of a continuous medium. The American
+Mathematical Monthly, 57(10):679–681, 1950.
+[64] J.C. Simo and T.J.R. Hughes. Computational inelasticity. Springer, Berlin, 1998.
+[65] B. Sun. Incompatible deformation field and riemann curvature tensor. Applied Mathematics and Mechanics,
+38(3):311–332, Mar 2017.
+[66] P.-M. Suquet. Sur les équations de la plasticité: existence et régularité des solutions. J. Méc., Paris, 20:3–39,
+1981.
+[67] E.B. Tadmor, R.E. Miller, and R.S. Elliott. Continuum Mechanics and Thermodynamics: From Fundamental
+Concepts to Governing Equations. Cambridge University Press, 2011.
+[68] R. Temam. Problèmes mathématiques en plasticité. J. Phys. Chem. Solids, 69:320–324, 2008.
+[69] R. Thom. La vie et l’œuvre de Hassler Whitney. (Life and work of Hassler Whitney). C. R. Acad. Sci., Paris,
+Sér. Gén., Vie Sci., 7(6):473–476, 1990.
+[70] N. Van Goethem. The non-Riemannian dislocated crystal: a tribute to Ekkehart Kröner’s (1919-2000). J.
+Geom. Mech., 2(3), 2010.
+
+THE INCOMPATIBILITY OPERATOR
+
+27
+
+[71] N. Van Goethem. Strain incompatibility in single crystals: Kröner’s formula revisited. J. Elast., 103(1):95–111,
+2011.
+[72] N. Van Goethem. The Frank tensor as a boundary condition in intrinsic linearized elasticity. J. Geom. Mech.,
+8(4):391–411, 2016.
+[73] N. Van Goethem. Incompatibility-governed singularities in linear elasticity with dislocations. Math. Mech.
+Solids, 22(8):16881695, 2017.
+[74] N. Van Goethem, A. de Potter, N. Van den Bogaert, and F. Dupret. Dynamic prediction of point defects in
+Czochralski silicon growth. An attempt to reconcile experimental defect diffusion coefficients with the V /G
+criterion. J. Phys. Chem. Solids, 69:320–324, 2008.
+[75] N. Van Goethem and F. Dupret. A distributional approach to 2D Volterra dislocations at the continuum scale.
+Europ. Jnl. Appl. Math., 23(3):417–439, 2012.
+[76] V. Volterra. Sulle equazioni differenziali lineari: nota. Rend. Mat. Acc. Lincei, 4(3), 1887.
+[77] V. Volterra. Sur l’équilibre des corps élastiques multiplement connexes. Ann. Sci. École Norm. Sup., 3(24):401–
+517, 1907.
+[78] V. Volterra. Sulle equazioni integro-differenziali della teoria dell’elasticitá. Rend. Mat. Acc. Lincei, 5(18):1295–
+301, 1909.
+[79] C. C. Wang. On the geometric structure of simple bodies, a mathematical foundation for the theory of continuous
+distributions of dislocations. Arch. Rational Mech. Anal., 27(1):33–94, 1967.
+[80] H. Weyl. Die Idee der Riemannschen Fläche. B. G. Teubner, Leipzig, 1 edition. 2 edn, B. G. Teubner, Leipzig,
+1923; Reprint of 2 edn, Chelsea Co., New York, 1951; 3 edn, revised, B. G. Teubner, Leipzig, 1955. English
+translation of 3 edn, The Concept of a Riemann Surface, Addison-Wesley, 1964. Dover edition 2009., 1951.
+[81] H. Whitney. Topological properties of differentiable manifolds. Bull. Am. Math. Soc., 43:785–805, 1937.
+[82] A. Yavari and A. Goriely. Riemann–cartan geometry of nonlinear dislocation mechanics. Archive for Rational
+Mechanics and Analysis, 205(1):59–118, Jul 2012.
+[83] A. Yavari and A. Goriely. Non-metricity and the nonlinear mechanics of distributed point defects. In G.-Q. G.
+Chen, M. Grinfeld, and R. J. Knops, editors, Differential Geometry and Continuum Mechanics, pages 235–251,
+Cham, 2015. Springer International Publishing.
+Université d’Avignon, Laboratoire de Mathématiques d’Avignon, 301 rue Baruch de Spinoza, 84916
+Avignon, France
+E-mail address: samuel.amstutz@univ-avignon.fr
+Universidade de Lisboa, Faculdade de Ciências, Departamento de Matemática, CMAFCIO, Alameda
+da Universidade, C6, 1749-016 Lisboa, Portugal
+E-mail address: vangoeth@fc.ul.pt
+
+

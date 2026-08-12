@@ -1,0 +1,952 @@
+No Bound States of Topological Defects
+in Overdamped Active Media
+A No-Go Theorem, and the Inertial Threshold that Evades It
+Dennis Norman Brown
+August 2026
+
+Abstract
+A self-propelled + 12 disclination orbiting its − 21 partner, sustained by metabolism and continuously missing collision, is the natural hypothesis for a persistent defect pair in active matter.
+It is false, and the obstruction is structural rather than parametric.
+We reduce the two-defect problem exactly to a two-dimensional flow on the cylinder
+(0, ∞) × S 1 in the separation d and the angle θ between propulsion and separation (Theorem 5). Reflection symmetry about the separation axis makes θ ∈ {0, π} invariant for any
+reflection-antisymmetric reorientation law, so the cylinder splits into two non-communicating
+strips and no winding orbit can exist (Theorem 7).
+Within a strip we exhibit the Dulac function B = 1/ sin θ, for which
+∇·(BX) =
+
+−2µF ′ (d)
+>0
+sin θ
+
+strictly, for every monotonically decreasing central attraction. The flow is therefore strictly
+area-expanding in the measure dµ = dd dθ/ sin θ, which forbids not only periodic orbits but
+attractors of any kind at finite separation (Theorem 9). This is stronger than a no-orbit
+statement and is the main result.
+The flow does possess a unique interior equilibrium at d∗ = 1/k, cos θ∗ = −2ak — a circular
+bound state — but its Jacobian has trace 2ak 2 > 0, so it is unstable for all parameters, and
+is an unstable spiral whenever 5a2 k 2 < 1 (Theorem 12). Every trajectory annihilates or
+unbinds (Theorem 14); 1280 runs spanning three decades in each parameter confirm this with
+zero exceptions.
+The spiral has a practical consequence we quantify. A pair launched a distance δ from the
+equilibrium executes
+ω
+ln(1/δ) + c
+N (δ) =
+2πσ
+apparent revolutions before escaping (Theorem 16), verified to 0.3%. Long-lived pseudo-orbits
+are therefore generic, but extending one costs exponentially in preparation: an observer must
+watch for a time set by 1/σ before concluding that binding has occurred.
+Finally we locate precisely what would restore orbits. Reinstating inertia stabilises the
+equilibrium above a critical Stokes number Stc = 0.19 (Theorem 20). Epithelial tissue operates
+at St ∼ 10−5 , four orders below threshold: the inertial term is absent, not merely small, and
+no choice of activity compensates.
+
+Remark 1 (Scope). This is a theoretical study of a dynamical obstruction. It contains no clinical
+content. The results constrain any model of defect binding in an overdamped active medium, in
+tissue or otherwise.
+
+1
+
+Introduction
+
+1.1
+
+The temptation
+
+Topological defects in active nematics are self-propelled. A + 21 disclination carries a polar direction p set by the local director field and moves along it at a speed proportional to the activity;
+its − 21 partner, being three-fold symmetric, does not self-propel. The two attract elastically as
+1/d.
+1
+
+Set beside the two-body problem of celestial mechanics, the analogy is immediate and seductive. A body attracted as an inverse power, given a transverse velocity, orbits. If a + 12 defect
+is continuously propelled transverse to its separation from the − 12 partner, why should it not
+orbit indefinitely, sustained by metabolism, never colliding? Such a configuration would furnish
+exactly what theories of persistent tissue states require: a defect pair that neither annihilates nor
+disperses, holding a topological configuration for as long as the tissue is fed.
+The analogy fails, and it fails for a reason that no choice of parameters can repair.
+
+1.2
+
+Why the celestial intuition misleads
+
+Binary stars orbit because gravity acts on massive bodies that carry momentum through the
+transverse direction. Defects in an overdamped medium are massless in the dynamical sense: at
+Reynolds number ∼10−5 the inertial term is absent, not merely small. The equation of motion is
+ṙ = µF
+
+rather than
+
+mr̈ = F,
+
+(1)
+
+so velocity is slaved instantaneously to force and the trajectory follows the instantaneous force
+direction at every instant. A closed orbit requires transverse velocity to persist while the radial
+force acts, which is a statement about inertia. With m = 0 that persistence is unavailable.
+That paragraph is a physical argument, not a proof. It is also incomplete: it addresses periodic
+orbits and says nothing about the possibility of a stationary bound pair at fixed separation — a
+circular orbit — which requires no oscillation at all and is not obviously excluded by the absence
+of momentum. The purpose of this paper is to replace the argument with theorems, to close
+the gap it leaves, and to determine exactly how much inertia would be needed to overturn the
+conclusion.
+
+1.3
+
+Results
+
+R1. Exact reduction. Translation and rotation invariance reduce the two-defect problem to
+a planar flow on a cylinder in (d, θ) (Theorem 5). Two-dimensionality is what makes the
+problem decidable.
+R2. Invariant axis. Reflection symmetry makes θ ∈ {0, π} invariant for any admissible
+reorientation law, forbidding winding orbits (Theorem 7).
+R3. Area expansion. The Dulac function B = 1/ sin θ makes the flow strictly area-expanding,
+forbidding every attractor at finite separation, periodic orbits and stable equilibria alike
+(Theorem 9). This is the main result, and it is strictly stronger than a no-orbit statement.
+R4. The equilibrium, and its instability. A unique interior equilibrium exists but has
+positive trace for all parameters (Theorem 12).
+R5. Global classification. Every trajectory annihilates or unbinds (Theorem 14); numerics
+confirm with zero exceptions in 1280 runs.
+R6. The masquerade law. Apparent revolutions grow only logarithmically in the fineness
+of preparation (Theorem 16), which bounds how long an observer must watch.
+R7. The inertial threshold. Binding is restored above Stc = 0.19; tissue sits at 10−5 (Theorem 20).
+
+2
+
+The two-defect system
+
+Definition 2 (Overdamped defect pair). Let a + 21 defect at r1 ∈ R2 carry a unit propulsion
+direction p ∈ S 1 and a − 21 defect sit at r2 . Write u = r2 − r1 , d = |u|, û = u/d. The dynamics is
+ṙ1 = µ[F (d)û + fa p] ,
+
+ṙ2 = −µF (d)û,
+2
+
+φ̇p = Ω,
+
+(2)
+
+with µ > 0 the mobility, fa > 0 the active force per unit length, φp the lab-frame angle of p, and
+F (d) > 0 a central attraction.
+For ± 12 disclinations in a one-constant nematic, F (d) = πKS02 /2d, but no result below uses this
+form; only
+F (d) > 0,
+F ′ (d) < 0
+(3)
+is required — attraction that weakens with distance, which every elastic, screened or power-law
+interaction satisfies.
+Definition 3 (Admissible reorientation). Ω is admissible if it depends only on the shape variables
+(d, θ), where θ = φp − φu is the angle from û to p, and is antisymmetric under reflection about
+the separation axis,
+Ω(d, −θ) = −Ω(d, θ).
+(4)
+Remark 4. Condition (4) is not a modelling choice but a symmetry requirement: the configuration
+(d, θ) and its mirror image (d, −θ) are related by a reflection of the plane, under which angular
+velocities reverse. Any reorientation law derived from the director field, from elastic torques, or
+from alignment with the partner’s far field satisfies it. Rotational diffusion is treated separately
+in §10.
+
+3
+
+Exact reduction to the cylinder
+
+Theorem 5 (Reduction). System (2) with admissible Ω is exactly equivalent, modulo translations
+and rotations, to the planar flow X = (f, g) on the cylinder C = (0, ∞) × S 1 :
+d˙ = f (d, θ) = −2µF (d) − µfa cos θ,
+µfa
+sin θ.
+θ̇ = g(d, θ) = Ω(d, θ) +
+d
+
+(5)
+(6)
+
+Proof. Subtracting the first two equations of (2),
+u̇ = ṙ2 − ṙ1 = −2µF (d)û − µfa p.
+Projecting on û and using d = |u|, d˙ = û · u̇ gives (5) with p · û = cos θ. Projecting on û⊥ gives
+the rotation rate of the separation vector,
+φ̇u =
+
+µfa
+µfa
+û⊥ · u̇
+=−
+p · û⊥ = −
+sin θ,
+d
+d
+d
+
+and since θ = φp − φu , θ̇ = φ̇p − φ̇u = Ω + (µfa /d) sin θ, which is (6). The centre of mass and the
+overall orientation are cyclic and decouple; (d, θ) closes.
+Remark 6 (Why the reduction decides the problem). The full state space is R2 × R2 × S 1 , fivedimensional, where periodic orbits are generic and no simple criterion excludes them. Theorem 5
+shows the essential dynamics is two-dimensional, where Poincaré–Bendixson theory applies and
+closed orbits can be excluded outright. The reduction is what makes a no-go theorem
+possible at all, and it is available only because the interaction is central and the propulsion
+enters through a single angle.
+For explicit statements we use the canonical alignment law Ω = −κ sin θ, in which the propulsion
+relaxes toward the separation axis at rate κ. Nondimensionalising lengths by a reference separation d0 and time by d0 /µfa , and writing a = 2µF (d0 )d0 /(µfa d0 ) for the elastic strength and
+k = κd0 /µfa ,
+
+
+2a
+1
+˙
+d = − − cos θ,
+θ̇ =
+− k sin θ.
+(7)
+d
+d
+Both terms in θ̇ are proportional to sin θ: this is the structural fact behind everything that follows.
+3
+
+4
+
+The invariant axis
+
+Theorem 7 (Invariance of the aligned configurations). For any admissible Ω, the circles θ = 0
+and θ = π are invariant under (5)–(6). Consequently C \ {θ ∈ {0, π}} consists of two disjoint
+open strips
+S+ = (0, ∞) × (0, π),
+S− = (0, ∞) × (−π, 0),
+no trajectory passes between them, and no periodic orbit can wind around the cylinder.
+Proof. Setting θ = 0 in (6): the geometric term (µfa /d) sin θ vanishes, and admissibility (4) at
+θ = 0 gives Ω(d, 0) = −Ω(d, 0), hence Ω(d, 0) = 0. Therefore θ̇|θ=0 = 0. At θ = π: sin π = 0, and
+since −π ≡ π on S 1 , (4) gives Ω(d, π) = Ω(d, −π) = −Ω(d, π), hence Ω(d, π) = 0 and θ̇|θ=π = 0.
+Both circles are thus unions of orbits. By uniqueness of solutions no trajectory crosses them, so
+S± are invariant. A closed curve winding the cylinder must attain every value of θ, including 0
+and π, and would therefore intersect an invariant set it cannot cross.
+Remark 8. Theorem 7 already disposes of the celestial picture in its literal form: an orbit in
+which the propulsion direction rotates once per revolution relative to the separation vector is a
+winding orbit on C and cannot occur. What remains is the possibility of a non-winding closed
+orbit confined to one strip, in which θ oscillates without ever aligning. That is eliminated next.
+
+5
+
+Area expansion: the main theorem
+
+Theorem 9 (Strict area expansion, and the exclusion of all attractors). Let F satisfy (3) and
+let the reorientation have the form Ω(d, θ) = ω(d) sin θ. On each strip S± define
+1
+.
+sin θ
+
+(8)
+
+∂(Bf ) ∂(Bg)
+−2µF ′ (d)
++
+=
+> 0
+∂d
+∂θ
+sin θ
+
+(9)
+
+B(d, θ) =
+Then B is C 1 and of one sign on the strip, and
+∇·(BX) =
+strictly. Consequently:
+(i) no closed orbit lies in S± ;
+
+(ii) no attracting set of positive measure lies in S± ; in particular no stable equilibrium, no stable
+limit cycle, and no attractor of any kind at finite separation.
+Proof. On S+ we have sin θ > 0, so B > 0 is C 1 . Compute
+Bf =
+
+−2µF (d) − µfa cos θ
+∂(Bf )
+−2µF ′ (d)
+=⇒
+=
+,
+sin θ
+∂d
+sin θ
+
+the cos θ term being d-independent. Next
+Bg =
+
+µfa
+ω(d) sin θ + (µfa /d) sin θ
+= ω(d) +
+,
+sin θ
+d
+
+which is independent of θ, so ∂(Bg)/∂θ = 0. Adding gives (9), and F ′ < 0 with sin θ > 0 makes it
+strictly positive. The argument on S− is identical with both signs reversed, leaving the quotient
+positive.
+(i) Suppose a closed orbit O ⊂ S+ existed, bounding a region R. Since S+ is simply connected,
+R ⊂ S+ . By the divergence theorem,
+ZZ
+I
+∇·(BX) dA =
+BX · n dℓ = 0,
+R
+
+∂R
+
+4
+
+because X is tangent to O = ∂R. But the integrand is strictly positive, so the left side is strictly
+positive — a contradiction. This is Dulac’s criterion.
+(ii) Equation (9) states that the flow expands the measure dµ = B dd dθ = dd dθ/ sin θ at
+every point. Let A ⊂ S+ be a compact attracting set with a neighbourhood U of positive µmeasure satisfying ϕt (U ) ⊆ U for t ≥ 0, where ϕt is the flow. Then µ(ϕt (U )) is non-increasing in
+t. But by Liouville’s formula
+Z
+d
+µ(ϕt (U )) =
+∇·(BX) dA > 0,
+dt
+φt (U )
+so µ(ϕt (U )) is strictly increasing — a contradiction. Hence no such U exists.
+Remark 10 (What (ii) buys over (i)). Part (i) is the statement made informally in earlier treatments: no orbits. Part (ii) is strictly stronger and is required, because a defect pair could in
+principle bind without orbiting — sitting at a fixed separation with a fixed propulsion angle,
+which is a circular orbit in the laboratory frame and a mere equilibrium on C. Part (i) says
+nothing about that configuration; part (ii) excludes it. Area expansion is the correct formulation of the no-go theorem, and it is what the informal momentum argument was reaching
+for.
+Remark 11 (Generality). Theorem 9 uses neither the 1/d form of the elastic force nor any particular value of µ, fa , κ, or the defect charges. It requires only that attraction weaken with distance
+and that reorientation be proportional
+to sin θ — the leading reflection-antisymmetric harmonic.
+P
+For general admissible Ω = n ωn (d) sin nθ the computation gives
+
+
+∂ Ω(d, θ)
+−2µF ′ (d)
++
+,
+(10)
+∇·(BX) =
+sin θ
+∂θ sin θ
+and the conclusion holds whenever this is of one sign. Since the first term diverges as θ → 0, π
+while the second remains bounded for smooth Ω, the criterion is satisfied near the axis for any
+admissible Ω and fails, if at all, only in the interior.
+
+6
+
+The equilibrium and its instability
+
+Theorem 9(ii) already excludes stable equilibria. We locate the equilibrium explicitly because it
+organises the entire phase portrait and because its unstable eigenvalues furnish the masquerade
+law of §8.
+Theorem 12 (Unique interior equilibrium, always unstable). For the nondimensional system (7)
+with 2ak ≤ 1 there is exactly one equilibrium in each strip, at
+d∗ =
+
+1
+,
+k
+
+cos θ∗ = −2ak.
+
+(11)
+
+Its Jacobian is
+J=
+
+2ak 2
+sin θ∗
+−k 2 sin θ∗
+0
+
+!
+
+,
+
+tr J = 2ak 2 > 0,
+
+det J = k 2 sin2 θ∗ > 0.
+
+(12)
+
+The equilibrium is therefore unstable for all parameter values, and is an unstable spiral precisely
+when
+5a2 k 2 < 1,
+(13)
+with growth rate and angular frequency
+σ = ak 2 ,
+
+ω=k
+5
+
+p
+sin2 θ∗ − a2 k 2 .
+
+(14)
+
+Proof. Setting θ̇ = 0 in (7) with sin θ ̸= 0 (interior of a strip) forces d = 1/k; then d˙ = 0 gives
+cos θ = −2a/d∗ = −2ak, which has a solution in (0, π) iff 2ak ≤ 1, and it is unique there.
+Differentiating,
+2a
+∂θ f = sin θ∗ ,
+∂d f = 2 ∗ = 2ak 2 ,
+d d
+1
+
+sin θ
+∂d g = − 2 ∗ = −k 2 sin θ∗ ,
+∂θ g =
+− k cos θ ∗ = 0,
+d d
+d
+d
+∗
+the last vanishing because d = 1/k exactly. This gives (12). Since
+p tr J > 0 and det J > 0, both
+2
+eigenvalues have positive real part. Eigenvalues are λ = ak ± a2 k 4 − k 2 sin2 θ∗ , complex iff
+a2 k 4 < k 2 sin2 θ∗ , i.e. a2 k 2 < sin2 θ∗ = 1 − 4a2 k 2 , i.e. 5a2 k 2 < 1; (14) follows.
+Remark 13 (Consistency). tr J = 2ak 2 > 0 is exactly the Bendixson signature of (9) evaluated
+at the equilibrium: a flow that expands area everywhere cannot have an attracting fixed point.
+The two computations are independent and agree.
+Theorem 14 (Global classification). Under the hypotheses of Theorem 9, every trajectory in
+S± satisfies either d → 0 in finite time ( annihilation) or d → ∞ ( unbinding). No trajectory
+remains in a compact subset of S± bounded away from d = 0 and d = ∞ for all time, except the
+equilibrium itself and its measure-zero stable set.
+Proof. Suppose a forward trajectory remains in a compact K ⊂ S+ with 0 < dmin ≤ d ≤ dmax <
+∞. Its ω-limit set is non-empty, compact, connected and invariant. By Poincaré–Bendixson
+in the plane, ω is an equilibrium, a closed orbit, or a union of equilibria and connecting orbits.
+Closed orbits are excluded by Theorem 9(i). The only equilibrium is that of Theorem 12, which is
+unstable with a two-dimensional unstable manifold when det J > 0 and tr J > 0; hence it attracts
+only its stable set, which is empty for a source and at most one-dimensional in the saddle-free
+non-spiral case, in either case of measure zero. Homoclinic loops would bound a region and are
+excluded by the same Dulac argument. Hence ω is empty for almost every initial condition,
+contradicting compactness, so K cannot confine the trajectory.
+
+7
+
+Numerical confirmation
+
+Theorems 9–14 are unconditional, so numerics cannot strengthen them; they can only detect an
+error. We scan exhaustively.
+Proposition 15 (Exhaustive scan). Over 40 values of the elastic strength a ∈ [10−2 , 10] and 32
+of the reorientation rate k ∈ [10−2 , 10] — three decades in each — with the propulsion initialised
+perpendicular to the separation, the configuration most favourable to orbiting:
+outcome
+
+runs
+
+fraction
+
+annihilate
+unbind
+bound (orbit or equilibrium)
+
+1019
+261
+0
+
+79.6%
+20.4%
+0.0%
+
+total
+
+1280
+
+Four runs at the smallest a and k survived to t = 3×103 ; integrated to t = 2×106 , all four unbind,
+at times consistent with the predicted escape scale 1/σ = 1/ak 2 (e.g. a = 0.0100, k = 0.0743:
+1/σ = 1.8 × 104 , escape at t = 3.3 × 103 ). The bound region is empty, as Theorem 9 requires.
+
+6
+
+(a) Reduced flow on the cylinder
+
+(b) Apparent orbits, then escape
+
+unstable spiral
+d * = 1/k, cos * = 2ak
+
+/2
+
+0
+
+separation d(t)
+
+propulsion angle
+
+invariant axis =
+
+invariant axis = 0 (no flux across)
+
+1
+
+2
+separation d
+
+3
+
+100
+
+10 1
+
+10 2 0
+
+d*
+
+initial offset
+= 3 × 10 1
+= 10 2
+= 10 5
+
+25
+
+50
+
+75
+time
+
+100
+
+125
+
+Figure 1: The reduced flow and the pseudo-orbit. (a) Phase portrait of (7) on the cylinder at
+a = 0.10, k = 1.0. The heavy horizontal lines θ = 0 and θ = π are invariant (Theorem 7): no trajectory
+crosses them, so no orbit can wind. The open circle marks the unique interior equilibrium at d∗ = 1/k,
+cos θ∗ = −2ak, which has tr J = 2ak 2 > 0 and is an unstable spiral (Theorem 12). Three trajectories
+launched at offsets δ = 3 × 10−1 , 10−2 , 10−5 spiral outward and leave. The flow expands the measure
+dd dθ/ sin θ everywhere, which is why nothing is attracting. (b) The same trajectories in time. Each
+executes several apparent revolutions — d(t) oscillates convincingly — before annihilating. Nothing
+here is periodic; the oscillation is the transient of an unstable spiral, and its duration is set by 1/σ.
+
+8
+
+The masquerade law
+
+Theorem 12 has an experimental consequence that the bare no-go statement conceals. Because
+the equilibrium is an unstable spiral rather than a node whenever 5a2 k 2 < 1, trajectories prepared
+near it circulate many times before escaping. An observer watching such a pair sees an orbit.
+The question is for how long.
+Theorem 16 (Depth–duration law for pseudo-orbits). Let a pair be prepared at offset δ = |d0 −
+d∗ | ≪ 1 from the equilibrium, in the spiral regime (13). Then the escape time and the number of
+apparent revolutions before escape are
+tesc (δ) =
+with σ = ak 2 , ω = k
+
+1 R
+ln + O(1),
+σ δ
+
+N (δ) =
+
+ω
+1
+ln + c
+2πσ δ
+
+(15)
+
+p
+sin2 θ∗ − a2 k 2 from (14), and R the escape radius.
+
+Proof. Linearising about the equilibrium, the deviation obeys ξ̇ = Jξ with eigenvalues σ ± iω, so
+in the spiral eigenbasis |ξ(t)| = δeσt and the phase advances at rate ω. Escape occurs when |ξ|
+reaches R, i.e. at tesc = σ −1 ln(R/δ); the linearisation is valid until |ξ| = O(1), and the remaining
+nonlinear excursion contributes O(1). The accumulated phase is ωtesc , giving N = ωtesc /2π and
+(15) with c = (ω/2πσ) ln R.
+Proposition 17 (Numerical verification). At a = 0.10, k = 1.0: d∗ = 1.000, θ∗ = 1.772, σ =
+0.1000, ω = 0.9747, so the predicted slope is ω/2πσ = 1.551. Over 26 values of δ ∈ [10−10 , 10−0.4 ]
+the measured slope of N against ln(1/δ) is 1.546 — agreement to 0.3%. Representative values:
+δ
+3 × 10−1
+10−3
+10−5
+10−8
+
+tesc
+
+N observed
+
+N predicted
+
+18.2
+69.2
+123.0
+184.7
+
+2.5
+10.5
+18.5
+28.5
+
+4.6
+13.5
+20.6
+31.4
+
+7
+
+reorientation rate k
+
+101
+
+(b) Inertia restores binding at Stc = 0.19
+
+(a) Exhaustive scan: 1280 runs, 0 bound
+UNBIND
+261
+
+100
+10 1
+10 2 2
+10
+
+bound
+state
+
+overdamped: forbidden
+(Theorems 2--4)
+
+BOUND region is EMPTY
+epithelial tissue
+St 10 5
+
+ANNIHILATE
+1019
+
+circular
+bound orbit
+
+no bound
+state
+
+10 1
+100
+elastic strength a
+
+4 orders of missing inertia
+10 4
+10 2
+
+101
+
+100
+Stokes number St = m/Torb
+
+102
+
+Figure 2: Exhaustive scan and the inertial threshold. (a) Outcome of 1280 integrations over three
+decades in elastic strength a and reorientation rate k, launched perpendicular — the configuration most
+favourable to orbiting. Every run annihilates (red) or unbinds (blue). The bound region is empty,
+in accordance with Theorem 9. (b) Reinstating inertia. Below Stc = 0.19 no bound state exists at any
+parameter; above it the equilibrium of Theorem 12 is stabilised and the pair settles into a circular bound
+orbit at fixed separation (Theorem 20). Epithelial tissue (star) operates at St ∼ 10−5 , four orders below
+threshold. The gap is not a small correction to be overcome by raising activity: activity does not appear
+in Stc .
+
+(The constant offset reflects the O(1) nonlinear excursion; the slope is the content of (15).)
+Corollary 18 (Observational threshold). To sustain N apparent revolutions the preparation must
+be exponentially fine, δ ∼ e−2πσN/ω . Equivalently, an observer who has watched a candidate bound
+pair for a time T can conclude binding only if T ≫ 1/σ = 1/ak 2 ; below that, a pseudo-orbit is
+the generic expectation, not the exception.
+Remark 19 (Why this matters). The no-go theorem says bound pairs do not exist. The masquerade law says pairs that look bound are common and their lifetime is controlled by a single
+computable rate. Both are needed: without the second, an observation of ten clean revolutions
+would appear to refute the first. It does not — ten revolutions requires only δ ∼ 10−3 , which is
+unremarkable preparation.
+
+9
+
+What would restore binding
+
+A no-go theorem is most useful when it identifies precisely which hypothesis must fail. Theorem 9
+rests on two: planarity of the reduced flow, and the overdamped relation (1). Relaxing the second
+restores binding, and we can say by how much.
+Theorem 20 (Inertial threshold). Reinstate inertia in (2), so that with momentum relaxation
+time τm = m/γ and orbital timescale Torb = d/µfa the dynamics is governed by the Stokes number
+St =
+
+τm
+,
+Torb
+
+St v̇i = −vi + µFi .
+
+(16)
+
+Then there exists Stc > 0 such that for St < Stc no bound state exists, while for St > Stc the
+equilibrium (11) is linearly stable and the pair settles into a circular bound orbit. Numerically, at
+a = 0.10, k = 1.0,
+Stc = 0.19
+(17)
+determined by bisection over 18 refinements.
+8
+
+Proof sketch and numerics. As St → 0, (16) is a regular singular perturbation whose slow manifold is the overdamped flow of Theorem 5; by Fenichel persistence the conclusions of Theorem 9
+carry over for sufficiently small St, so Stc > 0. As St → ∞ the damping term is negligible and
+the dynamics approaches a conservative two-body problem in a logarithmic potential, which supports bound orbits; hence binding occurs at large St. The transition is located numerically by
+integrating (16) to t = 1500 from an overdamped-consistent initial condition and testing whether
+d remains bounded away from 0 and ∞:
+St
+
+dmin
+
+dmax
+
+outcome
+
+−2
+
+—
+—
+1.000
+1.000
+0.275
+
+—
+—
+1.000
+1.000
+1.835
+
+annihilates at t = 51
+annihilates at t = 54
+bound, circular
+bound, circular
+bound, eccentric
+
+10
+10−1
+3 × 10−1
+1
+102
+
+Bisection between 10−1 and 3 × 10−1 gives (17).
+Remark 21 (Reading the number). Two features of (17) deserve emphasis. First, Stc is O(1): the
+transition occurs when momentum relaxation and orbital motion become comparable, exactly as
+the informal argument of §1.2 anticipated, and not at some small value that a strongly driven
+system might reach. Second, near threshold the bound state is circular — dmin = dmax to four
+figures — so what inertia stabilises is the equilibrium of Theorem 12, not a new oscillation.
+Eccentric orbits appear only at St ≳ 102 . The celestial picture, with its elliptical orbits, is
+recovered only deep in the underdamped regime.
+Corollary 22 (Tissue). Epithelial monolayers operate at Reynolds number ∼10−5 , hence St ∼
+10−5 , four orders of magnitude below Stc . Since Stc contains no activity dependence, no increase
+in activity, metabolism, or driving can compensate: raising fa shortens Torb and raises St
+only linearly while simultaneously raising the escape rate. The inertial term is absent, not small.
+
+10
+
+Stochastic reorientation
+
+Admissibility (Definition 3) assumed deterministic reorientation. Rotational diffusion is the natural stochastic alternative, and it does not rescue binding.
+Proposition 23 (No confined stationary state). Let θ additionally undergo rotational diffusion
+of strength Dr > 0, so that the process on C has generator L = f ∂d + g∂θ + Dr ∂θ2 . Then no
+stationary probability density supported in a compact subset of S± bounded away from d = 0 and
+d = ∞ exists.
+Proof. Diffusion in θ destroys the invariance of θ ∈ {0, π}, so the two strips communicate; but this
+˙ =
+only enlarges the accessible set. Consider V (d) = ln d. Along the deterministic flow, V̇ = d/d
+−2µF (d)/d − µfa cos θ/d. Averaging over the θ-marginal of any putative stationary density and
+using that diffusion drives θ toward uniformity on the region where the drift g is weak, the cos θ
+term averages toward zero while the strictly negative term −2µF (d)/d survives, giving LV < 0
+on any compact annulus with F bounded below. A strict Lyapunov drift toward d = 0 on every
+such annulus is incompatible with a stationary density supported there; the process exits with
+probability one.
+Remark 24. Proposition 23 is stated for the elastically dominated regime where 2F (d)/d exceeds
+the propulsion scale. In the opposite regime the same argument run with V = − ln d gives escape
+to large d. The intermediate case is precisely the neighbourhood of the equilibrium of Theorem 12,
+which is unstable, so noise accelerates rather than delays departure. We regard the deterministic
+results as the substantive ones and this proposition as confirming that noise does not create what
+the deterministic flow forbids.
+9
+
+150
+100
+slope = /2 = 1.55
+measured 1.55
+
+10 9 10 7 10 5 10 3 10 1
+initial offset from d *
+(depth)
+
+6.0
+5.2
+
+200
+
+50
+
+(b) How long you must watch
+
+4.4
+
+log10 tesc at = 10 6
+
+apparent revolutions N
+N = 2 ln(1/ ) + c
+
+reorientation rate k
+
+35
+30
+25
+20
+15
+10
+5
+0
+
+101
+escape time tesc
+
+apparent revolutions N (duration)
+
+(a) Depth--duration law for the masquerade
+
+100
+
+3.6
+2.8
+2.0
+
+10 1
+
+0
+
+10 2
+
+1.2
+
+10 1
+100
+elastic strength a
+
+0.4
+
+Figure 3: The depth–duration law. (a) Apparent revolutions N (circles, left axis) and escape time
+tesc (squares, right axis) against the initial offset δ from the equilibrium, at a = 0.10, k = 1.0. The red line
+is the prediction (15) with no fitted slope: ω/2πσ = 1.551 against a measured 1.546. Because N grows
+only as ln(1/δ), doubling the number of apparent revolutions requires squaring the fineness of preparation
+— the masquerade is cheap to begin and exponentially expensive to extend. (b) Escape time across the
+parameter plane at fixed δ = 10−6 , contoured as log10 tesc . This is the map an experimentalist needs: it
+states how long a candidate bound pair must be watched before the absence of escape becomes informative.
+The star marks the parameters of panel (a).
+
+11
+
+Scope and consequences
+
+What is excluded. Any model in which a ± 12 defect pair in an overdamped active medium
+is held at finite separation — by orbiting, by a stationary balance of propulsion against elastic
+attraction, or by any attracting configuration whatever — is excluded, for every central attraction
+weakening with distance, every mobility, every activity, and every reflection-symmetric reorientation law satisfying (10). No parameter choice evades this.
+What is not excluded. The theorem is about a pair in isolation. It says nothing about
+(i) pinning by external quenched heterogeneity, which supplies a force not derivable from the
+pair coordinates and is therefore outside Definition 2; (ii) many-body configurations, where the
+reduction of Theorem 5 fails; (iii) defect lines in three dimensions; (iv) media with inertia above
+Stc . Each is a genuine open direction rather than a loophole, and (i) in particular is the mechanism
+most likely to be operating wherever persistent defect configurations are actually observed.
+Why the reduction is the load-bearing step. The obstruction is dimensional. In two
+dimensions Poincaré–Bendixson and Dulac decide the existence of recurrent behaviour outright; in
+three or more they do not, and periodic orbits are generic. Theorem 5 is what places the problem
+in the decidable class, and it does so only because the interaction is central and the propulsion
+enters through a single angle. Any generalisation that breaks either property — noncentral forces, hydrodynamic coupling through the ambient flow, a second propulsive
+defect — leaves the decidable class, and the theorem should not be expected to
+survive it.
+
+10
+
+12
+
+Limitations
+
+ Two dimensions, point defects. Theorem 9 is proved for point defects in a plane. Defect
+lines in three dimensions carry additional degrees of freedom and the two-body reduction does
+not carry over, though the overdamped argument does.
+ The general reorientation case is conditional. Theorem 9 is unconditional for Ω =
+ω(d) sin θ. For higher harmonics the criterion (10) must be checked; it holds automatically
+near the axis but we have not proved it in the interior for arbitrary Ω.
+ Stc is numerical and parameter-dependent. Equation (17) is obtained at one (a, k).
+That Stc is O(1) is robust and follows from the two limits in the proof; the value 0.19 is not
+universal.
+ Proposition 23 is a drift argument, not a full ergodic classification of the diffusion on C.
+We state it as confirming rather than establishing.
+ Mobility is taken isotropic and constant. A spatially varying mobility would add a term
+to (5) and require rechecking (9).
+
+What is claimed. That the two-defect problem reduces exactly to a planar flow (Theorem 5);
+that reflection symmetry forbids winding orbits (Theorem 7); that the flow is strictly areaexpanding and therefore admits no attractor at finite separation (Theorem 9); that the unique
+interior equilibrium is always unstable (Theorem 12); that every trajectory annihilates or unbinds
+(Theorem 14); that pseudo-orbits obey a logarithmic depth–duration law (Theorem 16); and that
+inertia restores binding above Stc = O(1), four orders above tissue (Theorem 20).
+
+A
+
+Numerical verification
+
+All integrations use scipy.integrate.solve ivp (RK45) at rtol= 10−12 , atol= 10−14 for
+the reduced system and 10−9 /10−11 for the inertial system, with terminal events at d = 0.02
+(annihilation) and d = 60 (unbinding).
+Check
+Dulac divergence ∇ · (BX), finite differences vs. 2a/(d2 sin θ), 9 points
+Invariance of θ = 0 and θ = π
+Equilibrium location d∗ = 1/k,
+cos θ∗ = −2ak
+Spiral criterion 5a2 k 2 < 1
+Exhaustive scan, 40 × 32 grid
+Four long-lived runs to t = 2 × 106
+Masquerade slope, 26 values of δ
+Inertial threshold, 18 bisections
+
+B
+
+Result
+
+Status
+−6
+
+agreement to < 10
+at every
+point
+drift = 0.000 × 100 over t = 5
+tr J = 2ak 2 > 0 in all cases tested
+(0.05, 0.5) → spiral; (0.30, 1.5) →
+node
+1019 annihilate, 261 unbind, 0
+bound
+all unbind
+measured 1.546 vs. predicted
+1.551
+Stc = 0.19; circular at onset
+
+analytic form confirmed
+exact (Thm. 7)
+always unstable (Thm. 12)
+matches (13)
+Prop. 15
+no exceptions
+0.3% (Prop. 17)
+Thm. 20
+
+Provenance
+
+The physical claim that overdamped defect pairs cannot orbit, and the original numerical scan
+reporting no persistent trajectories, are due to the author’s earlier treatment of active topological
+auto-immunity, where the argument was made on the grounds that overdamped dynamics carries no momentum. The present paper supplies what that argument lacked: the exact reduction
+11
+
+(Theorem 5), a proof rather than an appeal to inertia (Theorems 7–9), the extension from “no
+orbits” to “no attractors of any kind”, which closes the circular-bound-state gap the earlier argument left open (Theorem 9(ii)), the identification and stability analysis of the interior equilibrium
+(Theorem 12), the depth–duration law for pseudo-orbits (Theorem 16), and the inertial threshold
+(Theorem 20). The Dulac function (8) and the observation that both terms of θ̇ are proportional
+to sin θ are the technical keys and are new here.
+
+References
+[1] L. Giomi, M. J. Bowick, X. Ma, M. C. Marchetti, Phys. Rev. Lett. 110, 228101 (2013).
+[2] L. Giomi, Phys. Rev. X 5, 031003 (2015).
+[3] A. J. Vromans, L. Giomi, Soft Matter 12, 6490 (2016).
+[4] A. Doostmohammadi, J. Ignés-Mullol, J. M. Yeomans, F. Sagués, Nat. Commun. 9, 3246 (2018).
+[5] T. B. Saw et al., Nature 544, 212 (2017).
+[6] K. Kawaguchi, R. Kageyama, M. Sano, Nature 545, 327 (2017).
+[7] M. C. Marchetti et al., Rev. Mod. Phys. 85, 1143 (2013).
+[8] P. G. de Gennes, J. Prost, The Physics of Liquid Crystals, 2nd ed. (Oxford, 1993).
+[9] H. Dulac, Bull. Sci. Math. 51, 45 (1937).
+[10] L. Perko, Differential Equations and Dynamical Systems, 3rd ed. (Springer, 2001).
+[11] N. Fenichel, J. Differential Equations 31, 53 (1979).
+
+12
+
+

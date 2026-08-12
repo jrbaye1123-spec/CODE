@@ -1,0 +1,12 @@
+{
+  "session_id": "d5aad4eb",
+  "task_id": "t1",
+  "task_description": "test",
+  "created_at": "2026-08-06T12:43:46.676558+00:00",
+  "context_variables": {
+    "count": 42
+  },
+  "conversation_history": [],
+  "intermediate_results": {},
+  "pending_actions": []
+}

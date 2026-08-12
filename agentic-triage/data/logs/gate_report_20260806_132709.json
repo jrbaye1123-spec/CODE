@@ -1,0 +1,29 @@
+{
+  "gate": "index-eligibility",
+  "mode": "audit",
+  "build_timestamp": "2026-08-06T13:27:09.629838+00:00",
+  "vault_path": "/tmp/tmpk8qoph20/vault",
+  "total_notes": 1,
+  "parsed_ok": 1,
+  "parse_failed": 0,
+  "missing_required_fields": 0,
+  "eligible": 0,
+  "rejected": 1,
+  "index_eligibility_rate": 0.0,
+  "rejection_reasons": {
+    "exception_expired": 1
+  },
+  "rejected_entries": [
+    {
+      "path": "/tmp/tmpk8qoph20/vault/expired.md",
+      "title": "Expired Exception",
+      "rejection_reasons": [
+        "exception_expired"
+      ]
+    }
+  ],
+  "parse_errors": [],
+  "build_status": "AUDIT \u2014 REPORT ONLY",
+  "index_path": null,
+  "governance_action": "Audit complete. 0/1 notes eligible (0.0%). 1 rejected: exception_expired: 1. Switch to enforce mode when metadata schema is stable."
+}

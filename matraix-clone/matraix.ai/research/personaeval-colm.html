@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://matraix.ai/research/personaeval-colm.html" />
+  <title>PersonaEval: Persona-Based User Simulation for Evaluating Interactive Applications — MatrAIx Research</title>
+  <meta name="description" content="A concise introduction to PersonaEval, our COLM 2026 Social Simulation Workshop paper on persona-based evaluation for surveys, chatbots, and web applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/blog-post.css?v=21" />
+  <link rel="stylesheet" href="../css/navigation.css?v=2" />
+  <link rel="stylesheet" href="../css/workshop-post.css?v=2" />
+<link rel="icon" type="image/png" href="/Assets/logos/MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Matr<em>AI</em>x</a>
+    <nav><a href="/">Home</a><a href="/research/" aria-current="page">Research</a><a href="/personas/">Personas</a><a href="/applications/">Applications</a><a href="/playground/">Playground</a><a href="/community/">Community</a></nav>
+    <a href="/community/" class="btn-nav"><span class="dot live"></span> Join community</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <div class="blog-header">
+      <div class="blog-breadcrumb"><a href="/">Home</a><span>/</span><a href="/research/">Research</a><span>/</span><span>Publication</span></div>
+      <h1 class="blog-title">PersonaEval: Persona-Based User Simulation for Evaluating Interactive Applications</h1>
+      <p class="blog-deck">A plug-and-play framework that connects persona-driven users to surveys, chatbots, and web applications through one evaluation workflow.</p>
+      <div class="publication-status">
+        <div class="acceptance-note"><span>Accepted</span> COLM 2026 @ SocialSim</div>
+        <div class="paper-link" role="status">ArXiv · link coming soon</div>
+      </div>
+      <div class="blog-meta">
+        <div class="blog-meta-item"><strong>MatrAIx Research Community</strong></div>
+        <div class="blog-meta-item"><strong>July 26, 2026</strong></div>
+        <div class="blog-meta-item"><strong>3 min read</strong></div>
+      </div>
+    </div>
+
+    <figure class="hero-media">
+      <img src="../Assets/media/personaeval-colm/personaeval_demo.gif" alt="PersonaEval dashboards for survey, chatbot, and web application evaluations" />
+      <figcaption>PersonaEval runs the same persona-driven evaluation workflow across multiple application interfaces.</figcaption>
+    </figure>
+
+    <article class="article">
+      <p class="article-lead">Real user studies remain essential, but recruiting participants and repeating studies after every product change is expensive and slow. PersonaEval explores a complementary layer: simulated users who can interact with different applications in repeatable, parallel runs.</p>
+
+      <p>Our system paper, accepted to the <strong>COLM 2026 Workshop on Social Simulation with LLMs</strong>, introduces a modular workflow that separates the simulated user from the application under test. A Persona API turns an existing persona profile into user behavior, while a Task API packages the interface, interaction protocol, environment, and evaluation form.</p>
+
+      <h2>One workflow, three interaction settings</h2>
+      <ul>
+        <li><strong>Survey:</strong> personas respond to structured market-research instruments and explain their choices.</li>
+        <li><strong>Chatbot:</strong> personas pursue realistic goals over multi-turn conversations, then evaluate satisfaction, constraint following, and preference match.</li>
+        <li><strong>Web:</strong> personas navigate an ecommerce environment, compare products, complete sandbox checkout, and report on the experience.</li>
+      </ul>
+
+      <p>Because the task adapter can change without rebuilding the persona side, the same population can evaluate different systems while interaction trajectories and outcomes stay in a common format.</p>
+
+      <div class="takeaway">PersonaEval treats simulated-user evaluation as infrastructure: choose a persona population, connect an application adapter, run interactions concurrently, and aggregate both outcomes and traces.</div>
+
+      <h2>What the first results show</h2>
+      <p>We evaluated six application entries with 50 relevant Nemotron personas each. The results show application-level differences and meaningful variation across persona groups. Multi-turn chatbots produced wider outcome spreads as users revealed constraints and negotiated responses, while survey and web tasks produced more concentrated scores.</p>
+
+      <p>Human-judged persona alignment remained high across the three settings. Representative traces also show personas shaping goals, product constraints, critiques, and final ratings. These results are an initial demonstration, not a substitute for human calibration; future work will compare simulated outcomes directly with real-user data and expand to more application domains.</p>
+
+    </article>
+  </main>
+
+  <footer><p><a href="/">Home</a> · <a href="/research/">Research</a> · <a href="/personas/">Personas</a> · <a href="/applications/">Applications</a> · <a href="/community/">Community</a></p><p style="margin-top:14px">SIMULATE BEFORE REALITY · © 2026 MATRAIX</p></footer>
+  <script src="../js/site-performance.js?v=1"></script>
+  <script>(function(){const t=document.querySelector('.nav-toggle'),n=document.querySelector('header nav');if(!t||!n)return;t.addEventListener('click',()=>n.classList.toggle('active'));})();</script>
+</body>
+</html>

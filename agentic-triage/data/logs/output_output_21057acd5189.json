@@ -1,0 +1,49 @@
+{
+  "output_id": "output_21057acd5189",
+  "workflow": "literature_triage",
+  "session_id": "91d07142",
+  "summary": "Triaged 3 papers. Top result: Structured Pruning of Attention Heads in Large Language Models",
+  "claims": [
+    {
+      "claim_id": "claim_dcc4ec65eddd",
+      "claim_text": "We present a novel approach to transformer-based language modeling that \n            reduces parameter count by 40% while maintaining performance on standard \n            benchmarks.",
+      "source_document": "https://arxiv.org/abs/2401.001",
+      "source_location": "abstract, sentence 1",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:12:09.937943+00:00"
+    },
+    {
+      "claim_id": "claim_99508d43061a",
+      "claim_text": "We demonstrate that up to 60% of attention heads in large transformer \n            models are redundant for downstream tasks.",
+      "source_document": "https://arxiv.org/abs/2401.001",
+      "source_location": "abstract, sentence 3",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:12:09.937953+00:00"
+    },
+    {
+      "claim_id": "claim_a9059b051ee5",
+      "claim_text": "We propose Constitutional AI, a method for training AI assistants that are \n            both helpful and harmless.",
+      "source_document": "https://arxiv.org/abs/2401.002",
+      "source_location": "abstract, sentence 1",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:12:09.938259+00:00"
+    },
+    {
+      "claim_id": "claim_a9615349204f",
+      "claim_text": "We demonstrate that this approach significantly reduces \n            harmful outputs while maintaining helpfulness.",
+      "source_document": "https://arxiv.org/abs/2401.002",
+      "source_location": "abstract, sentence 4",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:12:09.938282+00:00"
+    }
+  ],
+  "sources_consulted": [
+    "https://arxiv.org/abs/2401.002",
+    "https://arxiv.org/abs/2401.001",
+    "https://arxiv.org/abs/2401.003"
+  ],
+  "agent_version": "literature_triage_v1",
+  "model_provider": "default",
+  "model_version": "1.0",
+  "created_at": "2026-08-06T13:12:09.938633+00:00"
+}

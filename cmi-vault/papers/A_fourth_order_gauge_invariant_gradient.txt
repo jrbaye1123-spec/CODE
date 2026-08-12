@@ -1,0 +1,3203 @@
+A fourth order gauge-invariant gradient plasticity model for polycrystals
+based on Kröner’s incompatibility tensor
+François Ebobisse1 and Patrizio Neff2
+
+arXiv:1706.08770v3 [math.AP] 4 Apr 2019
+
+April 8, 2019
+Dedicated to Elias C. Aifantis, pioneer of gradient plasticity
+
+Abstract
+In this paper we derive a novel fourth order gauge-invariant phenomenological model of infinitesimal rate-independent gradient plasticity with isotropic hardening and Kröner’s incompatibility tensor inc(εp ) := Curl [(Curl εp )T ], where εp is the symmetric plastic strain tensor. Here,
+gauge-invariance denotes invariance under diffeomorphic reparametrizations of the reference configuration, suitably adapted to the geometrically linear setting. The model features a defect energy
+contribution which is quadratic in the tensor inc(εp ) and it contains isotropic hardening based on
+the rate of the plastic strain tensor ε̇p . We motivate the new model by introducing a novel rotational invariance requirement in gradient plasticity, which we call micro-randomness, suitable for
+the description of polycrystalline aggregates on a mesoscopic scale and not coinciding with classical
+isotropy requirements. This new condition effectively reduces the increments of the non-symmetric
+plastic distortion ṗ to their symmetric counterpart ε̇p = sym ṗ. In the polycrystalline case, this
+condition is a statement about insensitivity to arbitrary superposed grain rotations. We formulate
+a mathematical existence result for a suitably regularized non-gauge-invariant model. The regularized model is rather invariant under reparametrizations of the reference configuration including
+infinitesimal conformal mappings.
+
+Key words: plasticity, gradient plasticity, geometrically necessary dislocations, incompatible distortions, rate-independent models, kinematic hardening, backstress, Bauschinger effects, variational
+inequality, defect energy, incompatibility tensor, Riemann-Christoffel tensor, dislocation density, gauge
+theory of dislocations, Lanczos scalar, infinitesimal conformal mappings, isotropy.
+AMS 2010 subject classification: 35D30, 35D35, 74C05, 74C15, 74D10, 35J25.
+
+1
+Corresponding author, François Ebobisse, Department of Mathematics and Applied Mathematics, University of Cape
+Town, Rondebosch 7700, South Africa, e-mail: francois.ebobissebille@uct.ac.za
+2
+Patrizio Neﬀ, Head of Chair for Nonlinear Analysis, Faculty of Mathematics, University of Duisburg-Essen, TheaLeymann Str. 9, 45127 Essen, Germany, e-mail: patrizio.neﬀ@uni-due.de, http://www.uni-due.de/mathematik/ag neﬀ
+¯
+
+1
+
+2
+
+F. Ebobisse, P. Neff
+
+Contents
+1 Introduction
+
+2
+
+2 Some notational agreements and definitions
+
+8
+
+3 Discussion of some invariance conditions in plasticity
+3.1 Gauge-invariance - invariance under compatible transformations of the reference system . . . . .
+3.2 Micro-randomness: a novel rotational invariance postulate for polycrystals . . . . . . . . . . . . .
+3.3 Isotropy in geometrically linear models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+12
+13
+15
+
+4 Some models of gradient plasticity with Kröner’s incompatibility tensor
+4.1 An irrotational model with linear kinematic hardening . . . . . . . . . . . . . . . . . . . . . . . .
+4.2 A fully isotropic model with isotropic hardening and plastic spin . . . . . . . . . . . . . . . . . .
+4.3 An irrotational model with isotropic hardening . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.1 Derivation of the model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.2 Conformal gauge-invariance - the regularization term dev sym Curl εp . . . . . . . . . . .
+4.3.3 Derivation of the modified model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.4 Mathematical strong formulation of the model . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.5 Weak formulation of the model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.6 Existence result for the weak formulation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+16
+16
+16
+18
+18
+21
+24
+26
+26
+28
+
+5 Discussion
+
+31
+
+Acknowledgements
+
+32
+
+Appendix
+
+32
+
+1. Introduction
+In recent years there has been a growing attention in extending continuum plasticity theories towards
+the incorporation of the experimentally observed size-effects in small scales (see e.g. [47, 49, 118, 128]).
+This extension is mainly done via the introduction of certain gradient terms, making the plastic
+evolution in some sense nonlocal. Perhaps the earliest such phenomenological model is due to Aifantis
+et al. [3, 4, 93, 137], who directly incorporated the Laplacian ∆γp in the flow stress, where γp :=
+Rt
+1
+0 kε̇p k ds is a measure of accumulated equivalent plastic strain (see Table 1 below for a summary).
+Other variants of the Aifantis’ model also based on the accumulated plastic strain were proposed later
+through the principle of virtual power by Fleck and Hutchinson [48], Gudmundson [53] and generalized
+by Gurtin and Anand [59].
+While there are numerous proposals of such gradient enhanced phenomenological models, either
+based on the multiplicative decomposition
+F = Fe · Fp
+
+(1.1)
+
+(see e.g. [2, 28, 58, 101]), or based on the geometrically linearized corresponding additive decomposition
+ε = ε e + εp
+1
+
+Cf. e.g. Hill [64, p.30].
+
+(1.2)
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+sym ∇u = ε = εe + εp ,
+
+3
+
+εp ∈ Sym (3)
+
+σy = σ0 + µ k2 γp − µ L2c ∆γp ,
+
+σy is the current yield stress
+
+Lc > 0 material length scale
+σ0 > 0 the initial yield stress
+k2 can be taken negative for local softening behaviour
+Rt
+γp := 0 kε̇p k ds the accumulated equivalent plastic strain .
+
+Table 1: A summary of the model by Aifantis [3, 4, 93] based on the accumulated equivalent plastic strain γp . Depending
+on the sign of ∆γp , the model describes process-dependent hardening (∆γp < 0) or softening (∆γp > 0) due to nonlocal
+eﬀects.
+(see e.g. [3, 4, 93, 48, 53, 57, 59, 61, 85, 86, 93, 130]), no general consensus has been reached as to
+which variables describing the plastic evolution should be employed and how they should be combined
+with their partial derivatives in space. For example, a dependence of the plastic flow rule directly via
+the infinitesimal plastic strain variable εp is sometimes excluded, since the backstress variable εp is
+not gauge-invariant.2
+However, if εp is not allowed to appear itself in the equations, then linear kinematic hardening
+á la Prager is excluded from the onset, while the modelling of classical linear isotropic hardening
+remains possible since it is based on kε̇p k, which is invariant under reparametrization of the reference
+configuration (gauge-invariance), see subsection 3.1 in this paper.
+With the use of an evolution equation for the symmetric plastic strain tensor εp being traditional,
+there are also approaches which focus directly on the plastic distortion p (which is a non-symmetric
+variable), thus allowing for the so-called plastic spin3 (see [60, p.493 and eqs. (91.7) and (91.10)]
+and also [32, 69, 83, 15, 120, 17]). The connection between the two approaches is simple: we can
+always identify εp := sym p. As it will turn out subsequently, the introduction of the plastic distortion
+p will make our modelling framework much more transparent: on the one hand, the passage from the
+multiplicative decomposition to the additive decomposition via formal geometric linearization is easier
+and the discussion of invariance conditions becomes clearer, even if in the end we obtain a model for
+the plastic strain tensor εp = sym p only.
+Our aim with this paper is to present a rational modelling environment for gradient plasticity
+with respect to the small strain framework and the additive decomposition which incorporates certain
+insights learned from the multiplicative decomposition.
+Let us therefore collect what the model should be able to do. It should
+- incorporate energetic hardening (due to Geometrically Necessary Dislocations, GNDs) related
+to the energetic length scale Lc ;
+2
+
+Aifantis writes in [4, p. 218]: ”... In conformity with established results - that the plastic strain rate ε̇p is a state
+variable, rather than the strain εp itself.”
+3
+The plastic spin in the ﬁnite deformation ﬂow theory of plasticity is deﬁned as the skew-symmetric part of the
+so-called plastic distortion rate i.e., Wp := skew(Ḟp Fp−1 ) , while its counter-part in the small strain theory is simply
+skew(ṗ) , where p is the non-symmetric inﬁnitesimal plastic distortion.
+
+4
+
+F. Ebobisse, P. Neff
+- incorporate nonlocal hardening (backstress and Bauschinger effects);
+- satisfy appropriate invariance conditions (objectivity, referential isotropy, independence of reference configuration, gauge-invariance, elastic isotropy, elastic frame-indifference, etc.);
+- allow in principle for plastic spin (Bardella [15, 16], Gurtin [56], Neff et al. [101], Ebobisse et al.
+[38, 42, 41]);
+- satisfy an extended positive dissipation principle and be therefore thermodynamically admissible;
+- be able to be cast in a convex analytical framework;
+- support a well-posedness result in both the rate-independent and the rate-dependent cases;
+- have physical meaningful and transparent boundary conditions for the plastic variables.
+
+In this paper, we will propose such a model, which, in the end, has a certain resemblance with the
+early model proposed by Menzel and Steinmann [86] and we will show its well-posedness in the rateindependent case with a suitable regularization. Our derivation of the model based on invariance
+principles is, to our knowledge, entirely new. The model is derived through a process of linearization
+of some state variables in the finite strain case. The derivation of a linear model from a finite strain
+one is not new in the context of elasto-plasticity. For instance, Mielke and Stefanelli [90] used Γconvergence to derive rigorously a model of linearized plasticity as limit of some finite strain plasticity
+model.
+The mathematical well-posedness of our model seems to be interesting in its own right. Once
+more, the convex analytical framework, based on incorporating the postulate of maximum plastic
+dissipation,4 put forward initially by Moreau [92] and used later by many authors (e.g. [62, 35, 123,
+101, 37, 38, 39, 40, 42, 41]), proves to be ideally suited. For that purpose, our ”additive” model also
+admits a finite strain parent model by Krishnan and Steigmann [71], who did not consider, however,
+the incorporation of (nonlocal) kinematic hardening.
+Decisive for our new strain gradient plasticity model is the introduction of Kröner’s incompatibility
+tensor inc ([72, 73, 67, 134, 135, 136]) as an inhomogeneity measure acting on the symmetric plastic
+strain εp = sym p. This incompatibility tensor is given by
+inc(sym p) := Curl ([Curl sym p]T )
+
+(1.3)
+
+and it coincides to first order with the Riemann-Christoffel curvature tensor R in the metric characterized by the finite plastic strain tensor Cp := FpT Fp (De Wit [34]). In fact, considering the
+non-symmetric plastic distortion Fp in the multiplicative decomposition (1.1) and writing Fp = ✶ + p,
+the connection is
+R(FpT Fp ) = R((✶ + p)T (✶ + p)) = R(✶ + 2 sym p + pT p) = 2 inc(sym p) + h.o.t.,
+4
+
+(1.4)
+
+The postulate of maximum plastic dissipation (PMPD), which was derived independently in classical inﬁnitesimal
+theory of plasticity from the so-called Drucker’s postulate by von Mises [91], Taylor [131], Hill [65] Mandel [81] (and
+later as a consequence of Il’iushin’s postulate of plasticity in strain space) has the form hσ − σ ∗ , ε̇p i ≥ 0, where σ is the
+actual stress tensor, ε̇p is the plastic strain-rate tensor and σ ∗ is any admissible stress tensor. The PMPD is equivalent
+to the associated ﬂow rule in the dual formulation in the local theory of plasticity. The maximal dissipation (associated
+ﬂow rule) simpliﬁes the modelling framework and facilitates the mathematical treatment.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+where5
+Rijkl (Cp ) :=
+with
+
+∂Γijl
+∂xk
+
+1
+Γlij := g kl
+2
+
+−
+
+
+∂Γijk
+∂xl
+
+i
+m i
++ Γm
+jl Γmk − Γjk Γml ,
+
+∂gij
+∂gki ∂gjk
++
+−
+∂xj
+∂xi
+∂xk
+
+5
+
+(1.5)
+
+
+
+being the Christoffel symbols of the second kind in the metric Cp = (gij ) whose inverse is Cp−1 = (g ij ).
+Assume that we change the reference configuration by a smooth invertible map
+ψ : ξ 7→ x(ξ) ,
+
+(1.6)
+
+then the plastic distortion Fp in the multiplicative decomposition (1.1) should transform according to
+Fp (x) −→ Fp (x(ξ))
+
+∂x(ξ)
+= Fep (ξ) ∇ξ ψ(ξ) .
+∂ξ
+
+(1.7)
+
+Based on the Riemann-Christoffel curvature tensor R in (1.5), we may form a ”true scalar” quantity,
+namely the so-called Lanczos scalar
+X
+(1.8)
+Rijkl · Rijkl =: kRk2R81 ,
+ijkl
+
+which is form-invariant under a change of the reference configuration in the sense that
+Rx (Fp (x)TFp (x))
+
+2
+
+= Rξ ((Fep (ξ) ∇ξ ψ(ξ))T (Fep (ξ) ∇ξ ψ(ξ)))
+
+2
+
+,
+
+(1.9)
+
+(see Lanczos [75, eq. (2.3)]) where Rx and Rξ denote the Riemann-Christoffel curvature tensor expressed in coordinates x and ξ, respectively. Moreover, if we consider the transformation
+Fp (x) −→ Fbp := Q(x)Fp (x),
+
+with arbitrary Q(x) ∈ O(3) ,
+
+(1.10)
+
+then we have the direct invariance condition for the Riemann-Christoffel curvature tensor
+Rx (Fp (x)TFp (x)) = Rx (Fp (x)TQ(x)T Q(x)Fp (x)) = Rx ((Q(x)Fp (x))TQ(x)Fp (x))
+T
+= Rx (Fbp (x) Fbp (x)) .
+
+(1.11)
+
+The form-invariance property (1.9) is inherited in its geometric linearization, now by the inc-operator,
+in the form of a direct invariance condition for the complete operator (and not just the “Lanczos”-type
+scalar kincx sym pk2 ):
+incx (sym p(x)) = incx (sym(p(x) + ∇x ϑ(x))
+
+∀ ϑ(x) ∈ C ∞ (R3 , R3 ) ,
+
+(1.12)
+
+where we have identified ψ(x) = x + ϑ(x). In fact, from the identity (see [50, Proposition 2.1])
+1
+∇ axl(skew ∇ϑ) = ∇ curl ϑ = (Curl sym ∇ϑ)T ,
+2
+5
+
+Note that Rijkl is both geometrically and physically nonlinear.
+
+(1.13)
+
+6
+
+F. Ebobisse, P. Neff
+
+taking the Curl on both sides, we get
+0 = Curl
+
+
+
+
+1
+∇ curl ϑ = Curl (Curl sym ∇ϑ)T = inc(sym ∇ϑ) ,
+2
+
+(1.14)
+
+which shows (1.12). Of course (1.12) implies that
+kincx (sym p(x))k2 = kincx (sym(p(x) + ∇x ϑ(x))k2
+
+∀ ϑ(x) ∈ C ∞ (R3 , R3 ) ,
+
+(1.15)
+
+mirroring property (1.9) for the Lanczos-type scalar.
+In addition, the direct invariance condition (1.11) for R under rotation fields Q(x) ∈ SO(3) translates
+to an invariance condition on the inc-operator as well. We write Q(x) = ✶ + A(x) + h.o.t. with
+A(x) ∈ so(3) and in terms of the infinitesimal plastic distortion, we consider
+p(x) −→ A(x) + p(x)
+
+∀A(x) ∈ so(3)
+
+and we have the invariance condition
+incx (sym p(x)) = incx (sym(A(x) + p(x)))
+
+∀ A(x) ∈ so(3) .
+
+(1.16)
+
+For both tensors R and inc we note the Saint-Venant compatibility condition and its linearization:
+ψ(x) = x + ϑ(x)
+
+and
+
+Cp = FpT Fp = ✶ + εp + h.o.t
+
+(1.17)
+
+Cp = FpT Fp ∈ Sym+ (3) symmetric positive definite
+R(Cp ) = 0 ⇔ Cp = ∇ψ T ∇ψ
+
+≈ inc(sym p) = 0 ⇔ sym p = sym ∇ϑ
+
+See e.g. Ciarlet-Laurent [31, Theorem 1.1]
+in simply connected domains (see [84, 30, 31, 80]). For more properties of the inc-operator, we refer
+the reader to [134, 10, 80].
+With these preliminaries, both tensors R and inc qualify as incompatibility measures on positive
+definite symmetric plastic strains Cp = FpT Fp in the geometrically nonlinear and on symmetric plastic
+strains εp = sym p in the geometrically linear settings, respectively.
+In a purely phenomenological context, we have another way to measure the incompatibility of the
+plastic distortion Fp itself via the so-called dislocation density tensor Curl x Fp (x) (see for instance
+[58, 101]). Following the works of Davini-Parry [33], Cermelli-Gurtin [28] and Epstein [44], it has been
+shown that the differential operator (the ”true dislocation density tensor”) 6
+1
+(Curl Fp ) FpT = det Fe (Curl C Fe−1 )Fe−T ,
+det Fp
+6
+
+The role of that tensor has been critically discussed in Acharya [1].
+
+(1.18)
+
+7
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+(where Curl C means taking the spatial Curl w.r.t. the current configuration) is also form-invariant
+under arbitrary coordinate transformation of the reference placement (see [28, eq.(1.4) on p.1542]).7
+This property is easily understood from (1.18)2 , which is invariant under reparametrization of the
+reference system anyway.
+From now on, we assume plastic incompressibility, i.e., det Fp = 1 and tr p = 0. Either
+(Curl x Fp ) FpT
+
+linearized through
+
+or
+R(FpTFp )
+
+linearized through
+
+Fp = ✶ + p
+
+Fp = ✶ + p
+
+turns into
+
+turns into
+
+Curl x p
+
+(1.19)
+
+inc(sym p) .
+
+(1.20)
+
+Therefore, in the geometrically linear setting two measures of incompatibility of the infinitesimal plastic
+distortion p are used in the literature. Some authors use the tensor Curl p (see [23, 24, 57, 101]) while
+others use inc(sym p) (see [86]).
+
+Curl p = 0 ⇒ p = ∇ϑ
+⇒ inc(sym p) = inc(sym ∇ϑ) = 0
+
+inc(sym p) = 0 ⇒
+⇒
+/
+⇒
+⇒
+/
+
+sym p = sym ∇ϑ
+p = ∇ϑ but
+p = ∇ϑ + A(x), A(x) ∈ so(3)
+Curl p = 0
+
+Table 2: We need to realize that Curl p is a “sharper” incompatibility measure than inc(sym p).
+Concerning the invariance of the curvature tensor R observed in (1.9), we note that under a
+change of reference placement Fp (x) −→ Fep (ξ) ∇ψ(ξ), we obtain directly the form-invariance of the
+true dislocation density tensor (Curl Fp ) FpT as well, meaning that
+(Curl x Fp ) FpT = (Curl ξ (Fep (ξ) ∇ψ(ξ))) (Fep (ξ) ∇ψ(ξ))T ,
+
+(1.21)
+
+where Curl x and Curl ξ are the Curl expressed in coordinates x and ξ, respectively. Therefore, the
+2
+expression (Curl x Fp ) FpT
+is also a true scalar quantity. Accordingly, in the linearized setting we
+consider as in (1.12)
+p(x) −→ p(x) + ∇ϑ(x)
+(1.22)
+and we obtain directly the invariance
+
+
+Curl p(x) = Curl p(x) + ∇ϑ(x) ,
+
+(1.23)
+
+similar to (1.12).
+Concerning superposition of rotation fields, we note that for Fp −→ Q Fp for Q ∈ O(3) where Q is a
+homogeneous rotation, we have
+T
+
+(Curl (Q Fp ))(Q Fp )T = Q (Curl Fp )FpT Q .
+
+(1.24)
+
+Note that Gurtin uses a diﬀerent deﬁnition of the Curl-operator. We have the relation Curl Fp = [Curl Gurtin Fp ]T
+(see [60]).
+7
+
+8
+
+F. Ebobisse, P. Neff
+
+Similarly, in the linearized setting we consider p(x) −→ A+p(x) for every A ∈ so(3) with A a constant
+skew-symmetric matrix and we get
+
+
+(1.25)
+Curl p(x) = Curl A + p(x) .
+We have the relation
+
+ψ(x) = x + ϑ(x)
+
+(Curl Fp )FpT = 0 ⇔ Fp = ∇ψ
+
+and
+
+≡
+
+Fp = ✶ + p
+
+Curl p = 0 ⇔ p = ∇ϑ
+
+(1.26)
+
+in simply connected domains and under appropriate regularity conditions (see [63, Section 59]).
+The difference between the two incompatibility measures for the linearized setting, inc(sym p) on
+the one hand, and Curl p on the other hand is the invariance property under superposed infinitesimal
+rotations: while inc(sym p) allows to superpose any inhomogeneous infinitesimal rotation field
+A(x), Curl p allows to superpose only homogeneous infinitesimal rotation fields A.
+In single crystal gradient plasticity, it is typically Curl Fp which is used whereas it is debatable,
+whether Curl Fp is a good state-variable for polycrystalline material without texture.
+In the following we will use a set of invariance conditions which will allow us to decide between
+using Curl or inc. It is clear, however, that assuming a set of invariance requirements is already a
+constitutive requirement and therefore subject to discussion.8 In all these developments, beyond the
+discussion on which invariance principles are applied, it is our aim to clearly state and show, which
+kind of modelling restrictions will be obtained from them.
+Our contribution is structured as follows: after introducing in Section 2 some notations, operators
+and function spaces used throughout the paper, we set the stage in Section 3 with two important
+invariance conditions on which our model will be tested. Namely, the gauge-invariance known as
+invariance under compatible transformations of the reference system, and a novel rotational invariance
+postulate for polycrystals, called micro-randomness. In Section 4, we first present few models of
+gradient plasticity with Kröner’s incompatibility tensor which fail our invariance conditions, then
+we introduce our novel fourth order phenomenological model which, though it fails also the gaugeinvariance condition, is invariant w.r.t. a subclass of reparametrizations of the reference configurations,
+including the infinitesimal conformal group. The new model is then formulated using the convex
+analytical framework leading to mathematical strong and weak formulations. Finally an existence
+result for the weak formulation is obtained.
+Let us next fix some notations and definitions which will also make the paper more clear and readable.
+
+2. Some notational agreements and definitions
+Let Ω be a bounded domain in R3 with Lipschitz continuous boundary ∂Ω, which is occupied by an
+elastoplastic body in its undeformed configuration. Let Γ be a smooth subset of ∂Ω with non-vanishing
+8
+
+Only time-objectivity requirements are not to be discussed.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+9
+
+2-dimensional Hausdorff measure. A material point in Ω is denoted by x and the time domain under
+consideration is the interval [0, T ].
+For every a, b ∈ R3 , we let ha, biR3 denote the scalar product on R3 with associated vector norm
+kak2 3 = ha, aiR3 . We denote by R3×3 the set of real 3 × 3 tensors. The standard Euclidean scalar
+R
+
+
+product on R3×3 is given by hA, BiR3×3 = tr AB T , where B T denotes the transpose tensor of B.
+Thus, the Frobenius tensor norm is kAk2 = hA, AiR3×3 . In the following we omit the subscripts
+R3 and R3×3 . The identity tensor on R3×3 will be denoted by ✶, so that tr(A) = hA, ✶i. We let
+GL(3) := {X ∈ R3×3 | det(X) 6= 0} denote the group of invertible 3 × 3 square matrices; GL+ (3) :=
+{X ∈ R3×3 | det(X) > 0}; SO(3) := {X ∈ GL(3) | X X T = ✶ , det[X] = 1} is the Lie Group of
+rotations in R3 whose Lie Algebra is the set so(3) := {X ∈ R3×3 | X T = −X} of skew-symmetric
+tensors. We let Sym (3) := {X ∈ R3×3 | X T = X} denote the set of symmetric tensors and sl(3) :=
+{X ∈ R3×3 | tr (X) = 0} be the Lie Algebra of traceless tensors. For every X ∈ R3×3 , we set
+sym(X) = 12 X + X T , skew (X) = 12 X − X T and dev(X) = X − 13 tr (X) ✶ ∈ sl(3) for the
+symmetric part, the skew-symmetric part and the deviatoric part of X, respectively. Quantities which
+are constant in space will be denoted with an overbar, e.g., A ∈ so(3) for the function A : R3 → so(3)
+which is constant with constant A.
+The body is assumed to undergo deformations. Its behaviour is governed by a set of equations and
+constitutive relations. Below is a list of variables and parameters used throughout the paper:
+• ϕ is the deformation of the body;
+• u(x, t) = ϕ(x, t) − x is the displacement of the macroscopic material points;
+• F = ∇ϕ = ✶ + ∇u is the deformation gradient;
+• Fp = ✶ + p is the plastic distortion which is a non-symmetric tensor with unit determinant, that
+is, Fp ∈ SL(3);
+• Fe = ✶ + e is the elastic distortion which is a non-symmetric tensor;
+• Cp := FpT Fp = ✶ + εp + . . . is the positive definite plastic metric;
+• Ce := FeT Fe = ✶ + εe + . . . is the positive definite elastic strain tensor;
+• p is the infinitesimal plastic distortion variable which is a non-symmetric second order tensor,
+incapable of sustaining volumetric changes; that is, p ∈ sl(3). The tensor p represents the
+average plastic slip; p is not gauge-invariant, while the rate ṗ is;
+• e = ∇u − p is the infinitesimal elastic distortion which is a non-symmetric second order tensor
+and is a state-variable;
+• εp = sym p is the symmetric infinitesimal plastic strain tensor, which is also trace free, εp ∈ sl(3);
+εp is not gauge-invariant; the rate ε̇p = sym ṗ is gauge-invariant; εp is not a state-variable;
+• skew p is called plastic rotation or plastic spin and is not a state-variable;
+• εe = sym (∇u − p) is the symmetric infinitesimal elastic strain tensor and is a state-variable;
+
+10
+
+F. Ebobisse, P. Neff
+• σ is the Cauchy stress tensor which is a symmetric second order tensor and is gauge-invariant;
+• σ0 is the initial yield stress for plastic strain and is gauge-invariant;
+• σy is the current yield stress for plastic strain and is gauge-invariant;
+• f is the body force;
+• Curl p = − Curl e = α is Nye’s dislocation density tensor (see (1.18) for the definition of α),
+satisfying the so-called Bianchi identities Div α = 0 and is gauge-invariant;
+• R is the Riemann-Christoffel curvature tensor, see (1.5);
+• kRk2 is the Lanczos-type scalar;
+• inc(sym p) = inc(εp ) = − inc(εe ) is Kröner’s second order incompatibility tensor and is gaugeinvariant;
+Z t
+ksym ṗk ds is the accumulated equivalent plastic strain and is gauge-invariant;
+• γp =
+0
+
+• γ
+ep =
+
+Z t
+
+kṗk ds is the accumulated equivalent plastic distortion and is gauge-invariant.
+
+0
+
+For isotropic media, the fourth order isotropic elasticity tensor Ciso : Sym(3) → Sym(3) is given by
+Ciso X = 2µ dev sym X + κ tr(X)✶ = 2µ sym X + λ tr(X)✶
+
+(2.1)
+
+for any second-order tensor X, where µ and λ are the Lamé moduli satisfying
+µ>0
+
+and
+
+3λ + 2µ > 0 ,
+
+(2.2)
+
+and κ > 0 is the bulk modulus. These conditions suffice for pointwise ellipticity of the elasticity tensor
+in the sense that there exists a constant m0 > 0 such that
+∀X ∈ R3×3 :
+
+hsym X, Ciso sym Xi ≥ m0 ksym Xk2 .
+
+(2.3)
+
+For every X ∈ C 1 (Ω, R3×3 ) with rows X1 , X2 , X3 , we use in this paper the definition of Curl X
+in [101, 129]:
+
+
+curl X1 − −
+(2.4)
+Curl X =  curl X2 − −  ∈ R3×3 ,
+curl X3 − −
+for which Curl ∇v = 0 for every v ∈ C 2 (Ω, R3 ). Notice that the definition of Curl X above is such
+that (Curl X)T a = curl (X T a) for every a ∈ R3 and this clearly corresponds to the transpose of the
+Curl of a tensor as defined in [57, 60].
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+For
+
+11
+
+
+0
+−a3 a2
+0
+−a1  ∈ so(3) ,
+A =  a3
+−a2 a1
+0
+
+
+we consider the operator axl : so(3) → R3 and anti : R3 → so(3) through
+axl(A) := (a1 , a2 , a3 )T ,
+
+A. v = (axl A) × v,
+
+(anti(v))ij = εjik vk ,
+
+3
+
+(axl A)k = −
+
+=
+
+3
+X
+
+(2.5)
+
+3
+
+1 X
+1 X
+ǫijk Aij =
+ǫkij Aji ,
+2
+2
+i,j=1
+
+Aij
+
+∀ v ∈ R3 ,
+
+(2.6)
+
+i,j=1
+
+−ǫijk (axl A)k =: anti(axl A)ij ,
+
+(2.7)
+
+k=1
+
+axl(anti(v))k = vk ,
+
+(2.8)
+
+where ǫijk is the totally antisymmetric third order Levi-Civita permutation tensor defined by
+
+if {i, j, k} = {1, 2, 3} , {2, 3, 1} or {3, 1, 2} ,
+ 1
+−1 if {i, j, k} = {2, 1, 3} , {1, 3, 2} or {3, 2, 1} ,
+ǫijk :=
+
+0
+if an index is repeated.
+
+Hence, the operators axl : so(3) → R3 and anti : R3 → so(3) are canonical identifications of so(3) and
+R3 . Notice that,
+3
+
+(axl skew A)k =
+
+1 X
+ǫkij skew(A)ji =
+2
+i,j=1
+
+=
+
+3
+
+3
+
+i,j=1
+
+i,j=1
+
+1 X
+1 X
+ǫkij Aji −
+ǫkij Aji
+4
+4
+1
+2
+
+3
+X
+
+ǫkij Aji
+
+∀ A ∈ R3×3 .
+
+(2.9)
+
+i,j=1
+
+The following function spaces and norms will also be used later.
+n
+o
+H(Curl; Ω, R3×3 ) :=
+X ∈ L2 (Ω, R3×3 ) | Curl X ∈ L2 (Ω, R3×3 ) ,
+
+kXk2H(Curl;Ω) := kXk2L2 (Ω) + kCurl Xk2L2 (Ω) , ∀X ∈ H(Curl; Ω, R3×3 ) ,
+n
+o
+H(Curl; Ω, E) :=
+X : Ω → E | X ∈ H(Curl; Ω, R3×3 ) ,
+
+(2.10)
+
+for E := sl(3) or Sym (3) ∩ sl(3).
+We also consider the space
+H0 (Curl; Ω, Γ, R3×3 )
+
+(2.11)
+
+as the completion in the norm in (2.10) of the space {q ∈ C ∞ (Ω, Γ, R3×3 ) | q × n|Γ = 0} . Therefore,
+this space generalizes the tangential Dirichlet boundary condition
+q × n|Γ = 0
+
+(2.12)
+
+12
+
+F. Ebobisse, P. Neff
+
+to be satisfied by the plastic distortion p or the plastic strain εp := sym p. Whenever, Γ = ∂Ω, we
+simply write H0 (Curl; Ω, R3×3 ). The space
+H0 (Curl; Ω, Γ, E)
+is defined as in (2.10).
+The divergence operator Div on second order tensor-valued functions is also defined row-wise as
+
+
+
+div X1
+Div X =  div X2  .
+div X3
+
+(2.13)
+
+Further properties of Kröner’s incompatibility tensor inc can be found in the appendix.
+
+3. Discussion of some invariance conditions in plasticity
+3.1. Gauge-invariance - invariance under compatible transformations of the reference
+system
+Since the modelling should be invariant with respect to the used coordinates system, we may introduce
+the gauge-invariance condition.
+Consider again the multiplicative split F (x) = Fe (x)Fp (x) and perform a compatible change of the
+reference configuration, i.e., set x = ψ(ξ). Then we have upon transforming to new coordinates
+F (ψ(ξ)) ∇ξ ψ(ξ) = Fe (ψ(ξ)) Fp (ψ(ξ)) ∇ξ ψ(ξ) .
+
+(3.1)
+
+Therefore we require our new model to be form-invariant under
+F (x)
+
+−→ F (ψ(ξ))∇ξ ψ(ξ)
+
+∀ψ ∈ C ∞ (R3 , R3 )
+.
+
+(FGI)
+
+,
+
+(LGI)
+
+Fp (x) −→ Fp (ψ(ξ))∇ξ ψ(ξ) (Finite Gauge-Invariance)
+Performing a geometrical linearization, we obtain
+F (x) = Fe (x)Fp (x)
+
+−→
+
+∇u = e(x) + p(x)
+
+and the finite gauge-invariance (FGI) translates into direct invariance under
+∇u(x) −→ ∇u(ξ) + ∇ϑ(ξ) ∀ϑ ∈ C ∞ (R3 , R3 )
+p(x)
+
+−→ p(ξ) + ∇ϑ(ξ)
+
+(Linear Gauge-Invariance)
+
+which is also known as translational gauge-invariance (see Lazar [76, 77, 78]).
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+13
+
+inc-model + micro-random + isotropic
+①
+
+②
+≈
+
+bulk material,
+e.g. a big piece
+of a polycrystal
+
+isotropy: define a first
+subscale with dimension ,
+in any mechanical test on
+the piece
+alone
+① ≈ ② are not discernable
+
+resolve the first microscopic scale: either
+with an isotropic model with spin and Curl p,
+or with a single-crystal anisotropic model
+including grain boundaries.
+≈
+
+≈
+
+by (artificial) isotropy
+assumption, but in
+reality individual grain
+orientation matters.
+
+»
+zooming into this first
+microscopic scale
+clearly, on this scale
+
+inside you still
+find assemblies
+of individual
+grains
+
+microscopic scale, Curl p, anisotropic due to
+single crystals, fully resolved polycrystalline
+sample, spin, individual grains
+
+large cluster of grains
+
+≠
+
+≠
+
+small cluster of grains: orientation of individual
+crystallites matters and makes the model anisotropic
+
+inc-model
+micro-random invariance condition (this is not isotropy):
+rotating large clusters of grains against each other is
+statistically not discernable.
+the blue balls are rotated
+against the left-hand side
+
+model for one large cluster of individual grains
+not micro-random
+
+≈
+
+in any theory with characteristic length scale it is mandatory to specify the
+scale at which we assume some form of rotational invariance condition.
+The inc-model lives on a rather large continuum scale » . The scale
+corresponds to a small cluster of grains in a polycrystal.
+
+≠
+
+the spin model as well as the fully resolved single-crystal
+cluster model are not micro-random.
+
+Figure 1: The micro-random model does not resolve a scale smaller than Lb c (blue-ﬁlled balls)! Inside the blue-ﬁlled
+balls, we have crystallites; if we want to model what happens inside there, we can still try to model this with isotropy
+assumption. This is our isotropic Curl p-model with spin (see Table 6). In reality however, the orientation of the
+crystallites matters.
+3.2. Micro-randomness: a novel rotational invariance postulate for polycrystals
+Polycrystals can be viewed as random aggregates of single crystals which, at sufficiently large scales
+can be viewed as isotropic.
+
+14
+
+F. Ebobisse, P. Neff
+
+Imagine a given initial distribution Fp (x, 0) of grains and subject the polycrystal to a given mechanical loading which alters the plastic state. The result will be recorded in the history t → Fp (x, t).
+Now consider a randomly rotated initial distribution of grains and plastic distortions via
+Fep (x, 0) := Q(x)Fp (x, 0)
+
+with
+
+Q(x) ∈ SO(3) .
+
+(3.2)
+
+At a sufficiently large scale we are not able to discern this rotational rearrangement and we are led to
+assume that the new plastic history under the same given loading as before should be
+t → Fep (x, t) := Q(x)Fp (x, t) .
+
+(3.3)
+
+This is essentially a new invariance requirement to be imposed on our model for the polycrystal.
+It means that, up to the initially different inhomogeneous rotation of the grains, the response is the
+same. Since rotations are involved one might take this as a statement of classical isotropy. However,
+this would be misguided since classical isotropy is concerned with rigidly rotating the whole (polycrystalline) sample, while here each individual grain is rotated differently9 (see explanation in Figure
+1).
+Considering now the geometrically linear setting, we compare the initial infinitesimal plastic distortion p(x, 0) with solution t → p(x, t) versus p(x, 0) + A(x) with its time evolution t → pe(x, t). Our
+micro-randomness invariance condition postulates in the geometrically linear setting that
+p(x, 0) → pe(x, 0) = p(x, 0) + A(x)
+p(x, t) → pe(x, t) = p(x, t) + A(x)
+
+⇒
+∀t > 0
+
+(Linear Micro-Random)
+
+(LMR)
+
+and in the finite deformation setting that
+
+Fp (x, 0) → Fep (x, 0) = Q(x) Fp (x, 0) ⇒
+Fp (x, t) → Fep (x, t) = Q(x) Fp (x, t) ∀t > 0
+
+(Finite Micro-Random)
+
+(FMR)
+
+In addition, we are aware of the fact that determining exact initial conditions for the rotations of grains
+in a polycrystal is practically impossible. Therefore, the influence of considering different initial grain
+distributions should be minimized in order to obtain a suitable effective model. Our micro-randomness
+invariance condition ensures that the effect of different initial conditions shows only as an ”offset” of
+an otherwise unique response, as seen above.
+Notice that
+F (x) = Fe (x) Fp (x) = Fe (x) Q(x)T Q(x) Fp (x)
+|
+{z
+}
+=✶
+
+∇u
+
+= e(x) + p(x)
+
+
+
+
+
+
+
+
+
+
+= e + AT (x) + A(x) +p(x) 
+
+
+|
+{z
+}
+
+Q(x) = exp(A(x)) ,
+
+(3.4)
+
+=0
+
+9
+
+Rotating grains against each other (see Neﬀ et al. [107]) in a polycrystal changes the eigen-stresses along grain
+boundaries. Therefore, our new invariance requirement cannot be a fundamental law of nature but may rather serve to
+concentrate on some eﬀective macroscopic features in a homogenized model.
+
+15
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+thus the invariance condition connected to micro-randomness reads in the finite strain case
+(F, Fe , Fp )
+
+(F, Fe QT (x), QFp (x))
+
+−→
+
+∀ Q(x) ∈ SO(3) ,
+
+(3.5)
+
+while in the geometrically linear context, we need to require the invariance
+(∇u, e, p)
+
+−→
+
+(∇u, e + AT (x), A(x) + p(x))
+
+∀ A(x) ∈ so(3) .
+
+(3.6)
+
+3.3. Isotropy in geometrically linear models
+While the above invariance conditions can be characterized by additive operators, for classical isotropy
+we need the group of rotations Q ∈ O(3). We define isotropy in geometrically linear models to be
+form-invariance under simultaneous change of spatial and referential coordinates by a rigid rotation.
+In this case, scalar functions h : R3 → R, vector fields φ : R3 → R3 and second order tensor fields
+S : R3 → R3×3 are transformed as follows:
+
+h −→ h♯ with h♯ (ξ) := h(QT ξ) ,
+
+
+
+
+
+♯
+♯
+T
+φ −→ φ with φ (ξ) := Q φ(Q ξ) ,
+(3.7)
+
+
+
+
+
+S −→ S ♯ with S ♯ (ξ) := Q S(QT ξ) QT .
+It can be shown (see [94]) that
+
+
+
+
+Curl ξ p♯ (ξ) = Q Curl x p(x) QT
+
+and
+
+
+
+
+
+incξ sym p♯ (ξ) = Q incx sym p(x) QT .
+
+(3.8)
+
+Therefore, both our incompatibility measures are properly isotropic and therefore all our presented
+models, based on Curl p or inc(sym p), respectively, are fully isotropic.
+A summary of the invariance conditions for infinitesimal gradient plasticity is presented in Table 3.
+
+Objectivity/Linearized frame-indifference:
+
+
+
+∇u
+p
+
+−→
+−→
+
+A + ∇u,
+A+p
+
+A ∈ so(3)
+
+Linearized gauge-invariance:
+
+
+
+∇u
+p
+
+−→
+−→
+
+∇u + ∇ϑ,
+p + ∇ϑ
+
+ϑ ∈ C ∞ (R3 , R3 )
+
+p
+
+−→
+
+p + A(x)
+
+A(x) ∈ so(3)
+
+Linearized micro-randomness:
+
+Isotropy:
+
+
+3
+ h:R →R
+φ : R3 → R3
+
+S : R3 → R3×3
+
+−→
+−→
+−→
+
+h♯
+φ♯
+S♯
+
+with h♯ (ξ) := h(QT ξ) ,
+with φ♯ (ξ) := Q φ(QT ξ) ,
+with S ♯ (ξ) := Q S(QT ξ) QT
+
+Table 3: Invariance conditions for inﬁnitesimal gradient plasticity
+
+Q ∈ O(3)
+
+16
+
+F. Ebobisse, P. Neff
+
+4. Some models of gradient plasticity with Kröner’s incompatibility tensor
+Before we introduce and analyze our ”ideal” model designed from the set of requirements presented
+in the introduction, we found that it is more interesting to first present those few models we first
+considered with an emphasis on the difficulties and shortcomings of those models both from the
+mechanical and mathematical points of view. Let us first make it clear that the approach used to
+analyze those models as well as our model in Section 4.3 is trough a convex analytical framework and
+variational inequalities developed in Han-Reddy [62] for classical plasticity and quite often used for
+models of gradient plasticity (see [35, 123, 101, 38, 42]), as well.
+
+4.1. An irrotational model with linear kinematic hardening
+In this section, we present a model with linear kinematic hardening and Kröner’s incompatibility
+tensor where the plastic variable is symmetric i.e., a model with no plastic spin. The goal is to find
+the displacement field u and the infinitesimal plastic strain εp in some suitable function spaces such
+that the content of Table 4 holds.
+Additive split of distortion:
+Additive split of strain:
+Equilibrium:
+Free energy:
+Yield condition:
+where
+
+Dissipation inequality:
+Dissipation function:
+Flow law in primal form:
+Flow law in dual form:
+KKT conditions:
+Boundary conditions for εp :
+Function space for εp :
+
+∇u = e + p
+sym ∇u = εe + εp , εe := sym e and εp := sym p
+Div σ + f = 0 with σ = Ciso εe
+1
+b 4 kinc(εp )k2
+hCiso εe , εe i + 21 µ k1 kεp k2 + 21 µ L
+c
+2
+φ(ΣE ) := kdev ΣE k − σ0 ≤ 0
+ΣE := σ + Σkin + Σinc with Σkin := −µ k1 εp ,
+b 4 inc(inc εp ) ∈ Sym(3)
+Σinc := −µ L
+c
+Z
+
+hΣE , ε̇p i dx ≥ 0
+Ω
+
+D(q) := σ0 kqk
+ΣE ∈ ∂D(ε̇p )
+dev ΣE
+,
+λ = kε̇p k
+ε̇p = λ
+kdev ΣE k
+λ ≥ 0, φ(ΣE ) ≤ 0, λ φ(ΣE ) = 0
+to be specified
+εp (t, ·) ∈ L2 (Ω, Sym(3)) , inc(εp ) ∈ L2 (Ω, Sym(3))
+
+Table 4: The model with linear kinematic Prager-type hardening and Kröner’s incompatibility tensor. The boundary
+conditions on εp cannot be speciﬁed from the structure of the model. The problem with this model is the presence of the
+norm kεp k2 which is not linearized gauge-invariant. A careful analysis of the model in the spirit of Section 4.3 will
+lead to single out the necessity of an L2 -control of Curl εp , which is also not a priori controlled in the model. Altogether,
+well-posedness of the model remains unclear. A modiﬁed version of this model is presented in Table 5. This model is
+micro-random i.e., invariant w.r.t. p → p + A(x), A(x) ∈ so(3), but not linearized gauge-invariant, i.e., not invariant
+w.r.t. p → p + ∇ϑ, ϑ ∈ C ∞ (R3 , R).
+
+4.2. A fully isotropic model with isotropic hardening and plastic spin
+The model is completely described in Table 6.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+Additive split of distortion:
+Additive split of strain:
+Equilibrium:
+Free energy:
+Yield condition:
+where
+
+Dissipation inequality:
+Dissipation function:
+Flow law in primal form:
+Flow law in dual form:
+KKT conditions:
+Boundary conditions for εp :
+Function space for εp :
+
+17
+
+∇u = e + p
+sym ∇u = εe + εp , εe := sym e and εp := sym p
+Div σ + f = 0 with σ = Ciso εe
+1
+b 4 kinc(εp )k2
+hCiso εe , εe i + 12 µ k1 kεp k2 + 12 µ L2c kCurl εp k2 + 21 µ L
+c
+2
+φ(ΣE ) := kdev ΣE k − σ0 ≤ 0
+ΣE
+:= σ + Σkin + Σcurl + Σinc ,
+Σkin := −µ k1 εp
+Σcurl := −µ L2c sym Curl sym Curl εp ∈ Sym(3)
+b 4 inc(inc εp ) ∈ Sym(3)
+Σinc
+:= −µ L
+c
+Z
+
+hΣE , ε̇p i dx ≥ 0
+Ω
+
+D(q) := σ0 kqk
+ΣE ∈ ∂D(ε̇p )
+dev ΣE
+,
+λ = kε̇p k
+kdev ΣE k
+λ ≥ 0, φ(ΣE ) ≤ 0, λ φ(ΣE ) = 0
+εp × n|∂Ω = 0 and (Curl εp )T × n|∂Ω = 0
+εp (t, ·) ∈ L2 (Ω, Sym(3)) , inc(εp ) ∈ L2 (Ω, Sym(3))
+
+ε̇p = λ
+
+Table 5: The model with linear kinematic Prager-type hardening and Kröner’s incompatibility tensor. The simple
+regularization term kCurl εp k2 allows to justify the boundary conditions on εp . The problem with this model is the
+presence of the norms kεp k2 and kCurl εp k2 which are both not linearized gauge-invariant. Altogether, well-posedness
+of this modiﬁed model is obtained as in Section 4.3, with the diﬀerence that uniqueness of the weak solution is obtained
+without any additional regularity assumption. This model is micro-random i.e., invariant w.r.t. p → p + A(x), A(x) ∈
+so(3), but not linearized gauge-invariant, i.e., not invariant w.r.t. p → p + ∇ϑ, ϑ ∈ C ∞ (R3 , R).
+Additive split of distortion:
+Equilibrium:
+Free energy:
+Yield condition:
+
+Dissipation inequality:
+Dissipation function:
+Flow law in primal form:
+Flow law in dual form:
+KKT conditions:
+Boundary conditions for p:
+
+∇u = e + p, εe = sym e, εp = sym p
+Div σ + f = 0 with σ = Ciso εe
+1
+1
+1
+hC εe , εe i + µ k2 |e
+γ p |2 +
+µ L2c kCurl pk2
+2 iso
+2
+2
+φ(ΣE , g) := kdev ΣE k − (σ0 − g) ≤ 0
+ΣE
+:= σ + Σcurl ,
+Σcurl := − µ L2c Curl Curl p
+Z
+
+where
+
+g := −µ k2 γ
+ep
+
+
+hΣE , ṗi + g γ
+ėp i dx ≥ 0
+
+kṗk
+if kṗk ≤ γ
+ėp ,
+D(ε̇p , γ
+ėp ) :=
+∞
+otherwise
+Ω
+
+
+
+(ΣE , g) ∈ ∂D(ε̇p , γ
+ėp )
+dev ΣE
+,
+γ
+ėp = λ = kṗk
+ṗ = λ
+kdev ΣE k
+λ ≥ 0, φ(ΣE , g) ≤ 0, λ φ(ΣE , g) = 0
+p × n|Γ = 0, Curl p × n|∂Ω\Γ = 0
+
+Table 6: A fully isotropic model with isotropic hardening and plastic spin. The model is fully isotropic since it is
+form-invariant under the ♯-transformation deﬁned in (3.7). The model is also linearized gauge-invariant i.e., invariant
+w.r.t. p → p + ∇ϑ, ϑ ∈ C ∞ (R3 , R), but not micro-random i.e., not invariant w.r.t. p → p + A(x), A(x) ∈ so(3).
+
+18
+
+F. Ebobisse, P. Neff
+
+4.3. An irrotational model with isotropic hardening
+In this section we discuss a variant of the previous model with linear kinematic hardening replaced
+by isotropic hardening. The new model will be invariant under Linear Referential Isotropy (LRIso),
+Linear Micro-Random (LMR), Linear Gauge-Invariance (LGI), Linear Elastic Objectivity, Linear
+Elastic Isotropy.
+4.3.1. Derivation of the model
+The balance equation. The conventional macroscopic force balance leads to the equation of equilibrium
+Div σ + f = 0
+(4.1)
+in which σ is the infinitesimal symmetric Cauchy stress and f is the body force.
+Constitutive equations. The constitutive equations are obtained from a free energy imbalance together with a flow law that characterizes plastic behaviour. The total strain ε is additively decomposed
+into elastic and plastic components εe and εp , so that
+ε = εe + εp
+
+(4.2)
+
+with the plastic strain incapable of sustaining volumetric changes; that is, tr εp = 0 .
+The strain-displacement relation is given by
+1
+ε = sym ∇u = (∇u + ∇uT ) .
+2
+
+(4.3)
+
+Free energy density: In this model the free-energy density is considered in the additively separated
+form
+W(u, εp , inc εp , γp ) : =
+
+We (εe )
+| {z }
+
+elastic energy
+
+where
+We (εe )
+
+:=
+
+Winc (inc εp ) :=
+Wiso (γp )
+
+:=
+
++
+
+Winc (inc εp )
+|
+{z
+}
+
++
+
+Wiso (γp )
+| {z }
+
+mesoscopic
+
+isotropic hardening
+
+incompatibility
+
+energy (SSD-related)
+
+
+1
+1
+
+hεe , Ciso εe i = µ ksym ∇u − εp k2 + λ tr[∇u − εp ]2 , 
+
+
+2
+2
+
+
+
+
+
+1 b4
+1
+2
+2
+T
+4
+b
+µ Lc kinc εp k = µ Lc Curl [(Curl εp ) ] ,
+
+2
+2
+
+
+
+
+
+
+1
+
+2
+
+µ k2 |γp | ,
+2
+
+,
+
+(4.4)
+
+(4.5)
+
+b c ≥ 0 is an energetic length scale
+and λ, µ are the Lamé moduli with µ > 0 and 3λ + 2µ > 0, L
+and k2 ≥ 0 is a positive non-dimensional isotropic hardening constant, γp is the isotropic hardening
+variable (the accumulated equivalent plastic strain).
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+19
+
+From the local free energy inbalance
+d
+W ≤ hσ, ∇ut i = hσ, ε̇i ⇔
+dt
+⇔
+
+d
+W − hσ, ε̇e i − hσ, ε̇p i ≤ 0
+dt
+d
+W(u, εp , D2 εp , γp ) ≤ 0 for u fixed
+dt
+
+where the second equivalence is obtained using arguments from thermodynamics which give the elasticity relation
+σ = Ciso εe = 2µ (sym ∇u − εp ) + λ tr(sym ∇u − εp )✶ .
+(4.6)
+Therefore, we get
+
+b 4 hinc εp , inc ε̇p i − µ k2 γp γ̇p ≥ 0 .
+hσ, ε̇p i − µ L
+c
+
+(4.7)
+
+Now, integrating (4.7), we arrive at
+
+0 ≤
+
+Z h
+
+=
+
+Z h
+
+3
+
+X
+ 
+
+4
+b
+b 4 ε̇p i × Curl inc εp T
+hσ, ε̇p i − µ Lc h inc(inc εp ), ε̇p i − µ k2 γp γ̇p −
+div µ L
+c
+i
+| {z }
+Ω
+i=1
+∈Sym(3)
+3
+
+X
+
+
+
+ i
+b 4c Curl ε̇p T × inc εp
+−
+div µ L
+dx
+i
+i
+Ω
+
+i=1
+
+i
+b 4 inc(inc εp ), ε̇p i − µ k2 γp γ̇p dx
+hσ − µ L
+c
+−
+
+3
+X
+i=1
+
+b4
+µL
+c
+
+Z
+
+∂Ω
+
+
+
+T
+
+hε̇p i × Curl inc εp i , ni dS −
+
+(4.8)
+3
+X
+i=1
+
+b4
+µL
+c
+
+Z
+
+∂Ω
+
+
+T 
+
+h Curl ε̇p i × inc εp i , ni dS .
+
+In order to obtain a global reduced dissipation inequality one needs to choose suitable boundary
+conditions for which the two equations below are satisfied
+3 Z
+X
+
+T
+hε̇p i × n, Curl inc εp i i dS = 0 .
+(4.9)
+i=1
+
+3 Z
+X
+i=1
+
+∂Ω
+
+∂Ω
+
+
+T
+
+
+h Curl ε̇p i × n, inc εp i i dS = 0 .
+
+The simplest lower order boundary conditions to satisfy (4.9) and (4.10) are
+T
+
+εp × n|∂Ω = 0
+and
+Curl εp × n|∂Ω = 0 .
+
+(4.10)
+
+(4.11)
+
+Other possible boundary conditions to satisfy the equations (4.9) and (4.10) are given in the table
+below.
+However, these boundary conditions cannot be mathematically justified from the free-energy density W considered so far: both terms in (4.9) and (4.10) are not automatically well-defined as boundary traces. In fact, one needs to show that εp ∈ H(Curl) and (Curl εp )T ∈ H(Curl). This information is missing from the energy. We only know that εp ∈ L2 (due to isotropic hardening) and
+inc εp = Curl [(Curl εp )T ] ∈ L2 . The missing piece of information to proceed is Curl εp ∈ L2 .
+
+20
+
+F. Ebobisse, P. Neff
+
+boundary conditions for (4.9)
+[Curl inc εp
+
+T
+
+εp × n|Γ = 0
+
+boundary conditions for (4.10)
+
+× n|∂Ω = 0
+
+and
+
+
+
+(inc εp ) × n|∂Ω = 0
+
+Curl inc εp
+
+T
+
+× n|∂Ω\Γ = 0
+
+
+
+Curl εp
+
+T
+
+× n|Γ = 0
+
+and
+
+inc εp × n|∂Ω\Γ = 0 .
+
+Table 7: Possible boundary conditions for (4.9) and (4.10) to be satisﬁed.
+
+So, one needs to modify the model by adding a new regularizing term in the free-energy density
+W , which is physically meaningful in the sense that it does satisfy some invariance properties. The
+unmodified model is summarized in Table 8.
+Additive split of strain:
+Equilibrium:
+
+sym ∇u = εe + εp
+Div σ + f = 0 with σ = Ciso εe
+1
+1
+1 b4
+2
+hC εe , εe i + µ k2 |γp |2 + µ L
+c kinc εp k
+2 iso
+2
+2
+
+Free energy:
+Yield condition:
+
+φ(ΣE , g) := kdev ΣE k − (σ0 − g) ≤ 0 where g := −µ k2 γp
+ΣE
+:= σ + Σinc ,
+
+ 
+b 4c inc inc εp = Curl Curl Curl [(Curl εp )T ] T
+Σ
+:= −µ L
+inc
+
+Z
+
+
+hΣE , ε̇p i + g γ̇p i dx ≥ 0
+Ω
+
+σ0 kε̇p k if kε̇p k ≤ γ̇p ,
+D(ε̇p , γ̇p ) :=
+∞
+otherwise
+
+Dissipation inequality:
+Dissipation function:
+Flow law in primal form:
+Flow law in dual form:
+KKT conditions:
+Boundary conditions for εp :
+
+
+
+(ΣE , g) ∈ ∂D(ε̇p , γ̇p )
+dev ΣE
+ε̇p = λ
+,
+γ̇p = λ = kε̇p k
+kdev ΣE k
+λ ≥ 0, φ(ΣE , g) ≤ 0, λ φ(ΣE , g) = 0
+εp × n|∂Ω = 0 , (Curl εp )T × n|∂Ω = 0
+
+Table 8: The irrotational model with isotropic hardening and Kröner’s incompatibility tensor. The terms in the freeenergy density are not enough to guarantee the minimum regularity required, i.e., εp ∈ H(Curl) and (Curl εp )T ∈ H(Curl),
+in order to justify mathematically the boundary conditions εp × n|∂Ω = 0 and (Curl εp )T × n|∂Ω = 0.
+
+We will consider the additional term
+Wcurl (Curl p) :=
+which is motivated in the following section.
+
+1
+µ L2c kdev sym Curl εp k2 ,
+2
+
+(4.12)
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+21
+
+4.3.2. Conformal gauge-invariance - the regularization term dev sym Curl εp
+We will see subsequently that the model with the regularizing term dev sym Curl εp allows for a mathematical existence proof. However, what about the invariance conditions, notably gauge-invariance?
+It is easy to see that
+p → dev sym Curl εp = dev sym Curl sym p
+is micro-random while it is not linear gauge-invariant, i.e.,
+p → p + ∇ϑ
+dev sym Curl sym(∇ϑ + p) 6= dev sym Curl sym p,
+
+∀ϑ ∈ C 1 (Ω, R3 ) .
+
+(4.13)
+
+Let us now determine those mappings ϑ : R3 → R3 which are still “allowed” for gauge-invariance, in
+the sense that
+dev sym Curl sym(∇ϑ + p) = dev sym Curl sym p .
+Automatically, these mappings satisfy the identity inc(sym ∇ϑ) = 0. Moreover, by linearity we should
+have
+dev sym Curl sym ∇ϑ = 0 .
+(4.14)
+Since, however, tr(Curl S) = 0 for all smooth symmetric tensor fields S ∈ Sym(3) (see (5.3) in the
+appendix), the latter is equivalent to
+sym Curl sym ∇ϑ = 0 .
+This implies that for some non-constant skew-symmetric tensor field A : Ω → so(3) we have
+Curl sym ∇ϑ(x) = A(x)
+
+⇔
+
+(Curl sym ∇ϑ)T = −A(x) .
+
+(4.15)
+
+⇔
+
+0 = inc(sym ∇ϑ) = − Curl A(x) .
+
+(4.16)
+
+Taking the Curl on both sides leads to
+Curl [(Curl sym ∇ϑ)T ] = − Curl A(x)
+
+Thus, A(x) = A is a constant skew-symmetric matrx, according to an observation in [94]. Reinserting into (4.15), we must have
+Curl sym ∇ϑ(x) = A .
+(4.17)
+We observe that (see [104])
+
+0
+−ζ,3 ζ,2
+0
+−ζ,1 
+Curl (ζ(x1 , x2 , x3 ) · ✶) =  ζ,3
+−ζ,2 ζ,1
+0
+
+
+ζ : R3 → R
+
+and with ζ(x1 , x2 , x3 ) = a x1 + b x2 + c x3 , we obtain
+
+0 −c b
+0 −a  .
+Curl ((ax1 + bx2 + cx3 ) · ✶) =  c
+−b a
+0
+
+
+22
+
+F. Ebobisse, P. Neff
+Hence, a solution to (4.17) can be obtained in the format
+sym ∇ϑ(x1 , x2 , x3 ) = ζ(x1 , x2 , x3 ) · ✶ .
+
+(4.18)
+
+On taking again the deviatoric part of the latter we arrive at
+dev sym ∇ϑ(x1 , x2 , x3 ) = 0 .
+
+(4.19)
+
+This is equivalent to
+∇ϑ(x) = ζ(x1 , x2 , x3 ) · ✶ + A(x1 , x2 , x3 )
+
+with
+
+A : R3 → so(3) .
+
+(4.20)
+
+The solution to (4.19) can be given in closed form. In fact, taking Curl on both sides of (4.20),
+b ∈ so(3) constant
+together with the fact that Curl (ζ(x1 , x2 , x3 ) · ✶) ∈ so(3) one gets A(x1 , x2 , x3 ) = A
+skew-symmetric matrix. Also, using the operators axl and anti defined in (2.5), a general solution to
+(4.19) is obtained in the form
+φc (x) :=
+
+ 
+
+
+
+1
+c , xi x − axl W
+c kxk2 + ζb · ✶ + A
+b x + ηb ,
+2haxl W
+2
+
+(4.21)
+
+b ηb ∈ R3 are arbitrary
+b W
+c ∈ so(3) are arbitrary constant skew-symmetric matrices and ζ,
+where A,
+constant vectors.
+The mappings in (4.21) are called infinitesimal conformal mappings φc (see [106]). The mappings
+x → φc (x) locally preserve the shape of infinitesimal cubes but are globally inhomogeneous.
+
+Figure 2: Inﬁnitesimal conformal mappings φc : R3 → R3 which locally leave shapes invariant: a prototype elastic
+deformation in the sense that the corresponding stress deviator dev σ(∇φc ) = 0. Shown is the coarse grid deformation.
+The picture is extracted from [106].
+
+If we consider x → φc (x) as elastic displacement, then, according to the von Mises J2 -criterion,
+these mappings alone never lead to plasticity since
+
+dev σ = dev 2 µ sym ∇φc + λ tr(∇φc · ✶ = 2 µ dev sym ∇φc = 0 .
+
+Gathering our findings, we have obtained that the regularization term (4.12) is invariant w.r.t.
+the infinitesimal conformal group and infinitesimal conformal mappings φc do not induce irreversible
+processes.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+23
+
+There is still another solution to
+sym Curl sym ∇ϑ = 0 .
+
+(4.22)
+
+Clearly, (4.22) will be satisfied also if already
+Curl sym ∇ϑ = 0 ,
+which in turn is satsfied for sym ∇ϑ = ∇v ∈ Sym(3), with v : R3 → R3 . Such a vector can be taken
+as v = ∇h(x1 , x2 , x3 ) with any scalar function h : R3 → R. Then, (4.22) is satisfied. Thus, another
+solution to (4.22) is given by
+ϑ(x1 , x2 , x3 ) = ∇h(x1 , x2 , x3 ),
+
+h : R3 → R .
+
+Altogether, solutions to (4.22) are represented by
+ϑ(x) =
+
+φ (x)
+| c{z }
+
+“conformal”
+
++
+
+∇h
+|{z}
+
+“potential”
+
+as the new invariance group. We collect our finding in the following theorem.
+Theorem 4.1 [Nullspace of dev sym Curl sym Grad]
+The nullspace of the operator dev sym Curl sym Grad is given by
+ 
+
+
+
+1
+c , xi x − axl W
+c kxk2 + ζb · ✶ + A
+b x + ηb + ∇h(x) ,
+2haxl W
+ϑ(x) =
+2
+
+b ηb ∈ R3 are arbitrary constant
+b W
+c ∈ so(3) are arbitrary constant skew-symmetric matrices, ζ,
+where A,
+vectors and h : R3 → R is any scalar function.
+It is remarkable, that the seemingly similar regularization term kCurl sym pk2 = kCurl εp k2 only
+allows for invariance under “potential” mappings ϑ = ∇h.
+
+In order to be able to describe polygonization (see Figure 3(d)), the plasticity model should
+energetically favour configurations in which there are blocks of many homogeneous rotations.
+In this respect, the new term 12 µ L2c kdev sym Curl sym pk2 = 21 µ L2c ksym Curl sym pk2 energetically
+favours those configurations, which locally only rotate. The generated natural second order backstress
+will be of the type
+Σcurl = µ L2c sym Curl (sym Curl εp ) .
+Now, looking at the invariance of the energy for which sym Curl (sym ∇ϑ) = 0 versus the invariance
+of the backstress in the strong formulation for which sym Curl (sym Curl (sym ∇ϑ) = 0, it is clear that
+the invariance of the energy implies the invariance of backstress, but not vice-versa.
+Remark 4.1 Note that the mapping p → dev sym Curl sym p = sym Curl εp does not have any geometric meaning connected to the incompatibility of the plastic distortion p like Curl p or connected to
+the incompatibility of the plastic strain tensor εp = sym p like inc(sym p). The simpler term Curl sym p
+has been used by Gurtin and Anand [57] as the only energetic contribution in their irrotational gradient
+plasticity model.
+
+24
+
+F. Ebobisse, P. Neff
+
+Figure 3: Five states of a single crystal. (a) Unstrained. (b) Elastically bent. (c) Plastically bent. (d) Polygonized.
+(e) Recrystallized. The picture was extracted from Nabarro [95]. For the polygonized crystal, we observe large structures
+which are rotated against each other with a “zone” separating those blocks. Using plainly Curl p as the underlying defect
+measure would energetically penalize these conﬁgurations. Therefore it seems appropriate to use inc(sym p) as a “weaker”
+defect measure which would allow for low energy conﬁgurations like that in (d).
+
+4.3.3. Derivation of the modified model
+1
+1
+Now with the additional term Wcurl (Curl p) := µ L2c kdev sym Curl εp k2 = µ L2c ksym Curl εp k2 in
+2
+2
+the free-energy density W, if we repeat the derivation above starting from the free-energy imbalance,
+we get
+Z h
+i
+b 4 inc(inc εp ), ε̇p i − µ k2 γp γ̇p dx
+0 ≤
+hσ − µ L2c sym Curl (sym Curl εp ) − µ L
+(4.23)
+c
+Ω
+
+−
+−
+=
+
+Z h
+
+3
+X
+
+i=1
+3
+X
+i=1
+
+µ L2c
+b4
+µL
+c
+
+Z
+
+Z
+
+hε̇p i × n, (sym Curl εp )i i dS −
+∂Ω
+
+∂Ω
+
+i
+
+i=1
+
+
+T
+
+
+h Curl ε̇p i × n, inc εp i i dS
+
+hΣE , ε̇p i + g γ̇p dx −
+
+Ω
+
+−
+
+3
+X
+i=1
+
+b 4c
+µL
+
+Z
+
+∂Ω
+
+3
+X
+
+3
+X
+
+µ L2c
+
+i=1
+
+
+
+Z
+
+b4
+µL
+c
+
+Z
+
+∂Ω
+
+
+T
+hε̇p i × n, Curl inc εp i i dS
+
+hε̇p i × n, (sym Curl εp )i i dS
+
+(4.24)
+
+∂Ω
+
+T
+
+hε̇p i × n, Curl inc εp i i dS −
+
+3
+X
+i=1
+
+b 4c
+µL
+
+Z
+
+∂Ω
+
+
+T
+
+
+h Curl ε̇p i × n, inc εp i i dS
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+25
+
+where
+ΣE
+
+:= σ + Σcurl + Σinc ,
+
+Σcurl :=
+Σinc :=
+=
+
+g = − µ k2 γ p ,
+
+− µ L2c sym Curl (sym Curl εp ) ,
+b 4 inc(inc εp )
+−µL
+c
+b 4c Curl
+−µ L
+
+h
+
+(second order nonlocal backstress)
+
+ T iT 
+
+Curl Curl Curl εp
+
+(fourth order nonlocal backstress) .
+
+Now assuming again the simplest lower order boundary conditions
+εp × n|∂Ω = 0
+
+and
+
+
+
+Curl εp
+
+T
+
+× n|∂Ω = 0
+
+(4.25)
+
+which will be clearly defined as Sobolev traces through a choice of a suitable function space for the
+plastic strain variable εp , will guarantee the insulation type conditions
+3 Z
+X
+i=1
+
+3 Z
+X
+i=1
+
+(4.26)
+
+
+T
+hε̇p i × n, Curl inc εp i i dS = 0 ,
+
+(4.27)
+
+
+T
+
+
+h Curl ε̇p i × n, inc εp i i da = 0 ,
+
+(4.28)
+
+∂Ω
+
+3 Z
+X
+i=1
+
+hε̇p i × n, (sym Curl εp )i i dS = 0 ,
+
+∂Ω
+
+∂Ω
+
+from which we obtain the global reduced dissipation inequality
+Z
+
+
+hΣE , ε̇p i + g γ̇p dx ≥ 0 .
+
+(4.29)
+
+Ω
+
+The flow law: We consider the set of admissible (elastic) generalized stresses
+E := {(ΣE , g) | kdev ΣE k − (σ0 − g) ≤ 0,
+
+g ≤ 0} ,
+
+(4.30)
+
+whose interior Int(E) is the elastic domain while its boundary ∂E is the yield surface. The constant
+σ0 is the initial yield stress of the material. The flow law in its primal form reads as follows:
+(ΣE , g) ∈ ∂D(ε̇p , γ̇p )
+
+(4.31)
+
+where
+D(q, β) := sup{hΣE , qi + gβ | (ΣE , g) ∈ E}
+=
+=
+
+sup{hΣE , qi + g β | kΣE k ≤ σ0 − g,
+
+σ0 kqk if kqk ≤ β,
+∞
+otherwise.
+
+g ≤ 0}
+(4.32)
+
+26
+
+F. Ebobisse, P. Neff
+
+Here, ∂D(Γ̇p ) denotes the subdifferential of the function D at Γ̇p . That is,
+(ΣE , g) ∈ ∂D(ε̇p , γ̇p )
+
+⇔
+
+hΣE , q − ε̇p i + g(β − γ̇p ) ≤ D(q, β) − D(ε̇p , γ̇p )
+
+∀ (q, β) .
+
+(4.33)
+
+Now using convex analysis, we get
+(ΣE , g) ∈ ∂D(ε̇p , γ̇p )
+
+⇔
+
+(ε̇p , γ˙p ) ∈ ∂IE (ΣE , g) = NE (ΣE , g) ,
+
+(4.34)
+
+where IE is the indicator function of the set E of admissible generalized stresses and NE (ΣE , g) is the
+normal cone of the set E at (ΣE , g).
+The condition (4.34)2 is called the dual form of the flow law, which in the case of smoothness of the
+yield surface ∂E at (ΣE , g) gives for some scalar parameter λ ≥ 0
+ε̇p = λ
+
+dev ΣE
+kdev ΣE k
+
+and
+
+γ̇p = λ = kε̇p k
+
+(4.35)
+
+together with the Karush-Kuhn-Tucker complementary conditions:
+λ ≥ 0,
+
+φ(ΣE , g) ≤ 0
+
+and
+
+λ φ(ΣE , g) = 0 .
+
+Note that with this choice, the global dissipation inequality (4.29) is satisfied.
+4.3.4. Mathematical strong formulation of the model
+Taking into account the free energy density W in (4.4) together with the additional term in (4.12) and
+the constraint kqk ≤ β in the definition of the dissipation function D in (4.32), the model is strongly
+formulated as follows: find
+(i) the displacement u ∈ H1 (0, T ; H10 (Ω, Γ, R3 )) ,
+(ii) the infinitesimal plastic strain εp ∈ H1 (0, T ; L2 (Ω, sl(3) ∩ Sym(3))) with
+sym Curl εp ∈ H1 (0, T ; L2 (Ω, Sym(3) ∩ sl(3)));
+inc inc εp = Curl
+
+
+
+inc εp = Curl [(Curl εp )T ] ∈ H1 (0, T ; L2 (Ω, R3×3 ));
+T 
+Curl Curl [(Curl εp )T ]
+∈ H1 (0, T ; L2 (Ω, R3×3 )) ,
+
+(iii) The internal isotropic hardening variable γp ∈ H1 (0, T ; L2 (Ω)) ,
+such that the content of Table 9 holds.
+4.3.5. Weak formulation of the model
+To obtain the weak formulation of the model, we consider the equilibrium in its weak formulation.
+That is, for every v ∈ H10 (Ω, R3 ) we have
+Z
+Z
+hCiso (sym ∇u − εp ), sym(∇v − ∇u̇)idx =
+f (v − u̇)dx .
+(4.36)
+Ω
+
+Ω
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+Additive split of strain:
+Equilibrium:
+
+27
+
+sym ∇u = εe + εp
+Div σ + f = 0 with σ = Ciso εe
+1
+1
+1 b4
+1
+2
+hC εe , εe i + µ k2 |γp |2 +
+µ L2c ksym Curl εp k2 + µ L
+c kinc εp k
+2 iso
+2
+2
+2
+
+Free energy:
+
+φ(ΣE , g) := kdev ΣE k2 − (σ0 − g) ≤ 0 where g := −µ k2 γp
+ΣE
+:= σ + Σcurl + Σinc ,
+Σcurl := − µ L2c sym Curl (sym Curl εp )
+
+
+b 4c inc inc εp = Curl Curl Curl [Curl εp ]T T
+Σinc
+:= −µ L
+
+Yield condition:
+
+Z
+
+
+hΣE , ε̇p i + g γ̇p i dx ≥ 0
+
+σ0 kε̇p k if kε̇p k ≤ γ̇p ,
+D(ε̇p , γ̇p ) :=
+∞
+otherwise
+
+Dissipation inequality:
+Dissipation function:
+Flow law in primal form:
+
+Ω
+
+
+
+(ΣE , g) ∈ ∂D(ε̇p , γ̇p )
+dev ΣE
+,
+γ̇p = λ = kε̇p k
+ε̇p = λ
+kdev ΣE k
+λ ≥ 0, φ(ΣE , g) ≤ 0, λ φ(ΣE , g) = 0
+εp × n|∂Ω = 0 , (Curl εp )T × n|∂Ω = 0
+
+Flow law in dual form:
+KKT conditions:
+Boundary conditions for εp :
+
+Table 9: The new regularized irrotational model with isotropic hardening and Kröner’s incompatibility tensor. Also
+in this case, the boundary condition on εp necessitates at least εp , (Curl εp )T ∈ H(Curl; Ω, R3×3 ). The model is
+micro-random i.e., invariant w.r.t. p → p + A(x), A(x) ∈ so(3) and invariant under inﬁnitesimal conformal mappings
+p → p + ∇φc with dev sym ∇φc = 0.
+
+On the other hand, for every q ∈ C ∞ (Ω, sl(3) ∩ Sym(3)) such that
+q × n|∂Ω = 0
+
+(Curl q)T × n|∂Ω = 0
+
+and
+
+and for every β ∈ L2 (Ω), integrate (4.33) over Ω using the pair of functions (q, β) and get
+Z
+
+D(q, β) dx ≥
+Ω
+
+=
+
+Z
+
+D(ε̇p , γ̇p ) dx +
+
+ZΩ
+
+
+
+Z
+
+Ω
+
+
+
+
+hσ + Σcurl + Σinc , q − ε̇p i + g (β − γ̇p ) dx
+
+(4.37)
+
+b 4 inc inc εp , q − ε̇p i
+hσ − µ L2c sym Curl (sym Curl εp ) − µ L
+c
+Ω
+
+−µ k2 γp (β − γ̇p ) dx .
+
+Now integrating by parts the two terms hsym Curl (sym Curl εp ), q − ε̇p i once and hinc inc εp , q − ε̇p i
+twice, using the boundary conditions
+(q − ε̇p ) × n|∂Ω = 0
+
+and
+
+(Curl (q − ε̇p ))T × n|∂Ω = 0
+
+28
+
+F. Ebobisse, P. Neff
+
+we get from (4.37) that
+Z
+Z
+Z
+D(ε̇p , γ̇p ) dx + hCiso (sym ∇u − εp ), q − ε̇p i dx
+D(q, β) dx ≥
+Ω
+Ω
+Ω
+Z
+Z
+γp (β − γ̇p ) dx − µ L2c hsym Curl εp , sym Curl (q − ε̇p )i dx
+−µ k2
+Ω
+ZΩ
+4
+b
+−µL
+hinc εp , inc(q − ε̇p )i dx .
+(4.38)
+c
+Ω
+
+Adding (4.38) to the weak formulation of the equilibrium in (4.36), we get the weak formulation of
+our model of gradient plasticity with isotropic hardening and Kröner’s incompatibility tensor
+Z h
+Ω
+
+hCiso (sym ∇u − εp ), (sym ∇v − q) − (sym ∇u̇ − ε̇p )i + µ k2 γp (β − γ̇p )
+i
+b 4 hinc εp , inc(q − ε̇p )i dx
++ µ L2c hsym Curl εp , sym Curl (q − ε̇p )i + µ L
+c
+Z
+Z
+Z
++
+D(q, β) dx −
+D(ε̇p , γ̇p ) dx ≥
+f (v − u̇) dx .
+Ω
+
+Ω
+
+(4.39)
+
+Ω
+
+That is,
+a(w, z − ẇ) + j(z) − j(ẇ) ≥ h l, z − ẇi ,
+where
+a(w, z) :=
+
+Z h
+
+hCiso (sym(∇u − p)), sym ∇v − qi + µ k2 γp β +
+
+Ω
+
+j(z) :=
+hl, zi :=
+
+Z
+
+ZΩ
+
+(4.40)
+
+i
+b 4 hinc εp , inc qi dx ,
++ µ L2c hsym Curl εp , sym Curl qi + µ L
+c
+
+(4.41)
+
+D(q, β) dx ,
+
+(4.42)
+
+f v dx ,
+
+(4.43)
+
+Ω
+
+for w = (u, εp , γp ) and z = (v, q, β) .
+4.3.6. Existence result for the weak formulation
+We prove the existence result for the weak formulation (4.39) by closely following the approach by now
+classical, which uses the abstract machinery developed by Han and Reddy in [62] for mathematical
+problems in geometrically linear classical plasticity and used for instance in [35, 123, 101, 38, 42] for
+models of gradient plasticity. Precisely, we will need the following Theorem.
+Theorem 4.2 ([62, Theorem 6.19])
+Let Z be a Hilbert space and let W be a nonempty closed convex cone in Z. Consider the following
+problem: find w ∈ H1 ([0, T ]; Z) with w(0) = 0 such that for almost every t ∈ [0, T ], ẇ(t) ∈ W and
+a(w, z − ẇ) + j(z) − j(ẇ) ≥ hℓ, z − ẇi for every z ∈ W .
+Assume that the following hold:
+
+(4.44)
+
+29
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+1. the bilinear form a is symmetric, continuous on Z and coercive on W, i.e., there exist C > 0
+and α > 0 such that
+a(w, z) ≤ C kwkZ kzkZ
+
+∀w, z ∈ Z
+
+and
+
+a(z, z) ≥ α kzk2Z
+
+∀z ∈ W ;
+
+(4.45)
+
+2. ℓ ∈ H1 ([0, T ]; Z′ ) with ℓ(0) = 0.
+3. the functional j is non-negative, convex, lower continuous and positively 1-homogeneous W, i.e.,
+j(sz) = |s| j(z) ∀s ∈ R , ∀z ∈ Z .
+Then the problem (4.44) has a solution w ∈ H1 ([0, T ]; Z).
+Therefore, the problem is then reduced to finding a suitable Hilbert space Z and its subset W such
+that the bilinear form a(·, ·) and the functionals j and ℓ satisfies the assumptions of Theorem 4.2.
+The choices of function spaces for the displacement variable u and the isotropic hardening variable γp
+are straightforward as
+u ∈ H10 (Ω, R3 ) and γp ∈ L2 (Ω) .
+For the plastic strain variable εp , we first need to introduce the space
+Hinc (Curl , Ω; sl(3) ∩ Sym(3)) := {q ∈ L2 (Ω, sl(3) ∩ Sym(3) | (Curl q)T ∈ H(Curl , Ω; R3×3 )}
+:= {q ∈ H(Ω, sl(3) ∩ Sym(3) | inc q ∈ L2 (Curl , Ω; R3×3 )}
+
+(4.46)
+
+equipped with the norm
+kqk2inc := kqk2L2 (Ω) + (Curl q)T
+=
+
+2
+= kqk2L2 +
+H(Curl;Ω)
+
+(Curl q)T
+
+2
++
+L2
+
+Curl (Curl q)T
+
+kqk2H(Curl;Ω) + kinc qk2L2 (Ω) .
+
+2
+L2
+
+(4.47)
+
+Let us mention that spaces of functions involving the inc-operator were already used in the literature
+and we refer the interested reader for instance to the papers [10, 11].
+We also consider the closure Hsym, inc (Curl , Ω, ∂Ω; sl(3) ∩ Sym(3)) of the linear subspace
+n
+o
+∞
+T
+q ∈ C (Ω, Sym(3)) | tr q = 0, q × n|∂Ω = 0 and (Curl q) × n|∂Ω = 0
+in the norm
+
+kqk2symcurl, inc := kqk2L2 + ksym Curl qk2L2 + kinc qk2L2 .
+
+(4.48)
+
+Motivated by the well-posedness question for models of infinitesimal gradient plasticity (specially
+for models dictated by invariance under infinitesimal rotations) [116, 117, 38, 115, 101], infinitesimal
+Cosserat elasticity [106, 66, 97], infinitesimal Cosserat elasto-plasticity [100, 109, 27, 102] and infinitesimal relaxed micromorphic [105, 108, 98], Bauer et al. [21, 22] (see also Neff et al. [111, 112, 113, 114])
+derived a new inequality extending Korn’s first inequality to incompatible tensor fields, namely there
+exists a constant C(Ω) > 0 such that
+∀ X ∈ H(Curl ; Ω, R3×3 ),
+
+X × n|∂Ω = 0 :
+
+
+
+
+
+kXkL2 (Ω) ≤ C(Ω) ksym XkL2 (Ω) + kCurl XkL2 (Ω) .
+
+(4.49)
+
+30
+
+F. Ebobisse, P. Neff
+
+Now, if we apply the incompatible Korn’s type inequality to X = (Curl q)T for q ∈ C ∞ (Ω, Sym(3))
+with (Curl q)T × n|∂Ω = 0, we get
+(Curl q)T L2 (Ω)
+
+
+
+
+T
+Curl
+[(Curl
+ε
+)
+]
++
+≤ C(Ω) sym (Curl q)T
+p
+L2 (Ω)
+L2 (Ω)
+
+
+= C(Ω) ksym Curl qkL2 (Ω) + kinc qkL2 (Ω) ,
+
+kCurl qkL2 (Ω) =
+
+(4.50)
+
+then we have the decisive identity
+Hsym, inc (Curl , Ω, ∂Ω; sl(3) ∩ Sym(3))
+
+(4.51)
+≡ q ∈ H0 (Curl , Ω, ∂Ω; sl(3) ∩ Sym(3)), (Curl q)T ∈ H0 (Curl , Ω, ∂Ω; R3×3 )
+
+T
+3×3
+T
+= q, (Curl q) ∈ H(Curl , Ω, R ), tr q = 0 a.e. in Ω, q × n|∂Ω = (Curl q) × n|∂Ω = 0
+
+with the norms k·kinc and k·ksymcurl, inc being equivalent.
+Now, we set
+
+V : = H10 (Ω; R3 ) ,
+(4.52)
+
+T
+Q : = q ∈ Hinc (Curl , Ω; sl(3) ∩ Sym(3)) | q × n|∂Ω = 0 and (Curl q) × n|∂Ω = 0 , (4.53)
+Λ : = L2 (Ω) ,
+
+(4.54)
+
+Z : = V × Q × Λ,
+
+(4.55)
+
+W : = {z = (v, q, β) ∈ Z | kqk ≤ β} ,
+
+(4.56)
+
+equipped with the norms
+kvkV := k∇vkL2 (Ω) ,
+
+kqkQ := kqkinc ,
+
+kzk2Z := kvk2V + kqk2Q + kβk2Λ
+
+kβkΛ = kβkL2 (Ω) ,
+
+for z = (v, q, β) ∈ Z .
+
+(4.57)
+
+Let us prove the coercivity of the bilinear form a(·, ·) on the closed convex set W, where the constraint
+kqk ≤ β in W plays a crucial role. Let therefore z = (v, q, β) ∈ W. Then,
+b 4 kinc qk2 2
+a(z, z) ≥ m0 ksym(∇v) − qk22 + µ k2 kβk2L2 + µ L2c ksym Curl qk2 + µ L
+c
+L
+=
+
+h
+
+(m0 > 0 is from (2.3))
+
+m0 ksym(∇v)k22 + kqk2L2 − 2hsym(∇v), pi
+
+≥ m0
+
+
+
+i
+
++ µ k kβk2L2
+
+b 4c kinc q)k2 2
++µ L2c ksym Curl qk2 + µ L
+L
+
+1
+1
+2
+2
+2
+2
+ksym(∇v)kL2 + kqkL2 − θ ksym(∇v)kL2 − kqkL2 + µ k2 kβk22
+θ
+2
+
+1
+b 4 kinc qk2 2
++ µ k2 kqk2L2 + µ L2c ksym Curl qk2L2 + µ L
+c
+L
+2
+(using Young’s inequality and kqk ≤ β from W )
+
+
+1
+1
+1
+2
+= m0 (1 − θ) ksym(∇v)k2 + m0 (1 − ) + µ k2 kqk22 + µ k2 kβk22
+θ
+2
+2
+b 4 kinc qk2 2 .
++µ L2 ksym Curl qk2 2 + µ L
+c
+
+L
+
+c
+
+L
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+31
+
+2 m0
+≤ θ < 1, and using the classical Korn’s first inequality, there
+2 m0 + µ k2
+exists some positive constant K(m0 , µ , k2 , Ω) > 0 such that
+h
+i
+b 4 kinc qk2 2
+a(z, z) ≥ K kvk2V + kqk2L2 + kβk2Λ + µ L2c ksym Curl qk2L2 + µ L
+(4.58)
+c
+L
+h
+i
+≥ C kvk2V + kqk2Q + kβk2Λ = C kzk2Z ∀z = (v, q, β) ∈ W ,
+
+So, choosing θ such that
+
+b c ) > 0. For the second inequality in (4.58), we used the inequality
+where C = C(m0 , µ , k2 , Ω, Lc , L
+(4.50) obtained as a consequence of Korn’s type inequality for incompatible tensor fields in Neff et al.
+[111, 112, 113, 114] .
+
+So, assuming that the body is initially unloaded and undeformed, which corresponds to assuming
+that f (x, 0) = 0 for almost all x ∈ Ω with homogeneous initial conditions, we obtained the following
+existence result for the weak formulation (4.39) of our model.
+Theorem 4.3 Under the choices of the Hilbert space Z and the closed convex cone W in (4.52)-(4.56)
+with the norms in (4.57) and the functionals a, j and ℓ in (4.41)-(4.43), the weak formulation (4.39)
+when written as the variational inequality of the second kind (4.44) has a solution w = (u, εp , γp ) in
+H1 ([0, T ]; Z) with ẇ ∈ L2 ([0, T ]; W).
+Remark 4.2 Uniqueness of the strong solution is obtained as in [41] provided the following further
+assumptions are satisfied:
+
+sym Curl sym Curl εp ∈ L2 (Ω, Sym(3) ∩ sl(3))
+(4.59)
+
+
+Curl [Curl Curl [Curl εp ]T ]T
+∈ L2 (Ω, R3×3 ) .
+
+5. Discussion
+It remains a difficult task to reconcile mathematical and physical requirements. Indeed, the incorporation of Kröner’s incompatibility tensor inc εp is physically transparent and the novel model is microrandom and gauge-invariant. Micro-randomness being useful for polycrystals and gauge-invariance
+being a generally physically necessary requirement. However, using integration by parts in order to
+arrive at a global reduced dissipation inequality, the following lowest order boundary conditions
+εp × n|∂Ω = 0
+
+(Curl εp )T × n|∂Ω = 0
+
+and
+
+(5.1)
+
+impose themselves.
+From a mathematical point of view these expressions are, however, not well-defined as boundary
+traces through a control of the given free-energy. In order to give them a well-defined meaning, we
+resorted to adding an additional term in the free-energy, namely
+1
+µ L2c dev sym(Curl εp )T
+2
+
+2
+
+=
+
+1
+µ L2c sym(Curl εp )T
+2
+
+2
+
+,.
+
+the equality here is due to the fact that tr(Curl S) = 0 for ever This term provides the missing
+boundary control for (5.1) by Korn’s-type inequality for incompatible tensor fields in Neff et al.
+
+32
+
+F. Ebobisse, P. Neff
+
+[111, 112, 113, 114, 21, 22] . However, the additional term breaks the gauge-invariance of the model,
+while it satisfies the micro-randomness condition.
+On the positive side, the invariance under the diffeomorphism group (gauge-invariance) is replaced
+by the invariance under infinitesimal conformal group (both statements adapted to our geometrically
+linear setting).
+At the moment, we do not know how to set up a theory which is fully gauge-invariant and microrandom, while at the same time being mathematically well-posed. Consider e.g. a model with
+plastic spin and add 12 µ L2c kCurl pk2 (see Table 6). This choice does not provide any control of
+kCurl sym pk2 = kCurl εp k2 necessary for well-posedness of (5.1).
+A preliminary conclusion could be that the micro-randomness assumption, which effectively reduces
+the flow law to the six-dimensional space of symmetric plastic strains εp , is to be critically seen in
+gradient plasticity approaches which are also supposed to satisfy gauge-invariance.
+
+Acknowledgements:
+We thank David J. Steigmann (University of Berkeley) for inspiring discussions on invariance conditions in plasticity theory which motivated us to introduce our micro-randomness condition and to
+consider the fourth order gradient plasticity model for polycrystals. The first author thanks the Faculty of Mathematics of the University of Duisburg-Essen (Germany) for its kind hospitality during his
+visit in April 2017.
+
+Appendix
+Let us first establish that
+∀S : R3 → Sym(3) smooth tensor field.
+P
+In fact, recalling that (Curl S)ij = 3kl=1 ǫikl Sjl,k we have
+X
+XX
+tr(Curl S) =
+(Curl S)ii =
+ǫikl Sjl,k
+tr Curl S = 0
+
+i
+
+i
+
+(5.2)
+
+kl
+
+= (S13,2 − S12.3 ) + (S21,3 − S23,1 ) + (S32,1 − S31,2 ) = 0 ,
+
+(5.3)
+
+because S ∈ Sym(3) and hence, S13,2 = S31,2 , S12,3 = S21,3 and S23,1 = S32,1 .
+Below are some further properties of the Kröner’s incompatibility tensor defined by
+inc(εp ) := Curl [(Curl εp )T ] .
+
+(5.4)
+
+For the convenience of the reader, we note that
+inc(εp ) ∈ Sym(3)
+
+since
+
+εp ∈ Sym(3) ;
+
+(5.5)
+
+inc(inc(εp )) ∈ Sym(3) ;
+tr(inc(εp )) = ∆ tr(εp ) − div(Div εp ) = − div(Div εp )
+tr(inc(inc εp ) = −∆ div(Div εp ) .
+
+(5.6)
+since εp ∈ sl(3) ;
+
+(5.7)
+(5.8)
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+33
+
+Since (5.6) follows from (5.5), let us establish here the identities (5.5)-(5.8) for the reader’s convenience.
+First of all, in components
+(Curl εp )ij := ǫjkl (εp )il,k
+
+⇔
+
+(Curl εp )Tij := ǫikl (εp )jl,k .
+
+Hence
+(inc εp )ij = Curl [(Curl εp )T ]ij = ǫjkl (Curl εp )Til,k = ǫjkl ǫimn (εp )ln,mk .
+
+(5.9)
+
+Now, notice that (εp )ln,mk = (εp )nl,km . Therefore,
+(inc εp )ij = ǫjkl ǫimn (εp )ln,mk = ǫjmn ǫikl (εp )nl,km = ǫjmn ǫikl (εp )ln,mk = (inc(εp ))ji ,
+
+(5.10)
+
+which establishes (5.5). Now,
+tr(inc(εp )) = (inc(εp ))ii = ǫikl ǫimn (εp )ln,mk .
+
+(5.11)
+
+Using the identity
+ǫikl ǫimn = δkm δln − δkn δlm
+
+(see for instance, [60, epsilon-delta identity (1.20)]) ,
+
+we get
+tr(inc(εp )) = δkm δln (εp )ln,mk − δkn δlm (εp )ln,mk = (εp )ll,mm − (εp )lk,lk
+= (εp )ll,mm − (εp )kl,lk = ∆tr(εp ) − (Div εp )k,k
+= ∆tr(εp ) − div(Div εp ) = − div(Div εp ) ,
+
+(5.12)
+
+which establishes (5.7). So, from (5.7), it follows that if εp is a divergence-free tensor or Div εp is a
+divergence-free vector field, then inc(εp ) becomes trace-free, that is, inc(εp ) ∈ sl(3). Now, to establish
+(5.8), notice that
+Div Curl X = 0 ∀X ∈ C 2 (Ω, R3×3 ) .
+This trivially follows from our definitions of Curl and Div of a second tensor field as row-wise operations. Hence, Div(inc εp ) = 0. So, using (5.7), we find that
+tr(inc(inc εp )) = ∆tr(inc εp ) − div(Div(inc εp )) = ∆2 (tr(εp ) − ∆(div(Div εp ))
+= −∆(div(Div εp )) = − div(Div ∆εp ) ,
+
+(5.13)
+
+where ∆2 = ∆(∆) denotes the bi-Laplacian operator. Therefore, the tensor inc(inc εp ) is trace-free if
+one of the conditions below satisfied:
+(i) εp is a divergence-free tensor field;
+(ii) Div εp is a divergence-free vector field;
+(iii) div(Div εp ) is an harmonic function;
+(iv) εp is an harmonic tensor field;
+(v) ∆εp is a divergence-free tensor field;
+(vi) Div(∆εp ) is a divergence-free vector field.
+
+34
+
+F. Ebobisse, P. Neff
+
+References
+[1] A. Acharya. A counterpoint to Cermelli and Gurtin’s criteria for choosing the ”correct” geometric dislocation tensor
+in ﬁnite plasticity, in ed. B.D. Reddy, IUTAM-Symposium on Theoretical, Modelling and Computational Aspects of
+Inelastic Media (in Cape Town, 2008). 99-105. Springer, Berlin, 2008.
+[2] A. Acharya, J.L. Bassani. Lattice incompatibility and a gradient theory of crystal plasticity. J. Mech. Phys. Solids,
+48(8):1565-1595, 2000.
+[3] E.C. Aifantis. On the microstructural origin of certain inelastic models. ASME J. Eng. Mater. Technol., 106:326-330,
+1984.
+[4] E.C. Aifantis. The physics of plastic deformation. Int. J. Plasticity, 3:211-247, 1987.
+[5] E.C. Aifantis. On the role of gradients in the localization of deformation and fracture. Int. J. Engrg. Sci. 30:12791299, 1992.
+[6] E.C. Aifantis. Gradient Plasticity, in Handbook of Materials Behavior Models, Ed. J. Lemaitre, pp. 281-297, Academic Press, New York, 2001.
+[7] E.C. Aifantis. Update on a class of gradient theories. Mechanics of Materials. 35:259-280, 2003.
+[8] E.C. Aifantis. Gradient material mechanics: Perspectives and prospects. Acta Mech.. 225:999-1012, 2014.
+[9] H.D. Alber. Materials with Memory. Initial-Boundary Value Problems for Constitutive Equations with Internal
+Variables. volume 1682 of Lecture Notes in Mathematics. Springer, Berlin, 1998.
+[10] S. Amstutz, N. Van Goethem. Analysis of the incompatibility operator and application in intrinsic elasticity with
+dislocations. SIAM J. Math. Anal., 48(1):320-349, 2015.
+[11] S. Amstutz, N. Van Goethem. Incompatibility-governed elasto-plasticity for continua with dislocations. Proc. R.
+Soc. A, 473 (2199), 20160734.
+[12] L. Anand, M.E. Gurtin, B.D. Reddy. The stored energy of cold work, thermal annealing, and other thermodynamic
+issues in single crystal plasticity at small length scales. Int. J. Plasticity, 64:1–25, 2015.
+[13] L. Bardella. A deformation theory of strain gradient crystal plasticity that accounts for geometrically necessary
+dislocations. J. Mech. Phys. Solids. 54:128-160, 2006.
+[14] L. Bardella. Some remarks on the strain gradient crystal plasticity modelling, with particular reference to the
+material length scale involved. Int. J. Plasticity. 23:296-322, 2007.
+[15] L. Bardella. A comparison between crystal and isotropic strain gradient plasticity theories with accent on the role
+of the plastic spin. Eur. J. Mech. A/Solids. 28(3):638-646, 2009
+[16] L. Bardella. Size eﬀects in phenomenological strain gradient plasticity constitutively involving the plastic spin. Int.
+J. Eng. Sci. 48(5):550-568, 2010.
+[17] L. Bardella, A. Panteghini. Modelling the torsion of thin metal wires by distortion gradient plasticity. J. Mech.
+Phys. Solids. 78:467-492, 2015.
+[18] S. Bargmann, B.D. Reddy, B. Klusemann. A computational study of a model of single-crystal strain gradient
+viscoplasticity with a fully-interactive hardening relation. Int. J. Solids Structures. 51(15-16):2754-2764, 2014.
+[19] A. Basak, A. Gupta. Plasticity in multi-phase solids with incoherent interfaces and junctions. Cont. Mech. Therm.
+28(1-2):423-442, 2016.
+[20] A. Basak, A. Gupta. Inﬂuence of a mobile incoherent interface on the strain-gradient plasticity of a thin slab. Int.
+J. Solid Structures. 108:126-138, 2017.
+[21] S. Bauer, P. Neﬀ, D. Pauly, G. Starke. New Poincaré-type inequalities, Comptes Rendus Math. 352(4):163-166,
+2014.
+[22] S. Bauer, P. Neﬀ, D. Pauly, G. Starke. Dev-Div-and DevSym-devCurl-inequalities for incompatible square square
+tensor ﬁelds with mixed boundary conditions. ESAIM Control Optim. Calc. Var., 22(1):112–133, 2016.
+[23] V. L. Berdichevsky, L. I. Sedov. Dynamic theory of continuously distributed dislocations. Its relation to plasticity
+theory. PMM, 31(6):981-1000, (1967) (English translation: J. Appl. Math. Mech. (PMM), 989-1006, (1967))
+[24] V. L. Berdichevsky. Continuum theory of dislocations revisited, Cont. Mech. Thermodyn., 18:195-222, 2006.
+[25] A. Bertram. An alternative approach to ﬁnite plasticity based on material isomorphism. Int. J. Plasticity, 52:353374, 1998.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+35
+
+[26] J. Casey. A convenient form of the multiplicative decomposition of the deformation gradient. Math. Mech. Solids,
+22(3):528-537, 2016.
+[27] K. Chelmiński, P. Neﬀ. A note on approximation of Prandtl-Reuss plasticity through Cosserat-plasticity. Quart.
+Appl. Math., 66(2):351357, 2008.
+[28] P. Cermelli, M. E. Gurtin. On the characterization of geometrically necessary dislocations in ﬁnite plasticity. J.
+Mech. Phys. Solids. 49:1539-1568, 2001.
+[29] M. Chiricotto, L. Giacomelli, G. Tomassetti. Dissipative scale eﬀects in strain-gradient plasticity: the case of simple
+shear. SIAM J. Appl. Math., 76(2):688-704, 2016.
+[30] Ph.G. Ciarlet. An Introduction to Differential Geometry with Applications to Elasticity, Springer-Verlag, 2005.
+[31] Ph.G. Ciarlet, F. Laurent. Continuity of deformation as a function of its Cauchy-Green tensor. Arch. Rat. Mech.
+Anal., 167(3):255-269, 2003.
+[32] Y.F. Dafalias. The plastic spin. J. Appl. Mech.. 52:865-871, 1985.
+[33] C. Davini, G.P. Parry. On defect preserving deformations in crystals. Int. J. Plasticity. 5:337-369, 1989.
+[34] R. De Wit. A view of the relation between the continuum theory of lattice defects and non-Euclidean geometry in
+the linear approximation. Int. J. Engng. Sci., 19:1475-1506, 1981.
+[35] J.K. Djoko, F. Ebobisse, A.T. McBride, B.D. Reddy. A discontinuous Galerkin formulation for classical and gradient
+plasticity. Part 1: Formulation and analysis. Comput. Methods Appl. Mech. Engrg., 196:3881-3897, 2007.
+[36] J.K. Djoko, F. Ebobisse, A.T. McBride, B.D. Reddy. A discontinuous Galerkin formulation for classical and gradient
+plasticity. Part 2: Algorithms and numerial analysis. Comput. Methods Appl. Mech. Engrg., 197:1-22, 2007.
+[37] F. Ebobisse, A.T. McBride, B.D. Reddy. On the mathematical formulations of a model of gradient plasticity, in
+ed. B.D. Reddy, IUTAM-Symposium on Theoretical, Modelling and Computational Aspects of Inelastic Media (in
+Cape Town, 2008). 117-128. Springer, Berlin, 2008.
+[38] F. Ebobisse, P. Neﬀ. Existence and uniqueness in rate-independent inﬁnitesimal gradient plasticity with isotropic
+hardening and plastic spin. Math. Mech. Solids, 15:691-703, 2010.
+[39] F. Ebobisse, P. Neﬀ, E.C. Aifantis. Existence result for a dislocation based model of single crystal gradient plasticity
+with isotropic or linear kinematic hardening. Quart. J. Mech. Appl. Math., 71:99-124, 2018.
+[40] F. Ebobisse, P. Neﬀ, S. Forest. Well-posedness for the microcurl model in both single and polycrystal gradient
+plasticity. Int. J. Plasticity, 107:1-26, 2018.
+[41] F. Ebobisse, K. Hackl, P. Neﬀ. A canonical rate-independent model of geometrically linear isotropic gradient plasticity with isotropic hardening and plastic spin accounting for the Burgers vector. http://arxiv.org/pdf/1603.00271.pdf,
+in review.
+[42] F. Ebobisse, P. Neﬀ, B.D. Reddy. Existence results in dislocation based rate-independent isotropic gradient plasticity with kinematic hardening and plastic spin: The case with symmetric local backstress.
+http://arxiv.org/pdf/1504.01973.pdf, in review .
+[43] M. Epstein. Self-driven dislocations and growth. Mechanics of Materials Forces (P. Steinmann & G. A. Maugin
+eds) Advances in Mechanics ad Mathematics, vol. 11. NY: Springer, pp. 129-139, 2005.
+[44] M. Epstein. The Geometrical Language of Continuum Mechanics. Cambridge: Cambridge University Press, 2010.
+[45] A.C. Eringen. Mechanics of micromorphic continua, in: E. Kröner (Ed.), IUTAM Symposium: Mechanics of Generalized Continua, Berlin, 1968. 18-35. Springer, Berlin, 1968.
+[46] A.C. Eringen. Microcontinuum Field Theories. I. Foundations and Solids. Springer, Berlin, 1998.
+[47] N.A. Fleck, J.W. Hutchinson. Strain gradient plasticity. Advances in Applied Mechanics, J.W. Hutchinson and T.Y.
+Wu (Eds.), 33:295-361, 1997.
+[48] N.A. Fleck, J.W. Hutchinson. A reformulation of strain gradient plasticity. J. Mech. Phys. Solids, 49:2245-2271,
+2001.
+[49] N.A. Fleck, G.M. Müller, M.F. Ashby, J.W. Hutchinson. Strain gradient plasticity: Theory and experiment. Acta
+Metall. Mater., 42:475487, 1994.
+[50] I.-D. Ghiba, P. Neﬀ, A. Madeo, I. Münch. A variant of the linear isotropic indeterminate couple stress model
+with symmetric local force-stress, symmetric nonlocal force-stress, symmetric couple-stresses and complete traction
+boundary conditions. Math. Mech. Solids. 22(6):1221-1266, 2017.
+
+36
+
+F. Ebobisse, P. Neff
+
+[51] A. Giacomini, L. Lussardi. A quasistatic evolution for a model in strain gradient plasticity. SIAM J. Math. Analysis,
+40(3):1201-1245, 2008.
+[52] D. Grandi, U. Stefanelli. Finite plasticity in P TP . Part I: constitutive model. Cont. Mech. Thermodym., 29(1):97116, 2017.
+[53] P. Gudmundson. A uniﬁed treatment of strain gradient plasticity. J. Mech. Phys. Solids, 52:1379-1406, 2004.
+[54] A. Gupta, D.J. Steigmann, J.S. Stölken. On the evolution of plasticity and incompatibility. Math. Mech. Solids,
+12:583-610, 2007.
+[55] A. Gupta, D.J. Steigmann, J.S. Stölken. Aspects of the phenomenological theory of elastic-plastic deformation. J.
+Elasticity, 104:249-266, 2011.
+[56] M.E. Gurtin. A gradient theory of small deformation isotropic plasticity that accounts for the Burgers vector and
+for dissipation due to plastic spin. J. Mech. Phys. Solids, 52:2545-2568, 2004.
+[57] M.E. Gurtin, L. Anand. A theory of strain gradient plasticity for isotropic, plastically irrotational materials. Part
+I: Small deformations. J. Mech. Phys. Solids, 53:1624-1649, 2005.
+[58] M.E. Gurtin, L. Anand. A theory of strain gradient plasticity for isotropic, plastically irrotational materials. Part
+II: Finite deformation. Int. J. Plasticity, 21(12):2297-2318, 2005.
+[59] M.E. Gurtin, L. Anand. Thermodynamics applied to gradient theories involving the accumulated plastic strain:
+The theories of Aifantis and Fleck and Hutchinson and their generalization. J. Mech. Phys. Solids, 57:405-421,
+2009.
+[60] M.E. Gurtin, E. Fried, L. Anand. The Mechanics and Thermodynamics of Continua. Cambridge University Press,
+Cambridge, 2010.
+[61] M.E. Gurtin, B.D. Reddy. Gradient single-crystal plasticity within a von Mises-Hill framework based on a new
+formulation of self- and latent-hardening relations. J. Mech. Phys. Solids. 68:134-160, 2014.
+[62] W. Han, B.D. Reddy. Plasticity: Mathematical Theory and Numerical Analysis. Springer-Verlag, New-York, 1999.
+[63] G.E. Hay. Vector and Tensor Analysis. Diver, New York, 1953.
+[64] R. Hill. The Mathematical Theory of Plasticity. Oxford University Press, New York, 1950.
+[65] R. Hill. A variational principle of maximum plastic work in classical plasticity. Quart. J. Mech. Appl. Math.,
+1(1):18-28, 1948.
+[66] J. Jeong, P. Neﬀ. Existence, uniqueness and stability in linear Cosserat elasticity for weakest curvature conditions.
+Math. Mech. Solids, 15(1):7895, 2010.
+[67] K. Kondo. Non-Riemannian geometry of imperfect crystals from a macrocospic viewpoint, In: Volume 1 of RAAG
+Memoirs of the Unifying Study of Basic Problems in Engineering and Physical Science by Means of Geometry, K.
+Kondo (Ed). Gakujutsu Bunken Fukyu-Kai, Tokyo, pp. 6-17, 1955.
+[68] J. Kratochvil. Finite strain theory of crystalline elastic-inelastic materials. J. Appl. Phys., 42:1104-1108, 1971.
+[69] J. Kratochvil. On a ﬁnite strain theory of elastic-inelastic materials. Acta Mech., 16:127-142, 1973.
+[70] N. Kraynyukova, P. Neﬀ, S. Nesenenko, K. Chelmiński. Well-posedness for dislocation based gradient visco-plasticity
+with isotropic hardening. Nonlinear Analysis: Real World Applications, 25:96-111, 2015.
+[71] J. Krishnan, D.J. Steigmann. A polyconvex formulation of isotropic elastoplasticity. IMA J. Appl. Math., 79:722738, 2014.
+[72] E. Kröner. Der fundamentale Zusammenhang zwischen Versetzungsdichte und Spannungsfunktion. Z. Phys.,
+142:463-475, 1955.
+[73] E. Kröner. Allgemeine Kontinuumstheorie der Versetzungen und Eigenspannungen. Arch. Ration. Mech. Anal.,
+4:273-334, 1960.
+[74] E. Kröner. Continuum theory of defects. In: Les Houches, Session 35, 1980 - Physique des defauts, R. Balian et al.
+(Eds.), North-Holland, New York, pp. 215-315, 1981.
+[75] C. Lanczos. A remarkable property of the Riemann-Christoﬀel tensor in four dimensions. Ann. Math., 39(4):842-850,
+1938.
+[76] M. Lazar. Dislocation theory as a 3-dimensional translation gauge theory, Ann. Phys. (Leipzig), 9:461-473, 2000.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+37
+
+[77] M. Lazar. An elastoplastic theory of dislocations as a physical ﬁeld theory with torsion. J. Phys. A: Math. Gen.,
+35:1983-2004, 2002.
+[78] M. Lazar and C. Anastassiadis. The gauge theory of dislocations: conservation and balance laws. Phil. Mag.,
+88:1673-1699, 2008.
+[79] E.H. Lee. Elastic-plastic deformation at ﬁnite strain. Journal Applied Mechanics, 36:1-6, 1969.
+[80] G.B. Maggiani, R. Scala, N. Van Goethem. A compatible-incompatible decomposition of symmetric tensors in Lp
+with applications in elasticity, Math. Meth. Appl. Sci., 38(18):5217-5230, 2015.
+[81] J. Mandel. Contribution théorique à l’étude de l’écrouissage des lois de l’écoulement plastique, Proc. 11th Int.
+Congr. Appli. Mech., 502–509, 1964.
+[82] J. Mandel. Plasticité Classique et Viscoplasticité. Courses and Lectures, No 97, International Center for Mechanical
+Sciences, Udine (Berlin: Springer), 1971.
+[83] J. Mandel. Equations constitutives et directeurs dans les milieux plastiques et viscoplasticques. Int. J. Solids Struct.,
+9:725-740, 1973.
+[84] J.E. Marsden, J.R. Hughes. Mathematical Foundations of Elasticity. Prentice-Hall, Englewood Cliﬀs, New Jersey,
+1983.
+[85] M. Menzel, P. Steinmann. On the formulation of higher gradient plasticity for single and polycrystals. J. Phys.
+France, 8:239-247, 1998.
+[86] M. Menzel, P. Steinmann. On the continuum formulation of higher gradient plasticity for single and polycrystals.
+J. Mech. Phys. Solids, 48:1777-1796, 2000. Erratum: 49:1179-1180, 2001.
+[87] A. Mielke. Analysis of energetic models for rate-independent materials. In T. Li, editor, Proceedings of the Int.
+Congress of Mathematicians 2002, Beijing, III: 817-828. Higher Education Press, 2002.
+[88] A. Mielke. Energetic formulation of multiplicative elasto-plasticity using dissipation distances. Cont. Mech. Thermodym., 15:351-382, 2003.
+[89] A. Mielke, T. Roubı́ček. Rate-independent elastoplasticity at ﬁnite strains and its numerical approximation. Math.
+Models Meth. Appl. Sciences, 26(12):2203-2236, 2016.
+[90] A. Mielke, U. Stefanelli. Linearized plasticity is the evolutionary Γ-limit of ﬁnite plasticity. J. Eur. Math. Soc.,
+15(3):923-948, 2013.
+[91] R. von Mises. Mechanik der plastischen Formänderung von Kristallen. Zeit. Ang. Math. Mech., 8:161, 1928.
+[92] Moreau J.J. Application of convex analysis to the treatment of elastoplastic systems, in P. Germain and B. Nayroles,
+eds., Applications of Methods of Functional Analysis to Problems in Mechanics, Springer-Verlag, Berlin, 1976.
+[93] H.B. Mühlhaus, E. Aifantis. A variational principle for gradient plasticity. Int. J. Solids Struct., 28(7):845-853,
+1991.
+[94] I. Münch, P. Neﬀ. Rotational invariance conditions in elasticity, gradient elasticity and its connection to isotropy.
+Math. Mech. Solids, 15:1-40, DOI: 10.1177/1081286516666134, 2016.
+[95] F.R.N. Nabarro. Theory of Crystal Dislocations, Oxford Univ. Press, 1967.
+[96] P. M. Naghdi. A critical review of the state of ﬁnite plasticity. Z. Angew. Math. Phys., 41:315-394, 1990.
+[97] P. Neﬀ. The Cosserat couple modulus for continuous solids is zero viz the linearized Cauchy-stress tensor is symmetric. Z. Angew. Math. Mech., 86:892-912, 2006.
+[98] P. Neﬀ. Existence of minimizers for a ﬁnite-strain micromorphic elastic solid. Proc. Roy. Soc. Edinb. A, 136:9971012, 2006.
+[99] P. Neﬀ. Remarks on invariant modelling in ﬁnite strain gradient plasticity. Technische Mechanik, 28(1):13-21, 2008.
+[100] P. Neﬀ, K. Chelmiński. Inﬁnitesimal elastic-plastic Cosserat micropolar theory. Modelling and global existence in
+the rate-independent case. Proc. Roy. Soc. Edinb. A, 135:1017-1039, 2005.
+[101] P. Neﬀ, K. Chelmiński, H.D. Alber. Notes on strain gradient plasticity. Finite strain covariant modelling and global
+existence in the inﬁnitesimal rate-independent case. Math. Mod. Meth. Appl. Sci., 19(2):1-40, 2009.
+[102] P. Neﬀ, K. Chelmiński, W. Müller, C. Wieners. A numerical solution method for an inﬁnitesimal elastic-plastic
+Cosserat model. Math. Mod. Meth. Appl. Sci., 17(8):1211-1239, 2007.
+
+38
+
+F. Ebobisse, P. Neff
+
+[103] P. Neﬀ, I.-D. Ghiba. Comparison of isotropic elasto-plastic models for the plastic metric tensor Cp = FpT Fp . In
+K. Weinberg and A. Pandolﬁ (eds.), Innovative Numerical Approaches for Multi-Field and Multi-Scale Problems,
+Volume 81 of the series Lecture Notes in Applied and Computational Mechanics, pp 161-195, Springer, 2016.
+[104] P. Neﬀ, I.-D. Ghiba, A. Madeo, L. Placidi, G. Rosi. A unifying perspective: the relaxed linear micromorphic
+continuum. Cont. Mech. Therm., 26:639-681, 2014.
+[105] P. Neﬀ, I.-D. Ghiba, M. Lazar, A. Madeo. The relaxed linear micromorphic continuum: well-posedness of the static
+problem and relations to the gauge theory of dislocations. Quart. J. Mech. Appl. Math., 68:53-84, 2015.
+[106] P. Neﬀ, J. Jeong. A new paradigm: the linear isotropic Cosserat model with conformally invariant curvature energy.
+Z. Angew. Math. Mech., 89(2):107-122, 2009.
+[107] P. Neﬀ, J. Jeong, H. Ramézani. Subgrid interaction and micro-randomness - Novel invariance requirements in
+inﬁnitesimal gradient plasticity. Int. J. Solids Struct., 46:4261-4276, 2009.
+[108] P. Neﬀ, J. Jeong, I. Münch, H. Ramezani. Mean ﬁeld modeling of isotropic random Cauchy elasticity versus
+microstretch elasticity. Z. Angew. Math. Phys., 60(3):479-497, 2009.
+[109] P. Neﬀ, D. Knees. Regularity up to the boundary for nonlinear elliptic systems arising in time-incremental inﬁnitesimal elasto-plasticity. SIAM J. Math. Anal., 40(1):21-43, 2008.
+[110] P. Neﬀ, I. Münch. Curl bounds Grad on SO(3). ESAIM Control Optim. Calc. Var., 14(1):148-159, 2008.
+[111] P. Neﬀ, D. Pauly, K.J. Witsch. On a canonical extension of Korn’s ﬁrst and Poincaré’s inequalities to H(Curl)
+motivated by gradient plasticity with plastic spin. Comp. Rend. Math., 349(23-24):1251-1254, 2011.
+[112] P. Neﬀ, D. Pauly, K.J. Witsch. On a canonical extension of Korn’s ﬁrst and Poincaré’s inequalities to H(Curl). J.
+Math. Sci. (NY), 185(5):721-727, 2012.
+[113] P. Neﬀ, D. Pauly, K.J. Witsch. Maxwell meets Korn: A new coercive inequality for tensor ﬁelds with square
+integrable exterior derivatives. Math. Methods Applied Sciences, 35(1):65-71, 2012.
+[114] P. Neﬀ, D. Pauly, K.J. Witsch. Poincaré meets Korn via Maxwell: Extending Korn’s ﬁrst inequality to incompatible
+tensor ﬁelds. J. Diff. Equ., 258(4):1267-1302, 2014.
+[115] P. Neﬀ, A. Sydow, C. Wieners. Numerical approximation of incremental inﬁnitesimal gradient plasticity. Int. J.
+Num. Meth. Engrg., 77(3):414-436, 2009.
+[116] S. Nesenenko, P. Neﬀ. Well-posedness for dislocation based gradient visco-plasticity I: Subdiﬀerential case. SIAM
+J. Math. Anal., 44(3):1695-1712, 2012.
+[117] S. Nesenenko, P. Neﬀ. Well-posedness for dislocation based gradient visco-plasticity II: General non-associative
+monotone plastic ﬂow. Math. Mech. Complex Systems, 1(2):149-176, 2013.
+[118] W.D. Nix, H. Gao. Indentation size eﬀects in crystalline materials: a law for strain gradient plasticity. J. Mech.
+Phys. Solids, 46:411-425, 1998.
+[119] J.F. Nye. Some geometrical relations in dislocated solids. Acta Metall., 1:153-162, 1953.
+[120] L.H. Poh. Scale transition of a higher order plasticity model - A consistent homogenization theory from meso to
+macro. J. Mech. Phys. Solids, 61:2692-2710, 2013.
+[121] L.H. Poh, R.H.J. Peerling. The plastic rotation eﬀect in an isotropic gradient plasticity model for applications at
+the meso scale. Int. J. Solids Struct., DOI: 10.1016/j.ijsolstr.2015.09.017
+[122] B.D. Reddy. The role of dissipation and defect energy in variational formulation of problems in strain-gradient
+plasticity. Part 1: Polycrystalline plasticity. Cont. Mech. Therm., 23:527–549, 2011.
+[123] B.D. Reddy, F. Ebobisse, A. McBride. Well-posedness of a model of strain gradient plasticity for plastically
+irrotational materials. Int. J. Plasticity, 24:55-73, 2008.
+[124] C. Reina, S. Conti. Kinematic description of crystal plasticity in the ﬁnite kinematic framework: A micro-mechanical
+understanding of F = Fe · Fp . J. Mech. Phys. Solids, 67:40-61, 2014.
+[125] S. Sadik, A. Yavary. The origins of the idea of the multiplicative decomposition of the deformation gradient. Math.
+Mech. Solids, 22:771-772, 2017.
+[126] A. Shutov, J. Ihlemann. Analysis of some basic approaches to ﬁnite strain elasto-plasticity in view of reference
+change. Int. J. Plasticity, 63:183-197, 2014.
+[127] F. Sidoroﬀ. Mecanique des milieux continus - Quelques reﬂexions sur le principe d’indiﬀerence materielle pour un
+milieu ayant un etat relaché. C. R. Acad. Sci. Paris, 271:1026-1029, 1970.
+
+A fourth order gradient plasticity model based on Kröner’s incompatibility tensor
+
+39
+
+[128] J.S. Stölken, A.G. Evans. A microbend test method for measuring the plasticity length scale. Acta Mater., 46:51095115, 1998.
+[129] B. Svendsen. Continuum thermodynamic models for crystal plasticity including the eﬀects of geometrically necessary dislocations. J. Mech. Phys. Solids, 50(25):1297-1329, 2002.
+[130] B. Svendsen, P. Neﬀ, A. Menzel. On constitutive and conﬁgurational aspects of models for gradient continua with
+microstructure. Z. Angew. Math. Mech., 89(8):687-697, 2009.
+[131] G.I. Taylor. A connection between the criterion of yield and the strain-ratio relationship in plastic solids. Proc.
+Roy. Soc. A, 191:441–446, 1947.
+[132] I. Tsagrakis, E.C. Aifantis. Recent developements in gradient plasticity - Part I: Formulation and size eﬀects. J.
+Eng. Mater. Technol., 124(3):352-357, 2002.
+[133] I. Tsagrakis, G. Efremidis, A. Konstantinidis, E.C. Aifantis. Deformation vs. ﬂow and wavelet-based models of
+gradient plasticity: Examples of axial symmetry. Int. J. Plasticity, 22:1456-1485, 2006.
+[134] N. Van Goethem. Strain incompatibility in single crystals: Kröner’s formula revisited. J. Elasticity, 103:95-111,
+2011.
+[135] N. Van Goethem. Dislocation-induced linear-elastic strain dynamics by a Cahn-Hilliard-type equation. Mathematics
+and Mechanics of Complex Systems, 4(2):169-195, 2016.
+[136] N. Van Goethem. Front migration for the dislocation strain in single crystals. Comm. Math. Sci., 15(7):1843-1866,
+2017.
+[137] H.M. Zbib, E.C. Aifantis. On the gradient-dependent theory of plasticity and shear banding. Acta Mechanica,
+92:209-225, 1992.
+
+

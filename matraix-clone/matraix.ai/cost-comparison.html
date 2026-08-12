@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Cost of Synthetic-User Evaluation: Five Comparative Estimates — MatrAIx Research</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="description" content="A transparent, sourced cost comparison of AI simulated-user evaluation and real-user research across surveys, chatbots, web and app testing, A/B experiments, and annotation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0a0b0d;--bg-2:#121418;--bg-3:#191c21;--ink:#e8e9ec;--ink-dim:#969da8;--phos:#4A8FC2;--phos-deep:#365B8F;--amber:#d99a46;--rose:#dc6666;--cyan:#6BC0E8;--line:rgba(151,169,190,.18);--line-soft:rgba(151,169,190,.1);--glow:0 0 22px rgba(74,143,194,.25);--mono:"JetBrains Mono",ui-monospace,monospace;--disp:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;overflow-x:hidden;background:var(--bg);color:var(--ink);font:16px/1.7 var(--disp)}::selection{background:var(--phos);color:#fff}
+    header{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:18px clamp(20px,5vw,40px);background:rgba(9,10,12,.9);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(15px)}.brand{color:var(--ink);font-weight:700;font-size:1.375rem;text-decoration:none;white-space:nowrap}.brand em{font-style:normal;background:linear-gradient(90deg,#a855f7,#4A8FC2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}nav{display:flex;gap:30px;align-items:center}nav a{color:var(--ink-dim);font-size:.78rem;letter-spacing:.06em;text-decoration:none;text-transform:uppercase}nav a:hover,nav a[aria-current="page"]{color:#fff}.btn-nav{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid rgba(74,143,194,.5);border-radius:7px;background:rgba(74,143,194,.14);color:#dceeff;font-size:.72rem;text-decoration:none}.dot.live{width:7px;height:7px;border-radius:50%;background:#72bdf1}.nav-toggle{display:none;padding:9px 13px;border:1px solid var(--line);border-radius:6px;background:none;color:var(--ink);font:500 .72rem var(--mono);text-transform:uppercase}
+    main{position:relative;z-index:2;max-width:1102px;margin:0 auto;padding:148px 30px 90px}.blog-header{margin-bottom:64px;padding-bottom:42px;border-bottom:1px solid var(--line);text-align:center}.blog-breadcrumb{display:flex;justify-content:center;gap:12px;margin-bottom:30px;color:#737b87;font:500 .68rem var(--mono);letter-spacing:.12em;text-transform:uppercase}.blog-breadcrumb a{color:#6daedb;text-decoration:none}.blog-title{max-width:900px;margin:0 auto 28px;color:#f3f4f6;font-size:clamp(2.7rem,6vw,5rem);font-weight:600;line-height:1.02;letter-spacing:-.055em;text-wrap:balance}.blog-deck{max-width:730px;margin:0 auto 30px;color:#aab0b9;font-size:1.12rem;line-height:1.65;text-wrap:balance}.blog-meta{display:flex;justify-content:center;gap:14px 28px;flex-wrap:wrap;color:#888f9a;font-size:.8rem}.blog-meta-item{display:flex;align-items:center;gap:9px}.blog-meta-item+ .blog-meta-item{padding-left:28px;border-left:1px solid var(--line)}.blog-meta strong{color:#d8dbe0;font-weight:500}.blog-meta img{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;object-fit:cover}
+    .article{max-width:780px;margin:0 auto}.article p{margin-bottom:20px;color:#c7cbd1;font-size:1.03rem;line-height:1.82}.article h2{margin:64px 0 22px;color:#f0f2f4;font-size:1.9rem;line-height:1.2;letter-spacing:-.025em}.article h3{margin:38px 0 16px;color:#e9ebee;font-size:1.25rem;line-height:1.3}.article strong{color:#eef6fc}.article em{color:#d8b27c}.article a{color:#78b7e2}.article ul,.article ol{margin:20px 0 24px 24px;color:#c7cbd1}.article li{margin-bottom:10px;padding-left:5px}.article li::marker{color:var(--phos)}
+    footer{margin-top:80px;padding:40px 20px;border-top:1px solid var(--line);color:var(--ink-dim);font-size:.86rem;text-align:center}footer a{color:var(--phos);text-decoration:none}
+    @media(max-width:768px){header{padding:15px 20px}.nav-toggle{display:block}header nav{position:absolute;top:100%;left:0;right:0;display:flex;max-height:0;overflow:hidden;flex-direction:column;gap:0;background:#0b0d10;opacity:0;transition:.25s}header nav.active{max-height:420px;padding:8px 0;opacity:1}header nav a{width:100%;padding:12px 24px;text-align:center}.btn-nav{display:none}main{padding:118px 20px 70px}.blog-title{font-size:clamp(2.25rem,12vw,3.5rem)}.blog-deck{font-size:1rem}.blog-meta{flex-direction:column;align-items:center}.blog-meta-item+.blog-meta-item{padding-left:0;border-left:0}}
+  </style>
+  <link rel="stylesheet" href="blog-post.css%3Fv=21.css" />
+  <link rel="stylesheet" href="cost-analysis.css%3Fv=2.css" />
+<link rel="stylesheet" href="subpages-light.css%3Fv=2.css" />
+<link rel="stylesheet" href="navigation.css%3Fv=2.css" /><link rel="icon" type="image/png" href="MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="index.html">Matr<em>AI</em>x</a>
+    <nav>
+      <a href="index.html">Home</a><a href="index.html.1.html" aria-current="page">Research</a><a href="index.html.1.1.html">Personas</a><a href="index.html.1.2.html">Applications</a><a href="index.html.1.3.html">Playground</a><a href="index.html.1.4.html">Community</a>
+    </nav>
+    <a href="index.html.1.4.html" class="btn-nav"><span class="dot live"></span> Join community</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <aside class="article-toc" aria-label="On this page"><span>On this page</span><ol></ol></aside>
+    <div class="blog-header">
+      <div class="blog-breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html.1.html">Research</a><span>/</span><span>Analysis</span></div>
+      <h1 class="blog-title">The Cost of Synthetic-User Evaluation: Five Comparative Estimates</h1>
+      <p class="blog-deck">What AI simulation can save across surveys, chatbots, product testing, online experiments, and human evaluation, and where real users remain non-negotiable.</p>
+      <div class="blog-meta">
+        <div class="blog-meta-item"><img src="MatrAIx_Logo.png" alt="MatrAIx" /><div><strong>Xiaomin Li, Hanwen Xing, and Core Team</strong></div></div>
+        <div class="blog-meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg> <strong>July 3, 2026</strong></div>
+        <div class="blog-meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v4.7l3.2 1.9"/></svg> <strong>20 min read</strong></div>
+      </div>
+    </div>
+
+    <article class="article">
+      <aside class="article-summary" aria-label="Article summary">
+        <span>TL;DR</span>
+        <p>Across realistically sized surveys, conversations, product journeys, annotation batches, and online experiments, fair-pay human collection can cost thousands to tens of thousands of dollars before research labor, while raw text-model inference can remain in the single digits to hundreds. Depending on task and model tier, that is roughly 50× to nearly 8,000× less for the simulation pass, and it can turn weeks of fieldwork into hours.</p>
+      </aside>
+      <p class="article-lead">A real person is expensive for a good reason. They must be found, screened, compensated, scheduled, supported, and treated ethically. Their time is scarce. A simulated user can be copied, reset, run in parallel, and asked to repeat the same task after every product change.</p>
+
+      <p>That difference changes the economics of evaluation. It does <strong>not</strong> make the simulated user a drop-in replacement for a person. It creates a much cheaper layer of evidence that can run before and between human studies.</p>
+
+      <p>MatrAIx is built to make that layer practical at scale: large populations of persona-conditioned agents that probe a product the way a varied user base would, then hand the sharpest questions to real people. This article puts numbers on the underlying economics using sample sizes appropriate to different evaluation modes: 10,000 survey responses, 1,000 long conversations, 500 product journeys, 100,000 annotated outputs, and a 28,000-visitor A/B test. We compare transparent public prices for participant recruitment with token-based inference costs. The estimates are not vendor quotes or results from a completed MatrAIx benchmark; they are reproducible scenarios whose assumptions can be replaced with a team's own traffic, model, token budget, labor rate, and confidence requirements.</p>
+
+      <div class="tldr-wrap">
+        <table class="tldr-table">
+          <thead>
+            <tr><th scope="col">Evaluation</th><th scope="col">Human collection</th><th scope="col">Human time</th><th scope="col">Simulation pass</th><th scope="col">Simulation time</th><th scope="col">Order of magnitude</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">10K concept surveys</th><td class="human">$28,560+</td><td class="human">3 to 10 days</td><td class="ai">$3.60 to $104<small>two passes</small></td><td class="ai">15 to 45 min</td><td class="ratio">~270 to 7,900×</td></tr>
+            <tr><th scope="row">1K support chats</th><td class="human">$8,568+</td><td class="human">1 to 3 weeks</td><td class="ai">$3 to $87</td><td class="ai">30 to 90 min</td><td class="ratio">~100 to 2,900×</td></tr>
+            <tr><th scope="row">500 product journeys</th><td class="human">$2,142+</td><td class="human">1 to 2 weeks</td><td class="ai">$1.44 to $42<small>plus tool cost</small></td><td class="ai">1 to 3 hours</td><td class="ratio">~50 to 1,500×</td></tr>
+            <tr><th scope="row">100K outputs, 3 labels each</th><td class="human">$85,680</td><td class="human">2 to 4 weeks</td><td class="ai">$12.60 to $365</td><td class="ai">under 1 hour</td><td class="ratio">~230 to 6,800×</td></tr>
+            <tr><th scope="row">A/B test, 3% → 3.6%</th><td class="human">production traffic</td><td class="human">7 days or more</td><td class="ai">$3.60 to $104</td><td class="ai">15 to 60 min</td><td class="ratio">triage, not proof</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tldr-cap">Variable data-collection cost only, before shared research labor. Human figures use Prolific fair-pay rates; simulation figures span an economical to premium open model on public token prices. The A/B row compares different kinds of evidence, not equivalent line items. Full assumptions and sources are below.</p>
+
+      <h2>Start with the units, not the headline</h2>
+
+      <p>Human research and AI simulation meter different things. Human platforms charge for participant time, recruitment, targeting, scheduling, and incentives. Model providers charge for input and output tokens. Product teams also pay for study design, instrumentation, analysis, and decision-making in both cases.</p>
+
+      <div class="formula-card">
+        <span>HUMAN COLLECTION</span>
+        <code>participants × task hours × reward rate × (1 + platform fee)</code>
+        <span>MODEL INFERENCE</span>
+        <code>(input tokens ÷ 1M × input price) + (output tokens ÷ 1M × output price)</code>
+      </div>
+
+      <p>For a public reference point, Prolific recommends at least <strong>$12 per participant-hour</strong> and normally adds a <strong>42.8% corporate platform fee</strong> (33.3% for academic and nonprofit customers). Its minimum allowed rate is $8 per hour.<sup><a href="cost-comparison.html#ref-1">1</a></sup> User Interviews lists recruiting at <strong>$49 per completed session</strong>, or $98 with advanced B2B targeting, and explicitly excludes participant incentives.<sup><a href="cost-comparison.html#ref-2">2</a></sup> Respondent lists $40 per on-demand session or $34 in a prepaid 63-session bundle.<sup><a href="cost-comparison.html#ref-3">3</a></sup> At 10,000 participants, specialist recruiting services would normally require negotiated volume terms, so our large-N examples use Prolific’s transparent fair-pay formula rather than multiplying a boutique recruiting fee.</p>
+
+      <p>Those per-session numbers are only the recruiting line. A finished study costs much more. Drive Research, a United States market-research firm, publishes ballpark budgets of $5,000 to $15,000 for a 400-response online survey, $7,000 to $20,000 or more per focus group, and $20,000 to $50,000 for an in-person survey of the same size.<sup><a href="cost-comparison.html#ref-9">9</a></sup> Those are the real numbers a simulation pass is measured against.</p>
+
+      <p>For model inference, we show three public Together AI tiers rather than pretend there is one “AI cost”: economical Gemma 3n E4B at <strong>$0.06/M input and $0.12/M output tokens</strong>, Qwen3.5 9B at <strong>$0.17/M input and $0.25/M output</strong>, and premium DeepSeek V4 Pro at <strong>$1.74/M input and $3.48/M output</strong>.<sup><a href="cost-comparison.html#ref-4">4</a></sup> These are list-price examples, not quality endorsements. Actual enterprise rates may differ, and batching, prompt caching, self-hosting, or volume discounts can lower the bill. A small model may be suitable for structured surveys or labels but fail at nuanced behavior; a premium model can cost more and still be poorly calibrated.</p>
+
+      <p>It is fair to object that AI is no longer cheap either. A per-token price can look intimidating in isolation. The number that matters is the cost of a whole task, and it stays small: a full 10,000-persona survey pass on the economical model runs about $1.80, roughly the price of a coffee. That price is also falling fast. Epoch AI finds that inference prices have dropped rapidly across tasks, and the Stanford AI Index reports that the cost of running a system at GPT-3.5-level quality fell more than 280-fold between November 2022 and October 2024.<sup><a href="cost-comparison.html#ref-10">10</a></sup> Inference is the rare input that keeps getting cheaper. Human time does not.</p>
+
+      <div class="analysis-callout">
+        <strong>These human estimates are conservative lower bounds.</strong>
+        <p>They price participant time and the published platform fee. They do not include researcher salaries, screener design, recruitment operations, consent handling, no-shows, facilitation, transcription, qualitative coding, analytics, procurement, or the opportunity cost of waiting. The AI side likewise excludes shared engineering and calibration, but once an evaluation harness exists, its marginal cost is dominated by inference and tool execution.</p>
+      </div>
+
+      <h2>Five comparisons</h2>
+
+      <p>Every comparison isolates the variable cost of collecting evaluation data. Shared product setup and analyst time are excluded because both approaches need them, dollar amounts are rounded, and <strong>the token budgets are illustrative, not measured MatrAIx workloads</strong>.</p>
+
+      <p>On timing, human estimates include realistic recruiting and fielding windows, not just paid participant-hours, while simulation estimates assume an implemented workflow and workload-appropriate parallelism. Both are planning envelopes rather than benchmarks: tight rate limits can stretch hours into days, and batching can pull them back.</p>
+
+      <section class="scenario" id="survey">
+        <div class="scenario-kicker">01 · Survey</div>
+        <h3>Ten thousand reactions to a ten-minute concept survey</h3>
+        <p><strong>Human collection.</strong> At Prolific’s recommended $12/hour, ten minutes costs $2 per respondent. Ten thousand responses cost $20,000 in rewards plus $8,560 in platform fees: <strong>$28,560</strong>, before survey design, quota management, cleaning, and analysis.</p>
+        <p><strong>Simulation.</strong> Give each persona 2,000 input tokens of concept, persona, and instructions and allow 500 output tokens. Ten thousand runs consume 20M input and 5M output tokens: <strong>$1.80</strong> on the economical model, <strong>$4.65</strong> on Qwen3.5 9B, or <strong>$52.20</strong> on the premium example. Running an equally sized second pass for scoring or replication makes that <strong>$3.60–$104.40</strong>.</p>
+        <div class="comparison-bar" aria-label="Variable collection cost comparison"><span>Human · $28,560+</span><span class="ai">AI + second pass · $3.60–$104.40</span><small>Raw inference is about 274–7,933× lower</small></div>
+        <div class="time-comparison"><span><b>Human fielding</b>3–10 days</span><span><b>AI run + scoring</b>15–45 minutes</span></div>
+        <p class="scenario-note">A 10% human calibration sample means 1,000 real respondents and adds about $2,856, producing a hybrid variable total near $2,860–$2,960. That is still roughly 90% below full human collection, but it validates only the measured dimensions and sampled population.</p>
+      </section>
+
+      <section class="scenario" id="chatbot">
+        <div class="scenario-kicker">02 · Chatbot</div>
+        <h3>One thousand users, each in a thirty-minute support conversation</h3>
+        <p><strong>Human collection.</strong> One thousand half-hour sessions require 500 participant-hours. At $12/hour plus the 42.8% fee, variable collection cost is <strong>$8,568</strong> before moderation, transcripts, coding, or analysis. Specialist recruiting would cost materially more.</p>
+        <p><strong>Simulation.</strong> A generous budget of 15,000 cumulative input tokens and 5,000 output tokens per multi-turn session totals 15M input and 5M output tokens: <strong>$1.50</strong> on the economical model, <strong>$3.80</strong> on Qwen3.5 9B, or <strong>$43.50</strong> on DeepSeek V4 Pro. Doubling the run for an independent judge or replication yields <strong>$3–$87</strong>.</p>
+        <div class="comparison-bar" aria-label="Variable collection cost comparison"><span>Human · $8,568+</span><span class="ai">AI + second pass · $3–$87</span><small>Raw two-pass inference is about 98–2,856× lower</small></div>
+        <div class="time-comparison"><span><b>Human recruiting + sessions</b>1–3 weeks</span><span><b>Parallel AI sessions</b>30–90 minutes</span></div>
+        <p class="scenario-note">This is where simulation is naturally strong: reproducible multi-turn pressure tests across language, patience, expertise, and intent. It is naturally weak at proving that real customers will trust, understand, or return to the product.</p>
+      </section>
+
+      <section class="scenario" id="web-app">
+        <div class="scenario-kicker">03 · Web + App</div>
+        <h3>Five hundred users across five product-journey segments</h3>
+        <p>Qualitative discovery can work with small groups (Nielsen Norman Group recommends five participants for a typical single-group qualitative study), but quantitative coverage and subgroup comparison require larger samples.<sup><a href="cost-comparison.html#ref-5">5</a></sup> Here we compare 500 unmoderated 15-minute journeys: 100 observations per segment.</p>
+        <p><strong>Human collection.</strong> At $12/hour, a 15-minute task pays $3. Five hundred completions cost $1,500 in rewards plus $642 in platform fees: <strong>$2,142</strong> before study operations and analysis.</p>
+        <p><strong>Simulation.</strong> Five hundred persona-conditioned journeys, budgeted generously at 40,000 input and 4,000 output tokens each, consume 20M input and 2M output tokens: <strong>$1.44</strong> on the economical model, <strong>$3.90</strong> on Qwen3.5 9B, or <strong>$41.76</strong> on the premium example. Browser execution, screenshots, vision input, and sandbox time are additional and can exceed the text-model bill.</p>
+        <div class="comparison-bar" aria-label="Variable collection cost comparison"><span>Human · $2,142+</span><span class="ai">AI · $1.44–$41.76 + tools</span><small>Raw inference is about 51–1,488× lower before tool costs</small></div>
+        <div class="time-comparison"><span><b>Human study</b>1–2 weeks</span><span><b>Parallel agent journeys</b>1–3 hours</span></div>
+        <p class="scenario-note">Five hundred synthetic journeys are not equivalent to 500 observed people. They provide broad automated coverage. Use them to locate brittle flows and subgroup hypotheses; use people to reveal perception, accessibility, workarounds, emotion, and problems the simulator was never prompted to imagine.</p>
+      </section>
+
+      <section class="scenario" id="annotation">
+        <div class="scenario-kicker">04 · Human evaluation + annotation</div>
+        <h3>One hundred thousand outputs, three independent labels each</h3>
+        <p><strong>Human collection.</strong> If one label takes one minute, 300,000 labels consume 5,000 hours. At $12/hour plus Prolific’s fee, collection costs <strong>$85,680</strong>. Specialist medical, legal, safety, or coding judgments should pay more, so this is a floor for general participants, not a quote for expert annotation.</p>
+        <p><strong>AI evaluation.</strong> Three independent model passes per item, each using 500 input and 100 output tokens, consume 150M input and 30M output tokens: <strong>$12.60</strong> on the economical model, <strong>$33</strong> on Qwen3.5 9B, or <strong>$365.40</strong> on the premium example. A human audit of 10% of items at one minute each adds about $2,856, yielding a hybrid variable cost of roughly <strong>$2,869–$3,221</strong>.</p>
+        <div class="comparison-bar" aria-label="Variable collection cost comparison"><span>3× human · $85,680</span><span class="ai">AI only · $12.60–$365.40</span><small>Raw inference is about 234–6,800× lower; a 10% human audit reduces the end-to-end ratio to about 27–30×</small></div>
+        <div class="time-comparison"><span><b>Human labeling + QA</b>2–4 weeks with a 50-person pool</span><span><b>AI pass / hybrid with audit</b>&lt;1 hour / 3–5 workdays</span></div>
+        <p class="scenario-note">The audit must be designed around risk, not convenience. Random checks estimate average error; targeted checks should cover rare classes, model disagreements, protected groups, high-consequence outputs, and distribution shifts.</p>
+      </section>
+
+      <section class="scenario" id="ab-test">
+        <div class="scenario-kicker">05 · Online A/B testing</div>
+        <h3>Finding a 20% relative lift from a 3% baseline</h3>
+        <p>This comparison is different. Ordinary production visitors are usually not paid, so the primary cost is traffic, elapsed time, instrumentation, exposure to a weaker variant, and analyst attention, not a participant invoice.</p>
+        <p>Using a conventional two-proportion approximation with 95% significance, 80% power, a 3.0% baseline, and a minimum detectable lift to 3.6%, the test needs roughly <strong>14,000 eligible visitors per arm</strong>, or about 28,000 total. At 4,000 eligible visitors per day, collection takes about seven days. Optimizely likewise defines duration as total visitors divided by average daily visitors and recommends at least one seven-day business cycle.<sup><a href="cost-comparison.html#ref-6">6</a></sup></p>
+        <p><strong>Simulation.</strong> Ten thousand pre-launch journeys at 4,000 input and 1,000 output tokens each cost about <strong>$3.60–$104.40</strong> across our three model tiers. They can identify obvious regressions, compare behavior under controlled personas, and eliminate weak variants before production.</p>
+        <div class="comparison-bar" aria-label="Evidence comparison, not equivalent cost units"><span>Real A/B · ~28k visitors + 7 days</span><span class="ai">10K pre-screen · $3.60–$104.40</span><small>Different evidence: causal confirmation vs. modeled triage</small></div>
+        <div class="time-comparison"><span><b>Production experiment</b>At least 7 days at assumed traffic</span><span><b>AI variant pre-screen</b>15–60 minutes</span></div>
+        <p class="scenario-note"><strong>Simulation cannot establish real conversion lift.</strong> A synthetic user is generated by a model, not randomly assigned from the production population. It can reduce how many variants reach the expensive experiment; it cannot turn a modeled preference into causal evidence.</p>
+      </section>
+
+      <h2>What the dramatic ratio leaves out</h2>
+
+      <p>The token bill is often the smallest line item. A serious simulator needs persona construction, an environment adapter, task design, observability, failure recovery, scoring, calibration, and human review. If those fixed costs are charged to one tiny study, simulation can be the more expensive approach. Its economics improve when the same infrastructure is reused after every release.</p>
+
+      <div class="cost-stack">
+        <div><span>01</span><b>Fixed simulation cost</b><p>Environment integration, persona design, rubrics, telemetry, calibration, and engineering.</p></div>
+        <div><span>02</span><b>Variable simulation cost</b><p>Model tokens, browser or tool execution, retries, judge passes, storage, and review.</p></div>
+        <div><span>03</span><b>Human evidence cost</b><p>Recruitment, incentives, facilitation, consent, scheduling, analysis, and expert adjudication.</p></div>
+        <div><span>04</span><b>Error cost</b><p>The business or social cost of believing a cheap but invalid simulated result.</p></div>
+      </div>
+
+      <p>The last category dominates in healthcare, finance, employment, accessibility, safety, and other high-consequence settings. Saving $8,000 on evaluation is not a saving if the simulator systematically erases a vulnerable group or approves a harmful design.</p>
+
+      <h2>Models can evaluate models, but they inherit their biases</h2>
+
+      <p>There is real evidence that strong language models can approximate some human preferences. The MT-Bench and Chatbot Arena study reported over 80% agreement between strong LLM judges and human preferences, comparable to inter-human agreement in its setting. The same paper documents position, verbosity, self-enhancement, and reasoning biases.<sup><a href="cost-comparison.html#ref-7">7</a></sup> G-Eval found stronger human alignment than prior automatic methods on summarization, while also warning that LLM evaluators may favor LLM-generated text.<sup><a href="cost-comparison.html#ref-8">8</a></sup></p>
+
+      <p>Those findings support automation as a scalable approximation. They do not support replacing every evaluator with the same model family that generated the behavior. Depending on task stakes and uncertainty tolerance, a robust design can vary model families, randomize response order, hide system identity, separate actor and judge, repeat stochastic runs, and measure agreement against held-out human judgments.</p>
+
+      <h2>A practical allocation rule</h2>
+
+      <p>The useful question is not “AI users or real users?” It is “which uncertainty deserves which kind of evidence?”</p>
+
+      <div class="allocation-grid">
+        <div><span>SIMULATE FIRST</span><ul><li>Regression testing after every build</li><li>Large persona and edge-case sweeps</li><li>Prompt, policy, and conversation stress tests</li><li>Early ranking of many design variants</li><li>Clear, repeatable annotation rubrics</li></ul></div>
+        <div><span>BRING HUMANS EARLY</span><ul><li>New behavior with no calibration data</li><li>Emotion, trust, identity, or social meaning</li><li>Accessibility and assistive technology</li><li>Expert or high-consequence judgments</li><li>Claims about real adoption or causal lift</li></ul></div>
+      </div>
+
+      <p>A sensible evaluation funnel is therefore:</p>
+      <ol class="funnel-list">
+        <li><strong>Broad simulation:</strong> run hundreds or thousands of controlled persona-task combinations cheaply.</li>
+        <li><strong>Failure-focused review:</strong> inspect disagreements, rare outcomes, and high-risk segments.</li>
+        <li><strong>Human calibration:</strong> compare a stratified subset with real participants and estimate where simulation fails.</li>
+        <li><strong>Real-world confirmation:</strong> use usability studies, field trials, or randomized experiments for claims only real behavior can support.</li>
+        <li><strong>Continuous monitoring:</strong> recalibrate when the product, population, model, or environment changes.</li>
+      </ol>
+
+      <div class="analysis-callout conclusion">
+        <strong>The economic case is iteration, not substitution.</strong>
+        <p>This is the workflow MatrAIx is built for: run large, persona-conditioned simulations continuously, then spend scarce human studies where they change the decision. AI simulation makes evaluation cheap enough to run before every consequential human study and after every product change. Real users then become a high-value source of calibration, discovery, and confirmation, not a scarce resource spent rediscovering obvious failures.</p>
+      </div>
+
+      <h2>Reproduce the estimates</h2>
+
+      <p>All model costs in this article follow the provider’s listed per-million-token rates accessed July 12, 2026. Human costs use public platform prices on the same date. Replace the constants below with actual measured tokens, concurrency, observed latency, traffic, and vendor terms before budgeting a project.</p>
+
+      <div class="formula-card compact">
+        <code>human = N × minutes / 60 × hourly_reward × 1.428</code>
+        <code>ai = input_tokens / 1e6 × input_rate + output_tokens / 1e6 × output_rate</code>
+        <code>hybrid = ai + calibrated_human_subset + adjudication</code>
+        <code>ai_elapsed ≈ ceil(runs / concurrency) × observed_seconds_per_run</code>
+      </div>
+
+      <h2>Sources</h2>
+      <ol class="references">
+        <li id="ref-1"><a href="https://www.prolific.com/pricing" target="_blank" rel="noopener">Prolific, Pricing</a>; and <a href="https://researcher-help.prolific.com/en/article/2273bd" target="_blank" rel="noopener">Prolific’s payment principles</a>. Public reward guidance and platform fees. Accessed July 12, 2026.</li>
+        <li id="ref-2"><a href="https://www.userinterviews.com/pricing" target="_blank" rel="noopener">User Interviews, Recruit pricing</a>. Public per-session recruiting prices, incentive exclusions, and processing fee. Accessed July 12, 2026.</li>
+        <li id="ref-3"><a href="https://www.respondent.io/pricing" target="_blank" rel="noopener">Respondent, Participant recruitment pricing</a>. Public session prices. Accessed July 12, 2026.</li>
+        <li id="ref-4"><a href="https://www.together.ai/pricing" target="_blank" rel="noopener">Together AI, Serverless inference pricing</a>. Gemma 3n E4B, Qwen3.5 9B, and DeepSeek V4 Pro token rates. Accessed July 12, 2026. Prices can change.</li>
+        <li id="ref-5"><a href="https://www.nngroup.com/articles/usability-testing-101/" target="_blank" rel="noopener">Moran, “Usability (User) Testing 101,” Nielsen Norman Group</a>; and <a href="https://www.nngroup.com/articles/how-many-test-users/" target="_blank" rel="noopener">Nielsen, “How Many Test Users in a Usability Study?”</a> Guidance on qualitative, quantitative, and multi-group studies.</li>
+        <li id="ref-6"><a href="https://www.optimizely.com/optimization-glossary/statistical-significance" target="_blank" rel="noopener">Optimizely, “Statistical significance”</a>. Sample size, duration, randomization, and business-cycle guidance. The numerical scenario uses a standard two-sample proportion power approximation; production tools may use different sequential methods.</li>
+        <li id="ref-7"><a href="https://arxiv.org/abs/2306.05685" target="_blank" rel="noopener">Zheng et al., “Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,” NeurIPS 2023</a>. Human agreement and documented judge biases.</li>
+        <li id="ref-8"><a href="https://aclanthology.org/2023.emnlp-main.153/" target="_blank" rel="noopener">Liu et al., “G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment,” EMNLP 2023</a>. Human correlation and evaluator-bias caveat.</li>
+        <li id="ref-9"><a href="https://www.driveresearch.com/market-research-company-blog/how-much-does-market-research-cost/" target="_blank" rel="noopener">Drive Research, “How Much Does Market Research Cost?”</a> Published ballpark budgets for online surveys, focus groups, interviews, and in-person surveys. Accessed July 12, 2026.</li>
+        <li id="ref-10"><a href="https://epoch.ai/data-insights/llm-inference-price-trends" target="_blank" rel="noopener">Epoch AI, “LLM inference prices have fallen rapidly but unequally across tasks”</a>; and <a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">Stanford HAI, Artificial Intelligence Index Report 2025</a>. Inference price at a fixed capability level over time. Accessed July 12, 2026.</li>
+      </ol>
+
+      <p class="method-note"><strong>Method note.</strong> These are illustrative comparative estimates, not claims of measured MatrAIx accuracy, speed, or savings. They exclude taxes and shared labor; they do not price privacy, consent, environmental impact, model development, or the cost of an incorrect decision. “AI” prices cover inference only unless stated otherwise.</p>
+    </article>
+  </main>
+
+  <footer><p><a href="index.html">Home</a> · <a href="index.html.1.html">Research</a> · <a href="index.html.1.1.html">Personas</a> · <a href="index.html.1.2.html">Applications</a> · <a href="index.html.1.3.html">Playground</a> · <a href="index.html.1.4.html">Community</a> · <a href="index.html.1.4.html#contact">Contact</a></p><p style="margin-top:14px">SIMULATE BEFORE REALITY · © 2026 MATRAIX</p></footer>
+  <script src="site-performance.js%3Fv=1"></script>
+  <script src="blog-post.js%3Fv=7"></script>
+  <script>(function(){const t=document.querySelector('.nav-toggle'),n=document.querySelector('header nav');if(!t||!n)return;t.addEventListener('click',()=>n.classList.toggle('active'));n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>n.classList.remove('active')));})();</script>
+</body>
+</html>

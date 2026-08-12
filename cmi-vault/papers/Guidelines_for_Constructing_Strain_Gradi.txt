@@ -1,0 +1,1796 @@
+N. A. Fleck
+Department of Engineering,
+Cambridge University,
+Trumpington Street,
+Cambridge CB2 1PZ, UK
+
+J. W. Hutchinson
+School of Engineering
+and Applied Sciences,
+Harvard University,
+Cambridge, MA 02138
+
+J. R. Willis
+Centre for Mathematical Sciences,
+Wilberforce Road,
+Cambridge CB3 0WA, UK
+
+Guidelines for Constructing
+Strain Gradient Plasticity
+Theories
+Issues related to the construction of continuum theories of strain gradient plasticity which
+have emerged in recent years are reviewed and brought to bear on the formulation of the
+most basic theories. Elastic loading gaps which can arise at initial yield or under imposition of nonproportional incremental boundary conditions are documented and analytical
+methods for dealing with them are illustrated. The distinction between unrecoverable
+(dissipative) and recoverable (energetic) stress quantities is highlighted with respect to
+elastic loading gaps, and guidelines for eliminating the gaps are presented. An attractive
+gap-free formulation that generalizes the classical J2 flow theory is identified and
+illustrated. [DOI: 10.1115/1.4030323]
+Keywords: strain gradient plasticity, proportional loading, nonproportional loading,
+elastic loading gaps
+
+1
+
+Introduction
+
+This paper builds on a recent paper by the authors [1] which
+investigated two classes of rate-independent continuum strain gradient plasticity theories, dubbed incremental, and nonincremental.
+In particular, the earlier paper illustrated markedly different predictions of the two classes of theories for two problems involving
+nonproportional loading. The first problem is a layer of material
+stretched in plane strain tension into the plastic range which, then,
+undergoes surface passivation that blocks further plastic straining
+at its surfaces as additional stretch is imposed. The incremental
+theory predicts continued plastic flow following passivation,
+although reduced by the constraint imposed by surface passivation.
+The nonincremental theory predicts that plastic flow is interrupted
+after passivation and does not resume until the layer experiences
+additional tensile stress which can be substantial. In other words,
+according to the nonincremental theory, passivation gives rise to a
+delay in plastic flow which will be referred to here as an “elastic
+loading gap,” or more briefly as a “gap.” Similar behavior has
+been revealed in Ref. [2] for the nonincremental theory for a cylindrical wire that is twisted into the plastic range, passivated, and
+then subject to further twist. The second problem considered in
+Ref. [1] is an unpassivated layer in plane strain that is first
+stretched into the plastic range in tension and then is subject to
+bending with no further overall stretch. In this case, the incremental theory predicts continued plastic flow over the half of the layer
+experiencing increasing tensile strain as soon as bending commences, just as in conventional plasticity, but with the plastic flow constrained by gradient effects. By contrast, the nonincremental
+theory predicts an initial elastic response at the onset of bending
+followed by slowly developing plastic flow.
+The two classes of rate-independent theories are distinguished
+from one another by the fact that the constitutive law for the nonincremental theory has certain stress variables expressed in terms
+of strain increments, whereas the other class employs incremental
+relations between all the stress and the strain variables. The nonincremental stress quantities arise due to a constitutive construction
+proposed in Refs. [3–5] to ensure that stresses associated with dissipative plastic straining (unrecoverable plastic straining in the
+terminology of this paper) produce non-negative plastic work.
+This same construction has been employed in the formulation of
+Contributed by the Applied Mechanics Division of ASME for publication in the
+JOURNAL OF APPLIED MECHANICS. Manuscript received December 21, 2014; final
+manuscript received March 12, 2015; published online June 3, 2015. Assoc. Editor:
+Erik van der Giessen.
+
+Journal of Applied Mechanics
+
+nonincremental strain gradient plasticity theories for single crystals and similar consequences for problems involving nonproportional loading conditions can be anticipated.
+In this paper, conditions under which theories are expected to
+predict elastic loading gaps will be further explored, including
+conditions where a gap occurs at initial yield. It will be seen that
+conditions must be imposed on both incremental and nonincremental theories if a gap at initial yield is to be avoided. The attitude taken in this paper is agnostic as to whether elastic loading
+gaps should or should not occur. New experiments will be
+required to establish the validity or invalidity of such behavior.
+Instead, the approach here is to provide guidance to what aspects
+of the theories give rise to the gaps and to how they can be
+excluded in the constitutive formulation if so desired. The discussion is within the context of small strain, rate-independent strain
+gradient plasticity. The underlying ideas can be extended to a
+broader class of theories, including those for single crystals.
+The starting point in Sec. 2 is a discussion of a deformation
+theory of strain gradient plasticity which can generally be invoked
+to model history-dependent plasticity, at least as an approximation,
+for applications where straining is proportional or nearly so. This
+is a good place to start because the issue of a gap at initial yield
+arises here in perhaps the simplest context where the formulation
+is straightforward. The issue is whether plastic flow starts at the
+conventional initial yield stress or whether there is a delay beyond
+this stress. The two classes of plasticity theories, incremental and
+nonincremental, are introduced in Sec. 3 and discussed as to
+whether gaps are expected to occur both at initial yield and also
+subsequently after plastic straining when nonproportional loading
+occurs due to abrupt changes in the incremental boundary conditions. Section 4 presents a detailed analysis of the onset of plastic
+flow at initial yield for a layer that is passivated from the start and
+then stretched into the plastic range. This analysis complements
+the analysis in Ref. [1] for the case where an unpassivated layer is
+first stretched into the plastic range and then passivated before
+more stretch occurs. The analysis in Sec. 4 illustrates the complexity of the solutions in the early stages of yield whether a gap occurs
+or not. An incremental version of strain gradient plasticity generalizing classical J2 flow theory constructed such that elastic loading
+gaps do not occur is presented and discussed in Sec. 5.
+1.1 Notation and General Framework for the Gradient
+Plasticity. There is an important distinction in this paper between
+recoverable and unrecoverable plastic strain quantities reflected
+
+C 2015 by ASME
+Copyright V
+
+JULY 2015, Vol. 82 / 071002-1
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+by the following notation used throughout the paper. Small strain,
+rate-independent plasticity is considered throughout. With e_Pij as
+Ð
+the plastic strain increment, or rate, and ePij ¼ e_Pij as the plastic
+strain,
+define
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ﬃ a recoverable effective plastic strain as ep
+¼
+
+2ePij ePij =3 which can increase or decrease. Define the accumu-
+
+lated effective plastic q
+strain
+used
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ﬃ in classical J2 flow theory as
+Ð
+ep ¼ e_p , where e_ p ¼ 2e_Pij e_Pij =3 which is monotonically increasing. In this paper, ep will be referred to as the unrecoverable plastic strain. Under monotonic proportional straining, eP and ep
+coincide. Two analogous measures
+of theﬃ plastic strain gradients
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Ð
+used in this paper are eP ¼ 2ePij;k ePij;k =3 and eP ¼ e_P with e_ P
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+¼ 2e_Pij;k e_Pij;k =3. More general isotropic measures of the strain
+gradients have been identified in Ref. [6], but eP and eP adequately
+
+expose the issues relevant to the present investigation.
+Two generalized effective plastic strain quantities will also
+appear in the sequel which bring inp
+a ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+material length parameter, ‘.
+The recoverable measure is E P ¼ e2P þ ‘2R e2
+P , and
+Ð the accumulated,
+or
+unrecoverable
+measure,
+is
+E
+¼
+E_ P with E_ P
+P
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2
+2
+2
+¼ e_P þ ‘UR e_P . The two sets of measures coincide when the
+straining is monotonic and proportional if ‘UR ¼ ‘R , i.e., ðe_Pij ; e_Pij;k Þ
+_ 0 ; e0 Þ with ðe0 ; e0 Þ independent of k, and k increasing
+¼ kðe
+ij ij;k
+ij ij;k
+from zero.
+The small strain framework for strain gradient plasticity will be
+adopted [3–8]. The principle of virtual work is
+ð n
+ð 
+
+o
+Ti dui þ tij dePij dS
+rij deeij þ qij dePij þ sijk dePij;k dV ¼
+S
+
+V
+
+(1.1)
+
+with volume of the solid V, surface S, displacements ui , total
+strains eij ¼ ðui;j þ uj;i Þ=2, plastic strains ePij (ePkk ¼ 0), and elastic
+strains eeij ¼ eij  ePij . The symmetric Cauchy stress is rij , and the
+stress quantities work conjugate to increments of ePij and ePij;k are qij
+(qij ¼ qji , qkk ¼ 0) and sijk (sijk ¼ sjik , sjjk ¼ 0). The surface
+tractions are Ti ¼ rij nj and tij ¼ sijk nk with ni as the outward unit
+normal to S. The equilibrium equations are
+rij;j ¼ 0; sij þ qij  sijk;k ¼ 0
+
+(1.2)
+
+with
+sij ¼ rﬃij  rkk dij =3. The effective Cauchy stress is re
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+¼ 3sij sij =2.
+Elasticity is isotropic with Young’s modulus E and Poisson’s
+ratio . The initial tensile yield stress is rY with the associated
+yield strain eY ¼ rY =E. Numerical results will be presented for
+incompressible materials with a uniaxial tensile stress–strain
+curve
+)
+r  rY
+e ¼ r=E & eP ¼ 0;
+(1.3)
+e ¼ r=E þ ððr  rY Þ=kÞ1=N ; r > rY
+with 0 < N < 1 such that beyond yield
+
+
+r ¼ rY 1 þ keNP
+
+(1.4)
+
+We have deliberately chosen for the input uniaxial stress–strain
+behavior a curve with continuous slope at yield rather than a curve
+with a discontinuous slope such as a bilinear relation. Had an
+input curve been adopted with a sharp break in slope at yield,
+gaps at initial yield would be more clearly delineated, but, as will
+be seen, gaps are also quite evident with the smooth curve. A continuous slope is more representative of the initial yielding behavior of annealed metals than a curve with a sharp discontinuity.
+Moreover, as will be seen in the sequel, this choice will enable us
+071002-2 / Vol. 82, JULY 2015
+
+to illustrate an important point concerning recoverable contributions of the gradients of plastic strain to the free energy: namely
+that these contributions are not necessarily quadratic in the
+gradients quantities, as is usually assumed.
+
+2
+
+Deformation Theories and the Onset of Plastic Flow
+
+The deformation theories under consideration characterize
+small strain, nonlinear elastic solids with a strain energy density
+of the form
+1
+w ¼ Lijkl eeij eekl þ wP ðeP ; eP Þ
+2
+
+(2.1)
+
+with isotropic moduli, Lijkl , and wP as the “plastic” contribution.
+The associated stresses are
+9
+@w
+>
+>
+rij ¼ e ¼ Lijkl eekl
+>
+>
+=
+@eij
+(2.2)
+P
+P >
+@wP @wP 2eij
+@wP @wP 2eij;k >
+>
+>
+qij ¼ P ¼
+; sijk ¼ P ¼ 
+@eP 3eP
+@eP 3eP ;
+@eij
+@eij;k
+The potential energy of a body is regarded as a functional of ui
+and ePij
+ð
+ð 
+
+Fðui ; ePij Þ ¼ wdV 
+(2.3)
+Ti ui þ tij ePij dS
+V
+
+ST
+
+with prescribed Ti and tij on portions of the surface, ST , and with
+ui and ePij prescribed on the remaining surface SU . The solution to
+the boundary value problem minimizes the potential energy
+among admissible ui and ePij .
+Continuity of the stress variables (qij ; sijk ) under continuing
+overall deformation lies at the heart of the issues being addressed
+in this paper. If the strain variables vary continuously and if
+@wp =@eP and @wp =@eP are continuous functions of eP and eP , then
+the stresses given by Eq. (2.2) will vary continuously except possibly when eP and/or eP vanish. Within the linear elastic range,
+(eP , eP ) vanish and (qij ; sijk ) are not defined by Eq. (2.2) for the deformation theory. The onset of yield is where the possible existence of a delay in yielding depends in a critical way on the
+behavior of wP for small eP and eP . Two distinct behaviors will be
+illustrated with the following choices for wP , each of which
+reduces to Eq. (1.4) in uniaxial tension:
+
+
+wP ¼ rY E P þ ðk=ðN þ 1ÞÞE Nþ1
+(2.4)
+P
+
+
+(2.5)
+wP ¼ rY eP þ ðk=ðN þ 1ÞÞE Nþ1
+P
+
+The first choice Eq. (2.4) follows the proposal in Ref. [6] by
+in the energy density of the classical
+replacing eP everywhere
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+theory by E P ¼ e2P þ ‘2R e2
+P , while the second choice Eq. (2.5)
+retains eP in the lowest order contribution.
+The overall stress–strain curve for the tensile stretching in plane
+strain of a layer of thickness 2h whose surfaces are passivated
+from the start is plotted in Fig. 1 for the two choices, Eqs. (2.4)
+and (2.5), for N ¼ 0:2, p ¼ keNY ¼ 0:5, and ‘R =h ¼ 1. The classical limit with no gradient effect corresponding to ‘R =h ¼ 0 is also
+shown. A passivated surface is assumed to block dislocations
+requiring zero plastic strain to be imposed at the surfaces of the
+layer in the continuum model. From an analytical perspective, deformation theory problems are attractive because solutions can be
+produced at any load without recourse to prior history. For the
+second choice Eq. (2.5) there is no elastic loading gap at the onset
+of pyield
+and plastic flow initiates when re ¼ rY (at r11
+ﬃﬃﬃ
+¼ 3rY =2 in plane strain tension). By contrast, there is a substantial gap for choice Eq. (2.4) and the plastic flow delayed to
+Transactions of the ASME
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+Fig. 1 Comparison overall stress–strain response based of deformation theory for a layer of thickness 2h with surfaces passivated from the start and stretched in plane strain. The material
+is incompressible. The lower curve applies to an unpassivated
+layer or, equivalently, a layer with ‘R =h ¼ 0. The upper two
+curves have ‘R =h ¼ 1. The top curve is based on formulation
+(2.4), and it has an elastic loading gap on the vertical axis from
+1 to 1.825. The middle curve is based on Eq. (2.5) and it has no
+elastic loading gap.
+
+re ¼ 1:825rY . For Eq. (2.4), the gap depends on ‘R =h; it is plotted
+in Fig. 2. This is precisely the same elastic loading gap identified
+in Ref. [1] for a particular family of nonincremental theories for
+the case when passivation is imposed after the layer has been
+stretched into the plastic range.
+The question as to why one form of the deformation theory produces a gap and the other does not is now addressed for the case
+of initial yield. In the current state with no prior plastic straining,
+assume rij is an equilibrium state of stress (rij;j ¼ 0) such that on
+the boundary with outward normal ni , Ti ¼ rij nj . Let ePij be an admissible trial field associated with the onset of yield and assume
+that the boundary conditions are such that either tij ¼ 0 or ePij ¼ 0
+such that tij ePij ¼ 0 on the boundary. Minimization of F in
+Eq. (2.3) requires dF ¼ 0. At the onset of yield, for arbitrary small
+variations with depij ¼ epij and deeij ¼ 0, dF can be obtained as
+ð
+@wP
+@w
+dF ¼
+(2.6)
+eP þ P eP  rij ePij dV ¼ 0
+@e
+@eP
+P
+V
+where the derivatives of wP are evaluated at eP ¼ eP ¼ 0. The
+boundary conditions are homogeneous with either unconstrained
+epij or epij ¼ 0. This is an eigenvalue problem for the stress rij at the
+onset of yield and the nonzero associated eigenfield epij .
+First consider the case where rij is uniform. If the lowest order
+contribution
+to w
+P is rY eP , as in Eqs. (2.5), then (2.6) becomes
+Ð 
+P
+V rY eP  rij eij dV ¼ 0. This has no dependence on the gra-
+
+dients of plastic strain and no penalty for satisfying epij ¼ 0 on the
+boundary.
+For either
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ﬃ set of boundary conditions the eigen solution
+is re  3sij sij =2 ¼ rY with epij =eP ¼ 3sij =2rY such that, by Eq.
+(2.2), qij ¼ sij and sijk ¼ 0. There is no gap at initial yield in this
+case. On the
+other hand, for the choice Eqs. (2.4) and (2.6)
+Ð 
+becomes V rY E P  rij ePij dV ¼ 0 which does bring in a dependence on the plastic strain gradients. If zero plastic strain on the
+boundary is required, there must be nonzero gradients for any
+nonzero solution and, thus, E P > eP over some portion of the
+body. It follows that any eigen stress associated with the onset of
+yield must satisfy re > rY . The eigenvalue functional governing
+the delay in yielding for Eq. (2.4) also arises for problems based
+on the nonincremental theories, as first noted in Ref. [1], as will
+be discussed further in Sec. 4.
+Journal of Applied Mechanics
+
+Fig. 2 Elastic loading gap at the onset of yield for a passivated
+layer in plane strain for the deformation theory based on formulation (2.4) with ‘ ¼ ‘R . This same gap arose for the nonincremental theory considered in Ref. [1] for a layer stretched into
+the plastic range and then passivated followed by further
+stretch with ‘ ¼ ‘UR .
+
+For the deformation theory (2.1), initial yield will occur in a
+uniformly stressed body when re ¼ rY if, at eP ¼ 0 and eP ¼ 0,
+@wP =@eP ¼ rY , and @wP =@eP ¼ 0. This is tantamount to the
+requirement qij ! sij and sijk ! 0 as eP and eP approach zero.
+While according to Eq. (2.2), qij and sijk are indeterminate when
+eP and eP are zero, the assignment qij ¼ sij and sijk ¼ 0 within the
+linear elastic range ensures that all the stress variables will vary
+continuously at yield for materials meeting the above conditions
+on the first partial derivatives. This assignment is consistent with
+the second of equilibrium Eq. (1.2).
+Now consider situations where the body, or a subregion of the
+body, has not yet yielded and rij in Eq. (2.6) is not uniform.
+Assume wP meets @wP =@eP ¼ rY and @wP =@eP ¼ 0 when
+eP ¼ eP ¼ 0. Plastic yield must begin locally at any location where
+re ¼ rY . This can be seen from the fact that at this location the
+integrand of Eq. (2.6) is rY eP  rij ePij , which is non-negative
+
+for all ePij if re  rY and is negative for epij =eP ¼ 3sij =2rY if
+re > rY . Thus, because there is no local dependence on the gradient and no restriction on continuity of ePij at the onset of yield,
+plastic flow in the form epij =eP ¼ 3sij =2rY at any location where
+re > rY will lead to smaller values of F than if no flow occurred.
+In summary, for deformation theory materials satisfying
+@wP =@eP ¼ rY and @wP =@eP ¼ 0 at eP ¼ 0 and eP ¼ 0, the onset
+of plastic flow is a local condition met where re ¼ rY . For materials not satisfying this condition, the onset of plastic flow is generally governed by a nonlocal condition and an elastic loading gap
+beyond re ¼ rY should be expected. The material specified by
+Eq. (2.4) has @wP =@eP ¼ rY eP =E P and @wP =@eP ¼ rY ‘2R eP =E P
+which do not satisfy the requirement for no gap at initial yield.
+
+3 Theories of Strain Gradient Plasticity With
+Guidance as to Whether They Generate Elastic
+Loading Gaps
+A fairly general set of theories will be considered, but special
+cases that have appeared in the literature will be discussed. The
+theory laid out is nonincremental, but it will be specialized to a
+class of incremental theories. The general thermodynamic framework is consistent with that developed in Refs. [3–5], but here
+specifically for rate-independent plasticity. The free energy of the
+solid w has the form given by Eq. (2.1) with recoverable stresses
+(energetic stresses in the terminology of Refs. [3–5])
+JULY 2015, Vol. 82 / 071002-3
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+rij ¼ Lijkl eekl ;
+
+qRij ¼
+
+@wP @wP 2ePij
+¼
+;
+@eP 3eP
+@ePij
+
+sRijk ¼
+
+@wP @wP 2ePij;k
+¼ 
+@eP 3eP
+@ePij;k
+(3.1)
+
+A non-negative dissipation function uðeP ; eP ; e_ P ; e_P Þ is assumed
+that is homogeneous of degree one in e_ P and e_P . Two examples
+which reduce to Eq. (1.4) in uniaxial tension are
+h
+i
+
+u ¼ rY 1 þ keNp e_P þ kð‘UR eP ÞN ‘UR e_P
+(3.2)
+and the coupled form using EP adopted in Ref. [8]
+
+
+u ¼ rY 1 þ kENP E_ P
+
+(3.3)
+
+The dissipation potential u generates the unrecoverable stresses
+(dissipative stresses)
+qUR
+ij ¼
+
+@u
+@u 2e_Pij
+¼
+;
+@ e_Pij @ e_P 3e_ P
+
+sUR
+ijk ¼
+
+@u
+@u 2e_Pij;k
+¼
+@ e_Pij;k @ e_P 3e_ P
+
+(3.4)
+
+Homogeneity of u gives
+P
+UR P
+ 
+qUR
+ij e_ij þ sijk e_ij;k ¼ ð@u=@ e_ P Þe_ P þ ð@u=@ e_ P Þe_ P ¼ u
+
+(3.5)
+
+ensuring that the work rate of the unrecoverable stresses is nonnegative if u is non-negative. It follows that ð@u=@ e_P Þ and
+ð@u=@ e_P Þ must also be non-negative. The general form Eq. (3.4)
+derives from the constitutive construction proposed in Refs. [3–5]
+to ensure positive plastic dissipation of the unrecoverable stresses.
+The stresses are the sum of the recoverable and unrecoverable
+and sijk ¼ sRijk þ sUR
+contributions, i.e., rij , qij ¼ qRij þ qUR
+ij
+ijk . An
+important distinction between the recoverable and unrecoverable
+stresses, which has implications related to the elastic loading
+gaps, is that the recoverable stresses (3.1) are known and fixed in
+the current state while generally the unrecoverable stresses are
+not. The unrecoverable stresses in Eq. (3.4) depend on the plastic
+strain rate and its gradient and thus are not known in the current
+state—they depend on the boundary conditions imposed for the
+incremental problem. The unrecoverable stresses can change discontinuously [8,9] from one increment of loading to another if
+boundary conditions for the incremental problem change abruptly.
+It is this feature that motivated the designation “nonincremental”
+for theories with such stresses in Ref. [1]. Alternative formulations which introduce extra gradientlike variables to meet the
+requirement of positive plastic dissipation have been considered
+in a broad overview of strain gradient plasticity in Ref. [10], but
+they will not be considered here.
+When unrecoverable stresses are present, the second equilibrium equation in Eq. (1.2) becomes an equation for the plastic
+strain rates, and the following minimum principle I was devised in
+Ref. [8] to satisfy this equation. In the current state with known
+distributions of rij , ePij , eP , and eP , a functional homogenous of
+degree one in e_Pij is defined as
+ð 
+
+UI ¼
+u þ w_ P  sij e_Pij dV
+(3.6)
+
+factors if there are multiple disconnected regions of ongoing plastic straining.
+A second minimum principle [8] closely resembles the classical
+principle for an incremental problem, and it provides the
+amplitudes of the eigenfields e_Pij and the displacement rate field.
+Principle II minimizes
+ð
+ð
+
+
+
+1  e
+(3.7)
+r_ ij e_ij þ q_ ij e_Pij þ s_ ijk e_Pij;k dV 
+UII ¼
+T_i u_ i dS
+2 V
+ST
+where
+
+r_ ij e_eij þ q_ ij e_Pij þ s_ ijk e_Pij;k ¼ Lijkl ðe_ij  e_Pij Þðe_kl  e_Pkl Þ þ
+@u  @ 2 wP 2
+@ 2 wP
+@ 2 wP 2
+
+_
+_
+_
+_
+e
+þ
+2
+e
+e_
+e
+þ
+e
+þ
+P
+P
+P
+P
+@eP
+@ 2 eP
+@eP @eP
+@ 2 eP P
+
+ 1 @w 
+1 @wP  2
+2
+þ
+e_P  e_2P þ  P e_2
+P  e_P
+eP @eP
+eP @eP
+
+@u
+e_ P
+@eP
+
+þ
+
+(3.8)
+
+Traction rates T_i are prescribed on ST while on the remainder of
+the surface u_ i are prescribed, and attention here is restricted to either t_ij ¼ 0 or e_Pij ¼ 0 on S. For the issues at hand it should be
+noted that, if u has no dependence on the strain gradients, i.e., if
+u ¼ gðeP Þe_P , minimum principle I based on Eq. (3.6) is identically satisfied because all the stress quantities are known and fixed
+in the current equilibrium state, i.e., sUR
+ijk ¼ 0 and, from Eq. (1.2),
+R
+R
+qUR
+¼
+s
+
+q
+þ
+s
+.
+Thus,
+when
+the
+unrecoverable contribuij
+ij
+ij
+ijk;k
+tions do not involve the plastic strain gradients, qUR
+ij is known in
+the current state and the entire incremental field is delivered by
+minimum principle II. This is an important class of incremental
+theories discussed later.
+Minimum principle I based on Eq. (3.6) and the associated homogeneous boundary conditions can be thought of as an eigenvalue problem for sij , similar to that discussed in Sec. 2. The
+solution e_Pij ¼ 0 is always available, although it may not provide
+the minimum to principle II. If a body is deformed plastically
+under a sequence of boundary loads which change smoothly, then
+one can anticipate that at each incremental step the stresses and
+the associated strain rates will vary continuously. In other words,
+under a sufficiently smooth loading history, when plastic straining
+starts, a nonzero solution to minimum principle I is expected to
+exist at each step with the stresses and strain rates varying continuously. What will happen, however, if there is an abrupt change in
+the incremental boundary conditions? As such an example, consider the stretch passivation problem in Ref. [1], where a layer is
+stretched into the plastic range with plasticity unconstrained on its
+surfaces (tij ¼ 0) and then passivated such that for subsequent
+increments e_Pij ¼ 0 on the surfaces. The abrupt imposition of the
+constraint on plastic flow at the surfaces results in the fact that the
+only solution to the minimum problem for Eq. (3.6) for the case
+considered in Ref. [1] is e_Pij ¼ 0 for a finite range of stress above
+the stress at passivation. In this case, the abrupt change in the
+boundary condition is the origin of the elastic loading gap.
+
+V
+
+R P
+R P
+P
+UR P
+_
+noting that u ¼ qUR
+ij e_ij þ sijk e_ij;k and wP ¼ qij e_ij þ sijk e_ij;k . In
+arriving at Eq. (3.6), for all cases considered in this paper, it has
+been assumed that the boundary conditions on the surface and on
+any internal elastic–plastic boundary are either tij ¼ 0 or e_Pij ¼ 0.
+Among all nonzero admissible fields e_Pij , the field that minimizes
+UI satisfies the second equilibrium equation in Eq. (1.2). Due to
+the homogeneous nature of UI and the boundary conditions under
+consideration, the minimum has UI ¼ 0 and e_Pij is determined only
+to within an amplitude factor, or to within multiple amplitude
+
+071002-4 / Vol. 82, JULY 2015
+
+3.1 Conditions for Eliminating an Elastic Gap at Initial
+Yield. Conditions on u and w to eliminate a gap at initial yield
+for the theory in this section are first derived, after which conditions at every stage of loading will be addressed. The condition at
+initial yield to ensure that a nonzero solution exists in minimizing
+UI for any sij satisfying re ¼ rY is derived in a manner similar to
+that for the deformation theory. Let the current deviator stress distribution be sij with all the plastic strain quantities zero. In any
+region where the first increment of plastic strain occurs, e_P ¼ e_ P
+and e_p ¼ e_ P , such that Eq. (3.6) becomes
+Transactions of the ASME
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+UI ¼
+
+ð
+
+V
+
+@u @wP
+@u @wP 
+e_  sij e_Pij dV (3.9)
+e_P þ
+þ
+þ
+@ e_ P @eP
+@ e_P @eP P
+
+with the partial derivatives evaluated at zero plastic strain.
+Suppose these derivatives have @u=@ e_P ¼ arY , @wP =@eP
+¼ ð1  aÞrY with 0  a  1, @u=@
+e_ ¼ 0 and @wP =@eP ¼ 0.
+Ð  P
+Then, Eq. (3.9) reduces to UI ¼ V rY e_P  sij e_Pij dV ¼ 0, which
+is the same eigenvalue functional discussed in Sec. 2. For such
+materials, initial yield occurs at re ¼ rY with qij ¼ sij and
+sijk ¼ 0. These conditions on u and wP eliminate the roles of e_P
+and the material length parameters at the onset of yield. Conversely, if the partial derivatives of u and wP with respect to e_P
+and e_P in Eq. (3.9) are not zero, a delay in initial yielding beyond
+re ¼ rY must be anticipated. These guidelines are consistent with
+the numerical examples generated in Ref. [11] for a variety of theories, some of which have gaps at initial yield and others which
+do not.
+
+3.2 Conditions for Eliminating an Elastic Loading Gap
+After Plastic Deformation has Occurred. Now suppose the
+body has been deformed into the plastic range and inquire whether
+an abrupt change in boundary conditions for the incremental problem is likely to produce an elastic loading gap where a plastic
+response would otherwise be predicted by conventional theory.
+We begin by illustrating with a specific example the assertion that
+any nonincremental version which has unrecoverable stresses generated by Eq. (3.4) with sUR
+ijk 6¼ 0, will necessarily have such gaps
+for some problems. Consider the two nonincremental versions
+with dissipation potential specified by Eqs. (3.2) and (3.3) and
+take wP ¼ 0, which is not essential to the discussion. For the
+problem considered in Ref. [1], where a layer is first stretched into
+the plastic range and then undergoes passivation followed by
+_
+further stretch, Eq. (3.3) was employed, i.e., u ¼ rY 1 þ kEN
+P EP .
+This choice gave rise to the elastic gap alluded tohearlier. Had
+
+the choice Eq. (3.2) been made, i.e., u ¼ rY 1 þ keN
+p e_ P
+i
+þkð‘UR eP ÞN ‘UR e_ P , no gap would have occurred, as will be discussed further in Sec. 4. The difference between the two choices
+for this problem is that Eq. (3.3) has a nonzero contribution of
+order e_P at the onset of the gap while the corresponding contribution from Eq. (3.2) is zero because the current plastic strain is
+uniform with eP ¼ 0.
+Suppose, however, if instead of stretching the problem is pure
+bending into the plastic range with no surface constraint followed
+by surface passivation and continued bending. Then, because of
+the existence of a gradient of plastic strain at passivation, there
+will be a nonzero contribution of order e_ P from both Eqs. (3.2)
+and (3.3), and, indeed, from any dissipation potential u with a dependence on the strain gradients. Figure 3(a) presents the
+moment-curvature relation for pure bending in plane strain for a
+specific example computed using Eq. (3.2) in the same manner as
+in Ref. [1]. A distinct elastic loading gap is evident. The gap, as
+measured by the curvature change Dj after passivation without
+any plastic deformation, has been computed based on a numerical
+implementation of minimum principle I in Eq. (3.9) and plotted in
+Fig. 3(b). As in the stretch-passivation examples, the gap can be
+large corresponding to elastic strain increases on the order of 50%
+of the yield strain or more. The torsion problem in Ref. [2] is
+another example which will generate a gap following passivation
+for any nonincremental formulation with dissipation dependent on
+the gradients of plastic strain.
+In conclusion, these examples illustrate the fact that nonincremental theories with unrecoverable stress quantities sUR
+ijk will
+always generate elastic loading gaps for some problems. In the remainder of this section, we present what we believe to be an
+attractive incremental specialization of the theories considered
+Journal of Applied Mechanics
+
+above with no dependence of eP and no elastic loading gaps either
+at initial yield or under continued plastic straining.
+3.3 A Basic Incremental Theory Extension of J2 Flow
+Theory With no Elastic Loading Gaps. For this theory,
+Eqs. (3.1), (3.4), and (3.5) defining the constitutive relation continue to apply, but the work-rate of the plastic strain rate is partitioned between nonrecoverable and recoverable contributions
+using a factor a in the range 0  a  1. The dissipation potential
+is taken as u ¼ ar0 ðeP Þe_P , where r0 ðeP Þ is the relation of stress to
+effective plastic strain in uniaxial tension with r0 ð0Þ  rY . The
+free energy is taken to be
+ð eP
+1
+(3.10)
+r0 ðeP ÞeP þ f ðeP Þ
+w ¼ Lijkl eeij eekl þ ð1  aÞ
+2
+0
+As in classical J2 flow theory, the conventional accumulated
+effective plastic strain eP is unrecoverable. The limit a ¼ 0 is a
+deformation theory, but the concern here is with 0 < a  1,
+including the limit a ¼ 1 for which qRij ¼ 0. As the guidelines in
+Sec. 3.1 indicate, gaps at initial yield will be eliminated if
+f ¼ df =deP ¼ 0 at eP ¼ 0. As noted earlier, this theory is increR
+R
+mental with qUR
+ij ¼ sij  qij þ sijk;k known in the current state.
+UR
+Rather than an equation for qij in terms of the plastic strain rate,
+the first equation in Eq. (3.4) now becomes a constraint on the
+plastic strain rate. The plastic strain rate must satisfy the normality
+condition
+qUR
+3
+ij
+; e_P  0
+e_Pij ¼ ae_P
+r0 ðep Þ
+2
+With qUR
+e ¼
+
+(3.11)
+
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+UR
+UR
+UR
+3qUR
+ij qij =2, qij is on the surface qe ¼ ar0 ðeP Þ
+
+and e_Pij is normal to this surface. For elastic responses (e_ P ¼ 0)
+UR
+UR
+with qUR
+e < ar0 ðeP Þ, we define changes in qij by q_ ij ¼ s_ij and
+UR
+take qij ¼ 0 prior to any plastic deformation. With this extended
+definition of qUR
+ij , the second equilibrium equation in Eq. (1.2) is
+always satisfied. Plastic reloading occurs when qUR
+e returns to the
+yield surface.
+Minimum principle I has no role in this theory. The distributions of u_ i and e_P are given by minimizing UII in Eq. (3.7) whose
+integrand (3.8) becomes
+dr0 ðep Þ 2
+e_ P
+deP
+
+
+dr0 ðep Þ 2 1
+d2 f ðe Þ
+e_P þ r0 ðep Þ e_ 2P  e_2P þ 2 P e_2
+þ ð1  aÞ
+deP
+eP
+d eP P
+ 
+
+1 df ðeP Þ 2
+(3.12)
+e_ P  e_2
+þ 
+P
+eP deP
+
+P
+
+UR
+By Eq. (3.11), e_P ¼ ae_P qUR
+ij eij =ðr0 ðeP ÞeP Þ and e_P ¼ a e_ P qij =
+r0 ðeP ÞÞ;k ePij;k =ðeP Þ.
+Further discussion of this theory and illustrative solutions are
+presented in Sec. 5.
+
+r_ ij e_eij þ q_ ij e_Pij þ s_ ijk e_Pij;k ¼ Lijkl ðe_ij  e_Pij Þðe_kl  e_Pkl Þ þ a
+
+4 Analysis of the First Increment of Plastic Strain
+for a Passivated Layer in Plane-Strain Stretch
+4.1 Basics. For the purpose of this section, define e_ P to be any
+positive, positively homogeneous function of degree 1 of e_pij , and
+E_ P to be any positive, positively homogeneous function of degree
+1 in e_pij and ‘UR e_pij;k . The free energy w has the general form
+wðee ; ep ; rep Þ ¼
+
+1 e
+e Lijkl eeij þ UP ðepij ; epij;k Þ
+2 ij
+
+(4.1)
+
+JULY 2015, Vol. 82 / 071002-5
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+and the dissipation potential u is taken to have the form
+uðe_p ; re_p Þ ¼ r1 ðeP Þe_ P þ r2 ðEP ÞE_ P
+
+(4.2)
+
+The constitutive relations are
+@w
+;
+@epij;k
+@u
+@ e_P
+@ E_ P
+qUR
+¼ r1 ðeP Þ p þ r2 ðEP Þ p ;
+ij ¼
+@ e_pij
+@ e_ij
+@ e_ij
+_
+@u
+@ EP
+sUR
+¼ r2 ðEP Þ p :
+ijk ¼
+@ e_pij;k
+@ e_ij;k
+rij ¼
+
+@w
+;
+@eeij
+
+qRij ¼
+
+@w
+;
+@epij
+
+sRijk ¼
+
+(4.3)
+
+(The formulae for the latter two apply when e_ P and E_ P are positive; when either one is zero, the derivatives must be replaced by
+subgradients.)
+For later use, introduce the potentials V1 ðeP Þ and V2 ðEP Þ such
+that
+r1 ðeP Þ ¼ V10 ðeP Þ;
+
+r2 ðEP Þ ¼ V20 ðEP Þ
+
+(4.4)
+
+4.2 Variational Formulation for an Increment. An incremental formulation will be adopted, for which the solution is
+sought at discrete times tk ¼ t0 þ kDt. Correspondingly, the value
+of any function f ðtÞ at time tk is denoted f ðtk Þ ¼ fk . The finite difference fkþ1  fk gives Dt f_ðtc Þ at some time tc ¼ tk þ cDt with
+0 < c < 1, at which time f ðtc Þ itself equals fk ¼ fk þ kðfkþ1  fk Þ
+with 0 < k < 1. The values of the parameters c and k are generally not known but still it will prove convenient to present the formulation as though they were.1 To see what happens next, note
+p
+that ðqUR
+ij Þc , with e_ij ðtc Þ given by its finite difference and eP at time
+tc expressed by linear interpolation like that employed for epij , can
+be expressed as
+@fV1 ððeP Þk Þ þ V2 ððEP Þk Þg
+qUR
+(4.5)
+ij ¼
+k@ðepij Þkþ1
+where, for example, ðeP Þk ¼ ðeP Þk þ kDte_ P ðtc Þ. The higher-order
+traction sUR
+ijk may be expressed similarly. Now consider, for a body
+occupying a domain V, the variational statement
+d
+
+ð
+
+wðec  epk ; epk ; repk Þ þ V1 ððeP Þk Þ þ V2 ððEP Þk Þ
+o
+r0ij ðeij Þc  s0ijk ðepij Þk ¼ 0
+V
+
+(4.6)
+
+the variation being taken with respect to ekþ1 and epkþ1 . Assuming
+that c > 0, the variation with respect to ekþ1 provides the equation
+of equilibrium for the Cauchy stress over the domain V, and any
+associated traction boundary conditions on the boundary S, at time
+tc . Assuming that k > 0, the variation with respect to epkþ1 yields
+the second equation of equilibrium in Eq. (1.2) and any higherorder traction condition at time tc . The fields r0ij , q0ij  0 and s0ijk
+are required to satisfy the equations of equilibrium and any given
+traction boundary conditions but are otherwise arbitrary. (A similar incremental variational formulation can be developed for ratedependent material response but this is not required in the present
+work.)
+4.3 Plane-Strain Tension of a Passivated Strip. The domain
+V is now the strip defined by 1 < x1 < 1; h < x2 < h. The
+material is assumed to be isotropic and incompressible. The only
+1
+The forward difference approximation would take c ¼ k ¼ 0. For the backward
+difference approximation, c ¼ k ¼ 1. Both have an error of order Dt. The central
+difference approximation is defined by c ¼ k ¼ 1=2 and has an error of order ðDtÞ2 .
+
+071002-6 / Vol. 82, JULY 2015
+
+nonzero components of total strain are e11 and e22 ¼ e11 and
+similarly for the plastic strains: ep22 ¼ ep11 . These quantities are
+functions only of x2 and the timelike variable t. It will be convenient to write e for e11 and ep for ep11 . The strain e can be prescribed
+to be uniform, and is henceforth identified as the timelike variable.
+The step size Dt becomes De and ek ¼ e0 þ kDe. Since all boundary conditions (apart from those that define e) are homogeneous,
+r0ij and s0ijk can be chosen to be zero. With these specializations,
+the variation in the principle (4.6) is taken only with respect to ep
+and the integration is only over h < x2 < h.
+Attention will be focused on the first increment, k ¼ 1, and the
+notation y ¼ ep1  ep0 will be employed.2 For this first increment,
+the variational functional has no explicit dependence on x2 , and
+therefore, writing the integrand in the variational functional as
+f ðy; y0 Þ, the associated Euler–Lagrange equation has first integral
+f ðy; y0 Þ  y0 @f =@y0 ¼ constant.
+To make progress, some further specialization is necessary. The
+free energy w is taken as
+wðee ; ep ; rep Þ ¼
+
+E e e
+e e þ ð1  aÞwP ðeP ; eP Þ
+3 ij ij
+
+(4.7)
+
+with wP given by Eq. (2.5), the form (2.4) already having been
+exposed as “unsatisfactory” in the sense of giving an elastic gap,
+even for deformation theory; and for the rate theory, in which w is
+identified physically as the free energy, it is not acceptable that qRij
+and sRijk are not uniquely defined when EP ¼ 0. Note that, for the
+pﬃﬃﬃ qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+present problem, E P ¼ ð2= 3Þ ðep Þ2 þ ‘2R ðep0 Þ2 . The variable e_ P is
+taken as equivalent plastic
+pﬃﬃﬃ pstrain-rate, and this becomes, for the present
+problem, e_ P ¼ ð2=qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+3Þje_ j. The variable E_ P , in the first instance,
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+will be taken as e_2p þ ‘2UR ðe_P Þ2 , with e_P ¼ 2e_pij;k e_pij;k =3 which
+pﬃﬃﬃ
+becomes, in the present case, e_P ¼ ð2= 3Þje_p0 j. The potentials V1 and
+V2 are taken as
+V1 ðeP Þ ¼ ð1  a þ abÞrY eP and V2 ðEP Þ
+¼ arY ð1  bÞEP þ
+
+k
+ENþ1
+Nþ1 P
+
+(4.8)
+
+with a; b 2 ½0; 1. The forms Eqs. (4.7) and (4.8) deliver the basic
+power-law (1.4) in uniaxial tension, and they generalize the law
+(3.3).
+To make the first integral of the Euler-Lagrange equation for
+the first increment completely explicit—and of manageable
+p
+be p
+setﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+to zero, and the definitions YR
+length—e
+0 will
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ﬃ
+2
+¼ y þ ‘2R y02 ; YUR ¼ y2 þ ‘2UR y02 will be employed. The
+required first integral is
+Nþ1
+2E
+2ky
+Nk
+2k
+pﬃﬃﬃ YR
+ðec  kyÞ2 þ ð1  aÞrY ½ pﬃﬃﬃ 
+3
+3 Nþ1
+3
+Nþ1
+2k
+2ky
+þ k pﬃﬃﬃ
+y2 YRN1  þ ð1  a þ abÞrY pﬃﬃﬃ
+3
+3
+Nþ1
+2ky2
+Nk
+2k
+pﬃﬃﬃ YUR
+þ arY ½ð1  bÞ pﬃﬃﬃ
+
+3
+3YUR N þ 1
+
+2k
+þ k pﬃﬃﬃ
+3
+
+Nþ1
+
+N1
+y2 YUR
+¼c
+
+(4.9)
+
+The constant c is fixed from the symmetry requirement that
+y0 ð0Þ ¼ 0 which implies that YR ð0Þ ¼ YUR ð0Þ ¼ yð0Þ  y0 where
+y0 has yet to be determined. Thus,
+2
+For the first increment, ep0 ¼ 0. Retention of ep0 allows the general formula to
+apply, with re-numbering, to any increment and also to the case of uniform straining
+with surfaces unpassivated up to a uniform plastic strain ep0 , as considered in Ref. [1].
+
+Transactions of the ASME
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+Fig. 3 Pure bending in plane strain with no passivation followed by continued bending with passivation.
+The constitutive law is specified by a dissipation potential u given by Eq. (3.2) with no recoverable contributions. The material is taken to be incompressible and the computation in (a) is carried out using the ratedependent version with a strain-rate exponent m ¼ 0:1, as in Ref. [1]. The elastic loading gap as specified by
+the curvature increase Dj after passivation without plastic flow is plotted as a function of the curvature j at
+passivation in (b). The predictions in (b) are based on the rate-independent formulation and minimum principle I (3.9).
+
+"
+2E
+2ky0
+k
+2ky0
+2
+pﬃﬃﬃ
+ðec  ky0 Þ þ rY pﬃﬃﬃ þ
+c¼
+3
+3 Nþ1
+3
+
+Nþ1
+
+#
+
+(4.10)
+
+and finally for consistency, the requirement that z ¼ 0 when
+x2 ¼ h,
+h
+¼
+‘R
+
+Before continuing, normalized variables are introduced by defining eY ¼ rY =E, and then,
+z
+2kYR
+; ZR ¼ pﬃﬃﬃ ;
+z0
+3
+Z
+UR
+ZUR ¼
+z0
+
+2ky
+2ky0
+z ¼ pﬃﬃﬃ ; z0 ¼ pﬃﬃﬃ ;
+3eY
+3eY
+Z
+2kY
+R
+UR
+; ZUR ¼ pﬃﬃﬃ ;
+ZR ¼
+z0
+3eY
+
+(4.16)
+
+(4.11)
+N Nþ1
+ðRc  1Þð1  zÞ
+1
+Z
+ z2 ZRN1 ¼
+
+Nþ1 R
+Nþ1
+keNY zN0
+
+Equations (4.9) and (4.10) now give
+ð1  aÞ z 
+
+(4.12)
+
+where
+2ec
+Rc ¼ pﬃﬃﬃ
+3eY
+
+dz
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+ZR2  z2
+0
+
+fixes z0 .
+For the purpose of asymptotic analysis, the term of order z0 in
+Eq. (4.14) can be neglected to leave the equation
+
+z ¼
+
+NkeNY N Nþ1
+z Z
+þ keNY zN0 z2 ZRN1
+Nþ1 0 R
+z2
+NkeNY N Nþ1
+N1
+z Z
+þ keNY zN0 z2 ZUR
+þ a ð1  bÞ  
+ZUR N þ 1 0 UR
+1
+keN zN
+þ abz ¼ 1  Rc ð1  zÞ þ z0 ð1  z2 Þ þ Y 0 ;
+2
+Nþ1
+
+ð1
+
+(4.13)
+
+(4.17)
+
+This equation cannot be solved in closed form, but substitution of
+its solution into Eq. (4.15) would yield an equation for the param
+ 
+
+eter Rc  1 = keNY zN0 , requiring z0 to be of order ðRc  1Þ1=N .
+Thus, Rc should be close to 1, implying that e0 ¼ eY . Thus, as
+expected, there is no gap and z0 / ðDeÞ1=N . Note that the form of
+dependence of z0 on De is predicted consistently, for any choice of
+c and k. The constant of proportionality is given correctly by taking c ¼ N N=ð1NÞ and k ¼ N 1=ð1NÞ . Note also that, if the boundary
+of the strip were not passivated, the increment in plastic strain
+would have the same dependence on De, though with different
+amplitude.
+
+It is expedient now to consider special cases, as follows.
+4.3.2 The Case a ¼ 1. Equation (4.12) becomes
+
+4.3.1 The Case a ¼ 0. Equation (4.12) becomes
+keNY zN0
+
+N Nþ1
+Z
+ z2 ZRN1 ¼ ðRc  1Þð1  zÞ
+Nþ1 R
+1
+keN zN
+ z0 ð1  z2 Þ  Y 0 (4.14)
+2
+Nþ1
+
+Once this equation is solved for ZR , the solution of the differential
+equation to which it is equivalent follows as:
+x2
+¼
+‘R
+
+ð1
+
+dz
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+
+ZR2  z2
+z
+
+
+Journal of Applied Mechanics
+
+(4.15)
+
+
+
+NkeNY zN0 Nþ2
+N
+Z
+¼ z2 1  b þ keNY zN0 ZUR
+ aðzÞZUR
+N þ 1 UR
+
+(4.18)
+
+where
+1
+keN zN
+aðzÞ ¼ 1  bz  Rc ð1  zÞ þ z0 ð1  z2 Þ þ Y 0
+2
+Nþ1
+
+(4.19)
+
+The lowest-order asymptotic solution to Eq. (4.18) as z0 ! 0 is as
+follows:
+JULY 2015, Vol. 82 / 071002-7
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+1
+
+ZUR 
+
+ Nþ1
+N þ1 
+Rc  1  ðRc  bÞz
+NkeNY zN0
+
+there is also a serious problem in obtaining a good approximation
+near z ¼ 1 when z0 > 0. We have, however, performed analysis
+that shows that terms neglected are of lower order than those
+retained; these details are omitted here, for the sake of brevity.
+
+0  z < z 
+
+if
+
+and
+1
+Rc  b
+ð1  zÞ
+ZUR  z2 1 
+1b
+
+if
+
+
+
+z < z  1
+
+(4.20)
+
+4.3.3 The Case ‘R ¼ ‘UR . Equation (4.12) becomes
+
+
+NkeNY zN0 Nþ2
+Z
+¼ z2 að1  bÞ þ keNY zN0 ZRN
+Nþ1 R
+
+ 1 þ ð1  a þ abÞz  Rc ð1  zÞ
+
+where
+z ¼
+
+Rc  1
+Rc  b
+
+Substituting the asymptotic forms Eq. (4.20) into Eq. (4.16)
+requires the calculation of two integrals
+ð z
+
+dz
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ 
+2 
+ZUR
+z2
+0
+
+ð z
+
+dz
+ðN þ 1Þz0
+ ðkeNY Þ1=ðNþ1Þ
+
+N
+0 ZUR
+
+(4.22)
+
+and3
+dz
+2R^
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ  pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ tan1
+2
+2
+
+ZUR  z
+z
+R^2  1
+
+"
+
+R^ þ 1
+R^  1
+
+1=2
+
+#
+
+
+
+p
+2
+
+(4.23)
+
+where
+
+Rc  b
+R^ ¼
+1b
+
+(4.24)
+
+The integral (4.23) decreases monotonically from þ1 to 0 as R^
+increases from 1 to 1. It is therefore impossible to satisfy
+Eq. (4.16) unless R^ is at least R^c , the value of R^ for which that integral equals h=‘UR . Thus, an elastic gap is predicted.4 Plastic
+flow does not commence until e reaches a value e0 > eY , corresponding to the attainment of R^c . Now when e is increased to
+e0 þ De, the associated value of z0 is obtained when the integral
+(4.22) exactly compensates for the shortfall of Eq. (4.23) below
+h=‘UR . To first order
+ð1
+
+dz
+1
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ  h=‘UR 
+2 
+R^c ðR^2c  1Þ
+ZUR
+z2
+z
+
+
+h=‘UR þ p=2 þ R^c ðR^  R^c Þ
+
+(4.25)
+
+(4.27)
+
+This has exactly the same form as Eq. (4.18) and gives the same
+type of delay, basically induced by the term að1  bÞz2 =ZUR in
+Eq. (4.12).
+4.3.4 The Case a ¼ 1, b ¼ 1. The analysis of Sec. 4.3.2
+becomes nonuniform as b approaches 1. The value Rc of Rc that
+corresponds to R^c (which is fixed) tends to 1 as b ! 1, implying
+that the elastic gap reduces to zero. Correspondingly, the size of
+De for which the asymptotic formula has validity tends to zero.
+Furthermore, when b ¼ 1, Eq. (4.18) reduces exactly to Eq. (4.17)
+to leading order, except that ‘R is replaced by ‘UR , so z0 becomes
+proportional to ðDeÞ1=N .
+4.3.5 A Class of Nonrecoverable Laws That Display no Gap
+Under Stretch-Passivation. There does, however, remain a difference between the cases for which the gradient term is recoverable
+or nonrecoverable. The present problem does not show it, but if
+the strip were subjected to plane-strain tension with unpassivated
+boundaries, and then strain increased following passivation, as
+discussed in Ref. [1], a gap would still be displayed with the present constitutive law.5
+Now here is a nonrecoverable law that will display no gap
+under stretch-passivation; it is a slight generalization of the law
+(3.2). The free energy is unchanged, but EP is chosen to be ‘UR eP
+and
+V1 ðeP Þ ¼ rY eP þ
+V2 ð‘UR eP Þ ¼ arY
+
+ak Nþ1
+e
+;
+Nþ1 P
+
+k
+ð‘UR eP ÞNþ1
+Nþ1
+
+(4.28)
+
+This leads to the equation
+N Nþ1
+a
+zNþ1
+Z
+ z2 ZRN1 
+Nþ1 R
+Nþ1
+aNðk =kÞ
+ðRc  1Þð1  zÞ
+1
+
+ð‘UR jz0 jÞNþ1 
+þ
+(4.29)
+Nþ1
+Nþ1
+keNY zN0
+
+ð1  aÞ
+
+Completing the algebra gives the result
+
+"
+#Nþ1
+N
+2ky0
+N þ1
+h=‘UR þp=2þ R^c
+2cDe
+pﬃﬃﬃ
+pﬃﬃﬃ 
+R^2c 1
+3eY
+3eY Nk1=N eY ð1bÞðR^c 1Þ
+
+Nþ1
+N
+
+(4.26)
+
+This result is asymptotically exact if c ¼ ðN=ðN þ 1ÞÞN and
+k ¼ ðN=ðN þ 1ÞÞN . Remarkably, this exact result for y0 is also
+produced by the choices c ¼ k ¼ 1, corresponding to the use of
+the (inexact) “backward Euler” approximation.
+It should be noted that the derivation given is far from rigorous:
+the asymptotic approximations (4.20) break down near z ¼ z , and
+3
+The integral to follow is obtained via the variable transformation transformation
+^  zÞ, as in Ref. [1].
+cos h ¼ z=½1  Rð1
+4
+Strictly, it is necessary to demonstrate that there exist fields qUR and sUR that do
+not exceed the yield criterion, when R^ < R^c . This demonstration was made in a
+slightly different context in Ref. [1]; it is omitted here.
+
+071002-8 / Vol. 82, JULY 2015
+
+1
+keN zN
+ð1  z2 Þ þ Y 0 ZR
+2
+Nþ1
+
+N=ðNþ1Þ
+
+ðRc  1ÞN=ðNþ1Þ
+Rc  b
+
+ð1
+
+þ
+
+(4.21)
+
+This is similar in character to Eq.
+no gap. In
+ (4.17)
+ and displays
+
+the case a ¼ 1, the parameter Rc  1 = keNY zN0 is fixed by the
+requirement
+Nk
+k
+
+1
+Nþ1
+
+ð1
+0
+
+1
+
+ðN þ 1Þ
+
+Nþ1
+Rc  1
+h
+dz ¼
+zÞ  ð1  zNþ1 Þ
+N N ð1  
+‘UR
+keY z0
+(4.30)
+
+This is, of course, only one representative of a class of laws. The
+essential feature is that V2 should be a function of any positively
+homogeneous function ‘UR eP of degree 1, of ‘UR epij;k only, with the
+additional property that V20 ð0Þ ¼ 0. However, as argued in
+5
+
+We refrain from recording the analysis, in the interest of conciseness.
+
+Transactions of the ASME
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+5
+
+A Basic Gap-Free Incremental Theory
+
+The incremental formulation introduced in Sec. 3.3 is a gapfree incremental strain gradient plasticity which reduces to classical J2 flow when the gradients are sufficiently small. It will be
+implemented to illustrate several aspects of behavior of a
+stretched layer under passivation.
+ In the examples, the input tensile relation (1.4), r0 ðeP Þ ¼ rY 1 þ keNP , is again used and we
+take a ¼ 1 such that the dissipation function is u ¼ r0 ðeP Þe_ P . The
+contribution of the plastic strain gradients to the free energy in
+Eq. (3.10) is taken to be
+f ðeP Þ ¼
+
+Fig. 4 Average stress versus stretching strain for a passivated
+layer specified by the gap-free incremental theory defined in
+Sec. 5. The material is incompressible and the deformation is
+plane strain.
+
+Sec. 3.2, such theories will still display gaps for problems in
+which nonuniform plastic strain is developed prior to passivation.
+Still continuing with the case a ¼ 1, if there is already a plastic
+strain ep0 , the equation governing the increment is
+Nþ1
+
+2
+2ðep þ kyÞ
+k
+2ðep0 þ kyÞ
+pﬃﬃﬃ
+þ
+½ec  ðep0 þ kyÞ2 þ 0pﬃﬃﬃ
+3eY
+Nþ1
+3
+3
+k
+2‘UR Nþ1 p0
+p0
+0
+0
+pﬃﬃﬃ
+þ
+je0 þ ky0 jN ðep0
+0  Ny Þsgnðe0 þ ky Þ ¼ c
+Nþ1
+3
+(4.31)
+If the strip is stretched uniformly prior to passivation at plastic
+strain ep0 , then y0 ð0Þ ¼ 0 and this equation implies
+"
+!#
+N
+Nk eNY
+2ec
+2kep0
+0 Nþ1
+N
+p
+ﬃﬃ
+ﬃ
+p
+ﬃﬃ
+ﬃ
+ð‘UR jz jÞ ¼
+ðz0  zÞ
+ 1 þ keY
+Nþ1
+3
+3eY
+
+(4.32)
+
+which delivers no gap. If, however, ep0 depends on x2 , the presence
+of Eq. (4.32) made use
+of ep0
+0 alters this conclusion. The derivation
+of a Taylor expansion, valid for De
+ep0 , which is why it does not
+reduce exactly to Eq. (4.29) (with a ¼ 1) when ep0 ! 0.
+
+rY k
+ð‘R eP ÞNþ1
+Nþ1
+
+with sRijk ¼
+
+2rY k‘R ð‘R eP ÞN ePij;k
+3
+eP
+(5.1)
+
+In making the above choice for f ðeP Þ, we have followed [12,13]
+by assuming that geometrically necessary dislocations associated
+with eP contribute to the hardening with a functional dependence
+that is similar to that of the statistically stored dislocations generated by eP . In this particular case, the stress increase due to eP is
+ rY keNP while the corresponding stress generated by f ðeP Þ is
+ rY kð‘R eP ÞN . We will return to the issue of identifying f ðeP Þ
+shortly.
+The average stress as a function of strain for a layer of thickness
+2h which is passivated from the start and stretched in plane strain
+tension has been computed for the theory defined above. For this
+one-dimensional problem, because e_P ¼ e_P and e_ P ¼ e_P , it is readily shown that the solution is identical to that of the corresponding
+deformation theory with a ¼ 0 in Sec. 3.3. This correspondence
+has been exploited in generating the numerical results. The
+stress–strain behavior is plotted in Fig. 4 with associated results in
+Fig. 5. Figure 5(a) shows the emergence of the plastic strain at the
+center of the layer after yield, comparing the exact numerical
+result with an analytical asymptotic result. Figure 5(b) plots the
+distribution of the normalized plastic strain across one half of the
+layer at a particular imposed strain.
+The stress–strain curves in Fig. 4 have no gaps at initial yield
+yet they reveal substantial increases in flow strength in the early
+stages of plastic deformation due to strain gradient effects. Thus,
+the functional form for f ðeP Þ adopted in Eq. (5.1) gives rise to
+both early flow strength elevation and subsequent hardening elevation, even though the gradient contributions are entirely recoverable. There are more than a few theories in the literature with
+aspects in common with the basic theory in this section with
+
+Fig. 5 (a) The plastic strain at the center of the passivated layer as a function of the strain imposed on the
+layer—a comparison between pasymptotic
+and exact results. (b) The distribution of the normalized plastic
+ﬃﬃﬃ
+strain across the layer at 2e11 = 3 ¼ 3eY . In both parts, for the incompressible, incremental material in Sec. 5
+with N ¼ 0:2 and p ¼ 0:5.
+
+Journal of Applied Mechanics
+
+JULY 2015, Vol. 82 / 071002-9
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+Fig. 6 An unpassivated layer of thickness 2h stretched into
+the plastic range and then passivated followed by additional
+stretch, as predicted by the incremental theory in Sec. 5 for an
+incompressible layer in plane strain
+
+unrecoverable contributions to qij and only recoverable contributions to sijk . Among them are papers on isotropic theories
+[4,7,11,14] and on single crystal theories [15,16]. To our knowledge, all except [16] have taken f ðeP Þ, or its equivalent, to have a
+quadratic dependence on the gradients of plastic strain. A quadratic dependence on gradients does not display the strength elevation seen in Fig. 4, but, instead, it only reveals an increase in
+linear hardening behavior. Apparently, for this reason, a mistaken
+notion has taken hold in the literature that recoverable gradient
+effects contribute to hardening but not to strengthening. The argument for taking f ðeP Þ  ð‘R eP ÞNþ1 with N as the tensile hardening
+exponent is phenomenological but with some physical basis for
+metals with well-developed microstructures such as precipitates
+or dislocation cell structures [12,13]. The single crystal formulation applied to the grain size effect on strength in Ref. [16] estimated the free energy of geometrically necessary dislocations
+using the self-energy of a dilute distribution of dislocations giving
+a strictly linear dependence of the free energy on the plastic strain
+gradients. This choice gives a gap at initial yield noted by the
+authors. Evaluation of f ðeP Þ using fundamental dislocation computations is likely to be a fruitful point of contact between continuum theory and discrete dislocation theory. Some preliminary
+results [17] along these lines for an elementary, nondilute distribution of geometrically necessary dislocations suggest that f ðeP Þ is
+not quadratic but nearly linear in eP .
+The theory in this section has also been applied to the stretchpassivation problem considered in Ref. [1] where an unpassivated
+layer is first stretched into the plastic range and then passivated
+followed by further stretch. Prior to passivation the stress and
+strain distributions are uniform. After passivation the distributions
+become nonuniform and the problem requires an incremental
+step-by-step solution procedure. A numerical example is shown in
+Fig. 6 computed using minimum principle II in Eq. (3.7). There is
+no elastic loading gap after passivation, but there is a short rapid
+rise in the average stress analogous to that at initial yield. This is
+due to the fact that the stress contribution of the gradients is proportional to ð‘R eP ÞN .
+
+6
+
+Conclusions
+
+This paper has focused on identifying, analyzing, and possibly
+eliminating elastic loading gaps which arise in some formulations
+of strain gradient plasticity at initial yield and under nonproportional loading histories. While physical arguments against elastic
+loading gaps can be put forward, the view taken in this paper is
+that it is premature to prejudge the outcome on this matter until
+experiments and more fundamental dislocation studies concerning
+071002-10 / Vol. 82, JULY 2015
+
+the existence of gaps become available. Discrete dislocation models of boundary value problems of the type analyzed in this paper,
+if properly formulated and interpreted, should be capable of providing qualitative insight into the existence, or lack thereof, of
+elastic loading gaps. Also, the insights so gained might assist the
+design of experiments to test the existence or otherwise of gaps.
+The approach here has been to identify the features of the continuum constitutive laws which give rise to the gaps and to present a
+selection of examples which illustrate how to analyze the gaps
+and the early stage when plastic flow resumes. These problems
+can be fairly complex with unusual boundary layer behavior.
+While not exhaustive, the analysis in Sec. 4 illustrates a variety of
+behaviors that can arise.
+Relatively simple guidelines emerge for ensuring that there are
+no gaps at initial yield. A general finding is that all nonincremental formulations which contain unrecoverable (dissipative) contributions dependent on the gradients of plastic strain will
+necessarily produce elastic loading gaps for some problems. To
+date, it appears no thermodynamically acceptable recipes exist for
+an incremental formulation with dissipative contributions dependent on the gradients of plastic strain.
+An attractive gap-free, generalization of J2 flow theory incorporating strain gradients has been identified. The theory is incremental with recoverable and unrecoverable contributions and a welldefined yield surface. The contributions from the gradients of
+plastic strain are entirely recoverable. The examples considered in
+this work offer some guidance for the interpretation of experiments on passivated layers.
+
+Acknowledgment
+The authors are indebted to Professor L. Bardella for a careful
+reading of the original manuscript resulting in helpful suggestions.
+
+References
+[1] Fleck, N. A., Hutchinson, J. W., and Willis, J. R., 2014, “Strain Gradient
+Plasticity Under Non-Proportional Loading,” Proc. R. Soc., A, 470(2170),
+p. 20140267.
+[2] Bardella, L., and Panteghini, A., 2015, “Modelling the Torsion of Thin Metal
+Wires by Distortion Gradient Plasticity,” J. Mech. Phys. Solids, 78, pp. 467–492.
+[3] Gurtin, M. E., 2003, “On a Framework for Small-Deformation Viscoplasticity:
+Free Energy, Microforces, Strain Gradients,” Int. J. Plast., 19(1), pp. 47–90.
+[4] Gudmundson, P. A., 2004, “A Unified Treatment of Strain Gradient Plasticity,”
+J. Mech. Phys. Solids, 52(6), pp. 1379–1406.
+[5] Gurtin, M. E., and Anand, L., 2005, “A Theory of Strain-Gradient Plasticity for
+Isotropic, Plastically Irrotational Materials. Part I: Small Deformations,”
+J. Mech. Phys. Solids, 53(7), pp. 1624–1649.
+[6] Fleck, N. A., and Hutchinson, J. W., 1997, “Strain Gradient Plasticity,”
+Adv. Appl. Mech., 33, pp. 295–361.
+[7] Muhlhaus, H. B., and Aifantis, E. C., 1991, “A Variational Principle for Gradient Plasticity,” Int. J. Solids Struct., 28(7), pp. 845–857.
+[8] Fleck, N. A., and Willis, J. R., 2009,“A Mathematical Basis for Strain Gradient
+Plasticity Theory. Part I: Scalar Plastic Multiplier. Part II: Tensorial Plastic
+Multiplier,” J. Mech. Phys. Solids, 57(1), pp. 161–177.
+[9] Hutchinson, J. W., 2012, “Generalizing J2 Flow Theory: Fundamental Issues in
+Strain gradient Plasticity,” Acta Mech. Sin., 28(4), pp. 1078–1086.
+[10] Forest, S., and Sievert, R., 2003, “Elastoviscoplastic Constitutive Frameworks
+for Generalized Continua,” Acta Mech., 160(12), pp. 71–111.
+[11] Danas, K., Deshpande, V. S., and Fleck, N. A., 2010, “Compliant Interfaces: A
+Mechanism for Relaxation of Dislocation Pile-Ups in a Sheared Single
+Crystal,” Int. J. Plast., 26(12), pp. 1792–1805.
+[12] Fleck, N. A., Muller, G. M., Ashby, M. F., and Hutchinson, J. W., 1994, “Strain
+Gradient Plasticity: Theory and Experiment,” Acta Metall. Mater., 42(2),
+pp. 475–487.
+[13] Nix, W. D., and Gao, H., 1998, “Indentation Size Effects in Crystalline Materials:
+A Law for Strain Gradient Plasticity,” J. Mech. Phys. Solids, 46(3), pp. 411–425.
+[14] Niordson, C. N., and Legarth, B. N., 2010, “Strain Gradient Effects in Cyclic
+Plasticity,” J. Mech. Phys. Solids, 58(4), pp. 542–557.
+[15] Bittencourt, E., Needleman, A., Gurtin, M. E., and Van der Giessen, E., 2003,
+“A Comparison of Nonlocal Continuum and Discrete Dislocation Plasticity Predictions,” J. Mech. Phys. Solids, 51(2), pp. 281–310.
+[16] Ohno, N., and Okumura, D., 2007, “Higher-Order Stress and Grain Size Effects
+Due to Self-Energy of Geometrically Necessary Dislocations,” J. Mech. Phys.
+Solids, 55(9), pp. 1879–1898.
+[17] Evans, A. G., and Hutchinson, J. W., 2009, “A Critical Assessment of Theories
+of Strain Gradient Plasticity,” Acta Mater., 57(5), pp. 1675–1688.
+
+Transactions of the ASME
+
+Downloaded From: http://appliedmechanics.asmedigitalcollection.asme.org/ on 07/27/2015 Terms of Use: http://asme.org/terms
+
+

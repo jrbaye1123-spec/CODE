@@ -1,0 +1,837 @@
+Received: 6 July 2023
+
+| Accepted: 9 July 2023
+
+DOI: 10.1111/ropr.12574
+
+EDITORIAL
+
+Politics and policy of Artificial Intelligence
+Abstract
+While recent discussions about Artificial Intelligence (AI) as one of the most powerful technologies of our times tend to portray it as a predominantly technical issue, it also has major social,
+political and cultural implications. So far these have been mostly studied from ethical, legal and
+economic perspectives, while politics and policy have received less attention. To address this
+gap, this special issue brings together nine research articles to advance the studies of politics
+and policy of AI by identifying emerging themes and setting out future research agenda. Diverse
+but complementary contributions in this special issue speak to five overarching themes: understanding the AI as co-shaped by technology and politics; highlighting the role of ideas in AI
+politics and policy; examining the distribution of power; interrogating the relationship between
+novel technology and continuity in politics and policy; and exploring interactions among developments at local, national, regional and global levels. This special issue demonstrates that AI
+policy is not an apolitical field that can be dealt with just by relying on knowledge and expertise
+but requires an open debate among alternative views, ideas, values and interests.
+
+I N T RO D UCT ION : W H Y FOCU S ON POLITICS AND POLICY
+O F ART I F I C IAL IN T E LLIG E N CE?
+Artificial intelligence (AI) today is seen as one of the most powerful technologies. While it is often
+perceived as a highly complex technical issue, AI also has major social, political and cultural implications. Over the past few years, these broader implications of AI have received considerable
+attention from social scientists and humanities researchers. In particular, issues of AI ethics,
+economics and regulation have been extensively studied (Floridi et al., 2018; Jobin et al., 2019;
+Larsson, 2020; Schiff et al., 2021; Ulbricht & Yeung, 2022).
+Recently, we are seeing growing interest in the topics of AI politics, governance and policy (af
+Malmborg & Trondal, 2023; Djeffal et al., 2022; Justo-Hanani, 2022; Radu, 2021; Taeihagh, 2021;
+Ulnicane et al., 2021), which initially were largely neglected. The emerging topic of the politics of
+AI has been studied from a range of disciplinary perspectives that goes well beyond political science and policy research and includes contributions from disciplines and fields, such as philosophy, media studies and Science and Technology Studies (Coeckelbergh, 2022; Crawford, 2021;
+Stilgoe & Mladenović, 2022). In his overview of the impacts of AI on freedom, equality, democracy and power, Mark Coeckelbergh highlights that ‘AI is political through and through’
+(Coeckelbergh, 2022, p. 5). At the same time, these recent studies indicate the dearth of work
+not only on the politics of AI but also on the politics of technology more broadly. Some attention
+to the politics of technology has been paid in Science and Technology Studies (Jasanoff, 2016;
+Winner, 1980) but political science has largely overlooked this topic.
+612
+
+| © 2023 Policy Studies Organization.
+
+wileyonlinelibrary.com/journal/ropr
+
+Rev Policy Res. 2023;40:612–625.
+
+| 613
+
+To address this gap, this special issue brings together diverse but complementary contributions on politics and policy of AI with an aim to strengthen this topic and set out a research
+agenda for the future. This special issue is a result of several years of collaborative effort and exchange of ideas. In 2020 we started to organize dedicated panels at the European Consortium for
+Political Research (ECPR) General Conference. These panels at the ECPR General Conferences
+from 2020 to 2022 as well as an online workshop in early 2022 helped to establish common research interests, identify synergies and create a research community. These activities led to this
+special issue that includes nine articles that approach the topic of politics and policy of AI in an
+interdisciplinary manner (See Table 1). In addition to political science and policy research, contributions also draw on Science and Technology Studies (Kim, 2023; Ulnicane & Aden, 2023), migration and international education research (Chou & Gomes, 2023), technology policy studies
+(Schiff, 2023; Ulnicane & Aden, 2023), anthropology (Giest & Samuels, 2023) and organizational
+research (af Malmborg, 2023; Erkkilä, 2023).
+Articles in this issue focus on a range of aspects and approaches to study the politics and
+policy of AI. While each contribution provides its own unique perspective, taken together the
+studies of politics and policy of AI in this issue focus on how collective decisions and policies of
+AI are made, priorities set and goals chosen in the context of plurality of actors, views, ideas and
+values. That includes questions of who is included and who is excluded from making and influencing collective decisions and public policies, which roles and positions do various actors have
+and which social groups are affected by adopted policies and how. These questions go straight to
+the heart of the topics of distribution of power, participation and inequality. By interrogating a
+diversity of views, ideas, values and actors in the politics and policy of AI, this special issue challenges a widespread view of AI as an apolitical policy field (Rönnblom et al., 2023). Contributions
+in this special issue highlight that the politics of AI policy cannot just be addressed by having
+more knowledge, information and evidence, but instead require an open debate of alternative
+views, interests and values.
+Our approach to the politics and policy of AI can be seen in the way we order articles in this
+special issue. Rather than starting in a top-down manner from global politics and policy, then
+moving to the regional and national level and finally finishing with effects on disadvantaged
+groups, we turn this established order upside down. As we believe that a priority for politics
+and policies is to challenge established power relations and hierarchies and address structural
+injustices, we start this special issue with focus on the effects of AI on disadvantaged groups,
+such as migrants and minorities. This includes contributions on the role of social infrastructure
+for e-inclusion (Giest & Samuels, 2023), social construction of on-demand food delivery couriers (Chou & Gomes, 2023), framing of intersectional bias (Ulnicane & Aden, 2023) and gender
+equality (Rönnblom et al., 2023). We then turn our attention to AI policy at national and regional
+levels with studies of South Korea and France (Kim, 2023), the United States (Schiff, 2023) and
+the European Commission (af Malmborg, 2023). We finish our special issue by examining developments at the global level with contributions on global standard setting (von IngerslebenSeip, 2023) and global indicators (Erkkilä, 2023).
+Politics and policy of AI in this special issue is studied in diverse geographical locations, using
+a range of theories, concepts, methods and data (Table 1). Contributions examine developments
+in Europe, the United States and Asia-Pacific. Authors use a variety of theoretical and conceptual
+frameworks, such as policy scripts, paradigms, frames and narratives, socio-technical imaginaries, social construction, policy design, multiple streams framework and game theory. They draw
+on a number of research methods and data, including interviews, observations, documents analysis, comparisons and case studies.
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+EDITORIAL
+
+Overview of special issue articles.
+
+Author/s
+
+Title
+
+Theories & concepts
+
+Methods & data
+
+Focus
+
+Giest & Samuels
+
+Administrative burden in digital
+public service delivery: The social
+infrastructure of library programs for
+e-inclusion
+Politics of on-demand food delivery:
+Policy design and the power of
+algorithms
+Power and politics in framing bias in
+artificial intelligence policy
+
+Administrative burden, digital
+divide, e-inclusion
+
+Interviews,
+observation
+
+Role of libraries in e-inclusion in
+the Netherlands
+
+614
+
+TABLE 1
+
+|
+
+Chou & Gomes
+
+Ulnicane & Aden
+
+Social construction; policy design Comparative case
+studies
+Document analysis
+
+Rönnblom, Carlsson &
+Öjehag-Pettersson
+
+Gender equality in Swedish AI policies.
+What's the problem represented
+What's the problem represented to be?
+to be? approach;
+Governmentality framework
+
+Document analysis
+
+Kim
+
+Traveling AI-essentialism and national
+AI strategies: A comparison between
+South Korea and France
+Looking through a policy window with
+tinted glasses: Setting the agenda for
+U.S. AI policy
+
+Sociotechnical imaginaries, AI
+essentialism
+
+Document analysis,
+comparison
+
+Multiple streams framework,
+technology policy paradigms
+
+Narrative dynamics in European
+Commission AI policy—
+Sensemaking, agency construction,
+and anchoring
+Competition and cooperation in artificial
+intelligence standard setting:
+Explaining emergent patterns
+Global indicators and AI policy: Metrics,
+policy scripts and narratives
+
+Policy narratives
+
+Qualitative and
+quantitative
+content analysis
+of policy
+documents
+Document analysis
+
+Schiff
+
+af Malmborg
+
+von Ingersleben-Seip
+
+Erkkilä
+
+Game theory
+
+Policy scripts and framing
+
+Interviews,
+document
+analysis
+Conceptual analysis,
+visual network
+analysis
+
+Studying how the European
+Commission used different
+types of narratives to construct
+AI policy
+Explaining global competition and
+cooperation in setting technical
+and ethical AI standards
+Global rankings' framing of AI
+policy
+
+EDITORIAL
+
+Policy framing, intersectionality,
+technological fix
+
+Contrasting food courier profiles
+in Melbourne and Singapore
+due to policy
+Analyzing technological and
+social frames of intersectional
+bias in AI policy
+Examining representation of
+gender equality in Swedish AI
+policy and its effects on power
+relations
+Comparing IT and AI policy
+discourses in South Korea and
+France
+Analyzing US AI policy
+according to traditional and
+transformative technology
+policy paradigms
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 615
+
+EM E RG I NG TH E ME S ON POLIT ICS AND POLICY OF
+ART I F I C I A L IN T E LLIG E N CE
+Contributions in this special issue speak to five overarching themes (see Table 2), which are
+closely intertwined with each other: understanding of AI and the concept of technology in policy
+and politics; ideational and cognitive dimension of AI policy; distribution of power; relationship between change and continuity; and interactions among developments at local, national, regional and global levels. For each theme, we have formulated a set of common questions, which
+are discussed below.
+
+Artificial Intelligence
+Question 1: How is AI and the concept of technology more broadly understood and defined in politics
+and policy? Do instrumental understanding of technology as a tool to pursue economic and social
+aims dominate in AI policy and politics? Are political, social and cultural aspects of AI and technology recognized as well? Who defines AI and technology and what are broader implications of
+specific definitions and understandings?
+The definition and understanding of AI is highly contested and continuously debated in research and policy (Whittaker, 2021). Such controversies surrounding the definition of AI can
+be seen during the development of the EU AI Act, when the choice between broader or narrower definitions of AI became one of the hotly debated issues (Renda & Engler, 2023), resulting
+in support for drawing on broad definition of the Organization for Economic Cooperation and
+Development (OECD), which has defined an AI system as ‘a machine-based system that can,
+for a given set of human-defined objectives, make predictions, recommendations, or decisions
+influencing real or virtual environments’ (OECD, 2019, p. 2).
+These debates illustrate an important theme of this special issue, namely, that AI as any
+technology is not just a neutral tool but is co-shaped and co-produced by society, politics, economics, power relations and various interests (Jasanoff, 2016; Winner, 1980). Articles in this
+special issue demonstrate how this co-shaping takes place at various contexts and levels from
+on-demand food platforms, their couriers, regulators and consumers (Chou & Gomes, 2023)
+to global rankings providing scripts for AI policy (Erkkilä, 2023) and global standard setting
+where states with very diverse political and cultural traditions collaborate and compete in
+deciding rules for the development and use of AI (von Ingersleben-Seip, 2023). Contributions
+also show that this co-shaping is particularly important, as AI with its new applications developing fast can be seen as an emerging technology (Ulnicane & Aden, 2023) characterized by
+high uncertainty and novelty (af Malmborg, 2023). However, not everyone has equal opportunities to participate in co-shaping AI and it can lead to reproducing existing inequalities and
+exclusion of disadvantaged groups (Chou & Gomes, 2023; Giest & Samuels, 2023; Rönnblom
+et al., 2023; Ulnicane & Aden, 2023).
+AI shares many similar features with other past and present emerging technologies, such
+as nanotechnology, genome editing or quantum computing. Emerging technologies are characterized by novelty, uncertainty and fast growth (Rotolo et al., 2015) as well as expectations
+and hypes and their performative function (Van Lente et al., 2013). As such they need specific
+policies and governance that is tentative and provides room for experimentation (Kuhlmann
+et al., 2019; Ulnicane et al., 2021). However, AI today is a somewhat unusual emerging technology. As Jongheon Kim (2023) reminds in this special issue, AI has gone through several hype
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+EDITORIAL
+
+616
+
+|
+
+TABLE 2
+
+Overview of emerging themes in special issue articles.
+
+Author/s
+
+Local, national,
+regional & global
+
+Artificial Intelligence
+
+Ideational dimension
+
+Power
+
+Change & continuity
+
+Giest & Samuels Digital public services
+
+Digital skills and literacy
+
+Service users' agency and
+(limited) autonomy
+
+Citizens' changing role as
+service users
+
+Local & national
+
+Chou & Gomes
+
+Platforms, algorithms
+
+Social construction
+
+Ideational power; platform
+work empowers &
+disempowers
+
+Upholding existing
+hierarchies; pressures for
+change
+
+Diverse city & national,
+similar global trends
+
+Ulnicane &
+Aden
+
+Emerging tech, tech fixes
+
+Policy framing
+
+Intersecting identities;
+power of framing
+
+Reinforcing existing
+inequalities
+
+Cross-national &
+international
+
+Rönnblom,
+Carlsson
+& ÖjehagPettersson
+
+AI & digitalization policy
+
+What's the problem
+represented to be?
+approach
+
+Gendered power relations
+
+Continuity & discontinuity
+of gender mainstreaming
+in AI policy
+
+National, influenced by
+EU
+
+Kim
+
+Return of AI
+
+Sociotechnical imaginaries,
+AI essentialism
+
+Centralized state
+
+From IT power to AI power
+
+Global discourses in
+diverse national
+settings
+
+Schiff
+
+AI policy, technology
+policy
+
+Policy paradigms
+
+Dominance of experts
+
+Dominance of traditional
+tech policy paradigm
+
+National
+
+af Malmborg
+
+Uncertainty
+
+Narratives
+
+Power to frame interests
+
+Novel policy anchored in
+existing policy
+
+European Union
+
+von
+Standards
+IngerslebenSeip
+
+Norms
+
+Rules
+
+Coordination game as
+mechanism of continuity
+and change
+
+Global cooperation and
+competition
+
+Erkkilä
+
+Concepts, narratives, scripts
+
+Quantification and framing Narratives of change, path
+dependencies in data
+production
+
+Competitiveness, AI
+readiness
+
+Global competition
+EDITORIAL
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 617
+
+cycles of ‘AI springs’ and ‘AI winters’ since the term was coined in the 1950s, with a recent revival
+of high level political and economic attention. Nevertheless, with many new applications and
+hype surrounding it, AI today exhibits key characteristics of an emerging technology.
+Exactly ten years ago, Review of Policy Research published a special issue on one of the main
+emerging technologies of the time, namely, nanotechnology (Guston, 2013). Reading it today
+and comparing it with discussions about AI, we encounter a number of similar themes including
+awareness of and engagement with socio-political aspects of emerging technology (Guston, 2013),
+interrogation of agenda-setting and policy shaping in response to societal concerns (Anderson
+& Slade, 2013; Michelson, 2013), risks to vulnerable populations (Savath & Brainard, 2013) and
+scrutiny over industry's responsibility in the development of new technology (Shelley-Egan &
+Davies, 2013). At the same time, we also observe that, with wide-ranging applications of AI, the
+topics of politics and power in the context of emerging technologies have become even more
+salient.
+
+Ideational and cognitive dimensions
+Question 2: What is the role of ideational and cognitive dimension of AI policy? What do ideational
+approaches, such as socio-technical imaginaries, narratives, discourses, frames and policy scripts,
+reveal about AI politics?
+Several contributions examine the role of ideas in shaping AI politics and policies through
+conceptual lenses of policy paradigms (Schiff, 2023), narratives (af Malmborg, 2023), sociotechnical imaginaries (Kim, 2023) and policy frames (Erkkilä, 2023; Ulnicane & Aden, 2023).
+Ideas can be powerful because they influence the definition and understanding of what the
+problem is, what actions are deemed possible in addressing it and which issues are neglected
+(Chou & Gomes, 2023; Rönnblom et al., 2023; Ulnicane & Aden, 2023). They also influence how
+different social groups are framed and constructed in policy. Meng-Hsuan Chou and Catherine
+Gomes (2023) demonstrate how food couriers are socially constructed as ‘deserving’ or ‘undeserving’ of benefits and good working conditions.
+Frans af Malmborg (af Malmborg, 2023) highlights the fundamental role that narratives play
+in constructing policy within uncertain contexts. In his study of the European Commission's policy response to AI as a fast-paced emerging technology, he shows how the European Commission
+uses different types of narratives—sensemaking, agency construction and anchoring—to construct the new area of AI policy. Kim (2023) demonstrates how socio-technical imaginaries of AI
+essentialism with their focus on dialectics of optimism and pessimism, inevitability and epochalism have influenced national AI strategies of Korea and France and had concrete consequences
+leading to changes in government investment and education.
+Several contributions examine competing ideas in AI policy. Inga Ulnicane and Aini
+Aden (2023) demonstrate how alternative technical and social frames of bias compete for legitimacy, attention and resources. Daniel Schiff analyses the US AI policy drawing on traditional
+and transformative technology policy paradigms. The traditional paradigm focuses on strategic
+economic and national competitiveness objectives and technical expertise, but the transformative
+one prioritizes societal and ethical concerns and the need for diverse and inclusive participation
+(Schiff, 2023). While his findings reveal the presence of both paradigms in the policy documents,
+the traditional paradigm still dominates as social and ethical concerns related to the transformative paradigm are subsumed into arguments favoring economic and geopolitical goals.
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+EDITORIAL
+
+|
+
+EDITORIAL
+
+Representations and framings of policy problems function as devices for constructing issues
+of concern (cf. Bacchi, 1999). But such representations of problems and their framing also tend to
+rule out policy alternatives (Erkkilä, 2023; Rönnblom et al., 2023). Malin Rönnblom et al. (2023)
+demonstrate how the Swedish policies that focus on AI and gender equality tend to represent
+problem as a question of lack of knowledge and information and in that way to rule out other
+possible problem representations, such as the lack of women in the development of AI systems,
+or that AI systems in themselves, are outside of democratic control. Tero Erkkilä's (2023) analysis
+shows how numerical and conceptual objectification in the production of AI rankings works to
+delimit policy alternatives. While some policy frames delimit and rule out alternatives, others
+can expand and offer alternative representations of problems and possible actions. Ulnicane and
+Aden (2023) demonstrate how social frame broadens the understanding of bias in AI beyond the
+traditional technical frame.
+
+Power
+Question 3: What manifestations of power do we encounter in AI politics and policies? How is power
+distributed among different actors, such as the government, companies and the public or employers and employees? How does power relate to intersectional characteristics, such as race, gender or
+socio-economic status?
+Power is becoming one of the key topics in debates about politics and policy of AI. Highly
+unequal distribution of power in AI with huge concentration of resources in a small number of
+big technology companies is seen as a major problem (Ulnicane et al., 2021; Whittaker, 2021).
+In this context, it becomes difficult to disentangle market and public interests (Radu, 2021). To
+counteract the dominance of big business interests, a number of governments aim to undertake
+more active roles in regulating and steering AI and creating multi-stakeholder forums, which
+however tend to get captured by more resourceful and better organized vested interests (Djeffal
+et al., 2022; Ulnicane et al., 2021). Several approaches aim to resist and challenge established
+hierarchies of dominance of big companies in AI development, which particularly harm marginalized groups. Critical, intersectional, feminist and decolonial approaches argue for the need for
+systemic restructuring that would enable more democratic, equal and diverse development of AI
+(Png, 2022; Toupin, 2023).
+Contributions in this special issue reveal complex ways in which AI reconfigures power relationships. Chou and Gomes (2023) in their work on exploitative working conditions of food
+couriers demonstrate how algorithms simultaneously empower and disempower precarious
+platform workers by giving them the illusion of opportunity and control, while at the same time
+exploiting them. Unfair labour conditions also lead to resistance movements and techniques as
+well as solidarities among exploited workers who help each other out and share information and
+expertise.
+The structural aspects of power also are present in the analysis of certain user groups' disadvantages and limited autonomy in accessing digital services. Sarah Giest and Annemarie
+Samuels (2023) address administrative burden of algorithmic governance. Their contribution explores structural power aspects from the perspective of administrative burden. Using interviews
+and observation, the article analyses library programmes as potential social infrastructure for
+e-inclusion, allowing individuals to gain agency as service users and citizens.
+However, declared intentions for democratization and broader participation in AI do not always translate into concrete proposals. In his analysis of the US AI policy documents, Schiff finds
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+618
+
+| 619
+
+that despite widespread calls for increased public and diverse participation, the large majority
+of concrete proposals focus on the involvement of industry and government experts, and fail to
+facilitate public engagement or even cite public opinion data (Schiff, 2023). Among concerns
+about the dominant role of industry and technical experts in AI, Kim's (2023) study of France and
+Korea demonstrates the power of a centralized state.
+Several contributions in this special issue highlight the power of ideas (see previous section). The contributions of Kim (2023), af Malmborg (2023), Erkkilä (2023) and Ulnicane and
+Aden (2023) show how framing of AI policies implies power in agenda setting, highlighting narrative elements of policy discourses and scripts. af Malmborg (2023) points out that established
+approaches to the study of narratives often tend to delimit their ideational power by depicting
+them as tools that actors deploy strategically. Instead, he explores the possibility that narratives
+function on a more fundamental level as constructing heuristics framing interests rather than
+being put to use within predefined interest spheres. That is particularly relevant for issues perceived as uncertain and novel—like AI policy in recent years, where actors do not necessarily
+already have clear interests and preferences. In similar fashion, the existing metrics and indicator
+data used in global rankings is habitually used by the novel AI readiness rankings, effectively
+reproducing the existing policy scripts of competitiveness and innovation (Erkkilä, 2023).
+Ulnicane and Aden (2023) in their work on framing bias in AI policy indicate how an alternative framing can challenge powerful interests. Examining the framing of bias, they show how
+technological and social frames of intersectional bias in AI policy include power aspects and
+suggest alternative solutions. An influential technical frame has tended to dominate discussions
+of bias in AI, suggesting AI as a technological fix for bias. However, it is being challenged by an
+alternative social frame that presents bias as a complex multi-faceted political, historical and
+social problem, which AI exacerbates by amplifying racial, gender and socio-demographic inequalities. This latter frame considerably expands the understanding of bias in AI and the range
+of possible actions to tackle it.
+
+Change and continuity
+Question 4: In a fast-developing area of AI policy and politics, what is the relationship between
+change and continuity? Do novel ideas emerge or do we see strong path-dependences of established
+discourses?
+Several contributions in this special issue reveal that new AI policies and applications do
+not necessarily lead to major changes but rather demonstrate considerable continuity and path
+dependence (Mahoney & Thelen, 2010) of policy ideas, institutional responses and established
+power relations (Chou & Gomes, 2023; Kim, 2023; Schiff, 2023; Ulnicane & Aden, 2023). It is
+remarkable that novelty and uncertainty of AI often goes hand in hand with strong conformity
+in AI policies, where past experiences but also problems are being reproduced (Erkkilä, 2023;
+Rönnblom et al., 2023). However, such reproduction of existing practices calls for critical analysis
+of the constitutive effects of algorithmic governance. This implies elements of both structural
+and discursive constraints and path dependencies, but also drivers of change. In fact, several
+contributions of the special issue highlight an interplay of structural and ideational aspects of AI
+policy, marking openings for both continuity and change.
+Concerning structural elements, Chou and Gomes (2023) find that algorithm-based technology contributes to upholding existing socio-economic class hierarchies—couriers as immigrants and minorities in Australia and corresponding bottom-up pressures for change from
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+EDITORIAL
+
+|
+
+EDITORIAL
+
+advocacy groups and top-down pressures for policy intervention in the case of Singapore because only Singaporeans and residents are allowed to be employed as food couriers. As Giest and
+Samuels (2023) show, the administrative burden of accessing digital public services is strongly
+linked to structural aspects that disadvantage certain groups more than others. However, the
+remedy and potential driver of change is the social infrastructure provided by public libraries.
+Schiff's analysis reveals that the nascent US AI policy agenda exhibits strong path-dependence
+following the traditional innovation policy paradigm (Schiff, 2023). Traditional technology policy
+ideas of economic competitiveness largely dominate AI policy, while the more recent transformative
+paradigm and its focus on social and ethical concerns is being layered into the traditional paradigm
+with partial success. Similarly, Kim (2023) analyses recent national AI strategies of Korea and France
+in a long-term context by demonstrating how they build on earlier socio-technical imaginaries of IT.
+The study by af Malmborg (2023) of how the European Commission constructed AI policy demonstrates an interesting interaction of novel and pre-existing organizations and policies. He shows the
+construction of new roles for existing stakeholders, expansion of roles for existing collaboration networks and anchoring of novel AI policy within the well-known EU single market policy.
+In their study of Swedish policies, Rönnblom et al. (2023) show a nuanced picture of continuities and discontinuities. Despite Sweden having established itself as a world leader in gender equality and having long-standing ambitions to include gender mainstreaming in all aspects
+of politics, gender equality is disregarded in national AI policy that represents AI as a genderneutral policy field. At the same time, in specific policy documents on AI and gender equality the
+main problem is framed as lack of knowledge and information, which is a recurring problem in
+national gender equality policy.
+Erkkilä's (2023) article uses network visualization and conceptual analysis of global rankings
+and indicator data to show how the metrics of AI readiness have come to adopt the standard
+ideas of economic competitiveness. There is a strong path dependence in AI readiness indices
+that largely copy concepts, methods and data from previous rankings of economic competitiveness and innovation instead of providing a novel alternative. This delimits alternative policy
+frames, such as AI ethics.
+
+Local, national, regional and global dynamics
+Question 5: How do intertwined local, national, regional and global processes play out in the field
+of AI politics and policy? Do we see policy learning and convergence or do diversity and divergence
+across national and regional policies dominate? How do dynamics of global cooperation and competition play out in AI politics and policy?
+The politics and policy of AI are unfolding in a multi-level governance system where actions
+and ideas at local, national, regional and international contexts are closely intertwined. Studies
+have revealed policy learning, mutual influence and convergence across different countries, organizations and regions, while also indicating diversity in understanding and implementing specific policy priorities and instruments (af Malmborg & Trondal, 2023; Png, 2022; Radu, 2021;
+Ulnicane et al., 2021).
+Contributions in this special issue focus on politics and policy at different levels including
+local (Giest & Samuels, 2023), local and national (Chou & Gomes, 2023), national (Kim, 2023;
+Rönnblom et al., 2023; Schiff, 2023), regional (af Malmborg, 2023), global (Erkkilä, 2023; von
+Ingersleben-Seip, 2023) and a mix of different levels (Ulnicane & Aden, 2023). They illustrate
+complex relationships between unique local and national contexts and overarching regional and
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+620
+
+| 621
+
+global developments. While digital platforms are globally known for their exploitative working
+conditions, Chou and Gomes (2023) demonstrate that policies on who can be food couriers in
+two Asia-Pacific cities Singapore and Melbourne differ considerably, whereas they must be citizens and permanent residents in the former and are often international students in the latter.
+Kim (2023) demonstrates how common discourses in Korean and French national AI strategies
+have unfolded differently in diverse national contexts.
+Complex interactions among different levels are also revealed in contributions that focus primarily on the national level AI policy. Rönnblom et al. (2023) examine how national AI policy
+is developed in a unique Swedish context, but at the same time is influenced by EU AI policy.
+Schiff (2023) analyses how technology policy paradigms that have broader international relevance play out in the specific agenda setting context for US AI policy, advancing the traditional
+US approach to technology with global implications.
+AI policy has become a domain of global competition, where countries and regions are pitted
+against each other in trying to harness its full potential (Erkkilä, 2023). However, in attempting to
+gain competitive advantage over their perceived competitors, governments adopt similar traveling discourses and imaginaries of AI (Kim, 2023) and tend to privilege economic and geopolitical
+problem framings over social and ethical concerns (Schiff, 2023), while future oriented narratives
+are used to contain uncertainty (af Malmborg, 2023).
+Importantly, global competition in AI goes hand in hand with attempts for global collaboration. The article by Nora von Ingersleben-Seip (2023) uses a game theoretical approach to explain
+patterns of collaboration and competition in AI standard setting, arguing that the interplay of
+actors, issues, and games determine prospects for cooperation on global AI standards within
+international organizations and transnational standard-setting organizations. Her study reveals
+striking patterns of technical experts hailing from geopolitical rivals, such as the United States
+and China, readily collaborating on technical AI standards, whereas governments are much less
+willing to collaborate on global ethical AI standards within international organizations.
+
+F UT U RE RE SE ARCH AG E N DA ON POLITICS AND POLICY
+O F ART I F I C IAL IN T E LLIG E N CE
+Contributions in this special issue indicate a number of important research avenues for future
+work on the politics and policy of AI. For future analysis, the issues of framing and narration
+will be important, as it is through these means that problems related to AI technologies get considered for political action or not. Moreover, the temporal elements of AI policy are particularly
+pronounced, as there is a strong anticipatory element in the current AI policies and narratives
+on technological change. What kind of future is being portrayed and to what extent is it open for
+alternatives?
+Politics and policy of AI is a moving target, which is co-shaped by technological and political
+developments. Several contributions examine in depth the content and adoption of AI policy
+documents, guidelines and standards (af Malmborg, 2023; Erkkilä, 2023; Kim, 2023; Schiff, 2023;
+Ulnicane & Aden, 2023; von Ingersleben-Seip, 2023). In future, it will be important to turn the
+focus to their implementation. Articles in this issue indicate that important sites of AI politics
+and policy can be found at all levels from local and national to regional and global. Moreover,
+developments at one level are influenced by or tend to influence others like global developments
+influencing local, national and regional ones and vice versa. More work is needed to study interactions between different levels to analyze if and how they complement or are in tension with
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+EDITORIAL
+
+|
+
+EDITORIAL
+
+each other, for example, does national or regional AI regulation make global voluntary standards
+obsolete or do they complement each other. In addition to Europe, the US and Asia-Pacific studied in this issue, it is necessary to turn attention to other regions as well. While this special issue
+has a strong focus on ideational aspects of AI policy and politics, future work would benefit from
+considering the interplay of ideational and structural dynamics.
+As AI policy develops and AI applications are used more widely, several contributions invite to take a closer look at follow-up developments of their specific topics by focusing on the
+role of social infrastructure and its venues in supporting access to digital public services (Giest
+& Samuels, 2023), treatment, rights and working conditions of platform workers (Chou &
+Gomes, 2023) and the development of global governance of AI with a special attention to complex issues, such as the role of China (von Ingersleben-Seip, 2023). Ulnicane and Aden (2023)
+suggest using intersectional and feminist approaches to radically reimagine AI politics and policies, addressing the key problems, such as concentration of power and prioritizing economic over
+social issues and making AI more inclusive, diverse and collaborative. Other approaches, such as
+decolonial and critical AI, could also be helpful here.
+Further conceptual and empirical work on the politics and policy of AI and technology more
+broadly is needed, integrating theories and approaches from a range of scientific disciplines and
+research fields, such as political science, Science and Technology Studies, policy analysis and
+sociology. As the topic of politics and policy of AI attracts an interest from various disciplines, it
+is important that concepts such as politics and power are not just used as magical words with a
+performative function but can be explained and understood across different disciplines, building
+on and advancing existing concepts, approaches and capacities toward expanding and enriching
+our understanding of this complex topic.
+
+O UT LO O K : TOWAR D POLIT ICS A ND POLICY OF
+EM E RG I NG TECH OF 2033
+Ten years ago, in 2013 Review of Policy Research examined socio-political aspects of nanotechnology as one of the main emerging technologies of the time (Guston, 2013). Today in 2023 we analyze the politics and policy of AI, which is seen as one of the most powerful technologies of our
+times. In the context of current hype surrounding AI, attention to nanotechnology has almost
+disappeared from the political agenda. What will be the emerging technologies that will be prioritized in ten years' time? Will AI still be the main rapidly-developing technology in 2033 at the
+centre of the political and research agenda? Will AI by that time govern us, write research articles
+and run scientific journals? The key political question here is—if that is the type of future that
+diverse social groups want. An important underlying message from contributions in this special
+issue is that technologies and politics should not be taken as given and that it is important to have
+opportunities for various stakeholders to meaningfully participate in co-shaping and exploring
+alternative political and technological futures.
+KEYWORDS
+Artificial Intelligence, emerging technology, governance, policy, politics, power
+ACKNOWLEDGMENTS
+We wholeheartedly thank all the authors and reviewers for their contributions. Without their commitment, hard work and engagement this special issue would not be possible. We are grateful to
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+622
+
+the Review of Policy Research editorial team—Ilana Schröder, Colette Vogeler, Johanna Hornung
+and Nils Bandelow—for their tireless support. The Standing Group of Knowledge Politics and
+Policy of the European Consortium for Political Research (ECPR) provided an opportunity to organize regular panels at the ECPR General Conferences that helped to develop this special issue.
+FUNDING INFORMATION
+Inga Ulnicane's work on this special issue has been supported by funding from the EU's
+Horizon 2020 Research and Innovation Programme under the grant agreement 945539
+(HBP SGA3). Tero Erkkilä's research was supported by the Strategic Research Council at
+the Academy of Finland [grant numbers 345950 and 345953] and Academy of Finland [grant
+number 354866].
+Inga Ulnicane1
+Tero Erkkilä2
+1
+
+Centre for Computing and Social Responsibility, De Montfort University, Leicester, UK
+2
+Faculty of Social Sciences, University of Helsinki, Helsinki, Finland
+Correspondence
+Inga Ulnicane, De Montfort University, The Gateway, Leicester LE1 9BH, UK.
+Email: inga.ulnicane@dmu.ac.uk
+
+ORCID
+Inga Ulnicane https://orcid.org/0000-0003-2051-1265
+Tero Erkkilä https://orcid.org/0000-0001-5194-005X
+REFERENCES
+af Malmborg, F. (2023). Narrative dynamics in European Commission AI policy—Sensemaking, agency construction, and anchoring. Review of Policy Research, 40(5), 757–780. https://doi.org/10.1111/ropr.12529
+af Malmborg, F., & Trondal, J. (2023). Discursive framing and organizational venues: Mechanisms of artificial
+intelligence policy adoption. International Review of Administrative Sciences, 89(1), 39–58. https://doi.
+org/10.1177/00208523211007533
+Anderson, D., & Slade, C. P. (2013). Agenda setting in emergent R&D policy subsystems. Review of Policy Research,
+30(5), 447–463. https://doi.org/10.1111/ropr.12033
+Bacchi, C. L. (1999). Women, policy and politics: The construction of policy problems. Sage.
+Chou, M.-H., & Gomes, C. (2023). Politics of on-demand food delivery: Policy design and the power of algorithms.
+Review of Policy Research, 40(5), 646–664. https://doi.org/10.1111/ropr.12543
+Coeckelbergh, M. (2022). The political philosophy of AI. An introduction. Polity.
+Crawford, K. (2021). The atlas of AI. Yale University Press.
+Djeffal, C., Siewert, M. B., & Wurster, S. (2022). Role of the state and responsibility in governing artificial intelligence: A comparative analysis of AI strategies. Journal of European Public Policy, 29(11), 1799–1821. https://
+doi.org/10.1080/13501763.2022.2094987
+Erkkilä, T. (2023). Global indicators and AI policy: Metrics, policy scripts, and narratives. Review of Policy Research,
+40(5), 811–839. https://doi.org/10.1111/ropr.12556
+Floridi, L., Cowls, J., Beltrametti, M., Chatila, R., Chazerand, P., Dignum, V., Luetge, C., Madelin, R., Pagallo,
+U., Rossi, F., Schafer, B., Valcke, P., & Vayena, E. (2018). AI4People—An ethical framework for a good AI
+society: Opportunities, risks, principles, and recommendations. Minds & Machines, 28, 689–707. https://doi.
+org/10.1007/s11023-018-9482-5
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+| 623
+
+EDITORIAL
+
+|
+
+EDITORIAL
+
+Giest, S., & Samuels, A. (2023). Administrative burden in digital public service delivery: The social infrastructure of library programs for e-inclusion. Review of Policy Research, 40(5), 626–645. https://doi.org/10.1111/
+ropr.12516
+Guston, D. H. (2013). Introduction to the special issue. Review of Policy Research, 30(5), 439–446. https://doi.
+org/10.1111/ropr.12038
+Jasanoff, S. (2016). The ethics of invention: Technology and the human future. W.W. Norton & Company.
+Jobin, A., Ienca, M., & Vayena, E. (2019). The global landscape of AI ethics guidelines. Nature Machine Intelligence,
+1(2019), 389–399. https://doi.org/10.1038/s42256-019-0088-2
+Justo-Hanani, R. (2022). The politics of artificial intelligence regulation and governance reform in the European
+Union. Policy Sciences, 55(1), 137–159. https://doi.org/10.1007/s11077-022-09452-8
+Kim, J. (2023). Traveling AI-essentialism and national AI strategies: A comparison between South Korea and
+France. Review of Policy Research, 40(5), 705–728. https://doi.org/10.1111/ropr.12552
+Kuhlmann, S., Stegmaier, P., & Konrad, K. (2019). The tentative governance of emerging science and technology—A conceptual introduction. Research Policy, 48(5), 1091–1097. https://doi.org/10.1016/j.
+respol.2019.01.006
+Larsson, S. (2020). On the governance of artificial intelligence through ethics guidelines. Asian Journal of Law and
+Society, 7(3), 437–451. https://doi.org/10.1017/als.2020.19
+Mahoney, J., & Thelen, K. (2010). A theory of gradual institutional change. In J. Mahoney & K. Thelen (Eds.),
+Explaining institutional change. Ambiguity, agency, and power (pp. 1–37). Cambridge University Press.
+Michelson, E. S. (2013). The shaping of nanotechnology policy. Review of Policy Research, 30(5), 464–487. https://
+doi.org/10.1111/ropr.12034
+OECD. (2019). Recommendation of the council on artificial intelligence. Organisation for Economic Cooperation
+and Development.
+Png, M.-T. (2022). At the tensions of south and north: Critical roles of global south stakeholders in AI governance. In Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (FAccT
+'22) (pp. 1434–1445). Association for Computing Machinery, New York, NY. https://doi.org/10.1145/35311
+46.3533200
+Radu, R. (2021). Steering the governance of artificial intelligence: National strategies in perspective. Policy and
+Society, 40(2), 178–193. https://doi.org/10.1080/14494035.2021.1929728
+Renda, A., & Engler, A. (2023). What's in a name? Getting the definition of artificial intelligence right in the EU's
+AI act? CEPS explainer. CEPS. Retrieved June 24, 2023, from. https://www.ceps.eu/ceps-publications/whats
+-in-a-name/
+Rönnblom, M., Carlsson, V., & Öjehag-Pettersson, A. (2023). Gender equality in Swedish AI policies. What's the
+problem represented to be? Review of Policy Research, 40(5), 688–704. https://doi.org/10.1111/ropr.12547
+Rotolo, D., Hicks, D., & Martin, B. (2015). What is an emerging technology? Research Policy, 44(10), 1827–1843.
+https://doi.org/10.1016/j.respol.2015.06.006
+Savath, V., & Brainard, S. G. (2013). Nanotechnology risks: A case for gender diversity. Review of Policy Research,
+30(5), 549–565. https://doi.org/10.1111/ropr.12031
+Schiff, D., Borenstein, J., Biddle, J., & Laas, K. (2021). AI ethics in the public, private, and NGO sectors: A review of a global document collection. IEEE Transactions on Technology and Society, 2(1), 31–42. https://doi.
+org/10.1109/TTS.2021.3052127
+Schiff, D. S. (2023). Looking through a policy window with tinted glasses: Setting the agenda for U.S. AI policy.
+Review of Policy Research, 40(5), 729–756. https://doi.org/10.1111/ropr.12535
+Shelley-Egan, C., & Davies, S. R. (2013). Industry operationalizations of “responsibility”. Review of Policy Research,
+30(5), 588–604. https://doi.org/10.1111/ropr.12032
+Stilgoe, J., & Mladenović, M. (2022). The politics of autonomous vehicles. Humanities and Social Sciences
+Communications, 9, 433. https://doi.org/10.1057/s41599-022-01463-3
+Taeihagh, A. (2021). Governance of artificial intelligence. Policy and Society, 40(2), 137–157. https://doi.
+org/10.1080/14494035.2021.1928377
+Toupin, S. (2023). Shaping feminist artificial intelligence. New Media & Society. https://doi.org/10.1177/14614
+448221150776
+Ulbricht, L., & Yeung, K. (2022). Algorithmic regulation: A maturing concept for investigating regulation of and
+through algorithms. Regulation & Governance, 16(1), 3–22. https://doi.org/10.1111/rego.12437
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+624
+
+| 625
+
+Ulnicane, I., & Aden, A. (2023). Power and politics in framing bias in artificial intelligence policy. Review of Policy
+Research, 40(5), 665–687. https://doi.org/10.1111/ropr.12567
+Ulnicane, I., Knight, W., Leach, T., Stahl, B. C., & Wanjiku, W.- G. (2021). Framing governance for a contested emerging technology: Insights from AI policy. Policy and Society, 40(2), 158–177. https://doi.org/10.1080/14494
+035.2020.1855800
+Van Lente, H., Spitters, C., & Peine, A. (2013). Comparing technological hype cycles: Towards a theory. Technological
+Forecasting and Social Change, 80(8), 1615–1628. https://doi.org/10.1016/j.techfore.2012.12.004
+von Ingersleben-Seip, N. (2023). Competition and cooperation in artificial intelligence standard setting: Explaining
+emergent patterns. Review of Policy Research, 40(5), 781–810. https://doi.org/10.1111/ropr.12538
+Whittaker, M. (2021). The steep cost of capture. Interactions, 28(6), 50–55. https://doi.org/10.1145/3488666
+Winner, L. (1980). Do artifacts have politics? Daedalus, 109(1), 121–136.
+
+AUTHOR BIOGRAPHIES
+Inga Ulnicane is Senior Research Fellow at De Montfort University, UK. Her research interests include science and technology policy, governance of emerging technologies and
+European integration in research and innovation.
+Tero Erkkilä is a professor of Political Science at the University of Helsinki. His research
+interests include transnational governance, public institutions, and collective identities.
+
+15411338, 2023, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ropr.12574 by Charles University, Wiley Online Library on [04/09/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+EDITORIAL
+
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLM-as-a-Developer: Evaluating 51 Agent Frameworks — MatrAIx Research</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="description" content="LLM-as-a-Developer: simulate the developer as the user of an agent framework to measure API usability and framework effectiveness, at ecosystem scale, across 51 Agent Development Kits." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0a0b0d;--bg-2:#121418;--bg-3:#191c21;--ink:#e8e9ec;--ink-dim:#969da8;--phos:#4A8FC2;--phos-deep:#365B8F;--amber:#d99a46;--rose:#dc6666;--cyan:#6BC0E8;--line:rgba(151,169,190,.18);--line-soft:rgba(151,169,190,.1);--glow:0 0 22px rgba(74,143,194,.25);--mono:"JetBrains Mono",ui-monospace,monospace;--disp:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{min-height:100vh;overflow-x:hidden;background:var(--bg);color:var(--ink);font:16px/1.7 var(--disp)}::selection{background:var(--phos);color:#fff}
+    header{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:18px clamp(20px,5vw,40px);background:rgba(9,10,12,.9);border-bottom:1px solid var(--line-soft);backdrop-filter:blur(15px)}.brand{color:var(--ink);font-weight:700;font-size:1.375rem;text-decoration:none;white-space:nowrap}.brand em{font-style:normal;background:linear-gradient(90deg,#a855f7,#4A8FC2);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}nav{display:flex;gap:30px;align-items:center}nav a{color:var(--ink-dim);font-size:.78rem;letter-spacing:.06em;text-decoration:none;text-transform:uppercase}nav a:hover,nav a[aria-current="page"]{color:#fff}.btn-nav{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid rgba(74,143,194,.5);border-radius:7px;background:rgba(74,143,194,.14);color:#dceeff;font-size:.72rem;text-decoration:none}.dot.live{width:7px;height:7px;border-radius:50%;background:#72bdf1}.nav-toggle{display:none;padding:9px 13px;border:1px solid var(--line);border-radius:6px;background:none;color:var(--ink);font:500 .72rem var(--mono);text-transform:uppercase}
+    main{position:relative;z-index:2;max-width:1102px;margin:0 auto;padding:148px 30px 90px}.blog-header{margin-bottom:64px;padding-bottom:42px;border-bottom:1px solid var(--line);text-align:center}.blog-breadcrumb{display:flex;justify-content:center;gap:12px;margin-bottom:30px;color:#737b87;font:500 .68rem var(--mono);letter-spacing:.12em;text-transform:uppercase}.blog-breadcrumb a{color:#6daedb;text-decoration:none}.blog-title{max-width:900px;margin:0 auto 28px;color:#f3f4f6;font-size:clamp(2.7rem,6vw,5rem);font-weight:600;line-height:1.02;letter-spacing:-.055em;text-wrap:balance}.blog-deck{max-width:730px;margin:0 auto 30px;color:#aab0b9;font-size:1.12rem;line-height:1.65;text-wrap:balance}.blog-meta{display:flex;justify-content:center;gap:14px 28px;flex-wrap:wrap;color:#888f9a;font-size:.8rem}.blog-meta-item{display:flex;align-items:center;gap:9px}.blog-meta-item+ .blog-meta-item{padding-left:28px;border-left:1px solid var(--line)}.blog-meta strong{color:#d8dbe0;font-weight:500}.blog-meta img{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;object-fit:cover}
+    .article{max-width:780px;margin:0 auto}.article p{margin-bottom:20px;color:#c7cbd1;font-size:1.03rem;line-height:1.82}.article h2{margin:64px 0 22px;color:#f0f2f4;font-size:1.9rem;line-height:1.2;letter-spacing:-.025em}.article h3{margin:38px 0 16px;color:#e9ebee;font-size:1.25rem;line-height:1.3}.article strong{color:#eef6fc}.article em{color:#d8b27c}.article a{color:#78b7e2}.article ul,.article ol{margin:20px 0 24px 24px;color:#c7cbd1}.article li{margin-bottom:10px;padding-left:5px}.article li::marker{color:var(--phos)}
+    figure{margin:40px 0}figure img{width:100%;border:1px solid var(--line);border-radius:8px;background:#0e1013}figcaption{margin-top:12px;color:#8b929c;font-size:.86rem;line-height:1.55;text-align:center}
+    .article-figure-wide{max-width:1000px;margin:52px auto}
+    .quote-card{margin:34px 0;padding:22px 26px;border-left:3px solid var(--phos);border-radius:4px;background:rgba(74,143,194,.06);color:#d3dae2;font-size:1.05rem;line-height:1.7}
+    .diag-card{margin:28px 0;padding:18px 20px;border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:4px;background:rgba(217,154,70,.05);font:.9rem/1.6 var(--mono);color:#c7cbd1}.diag-card b{color:var(--amber)}
+    .callout{margin:34px 0;padding:20px 24px;border:1px solid var(--line);border-radius:8px;background:var(--bg-2)}.callout strong{display:block;margin-bottom:8px;color:#eef6fc}.callout p{margin:0;color:#b9bfc8;font-size:.98rem}
+    .stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:40px 0}.stat-cell{padding:20px;border:1px solid var(--line);border-radius:8px;background:rgba(74,143,194,.05);text-align:center}.stat-cell .n{font-size:1.9rem;font-weight:700;color:var(--phos);letter-spacing:-.02em}.stat-cell .l{margin-top:6px;font-size:.78rem;color:#8b929c;text-transform:uppercase;letter-spacing:.06em}
+    table.data{width:100%;margin:30px 0;border-collapse:collapse;font-size:.92rem}table.data th,table.data td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:right}table.data th:first-child,table.data td:first-child{text-align:left}table.data thead th{color:#d8dbe0;font-weight:600;border-bottom:1px solid var(--phos-deep)}table.data tbody th{color:#e9ebee;font-weight:500}table.data td{color:#b9bfc8;font-family:var(--mono)}table.data tr.lead td,table.data tr.lead th{color:var(--phos)}
+    .tbl-cap{margin:-14px 0 30px;color:#8b929c;font-size:.84rem;text-align:center}
+    .fw-grid{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 10px}.fw-grid span{padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(74,143,194,.05);color:#c7cbd1;font:.85rem/1 var(--mono);white-space:nowrap}.fw-note{margin:14px 0 8px;color:#8b929c;font-size:.9rem;text-align:center}
+    footer{margin-top:80px;padding:40px 20px;border-top:1px solid var(--line);color:var(--ink-dim);font-size:.86rem;text-align:center}footer a{color:var(--phos);text-decoration:none}
+    @media(max-width:768px){header{padding:15px 20px}.nav-toggle{display:block}header nav{position:absolute;top:100%;left:0;right:0;display:flex;max-height:0;overflow:hidden;flex-direction:column;gap:0;background:#0b0d10;opacity:0;transition:.25s}header nav.active{max-height:420px;padding:8px 0;opacity:1}header nav a{width:100%;padding:12px 24px;text-align:center}.btn-nav{display:none}main{padding:118px 20px 70px}.blog-title{font-size:clamp(2.25rem,12vw,3.5rem)}.blog-deck{font-size:1rem}.blog-meta{flex-direction:column;align-items:center}.blog-meta-item+.blog-meta-item{padding-left:0;border-left:0}table.data{font-size:.82rem}table.data th,table.data td{padding:8px 6px}}
+  </style>
+  <link rel="stylesheet" href="blog-post.css%3Fv=21.css" />
+  <link rel="stylesheet" href="subpages-light.css%3Fv=2.css" />
+  <link rel="stylesheet" href="navigation.css%3Fv=2.css" /><link rel="icon" type="image/png" href="MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="index.html">Matr<em>AI</em>x</a>
+    <nav>
+      <a href="index.html">Home</a><a href="index.html.1.html" aria-current="page">Research</a><a href="index.html.1.1.html">Personas</a><a href="index.html.1.2.html">Applications</a><a href="index.html.1.3.html">Playground</a><a href="index.html.1.4.html">Community</a>
+    </nav>
+    <a href="index.html.1.4.html" class="btn-nav"><span class="dot live"></span> Join community</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <aside class="article-toc" aria-label="On this page"><span>On this page</span><ol></ol></aside>
+    <div class="blog-header">
+      <div class="blog-breadcrumb"><a href="index.html">Home</a><span>/</span><a href="index.html.1.html">Research</a><span>/</span><span>Publication</span></div>
+      <h1 class="blog-title">LLM-as-a-Developer: Evaluating 51 Agent Frameworks</h1>
+      <p class="blog-deck">You cannot evaluate a software framework without a user to use it. When the framework is an agent SDK, the user <em>is</em> a developer, so we simulate the developer. One controlled simulation, run across 51 Agent Development Kits, turns effort into a measurement of usability and output into a measurement of effectiveness.</p>
+      <div class="blog-meta">
+        <div class="blog-meta-item"><img src="MatrAIx_Logo.png" alt="MatrAIx" /><div><strong>Jintao Huang, Xiaomin Li, and Core Team</strong></div></div>
+        <div class="blog-meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg> <strong>July 18, 2026</strong></div>
+        <div class="blog-meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v4.7l3.2 1.9"/></svg> <strong>11 min read</strong></div>
+      </div>
+    </div>
+
+    <article class="article">
+      <aside class="article-summary" aria-label="Article summary">
+        <span>TL;DR</span>
+        <p>MatrAIx simulates users. Here we push the idea one step further: to evaluate an agent framework, the user you need to simulate is a <strong>developer</strong>. An LLM coding agent plays a first-time developer, reads each framework's docs and source, writes agent code, and debugs until it works. Because the simulated developer is held constant and only the framework varies, effort becomes a measure of API usability and the resulting agent becomes a measure of framework effectiveness. Run across all 51 popular Python Agent Development Kits, effort varies 5.6&times; between frameworks, and the developer you simulate matters more than the model that runs the agent.</p>
+      </aside>
+
+      <p class="article-lead">Simulated users are how you evaluate a product before real users are involved. But a product's "user" is not always a person typing prompts. For an <strong>Agent Development Kit</strong> (ADK), the SDK a person uses to build an LLM agent, the real user is an engineer: someone reading the API, wiring up tools, and fighting through errors until their agent runs.</p>
+
+      <p>So to evaluate that product, you simulate <em>that</em> user. This post is about a methodology we call <strong>LLM-as-a-Developer</strong>: a controlled simulation of the developer that measures, at ecosystem scale, both how usable a framework is and how good the agents you build with it turn out to be.</p>
+
+      <h2>The core idea: simulate the user, where the user is a developer</h2>
+
+      <p>Simulation-based evaluation has one defining virtue: it replaces an expensive, slow, biased human loop with a controlled, repeatable, scalable one. <a href="https://arxiv.org/abs/2306.05685" target="_blank" rel="noopener">LLM-as-a-Judge</a> did this for the <em>evaluator</em>. It simulates a human grader so you can score thousands of outputs without a human in the loop.</p>
+
+      <p>We apply the same move to a different bottleneck. Developers today face dozens of agent frameworks, LangChain, LangGraph, CrewAI, AutoGen, Semantic Kernel, Google ADK, OpenAI Agents SDK, and a long tail beyond, with no principled way to answer the obvious question: <em>which framework produces the best agents, and at what development cost?</em> Answering it the traditional way means having experts hand-implement every benchmark against every framework's API, an <strong>O(N &times; M)</strong> effort that is slow, biased toward whichever framework the author already knows, and impossible at ecosystem scale.</p>
+
+      <p>Instead, we simulate the developer:</p>
+
+      <div class="quote-card">An LLM coding agent is dropped into a fresh environment with one framework's repository. It reads the docs and source, writes a task-solving agent, runs it, reads the errors, and repairs the code, the same <strong>explore &rarr; write &rarr; test &rarr; fix</strong> loop a human follows the first time they pick up a new SDK.</div>
+
+      <p>That is the entire methodology in one sentence. And because we run the <em>identical</em> simulated developer against every framework, same model, same tools, same budget, same starting point, we eliminate the single biggest confound in framework benchmarking: the human expert who already knows framework A better than framework B.</p>
+
+      <figure class="article-figure-wide">
+        <img src="adk-arena-llm-as-developer.png" alt="Diagram contrasting traditional evaluation, which needs a human to write an adapter per framework, with LLM-as-a-Developer, which holds a simulated developer constant and varies only the framework." />
+        <figcaption>Traditional evaluation needs a human expert per framework (O(N&times;M) effort). LLM-as-a-Developer holds one simulated developer constant and varies only the framework, yielding two signals: the generation process measures API complexity; the execution results measure framework effectiveness.</figcaption>
+      </figure>
+
+      <h3>Why simulating the developer is the right unit of measurement</h3>
+
+      <p>Simulating the developer produces <strong>two measurements from a single run</strong> that no survey or model-benchmark can produce together:</p>
+
+      <ul>
+        <li><strong>The generation process &rarr; API usability.</strong> As the simulated developer works, we record everything: tokens consumed, turns needed, validation failures, where it gets stuck. That effort is a direct, objective proxy for how hard the framework is to learn. A clean API is cheap to onboard; a sprawling or under-documented one burns tokens and stalls.</li>
+        <li><strong>The execution results &rarr; framework effectiveness.</strong> The agent the simulation <em>produces</em> is a real program. We run it on real benchmarks and record resolution rate, cost, and latency. That tells us not just "is the framework usable" but "does what you build with it actually work."</li>
+      </ul>
+
+      <p>Contrast the alternatives. Developer surveys capture what people <em>say</em>, not how frameworks behave. Agent benchmarks vary the <em>model</em> and hold the framework fixed. Hand-written comparisons reflect the author's familiarity and cannot scale. Simulating the developer is the only approach that is controlled, scalable, and dual-signal at once.</p>
+
+      <h2>Anatomy of the simulated developer</h2>
+
+      <p>The method only works if the simulation is <em>faithful</em>: it has to behave like a real developer onboarding to a framework, not a script. Three design choices make it faithful.</p>
+
+      <p><strong>It works from the framework's own materials, nothing else.</strong> Inside a per-framework Docker container, the simulated developer gets exactly what a human would: the curated <strong>documentation</strong> (browsed incrementally, 20K characters per call) and the <strong>source code</strong>, mounted read-only and searchable. No hand-written hints, no per-framework special-casing. Information is restricted to each framework's own repository, so the comparison stays apples-to-apples.</p>
+
+      <p><strong>It debugs like a developer,</strong> through a validate-and-repair loop rather than one-shot generation. The simulation writes an <code>agent.py</code> and runs it through a three-level validation pipeline of increasing fidelity:</p>
+
+      <ul>
+        <li><strong>Level 1 &mdash; Static analysis:</strong> compile check, import verification, a "does this actually use the framework?" check (raw OpenAI/httpx fallbacks are rejected), plus 40+ anti-pattern detectors.</li>
+        <li><strong>Level 2 &mdash; Real LLM smoke test:</strong> execute the agent against a live LLM to confirm it can make a call, parse the response, and return a result.</li>
+        <li><strong>Level 3 &mdash; Real benchmark task:</strong> run one real task from the target benchmark and confirm the agent behaves as expected, proving it can run the full benchmark without crashing.</li>
+      </ul>
+
+      <p>On any failure, the validator pattern-matches the error against 70+ known signatures and hands back a <strong>structured diagnostic</strong>, a root-cause diagnosis plus a concrete fix, exactly like a senior colleague pointing at the bug:</p>
+
+      <div class="diag-card"><b>DIAGNOSIS:</b> Agent is connecting to a hardcoded URL (<code>https://api.openai.com</code>) instead of the proxy endpoint. The execution environment routes all LLM traffic through a local proxy at <code>ADK_BASE_URL</code>.<br><br><b>FIX:</b> Replace all hardcoded URLs with <code>os.environ["ADK_BASE_URL"]</code>.</div>
+
+      <p>The simulated developer reads the hint and makes a targeted single-edit repair instead of blindly regenerating. This is what makes the effort signal meaningful: it reflects real debugging, not random retries.</p>
+
+      <p><strong>Everything downstream is uniform.</strong> Every generated agent exposes one entry point, <code>solve(prompt, workdir)</code>, so any benchmark can invoke any framework's agent identically. And all LLM traffic, whatever provider API a framework natively targets (OpenAI, Anthropic, Google), is routed through a single <strong>token proxy</strong> that translates protocols and captures per-call tokens, latency, and tool-call sequences. That is how one simulated developer can be measured consistently across 51 frameworks and 4 benchmarks.</p>
+
+      <figure class="article-figure-wide">
+        <img src="adk-arena-pipeline.png" alt="Three-stage pipeline: environment setup with per-framework Docker, the simulated developer's explore-write-validate-repair loop, and benchmarking through a token proxy." />
+        <figcaption>The pipeline that realizes the methodology. (1) Collect repositories and build per-framework Docker environments. (2) Run the simulated developer's explore&ndash;write&ndash;validate&ndash;repair loop to produce <code>agent.py</code>. (3) Benchmark the generated agent through a token proxy and result evaluator.</figcaption>
+      </figure>
+
+      <h2>ADK Arena: the methodology as a running system</h2>
+
+      <p>We packaged all of this into <strong>ADK Arena</strong>, a fully automated pipeline that takes a framework's GitHub repository as input and produces benchmark scores as output, with <strong>zero manually written agent code</strong>. It has three stages: environment setup (collect 51 ADKs, build isolated Docker images), agent generation (the simulated-developer loop above), and benchmarking against four established suites that span different agent skills: <strong>SWE-bench</strong> (code editing), <strong>&tau;&sup2;-bench</strong> (conversational tool use), <strong>MCP-Atlas</strong> (multi-tool orchestration), and <strong>Terminal-Bench</strong> (terminal interaction).</p>
+
+      <div class="stat-row">
+        <div class="stat-cell"><div class="n">51</div><div class="l">Frameworks</div></div>
+        <div class="stat-cell"><div class="n">204</div><div class="l">Agent&ndash;benchmark pairs</div></div>
+        <div class="stat-cell"><div class="n">5.6&times;</div><div class="l">Effort spread</div></div>
+        <div class="stat-cell"><div class="n">0</div><div class="l">Hand-written agents</div></div>
+      </div>
+
+      <h3>The 51 frameworks we tested</h3>
+
+      <p>We ran the simulated developer against every one of these popular Python Agent Development Kits, spanning official vendor SDKs, research releases, and community projects:</p>
+
+      <div class="fw-grid">
+        <span>LangChain</span><span>LangGraph</span><span>LlamaIndex</span><span>CrewAI</span><span>AutoGen</span><span>AG2</span><span>OpenAI Agents</span><span>Anthropic SDK</span><span>Google ADK</span><span>Semantic Kernel</span><span>PydanticAI</span><span>Haystack</span><span>Agno</span><span>Composio</span><span>Strands</span><span>SmoLAgents</span><span>Guidance</span><span>CAMEL</span><span>MetaGPT</span><span>Swarms</span><span>Griptape</span><span>Upsonic</span><span>ControlFlow</span><span>Agency Swarm</span><span>Agently</span><span>Lagent</span><span>MCP Agent</span><span>AtomicAgents</span><span>AgentUniverse</span><span>EvoAgentX</span><span>Nerve</span><span>Agent Squad</span><span>MotleyCrew</span><span>TaskflowAI</span><span>Agent Framework</span><span>CouncilAI</span><span>Qwen Agent</span><span>AgentFlow</span><span>AgentScope</span><span>AutoAgent</span><span>PraisonAI</span><span>AgentLite</span><span>Octotools</span><span>FastAgent</span><span>GPTSwarm</span><span>Solace</span><span>Taskweaver</span><span>Langroid</span><span>AutoAgents</span><span>BeeAI</span><span>OpenSage</span>
+      </div>
+      <p class="fw-note">Each was evaluated across four benchmarks (SWE-bench, &tau;&sup2;-bench, MCP-Atlas, Terminal-Bench). For the full per-framework generation effort and execution results, see the paper: <a href="https://arxiv.org/abs/2606.05548" target="_blank" rel="noopener">arxiv.org/abs/2606.05548</a>.</p>
+
+      <h2>The evidence</h2>
+
+      <p>The methodology is the point; the numbers are how we know it works. Running the simulated developer across all 51 frameworks (204 pairs, two developer models authoring agents, all executing on the same backbone) produced four results worth calling out.</p>
+
+      <p><strong>Effort is a real usability signal.</strong> The simulated developer produces a validated agent for <strong>57%</strong> of runs, and its per-agent effort varies <strong>5.6&times;</strong> ($0.6 &rarr; $3.4) across frameworks. Clean APIs (LangGraph, OpenAI Agents, Haystack, AG2) are cheap to onboard; sprawling ones cost several times more. Effort tracks API complexity, though not as a clean pass/fail line, the <em>cheapest</em> runs are often frameworks where the developer gave up early.</p>
+
+      <p><strong>The developer you simulate matters more than the model that runs the agent.</strong> On the same execution backbone, agents authored by the stronger developer model resolve <strong>~2&times; as many tasks</strong> (41% vs 22% mean). A more careful simulated developer wires up the framework's full loop and registers tools; a lazier one emits a single model call and returns. That is itself a validation of the method: the measurement is sensitive to exactly the thing it should be, the quality of the developer.</p>
+
+      <p><strong>A well-chosen framework can rival hand-built agents.</strong> The best single-benchmark generated agents are competitive with, and sometimes beat, production coding agents at a fraction of the cost. On MCP-Atlas the generated <strong>Agno</strong> agent resolves 68% of tasks at 38K tokens per task, beating Copilot's 58% at 327K (~9&times; fewer tokens). For reference, the five production agents we benchmarked (all on the same backbone):</p>
+
+      <table class="data">
+        <thead>
+          <tr><th>System</th><th>SWE-bench</th><th>&tau;&sup2;-bench</th><th>MCP-Atlas</th><th>Terminal</th><th>Avg</th></tr>
+        </thead>
+        <tbody>
+          <tr class="lead"><th>Copilot</th><td>74%</td><td>46%</td><td>58%</td><td>46%</td><td>56.0%</td></tr>
+          <tr><th>OpenHands</th><td>60%</td><td>46%</td><td>52%</td><td>36%</td><td>48.5%</td></tr>
+          <tr><th>OpenCode</th><td>76%</td><td>48%</td><td>18%</td><td>38%</td><td>45.0%</td></tr>
+          <tr><th>Claude Code</th><td>48%</td><td>46%</td><td>38%</td><td>30%</td><td>40.5%</td></tr>
+          <tr><th>Codex CLI</th><td>60%</td><td>46%</td><td>36%</td><td>16%</td><td>39.5%</td></tr>
+        </tbody>
+      </table>
+      <p class="tbl-cap">Per-task averages over the 50-task subset per benchmark. The median generated framework resolves only 32%, so beating the frontier is a top-of-distribution effect, not a guarantee.</p>
+
+      <p><strong>Docs, source, and prior knowledge are largely substitutable.</strong> When we ablate what the simulated developer can see, genuine native framework usage stays inside a narrow <strong>28&ndash;40% band</strong>. Counterintuitively, <em>Source only</em> (40%) beats <em>Docs only</em> (28%): documentation's worked examples <em>anchor</em> the simulation toward copying quickstart snippets into thin wrappers, while raw source pushes it toward the real API. Even with <em>no reference at all</em> (33%), prior knowledge of popular frameworks carries a third of them. No single information source is a hard bottleneck.</p>
+
+      <div class="callout">
+        <strong>Why this generalizes.</strong>
+        <p>The specific numbers will age as models and frameworks change; the method will not. "Simulate the user, hold the simulation constant, vary the thing under test, and read off effort <em>and</em> outcome" is a general recipe. When the user is a developer, you measure SDK usability and the quality of what gets built. When the user is an evaluator, you get LLM-as-a-Judge. Whenever a human-in-the-loop makes evaluation expensive, slow, or biased, simulating that human with a controlled agent turns it into something you can run on demand, at scale.</p>
+      </div>
+
+      <h2>Read the paper &amp; get the code</h2>
+
+      <p>The full study, with per-framework generation effort, execution results, and the information-source ablation, is on arXiv. The complete pipeline is open source: the LLM-as-a-Developer simulation loop, per-framework Docker isolation, the three-level validate-and-repair pipeline, the token proxy, and all four benchmark adapters.</p>
+
+      <p><a href="https://arxiv.org/abs/2606.05548" target="_blank" rel="noopener">Paper &mdash; arxiv.org/abs/2606.05548 &rarr;</a><br><a href="https://github.com/MatrAIx-ai" target="_blank" rel="noopener">Code &mdash; github.com/jintao-h/ADK-Arena &rarr;</a></p>
+
+      <p class="method-note"><strong>Note.</strong> ADK Arena is research from the MatrAIx community on simulating developers as users of agent frameworks. Reported figures are from the study's controlled runs and are meant to illustrate the methodology, not to rank any single framework definitively.</p>
+    </article>
+  </main>
+
+  <footer><p><a href="index.html">Home</a> · <a href="index.html.1.html">Research</a> · <a href="index.html.1.1.html">Personas</a> · <a href="index.html.1.2.html">Applications</a> · <a href="index.html.1.3.html">Playground</a> · <a href="index.html.1.4.html">Community</a> · <a href="index.html.1.4.html#contact">Contact</a></p><p style="margin-top:14px">SIMULATE BEFORE REALITY · © 2026 MATRAIX</p></footer>
+  <script src="site-performance.js%3Fv=1"></script>
+  <script src="blog-post.js%3Fv=7"></script>
+  <script>(function(){const t=document.querySelector('.nav-toggle'),n=document.querySelector('header nav');if(!t||!n)return;t.addEventListener('click',()=>n.classList.toggle('active'));n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>n.classList.remove('active')));})();</script>
+</body>
+</html>

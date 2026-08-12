@@ -1,0 +1,38 @@
+# R BAYE — Code Repository
+# All original works: Summa of the Gap, computational projects, AI systems
+
+# Dependencies and environments
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+node_modules/
+
+# Large models and binaries
+*.bin
+*.safetensors
+*.gguf
+*.pth
+*.ckpt
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Sensitive
+*.token
+.env
+*.key
+
+# Large recovery / forensic dumps
+RECOVERY-analysis/
+photorec*/
+*.deb
+*.gz

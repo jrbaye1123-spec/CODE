@@ -1,0 +1,1343 @@
+4.
+
+Ever-changing Big Science and
+Research Infrastructures: Evolving
+European Union policy
+Inga Ulnicane
+
+1.
+
+INTRODUCTION
+
+Big Science and Research Infrastructures (RIs) keep changing and evolving
+along with major organizational, technological and political changes that affect
+science. A recent comprehensive analysis of the transformation of Big Science
+of the Cold War era to a new context showed that the “old Big Science” was
+characterized by large teams and long-term experiments, accelerators for
+particle collisions and reactors for nuclear research and had a clear military
+connection (Hallonsten 2016). In contrast, the key features of the “transformed
+Big Science” include large support organizations, accelerators and reactors for
+neutron scattering, synchrotron radiation and free electron laser; it focuses on
+innovation-based (regional economic) growth, sustainability and addressing
+grand challenges.
+This chapter aims to study ongoing changes of Big Science and RIs by
+looking at evolving European Union (EU) policy. Since the year 2000, important changes have taken place in EU policymaking that affect Big Science and
+RIs. In particular, this chapter will look at the emergence of EU policy for
+RIs in a differentiated integration mode, EU support for politically motivated
+large-scale research projects and e-infrastructures, as well as the development
+of RI policy within the European Research Area (ERA) initiative. To illustrate
+these EU policy changes, an example of an EU-funded large-scale research
+initiative, the Human Brain Project (HBP), currently developing, will be used.
+The main research method in this chapter will be document analysis. Study of
+public discourse and official announcements – as one of the often used qualitative methods to study Big Science and RIs (see Rüffin, ch 2 in this volume)
+– will be used to analyze a broad range of documents from EU institutions and
+expert groups.
+
+76
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+77
+
+Thus, this chapter aims to contribute to this volume by delving into EU-level
+policy changes affecting Big Science and RIs in Europe. This way, it complements other chapters focusing on policy, such as Bolliger and Griffiths (ch 5 in
+this volume) analyzing RI roadmaps, and Moskovko (ch 6 in this volume) on
+the European Research Infrastructure Consortium (ERIC) framework. While
+there are many factors affecting Big Science and RIs, policy is definitely one of
+them as it sets out boundary conditions (regulation, coordination mechanisms,
+funding, etc.) for establishing and sustaining Big Science and RI projects. Due
+to important changes taking place in EU research policy since 2000, this is an
+important topic for understanding current contexts in which Big Science and
+RIs operate in Europe.
+This chapter proceeds as follows: first, concepts of Big Science, RIs, international research collaboration and science diplomacy are discussed. Second,
+different models of European integration – intergovernmental, uniform and
+differentiated – are discussed to shed light on the evolution of EU policy
+concerning Big Science and RIs in a differentiated integration mode. Third,
+changes in EU research policy related to large-scale politically motivated
+projects, e-infrastructures and the ERA are outlined. Fourth, the example of the
+HBP is used to illustrate some trends in EU policy changes in this area. Finally,
+conclusions and questions for future research are presented.
+
+2.
+
+CONCEPTUAL FRAMEWORK: HOW TO
+UNDERSTAND BIG SCIENCE AND RESEARCH
+INFRASTRUCTURES
+
+This chapter draws on the related concepts of Big Science, RIs, international
+research collaboration and science diplomacy, and applies them to relevant
+developments in Europe. While the partly overlapping concepts of Big Science
+and RIs have been understood and used by researchers and policymakers in
+many different ways, this chapter follows the common approach outlined for
+this book by Cramer et al (ch 1 in this volume).
+Big Science is understood here according to Hallonsten (2016: 17) as
+“science made big in three dimensions: big organizations, big machines, and
+big politics”. Big organizations mean the organization of large scientific projects in an industrial manner, or hierarchical structure of large teams formed
+around a large and costly scientific instrument (Cramer et al, ch 1 in this
+volume). Big machines refer to the size of scientific instruments, while big
+politics point to substantial political support needed for large-scale research
+endeavors.
+Many Big Science facilities and projects are also RIs, which in this book
+is understood as a specific policy concept widely used in the EU (Cramer
+et al, ch 1 in this volume). The European Commission defines RIs as “facil-
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+78
+
+Big Science and Research Infrastructures in Europe
+
+ities, resources and services used by the science community to conduct
+research and foster innovation”. RIs “include: major scientific equipment,
+resources such as collections, archives or scientific data, e-infrastructures
+such as data and computing systems, and communication networks” that “can
+be single-sited (a single resource at a single location), distributed (a network
+of distributed resources), or virtual (the service is provided electronically)”.
+The Commission categorizes European RIs in three organizational groups:
+firstly, intergovernmental that are established by the member states; secondly,
+new pan-European that are listed in the European Strategy Forum on Research
+Infrastructures (ESFRI) roadmap, including ERICs; and thirdly, national RIs
+of European interest that receive European support (European Commission
+2019a).
+After analyzing the 60 RIs identified as important for Europe by the EU
+institutions, Hallonsten (2020) concludes that the concept of RIs is ill-defined,
+and that the current policy hype around RIs in Europe “is not matched by any
+substance on the side of what qualifies as a RI and not, and why”. According
+to him, “Research Infrastructures (RIs) are resources that enable scientific
+research or development work. They can be open-ended in their use, and they
+can take a variety of technological shapes and forms including instruments and
+tools for discovery and experimentation, repositories of data and materials,
+and vessels for exploration”. He highlights the political origins and political
+usefulness of this term in the context of a recent increase in policy attention
+that the concept of RIs has received at the EU level.
+Many Big Science initiatives and large-scale RIs are international because
+their scale requires pooling of scientific and material resources from several
+countries. Such RIs are examples of international research collaborations
+(Ulnicane 2015a). Scientific research has for centuries been characterized
+by active (international) collaboration, exchange of knowledge and mobility
+across borders (Crawford et al 1993). Today, research practices are highly
+internationalized (Nedeva 2013) and international research collaboration as
+measured by co-authorships is increasing (Wagner et al 2015) due to factors
+such as increasing scientific specialization and complexity of research,
+the need to address cross-border problems and escalating costs of research
+equipment.
+To understand RIs as a specific kind of international research collaboration, it is useful to draw on a distinction made by Wagner (2008) between
+“top-down” and “bottom-up” international research collaborations. Many
+scientific collaborations are “bottom up”, namely driven and organized by
+individual researchers. They are typically small-scale initiatives to combine
+complementary expertise and capabilities to address research questions of
+mutual interest and solve scientific problems. In contrast, Big Science and RIs
+typically require large-scale national and international funding. According to
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+79
+
+Wagner (2008: 26), “[g]overnment officials typically plan such facilities in
+discussion with scientists and sink significant investment in their construction
+before any research ever takes place. The organization of these activities
+can therefore be considered ‘top-down’”. Thus, in contrast to small-scale
+self-organizing international research collaborations among scientists, Big
+Science and RIs that are international collaborations are more dependent on
+political and governmental support and steering.
+As new Big Science initiatives are launched, and this mode of collaboration
+and organization expands to further scientific disciplines, debate over its
+relative merits continues. Among the benefits of Big Science are typically
+mentioned opportunities to bring together diverse types of expertise across
+disciplinary, organizational and national boundaries to address complex
+problems, while bureaucratization and politicization are often highlighted as
+negative consequences of Big Science (e.g. Vermeulen et al 2010).
+Large-scale international scientific collaborations behind Big Science and
+RI initiatives today are often described by another popular term of science
+diplomacy. A broad understanding of the concept of science diplomacy typically sees it as an intersection between science and technology policy and
+foreign affairs (Royal Society 2010). A popular definition, originating with
+the Royal Society (2010: 15), distinguishes between the three dimensions of
+science diplomacy. First, “science in diplomacy” focuses on informing foreign
+policy objectives with scientific advice. Second, “diplomacy for science” facilitates international scientific cooperation. Third, “science for diplomacy” uses
+science cooperation to improve international relations. The second dimension,
+diplomacy for science, is the most relevant for understanding political processes and diplomatic efforts behind establishing and maintaining Big Science
+and RI projects. Some Big Science and RI initiatives can also be examples of
+the third dimension, science for diplomacy, where science cooperation is seen
+as a tool to improve diplomatic relations.
+The following analysis of changing organization, instrumentation and politics of Big Science and RIs will draw on the above-mentioned concepts.
+
+3.
+
+MODES OF EUROPEAN INTEGRATION AND
+CHANGING BIG SCIENCE AND RESEARCH
+INFRASTRUCTURES
+
+As the introductory chapter to this book reminds us, the history of Big Science
+and RIs is closely connected to the history of European integration. European
+integration processes, institutions and policies have changed over time and “the
+ever-changing Union” (Egenhofer et al 2011) has also had an impact on Big
+Science and RIs. This section will look at different modes of European integration – intergovernmental, uniform and differentiated – and their relevance
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+80
+
+Big Science and Research Infrastructures in Europe
+
+for Big Science and RIs. The intergovernmental mode of integration refers to
+collaboration among governments outside the EU framework, uniform mode
+of integration refers to policies and institutions that applies to all EU member
+states, while differentiated integration includes EU policies in which some EU
+member states do not participate while some non-members may participate.
+History and policies of Big Science and RIs in Europe include elements of all
+these three modes: intergovernmental, uniform and differentiated. Looking at
+Big Science and RIs from the perspective of different modes of European integration helps to connect developments of Big Science and RIs with long-term
+processes in European integration.
+3.1
+
+From Intergovernmental Cooperation to European Union Policy
+
+Major Big Science initiatives started in the 1950s as intergovernmental
+cooperation among a number of national governments. At that time uniform
+EU integration in the field of research was almost non-existent. These intergovernmental initiatives included large-scale research facilities such as the
+European Organization of Nuclear Research (CERN, established in 1954),
+the European Southern Observatory (ESO, established in 1962), the European
+Space Research Organisation (ESRO) and European Launcher Development
+Organization (ELDO) (1964), the Institut Laue-Langevin (ILL) (1967), the
+European Molecular Biology Laboratory (EMBL, established in 1974), the
+European Space Agency (ESA, established in 1975) and the European
+Synchrotron Radiation Facility (ESRF) (1988) (see Cramer, ch 3 in this
+volume; D’Ippolito and Rüling, ch 11 in this volume).
+These intergovernmental initiatives were “built on ad hoc solutions rather
+than a coherent political framework and common regulatory standards”
+(Hallonsten 2014: 31). Diverse organizational formats have been used: while
+CERN, ESA, ESO and EMBL are international organizations operating
+according to international rules with permanent international staff, ESRF and
+ILL are private entities operating as companies according to the legislation
+of the host country and with national labor law constraints (Papon 2009: 36).
+Such lack of coherence and reliance on ad hoc solutions for each new intergovernmental initiative has both advantages and disadvantages. Advantages
+are flexibility, avoidance of bureaucracy and institutional inertia and allowing
+each initiative to meet the demands of its specific scientific community at
+a specific time (Hallonsten 2014: 35; Papon 2004), while disadvantages
+include lack of transparency, an in-built uncertainty, unpredictability, the
+need to reinvent legal arrangements and organizational structures for each
+project and, thus, delays in their realization (Hallonsten 2015). Typically,
+critical issues involved in setting up such intergovernmental initiatives are site
+selection, fair return and in-kind contributions (Hallonsten 2012), which often
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+81
+
+have to be resolved through complex political compromises. Hallonsten (2014:
+35) argues that each country joining such initiatives undertakes a multitrack
+cost-benefit analysis, weighing possible economic, political, diplomatic and
+reputational gains and losses. According to him, “most countries realize that
+collaboration is necessary to achieve goals beyond the reach of any one of
+them, but strong traditions of sovereignty create tension between self-interest
+and common good, for every partaking country, in every collaboration”
+(Hallonsten 2014: 35). Krige (2002, 2003) argues that European intergovernmental science organizations aim at both promoting the national interests
+of the participating countries and contributing to the European integration
+process, and that they are not undertaken at the expense of self-interest but
+rather allow countries “the pursuit of one’s interests by other means” (Krige
+2003: 900).
+In parallel with intergovernmental cooperation among member states,
+EU integration gradually expanded to new policy areas, including research.
+Major milestones in the development of EU research policy include the
+establishment of multi-annual EU Framework Programmes (FP) for funding
+research, in 1984, and the launch of the ERA initiative in 2000. According
+to the Lisbon Treaty that came into force in 2009, research policy is a shared
+competence between the EU and the member states, which implies that in this
+policy area both the EU and its member states are able to legislate and adopt
+legally binding acts. Major EU policy developments for Big Science and RIs
+include the establishment of ESFRI in 2002 (Bolliger and Griffiths, ch 5 in this
+volume) and the approval of the ERIC legal framework in 2009 (Moskovko,
+ch 6 in this volume; Moskovko et al 2019).
+The ERIC framework was established by a Council of the EU regulation
+in 2009 (European Commission 2019b) to facilitate the joint establishment and operation of research infrastructures of European interest among
+several member states and associated countries. Additionally, membership
+of ERICs can include third countries and intergovernmental organizations.
+The minimum requirement for setting up an ERIC is to have at least one EU
+member state and two other countries that are either EU member states or
+associated countries. Member states and associated countries must jointly hold
+the majority of voting rights in the assembly of members. The headquarters
+of a consortium should be located either in a member state or in an associated country. The ERIC framework has been used both for establishing new
+infrastructures and as a new organizational framework for existing research
+initiatives (Moskovko, ch 6 in this volume).
+Thus, the ERIC framework builds on experiences of intergovernmental
+initiatives and offers EU solutions to some of the difficulties encountered (e.g.
+lengthy negotiations, reinventing new rules for each facility ad hoc) to ensure
+a faster and more transparent process of establishing joint research facilities
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+82
+
+Big Science and Research Infrastructures in Europe
+
+(European Commission 2014b). However, while the ERIC framework can
+solve some of the problems it can also create new ones. Some important practical advantages and challenges of this framework were illustrated by the case
+of the European Social Survey becoming an ERIC in 2013. For the Survey,
+becoming an ERIC allowed it to tackle the challenge of long-term survival and
+funding but also led to the decline in the number of participating countries and
+thus to less comprehensive coverage because a number of countries decided
+not to join the ERIC or to join only as observers (Duclos Lindstrom and Kropp
+2017).
+3.2
+
+Differentiated Integration
+
+The ERIC model, that brings together only some EU member states and might
+include countries from outside the EU, is a case of the differentiated (rather
+than uniform) mode of European integration. Moreover, it is not the only case
+of differentiated integration in research policy. The core instrument of the EU
+research and innovation policy, namely the FP, is also a case of differentiated
+integration because in addition to the EU member states it also includes
+a considerable number of associated countries (Fumasoli et al 2015; Langfeldt
+et al 2012; Lavenex 2009). Sixteen associated countries are participating
+fully or partially in the most recent FP called Horizon 2020 and are making
+financial contributions to it (European Commission 2019c). Considering the
+significance of differentiated integration for RIs, and more generally for EU
+research policy (Chou and Ulnicane 2015), it is worthwhile to take a closer
+look at differentiated integration, what is driving it and why initiatives for
+RIs and research policy develop as cases of differentiated rather than uniform
+integration.
+Differentiated integration characterizes “all those policies, in which the
+territorial extension of European Union (EU) membership and EU rule validity
+are incongruent” (Holzinger and Schimmelfennig 2012: 292). Well-known
+examples of differentiated integration in other policy areas include the
+Economic and Monetary Union where several EU member states do not participate, and the Schengen zone where some EU members do not participate but
+some non-members participate (Holzinger and Schimmelfennig 2012). Such
+initiatives, also known as “multi-speed Europe”, “flexible integration”, “variable geometry”, “Europe à la carte” and “graded membership” (Holzinger and
+Schimmelfennig 2012; Kölliker 2001; Leruth and Lord 2015; Schimmelfennig
+2016), are seen as “an essential and, most likely, enduring characteristic of the
+EU” (Schimmelfennig et al 2015: 765).
+While historically examples of differentiated integration might have been
+seen as temporary phenomena that eventually will lead to full EU integration, data suggest that differentiation has significantly increased over time
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+83
+
+(Schimmelfennig et al 2015: 770). In European studies today, differentiated
+integration is recognized as “a permanent, organizational principle of the
+Union, grounded in a need to manage divisions and disagreements that just do
+not go away” (Leruth and Lord 2015: 758). Thus, differentiation has increasingly become a normal feature of European integration, including in the field
+of research where it has hardly been studied. This highlights the need to better
+understand the reasons behind and consequences of differentiated integration.
+Schimmelfennig et al (2015: 765) distinguish between vertical and horizontal differentiation. While in their view vertical differentiation means
+that policy areas have been integrated at different speeds and have reached
+different levels of centralization over time, horizontal differentiation relates
+to the territorial dimension and refers to the fact that many integrated policies
+(including research) are neither uniformly nor exclusively valid in the EU
+member states. Furthermore, horizontal differentiation can be internal, i.e.
+some member states do not participate in integration, or it can be external, i.e.
+some non-members participate in selected EU policies (Schimmelfennig et al
+2015: 767).
+To explain horizontal differentiation, Schimmelfennig et al (2015: 765)
+propose two main factors – “interdependence” and “politicization”, with interdependence acting as a driver of integration, and politicization acting as an
+obstacle to uniform integration. Interdependence and politicization vary across
+policy area, country and time (Leruth 2015; Schimmelfennig et al 2015),
+and internal horizontal differentiation results from high interdependence and
+high politicization (Schimmelfennig et al 2015). Interdependence focuses on
+the benefits of cooperation, while the main indicators of politicization are
+“mass-level salience and contestation of European integration, the mobilization of Eurosceptic public opinion by Eurosceptic parties and opportunities
+to voice Eurosceptic opinions in national referendums or elections to the
+European Parliament” (Schimmelfennig et al 2015: 771). Admitting that
+their comparative categorical measurement of the conditions of interdependence and politicization is not straightforward and is based on plausibility,
+Schimmelfennig et al (2015: 775) argue that cases of “high interdependence”
+are characterized by high transnational exchange, significant economies of
+scale and important international externalities. They characterize cases of
+“high politicization”, with significant autonomy concerns for governments and
+identity concerns for nation-state citizens.
+Do these two factors – interdependence and politicization – help us to
+understand drivers behind differentiated integration in the case of RIs, namely
+why some EU non-members are eager to join ERIC initiatives and a number of
+member states decide not to join? Can high interdependence and high politicization explain differentiated integration initiatives in the case of RIs? The first
+explanatory variable – high interdependence – is clearly present. As explained
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+84
+
+Big Science and Research Infrastructures in Europe
+
+above, RIs on the European level are characterized by an active international
+research collaboration which is necessary to mobilize the required scientific,
+material, political and financial resources. However, while the overall interdependence of research activities is high, there can be some variation in the
+level of interdependence across specific research fields and countries. It has
+been argued that intergovernmental research funding schemes should be “flexible enough for the requirements of different knowledge areas and societal
+challenges” (Edler 2012: 331). Thus, it can be expected that differentiated
+integration in research policy results from the variation of interdependence
+across different research fields for different countries.
+The second explanatory variable – high politicization – is well known in
+the history of European research integration. Even if the main indicators of
+politicization in the differentiated integration literature outlined above (e.g.
+mass-level salience and contestation of European integration, mobilization of
+public opinion, opportunities to voice Eurosceptic opinions) are not present in
+the case of RIs, major initiatives in this field – as outlined above – have been
+surrounded with political debates about national sovereignty versus common
+good and related questions of juste retour and political, economic and diplomatic costs and benefits. Hallonsten (2016: 33–4) refers to the concept of
+“pork barrel politics” to emphasize the importance of political considerations
+– e.g. benefits of hosting a major facility (namely political “pork”) – in the
+launch and maintenance of Big Science and large-scale RIs. Thus, according
+to the differentiated integration approach, it can be expected that a country will
+join a Big Science or RI initiative such as ERIC in a specific research field if it
+has high scientific interdependence and low politicization in terms of negative
+public opinion (e.g. Euroscepticism). Clear political benefits (i.e. “pork”), such
+as the opportunity to host the project, would facilitate participation.
+Thus, the differentiated integration approach can provide a useful lens for
+studying the dynamics of forming and running initiatives such as ERICs and
+exploring their benefits and shortcomings in the light of research policy and
+European integration. However, further operationalization and systematic
+application of this framework for the cases of RIs goes beyond the scope of this
+chapter and should be considered for future studies.
+
+4.
+
+CHANGES IN EUROPEAN UNION POLICY
+AFFECTING BIG SCIENCE AND RESEARCH
+INFRASTRUCTURES
+
+To study developments in EU research policy affecting Big Science and RIs,
+this chapter adopts the three-dimensional framework of Big Science – Big
+Organizations, Big Machines and Big Politics – developed by Hallonsten
+(2016). While this framework was developed to study changes in a different
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+85
+
+historical context, this chapter adopts it to study ongoing developments along
+organizational, instrumentation and political dimensions that in this case are
+EU support for politically motivated large-scale projects and e-infrastructures
+as well as developing EU policies towards RIs in the context of the ERA.
+While it is not possible to provide an exhaustive analysis of changes in EU policies, the three above mentioned developments capture a number of important
+trends affecting Big Science and RIs in Europe.
+4.1
+
+Big Organizations: Politically Motivated Large-Scale Research
+Projects
+
+One novel feature of Big Science in Europe is the emergence of politically
+motivated large-scale research projects. If traditionally the size of science
+organizations has been mainly related to epistemic features of scientific
+disciplines and research fields, then in this new type of organization the size
+of the project is determined by political decisions. Traditionally, EU science
+funding has supported a large number of relatively small science projects.
+In EU policy rhetoric, this has been interpreted as fragmentation of funding,
+and calls have been made for large-scale EU initiatives to compete with other
+global science super-powers, especially the United States. The Innovation
+Union Flagship Initiative of the Europe 2020 strategy launched in 2010 highlighted the importance of partnering as a means to address Europe’s insufficient and fragmented research and innovation efforts (European Commission
+2014a). Such large-scale initiatives in the 7th FP and Horizon 2020 included
+industry-led public-private partnerships (joint technology initiatives, contractual public-private partnerships), member state-led public-public partnerships
+(ERA-NET Cofund, Article 185 initiatives, joint programming initiatives),
+European Innovation Partnerships, Knowledge and Innovation Communities
+and Future Emerging Technologies (FET) flagships.
+This section takes a closer look at the FET Flagships, which in comparison
+to other large-scale partnerships are envisaged to be science-driven research
+initiatives that are led by scientific communities in shaping their programs and
+building up industrial partnership over time (European Commission 2014a).
+The plan to identify and launch “two or three bold new FET research flagship initiatives which will drive large multidisciplinary research community
+efforts towards foundational breakthroughs at the frontier of ICT [information
+and communication technology]” was announced in the communication
+“Moving the ICT frontiers” (European Commission 2009). This document
+was published during the times of economic crisis, when EU rhetoric presented
+increased investments in research and innovation as sources to boost Europe’s
+competitiveness and to facilitate renewed growth (Ulnicane 2016b).
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+86
+
+Big Science and Research Infrastructures in Europe
+
+Table 4.1
+
+Evolution of FET Flagships
+
+Year
+
+FET Flagship development
+
+2009
+
+Communication “Moving the ICT frontiers” suggests a new funding instrument: FET
+Flagships
+
+2010
+
+Open consultation with the scientific community on initial ideas
+Call for FET Flagships published and 21 proposals received
+
+2011
+
+Selection of six pilot projects after evaluation of initial proposals
+
+2012
+
+Six pilot projects submit their flagship proposals
+
+2013
+
+Two winners announced: Graphene and Human Brain Project
+Start of the projects
+
+2014
+
+Staff working document on FET Flagships
+
+2015
+
+Signature of Framework Partnership Agreements under Horizon 2020 (8th FP)
+
+2017
+
+Publication of FET Flagships interim evaluation
+
+2018
+
+Launch of the third FET Flagship Quantum
+
+late 2018/
+
+During Horizon Europe negotiations (9th FP), plans for future FET Flagships abandoned
+
+early 2019
+
+Unclear future for six new pilot projects that were selected in 2018
+
+Source: Own compilation based on European Commission (2013, 2019d); Kupferschmidt
+(2019).
+
+Building on the well-regarded FET program for high risk research, the
+European Commission called for a doubling of its investment in transformative foundational research and FET by 2015, and the launch of FET Flagships
+was part of this agenda (European Commission 2009). While the main focus
+of FET Flagships is on ICT research, they are interdisciplinary. The FET
+Flagships “run typically for a period of 10 years and mobilise hundreds of
+researchers across Europe with an overall support of around EUR 1 billion”
+(European Commission 2019d). While these initiatives are often known as
+“one billion projects”, actual funding from the EU FP can be less than half of
+that expecting that the rest has to be attracted from industry, national government and other sources.
+After several years of consultations and competitive multistage selection
+processes, in 2013, the first two FET Flagships – Graphene and the HBP –
+were launched (for the timeline of the development of FET Flagships see Table
+4.1). The third flagship Quantum Technology was launched in 2018.
+According to the European Commission (2014a),
+flagships are visionary, science-driven, large-scale initiatives addressing grand
+scientific and technological (S&T) challenges. They are long-term initiatives bringing together excellent research teams across various disciplines having a unifying
+goal and an ambitious research roadmap on how to achieve it. Flagships aim at
+transformational impacts on science and technology, delivering a key competitive
+advantage for European industry and substantial benefits for society.
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+87
+
+Flagships are expected to bring future growth and competitiveness and
+“establish Europe as a global leader in their domain” (European Commission
+2014a). Under the Horizon 2020 Programme, which is organized according
+to the three priorities of Excellent Science, Industrial Leadership and Societal
+Challenges (Ulnicane 2015b, 2016a), FET Flagships are funded under the
+Excellent Science Pillar (European Commission 2019e). However, as the
+framing of FET Flagship aims in the EU documents suggests they are expected
+to deliver on multiple objectives of excellence, relevance and innovation.
+During the preparations for the next EU FP called Horizon Europe
+(2021–27), it was decided to abandon the plans for future FET Flagships
+(Kupferschmidt 2019) despite the fact that six new flagship pilots have been
+selected and awarded €1 million each for preparing their proposals (Abbott
+2019). The ending of the FET Flagship instrument has been explained by
+the need to streamline too many different funding instruments and funding
+approaches (Kupferschmidt 2019).
+While the three FET Flagships continue to operate, it is important to analyze
+what can be learned from this large-scale politically motivated science funding
+experiment for future organization and funding of research. In cases like this,
+when the size and length of the project is motivated by the political agenda on
+competitiveness, the two dimensions of Big Organizations and Big Politics
+become closely intertwined.
+4.2
+
+Big Machines: Support for e-Infrastructures
+
+The development of instrumentation of Big Science and RIs are undergoing
+important changes. In addition to traditional Big Machines such as accelerators and reactors, new types of scientific instrumentation and apparatus are
+emerging including digital research infrastructures (Olson et al 2008; see also
+Franssen, ch 7 in this volume). The EU policy is actively promoting these new
+types of digital infrastructures that it calls “e-Infrastructures” and that “provide
+digital-based services and tools for data- and computing-intensive research
+in virtual and collaborative environments” and that the Commission sees
+as being “key in future development of research infrastructures” (European
+Commission 2019f). Against the background of discourse of data revolution,
+the European Commission has launched and funded a number of e-infrastructure initiatives to support European super-computers and the European Open
+Science cloud.
+The need to support these new types of instruments was highlighted already
+in the ERA initiative that recognized the need for electronic infrastructures
+such as data repositories and high-speed networks (European Commission
+2007) and ICT-based e-infrastructures “that enable increasingly prevalent
+data-intensive collaborative research by geographically dispersed teams”
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+88
+
+Big Science and Research Infrastructures in Europe
+
+(European Commission 2012). Vision for the European scientific e-infrastructures for 2030 was set out by the High Level Expert Group on Scientific Data
+(European Commission 2010a) framing it as follows: “Our vision is a scientific e-infrastructure that supports seamless access, use, re-use, and trust of
+data. In a sense, the physical and technical infrastructure becomes invisible
+and the data themselves become the infrastructure – a valuable asset, on which
+science, technology, the economy and society can advance”. These new types
+of instrumentation come with new organizational and political aspects that
+are not present in the cases of traditional Big Machines. One such question is
+about the ethical, legal and social aspects of Big Science and RIs which are
+particularly relevant in the case of data infrastructures of life sciences that rely
+on patient data (Goisauf et al 2019).
+4.3
+
+Big Politics: ERA and RIs
+
+If historically RIs in Europe were established as intergovernmental initiatives
+outside the EU framework, then the main developments towards EU policy
+on RIs started within the ERA initiative launched in 2000. EU policy towards
+RIs evolved gradually in parallel to the development of the ERA initiative (see
+Table 4.2).
+As Table 4.2 demonstrates, since the launch of the ERA, the EU policy
+towards RIs has evolved from a general recognition of the need to define
+a common approach to very specific actions such as the launch of the legal
+framework and quantitative targets for the construction of RIs.
+The launch of the ERA initiative in 2000 was motivated by concerns about
+the EU’s competitive position vis-à-vis the United States and Japan as well
+as about the lack of coordination between national and EU research policies
+(Ulnicane 2015b). To address this, the ERA initiative outlined action lines
+including more coherence and common approaches to investments and human
+resources. Among actions, the initial ERA document called for a definition
+of a European approach to RIs (European Commission 2000). The document
+stated that already for several years the EU had been operating a program
+of support for RIs which had provided support for transnational access to
+facilities, for the development of new instruments and equipment, and for
+cooperation projects designed to improve the interoperability of installations
+and the complementarity of their activities. It called for going a step further
+and developing “a European approach to infrastructures, covering both the
+creation of new installations, the functioning of existing ones and access to
+them” (European Commission 2000).
+The idea that RIs cannot be dealt with effectively at national level was
+repeated in an early review of the ERA (European Commission 2002), which
+reinforced the idea that “research infrastructures top the list of areas where
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+Table 4.2
+
+89
+
+Evolution of EU policy towards Research Infrastructures
+within the ERA initiative
+
+Year
+
+Developments in ERA initiative
+
+Relevance for RIs
+
+2000
+
+Communication “Towards
+
+Need to define a European approach to research
+
+European Research Area”
+
+infrastructures
+
+2002
+
+Communication “The European
+
+Creation of ESFRI
+
+Research Area: Providing a new
+momentum”
+2007
+2008
+
+Green Paper “The European
+
+Developing world-class research infrastructures, including
+
+Research Area: New perspectives”
+
+an appropriate legal structure
+
+Reports from the expert groups set
+
+Report of the ERA Expert Group “Developing
+
+up following the Green Paper
+
+World-Class Research Infrastructures for the European
+
+Lisbon Treaty comes into force
+
+Council decision on the ERIC framework
+
+Research Area”
+2009
+
+with objective of achieving
+ERA and shared competence for
+research
+2010
+
+Report of the (second) Expert Group on Research
+Infrastructures: “A vision for strengthening world-class
+research infrastructures in the ERA”
+
+2010
+
+Europe 2020 and Innovation
+
+Innovation Union target: by 2015, launch or complete the
+
+Union; deadline to complete ERA
+
+construction of 60 percent of the prioritized RIs identified
+
+by 2014
+
+by ESFRI
+
+2012
+
+ERA reform agenda
+
+Effective investment in and use of RIs included in the ERA
+
+2014
+
+Launch of ERA monitoring via
+
+Monitoring of ESFRI roadmaps and projects
+
+2015
+
+ERA roadmap 2015–20
+
+priorities
+regular Progress Reports
+Optimal use of public investments in RIs
+
+Source: Own compilation based on Ulnicane (2015b).
+
+a European approach is called for, given the levels of funding and the need
+for them to be given the means to ensure they are able to provide services on
+a European scale”. The main achievement in the area of RIs reported in this
+document was the creation of ESFRI in 2002 “to facilitate the emergence of
+a European policy on the development and use of research infrastructures in
+Europe, as well as multilateral initiatives in this field” (European Commission
+2002).
+The ERA Green Paper in 2007, that launched a broader public, stakeholder and expert involvement with the ERA, introduced the discourse of
+“world-class research infrastructures” (European Commission 2007). One of
+the six features that the ERA should have, according to the Green Paper, was
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+90
+
+Big Science and Research Infrastructures in Europe
+
+“world-class research infrastructures, integrated, networked and accessible to
+research teams from across Europe and the world, notably thanks to new generations of electronic communication infrastructures” (European Commission
+2007). Steps towards developing world-class infrastructures included building
+on the ESFRI roadmap (first published in 2006), making the most of all
+sources of funding, an appropriate legal structure and further developing electronic infrastructures in Europe and the world.
+Following up on the Green Paper, the European Commission established
+seven Expert Groups, one of which it dedicated to RIs. In 2008 it produced
+the report “Developing world-class Research Infrastructures for the European
+Research Area (ERA)” which highlighted the role of RIs for Europe’s competitiveness in basic and applied research as well as in generating ideas for
+industrial, societal and political applications. Among concrete steps, the report
+mentioned the creation of a legal framework for pan-European RIs. This recommendation was implemented in 2009, when the Council of the EU adopted
+the ERIC legal framework. In 2010, the second expert group released its report
+with further recommendations for strengthening RIs in the ERA (European
+Commission 2010b).
+Moreover, in 2010 the Lisbon Strategy was replaced by the Europe 2020
+strategy for smart, sustainable and inclusive growth. One of the so-called
+Europe 2020 Flagship Initiatives was the Innovation Union (European
+Commission 2010c), which set a deadline for completing the ERA in 2014 as
+well as a number of specific targets. One of these targets prescribed that “by
+2015, Member States together with the Commission should have completed
+or launched the construction of 60% of the priority European research infrastructures currently identified by the European Strategy Forum on Research
+Infrastructures (ESFRI)” (European Commission 2010c).
+In light of the deadline for completing the ERA in 2014 and other targets set
+in the Innovation Union Flagship Initiative, in 2012 the European Commission
+launched the ERA reform agenda (European Commission 2012). A focus on
+effective investment in and use of research infrastructures was included in
+one of the ERA priorities of “Optimal transnational co-operation and competition”. To facilitate implementation of the ERA priorities, in 2014 an ERA
+monitoring process was launched with regular ERA Progress Reports which
+also monitored the progress on RIs. According to the 2018 ERA Progress
+Report: “As of 2018, over half of the ERA countries had roadmaps in place
+together with ESFRI research infrastructures, but only a third of them had also
+identified funding needs. However, more cooperation and synchronization of
+national procedures (for setting priorities, monitoring and long-term funding)
+is needed to make the European research infrastructure ecosystem more robust
+and increase the effectiveness of public investments in this area” (European
+Commission 2019g). The top priorities of the ERA Roadmap 2015–20 include
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+91
+
+“making optimal use of public investments in Research Infrastructures (RIs)
+by setting national priorities compatible with the European Strategy Forum on
+Research Infrastructures (ESFRI) priorities and criteria taking full account of
+long term sustainability” (Council of the European Union 2015). Among the
+points for possible future consideration, the roadmap highlights “the need to
+step up the efforts in the area of the Research Infrastructures, including the
+e-infrastructures, and UNDERLINES that the use of the European Structural
+and Investment Funds for these purposes should be encouraged, where appropriate” (Council of the European Union 2015).
+To sum up, the EU policy towards RIs was largely developed within the
+ERA initiative, demonstrating that the EU includes RIs among the core priorities of European integration in science. Over time this policy developed from
+broad statements about the need for a common European approach, to concrete
+actions and decisions. Today EU policy for RIs is largely developed within the
+ESFRI. Currently, the role of the ERA initiative for RIs is largely limited to
+monitoring, with results published in the ERA Progress Reports. Overall since
+the controversial deadline to complete the ERA by 2014 (Ulnicane 2015b,
+2016c), the role of the ERA initiative in EU research policy has diminished.
+However, in 2020 it is planned to launch a new strategy for ERA. The EU
+policy discourse about RIs has shifted from previous grand ambitions of
+“world-class infrastructures” (European Commission 2007, 2008, 2010a,
+2010b) to a more pragmatic recent focus on “sustainable research infrastructures” (European Commission 2017a).
+
+5.
+
+EXAMPLE OF CHANGING EUROPEAN UNION
+POLICY: THE HUMAN BRAIN PROJECT
+
+To illustrate changes in EU policy towards Big Science and RIs (discussed
+in Section 4), this section looks at the HBP. It is one of the two initial FET
+Flagships (see Section 4.1) launched in 2013 to develop an RI for scientific
+and industrial researchers to study neuroscience, computing and brain-related
+medicine. After expiration of its current FET Flagship funding in 2023, it is
+planning to establish itself as an RI initiative called EBRAINS. Preparations
+for developing a sustainable RI involve a number of diverse activities from
+preparing services and building user communities to establishing legal entity
+and ensuring sustainable funding sources.
+The HBP is one of the largest science projects ever funded by the EU,
+bringing together some 500 researchers and engineers from different scientific
+disciplines including neuroscience, computing and social sciences. They are
+based in approximately 120 universities, research institutes and hospitals in
+some 20 countries. While popularly known as a “one billion project”, actual
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+92
+
+Big Science and Research Infrastructures in Europe
+
+funding expected from the FPs over ten years is around €400 million, and the
+rest of the funding is expected to be acquired from other sources.
+5.1
+
+Big Organization: From FET Flagship to Sustainable Research
+Infrastructure
+
+The EU policy discourse explaining the importance of the HBP states that
+“understanding the human brain is one of the greatest challenges facing 21st
+century science. By rising to the challenge, profound insights into what it
+means to be human can be gained. New treatments for brain diseases may also
+become possible, and new knowledge may enable revolutionary new computing technologies” (European Commission 2017b).
+Ideas for the HBP originate from the Swiss Blue Brain project that aims to
+reverse-engineer the mammalian brain. At the beginning, the aim of the HBP,
+championed by its initial leader Henry Markram, was to build a realistic computer model of the brain by 2023. Already in the HBP proposal in 2012, it was
+mentioned that building and simulating such models will require infrastructure
+and ICT platforms branded as infrastructure (Human Brain Project 2012).
+The European Commission’s press release presented the HBP as a “facility”,
+stating that it “will create the world’s largest experimental facility for developing the most detailed model of the brain, for studying how the human brain
+works and ultimately to develop personalised treatment of neurological and
+related diseases” (European Commission 2013).
+Interestingly, initial leaders of this highly risky ICT and neuroscience project
+aiming to simulate the human brain compared the HBP with well-known
+successful traditional large-scale initiatives and facilities including CERN,
+Higgs boson, the Human Genome Project, National Aeronautics and Space
+Administration, space shuttles and telescopes (see e.g. Frackowiak 2014;
+Honigsbaum 2013). These comparisons can be seen as attempts to make the
+HBP more acceptable and understandable as well as to signal the level of
+ambition.
+When the highly risky grand vision came under criticism, the aim to turn
+the HBP into an RI moved to the forefront as a safer objective for the project’s
+continuation. Less than a year after the HBP was launched, an open letter
+attacking HBP’s science and organization gathered more than 800 signatures
+of neuroscientists (Theil 2015; see also Mahfoud 2020). Additionally, signatories were concerned that the financing of HBP would drain all the EU
+and national funds on neuroscience research for the duration of the project
+(European Commission 2017b). Similar concerns that funding of large digital
+infrastructures would limit resources for other epistemic approaches can be
+seen also in other scientific disciplines including humanities (see Franssen,
+ch 7 in this volume). Major scientific and structural reorganization of the
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+Table 4.3
+
+93
+
+Timeline: from the Human Brain Project to EBRAINS
+research infrastructure
+
+Year
+
+Developments
+
+2013
+
+The Human Brain Project was launched following a competitive selection process
+
+2014
+
+Open letter and mediation process; 1st technical project review
+
+2015
+
+Framework Partnership Agreement includes White Paper on Infrastructure
+
+2016
+
+HBP ICT platforms made available to the public
+
+2018
+
+Start of Computational e-Infrastructure FENIX for EU Neuroscience
+
+2019
+
+Establishment of the RI legal entity
+
+2023
+
+FET Flagship funding ends/continuation as EBRAINS RI expected
+
+Source: Own compilation partly based on Human Brain Project (2019a).
+
+HBP followed (with a close involvement of the European Commission) and
+the main aim of computing the brain was changed to building an RI (for the
+timeline of the HBP, see Table 4.3). Although the main aim of the project was
+revised in 2014 and 2015, several years later in the popular press and mass
+media the HBP is still associated with a vision of building a computer model
+of the human brain (e.g. Marsh 2019; O’Connell 2017).
+The mediation process and the first technical project review that followed
+the open letter led to important changes including one of the project leadership.
+The new objectives of the HBP were outlined in the Framework Partnership
+Agreement (Human Brain Project 2015). The six closely related HBP objectives are (1) to create and operate a European scientific research infrastructure
+for brain research, cognitive neuroscience and other brain-inspired sciences;
+(2) to gather, organize and disseminate data describing the brain and its
+disease; (3) to simulate the brain; (4) to build multiscale scaffold theory and
+models for the brain; (5) to develop brain-inspired computing, data analytics
+and robotics; and (6) to ensure that the HBP’s work is undertaken responsibly
+and that it benefits society (Human Brain Project 2015).
+The Framework Partnership Agreement also included the White Paper
+“Transforming the Human Brain Project Platforms into a Community-Driven
+Infrastructure for Brain Research”, which also set out a roadmap for RI development. This focused more specifically on what we here could call instrumentation, and what will be discussed below.
+5.2
+
+Big Machines: ICT Research Platforms
+
+The HBP is building the EBRAINS RI for collecting, analyzing, sharing, integrating and modelling data about the brain. At the core of this RI are six ICT
+platforms launched in 2016: Neuroinformatics (access to shared brain data),
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+94
+
+Big Science and Research Infrastructures in Europe
+
+Brain Simulation (replication of brain architecture and activity on computers),
+High Performance Analytics and Computing (providing the required computing and analytics capabilities), Medical Informatics (access to patient data,
+identification of disease signatures), Neuromorphic Computing (development
+of brain-inspiring computing) and Neurorobotics (use of robots to test brain
+simulation) (Human Brain Project 2019b). Thus, platforms provide access to
+hardware, software, simulation environments and data sets.
+The promise is that “the Platforms will enable new kinds of collaborative
+research to be performed in neuroscience, medicine and computing. The
+prototype tools, hardware systems and initial data sets are designed to enable
+faster and more efficient research techniques in, for example, modelling, in
+silico experimentation, or data analysis” (European Commission 2017b).
+Additionally, from 2018 to 2023, the five leading European super-computing
+centers that form the HBP High Performance Analytics and Computing platform have launched the Interactive Computing E-Infrastructure ICEI/FENIX
+that provides computing and data services for the HBP as well as for external
+users.
+Key challenges for building research infrastructure include attracting diverse
+user communities (beyond HBP) and ensuring sustainability and coherence of
+the infrastructure. To engage the user community and develop collaborations,
+in 2018 the HBP announced a voucher scheme that gives access to HBP platforms and engineers to solve specific scientific problems. According to the
+vision for the future of the HBP, “the brain research infrastructure will unify
+the individual components into one cloud-based super-structure, facilitating
+the exchange of knowledge, data, models, and algorithms within HBP as well
+as between the HBP and the ‘outside world’” (Amunts et al 2019).
+Thus, a major effort to develop research infrastructure in this case is undertaken within a fixed-term project without guaranteed future funding. This leads
+to the next topic: the Big Politics of the HBP.
+5.3
+
+Uncertainty of Big Politics
+
+So far Big Politics has worked for and against the HBP. Initially, its scientific
+vision of modeling the human brain received major political support at the EU
+level in terms of being awarded FET Flagship. However, very soon politics
+backfired when this high-profile project triggered major critique from the scientific community and in response to the open letter the HBP was reorganized.
+The international science context has been an important element in the EU’s
+support for the HBP. Already initial EU policy documents on the first two FET
+Flagships mention that “understanding the human brain is a global challenge”
+(European Commission 2014a) and refer to other major brain initiatives in the
+world including the United States, Canada, Japan, China, Korea and Australia.
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+95
+
+In popular press, international focus on neuroscience has also been framed as
+a “brain race” (see e.g. Honigsbaum 2013). In 2017, the HBP together with
+other major initiatives launched an International Brain Initiative to advance
+ethical neuroscience research through international collaboration and knowledge sharing (see also Savage 2019). Here we can see also elements of science
+diplomacy: EU scientists interact and exchange ideas with scientists in the
+United States and China despite the fact that this often sensitive research takes
+place under very different regulatory and ethical regimes that among other
+issues affect treatment of personal data and animal research.
+Building and maintaining a sustainable research infrastructure after the
+FET Flagship (i.e. after 2023), e.g. by being included in the ESFRI roadmap,
+requires mobilization of major political support also at the national level. This
+means that not all initial project partners might continue their participation
+in the RI as has been experienced by other initiatives such as the European
+Social Survey discussed above (Duclos Lindstrom and Kropp 2017). The differentiated integration approach (Section 3.2) suggests that countries will join
+differentiated initiatives when interdependence is high and politicization is
+low. International interdependence is relatively new in neuroscience and ICT,
+which traditionally have not been examples of Big Science. However, a more
+recent trend towards major brain initiatives around the world and international
+collaboration between them might increase motivation for national governments to collaborate internationally in this field.
+Low politicization in this case is a more uncertain issue due to the HBP’s
+history. Moreover, the need to acquire national support for participation in an
+infrastructure initiative implies that composition of countries in future infrastructure initiatives might differ from the current national composition of the
+HBP, thus affecting the coherence of the infrastructure that is being built.
+
+6.
+
+SUMMARY AND OPEN QUESTIONS
+
+Since the year 2000, the EU has launched major policy agendas focusing
+on increasing its global competitiveness and improving coordination and
+collaboration among its member states. In response to the financial crisis in
+2008–2009, the EU reinforced these policies to stimulate economic growth.
+Big Science and RIs are part of this broad EU policy agenda.
+This chapter described some ongoing changes in EU policy affecting Big
+Science and RIs and revealing the evolving role of EU policy on the closely
+interconnected new developments in three dimensions – Big Organizations,
+Big Machines and Big Politics – in the EU. Political interest to fund large-scale
+projects increases influence of political factors on Big Organizations. The EU
+support for e-infrastructures, data repositories and super-computers, facilitated
+by the rhetoric of data revolution, enables the development of new types of
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+96
+
+Big Science and Research Infrastructures in Europe
+
+instruments and apparatus in parallel to more traditional Big Machines. The
+Big Politics of the ERA put RIs at the core of European integration in research.
+The choice to support RIs in a differentiated integration mode, that brings
+together selected member states and non-members, provides flexibility but
+also presents challenges for supranational initiatives.
+These developments and the example of the HBP draws attention to
+a number of open questions about ongoing and future changes and transformations. Are political and scientific factors complementary or contradictory
+in the case of the launch and governance of large-scale research projects?
+What lessons can be learned about the governance and effectiveness of such
+projects? What is the evidence from large-scale research projects on their contribution to fulfilling their diverse objectives of achieving excellence, tackling
+societal challenges, accomplishing industrial collaboration and contributing
+to international competitiveness? How can new e-infrastructures be made
+sustainable? What roles do user communities and other stakeholders play in
+the development and maintenance of e-infrastructures? Are large-scale digital
+infrastructures promoted at the expense of other epistemic approaches? Is there
+a trend towards turning fixed-term scientific projects to become sustainable
+research infrastructures and is today’s science system ready for it? Should EU
+policymakers consider going beyond differentiated integration-type arrangements in this area, and develop a supranational framework for setting up RIs?
+
+NOTE
+This is an open access work distributed under the Creative Commons AttributionNonCommercial-NoDerivatives 3.0 Unported (https://creativecommons.org/
+licenses/by-nc-nd/3.0/). Users can redistribute the work for non-commercial
+purposes, as long as it is passed along unchanged and in whole, as detailed
+in the License. Edward Elgar Publishing Ltd must be clearly credited as the
+owner of the original work. Any translation or adaptation of the original
+content requires the written authorization of Edward Elgar Publishing Ltd.
+
+ACKNOWLEDGMENTS
+This chapter has benefited from feedback on presentations of earlier drafts
+at the book workshop in Lund, Sweden, 2019 and the General Conferences
+of the European Consortium for Political Research in 2018 in Hamburg,
+Germany and in 2019 in Wroclaw, Poland. Useful recommendations from
+Tara Mahfoud, Christine Aicardi, Bernd Carsten Stahl and the editors of
+this book are gratefully acknowledged. The research reported in this chapter
+has received funding from the EU’s Horizon 2020 Research and Innovation
+Programme under Grant Agreements No. 720270 (HBP SGA1), No. 785907
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+97
+
+(HBP SGA2) and No. 945539 (HBP SGA3). The author has been a researcher
+within the HBP’s Ethics and Society team since December 2017.
+
+REFERENCES
+Abbott A (2019) Europe’s next €1-billion science projects: Six teams make it to final
+round. Nature 566: 164–5.
+Amunts K, A C Knoll, T Lippert, C M A Pennartz, P Ryvlin, A Destexhe, V K Jirsa, E
+D’Angelo and J G Bjaalie (2019) The Human Brain Project: Synergy between neuroscience, computing, informatics, and brain-inspired technologies. PLoS Biology
+17 (7): e3000344.
+Chou M-H and I Ulnicane (2015) New horizons in the Europe of knowledge. Journal
+of Contemporary European Research 11 (1): 4–15.
+Council of the European Union (2015) Draft conclusions on the European Research
+Area Roadmap 2015–2020, May 19. Available at http://data.consilium.europa.eu/
+doc/document/ST-8975-2015-INIT/en/pdf (last accessed August 25, 2019).
+Crawford E, T Shinn and S Sorlin (eds) (1993) Denationalizing science: The contexts
+of international scientific practice. Springer.
+Duclos Lindstrom M and K Kropp (2017) Understanding the infrastructure of European
+Research Infrastructures: The case of the European Social Survey (ESS-ERIC).
+Science and Public Policy 44 (6): 855–64.
+Edler J (2012) Toward variable funding for international science. Science 338 (6105):
+331–2.
+Egenhofer C, P M Kaczynski, S Kurpas and L Schaik (2011) The ever-changing Union:
+An introduction to the history, institutions and decision-making processes of the
+European Union, 2nd ed. Centre for European Policy Studies.
+European Commission (2000) Towards a European Research Area. Communication
+COM(2000) 6.
+European Commission (2002) The European Research Area: Providing new momentum. Communication COM(2002) 565.
+European Commission (2007) The European Research Area: New perspectives. Green
+Paper. COM(2007) 161.
+European Commission (2008) Developing world-class research infrastructures for the
+European Research Area (ERA). Report of the ERA Expert Group.
+European Commission (2009) Moving the ICT frontiers: A strategy for research on
+future and emerging technologies in Europe. Communication COM(2009) 184.
+European Commission (2010a) Riding the wave: How Europe can gain from the rising
+tide of scientific data. Final Report of the High Level Expert Group on Scientific
+Data.
+European Commission (2010b) A vision for strengthening world-class research infrastructures in the ERA. Report from the Expert Group on Research Infrastructures.
+European Commission (2010c) Europe 2020 Flagship Initiative Innovation Union.
+Communication COM(2010) 546.
+European Commission (2012) A reinforced European Research Area partnership for
+excellence and growth. Communication COM(2012) 392.
+European Commission (2013) Graphene and the Human Brain Project win largest
+research excellence award in history. Available at https://ec.europa.eu/digital
+-single-market/en/news/graphene-and-human-brain-project-win-largest-research
+-excellence-award-history (last accessed December 6, 2019).
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+98
+
+Big Science and Research Infrastructures in Europe
+
+European Commission (2014a) FET Flagships: A novel partnering approach to
+address grand scientific challenges and to boost innovation in Europe. Commission
+Staff Working Document SWD(2014) 283 final.
+European Commission (2014b) Report from the Commission to the European
+Parliament and the Council on the Application of Council Regulation (EC) No
+723/2009 of 25 June 2009 on the Community legal framework for a European
+Research Infrastruicture Consortium (ERIC). Communication COM(2014) 460.
+European Commission (2017a) Sustainable European research infrastructures.
+Commission Staff Working Document SWD(2017) 323.
+European Commission (2017b) FET Flagships interim evaluation. Final Report.
+European Commission (2019a) European Research Infrastructures. Available at
+https://ec.europa.eu/info/research-and-innovation/strategy/european-research
+-infrastructures_en (last accessed February 13, 2019).
+European Commission (2019b) European Research Infrastructure Consortium (ERIC).
+Available at https://ec.europa.eu/info/research-and-innovation/strategy/european
+-research-infrastructures/eric_en (last accessed December 6, 2019).
+European Commission (2019c) Associated countries. Available at https://ec.europa.eu/
+research/participants/data/ref/h2020/grants_manual/hi/3cpart/h2020-hi-list-ac_en
+.pdf (last accessed December 6, 2019).
+European Commission (2019d) FET Flagships. Available at https://ec.europa.eu/
+digital-single-market/en/fet-flagships (last accessed February 15, 2019).
+European Commission (2019e) Horizon 2020 FET Flagships. Available at https://ec
+.europa.eu/programmes/horizon2020/en/h2020-section/fet-flagships (last accessed
+August 26, 2019).
+European Commission (2019f) e-Infrastructures. Available at https://ec.europa.eu/
+digital-single-market/en/e-infrastructures (last accessed November 24, 2019).
+European Commission (2019g) ERA Progress Report 2018. Communication
+COM(2019) 83.
+Frackowiak R (2014) Defending the grand vision of the Human Brain Project. New
+Scientist July 16.
+Fumasoli T, Å Gornitzka and B Leruth (2015) A multi-level approach to differentiated integration: Distributive policy, national heterogeneity and actors in the
+European Research Area. ARENA Working Paper 2. Available at www.sv.uio.no/
+arena/english/research/publications/arena-working-papers/2015/wp2-15.html (last
+accessed January 10, 2020).
+Goisauf M, G Martin, H B Bentzen, I Budin-Ljøsne, L Ursin, A Durnova et al (2019)
+Data in question: A survey of European biobank professionals on ethical, legal and
+societal challenges of biobank research. PLoS ONE 14 (9): e0221496.
+Hallonsten O (2012) Continuity and change in the politics of European scientific collaboration. Journal of Contemporary European Research 8 (3): 300–19.
+Hallonsten O (2014) The politics of European collaboration in Big Science. In M
+Mayer, M Carpes and R Knoblich (eds) The global politics of science and technology. Vol. 2: Perspectives, cases and methods. Springer, pp 31–46.
+Hallonsten O (2015) Unpreparedness and risk in Big Science policy: Sweden and the
+European Spallation Source. Science and Public Policy 42 (3): 415–26.
+Hallonsten O (2016) Big science transformed: Science, politics and organization in
+Europe and the United States. Palgrave Macmillan.
+Hallonsten O (2020) Research Infrastructures in Europe: The hype and the field.
+European Review 28 (4): 617–35.
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+Ever-changing Big Science and Research Infrastructures
+
+99
+
+Holzinger K and F Schimmelfennig (2012) Differentiated integration in the European
+Union: Many concepts, sparse theory, few data. Journal of European Public Policy
+19 (2): 292–305.
+Honigsbaum M (2013) Human Brain project: Henry Markram plans to spend €1bn
+building a perfect model of the human brain. Guardian October 15.
+Human Brain Project (2012) The Human Brain Project. A report to the European
+Commission.
+Human Brain Project (2015) Framework Partnership Agreement.
+Human Brain Project (2019a) Human Brain Project grant structure. Available at
+www.humanbrainproject.eu/en/about/human-brain-project-ec-grants/ (last accessed
+December 6, 2019).
+Human Brain Project (2019b) Short overview of the Human Brain Project. Available at
+www.humanbrainproject.eu/en/about/overview/ (last accessed December 6, 2019).
+Kölliker A (2001) Bringing together or driving apart the union? Towards a theory of
+differentiated integration. West European Politics 24 (4): 125–51.
+Krige J (2002) The birth of EMBO and the difficult road to EMBL. Studies in History
+and Philosophy of Science Part C: Studies in History and Philosophy of Biological
+and Biomedical Sciences 33 (3): 547–64.
+Krige J (2003) The politics of European scientific collaboration. In J Krige and D Pestre
+(eds) Companion to science in the twentieth century. Routledge, pp 897–918.
+Kupferschmidt K (2019) Europe abandons plans for “flagship” billion-euro research
+projects. Science May 14.
+Langfeldt L, H Godø, Å Gornitzka and A Kaloudis (2012) Integration modes in EU
+research: Centrifugality versus coordination of national research policies. Science
+and Public Policy 39 (1): 88–98.
+Lavenex S (2009) Switzerland in the European Research Area: Integration without
+legislation. Swiss Political Science Review 15 (4): 629–51.
+Leruth B (2015) Operationalizing national preferences on Europe and differentiated
+integration. Journal of European Public Policy 22 (6): 816–35.
+Leruth B and C Lord (2015) Differentiated integration in the European Union:
+A concept, a process, a system or a theory? Journal of European Public Policy 22
+(6): 754–63.
+Mahfoud T (2020) Visions of unification and integration: Building brains and communities in the European Human Brain Project. New Media and Society.
+Marsh H (2019) Can man ever build a mind? Financial Times January 10.
+Moskovko M, A Astvaldsson and O Hallonsten (2019) Who is ERIC? The politics
+and jurisprudence of a governance tool for collaborative Research Infrastructures.
+Journal of Contemporary European Research 15 (3): 249–68.
+Nedeva M (2013) Between the global and the national: Organising European science.
+Research Policy 42 (1): 220–30.
+O’Connell M (2017) To be a machine: Adventures among cyborgs, utopians, hackers,
+and the futurists solving the modest problem of death. Granta.
+Olson G M, A Zimmerman and N Bos (eds) (2008) Scientific collaboration on the
+internet. MIT Press.
+Papon P (2004) European scientific cooperation and Research Infrastructures: Past
+tendencies and future prospects. Minerva 42 (1): 61–76.
+Papon P (2009) Intergovernmental cooperation in the making of European research. In
+H Delanghe, U Muldur and L Soete (eds) European science and technology policy:
+Towards integration or fragmentation? Edward Elgar Publishing, pp 24–43.
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+100
+
+Big Science and Research Infrastructures in Europe
+
+Royal Society (2010) New frontiers in science diplomacy: Navigating the changing
+balance of power. Royal Society.
+Savage N (2019) Brain work. Large-scale national research projects hope to reveal the
+secrets of the human brain. Nature 574: 49–51.
+Schimmelfennig F (2016) Good governance and differentiated integration: Graded
+membership in the European Union. European Journal of Political Research 55 (4):
+789–810.
+Schimmelfennig F, D Leuffen and B Rittberger (2015) The European Union as
+a system of differentiated integration: Interdependence, politicization and differentiation. Journal of European Public Policy 22 (6): 764–82.
+Theil S (2015) Why the Human Brain Project went wrong – and how to fix it. Scientific
+American October 1.
+Ulnicane I (2015a) Why do international research collaborations last? Virtuous circle of
+feedback loops, continuity and renewal. Science and Public Policy 42 (4): 433–47.
+Ulnicane I (2015b) Broadening aims and building support in science, technology and
+innovation policy: The case of the European research area. Journal of Contemporary
+European Research 11 (1): 31–49.
+Ulnicane I (2016a) “Grand challenges” concept: A return of the “big ideas” in
+science, technology and innovation policy? International Journal of Foresight and
+Innovation Policy 11 (1–3): 5–21.
+Ulnicane I (2016b) Research and innovation as sources of renewed growth? EU policy
+responses to the crisis. Journal of European Integration 38 (3): 327–41.
+Ulnicane I (2016c) Research paper on the European Research Area initiative and the
+free circulation of knowledge. In C Salm and T Zandstra (eds) European Research
+Area: Cost of non-Europe report. European Parliamentary Research Service, pp
+19–50.
+Vermeulen N, J N Parker and B Penders (2010) Big, small or mezzo? EMBO Reports
+11 (6): 420–3.
+Wagner C S (2008) The new invisibile college: Science for development. Brookings
+Institutions Press.
+Wagner C S, H Park and L Leydesdorff (2015) The continuing growth of global cooperation networks in research: A conundrum for national governments. PLoS ONE 10
+(7): e0131816.
+
+Inga Ulnicane - 9781839100017
+Downloaded from Elgar Online at 08/17/2020 07:47:24PM
+via free access
+
+

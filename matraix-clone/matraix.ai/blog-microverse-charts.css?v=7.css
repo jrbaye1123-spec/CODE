@@ -1,0 +1,288 @@
+/* MicroVerse interactive charts — matrAIx blog (dark editorial theme) */
+
+.blog-charts-mount {
+  margin: 0;
+  min-height: 280px;
+}
+
+.blog-charts-mount:empty::before {
+  content: "Loading charts…";
+  display: block;
+  padding: 48px 20px;
+  text-align: center;
+  color: #8b929c;
+  font-size: 0.86rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: var(--mono, "JetBrains Mono", ui-monospace, monospace);
+}
+
+.blog-charts-error {
+  margin: 0;
+  padding: 32px 20px;
+  text-align: center;
+  color: #f0a0a0;
+  font-size: 0.9rem;
+  border: 1px dashed rgba(220, 100, 100, 0.35);
+  border-radius: 10px;
+  background: rgba(220, 80, 80, 0.06);
+}
+
+.blog-charts-mount .mv-charts {
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.blog-charts-mount .mv-charts-blog-pair {
+  max-width: 100%;
+}
+
+.blog-charts-mount .mv-charts-1 {
+  grid-template-columns: 1fr;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.blog-charts-mount .mv-chart {
+  padding: 16px 18px 14px;
+  border: 1px solid rgba(151, 169, 190, 0.14);
+  border-radius: 12px;
+  background:
+    radial-gradient(ellipse 90% 70% at 100% 0%, rgba(74, 143, 194, 0.07), transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015));
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blog-charts-mount .mv-chart-title {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem !important;
+  font-weight: 600;
+  color: #cdd1d7 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em;
+  margin: 0 !important;
+}
+
+.blog-charts-mount .mv-chart-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin: -2px 0 2px;
+}
+
+.blog-charts-mount .mv-chart-key-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #8b929c;
+}
+
+.blog-charts-mount .mv-chart-key-swatch {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  flex: none;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.blog-charts-mount .mv-chart-key-name {
+  font-family: Inter, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #b4bac2;
+}
+
+.blog-charts-mount .mv-model-key {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 10px 14px;
+  border: 1px solid rgba(151, 169, 190, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.blog-charts-mount .mv-model-key-label {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7f8792;
+  margin-right: 4px;
+}
+
+.blog-charts-mount .mv-model-key-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #8b929c;
+}
+
+.blog-charts-mount .mv-model-key-item i {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex: none;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.blog-charts-mount .mv-model-key-item b {
+  font-weight: 600;
+  color: #e0e4e8;
+}
+
+.blog-charts-mount .mv-model-key-item em {
+  font-style: normal;
+  color: #6f7782;
+  font-size: 10px;
+}
+
+.blog-charts-mount .mv-chart svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: crosshair;
+}
+
+.blog-charts-mount .mv-chart-plot {
+  position: relative;
+}
+
+.blog-charts-mount .mv-chart-tooltip {
+  position: absolute;
+  top: 8px;
+  min-width: 128px;
+  padding: 6px 8px;
+  background: #1a1d22;
+  border: 1px solid rgba(151, 169, 190, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.blog-charts-mount .mv-chart-tooltip-x {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 5px;
+}
+
+.blog-charts-mount .mv-chart-tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+}
+
+.blog-charts-mount .mv-chart-tooltip-row + .mv-chart-tooltip-row {
+  margin-top: 2px;
+}
+
+.blog-charts-mount .mv-chart-tooltip-row i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex: none;
+  display: inline-block;
+}
+
+.blog-charts-mount .mv-chart-tooltip-name {
+  flex: 1;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.blog-charts-mount .mv-chart-tooltip-val {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-weight: 600;
+  color: #fff;
+}
+
+.blog-charts-mount .mv-chart-axis {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 7px;
+  letter-spacing: 0.3px;
+}
+
+/* Beats .article p { font-size: clamp(...) !important } in blog-post.css */
+.blog-charts-mount .mv-chart-caption {
+  font-size: 0.62rem !important;
+  line-height: 1.42 !important;
+  color: #727a85 !important;
+  margin-top: auto;
+  margin-bottom: 0 !important;
+}
+
+.blog-charts-mount .mv-chart-legend {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  padding: 10px 12px;
+  border: 1px solid rgba(151, 169, 190, 0.1);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.blog-charts-mount .mv-chart-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10.5px;
+  color: #8b929c;
+}
+
+.blog-charts-mount .mv-chart-legend-item b {
+  font-weight: 600;
+  color: #d8dbe0;
+}
+
+.blog-charts-mount .mv-chart-legend i {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+  flex: none;
+}
+
+.blog-charts-mount .mv-charts-note {
+  grid-column: 1 / -1;
+  font-size: 0.6rem !important;
+  line-height: 1.45 !important;
+  color: #6f7782 !important;
+  font-style: italic;
+  margin-bottom: 0 !important;
+}
+
+.blog-charts-figcaption {
+  margin-top: 14px;
+  color: #7f8792;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .blog-charts-mount .mv-charts {
+    grid-template-columns: 1fr;
+  }
+}

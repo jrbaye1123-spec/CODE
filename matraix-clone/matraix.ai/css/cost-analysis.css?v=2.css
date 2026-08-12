@@ -1,0 +1,36 @@
+/* Cost-comparison article components. */
+.article-lead{color:#eef0f3!important;font-size:1.18rem!important;line-height:1.72!important}
+.article sup{margin-left:2px;font:500 .65em var(--mono)}
+.analysis-callout{margin:36px 0;padding:26px 28px;border:1px solid rgba(74,143,194,.28);border-radius:12px;background:linear-gradient(135deg,rgba(74,143,194,.12),rgba(74,143,194,.035))}
+.analysis-callout>strong{display:block;margin-bottom:9px;color:#82c2ec!important;font-size:1.05rem}
+.analysis-callout p{margin:0!important;color:#d8dce1!important}
+.analysis-callout.conclusion{margin-top:48px;border-color:rgba(109,174,219,.4);background:radial-gradient(circle at 100% 0,rgba(109,174,219,.18),transparent 44%),#111820}
+.formula-card{display:grid;gap:10px;margin:30px 0;padding:24px;border:1px solid var(--line);border-radius:10px;background:#101217}
+.formula-card span{margin-top:6px;color:#6daedb;font:600 .62rem var(--mono);letter-spacing:.12em}
+.formula-card code{display:block;overflow-x:auto;padding:12px 14px;border-radius:6px;background:#090b0e;color:#cdd8e1;font:.8rem/1.6 var(--mono);white-space:nowrap}
+.formula-card.compact{gap:8px}
+.assumption-strip{display:grid;grid-template-columns:repeat(4,1fr);margin:34px 0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#111318}
+.assumption-strip div{padding:20px 16px;border-right:1px solid var(--line);text-align:center}.assumption-strip div:last-child{border-right:0}
+.assumption-strip b{display:block;color:#7db9e1;font-size:1.15rem}.assumption-strip span{display:block;margin-top:5px;color:#858d98;font-size:.64rem;line-height:1.4;text-transform:uppercase}
+.scenario{margin:38px 0;padding:30px;border:1px solid var(--line-soft);border-radius:13px;background:rgba(18,20,24,.78)}
+.scenario h3{margin:8px 0 20px!important;font-size:1.42rem!important}.scenario-kicker{color:#6daedb;font:600 .66rem var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.scenario-note{margin:21px 0 0!important;padding-top:18px;border-top:1px solid var(--line-soft);color:#969da8!important;font-size:.89rem!important}
+.comparison-bar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:25px 0}.comparison-bar span{padding:11px 12px;border-radius:5px;background:linear-gradient(90deg,#775d34,#a97837);color:#fff;font:600 .68rem var(--mono);letter-spacing:.02em}.comparison-bar span.ai{background:linear-gradient(90deg,#315f80,#4A8FC2)}.comparison-bar small{grid-column:1/-1;color:#858d98;font:.65rem var(--mono);text-align:center}
+.time-method{margin:28px 0 38px;padding:22px 24px;border-left:3px solid #6daedb;background:rgba(74,143,194,.07)}.time-method>span{display:block;margin-bottom:8px;color:#75b4df;font:600 .64rem var(--mono);letter-spacing:.12em}.time-method p{margin:0!important;color:#aeb5be!important;font-size:.89rem!important;line-height:1.68!important}
+.time-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:20px 0}.time-comparison span{padding:13px 14px;border:1px solid var(--line-soft);border-radius:6px;background:#0e1115;color:#c7cdd5;font:.74rem var(--mono)}.time-comparison b{display:block;margin-bottom:5px;color:#6daedb!important;font-size:.61rem;letter-spacing:.08em;text-transform:uppercase}
+.cost-stack{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:32px 0}.cost-stack>div{padding:22px;border:1px solid var(--line-soft);border-radius:10px;background:#111318}.cost-stack span{display:block;margin-bottom:18px;color:#5f9fc9;font:500 .65rem var(--mono)}.cost-stack b{display:block;margin-bottom:8px;color:#e5e8ec}.cost-stack p{margin:0!important;color:#8f97a2!important;font-size:.87rem!important}
+.allocation-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:32px 0}.allocation-grid>div{padding:24px;border:1px solid var(--line-soft);border-radius:10px;background:#111318}.allocation-grid span{color:#6daedb;font:600 .66rem var(--mono);letter-spacing:.1em}.allocation-grid ul{margin:18px 0 0 18px!important;font-size:.9rem}
+.funnel-list{margin-left:0!important;padding-left:0;counter-reset:funnel;list-style:none}.funnel-list li{position:relative;margin-bottom:12px;padding:17px 18px 17px 56px;border-left:2px solid rgba(74,143,194,.5);background:#111318}.funnel-list li::before{counter-increment:funnel;content:counter(funnel,decimal-leading-zero);position:absolute;left:16px;top:18px;color:#6daedb;font:600 .66rem var(--mono)}
+.references{font-size:.86rem;line-height:1.65}.references li{margin-bottom:14px}.references li:target{padding:8px;background:rgba(74,143,194,.12)}
+.method-note{margin-top:40px!important;padding:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#858d98!important;font-size:.82rem!important}
+.tldr-wrap{margin:34px 0 8px;overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+.tldr-table{width:100%;min-width:640px;border-collapse:collapse;font-size:.83rem}
+.tldr-table thead th{padding:13px 14px;background:#12151a;color:#8fb9d8;font:600 .62rem var(--mono);letter-spacing:.07em;text-transform:uppercase;text-align:left;border-bottom:1px solid var(--line)}
+.tldr-table tbody th{padding:14px;color:#e6e9ed;font-weight:600;font-size:.82rem;text-align:left;border-bottom:1px solid var(--line-soft);border-right:1px solid var(--line-soft);white-space:nowrap}
+.tldr-table td{padding:14px;border-bottom:1px solid var(--line-soft);color:#c7cdd5;line-height:1.5;vertical-align:top}
+.tldr-table tbody tr:last-child th,.tldr-table tbody tr:last-child td{border-bottom:0}
+.tldr-table .human{color:#d7a865}.tldr-table .ai{color:#7db9e1}
+.tldr-table small{display:block;margin-top:3px;color:#858d98;font-size:.72rem}
+.tldr-table .ratio{font:600 .82rem var(--mono);color:#9fd0a0;white-space:nowrap}
+.tldr-cap{margin:0 2px 26px;color:#858d98;font-size:.78rem;line-height:1.6}
+@media(max-width:720px){.assumption-strip{grid-template-columns:repeat(2,1fr)}.assumption-strip div:nth-child(2){border-right:0}.assumption-strip div:nth-child(-n+2){border-bottom:1px solid var(--line)}.cost-stack,.allocation-grid,.comparison-bar,.time-comparison{grid-template-columns:1fr}.comparison-bar small{grid-column:1}.scenario{padding:23px 20px}.formula-card{padding:18px}}

@@ -1,0 +1,1094 @@
+AI and Ethics
+https://doi.org/10.1007/s43681-021-00083-y
+
+ORIGINAL RESEARCH
+
+Mapping global AI governance: a nascent regime in a fragmented
+landscape
+Lewin Schmitt1,2
+Received: 23 January 2021 / Accepted: 3 August 2021
+© The Author(s) 2021
+
+Abstract
+The rapid advances in the development and rollout of artificial intelligence (AI) technologies over the past years have triggered a frenzy of regulatory initiatives at various levels of government and the private sector. This article describes and evaluates the emerging global AI governance architecture and traces the contours of a nascent regime in a fragmented landscape.
+To do so, it organizes actors and initiatives in a two-by-two matrix, distinguishing between the nature of the driving actor(s)
+and whether or not their actions take place within the existing governance architecture. Based on this, it provides an overview
+of key actors and initiatives, highlighting their trajectories and connections. The analysis shows international organizations’
+high levels of agency in addressing AI policy and a tendency to address new challenges within existing frameworks. Lastly,
+it is argued that we are witnessing the first signs of consolidation in this fragmented landscape. The nascent AI regime that
+emerges is polycentric and fragmented but gravitates around the Organisation for Economic Co-Operation and Development
+(OECD), which holds considerable epistemic authority and norm-setting power.
+Keywords Global governance · Artificial intelligence · Global AI governance · AI policy · AI ethics
+
+1 Introduction
+The rise of artificial intelligence (AI) technology and its
+transformative impact across a wide range of issues pose
+new challenges to policymakers and other stakeholders
+around the globe. Whether one looks at the near, medium,
+or long term, there arise a myriad of legal and ethical challenges and even existential risks that societies need to
+address. These risks are exacerbated by a lack of effective
+global governance mechanisms to provide, at minimum,
+guardrails steering AI in beneficial directions [1, 2].
+Taken together, the unprecedented advances in AI development and deployment over the past years led to a challenging and rapidly evolving research agenda of issues
+that touches upon various aspects of the digital ecosystem.
+Researchers look at questions pertaining to ethics, regulation, and governance, with a strong normative push to ensure
+* Lewin Schmitt
+Lewin.schmitt@upf.edu
+1
+
+Department of Political and Social Sciences, Pompeu Fabra
+University, Barcelona, Spain
+
+2
+
+Institut Barcelona d’Estudis Internacionals (IBEI),
+Barcelona, Spain
+
+that the potential malign consequences of AI are controlled
+and the benefits fairly distributed [3–7]. Important conceptual and technical work sheds light on foundational issues
+like algorithmic transparency, explainability, or safety, as
+well as on related aspects such as data governance or privacy
+[8–11]. Similarly, the ethical aspects and their implementation in code, as well as organizational governance, have
+received many valuable contributions [8, 12–15].
+However, as the AI ethics research community develops
+frameworks and technical governance models to ensure that
+AI is designed and employed ethically, it must not forget
+about the global dimension of AI policy1 [17, 18]. Valuesbased approaches, ethics-by-design, and other principled
+suggestions must also be translated into a functional system
+of rules, binding agreements, and international governance
+mechanisms that go beyond voluntary self-commitments or
+hollow AI strategies.
+Partially, this work will take place at the national or even
+sub-national level. However, to a large extend, AI policy
+will be shaped internationally. Cutting-edge AI research is
+already a global enterprise dominated by large transnational
+1
+
+AI policy describes soft or hard governance measures which may
+take a range of forms such as principles, codes of conduct, standards,
+regulatory or legislative approaches [16].
+
+13
+
+Vol.:(0123456789)
+
+AI and Ethics
+
+technology firms. Moreover, the cross-border nature of the
+digital ecosystem renders purely national regulatory regimes
+inefficient and costly. Hence, big parts of the discussion
+around ethical AI and AI governance, just as this article,
+focus on the international level.
+Furthermore, AI development does not happen in a vacuum, and as it gains salience on the political agenda, this
+also results in geopolitical, strategic considerations taking
+over the way that governments around the world position
+themselves towards potential regulatory or legislative measures [19, 20]. Global governance scholarship2 provides a
+useful lens to understand and explain these developments.
+Therefore, this article sets out to describe and evaluate the rapidly evolving emergent global AI governance
+landscape. To do so, it organizes actors and initiatives in
+a two-by-two matrix, distinguishing between the nature of
+the driving actor(s), and whether these take place within
+the existing architecture or instead create novel instruments.
+As the overview and subsequent analysis shows, multiple
+initiatives compete for influence in a fragmented landscape.
+Many of these are state-led, but international organizations
+have demonstrated a surprising level of agency in addressing
+AI policy. And even though AI is a novel technology going
+beyond the scope of established regulatory or legal governance mechanisms, there is a tendency to address these new
+challenges within existing frameworks. The final section discusses the findings and argues that we begin to see signs of
+consolidation of a nascent AI regime that is polycentric and
+fragmented but gravitates around the OECD, which holds
+considerable epistemic authority and norm-setting power.
+
+2 Literature review
+The rich and fast-growing scholarship on AI ethics often
+touches upon political questions and issues of international
+relations [12]. Nevertheless, literature specifically addressing
+global AI governance or international AI policy is rare to find.
+This article aims to contribute to recent work on the important
+intersection of AI ethics and governance [17, 21, 22].
+In outlining a research agenda for AI governance, Dafoe
+(2018) laments the neglect of political science in understanding problems of AI governance. He emphasizes the role
+of the discipline in shaping AI politics and devising visions
+
+2
+
+A key distinguishing feature of global governance is its incorporation of a plurality of actors, both private and public, state and nonstate, who engage at multiple levels and through their interactions
+define the global order. In this view, the term ‘global’ is a clear delineation from traditional international relations literature, which are
+thought of as too state-centric. Likewise, ‘governance’ stands in contrast to government, speaking to a wider range of actors and a more
+fluid understanding of power hierarchies.
+
+13
+
+for ideal governance [23]. This notion is echoed by Parson
+et al. [24], who put a focus on the social processes by which
+AI technologies are developed and applied.
+The most related to the present article is an instructive
+overview by Butcher and Beridze, in which the authors provide an overview of current AI governance activities. They
+cover many notable examples across the private sector, public sector, research and multi-stakeholder organizations, and
+the UN [25]. AI development is fast-paced, however, and
+so is the political environment in which AI governance is
+shaped. Hence, the present article’s updated and expanded
+mapping presents a vital contribution to the literature.
+Other recent work has covered the topic from various
+angles, such as the role of international standards [1],
+national AI strategies [26] or ethics guidelines [21, 27].
+Valuable contributions have also been made theorizing about
+the governance design of international agreements [16, 28].
+The latter contributions have shifted focus away from
+observing existing governance architectures to analyzing and
+theorizing how they ought to be designed. This strand of
+research is more prescriptive and directly feeds into important policymaking considerations. One of the earlier contributions in this space investigates the role and competencies
+of different institutions in managing or regulating AI, even
+proposing a regulatory regime for AI [29]. However, this and
+similar work focus on the national rather than the international level. Researchers have also proposed specific initiatives for the US to foster international cooperation on AI [30,
+31] or even set up new international bodies [32]. Looking
+explicitly at global governance institutions, scholars have
+recently drawn up a leadership role for the G20 in defining
+global public policy on AI [33–35].
+These treatises of ideal AI governance are certainly
+important. Yet, there is still a great gap in better describing
+and theorizing the current state of AI governance. Researchers need to study the legal and governance responses to AI,
+“both within traditional legal and regulatory settings, and in
+new institutional mechanisms and settings” [24]. Reaching a
+deeper understanding of the political dynamics at the global
+level will help answer questions of how to move from the
+current to the ideal.
+In light of this, the contribution of this article is threefold: (1) the two-by-two matrix provides a useful analytical
+tool for organizing and evaluating the current governance
+landscape, serving as a reference point. (2) The empirical work on important governance actors and initiatives,
+together with the analysis of their trajectories and connections, helps answer important questions about the dynamic
+evolution of AI governance. (3) The discussion of these findings brings to light important features and patterns of the
+nascent AI regime. All this, ultimately, allows to extrapolate
+and anticipate future directions of travel and ask questions
+to guide further research.
+
+AI and Ethics
+Table 1 An overview of the
+most important multilateral
+governance initiatives and
+actors in the AI domain
+
+State-led
+
+Non-state-led
+
+Embedded in
+existing architecture
+
+G7
+G20
+CCW Group of Governmental Experts on emerging
+technologies in the area of LAWS (GGE)
+Council of Europe (CoE)
+
+Establishing
+new instruments
+
+Global Partnership on AI (GPAI)
+AI Partnership for Defense
+
+United Nations (UN)
+European Commission
+Organisation for Economic Cooperation and Development
+(OECD)
+IEEE
+ISO/IEC
+Partnership on AI (PAI)
+
+3 Mapping the current global AI governance
+landscape
+The current global AI governance landscape displays a multitude of governance initiatives by various actors, some dealing with the regulation of very specific AI applications and
+others with more general, abstract principles of AI ethics
+and policy. By now, many countries have brought forward
+their own AI strategies, often with direct reference to the
+international level and questions of global AI governance.
+While these alone are valuable objects of study, this article
+focuses on those actors and initiatives that are by nature
+transnational or multilateral, i.e., that involve stakeholders
+from more than two countries. At this stage, almost none of
+them entail binding legislation, but rather political declarations, ethical principles, or partnerships.
+There are many ways to organize these actors and initiatives, structuring them by their regional or topical scope,
+by the actors’ nature (e.g., governmental, business, civil
+society) or by the kind of instrument involved (e.g., international treaty or organization, alliances or partnerships, political declarations). This article employs a two-by-two matrix
+(Table 1) that distinguishes the following characteristics:
+(a) between action that is embedded in the existing governance architecture vs action that establishes new instruments;
+and (b) between state-led initiatives and non-state-led initiatives.3 Note that the latter dimension considers the origin or
+agency of action, not necessarily the organizational nature
+through which it is ultimately carried out.4
+3
+
+The non-state group includes supranational actors such as international organizations. Hence, the state- vs non-state distinction is not
+one of public/governmental vs private. Rather, it is intended to show
+how the nation state as the traditional actor in international relations
+compares to other possible actors as understood by global governance
+theory.
+4
+Clearly, these categories are somewhat arbitrary and even the
+assignment into the categories is open for interpretation. To illustrate these choices, consider the following: The GGE is within the
+UN framework, yet it is mainly driven by national governments.
+Similarly, the G7 and G20 may be considered as informal international organizations, yet they have no agency of their own and merely
+express the preferences of the participating nations. Therefore, these
+
+This overview is by no means comprehensive. There are
+dozens of other actors and initiatives engaging in AI governance. However, the present sample confidently includes
+the most important ones to date, disregarding others (see
+Sect. 2.5) for the sake of feasibility and analytical precision.5
+The following section briefly summarizes and contextualizes the different actors and initiatives, highlighting their trajectories and connections. This exercise is mostly agnostic to
+the content of what these global governance initiatives and
+arrangements actually entail. Focusing the analysis on actors
+and instruments was a deliberate choice to avoid confusion
+between structure and content.
+The fragmented landscape that emerges from this exercise
+is congruent with other authors’ characterizations of the nascent global AI governance architecture as an “unorganised”
+and “immature field” [25]. Alongside the different actors, we
+find epistemic communities [36] that are well-connected and
+often overlap. Governance actors differ in their agenda-setting and norm-setting powers [21]. The analysis also shows
+the rapid progress and first signs of consolidation and convergence. Furthermore, the observed dynamics shed some
+light on the type of entities involved in the early design of
+AI governance—which is marked more by the utilization
+of existing governance instruments than by institutional
+
+Footnote 4 (continued)
+are put in the left-hand category. In contrast, international organizations with independent secretariats or executive bodies, such as the
+UN Secretariat-General, the European Commission, and the OECD,
+are found on the right-hand side. While they may ultimately respond
+to the governments of their member states, they have demonstrated a
+substantial degree of autonomy and agency in driving their respective
+AI policies. Note that the Council of Europe (CoE) does not sit on the
+right-hand side, despite being an international organization. Unlike
+the previous organizations, the CoE’s work on AI was directly mandated by its member states, hence state-led.
+5
+The author is aware of the potential for Western and Eurocentric
+geographic and linguistic selection biases, which may result in the
+neglection of relevant observations. Feedback and suggestions to correct for possible blind spots are highly welcome.
+
+13
+
+AI and Ethics
+
+innovation. In addition, it demonstrates a surprisingly high
+level of agency by international organizations. These findings are discussed in more detail in the last section.
+
+The subset of “state-led initiatives embedded in the existing architecture” includes four cases presented below. The
+timeline of developments gives testament to the often slow
+and laborious processes of international diplomacy: Governments started to treat AI-related policy challenges seriously
+within international fora beginning in 2016. Since then, the
+topic has risen in priority, as shown by its ascent from the
+ministerial to the leaders’ level over time.
+
+major players outside its membership base (esp. China and
+Russia).
+The commitment to advance the G20 AI principles was
+confirmed in 2020 by its digital ministers, under the Saudi
+Arabian presidency. At the meeting, countries also collected
+examples of national strategies and policy initiatives aimed
+at trustworthy AI. Promisingly, even China seems to have
+fully subscribed to the G20 AI principles, as a speech by Xi
+Jinping delivered at the G20 leaders’ summit in November
+2020 indicates [37].
+These signs of activism at the G20 have led some observers to call for its primacy in global AI governance [33] and
+the establishment of a “G20 coordinating committee for the
+governance of artificial intelligence” [34]. However, no such
+progress has materialized to date.
+
+3.1.1 G7
+
+3.1.3 CCW GGE
+
+The G7 has been a popular forum for leaders of some of the
+largest democracies to discuss AI issues. Initially, discussions were held at the level of ministerial meetings but were
+later brought up to the leaders’ level. The G7 ICT Ministerial 2016 in Japan and 2017 in Italy resulted in a statement
+outlining a vision of human-centric AI for innovation and
+economic growth. Then, in March 2018, the G7 innovation
+ministers agreed on a “Statement on Artificial Intelligence.”
+Building on this statement, the Canadian G7 presidency
+hosted the “G7 Multistakeholder Conference on Artificial
+Intelligence” in December 2018, convening over 200 AI
+experts from the G7 countries and beyond.
+The most notable action at the leaders’ level was when
+in June 2018, the G7 committed to the Charlevoix Common
+Vision for the Future of Artificial Intelligence. It includes
+12 commitments to promote human-centric AI fostering
+economic growth, societal trust, and equality and inclusion.
+Since then, the most notable development within the G7
+framework has been the inception of the Global Partnership on Artificial Intelligence (GPAI). Because it quickly
+expanded beyond the G7 both in membership scope and
+organizational structure, it is listed amongst the “state-led
+initiatives creating new instruments” and will be discussed
+in more detail in the next section.
+
+Targeting only a specific application of AI, namely lethal
+autonomous weapons systems (LAWS), the Group of Governmental Experts on Lethal Autonomous Weapons Systems
+(GGE) meets since 2017 within the framework of the United
+Nations Convention on Certain Conventional Weapons
+(CCW). With representatives from on average 90 states [38],
+the GGE can be considered the broadest international forum
+for talks on issues directly related to AI applications. The
+meetings usually take place once per year for a 1-week-session and have brought to the table the most relevant states.
+A first breakthrough was achieved in 2018 when members
+identified ten guiding principles related to important aspects
+such as human responsibility and international humanitarian
+law. Yet, discussions have proven to be slow and difficult due
+to the lack of consensus on agenda items. A coalition of civil
+society organizations and countries have called for a legally
+binding instrument banning LAWS. However, given the continued resistance of major players such as the US, France,
+and Russia, a breakthrough towards an effective governance framework seems unlikely at this stage [39]. Also, the
+unique characteristics of AI-enabled weapon systems have
+some observers wondering whether traditional approaches
+to arms control and disarmament are suitable at all [19].
+
+3.1 State‑led initiatives embedded in the existing
+architecture
+
+3.1.4 Council of Europe
+3.1.2 G20
+Trailing the course of the G7, the G20 got active on AI policy a little later. In June 2019, under Japanese leadership,
+members agreed on a ministerial statement that focused on
+human-centered AI. Even more noteworthy, they endorsed
+the OECD’s set of principles on trustworthy AI (see next
+section). This can be seen as a major achievement of the
+OECD, who this way expanded its reach to some of the
+
+13
+
+The Council of Europe (CoE) has made splashes with its
+foray into AI governance. In September 2019, the CoE’s
+executive body—consisting of the member states’ foreign
+affairs ministers—established the Ad-Hoc Committee on
+AI (CAHAI). It was tasked with “examining, through broad
+multistakeholder consultations, the feasibility and potential
+elements of a legal framework for the development, design,
+and application of AI” [40].
+
+AI and Ethics
+
+In addition to bringing together member and observer
+states’ views as well as input from civil society, academia,
+and the private sector, the CAHAI is also cooperating closely
+with other international institutions, such as UNESCO, the
+OECD and the European Commission.
+CAHAI released a comprehensive collection of government contributions in its interim report [41]—which curiously was funded by Japan, itself not a member of the CoE
+(but an observer since 1996). In the report, the organization
+reaffirms its “clear role to address the issue of the development and uses of AI” and proposes to work towards a horizontal legal instrument whose principles could serve as a
+basis for more specialized texts. Whether such an instrument
+will eventually materialize remains to be seen—the roadmap
+foresees a final report and a decision by member states by
+the end of 2021.
+In any case, the CAHAI already developed into an important forum developing knowledge and stimulating exchange
+between almost 50 states. Since the membership includes a
+diverse set of actors with at times opposing interests regarding AI development (e.g., Russia is a member of the CoE
+as well), agreement on actual binding outcomes seems
+unlikely—though this would no doubt be a substantial step
+towards global AI governance.
+
+3.2 State‑led initiatives creating new instruments
+The subset of “state-led initiatives creating new instruments”
+is substantially smaller than the previous one. It consists of
+only two initiatives, both of which are predominantly driven
+by developed democracies.
+3.2.1 GPAI
+The first one is the Global Partnership for AI (GPAI), as
+mentioned above. The GPAI was originally introduced in
+2017 by Canada and France under a different name (International Panel on Artificial Intelligence). The initial response
+was timid, and the proposal long-faced strong reluctance
+from the Trump administration over concerns that moves
+towards any sort of regulation might hamper innovation
+in AI. Finally, in May 2019, the US changed course, now
+considering the GPAI as a useful tool in restricting China’s
+influence on the emerging global AI governance system [42].
+GPAI was officially launched in June 2020 with a total
+of 15 founding members.6 By December 2020, Brazil, the
+Netherlands, Poland and Spain had joined the partnership,
+underscoring the partnership’s appeal and potential for
+
+6
+
+Australia, Canada, France, Germany, India, Italy, Japan, Mexico,
+New Zealand, the Republic of Korea, Singapore, Slovenia, the United
+Kingdom, the United States and the European Union.
+
+expansion. The GPAI’s stated aim—grounded in human
+rights, inclusion, diversity, innovation, and economic
+growth—is to guide the responsible development and use of
+AI. By bringing together experts from industry, government,
+civil society and academia, it hopes to facilitate international
+collaboration and act as a global reference point for specific
+AI issues [43]. Importantly, it also adheres to the OECD’s
+Principles on AI, another sign of the OECD’s successful role
+as a global norm-setter.
+The GPAI’s evolution is an interesting case: conceived
+within the existing architecture, it was then launched as a
+separate, standalone initiative with a unique membership
+base going beyond the G7. Thus, it demonstrates characteristics of a new, standalone instrument, while ultimately ending
+up hosted by one of the existing international organizations
+(OECD).
+The GPAI is arguably the most advanced global AI governance instrument to date, with a permanent secretariat and
+a relatively broad membership base. While it is so far missing major players such as China and Russia, an incoming
+Biden administration could potentially make the US more
+inclined to finding consensus and thus broaden the alliance
+further. In any case, the OECD’s role as a host of the GPAI
+will be useful in avoiding policy incoherence and fragmentation, given that the OECD is also closely aligned with the
+G20 (see above).
+3.2.2 AI Partnership for Defense
+Another recent state-led initiative is the US-driven AI Partnership for Defense. Six NATO members as well as other US
+allies such as Israel, Japan, and Sweden, followed an invitation by the Pentagon’s Joint Artificial Intelligence Center to
+a virtual conference in September 2020. Discussions ranged
+from policy issues such as ethical principles to military use
+cases of AI and scope for technical cooperation [44]. It
+remains to be seen how this lose group continues under a
+Biden administration, but in any case, the large response by
+partners signals the growing interest for cooperation in security and defense matters related to AI. This is also backed
+by statements from high-ranking NATO officials which have
+supported increased transatlantic cooperation on this matter
+in the past [45].
+
+3.3 Non‑state‑led initiatives embedded
+in the existing architecture
+Global governance literature brought to the international
+relations scholarship a stronger focus on non-state actors,
+ranging from the important role of international organizations and businesses to civil society actors and non-governmental organizations [46, 47]. In this vein, this mapping of
+
+13
+
+AI and Ethics
+
+the emergent global AI governance landscape would not be
+complete without looking at non-state-led initiatives.
+This section fields several international organizations,
+namely the UN, EU, and the OECD. All three organizations
+have actively sought to take over leadership roles in the previously unoccupied space of AI governance. This section
+also includes some international standard-setting organizations, who are competing over the formulation of a variety
+of standards—from narrowly technical to more general and
+political—in the AI domain.
+3.3.1 UN
+The most obvious candidate to look at when describing
+any global governance system is the United Nations (UN).
+Secretary-General António Guterres has emphasized the
+impact of emerging technologies, including AI. In 2018,
+he established a High-Level Panel on Digital Cooperation,
+a multi-year, multi-stakeholder, global effort to address a
+range of issues related to the Internet, artificial intelligence,
+and other digital technologies. Its results were presented
+as a “Roadmap for Digital Cooperation” in June 2020 and
+included a recommendation on global AI cooperation for AI
+that is “trustworthy, human-rights based, safe and sustainable and promotes peace” [48]. In the roadmap, Guterres
+states his intention to establish a multi-stakeholder advisory
+body on global AI cooperation, comprising member states,
+relevant UN entities, interested companies, academic institutions, and civil society groups. The body should “serve as a
+diverse forum to share and promote best practices, as well as
+exchange views on artificial intelligence standardization and
+compliance efforts.” Besides, he committed to appointing an
+Envoy on Technology by 2021. It remains to be seen whether
+these intentions will be followed up on in 2021, and whether
+their outcomes will match expectations.
+Other parts of the UN system are also becoming engaged
+in AI governance: already in 2015, the UN Interregional
+Crime and Justice Research Institute (UNICRI) launched a
+programme on AI and robotics. That same year, AI governance was discussed for the first time during the 70th UN
+General Assembly [25]. The UN Institute for Disarmament Research (UNIDIR) supports the work of the GGE on
+LAWS. UNIDIR and the UN University Centre for Policy
+Research (UNU-CPR) have also set up research projects to
+explore AI-related policy challenges.
+More and more UN agencies are looking at AI, both as
+a disruptive technology to their respective policy domain
+and as a tool to achieve the Sustainable Development Goals
+[49]. For instance, since 2017, the International Telecommunication Union (ITU) co-organizes an annual AI for
+Good Global Summit. Then there is UN Global Pulse, the
+Secretary-General’s initiative on AI for humanitarian aid and
+development, which also looks at AI governance. Amongst
+
+13
+
+its work, it convenes an Expert Group on Governance of
+Data and AI, bringing together international leaders from the
+public and private sector, civil society, and the legal community [50]. All these efforts go hand in hand with the wider AI
+for Social Good (AI4SG) movement, aimed at establishing
+interdisciplinary partnerships centered around AI applications towards SDGs [51].
+These various efforts establish the UN as a global convening platform for stakeholders interested in exploring how AI
+can contribute to achieving the SDGs and solve global problems. This gives the UN considerable epistemic authority,
+though somewhat undermined by the multitude of initiatives
+and workstreams causing inconsistency and complexity. It
+also allows it to support consensus-building between states
+to promote common goals, thus making AI governance more
+effective [25].
+3.3.2 European Commission
+The European Commission took action on AI policy even
+before most EU member states did. With the release of its AI
+strategy in April 2018, it established the High-Level Expert
+Group on Artificial Intelligence, whose 52 members have
+been at the fore of global debate around AI regulation and
+governance questions. The Commission furthermore chartered new ground with the release of its widely-noted ‘Ethics
+Guidelines for Trustworthy AI’ in April 2019.
+Since then, the Commission published a White Paper on
+AI in February 2020 as a preparatory step for a forthcoming legislative proposal on AI. During a month-long open
+consultation process, Brussels has probed reactions to its
+proposed approaches for regulating and governing the technology's development and application. The gathered feedback should be transformed into a legislative proposal that
+is expected in the first half of 2021 and setting the EU on
+track to become the first major jurisdiction worldwide with
+a binding legal framework for AI.
+The Commission’s overall goal is to chart a so-called
+“European third way” for AI development, which policymakers frame as "human-centric", “ethical”, and "trustworthy.” If (or rather, when) translated into hard law, this will
+undoubtedly have repercussions well beyond the EU’s direct
+jurisdiction, as has been demonstrated by the global reach of
+the EU’s privacy directive GDPR.7
+In addition to these strategic, regulatory and legislative approaches, the European Commission acts in close
+coordination with its member states, mainly through the
+Coordinated Plan on AI. It also liaises with the wider AI
+community and especially with industry, bringing together
+
+7
+
+For more on how this so-called ‘Brussels Effect’ [52] may play out
+with regards to the EU’s role in global AI governance, see [53].
+
+AI and Ethics
+
+over 4000 representatives via its European AI Alliance—
+a multi-stakeholder forum launched in June 2018. On the
+global level, it is engaging with most other actors listed in
+this overview. Moreover, it is a founding member of GPAI,
+underscoring its active role in the international arena.
+3.3.3 OECD
+Another well-known international organization that has
+sought ownership of AI-related governance issues is the
+Organisation for Economic Co-operation and Development
+(OECD). Back in 2016, the OECD’s Committee on Digital
+Economy Policy began discussing the need for AI principles
+and established an expert group in May 2018. The resulting
+“OECD Principles on AI” were adopted in May 2019 as the
+“first set of intergovernmental policy guidelines on AI” and
+included commitments to trustworthy, human-centered AI
+[54]. Beyond the OECD members, Argentina, Brazil, Costa
+Rica, Malta, Peru, Romania, and Ukraine have also signed
+up to the AI principles, signaling broad international appeal.
+In addition to this work, the OECD built up a considerable public-access knowledge base called the OECD.AI
+Policy Observatory, launched in February 2020, to help policymakers implement the AI principles and further inform
+the global discourse on AI governance. Also, the OECD
+Network of Experts on AI (ONE AI), a multi-disciplinary
+and multi-stakeholder group, was set up to provides AIspecific policy advice and foster international cooperation.
+These efforts paid off: when France and Canada used their
+G7 presidencies and together with 13 other founding members launched the GPAI as discussed in the previous section,
+they decided to host its secretariat at the OECD. This hybrid
+structure has the potential to foster synergies between the
+OECD-led work on global AI policy and the GPAI’s more
+technical discourse [43]. Furthermore, as mentioned above,
+the OECD’s principles were endorsed by the G20, which
+includes China and Russia, thus giving it an even broader
+international reach. The principles also serve as the basis
+for the work of the GPAI, thus anchoring the alliance firmly
+within the OECD’s sphere of influence—both organizationally (hosting of the secretariat) as well as normatively.
+Granted, the OECD does not have any regulatory or legislative power, including on AI policy. In any case, binding international treaties that regulate the development and
+use of AI horizontally seem far-fetched at this point. What
+remains is soft power—the ability to influence global AI
+governance through epistemic authority, convening power,
+and norm- and agenda-setting. In this realm, the OECD has
+demonstrated considerable strength.
+
+3.3.4 Standards organizations
+The subset of “non-state-led initiatives embedded in the
+existing architecture” also includes international standardsetting organizations, whose membership base is usually
+dominated by industry and business associations.8 In the
+following, the article describes the ongoing work on AI
+standards at the two leading international standards bodies.
+Their work tends to be rather technical. However, standards—and especially international standards—undoubtedly
+affect the development and roll-out of AI technology and,
+by extension, the corresponding regulatory and governance
+domains.9 Furthermore, the epistemic authority of these
+standard-setting bodies informs and influences policymaking by other actors directly and indirectly.
+The International Organization for Standardization (ISO)
+together with the International Electrotechnical Commission
+(IEC) have a dedicated AI sub-committee, ISO/IEC JTC 1/
+SC 42, since 2017. While most of its work is dedicated to
+technical aspects, it explicitly frames its work on AI standardization as a new “holistic ecosystem” approach that also
+considers ethical and societal concerns [55]. Its members
+actively engage with other relevant global stakeholders such
+as the OECD, the European Commission, and the Partnership on AI [55].
+Furthermore, important efforts are being made at the
+IEEE Standards Association at least since 2016. Its “IEEE
+Global Initiative on Ethics of A/IS” aims at, inter alia,
+“global consensus building to inspire the Ethically Aligned
+Design of autonomous and intelligent technologies” [56].
+Out of this initiative have sprung several relevant work
+strands and publications.10 Grouped under the IEEE P7000
+standards family, 14 AI-related standards are currently being
+developed in Working Groups.
+Lastly, the IEEE initiative has also contributed to the
+establishment of the Open Community for Ethics in Autonomous and Intelligent Systems (OCEANIS) in July 2018.
+Gathering more than 70 organizations, it is devised as a
+global forum for exchange and collaboration in the ethical
+development and use of AI-related standards.
+
+8
+
+In some cases, such as the with the ISO, the international umbrella
+organization is composed of national member bodies. These, in turn,
+tend to be largely industry-based.
+9
+For a detailed treatment of the work of international standards bodies and their impact on AI governance, see [1].
+10
+This includes the release and updates of a landmark report called
+“Ethically Aligned Design (EAD): A Vision for Prioritizing Human
+Wellbeing with Autonomous and Intelligent Systems”, first published
+in 2016. In the document, AI developers are encouraged to prioritize
+ethical considerations in the creation of autonomous and intelligent
+technologies.
+
+13
+
+AI and Ethics
+
+As these organizations continue to develop standards,
+they will undoubtedly shape the development and use of
+AI. With their institutional capacity to achieve expert
+consensus and then promulgate standards internationally,
+which then become enforced either de facto or de jure,
+they exercise certain norm-setting powers. Their role as a
+global reference point, and their intensive exchanges with
+other global governance actors, also gives them considerable epistemic authority as well as convening and agendasetting power.
+
+3.4 Non‑state‑led initiatives creating new
+instruments
+3.4.1 PAI
+Unlike its state-led namesake GPAI, the Partnership on AI
+(PAI) was born out of an alliance of non-state actors, that is
+big American tech companies at the forefront of AI development. It was established in late 2016 by a group of AI
+researchers representing Apple, Amazon, DeepMind and
+Google, Facebook, IBM, and Microsoft. One year later, this
+business-centered setup was expanded to include six notfor-profit board members, thus turning the PAI into a multistakeholder organization, which today convenes more than
+50 member organizations.
+PAI is actively supporting research on many pressing
+issues related to AI ethics and governance. Besides acting as a convener and knowledge incubator, it also facilitates educational projects as well as practical tools such as
+the recently launched AI Incident Database (AIID). Since
+November 2020, the AIID documents failures of AI systems
+around the world. The idea of this publicly available repository is to disseminate knowledge and improve the safety of
+AI systems deployed in the real world. The AIID is inspired
+by incident databases in the aviation and computer security
+industries. The usefulness of such databases is undisputed;
+it allows developers to learn from their peers’ mistakes and
+opens up research avenues for external observers who can
+thus gauge the AI world both for episodical and systemic
+risks. The AIID is still in its infancy and it is too early to
+tell whether the wider AI community accepts it as a tool of
+reference. However, its early-mover advantage and broad
+membership base enable the PAI to establish itself as a cornerstone in the emerging AI governance landscape. Since
+AIID is developed as an open-source project collectively
+governed by the PAI, it reminds us of the origins of Internet
+governance [57]. Whether the AI community will continue
+in this collaborative path remains to be seen. We simultaneously observe signs that as the AI industry matures, it also
+increasingly moves to proprietary models and favors commercial over common interest [58, 59].
+
+13
+
+3.5 Other actors: NGOs, research institutes,
+and global movements
+Besides the above-mentioned actors and initiatives, there are
+dozens—if not hundreds—that also affect global AI governance in one way or another. These include non-governmental
+organizations, research institutes, public sector entities (e.g.,
+cities and regional governments) or global movements (e.g.,
+Campaign to Stop Killer Robots). Taken together, these provide a considerable epistemic source and their engagement
+in agenda-setting should not be understated. Their regular
+interactions with the actors discussed in previous sections
+can indirectly influence outcomes at the global level.
+Nevertheless, their individual impact is comparably low
+and hence outside the scope of this study. Causes may be
+either that their approach to AI governance is too specific
+(i.e., focusing on only one specific aspect or sector of AI) or
+too tangential (i.e., initiatives addressing the wider digital
+ecosystem and only mentioning AI in passing), or simply
+that they lack the political clout to make their voices heard.
+This last point especially speaks to the important debate
+about inclusivity and participation in AI governance [60,
+61].
+
+4 Discussion
+The preceding overview of the global AI governance landscape allows for several relevant observations, which are
+discussed in the following section.
+First, there is a clear tendency to accommodate governance initiatives within the existing architecture, both by state
+and non-state actors. This could have several potential explanations. States and other global governance actors might be
+wary of foundational innovation and starting from scratch.
+Instead, they prefer to build on existing, proven governance
+arrangements. Alternatively, more attempts might have been
+made with new instruments and these might simply have
+been less fruitful and thus did not feature in this overview. In
+any case, the case of the GPAI suggests a gravitational pull
+towards established governance mechanisms.
+Second, there is a fairly equitable distribution of labor
+between national governments (state-led) and international
+organizations (non-state-led). The community of international organizations moved early to occupy an open policy
+space, thus carving out a considerable competence vis-à-vis
+its member states. These, in return, offloaded some of the AI
+policy work to international organizations (CoE, OECD via
+GPAI). This would suggest that states accept their role as
+useful fora for international cooperation and the steering of
+AI development into globally beneficial directions. However,
+global coordination in this realm has so far not touched upon
+legally binding treaties. It may well be that governments
+
+AI and Ethics
+
+decided to transfer some authority to IOs only as long as
+they deal with rather abstract principles or soft governance, but would withdraw or stall as soon as work proceeds
+towards more regulatory, hard governance. Whether the CoE
+will produce any meaningful conclusions by the end of the
+year may be a good indication of the potential for such binding international rules.
+Thirdly, international standards organizations play a
+role in the development of AI governance, as is the case
+for most emerging technologies. More worrying is the shift
+towards geopolitics: in the last years, the development of
+international AI standards has increasingly received attention from key governments such as China, the EU, and the
+US. Their renewed interest and subsequent strategic engagement risks contention and the encroachment of geopolitical
+considerations into domains that ought to be technical [62,
+63]. This may not only affect the quality of standards but
+also obstruct debates around AI ethics. As standards cannot
+be completely detached from the policy world, scholars of
+global AI governance need to have a sound understanding of
+the proceedings in the international standard-setting arena.
+Future research should explore the interactions and means by
+which governments aim to steer the development of standards to further their own perceived interests.
+Lastly, sub-state actors from the public sector are practically not present in the discussions around global AI governance. This is in stark contrast to other policy domains such
+as global climate change governance, where city networks
+play an important role. It is also a bit surprising, given that
+cities are one of the focal points of AI rollout and several
+cities have subsequently taken notable actions with regards
+to AI policy. However, to date, these actions are isolated and
+do not engage at the supranational or global level.
+In light of the fuzzy nature of AI, it is barely surprising
+that the current landscape is somewhat fragmented. Promising moves towards some degree of centralization and coordination are found in the prominent role of the OECD. With its
+epistemic authority and its norm- and agenda-setting power,
+it managed to act as a reference point for the G7 and G20.
+Through its close collaboration with other multilateral actors
+such as the European Commission, the UN, and the CoE,
+and by using the GPAI as a dedicated tool for advancing
+global AI governance, it may continue to play a leading role.
+With all this in mind, this article argues that we are witnessing the first signs of consolidation in this fragmented
+landscape. The nascent AI regime that emerges is polycentric and fragmented but gravitates around the OECD, which
+holds considerable epistemic authority and norm-setting
+power. It is polycentric because it features different epistemic communities and multiple centers of decision-making, each operating with some degree of autonomy. It is
+fragmented because there is substantial overlap in different actors’ membership and the topics addressed by these
+
+initiatives; the well-connected epistemic communities are
+equally overlapping. As with other polycentric governance
+architectures, global AI governance will likely continue to
+struggle with the challenge of coordination [64]. While epistemic and membership overlap may benefit consolidation or
+convergence, topic overlap tends to foster fragmentation and
+adds complexity to the regime.
+This article has been mostly agnostic to the content of
+what these global governance initiatives and arrangements
+actually entail. It was a deliberate choice to focus the analysis on structure, actors and instruments, to avoid confusion
+between structure and content. Nevertheless, a quick look at
+the main developments suggests that there is convergence on
+a certain type of AI values and principles, as put forward by
+the European Commission and the OECD. These are focusing on trustworthy, human-centric AI.
+Such terms are of course abstract and somewhat vague,
+thus leaving room for interpretation. This interpretation,
+contextualization, and operationalization of AI values will
+without doubt experience major contestation by different
+actors. While China is side-lined from most of the above
+initiatives, its role in AI governance cannot be understated.
+The government has signaled willingness to engage in global
+governance as a responsible actor, and specifically on AI
+ethics has made some steps towards conciliation. Yet, it will
+want to interpret AI ethics in accordance with its own cultural context and promote these views globally. Hence, how
+China engages with the GPAI and other governance initiatives (and vice-versa) will be an interesting space to watch
+and leaves ample room for future research.
+
+5 Conclusion
+This article outlined the current state of play in global AI
+governance by describing the most important multilateral
+initiatives. It thus contributes to the growing body of literature aimed at understanding and engaging with the rapidly
+evolving global AI governance architecture. It organized
+individual actors and initiatives in a two-by-two matrix, distinguishing between the nature of the driving factor(s) and
+whether or not their actions take place within the existing
+governance architecture. Based on this, it provided an overview of key actors and initiatives, highlighting their trajectories and connections. Lastly, it has been argued that we are
+witnessing the first signs of consolidation in this fragmented
+landscape. The nascent AI regime that emerges is polycentric and fragmented but gravitates around the OECD, which
+holds considerable epistemic authority and norm-setting
+power.
+The analysis has traced interlinkages and sequential
+developments which shed additional light on the evolving nature of this dynamical field. It also brought to light
+
+13
+
+AI and Ethics
+
+valuable insights into the emergent governance regime: most
+interactions are accommodated within the existing governance architecture, such as the UN system, established IOs,
+and international standard-setting bodies. Supranational
+organizations such as the EU and the OECD have demonstrated remarkable agency in shaping global AI governance.
+Whether these observations parallel developments in
+other global governance architectures (e.g., climate, nuclear
+safety, or Internet) would be an interesting avenue for future
+research. Also, the complementary future analysis could
+look in more detail at the strategies and actions of nationstates and how these engage on the global level in shaping
+AI governance.
+Building on such descriptive empirical work, further
+research on global AI governance could engage more thoroughly with analytical and theoretical questions. We might
+ask, for instance, how this nascent global AI governance
+system fits into the wider global governance architecture (see
+[65]). Or, in the absence of singular central authority in the
+global AI governance system, what polcycentricity theory
+[66, 67] can tell us about the way in which actors mutually
+adjust and order relationships with one another.
+
+5.
+
+6.
+7.
+8.
+
+9.
+
+10.
+11.
+
+Funding Open Access funding provided thanks to the CRUE-CSIC
+agreement with Springer Nature. The author has received funding
+from the European Union’s Horizon 2020 Research & Innovation programme under Grant Agreement no. 822654: Global Governance and
+the European Union: Future Trends and Scenarios (GLOBE).
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article's Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in
+the article's Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a
+copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+References
+1. Cihon, P.: Standards for AI Governance: International Standards
+to Enable Global Coordination in AI Research & Development
+(2019)
+2. Gill, A.S.: Imagining the AI future. https://www.iiss.org/blogs/
+survival-blog/2019/12/imagining-the-ai-future. Accessed 21 Jan
+2021
+3. MacIntyre, J., Medsker, L., Moriarty, R. Past the tipping point?. AI
+Ethics 1, 1–3 (2021). https://doi.org/10.1007/s43681-020-00016-1
+4. Bostrom, N., Yudkowsky, E.: The ethics of artificial intelligence.
+In: Frankish, K., Ramsey, W.M. (eds.) The Cambridge Handbook
+of Artificial Intelligence. pp. 316–334. Cambridge University
+
+13
+
+12.
+13.
+
+14.
+15.
+
+16.
+17.
+
+18.
+
+Press, Cambridge (2014). https://doi.org/10.1017/CBO9781139
+046855.020
+Veale, M., Van Kleek, M., Binns, R.: Fairness and accountability
+design needs for algorithmic support in high-stakes public sector
+decision-making. In: Proceedings of the 2018 CHI Conference
+on Human Factors in Computing Systems, pp. 1–14. Association
+for Computing Machinery, New York (2018). https://doi.org/10.
+1145/3173574.3174014
+Cave, S., Nyrup, R., Vold, K., Weller, A.: Motivations and risks
+of machine ethics. Proc. IEEE 107, 562–574 (2019). https://doi.
+org/10.1109/JPROC.2018.2865996
+Turchin, A., Denkenberger, D.: Classification of global catastrophic risks connected with artificial intelligence. AI Soc. 35,
+147–163 (2020). https://doi.org/10.1007/s00146-018-0845-5
+Thelisson, E., Padh, K., Celis, L.E.: Regulatory mechanisms and
+algorithms towards trust in AI/ML, p. 6 (2017). https://www.resea
+rchga te.net/publication/318913104_Regulatory_Mechanisms_
+and_ Algor ithms_ towar ds_ Trust_ in_ AIML/. Accessed 20 Jan
+2021
+Lepri, B., Oliver, N., Letouzé, E., Pentland, A., Vinck, P.: Fair,
+transparent, and accountable algorithmic decision-making processes: the premise, the proposed solutions, and the open challenges. Philos. Technol. 31, 611–627 (2018). https://doi.org/10.
+1007/s13347-017-0279-x
+Miller, T.: Explanation in artificial intelligence: insights from
+the social sciences. Artif. Intell. 267, 1–38 (2019). https://doi.
+org/10.1016/j.artint.2018.07.007
+Brundage, M., Avin, S., Wang, J., Belfield, H., Krueger, G.,
+Hadfield, G., Khlaaf, H., Yang, J., Toner, H., Fong, R., Maharaj, T., Koh, P.W., Hooker, S., Leung, J., Trask, A., Bluemke,
+E., Lebensold, J., O’Keefe, C., Koren, M., Ryffel, T., Rubinovitz, J.B., Besiroglu, T., Carugati, F., Clark, J., Eckersley, P.,
+de Haas, S., Johnson, M., Laurie, B., Ingerman, A., Krawczuk,
+I., Askell, A., Cammarota, R., Lohn, A., Krueger, D., Stix,
+C., Henderson, P., Graham, L., Prunkl, C., Martin, B., Seger,
+E., Zilberman, N., hÉigeartaigh, S.Ó., Kroeger, F., Sastry, G.,
+Kagan, R., Weller, A., Tse, B., Barnes, E., Dafoe, A., Scharre,
+P., Herbert-Voss, A., Rasser, M., Sodhani, S., Flynn, C., Gilbert,
+T.K., Dyer, L., Khan, S., Bengio, Y., Anderljung, M.: Toward
+trustworthy AI development: mechanisms for supporting verifiable claims. arXiv:2004.07213 [cs] (2020)
+Gasser, U., Almeida, V.A.F.: A layered model for AI governance. IEEE Internet Comput. 21, 58–62 (2017). https://doi.org/
+10.1109/MIC.2017.4180835
+Thelisson, E., Morin, J.-H., Rochel, J.: AI governance: digital
+responsibility as a building block. Delphi - Interdisciplinary
+Review of Emerging Technologies 13, 167–178 (2020). https://
+doi.org/10.21552/delphi/2019/4/6
+Perspectives on Issues in AI Governance. Google (2019).
+https:// ai. google/ static/ docum ents/ persp ectives- on- issues- inai-gover nance.pdf. Accessed 21 Jan 2021
+Kurshan, E., Shen, H., Chen, J.: Towards self-regulating AI:
+challenges and opportunities of AI model governance in financial services. arXiv. (2020).https:// doi. org/ 10. 1145/ 33834 55.
+3422564
+Stix, C., Maas, M.M.: Bridging the gap: the case for an ‘Incompletely Theorized Agreement’ on AI policy. AI Ethics (2021).
+https://doi.org/10.1007/s43681-020-00037-w
+ÓhÉigeartaigh, S.S., Whittlestone, J., Liu, Y., Zeng, Y., Liu, Z.:
+Overcoming barriers to cross-cultural cooperation in AI ethics and
+governance. Philos. Technol. 33, 571–593 (2020). https://doi.org/
+10.1007/s13347-020-00402-x
+Rotenberg, M.: The AI Policy Sourcebook 2019. Electronic Privacy Information Center (Epic) (2019)
+
+AI and Ethics
+19. Gill, A.S.: Artificial intelligence and international security: the
+long view. Ethics Int. Aff. 33, 169–179 (2019). https://doi.org/10.
+1017/S0892679419000145
+20. Imbrie, A., Dunham, J., Gelles, R., Aiken, C.: Mainframes: a provisional analysis of rhetorical frames in AI (2020). https://cset.
+georgetown.edu/research/mainframes-a-provisional-analysis-ofrhetorical-frames-in-ai/
+21. Schiff, D., Biddle, J., Borenstein, J., Laas, K.: What’s next for AI
+ethics, policy, and governance? A global overview. In: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society,
+pp. 153–158. ACM, New York (2020). https://doi.org/10.1145/
+3375627.3375804
+22. Shi, Q.: AI Governance in 2019—a year in review: observations
+from 50 global experts. Shanghai Institute for Science of Science
+(2020)
+23. Dafoe, A.: AI governance: a research agenda (2018)
+24. Parson, E., Re, R., Solow-Niederman, A., Zeide, E.: Artificial
+intelligence in strategic context: an introduction, p. 24 (2019).
+https://escholarship.org/uc/item/9c8651s6. Accessed 20 Jan 2021
+25. Butcher, J., Beridze, I.: What is the state of artificial intelligence
+governance globally? RUSI J. 10 (2019). https://doi.org/10.1080/
+03071847.2019.1694260
+26. Campbell, T.A.: Artificial intelligence: an overview of state initiatives, p. 45 (2019). https://www.researchgate.net/publication/
+334731776_ARTIFICIAL_INTELLIGENCE_AN_OVERVIEW_
+OF_STATE_INITIATIVES. Accessed 20 Jan 2021
+27. Larsson, S.: On the governance of artificial intelligence through
+ethics guidelines. Asian J. Law Soc. (2020). https://doi.org/10.
+1017/als.2020.19
+28. Cihon, P., Maas, M.M., Kemp, L.: Should artificial intelligence
+governance be centralised? Design lessons from history. In: Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, pp. 228–234. Association for Computing Machinery, New
+York (2020)
+29. Scherer, M.U.: Regulating Artificial Intelligence Systems: Risks,
+Challenges, Competencies, and Strategies. Social Science Research
+Network, Rochester (2015). https://doi.org/10.2139/ssrn.2609777
+30. Imbrie, A., Fedasiuk, R., Aiken, C., Chhabra, T., Chahal, H.: Agile
+Alliances: How the United States and Its Allies Can Deliver a Democratic Way of AI. Center for Security and Emerging Technology
+(2020)
+31. Rasser, M., Lamberth, M., Riikonen, A., Guo, C., Horowitz, M.,
+Scharre, P.: The American AI Century: A Blueprint for Action
+(2019)
+32. Prakash, A.: The geopolitics of artificial intelligence. https://blogs.
+scientificamerican.com/observations/the-geopolitics-of-artificialintelligence/. Accessed 22 Jan 2021
+33. Pomares, J., Abdala, M.B.: The G20’s role and the challenge of
+moving beyond principles. Glob Solut. J. 6 (2020). https://www.
+global-solutions-initiative.org/wp-content/uploads/2020/04/GSJ5_
+Pomares_Abdala.pdf. Accessed 19 Jan 2021
+34. Jelinek, T., Wallach, W., Kerimi, D.: Policy brief: the creation
+of a G20 coordinating committee for the governance of artificial intelligence. AI Ethics. (2020). https:// doi. org/ 10.1007/
+s43681-020-00019-y
+35. Abdala, M.B., Ortega, A., Pomares, J.: Managing the transition to
+a multi-stakeholder artificial intelligence governance. T20 (2020).
+https://www.g20-insights.org/wp-content/uploads/2020/11/T20_
+TF5_PB6.pdf. Accessed 20 Jan 2021
+36. Haas, P.M.: Introduction: epistemic communities and international
+policy coordination. Int. Organ. 46, 1–35 (1992). https://doi.org/10.
+1017/S0020818300001442
+37. Remarks by Chinese President Xi Jinping at 15th G20 Leaders’
+Summit (2020). http://www.xinhuanet.com/english/2020-11/21/c_
+139533609.htm
+38. CCW Report Vol. 8, No. 2. Reaching Critical Will (2020)
+
+39. Barbé, E., Badell, D.: The European union and lethal autonomous
+weapons systems: united in diversity? In: Johansson-Nogués, E.,
+Vlaskamp, M.C., Barbé, E. (eds.) European Union Contested, pp.
+133–152. Springer International Publishing, Cham (2020). https://
+doi.org/10.1007/978-3-030-33238-9_8.
+40. CAHAI —Ad Hoc Committee on Artificial Intelligence (Factsheet).
+Council of Europe (2020)
+41. Ben-Israel, I., Cerdio, J., Ema, A., Friedman, L., Ienca, M., Mantelero, A., Matania, E., Muller, C., Shiroyama, H., Vayena, E.:
+Towards Regulation of AI Systems—Global perspectives on the
+development of a legal framework on Artificial Intelligence (AI) systems based on the Council of Europe’s standards on human rights,
+democracy and the rule of law. Council of Europe (2020)
+42. O’Brien, M.: US joins G7 artificial intelligence group to counter
+China. https://www.defensenews.com/global/the-americas/2020/
+05/29/us-joins-g7-artificial-intelligence-group-to-counter-china/.
+Accessed 19 Jan 2021
+43. Plonk, A.: The Global Partnership on AI takes off—at the OECD.
+https://www.oecd.ai/wonk/oecd-and-g7-artificial-intelligence-initi
+atives-side-by-side-for-responsible-ai. Accessed 15 Jan 2021
+44. Freedberg Jr, S.J.: Military AI coalition of 13 countries meets on
+ethics, https://breakingdefense.com/2020/09/13-nations-meet-onethics-for-military-ai/. Accessed 19 Jan 2021
+45. NATO: Cooperation on Artificial Intelligence will boost security and
+prosperity on both sides of the Atlantic, NATO Deputy Secretary
+General says. http://www.nato.int/cps/en/natohq/news_179231.htm.
+Accessed 20 Jan 2021
+46. Zürn, M.: A Theory of Global Governance. Oxford University Press
+(2018). https://doi.org/10.1093/oso/9780198819974.001.0001
+47. Jordana, J., Triviño-Salazar, J.C.: European Union Agencies: a
+global governance perspective. Rev. Estud. Polít. (2019). https://
+doi.org/10.18042/cepc/rep.185.06
+48. Roadmap for Digital Cooperation. United Nations Secretary-General
+(2020)
+49. United Nations Activities on Artificial Intelligence (AI) 2020. International Telecommunication Union (2020)
+50. Pizzi, M., Romanoff, M.: Governance of AI in global pulse’s policy
+work: zooming in on human rights and ethical frameworks. https://
+www.unglobalpulse.org/2020/12/governance-of-ai-in-global-pulsespolicy-work-zooming-in-on-human-rights-and-ethical-frameworks/.
+Accessed 21 Jan 2021
+51. Tomašev, N., Cornebise, J., Hutter, F., Mohamed, S., Picciariello,
+A., Connelly, B., Belgrave, D.C.M., Ezer, D., van der Haert, F.C.,
+Mugisha, F., Abila, G., Arai, H., Almiraat, H., Proskurnia, J., Snyder, K., Otake-Matsuura, M., Othman, M., Glasmachers, T., de
+Wever, W., Teh, Y.W., Khan, M.E., Winne, R.D., Schaul, T., Clopath, C.: AI for social good: unlocking the opportunity for positive
+impact. Nat. Commun. 11, 2468 (2020). https://doi.org/10.1038/
+s41467-020-15871-z
+52. Bradford, A.: The Brussels Effect. Social Science Research Network,
+Rochester (2012)
+53. Schmitt, L.: Global AI governance and the Brussels effect. https://
+www.globe-project.eu/en/global-ai-gover nance-and-the-brusselseffect_10536. Accessed 21 Jan 2021
+54. Going Digital—Organisation for Economic Co-operation and Development, https://www.oecd.org/going-digital/forty-two-countriesadopt-new-oecd-principles-on-artificial-intelligence.htm. Accessed
+19 Jan 2021
+55. Diab, W.W.: Artificial intelligence. In: ITU Workshop on AI and
+Data Commons, Geneva (2020)
+56. The IEEE Global Initiative on Ethics of Autonomous and Intelligent
+Systems. https://standards.ieee.org/industry-connections/ec/auton
+omous-systems.html. Accessed 15 Jan 2021
+57. Mueller, M., Mathiason, J., Klein, H.: The internet and global governance: principles and norms for a new regime. Glob. Gov. 13,
+237–254 (2007). https://doi.org/10.1163/19426720-01302007
+
+13
+
+AI and Ethics
+58. Hao, K.: OpenAI is giving Microsoft exclusive access to its GPT-3
+language model. https://www.technologyreview.com/2020/09/23/
+1008729/openai-is-giving-microsoft-exclusive-access-to-its-gpt-3language-model/. Accessed 21 Jan 2021
+59. Quach, K.: Nonprofit OpenAI looks at the bill to craft a Holy Grail
+AGI, gulps, spawns commercial arm to bag investors’ mega-bucks.
+https://www.theregister.com/2019/03/13/openai_nonprofit_status/.
+Accessed 21 Jan 2021
+60. Ashok, A.: Top takeaways from the Global Symposium on AI and
+Inclusion. https://becominghuman.ai/top-takeaways-from-globalsymposium-on-ai-and-inclusion-871eedcf59f0. Accessed 21 Jan
+2021
+61. Budish, R., Gasser, U., Ashar, A.: Global governance and inclusion.
+https://medium.com/berkman-klein-center/global-governance-andinclusion-66fa3e996f50. Accessed 21 Jan 2021
+62. Seaman, J.: China and the New Geopolitics of Technical Standardization. Notes de l’Ifri. 34 (2020)
+63. Blancato, F.G.: Regulate to dominate: the geopolitics of standardsetting in digital technologies and its strategic implications for the
+EU. United Nations University Institute on Comparative Regional
+Integration Studies (2019)
+
+13
+
+64. Carlisle, K. and Gruby, R.L.: Polycentric Systems of Governance:
+A Theoretical Model for the Commons. Policy Stud J, 47: 927–952
+(2019). https://doi.org/10.1111/psj.12212
+65. Biermann, F., Pattberg, P., van Asselt, H., Zelli, F.: The fragmentation of global governance architectures: a framework for analysis.
+Glob. Environ Politics. 9, 14–40 (2009). https://doi.org/10.1162/
+glep.2009.9.4.14
+66. Ostrom, E.: Polycentric systems for coping with collective action and
+global environmental change. Glob. Environ. Change 20, 550–557
+(2010). https://doi.org/10.1016/j.gloenvcha.2010.07.004
+67. Jordan, A., Huitema, D., Schoenefeld, J., van Asselt, H., Forster,
+J.: Governing climate change polycentrically: setting the scene. In:
+Jordan, A., Huitema, D., van Asselt, H., Forster, J. (eds.) Governing climate change: polycentricity in action? pp. 3–26. Cambridge
+University Press, Cambridge (2018). https://doi.org/10.1017/97811
+08284646.002
+Publisher's Note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.
+
+

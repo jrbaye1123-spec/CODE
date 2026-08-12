@@ -1,0 +1,783 @@
+Acta Mechanica 115, 119-131 (1996)
+
+ACTA MECHANICA
+9 Springer-Verlag 1996
+
+On the geometrical material structure of anelasticity
+M. Epstein, Calgary, Alberta, and G. A. Maugin, Paris, France
+(Received October 3, 1994)
+
+Summary. G-structures are the geometric backbone of the theory of material uniformity in continuum
+mechanics. Within this geometric framework, anelasticity is seen as a result of evolving distributions of
+inhomogeneity reflected as material nonintegrability. Constitutive principles governing the time evolution of
+the G-structure underlying the finite-strain theory of anelasticity (e.g., plasticity) are proposed. The material
+Eshelby stress tensor is shown to be the driving force behind this evolution. This should allow for
+a thermodynamically admissible formulation of anelasticity viewed as a G-structure evolution.
+
+1 Introduction
+As a natural sequel to our previous work [1] dealing with Eshelby's tensor in finite elasticity, we
+present herein a geometrical interpretation of some of the phenomena taking place in finite
+anelasticity. An appealing feature of the geometrical approach is that its terminology has been
+often matched to that of the theory of continuous distributions of dislocations. Since plasticity is
+largely a process of rearrangement of dislocation patterns, it seems natural to attempt to cast it
+within this geometrical mold. Another advantage of this approach is that it seems to naturally
+subsume the ideas of finite-strain plasticity without the need for any additional conceptual
+framework. Most notable is the notion of intermediate configuration, which has been the source of
+no little confusion. The interplay between symmetries due to material isotropy, as opposed to
+those induced by the Euclidean or the deformation metric, is brought to bear at the appropriate
+junctions in the presentation.
+No attempt has been made to provide a rigorous differential geometric derivation of the
+concepts involved. Nevertheless, Section 2 presents a largely self-contained informal approach to
+G-structures, the main geometric construct to be manipulated, in the context of material
+uniformity. In Section 3, two constitutive principles are laid down for the evolution of dislocation
+distributions, principles mainly of consistency with the material symmetry group: the principle of
+G-covariance and the principle of actual evolution. Section 4 briefly explores thermodynamical
+restrictions in terms of the Eshelby tensor. Contact with more traditional presentations involving
+a multiplicative decomposition of the deformation gradient and an intermediate configuration is
+established in Section 5. By focussing on a limited number of issues, we hope that this short paper
+will be of help in elucidating some theoretical aspects of finite-strain anelasticity.
+
+2
+
+Elastic uniformity and homogeneity
+
+Most engineering materials can be characterized, as far as their mechanical response is
+concerned, by the behaviour of an infinitesimal parallelepiped undergoing homogeneous
+deformations, namely, deformations that transform it into another infinitesimal paralMepiped.
+
+120
+
+M. Epstein and G. A. Maugin
+
+Such deformations are represented mathematically by a non-singular two-point tensor H. The
+original parallelepiped, arbitrarily chosen once and for all, can be called the reference crystal, to
+distinguish it from its deformed counterpart. Although each of these inhabits its own space, they
+can both be seen against the background of physical Euclidean space, which is endowed with
+a natural metric and a natural parallel translation. If a basis e~ (c~ = 1, 2, 3) is chosen in the
+reference crystal, and another E; (I = 1, 2, 3) in the deformed one, then the two-point tensor
+H will have components H~x such that a vector
+
+(1)
+
+v = v%
+is mapped by H into the vector
+
+Hv = HJv~EI
+
+(2)
+
+in the deformed crystal. In particular, the base vector e~ is mapped into the vector
+
+(3)
+
+E~ = HJEI.
+
+If these convected base vectors E~ are used as a basis instead of Er (Fig. 1), then the components of
+any vector v and of its image Hv are identical.
+A hyperelastic material is characterized by a single scalar function
+W = W(H)
+
+(4)
+
+measuring the strain energy per unit volume of the reference crystal as a function of its
+deformation. Since our interest lies mainly in solids, which possess natural or undistorted states,
+we may assume that the reference crystal is in one of those states and that the value of W is zero in
+it. This corresponds to H equal to the identity of the Euclidean background. When a body B of
+finite extent is to be analyzed, it is placed in a global reference configuration. The material
+response is then given by a strain-energy function
+w~
+
+w~(r; x)
+
+=
+
+(5)
+
+per unit volume of reference configuration, where F is the gradient of the deformation evaluated
+at the point X of B. This F is also a two-point tensor. If all the points of the body are made of the
+same hyperelastic material, then one should be able to establish the existence of a two-point
+tensor field P(X), which maps the reference crystal to an infinitesimal neighbourhood of each
+point X in the global reference configuration in such a way that a perfect graft is achieved,
+namely, that the response of the grafted reference crystal is mechanically indistinguishable from
+
+JES
+(b)
+
+e~
+
+(a)
+
+Fig. 1. Deformation of the reference crystal: a reference crystal,
+b deformed crystal
+
+121
+
+Geometrical material structure of anelasticity
+(b)
+
+~(a)
+
+(c)
+
+Fig. 2. Deformation of a body: a reference crystal,
+b reference configuration, e deformed configuration
+
+that of the point X. To express this condition mathematically, we note that to any deformation
+gradient F measured off the reference configuration at a point X (Fig. 2), there corresponds
+a deformation gradient
+
+H = FP(X)
+
+(6)
+
+measured off the reference crystal, so that the strain energy per unit volume of the reference
+configuration may be expressed as
+wR = WR(F; X) = S,-* W(FP(X)),
+
+(7)
+
+where Je is the absolute value of the determinant of P(X), effecting the transition from reference
+crystal volume to reference configuration volume. A material body satisfying condition (7) is said
+to be uniform. If for every point X of B there exists a neighborhood within which uniformity maps
+P(X) can be prescribed smoothly, the body is said to be smoothly uniform.
+A good way to visualize a field of uniformity maps P(X) is by means of the convected bases
+E~ discussed above. It is convenient to refer to the fields of triads E~ thus induced as a moving
+crystallographic basis (Fig. 3). It is not difficult to see that there is, in general, a certain degree of
+freedom in the choice of the crystallographic bases. This freedom is afforded by the material
+
+(c)
+
+(a)
+
+Fig. 3. A crystallographic basis: a fixed basis in the reference
+crystal, b uniformity field P(JO, c moving crystallographic basis in
+the reference configuration
+
+122
+
+M. Epstein and G. A. Maugin
+
+symmetry group ~q of the reference crystal, that is, by the collection of all tensors G such that
+(8)
+
+W(HG) = W(H),
+
+for all non-singular H. Physically, this means that the crystal is mechanically indifferent to
+a previously applied deformation G. It is assumed, on physical grounds, that all such symmetries
+are density preserving, which means that the determinant of G is +_1, and, therefore, by (7):
+WR = Wa(F; X) = J e - 1 W ( F P ( X ) ) = Je~t W(FP(X) G),
+
+(9)
+
+which shows that P(X) Gis again a uniformity field. Conversely, let Q(X) be a different uniformity
+field such that de = JQ. It follows then that there exists a unique tensor field G(X), with
+determinant +_1, such that Q = PG, satisfying
+WR(F; X) = J r - t W(FP(X)) -= Jq - ~W(FQ(X)) = Je - ~W(FP(X) G(X))
+
+(10)
+
+for all non-singular F. Renaming H = FP, it is clear from (10) that G(X) belongs to ft. This shows
+that given one field of uniformity P(X), the totality ~(X) of uniformity fields is given by
+(11)
+
+~(X) = P f X ) ~.
+
+A similar kind of reasoning would convince us that the symmetry group f#x at a point Xin the
+reference configuration is related to that of the reference crystal by
+~qx = P(X) NP-I(X),
+
+(12)
+
+where P(X) is any one of the possible uniformity fields. In terms of ~r the degree of freedom in the
+choice of uniformity fields is given by (r
+This should be intuitively clear: to pass from
+a given P to another, we first apply a symmetry transformation to the reference crystal and follow
+with the given P; or we first apply the given P and follow it with a symmetry transformation at the
+point X; or we perform a combination of those operations in succession (Fig. 4).
+In terms of crystallographic bases, this group degree of freedom can be seen as follows: a fixed
+basis in the reference crystal induces at each point X, by means of the set N(X), a subset of all the
+permissible bases at that point. The "size" of this subset is obviously dictated by the group. What
+we have obtained, technically speaking, is a G-structure, namely, a reduction of the principal
+bundle of frames FB, obtained by attaching at each point thefibre consisting of all possible bases.
+Whereas FB has the general linear group GL(3) as its structural group, since all base changes are
+
+~.~
+G
+(a)
+
+(b)
+Fig. 4. The group degree of freedom: a reference crystal,
+b reference configuration
+
+Geometrical material structure of anelasticity
+
+123
+
+,(c)--
+
+,a
+/
+/J'
+
+(
+
+f
+
+!
+
+/(b)-<.
+I
+
+./"~(a)
+
+f
+
+e
+~X
+
+j~~dyB
+
+Fig. 5. The G-structure as a reduction of the principal frame
+bundle FB: a section, choosing one element from each fibre,
+b reduced fibre at X, consisting of all admissible bases, e fibre of
+FB at X, consisting of all possible bases
+
+permissible in FB, the reduced principal sub-bundle, which admits only those bases prescribed by
+~, has the reduced structural group f~, a subgroup of GL(3), which controls all permissible base
+changes. From the pictorial representation of Fig. 5, one can clearly see that prescribing one
+particular uniformity field implies, in general, making a choice: one element from each fibre. This
+is called a section of the G-structure. It may not be possible to choose a section which is globally
+smooth, but if the body is smoothly uniform, for each point there exists a neighborhood where
+the (local) section is smooth.
+A smooth local section may or may not be integrable. Integrability would mean that the
+crystallographic basis field is the natural basis of some (curvilinear) coordinate system in N. In
+that case, we can give a change of configuration so that this coordinate system straightens itself
+and, therefore, all the P's in the coordinate patch become constant. If local sections can be found
+so that this can be done around every point, the G-structure is said to be integrable. Physically,
+this obviously means that the body is locally homogeneous, that is, it can be conceived as chunks,
+each of which could be straightened to yield a configuration in which the strain-energy function
+has exactly the same form at all points of the chunk. If this can be done for the body as a whole,
+that is, if a global integrable section exists, the body is (globally) homogeneous. For example, an
+initially straight homogeneous bar can be bent arbitrarily without loosing its homogeneity. If,
+however, its free ends are welded together without relative twist, the resulting ring is only locally
+homogeneous. A hollow sphere made of suitably arranged orthotropic layers is not even locally
+homogeneous.
+The aim of this Section has been to reveal in a rather elementary fashion the geometrical
+underpinnings of inhomogeneity theory. More detailed accounts can be found in [2]- [6].
+
+3
+
+Anelasticity as G-structure evolution
+
+As long as a body experiences only elastic deformations, governed by the hyperelastic
+constitutive equation law (7), the material G-structure, which, as we have seen, expresses
+geometrically the distribution of inhomogeneities, remains unchanged. In models of elastoviscoplasticity, it is often assumed that the material still has a recoverable strain energy, but that
+this energy is linked to only a multiplicative part of the deformation gradient. In our geometric
+
+124
+
+M. Epstein and G. A. Maugin
+
+picture this simply means that viscoplasticity involves a mechanism which modifies the material
+G-structure. This interpretation is physically appealing, since its physical translation is:
+viscoplasticity involves a mechanism which modifies the distribution of material inhomogeneities.
+The law of evolution from one G-structure to another is obviously a matter of experimentally
+based constitutive modelling. It is possible, however, to lay down a number of principles to be
+satisfied by any proposed law of behaviour. These principles can be obtained as answers to the
+following questions:
+(i) If the G-structure is given in terms of sections, is the evolution law independent of the
+particular section chosen?
+(ii) Does the proposed law actually prescribe an evolution to a different G-structure?
+(iii) What is the driving force behind the evolution?
+(iv) Are there any thermodynamical restrictions?
+In this Section we shall answer the first two questions, leaving the last two for the next.
+(i) Let P(X) and Q(X) be two smoothly time-dependent sections of the frame bundle
+FB, and assume that at time t = 0 both sections belong to the same G-structure, i.e.,
+there exists G e ~ such that
+Q(0) = P(0) G.
+
+(13)
+
+We will say that the two sections evolve in parallel if
+
+O(t) = P(t) G
+
+(14)
+
+for all t in a time interval of interest. Two sections evolving in parallel belong, at any instant, to the
+same instantaneous G-structure, since they differ by an element of the structural group only. In
+the case of a continuous symmetry group, condition (14) could be relaxed to permit G itself to be
+a smooth function of time within the group. The stronger condition (14) corresponds to the
+intuitive idea that both sections are doing exactly the same thing, like two synchronized dancers,
+and they represent, therefore, exactly the same evolution. We, therefore, establish the following:
+G-eovarianee principle: a law of evolution must be form-invariant under parallel changes of sections
+
+within the structural group.
+To obtain an explicit mathematical restriction equivalent to the G-covariance principle, we
+differentiate (14) at t = 0 and (13) to get
+
+QQ-1 = / ~ p - 1,
+
+(15)
+
+where superposed dots denote time derivatives. We conclude that sections that evolve in parallel
+have at all times the same inhomogeneity velocity gradient
+Lv = / ~ P - 1.
+
+(16)
+
+Conversely, if two given laws of evolution P(t) and Q(t) satisfy the condition Lv = LQ identically
+at all times, and if at time t = 0 they satisfy the initial condition (13), then writing
+
+Q(t) = V(t) M(t),
+
+(17)
+
+where M is some time dependent matrix, we obtain by differentiation the following ordinary
+differential equation for M(t):
+
+()(t) = P(t) M(t) + e(t)/~/(t),
+
+(18)
+
+Geometrical material structure of anelasticity
+
+125
+
+which, by virtue of (17), can be rewritten as
+
+O(t) = t'(t) e-~(t) ~ t ) + v(t) ~l(t).
+
+(19)
+
+Multiplying by Q-l(t) to the right, and invoking the assumed identity of the inhomogeneity
+velocity gradients, we finally obtain:
+P(t) 3)/(t) Q-1(0 = O,
+
+(20)
+
+which can only be satisfied if M(t) = constant. We have just proved that parallel sections are
+completely characterized by having the same inhomogeneity velocity gradient. We conclude,
+therefore, that for the G-covariance principle to hold, it is necessary and sufficient that P(X) enter
+the evolution law only through Le.
+(ii) If the symmetry group of the material is continuous, such as in the case of full or
+transverse isotropy, then a smooth law of evolution for a section may simply be prescribing
+a change of section within the same G-structure, taking advantage of the group degree of
+freedom. In that case, in spite of an apparently legitimate evolution law, the dislocation pattern
+does not actually evolve at all. That happens if, and only if, at all times the instantaneous section
+is related to the section at, say, time t = 0 by
+P(t) = ax(t) P(o),
+
+(21)
+
+where Gx(t) is a time-dependent member of the symmetry group Nx in the global reference
+configuration. Differentiating (21) we obtain, at t = 0,
+(22)
+
+[~ = (~xP,
+
+which can be rewritten as
+(23)
+
+Le = Gx.
+
+Since, by (21), Gx(0) is the identity, (~ is nothing but an element of the Lie algebra of ff~. We arrive
+at the following:
+
+Principle of actual evolution: For a law o f evolution to prescribe at all times an actual change o f
+inhomogeneity distribution, Lp must not belong to the lie algebra of the instantaneous symmetry
+group (#x.
+
+The principle of actual evolution can be best illustrated in the case of a fully isotropic solid, for
+which the reference crystal symmetry group is the full orthogonal group, whose Lie algebra is the
+set (2 of all skew-symmetric matrices. In the reference configuration the Lie algebra is obtained by
+the conjugation O~ = Pf2P -1. Introducing, therefore, in the reference configuration the
+section-independent metric
+c ~ = ( P e T) - 1,
+
+(24)
+
+the inhomogeneity velocity gradient can be uniquely resolved into the sum of a Cp- 1-symmetric
+part LpD and a Cp-X-skew-symmetric part Lpw satisfying
+LeDCp- 1 = Cp- 1L rpu
+
+(25)
+
+and
+LpwC P- 1 =
+
+T ,
+--Cp - 1Lvw
+
+(26)
+
+126
+
+M. Epstein and G. A. Maugin
+
+respectively. We remark that this decomposition is independent of the particular section within
+the G-structure. The principle of actual evolution requires that the evolution law prescribe a
+nonvanishing LpD. In other words, this principle says that the evolution law must allow for a non
+C e - 1_skew symmetric part of Le. Such a criterion applies only to the fully isotropic case. For
+a discrete symmetry group, for example, any non-trivial law in terms of Lp is evolutive.
+
+4
+
+Eshelby's tensor and thermodynamics
+
+The naturality whereby Eshelby's tensor emerges in the context of uniformity theory as the
+driving force behind inhomogeneities has been demonstrated elsewhere [1]. Briefly stated,
+a change of section that implies a change of G-structure will bring about an energy change that
+can be evaluated directly from (7) as
+0 WR/~P = - (WRI - F r Ta) (pr)- 1 = _ b(pr)- 1,
+
+(27)
+
+where
+b = ___~WR p r = W n I - FTTR
+~P
+
+(28)
+
+is the quasi-static Eshelby tensor, and where
+TR = aWR/OF
+
+(29)
+
+is the first Piola-Kirchhoff stress. The duality between P and b thus established, it appears
+reasonable to demand that the evolution law for LF be driven by the present value of b, and,
+indeed, such a law has already been proposed [7]. It is important to note in this respect that b itself
+is independent of the P-section chosen within the same G-structure.
+Within a thermodynamic context, we can set the preceding theory against a thermoelastic
+background [8] - [9] assuming ab-initio constitutive laws for the first Piola-Kirchhoff stress TR,
+the material heat flux vector qR, the entropy ~TR per unit reference volume, and the free energy
+~R per unit reference volume, in terms of the independent variables F, O, and VRO, representing,
+respectively, the deformation gradient, the absolute temperature, and its referential gradient.
+Uniformity requires, before any thermodynamic restrictions, the existence of a field P(X) such
+that, for instance, the free energy ~R in the reference configuration be expressible in terms of the
+free energy 7' in the reference crystal as
+~ I~(F, 6), V RO; X) = J p - l gJ(FP(X), O, Pr(X) 17RO),
+
+(30)
+
+where P(X) now evolves in time. Upon introducing this equation in the reduced form of the
+Clausius-Duhem inequality
+
+~R + 5aR0 + O - l q R " 17RO - tr (TRT~ =< 0,
+
+(31)
+
+and using the chain rule of differentiation, we obtain, by the standard argument
+T~ = ~3~g/aF,
+
+(32)
+
+5aR = - c3tPR/0O,
+
+(33)
+
+agJR/~VRO = 0,
+
+(34)
+
+Geometrical material structure of anelasticity
+
+127
+
+and the residual inequality
+tr (brLp) + O - lqR" VgO <=O,
+
+(35)
+
+where the quasi-static thermoelastic Eshelby tensor is defined as before, but with the free energy
+in place of the strain energy. Since b is always symmetric with respect to the deformation-induced
+metric
+C = FrF,
+
+(36)
+
+it would appear at first sight that the residual inequality prescribes that only the C -1skew-symmetric part of Lp is free of anelastic dissipation. This would be in contradiction with the
+physical intuition that a mere change of P-section within the same G-structure, by not involving
+any rearrangement of dislocations, should also not produce any dissipation. And, indeed, we
+have proved elsewhere [1] that b produces no power on an Le which belongs to the Lie algebra of
+the symmetry group fix. This is in complete agreement with the results of the previous Section. In
+summary of this point, the Eshelby tensor b has two symmetries. The first one is the C-symmetry
+which must be guaranteed a priori by the functional form of Wso as to satisfy the balance of
+angular momentum. This symmetry is expressed by the condition [1] (subscript A indicates the
+skew-symmetric part)
+
+b C = Cb r
+
+or
+
+(bC)A =
+
+0.
+
+(37.1)
+
+The second symmetry is of material origin. It consists of having a zero inner product (mechanical
+power) with the Lie algebra of fix. Thus, for instance, in the case of full isotropy the second
+symmetry reads
+
+bC. = Ceb r
+
+or
+
+(bCe)A = O.
+
+(37.2)
+
+Correspondingly, a thermodynamic statement such as (35) is indifferent to additive changes in
+LF which are either C - 1_skew symmetric or (in the case of full isotropy) Cp- 1_skew symmetric.
+Considering the space of C - 1_skew symmetric tensors, on the one hand, and the instantaneous
+Lie algebra of fix, on the other, as vector subspaces of the space of all tensors, one might say that
+thermodynamics imposes a restriction only on that part of L~ which is orthogonal to both
+subspaces, with respect to the ordinary inner product of tensors.
+
+5
+
+Comparison with standard finite-strain anelasticity
+
+The above-described approach sees anelasticity as evolving material inhomogeneity, expressed
+in terms of a G-structure whose time evolution is constrained by rather general principles. The
+latter, in fact, also has to respect the time arrow of the second law of thermodynamics. Apart from
+a nondissipative contribution of the "gyroscopic" type akin to the Hall effect in electricity, it may
+even be dictated by this inequality and general features abstracted from experiment, e.g., the
+existence of a closed convex domain of stresses, and the existence or nonexistence of
+a characteristic time. Therefore, this is the proper place to compare the present approach,
+fundamentally rooted in differential geometry, and those kinematic-thermodynamic approaches
+which have become more or less generally accepted in the last twenty years [10]- [14]. In these
+approaches the integrable deformation gradient Fis multiplicatively decomposed into elastic and
+
+128
+
+M. Epstein and G. A. Maugin
+(b)
+X
+
+(a)
+
+Q~
+(c)
+
+Fig. 6. Standard multiplicative decomposition: a intermediate configuration, b reference configuration,
+c deformed configuration
+
+anelastic parts, Fe and Fp, following essentially Lee [10] (Fig. 6):
+r =
+
+ePP,
+
+(3s)
+
+where none of Fe and i~p is integrable (i.e., is a true gradient). We set
+C = frF,
+
+Ce = F~rL,
+
+s
+
+= Fv['p -1 .
+
+(39)
+
+Here Ce is the deformed metric in the so-called intermediate configuration o f e;/2e, the plastic
+distorsion rate according to Mandel's [11] terminology, is a mixed tensor on cue. With a free
+energy density ~ e per unit volume of CUe taken as a function of Fe (or (~e), O and an extra set of
+thermodynamic state variables e (here an n-dimensional Cartesian vector) referred to as internal
+variables and introduced to account for hardening phenomena (see, e.g., [12], [14]), the residual
+dissipation inequality is shown to read
+~ e = tr {Se" CeLl,} + d ~ - O - t f p - lqR. VR0 > O,
+
+(40)
+
+where Jp = det Fp, and
+d = -O~e/O~,
+
+Ne = 23~e/SCfe.
+
+(41)
+
+The second of these is the second (symmetric) Piola-Kirchhoff stress relative to ~fe. As S e is
+symmetric contravariant, only the symmetric part of/Ze with respect to Ce, i.e., (CeLe)s, may
+produce a dissipation. With the now familiar formalism of pseudo-dissipation potentials, one is
+thus led to general anelastic evolution equations of the type
+(CeLe)s = 0 ~ / 0 S e ,
+
+a = O~/0~d,
+
+(42)
+
+where ~ is a pseudo-dissipation potential having a certain degree of (mathematical) homogeneity
+with respect to (Se, d ) . In the case of a plastic-like behaviour (no viscosity), ~ is homogeneous of
+degree one only, and Eqs. (42) are shown to be replaced by singular limits [14]
+(CeLe)s = ), ~fN~'
+
+d~= "~ a~'Of
+
+(43.1, 2)
+
+Geometrical material structure of anelasticity
+
+129
+
+where 2 > 0 is the plastic multiplier and f ( S e , s~r O) = 0 is the flow surface. According to
+Mandel [11], the local orientation of the intermediate configuration is indicated by a triad of
+directors attached to the crystallographic lattice in order to remedy the arbitrariness of the
+orientation. On account of this remark we can draw a parallel with our own formulation above.
+As F has to be the same in the two formulations, we see that the definition H = FP translates to
+F = l i P - 1, and the roles of H a n d P - a are thus played by Fe and F~,, respectively, in the standard
+formulation, so that the plastic distorsion rate Lp and the inhomogeneity velocity gradient Lp are
+necessarily related by
+(44)
+
+LP = -- P - 1L~,P.
+
+Contrary to s our Lp, just like the Eshelby stress b, is a true (mixed) material tensor. In this case
+the identification of our reference crystal to the isoclinic intermediate configuration of Mandel
+[11] holds good, although we interpret the relationship between the reference crystal and the
+reference configuration as a cogent manifestation of material inhomogeneity. This coincides with
+the fact that it is the combination H = FP which enters the relevant energy density or, if we
+prefer, a metric based on it.
+As it stands, Eq. (43.1) connects the evolution of the dislocation pattern with variables
+derivable from a stress tensor rather than from an Eshelby like tensor. Furthermore, it violates
+the G-covariance principle, assigning thus an undue physical role to the intermediate
+configuration. O u r argument here is that those missing features are of prime importance for the
+formulation of a completely kinematic-thermodynamically consistent theory. Our thermodynamic reasoning, based on the simple functional dependence indicated in (30), could easily be
+extended to include a set of internal variables e which better reproduce the complexity of
+dissipative mechanisms at play in finite-strain anelasticity. Thus, (35) is to be replaced by
+~x = - tr (brLp) + A~ - O - lqR" VRO > 0
+
+(45)
+
+where A = - ~ 7JR/Oe. As we do not grant any diffusive property to the variable e, i.e. Vga does not
+appear in 7~R, the definition of b is left unchanged compared to the thermoelastic case.
+To conclude this Section it m a y be appropriate to give a flavour of what an elementary
+constitutive theory based on (45) m a y look like. First, because of the general symmetry condition
+(37), only the symmetric part of L~ with respect to C - 1 m a y be thermodynamically constrained
+to satisfy the residual dissipation inequality. This follows from the fact that, on account of (37.1)
+we can write
+tr (bTLp) = tr{(bCC- 1)r Lp} = tr {(bC) (LpC- 1)s}.
+
+(46)
+
+This leaves the skew-symmetric part (LpC-1)A indetermined by thermodynamics.
+Second, for a general behaviour for which one expects evolution laws for both L~, and c~, one
+can assume - compare to (42) - the existence of a pseudo-dissipation potential ~(b, A),
+positively homogeneous of degree n in (b, A), such that (discarding the coupling with heat
+conduction at the constitutive level for the sake of simplification)
+Lp = - O~/Ob,
+
+~ = ~/OA.
+
+(47)
+
+With 9 homogeneous of degree two, this would provide linear-affine expressions as if we had
+applied the standard theory of irreversible processes to the inequality (45). This describes
+anelastic phenomena of the viscosity-relaxation type as a characteristic time is inevitably built in
+Eqs. (47).
+
+130
+
+M. Epstein and G. A. Maugin
+
+But just like temperature, the deformation-induced metric C may appear parametrically in 9.
+For instance, we may introduce the f o l l o w i n g f u l l y covariant material Eshelby stress:
+(48)
+where
+,= -- C . S . C = ~ r ,
+
+S = T R ( F - t)r = S r
+
+(49)
+
+are a fully covariant stress tensor and the second (contravariant) Piola-Kirchhoff stress tensor,
+respectively. On account of Eqs. (46) to (49), with N = ~(IB, A) positively homogeneous of degree
+n in (N, A), we find that Eqs, (47) are replaced by
+( L , C - % = - ~N/(?IB,
+
+~ = ON/OA.
+
+(50)
+
+As we know from a purely elastic analysis, tensors S and 113are most naturally given constitutive
+equations within the framework of the "inverse-motion" description, for which the free energy
+density is considered a function WR = ~(IE, O), where IE is the Piola finite-strain measure
+defined by [15], [16]:
+
+1
+
+9= g ( 1 - c-1);
+
+(51)
+
+in this case [15], [161
+(52)
+For a plastic-like (rate-independent, with threshold in stress) behaviour, ~ is positively
+homogeneous of degree one only, and the evolution equations (50) take a singular form akin to
+(43), exhibiting no longer any characteristic time. But contrary to (40) and (43), the evolution
+equations (50), or their singular plastic-like limits, satisfy the G-covariance requirement. The
+implications of evolution equations such as (47) or (50) remain to be critically examined versus
+those of the more standard, but non-G-covariant, formulation (40).
+
+6
+
+Conclusions
+
+By way of conclusion, we note that we have framed the special case of finite-strain anelasticity in
+the general framework of G-structures and the theory of material uniformity. The true (material)
+Eshelby stress plays a direct and essential role in the accompanying thermomechanical construct.
+Specific constitutive laws requiring a thorough examination of material symmetry in this
+unifying geometric view remain to be proposed. What must be retained for the moment is that the
+thermodynamic restriction embodied in the second law "feels" only a certain portion of Lp,
+which is even smaller than usually assumed. By constructing a plastic potential that respects such
+criterion (namely, its derivative with respect to b lies in that small orthogonal complement of the
+sum of two snbspaces) one will legitimately claim "pure dissipativity" of the accompanying
+anelastic behaviour, a macroscopic manifestation of rearrangements of defect patterns.
+
+Geometrical material structure of anelasticity
+
+131
+
+Acknowledgements
+The first author gratefully acknowledges the support of the University of Calgary, the Universit6 Pierre et
+Marie Curie (LMM-CNRS, France), the Natural Science and Engineering Research Council of Canada, and
+the Consejo Superior de Investigaciones Cientificas (I.M.EE, Madrid). Special thanks go to Dr. M. de Leon.
+
+References
+[1] Epstein, M., Maugin, G. A.: The energy-momentum tensor and material uniformity in finite elasticity.
+Acta Mech. 83, 127-133 (1990).
+[2] Noll, W.: Materially uniform simple bodies with inhomogeneities. Arch. Rat. Mech. Anal. 27, 1 - 32
+(1967).
+[3] Wang, C. C.: On the geometric structure of simple bodies, a mathematical foundation for the theory of
+continuous distributions of dislocations. Arch. Rat. Mech. Anal. 27, 3 3 - 9 4 (1967).
+[4] Bloom, E: Modern differentialgeometric techniques in the theory of continuous distributions of
+dislocations. Lecture Notes in Mathematics, No. 733. Berlin Heidelberg New York: Springer 1979.
+[5] Cohen, H., Epstein, M.: Remarks on uniformity in hyperelastic materials. Int. J.-Solids Struct. 20,
+233-243 (1984).
+[6] Elzanowski, M., Epstein, M., Sniatycki, J.: G-structures and material inhomogeneity. J. Elasticity 23,
+167-180 (1990).
+[7] Maugin, G. A.: Eshelby stress in elastoplasticity and ductile fracture. Int. J. Plasticity 10, 393-408
+(1994).
+[8] Epstein, M.: Eshelby-like tensors in thermoelasticity. In: Nonlinear thermomechanical processes in
+continua (Muschik, W., Maugin, G. A., eds.) 61, pp. 147-159. Berlin: TUB-Dokumentation 1992.
+[9] Epstein, M., Maugin, G. A.: Thermoelastic material forces: definition and geometric aspects (submitted
+for publication, 1994).
+[10] Lee, E. H.: Elastic plastic deformation at finite strain. A.S.M.E. Trans. J. Appl. Mech. 36, 1 - 6 (1969).
+[11] Mandel, J.: Equations constitutives et directeurs darts les milieux plastiques et viscoplastiques. Int.
+J. Solids Struct. 9, 725-740 (1972).
+[12] Lubliner, J.: Plasticity theory. New York: McMillan 1990.
+[13] Cleja-Tigoiu, S., Soos, E.: Elastoviscoplastic models with relaxed configurations and internal state
+variables. Appl. Mech. Rev. 43, 131-151 (1990).
+[14] Maugin, G. A.: The thermomechanics of plasticity and fracture. Cambridge: Cambridge University
+Press 1992.
+[15] Maugin, G. A., Trimarco, T.: Note on a mixed variational principle in finite elasticity. Rend. Mat. Accad.
+Lincei 3, 6 9 - 7 4 (1992).
+[16] Maugin, G. A.: Material inhomogeneities in elasticity. London: Chapman and Hall 1993.
+Authors' addresses: M. Epstein, University of Calgary, Department of Mechanical Engineering, 2500
+University Drive N. W., Calgary, Alberta, Canada T2N 1N4; G. A. Maugin, Universit6 Pierre et Marie Curie,
+Laboratoire de Mod61isation en M6canique (URA CNRS 229), Tour 66, 4 Place Jussieu, 75252 Paris C6dex
+05, France
+
+

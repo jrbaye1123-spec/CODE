@@ -1,0 +1,96 @@
+Governance, politics & policies of artificial intelligence
+ethicsdialogues.eu/2021/05/11/governance-politics-policies-of-artificial-intelligence/
+May 11, 2021
+
+While recent debates about societal aspects of Artificial Intelligence (AI) have largely
+focused on ethics principles and guidelines, questions of governance, politics and policies
+of AI have received less scrutiny. To address this gap, over more than three years I have
+been leading AI governance research programme to examine questions such as – What
+are the roles of the government in shaping AI development and use? And what are the
+roles of society? How and why AI strategies are developed and launched? And which
+ideas, interests and values do they prioritise and which ones do they leave out?
+These questions are addressed in our analysis of 49 AI policy documents adopted by
+national governments, international organizations, consultancies, think tanks, and civil
+society organizations. An interdisciplinary conceptual framework developed for this
+research approaches AI as an emerging technology characterized by fast growth,
+considerable impacts, uncertainty, hype, and positive as well as negative expectations.
+This research on AI governance has contributed to the Human Brain Project (HBP) work
+on societal and ethical aspects of AI and led to a number of outputs. Here I would like to
+highlight two recent scientific articles resulting from this research.
+
+Governance of AI: the roles of the government & publics
+
+1/3
+
+Our recent article ‘Framing governance for a contested emerging technology: insights
+from AI policy’ (Ulnicane et al 2020) is part of a forthcoming special issue on governance
+of AI and robotics in Policy & Society journal and examines how AI policy documents
+frame governance as a way to resolve public controversies about benefits and concerns
+related to AI. In the context of recent hype surrounding the development and use of AI,
+many countries and organizations have launched their AI strategies. In this process, they
+have learned from each other and also from international assemblies such as the World
+Economic Forum and the Organisation for Economic Cooperation and Development. This
+has led to some similarities across the documents. They depict the benefits of AI not only
+as traditional contribution of new technologies to economic growth but also focus on the
+potential of AI to help in tackling Grand Societal challenges and achieving the United
+Nations Sustainable Development Goals.
+AI policy documents assign diverse roles to the government in shaping socially beneficial
+development and use of AI. These include promoting AI, mitigating risks, and
+encouraging involvement of stakeholders in AI development and use. Focusing on
+diverse roles assigned to the government helps to move beyond traditional debates in
+technology policy of big government vs. small government and to develop more nuanced
+understanding of the roles of the public sector in shaping new technologies. Furthermore,
+AI policy documents assign an important role to multi-stakeholder forums bringing
+together diverse publics. While importance of involving civil society, users, marginal and
+vulnerable groups have been discussed in AI policy documents, in practice it has been
+challenging to ensure balanced representation and avoid capture of these forums by wellresourced and organised vested interests.
+
+‘Good Governance’ beyond ethics guidelines & regulation
+Another article, ‘Good governance as a response of discontents? Déjà vu, or lessons for
+AI from other emerging technologies’ (Ulnicane et al 2021) is part of a recent special
+issue ‘Artificial Intelligence & its Discontents’ published in Interdisciplinary Science
+Reviews journal and further examines the hopes and fears associated with AI in policy
+documents, how they compare to other emerging technologies, as well as proposed
+solutions and their limitations. Typical solutions suggested for realizing benefits and
+mitigating risks of AI are ethics guidelines and regulation. While both are often mentioned
+together indicating that they are closely related, careful reading of the documents reveals
+some interesting differences in attitudes towards ethics guidelines and regulation. While
+there is a lot of enthusiasm about ethics guidelines, attitude towards regulation is more
+cautious with caveats attached. In debates about AI, this difference in attitudes is
+associated with the so-called ‘ethics washing’ when powerful actors focus on ethics
+guidelines as a way to avoid or delay binding regulation.
+Drawing on studies of other emerging technologies, this article highlights that there are
+more opportunities for developing ‘good governance’ than ethics guidelines and
+regulation. These include cooperation and coordination between the state and diverse
+non-state actors, international research collaboration, and Responsible Innovation
+approach.
+2/3
+
+Framing Artificial Intelligence Futures
+In addition to scientific publications, this research has also contributed to educational,
+outreach and other activities within and beyond the Human Brain Project. It provided input
+into the recently launched HBP Ethics and Society team’s Opinion ‘Trust and
+Transparency in Artificial Intelligence’. And the video lecture ‘Responsible Artificial
+Intelligence: Ethics, governance, and policy’, part of the HBP online course ‘Research,
+ethics and societal impact’ is an example of education and training activities stemming
+from this work.
+This research has also led to invited talks and contributions such as a recent guest
+seminar ‘Framing Artificial Intelligence Futures’ and contribution to the webinar to launch
+the 2020 Government AI Readiness Index report for Europe. Further outputs include
+organization of conference panels, presentations at workshops and conferences, and
+creation of international networks. More scientific publications and activities based on this
+work are forthcoming, stay tuned!
+By Inga Ulnicane
+
+References:
+Ulnicane, I., W. Knight, T. Leach, B. C. Stahl & W.-G. Wanjiku (2020) Framing governance
+for a contested emerging technology: insights from AI policy, Policy and
+Society, https://doi.org/10.1080/14494035.2020.1855800
+Ulnicane, I., D. O. Eke, W. Knight, G. Ogoh & B. C. Stahl (2021) Good governance as a
+response to discontents? Déjà vu, or lessons for AI from other emerging
+technologies, Interdisciplinary Science Reviews, 46:1-2, 71-93
+https://doi.org/10.1080/03080188.2020.1840220
+
+3/3
+
+

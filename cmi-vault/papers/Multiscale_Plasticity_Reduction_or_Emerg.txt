@@ -1,0 +1,229 @@
+Available online at www.sciencedirect.com
+
+ScienceDirect
+Procedia IUTAM 10 (2014) 442 – 446
+
+23rd International Congress of Theoretical and Applied Mechanics
+
+Multiscale plasticity: Reduction or emergence?
+Erik Van der Giessen∗
+Zernike Institute for Advanced Materials, University of Groningen, Groningen 9747AG, the Netherlands
+
+Abstract
+During the twentieth century, plasticity, as an example of inelastic deformation of materials, has grown to become a
+distinct ﬁeld in solid mechanics. As a research topic it combines material science with mathematical modelling at a
+hierarchy of length scales, and encompasses dislocations as well as tensorial constitutive equations. Because of its
+predictive powers in engineering, plasticity models have become a standard ingredient of an engineer’s toolbox, but do
+we really understand what it is? This article looks back at plasticity from a more philosophical point of view with the
+aim of unraveling the fabric of plasticity. Does the current hierarchy of theories provide a reductionist explanation? Or
+rather, does it have a multiscale structure that expresses the emergent phenomena that are contained within plasticity?
+The conclusion of these considerations turns out to be that the challenge is still ahead of us.
+© 2013 Published by Elsevier Ltd.
+Selection
+and/or peer-review
+under
+responsibility
+of the Organizing
+Committee
+of The 23rd International
+Congress
+of Theoretical
+c 2013 Published
+
+by Elsevier
+Ltd.
+Selection and/or
+peer-review
+under responsibility
+of Marc Geers
+and Lallit
+Anard.
+and Applied Mechanics, ICTAM2012
+
+Keywords: plastic deformation, dislocation plasticity, crystal plasticity, scale transitions
+
+1. Introduction
+I have dedicated part of my scientiﬁc life to plasticity, standing on the shoulders of two giants: Besseling
+(my thesis advisor and co-author of [1]) and Burgers (who introduced the vector b that uniquely characterizes
+a dislocation1 ). Figure 1 is a cartoon of my career. During my PhD, I tried to develop constitutive equations
+for large plastic deformations of metals that develop texture. The kinematic basis of this large-strain theory
+was laid down by Besseling in 1968, but the challenge was to account for the fact that materials become
+anisotropic as a consequence of plastic deformation. The theory became very complex because texture is
+the collective property of the orientation of the crystallites in the underlying polycrystalline materials. In
+an attempt to understand more about texture, I started to study the plastic deformation of aggregates of
+crystallites (one step in counter-clockwise direction in Fig. 1). Soon I came to realize that progress was
+limited by the lack of my understanding of what is happening inside each grain (next step). This introduced
+∗
+
+Corresponding author. Tel.: +31 50 363 8047; Fax: +31 50 363 4886.
+
+E-mail address: E.van.der.Giessen@rug.nl.
+1
+
+It may be interesting for IUTAM readers to know that while material science professor at Delft University of Technology W.G. Burgers was studying
+
+dislocations, it was his brother, J.M. Burgers, professor in ﬂuid mechanics at the same university, who introduced the Burgers vector. In his farewell
+speech, W.G. Burgers said that “he was proud to be the uncle of the vector.”
+
+2210-9838 © 2013 Published by Elsevier Ltd.
+Selection and/or peer-review under responsibility of the Organizing Committee of The 23rd International Congress of Theoretical and Applied
+Mechanics, ICTAM2012
+doi:10.1016/j.piutam.2014.01.038
+
+443
+
+Erik Van der Giessen / Procedia IUTAM 10 (2014) 442 – 446
+
+Besseling
+
+Burgers
+
+
+reductionism
+emergence
+
+Fig. 1. The various length scales in plasticity, swirling around two giants of its theory, Burgers and Besseling (picture
+taken at Stanford University around 1960). One of the two big arrows connecting the scales represents the reductionist’s
+view on plasticity, the other symbolizes emergence.
+
+me into the world of crystal plasticity, where plasticity is not described simply by a plastic strain tensor but
+by slips (or shears) on individual glide systems. Looking at smaller scales from there, textbooks told me
+that this slip is made possible by the motion of dislocations—these intruiging defects in crystals that Burgers
+managed to characterize by his renowned vector. The link between Besseling and Burgers was closed for
+me halfway the 1990’s when I had the fortune of being able to start working on the behaviour of dislocations
+together with Alan Needleman at Brown University.
+With Fig. 1 in mind, it will come as no surprise that plasticity is a popular topic in multiscale modelling.
+The multiscale paradigm comes in two ﬂavours: a rather idealized and seldomly practiced approach where
+the behaviour of smaller scales is embedded in that of the next size scale, and the more common one
+where understanding from smaller scales is used to inform higher-scale models. In either form, multiscale
+plasticity is sometimes viewed as the “complete theory of plasticity”. But, is it? Or, if not, is this just
+a matter of time and continued research efforts? In this essay I will put multiscale plasticity in a more
+philosophical framework based on the notions of “reductionism” and “emergence”.
+2. Reductionism
+Many people hold the view that science and engineering is about disecting a complex problem into
+smaller components that can be analyzed. If that component is still complex, you break it up into even
+smaller pieces, and so on. A true reductionist would keep going down, hoping that, eventually, he will ﬁnd
+
+444
+
+Erik Van der Giessen / Procedia IUTAM 10 (2014) 442 – 446
+
+a component that is simple enough for him to understand. Thus, the reductionist point of view on plasticity
+is that, in the end, it boils down to the behaviour of dislocations in the atomic lattice of a material.
+But what is meant with “understanding” in the above? That we can explain what it is that causes
+plastic deformation? Or that we can predict how the plasticity of a macroscopic component depends on
+the material? The latter question is imprecise, however, since plasticity is history dependent: contrary to
+elasticity, in plasticity it matters how much deformation the component has been subjected to previously.
+The reader can experience this himself by means of the paperclip he is playing with while reading this: every
+time you bend it back-and-forth it is slightly harder to do so (until surface cracks appear and it becomes
+easier, but this is a different story). The way in which plasticity depends on the material under consideration
+is incorporated in classical macroscopic theories of plasticity through material parameters such as yield
+strength and hardening rate, quantities that, in general, are different for every material.
+Let us leave “prediction” for a subsequent section and return to the seemingly simpler question: what
+is the cause of plastic deformation? Well, we know the answer to that question: the motion of dislocations.
+And, moreover, we know a lot about the atomistic structure of the core of these “fundamental particles” of
+plasticity. Yet, this does not mean we really understand the plastic deformation of a paperclip, let alone the
+plastic deformation that turned a ﬂat sheet of metal into the body of your car. In between these macroscopic,
+complex phenomena and the atoms in the material there are eight, ten or more orders of magnitude in size
+scales and the intermediate microstructures, as sketched in Fig. 1. I do not think anybody will expect that
+we can explain the bending of your paperclip by knowing the positions of all atoms –note that there are of
+the order of 1022 of them in your paperclip2 —as a function of time!
+Even if we would have unbelievably faster computers than we have now, the description of plastic
+bending on a macroscopic scale by tracking the motion of all constituting atoms would fail for two reasons:
+initial conditions and output. A simulation of the motion of atoms using Newton’s laws requires knowledge
+of the initial positions and velocities of all of them – providing these initial conditions is as awkward as it is
+impossible. On the output side, imagine the humungous amount of information you would need to process
+in order to ﬁnd out what all these atoms, in the end, have done to re-shape your paperclip. There is too much
+information, it is too complex. Fortunately, we are saved by · · ·
+3. Emergence
+Emergence3 is sometimes put forward “when the behaviour of a system appears to transcend anything
+that can be found in its components” [2], or when “high-level simplicity “emerges” from low-level complexity” [3]. This does sound a lot like multiscale plasticity! At each of the size scales in Fig. 1 between
+atomistics (lower left-hand corner) to the macroscopic scale of a specimen (top right-hand corner) there is
+emergent behaviour:
+(1) At the discrete-dislocation length scale, the collective mis-placement of atoms in the lattice emerges
+as a dislocation in an otherwise fully elastic background continuum;
+(2) The motion of these dislocations leads to the emergence of crystallographic slip inside single crystals;
+(3) Collective or competitive slip in a polycrystalline aggregate leads to internal stress contributing to
+the Bauschinger effect, and to texture development by cooperative lattice rotation;
+(4) Or to more or less isotropic behaviour at the macro-scale.
+Each of the above steps in emergence has two correlated characteristics: reduction of the number of degrees of freedom and the introduction of new coarse-grained degrees of freedom with associated constitutive
+equations:
+(1) At the discrete-dislocation length scale, dislocations are described only by their Burgers vector,
+slip plane normal and slip direction. Their evolution is governed by a conﬁgurational force (rather than a
+Newtonian force) and the interaction with the background continuum through long-range elastic ﬁelds and
+constitutive rules for the short-range interactions.
+2
+
+A typical Dutch paperclip has a volume of around 40 mm3 .
+
+3
+
+The most well-known example is “life” —a phenomenon emerging out of a large bag of interacting molecules in the right environment.
+
+Erik Van der Giessen / Procedia IUTAM 10 (2014) 442 – 446
+
+(2) The slip produced by moving dislocations is described by shears on separate slip systems, which add
+up to the continuum notions of plastic strain and rotation in individual grains. These shears (or rather shear
+rates, in order to incorporate history dependence) are governed by local resolved shear stresses (another
+continuum notion). The interaction between dislocations, is what is observed as hardening at the single
+crystal level.
+(3) Plastic deformation of polycrystalline aggregates is described by plastic strain rates being the weighted
+averages over orientation space, usually with a discretized orientation distribution.
+(4) At the ﬁnal macroscopic scale, plasticity is described by a ﬂow rule for the plastic strain rate, as a
+direct function of stress. In its simplest form, such a constitutive equation can be a critical value for the
+Von Mises stress, but there is a host of more complex expressions available in the literature that attempt to
+incorporate (hardening) effects caused by smaller-scale events.
+It is noteworthy that the higher levels in the plasticity hierarchy adopt more and more abstract degrees
+of freedom, usually in the form of hidden (or internal) tensorial state variables.
+4. The ultimate theory of plasticity
+So, if the multiscale image of plasticity is not a reductionist’s view, is it purely based on emergence
+then?
+I don not think so, · · · yet. Rather than “multiscale plasticity” it even seems more fair to speak of
+“plasticity at multiple scales”. The multiple scales shown in Fig. 1 give some structure to the different
+faces of plasticity in the sense of ordering, it is not a structure in the sense of layers built on top of other
+layers of knowledge. In principle, a polycrystal theory of plasticity could be “derived” from a single crystal
+theory, and a single crystal continuum theory could be “constructed” on the basis of discrete dislocation
+plasticity, etc. .· · · but, apart from certain aspects, these formal scale transitions have not been performed.
+Also historically, the “from-small-to-large” image of plasticity does not hold: the smallest (discovery of the
+dislocation) and the largest (e.g. Von Mises’ yield stress) ends of multiscale plasticity started early in the
+ﬁrst half of the twentieth century, the rest was ﬁlled in during the remainder of the century. The intermediatescale descriptions have been developed as autonomous theories, driven by the needs of engineering science
+and tested by dedicated experiments. They were not quantitatively informed from smaller scales, but at best
+“inspired”.
+An example of this kind of “small-scale inspired” modelling is Besseling’s fraction model. While the
+technical details can be found in [1], the idea (originating from the late 1950’s) was to recognize that a
+macroscopic material element is not uniform and that different regions (called “fractions”) behave in a
+different way. By adopting a very simple macroscopic plasticity model for each of these fractions but with
+different properties, Besseling found that rather complex hardening could be described with a small number
+of fractions (typically less than 10). Quite interestingly, the concept has proved very useful at a different
+length scale, namely in summarizing the predictions of the Bauschinger effect in thin ﬁlms by means of
+discrete dislocation simulations [4].
+5. Conclusion
+Let me return to the “· · · yet” in my answer at the beginning of the previous section. In an ideal world, an
+emergence-based theory of plasticity would be a true multiscale description starting from the atomic level,
+with subsequent higher-length scale models emerging by appropriate coarse-graining. Such an approach
+has been explored in the last decade for the scale transition of discrete dislocation plasticity to continuum
+crystal plasticity. It has taught the mechanics community that there is more to scale transitions than “volume
+averaging” (as the ruling paradigm in micromechanics). The key is not only to eliminate the irrelevant
+degrees of freedom, but also, as is well known in statistical mechanics, to transfer this “loss of information”
+to the next scale in some form of entropy. How this entropy should propagate up the size-scale ladder and
+how to generalize the approach to higher length scales, is not known but people are working on it, see,
+e.g., [5].
+
+445
+
+446
+
+Erik Van der Giessen / Procedia IUTAM 10 (2014) 442 – 446
+
+I am quite convinced that it is this kind of statistical mechanics thinking that will be crucial in disclosing
+the true fabric of plasticity.
+References
+[1] Besseling JF, Van der Giessen E. Mathematical Modelling of Inelastic Deformation. Chapman & Hall (now CRC Press) 1994.
+[2] Stewart I, Cohen J. Figments of Reality: the evolution of the curious mind. Cambridge: Cambridge University Press; 1997.
+[3] Deutsch D. The Fabric of Reality. Allen Lane: The Penguin Press; 1997.
+[4] Shishvan SS, Nicola L, Van der Giessen E. Bauschinger effect in unpassivated freestanding thin ﬁlms. Journal of Applied Physics
+2010; 107: 093529.
+[5] Groma I, Györgyi G, Kocsis B. Dynamics of coarse grained dislocation densities from an effective free energy. Philosophical
+Magazine 2007; 87: 1185–1199.
+
+

@@ -1,0 +1,1004 @@
+The Global Politics of
+Artificial Intelligence
+Edited by
+
+Maurizio Tinnirello
+First published in 2022
+ISBN: 978-0-429-44667-2 (hbk)
+ISBN: 978-1-138-31457-3 (pbk)
+ISBN: 978-0-429-44672-6 (ebk)
+
+Chapter 2
+Governance of Artificial Intelligence:
+Emerging International Trends
+and Policy Frames
+Inga Ulnicane, William Knight, Tonii Leach,
+Bernd Carsten Stahl, and Winter-Gladys Wanjiku
+(CC BY-NC-ND 4.0)
+DOI: 10.1201/9780429446726-2
+
+CHAPTER
+
+2
+
+Governance of
+Artificial Intelligence
+Emerging International
+Trends and Policy Frames
+Inga Ulnicane, William Knight, Tonii Leach,
+Bernd Carsten Stahl, and Winter-Gladys Wanjiku
+CONTENTS
+2.1 Introduction: Why Focus on AI Policy and Governance?
+2.2 Emerging Sciences and Technologies and Their Governance:
+Hype, Expectations, and Uncertainties
+2.3 Literature Review of AI Governance: Ethics, Responsibility
+and Policy
+2.4 Fast-Developing Policy For AI: International Trends and Drivers
+2.5 Emerging AI Policy Frames: Revolution, Global Race, and
+Balancing Benefits, Risks, and Responsibilities
+2.6 Conclusions: Key Insights and Future Research Questions
+Acknowledgements
+Notes
+
+30
+31
+35
+37
+41
+47
+48
+48
+
+Only if we acknowledge technology’s power to shape our hearts
+and minds, and our collective beliefs and behaviours, will the
+discourses of governance shift from fatalistic determinism to the
+emancipation of self-determination.1
+
+DOI: 10.1201/9780429446726-2
+
+29
+
+30 ◾ Governance of Artificial Intelligence
+
+2.1 INTRODUCTION: WHY FOCUS ON AI
+POLICY AND GOVERNANCE?
+Recent advances in machine learning and data analytics have led to high
+public policy activity addressing artificial intelligence (AI) around the
+world. Since 2016, national governments, international organisations, civil
+society organisations, think tanks, and consultancies have launched their
+AI strategies and reports. Countries and regions from the United States
+and China to the European Union, France, the United Kingdom, and others have declared their ambitions to be leaders in AI. How to explain this
+recent political and policy interest in AI?
+While the development of AI goes back to the 1950s, major advances
+in the availability of data and computing power have only recently taken
+place.2 This has led to the increasing use of AI over a wide range of areas,
+from political campaigns and labour markets to health, education, and the
+military, to name just a few. New technological opportunities and related
+scandals (e.g. the Cambridge Analytica case) have stirred debates among
+policymakers, politicians, experts, and stakeholders about the positive
+and negative effects of AI on politics, economics, labour markets, fairness,
+privacy, and other key societal issues.3
+Public policy and governance can play a major role in ensuring beneficial and avoiding harmful developments of AI. 4 While recently AI development has been primarily driven by large global private companies and
+their profit motives, emerging policy developments suggest that national
+governments and international organisations, in collaboration with a
+broad range of stakeholders, are preparing governance frameworks for AI.
+A wide range of policy and governance tools, including hard and soft legislation and regulation, investments, retraining programmes, awareness,
+and other measures have been suggested to facilitate the development and
+use of AI in a socially desirable manner towards ends such as accountability, fairness, and inclusion.
+The fast-developing policies and politics of AI have, so far, been studied
+mostly from an ethical and philosophical viewpoint but less so from the
+perspective of policy and governance, which can play an important role in
+shaping technology development and use according to societal interests
+and values. To address this gap, this chapter aims to reflect on some of
+the emerging international AI policy trends and ideas. It addresses the
+two main research questions: What is driving fast-developing AI policies around the world? And what are the main frames of the emerging AI
+policies? Thus, this chapter aims to contribute to AI research by providing
+
+Governance of Artificial Intelligence ◾ 31
+
+insights into policy dynamics and content. Using concepts and insights
+from the social studies of emerging sciences and technologies, such as the
+performative function of hypes and expectations, as well as collaboration and competition dynamics in emerging fields, helps to make sense of
+emerging AI policies, politics, and governance to contextualise recent AI
+policies and governance in a longer-term development of emerging technologies and to critically reflect on them.
+This chapter proceeds as follows: Section 2.2 introduces a conceptual
+framework to study emerging sciences and technologies and their governance; Section 2.3 reviews the recent literature on AI governance; Section
+2.4 outlines emerging international AI policy trends; Section 2.5 presents
+three AI policy frames; finally, Section 2.6 summarises the main insights.
+
+2.2 EMERGING SCIENCES AND TECHNOLOGIES
+AND THEIR GOVERNANCE: HYPE,
+EXPECTATIONS, AND UNCERTAINTIES
+To make sense of the current discussions about AI governance and policy,
+it is helpful to situate them in the context of social studies of science and
+technology. These studies address a number of conceptual questions that
+are highly relevant for reflecting on recent developments in AI policy and
+governance, including questions such as—What is technology? What are
+the characteristics of emerging sciences and technologies? What is governance? And what are the specific features of governance of emerging
+technologies?
+According to Eric Schatzberg, technology is an odd concept with multiple meanings.5 Traditional understandings of technology associating it
+with hardware need to be revisited in the digital age. According to a popular policy definition that covers digital technologies but is rather business
+oriented,
+Technology refers to the state of knowledge on how to convert
+resources into outputs. This includes the practical use and application to business processes or products of technical methods,
+systems, devices, skills and practices.6
+To make sense of the diverse understandings of technology, it is helpful to consider a distinction that Schatzberg makes between the cultural
+and instrumental approach to technology, whereas the cultural approach
+“view[s] technology as a creative expression of human culture,” while the
+
+32 ◾ Governance of Artificial Intelligence
+
+instrumental approach insists that technology “is a mere instrument that
+serves ends defined by others.”7 He believes that a shift from an instrumental to cultural understanding would “help humans to exert more conscious control over their technological futures.”8
+Co-creation of society and technology, the social embedding of technology and its political nature are some of the key themes addressed in the
+social studies of science and technology. Sheila Jasanoff reminds us that
+“technological choices, are, as well, intrinsically political: they order society, distribute benefits and burdens, and channel power,”9 while Langdon
+Winner suggests that “we should try to imagine and seek to build technical regimes compatible with freedom, social justice, and other key political
+ends.”10 The societal embedding of technologies is highlighted by concepts
+such as “socio-technical systems,” which refer to
+the fact that individual technical artefacts or innovations are not
+operating in isolation. On the contrary, the functioning of technical artefacts and innovations is highly dependent on specific and
+complex ensembles of elements in which they are embedded. It is
+not the individual artefact or innovation as such that has an effect,
+but it is interplay with and embedding in other technical and nontechnical elements in society and economy.11
+Emerging technologies are characterised by a number of distinct features.
+According to Daniele Rotolo and colleagues,12 the five key attributes of an
+emerging technology are radical novelty, relatively fast growth, coherence,
+prominent impact, and uncertainty and ambiguity. They define an emerging technology as:
+a radically novel and relatively fast-growing technology characterised by a certain degree of coherence persisting over time and
+with the potential to exert a considerable impact on the socioeconomic domain(s), which is observed in terms of the composition
+of actors, institutions and patterns of interactions among those,
+along with the associated knowledge production processes. Its
+most prominent impact, however, lies in the future, and so in the
+emergence phase is still somewhat uncertain and ambiguous.13
+Additionally, researchers in the social studies of science and technology14 have suggested that newly emerging fields experience very active
+
+Governance of Artificial Intelligence ◾ 33
+
+collaborative dynamics. Robert Merton15 distinguishes the “hot fields” of
+emerging sciences from the “cold fields,” where the former has a high rate
+of significant discoveries with implications well beyond the borders of the
+speciality. “Hot fields” are highly competitive, and they attract larger proportions of talented scientists interested in working on challenging problems. According to Merton, intertwined cognitive and social processes of
+intense interaction and rivalry in a new scientific field lead to the rapid
+growth of knowledge and scientific innovation.
+Furthermore, emerging technologies are characterised by hypes and
+expectations, which also have a performative function.16 The performative
+approach is
+not interested in hypes as more or less accurate forecasts, but as
+collectively pursued explorations of the future that affect activities in the present. While the early and high-rising expectations
+that characterise hype hardly ever materialise precisely as foreseen, they structure and shape the materialisations that eventually occur.17
+Hypes are closely related to expectations, as “hypes are constituted by
+expectations at different levels”18 and expectations shape emerging technologies. Expectations are not always positive, suggesting breakthroughs,
+hopes, and advancements, as they can also be negative, mentioning potential problems that will have to be solved. According to Harro Van Lente
+and colleagues,19 both positive as well as negative expectations
+guide the activities of innovative actors by setting agendas; they
+provide legitimacy and thus help to attract financing and enrol
+actors; and they, while often spread through spoken and written
+words, may materialise in experiments and prototypes.
+Importantly for policy and governance, “when more and more actors
+share similar expectations, the promises inherent to these expectations
+are gradually translated into requirements, guidelines, and specifications
+regarding the new technology.”20
+Due to their specific characteristics, such as radical novelty and prominent impact, governance is of particular importance for emerging technologies. Similar to the concept of technology discussed above, the concept
+of governance has multiple meanings. According to Vasudha Chhotray
+
+34 ◾ Governance of Artificial Intelligence
+
+and Gerry Stoker, “governance is about the rules of collective decisionmaking in settings where there is a plurality of actors or organisations
+and where no formal control systems can dictate the terms of the relationship between these actors and organisations.”21 In this definition, governance includes formal as well as informal rules (formal arrangements
+and informal practices, conventions, and customs); decisions made by a
+collective of individuals involving issues of mutual influence and control;
+and a broad understanding of decision-making which can be strategic but
+can also be contained in the everyday implementation practice of a system or organisation. Moreover, according to Chhotray and Stoker, “[t]he
+characteristic forms of social interaction in governance rely on negotiation, signals, communication and hegemonic influence rather than direct
+oversight and supervision.”22 Additionally, according to them, governance
+“is about coordination and decision-making in the context of a plurality
+of views and interests. Conflict and dissent provide essential ingredients
+to a governance process.”23 For them, “governance is practice”24 and “the
+purposes of governance then demand to be understood analytically and
+empirically as a set of practices rather than through the lens of a ‘wish-list’
+of principles to be followed.”25
+In relation to socio-technical systems, Susana Borras and Jakob Edler26
+define governance “as the mechanisms whereby societal actors and state
+actors interact and coordinate to regulate issues of societal concern.” This
+understanding of governance highlights that the state increasingly coordinates its activities with a wide range of actors, including from the private sector, civil society, and expert communities. Changing ideas about
+the role of the state in the governance of technologies is also captured in
+concepts such as “the entrepreneurial state”27 that emphasises the importance of public sector investing and taking risks to co-shape technological
+development towards societal goals known in recent policy discussions as
+Grand Challenges 28 or missions in areas of the United Nations’ Sustainable
+Development Goals, such as environment and climate change.29
+Governance of emerging sciences and technologies faces special challenges due to uncertainties around their future developments, societal
+benefits, and risks.30 To address the specific needs of emerging sciences
+and technologies, Stefan Kuhlmann and colleagues31 suggested the concept of “tentative governance” “when public and private interventions are
+designed as a dynamic process that is prudent and preliminary rather than
+assertive and persistent. Tentative governance typically aims at creating
+spaces for probing and learning instead of stipulating definitive targets.”32
+
+Governance of Artificial Intelligence ◾ 35
+
+As opposed to more definitive modes of governance, tentative governance
+maintains flexibility and is open to experimentation, learning, and reflexivity. While uncertainty is a typical characteristic for all sciences and technologies, and thus their governance can benefit from including elements
+of tentativeness, uncertainties are particularly pronounced in the case of
+emerging sciences and technologies, and therefore tentative governance
+is of special importance here. Kuhlmann and colleagues emphasise that
+the added value generated by the tentative governance concept
+resides, first and foremost, in making clear that in the context of
+innovation studies governance needs to be appropriately conceptualised in order to avoid unrealistic assumptions about the steering of innovation in a desired way or direction.33
+According to them, elements of tentativeness can be found in a number
+of existing social science approaches such as reflexive governance, anticipatory governance, experimentalist governance, constructive technology
+assessment, and responsible research and innovation (for more on responsible research and innovation, see Section 2.3).
+Insights from the literature on emerging technologies and their governance are highly relevant for understanding recent and ongoing developments in the field of AI. Based on these insights, it can be expected that
+AI will be characterised by dynamic collaboration and competition, the
+influence of uncertainty, performative function of hype and positive as
+well as negative expectations. This chapter will examine these features in
+the context of policy and governance.
+
+2.3 LITERATURE REVIEW OF AI GOVERNANCE:
+ETHICS, RESPONSIBILITY AND POLICY
+In AI debates and research, the term “governance” is used in multiple
+ways. In AI policy documents, “governance” is mentioned in the context
+of government, regulation, and ethics without hardly ever defining the
+term.34 Similarly, in research on AI, the term “governance” often remains
+unspecified and is used in many different ways. It is used in the literature
+on ethical and legal aspects of AI,35 which is part of AI ethics research.36
+It is also used to examine the use of AI in the public sector and emerging international cooperation. Moreover, it is closely related to discussions
+about AI policy. This section provides some illustrative examples of the
+ways that the term “governance” is used in the social studies of AI.
+
+36 ◾ Governance of Artificial Intelligence
+
+Research on the ethical aspects of AI governance focuses on issues such
+as fairness, transparency, privacy, and accountability, as well as responses
+to large-scale discrimination and disappearance of jobs due to AI-based
+automation.37 To address these issues, researchers have suggested a number of frameworks and roadmaps for the ethical governance of AI. Alan
+Winfield and Marina Jirotka define ethical governance as
+a set of processes, procedures, cultures and values designed to ensure
+the highest standards of behaviour. Ethical governance thus goes
+beyond simply good (i.e. effective) governance, in that it inculcates
+ethical behaviours in both individual designers and the organisations in which they work. Normative ethical governance is seen as an
+important pillar of responsible research and innovation.38
+Thus, studies of (ethical) AI governance draw on established approaches
+such as responsible research and innovation, which in recent years has
+been widely used in science and technology studies, practice and policy.39
+According to one influential definition, “responsible innovation means
+taking care of the future through collective stewardship of science and
+innovation in the present”40 and is based on four dimensions of anticipation, reflexivity, inclusion, and responsiveness. Virginia Dignum, who
+applies the RRI approach to AI, defines Responsible AI as “the development of intelligent systems according to fundamental human principles
+and values.”41 According to her, “responsibility is about ensuring that
+results are beneficial for many instead of a source of revenue for a few.”42
+Winfield and Jirotka43 suggest a roadmap for ethical governance of
+robotics and AI, which they see as essential for building public trust. Their
+roadmap includes ethics, standards, regulation, RRI, and public engagement. By bringing these elements together, they aim to address what they
+see as a gap between principles and practice. To facilitate translating ethical
+principles into the practice of effective and transparent ethical governance,
+Winfield and Jirotka44 propose the following five pillars: first, publish an
+ethical code of conduct; second, provide ethics and responsible innovation
+training; third, practice responsible innovation, including the engagement
+of wider stakeholders within a framework of anticipatory governance that
+includes an ethical risk assessment of new products; fourth, be transparent about ethical governance; and fifth, really value ethical governance as
+one of the core values rather than just a smokescreen.
+Another research stream uses the term “governance” to examine the
+impact of AI on decision-making in public administration.45 The concept
+
+Governance of Artificial Intelligence ◾ 37
+
+of governance is also used to analyse emerging international AI initiatives and to develop proposals for their future development,46 as well as
+to discuss prospects for global cooperation.47 Some studies have analysed
+governance and policy aspects of specific AI applications such as autonomous vehicles.48
+Governance issues are addressed in the literature on AI policy. A number of studies have examined national AI strategies and other policy documents. Some have analysed initial AI policy documents starting from
+2016 (see Section 2.4 below) from ethical49 and expertise50 perspectives.
+National strategies of the Nordic countries—Sweden, Finland, Norway
+and Denmark—as digital frontrunners have been analysed and compared
+according to the cultural values of trust, transparency, and openness51 as
+well as ethical principles52 and influence of the EU AI policy.53 Studies
+of AI policy documents have examined framing of socio-technical future
+visions in German AI policy documents and media,54 national varieties of
+AI discourses in British, German, and Dutch policies,55 and the shaping
+of China’s AI policy initiatives.56 The framing of governance, 57 as well as
+concerns and proposed solutions,58 in AI policy documents have also been
+studied.
+Several publications provide recommendations for AI policy, outlining key challenges,59 setting out actionable principles to implement ethics
+guidelines,60 and trying to bridge the gap between near-term and longterm AI concerns.61 A number of publications on AI highlight the need for
+policies and regulations that would mitigate risks and direct AI development and use towards public benefit.62
+To summarise, this section demonstrates that the concept of governance has been used in AI research in multiple ways, referring to ethical
+and legal aspects, responsible innovation, use of AI in the public sector, international AI initiatives, and policy documents. While so far the
+social studies of AI have had a strong focus on ethics (even when using
+the terms of policy and governance), this chapter will proceed to examine
+political, policy, and governance issues, which have so far received less
+attention.
+
+2.4 FAST-DEVELOPING POLICY FOR AI:
+INTERNATIONAL TRENDS AND DRIVERS
+Since 2016, national governments, international organisations, think
+tanks, civil societies, and consultancies around the world have regularly
+launched new AI policy documents.63 While almost all of these documents
+
+38 ◾ Governance of Artificial Intelligence
+
+mention AI in the title, there is no agreed definition of AI. 64 Policy documents typically use AI as an umbrella term that includes machine learning, algorithms, autonomous systems, and other related terms. According
+to the definition used in the European Commission’s 2018 communication on AI in Europe, AI
+refers to systems that display intelligent behaviour by analysing their environment and taking actions—with some degree of
+autonomy—to achieve specific goals. AI-based systems can be
+purely software-based, acting in the virtual world (e.g. voice assistants, image analysis software, search engines, speech and face
+recognition systems), or AI can be embedded in hardware devices
+(e.g. advanced robots, autonomous cars, drones or Internet of
+Things applications).65
+Early AI policy documents were published by the US Executive Office of
+the President, UK House of Commons and European Parliament. These
+documents analyse ethical, social, and economic topics but have been criticised for coming “short of providing an overarching political vision and
+long-term strategy for the development of a ‘good AI society,’”66 and for
+occasionally relying on the opinions of public figures such as Elon Musk
+and Stephen Hawking, rather than on AI experts.67 In subsequent years,
+the launch of these documents has been followed by intensified AI policymaking around the world.
+According to the Organisation for Economic Co-operation and
+Development (OECD), in early 2020 “around the world, at least 50 countries (including the European Union) have developed, or are in the process of developing, a national AI strategy.”68 These data also demonstrate
+that the development of AI strategies is unevenly distributed around the
+world. Most of the existing strategies have been launched in Europe, North
+America, and major Asian powerhouses such as China, India, Japan, and
+South Korea, with very little activity in Africa, Latin America, and large
+parts of Asia. These uneven developments around the world present limitations and potential challenges with AI policy and governance developments being concentrated in the most developed parts of the world.
+Similar uneven international developments can be observed in a related
+field of AI ethics. A recent review of AI ethics guidelines analysed 84 documents; most of them were released in the US (21), within the EU (19), followed by the UK (13) and Japan (4).69 Several studies indicate considerable
+
+Governance of Artificial Intelligence ◾ 39
+
+convergence among the documents.70 In their review of six ethical AI
+frameworks,71 Luciano Floridi and colleagues72 synthesise 47 principles
+found in these frameworks into five principles: beneficence, non-maleficence, autonomy, justice, and explicability. While the first four of these
+principles have been used in bioethics, the fifth—explicability—is added
+specifically for AI. Other studies suggest that in addition to similarities
+among these frameworks, there are also important differences. The abovementioned analysis of 84 ethics guidelines by Anna Jobin and colleagues73
+reveals
+a global convergence emerging around five ethical principles
+(transparency, justice and fairness, non-maleficence, responsibility and privacy), with substantive divergence in relation to how
+these principles are interpreted, why they are deemed important,
+what issue, domain or actors they pertain to and how they should
+be implemented.74
+The examination of 112 documents by Daniel Schiff and colleagues found
+meaningful differences across documents prepared by public, private, and
+non-governmental organisations, highlighting that “as compared to documents from private entities, NGO, and public sector documents reflect
+more ethical breadth in the number of topics covered, are more engaged
+with law and regulation, and are generated through a process that are
+more participatory.”75
+The important question is—what is driving this intensive policy development in AI in the most developed parts of the world? While major
+policy initiatives have also been launched in cases of other emerging
+technologies, such as nanotechnology and life sciences, the political and
+policy attention devoted to AI around the world since late 2016 is unprecedented. AI has some important differences from previous technologies.
+If nanotechnology and life sciences raised questions about their effects
+on human health and economy, then AI applications and effects go far
+beyond that and include major impacts on the political system, labour
+market, and welfare state. The idea that machine intelligence can supersede human intelligence has captured the collective imagination in cases
+such as the AlphaGo computer programme beating the Go world champion.76 Additionally, scandals such as the misuse of social media data for
+influencing democratic processes by the company Cambridge Analytica
+have added urgency to the calls for public authorities to regulate the use
+
+40 ◾ Governance of Artificial Intelligence
+
+of AI, machine learning and big data analytics. Thus, the intense political
+and policy attention paid to AI is largely a result of the broad and diverse
+effects of AI on numerous areas of human activity.
+Another driving force behind the recent development of AI policies
+has been international organisations such as the World Economic Forum
+(WEF) and the OECD that have put AI on the agenda of political leaders.
+In the context of WEF, focus on AI has been part of discussions about
+the so-called Fourth Industrial Revolution. The concept of the Fourth
+Industrial Revolution has been promoted by the founder and executive
+chairman of the WEF, Klaus Schwab, who claims that since 2000 the world
+has been experiencing the Fourth Industrial Revolution, which is characterised by a fusion of new technologies across physical, digital, and biological domains.77 According to Schwab, the Fourth Industrial Revolution
+follows the first one, that from 1760 to 1840 took place due to railroads,
+steam engines, and mechanical production; the second industrial revolution was from the late 19th century to early 20th century characterised
+by mass production, electricity, and assembly lines; and finally, the third
+industrial revolution that from the 1960s onwards took place with the
+development of computer/digital revolution, semiconductors, personal
+computing, and the internet. AI is one of the technologies that plays a key
+role in the discussions about the Fourth Industrial Revolution and associated governance and policy.
+Furthermore, the OECD, which has long played a key role in developing ideas for science, technology, and innovation policy,78 has become a
+major international forum for expertise and dialogue on AI policy. The
+OECD AI principles include recommendations for policymakers to invest
+in AI research and development, foster a digital ecosystem for AI, shape
+an enabling policy environment for AI, build human capacity, and prepare for labour market transformation, as well as cooperate internationally for trustworthy AI.79 The OECD AI Policy Observatory is a platform
+that provides information, data, and multi-disciplinary analysis of AI.80
+The OECD Network of Experts on AI (ONE AI) is a multi-disciplinary
+and multi-stakeholder community that contributes policy, technical, and
+business expert input to inform OECD analysis and recommendations.81
+There have also been other international fora emerging to discuss
+AI policy, for example, since 2017 the United Nations’ International
+Telecommunication Union has been organising annual AI for Good summits to facilitate global and inclusive dialogue on AI. Moreover, there is
+a lot of policy learning 82 taking place across countries and organisations.
+
+Governance of Artificial Intelligence ◾ 41
+
+For example, when the European Commission was preparing its AI policy
+documents, it reviewed AI strategies from major economic powers: the US,
+China, Japan, Germany, United Arab Emirates, and the UK.83 Similarly,
+recommendations for US national strategy are accompanied by a map of
+AI national strategies around the world.84 Furthermore, the European
+Commission’s 2018 document on the European perspective on AI undertakes a detailed analysis of the global AI landscape and the EU’s vision
+and performance in a comparative context.85 An interesting development
+in comparing AI policies and performance across countries and regions
+is the emergence of a number of global AI rankings such as the Global AI
+Index,86 Government AI Readiness Index,87 and AI Index.88 These rankings compare national AI strategies, investments, publications and a range
+of other indicators.
+Thus, a broad range of AI applications in interaction with global political debates and international policy learning facilitate and reinforce fastdeveloping AI policies. AI policy developments, however, are unevenly
+distributed around the world. In the case of fast-developing AI policy in
+the most developed parts of the world, we can observe the performative
+function that hype and expectations play89 (see Section 2.2 above) in shaping not only emerging technology, but also policy. Perceptions of hype and
+high expectations towards AI help to mobilise policymakers and stakeholders, create a sense of urgency, and guide activities and decisions in
+policymaking, as will be further demonstrated in the next section.
+
+2.5 EMERGING AI POLICY FRAMES: REVOLUTION,
+GLOBAL RACE, AND BALANCING BENEFITS,
+RISKS, AND RESPONSIBILITIES
+What are the key ideas, aims, and objectives of AI policy documents that
+have been launched in recent years? To study the content and ideas of AI
+policy documents, this chapter draws on the approach of policy framing.90
+Policy framing is a productive way to get insights into policy ideas and
+understanding because in frames, “facts, values, theories, and interests are
+integrated.”91 According to Martin Rein and Donal Schön,
+framing is a way of selecting, organising, interpreting, and making sense of a complex reality to provide guideposts for knowing,
+analysing, persuading, and acting. A frame is a perspective from
+which an amorphous, ill-defined, problematic situation can be
+made sense of and acted on.92
+
+42 ◾ Governance of Artificial Intelligence
+
+The policy frames here are derived from reviewing policy documents 93
+and political debates on AI. Three key frames can be distinguished: first,
+AI as a revolutionary, transformative, and disruptive technology; second,
+closely interconnected global competition and collaboration in the field
+of AI; and third, a three-pillar approach of facilitating benefits, managing
+risks, and ensuring responsibilities are met.
+The first policy frame that presents AI as a revolutionary, transformative, and disruptive technology highlights promising as well as troublesome aspects of AI. An example of this frame can be seen in the US
+national AI research and development strategic plan that introduces AI as
+“a transformative technology that holds promise for tremendous societal
+and economic benefit. AI has the potential to revolutionise how we live,
+work, learn, discover, and communicate.”94 Similarly, the EU communication on AI frames AI as “one of the most strategic industries of the 21st
+century” and states that “like the steam engine or electricity in the past, AI
+is transforming our world, our society and our industry.”95 As can be seen
+in this quote, AI is often compared to previous transformative and disruptive technologies as well as industrial and digital revolutions, highlighting
+similarities as well as differences.
+Some policy documents highlight the unique character of AI, describing it as “the most transformative force in the twenty-first century. Its scale,
+speed, and complexity are unprecedented, disrupting every industry and
+sector across the globe.”96 On the other hand, documents often emphasise
+similarities between AI and other technologies and revolutions in terms
+of presenting opportunities, challenges, and changes. Among the opportunities presented by AI, policy discourse mentions its potential to contribute to achieving the United Nations’ Sustainable Development Goals
+and tackling grand societal challenges “from treating chronic diseases to
+reducing fatality rates in traffic accidents to fighting climate change or
+anticipating cybersecurity.”97 At the same time, it is indicated that, as
+with other revolutions, transformations, and disruptions, AI will change
+employment and labour markets as well as other fields. Similar to previous
+transformative and disruptive technologies, AI is expected to bring risks
+and challenges. This can be seen in the European Commission’s statement
+that “as with any transformative technology, some AI applications may
+raise new ethical and legal questions, for example, related to liability or
+potentially biased decision-making.”98
+Comparisons of AI with industrial and digital revolutions can also be
+seen in the media and academic literature.99 The discourse of technological
+
+Governance of Artificial Intelligence ◾ 43
+
+revolution is not new. Langdon Winner has pointed out that proclamations of computer and other “revolutions” have been present since the
+1960s.100 In conclusion to his critical examination of the use of the term
+“revolution” to talk about information technologies, Winner points out
+that “calling such changes ‘revolutionary,’ we tacitly acknowledge that
+these are matters that require reflection, possibly even strong public action
+to ensure that the outcomes are desirable.”101
+To summarise, the first policy frame highlights that AI is associated
+with major and far-reaching changes and is often seen as an important
+element of the Fourth Industrial Revolution discussed in the previous section. National governments and international organisations emphasise
+very positive expectations towards AI but also mention some problematic
+aspects. As discussed in Section 2.2, positive expectations, which can be
+expressed in superlatives, constitute hypes in emerging fields that (irrespective of how accurate they are) affect and guide activities in the present, including agenda-setting and financing. This can be seen in policy
+documents where statements about revolutionary changes brought by AI
+are immediately followed with mentions of actions taken by governments:
+AI promises to revolutionise the way all of us go about our daily
+lives, impacting important sectors, including transport, health,
+education, defence, and finance. Governments across the world
+are working to understand the consequences of AI in order to create policy frameworks and regulations that harness its economic
+and social opportunities while also mitigating its potential risks.102
+Moreover, the perceived transnational reach of the AI revolution leads to
+calls for global action and cooperation, as can be seen in this quote:
+AI, the driver of this technological revolution, transcends conventional geographical boundaries and, hence, if we wish to address
+the heart of the issue, the solutions must be at an international
+scale.103
+Thus, strong positive expectations and hype surrounding emerging technology create a sense of urgency for global competition and collaboration,
+which can be seen in the following second AI policy frame.
+The second policy frame focuses on emerging global competition
+and collaboration in the field of AI. Many countries and organisations
+
+44 ◾ Governance of Artificial Intelligence
+
+have declared their ambitions to be leaders in AI. The 2016 US document
+“Preparing for the Future of Artificial Intelligence” declared that “the
+United States, a leader in AI R&D, can continue to play a key role in global
+research coordination.”104 In summer 2017, China’s State Council called for
+China to become “the world’s primary AI innovation center” by 2030.105 In
+September 2017, the Russian President announced that the future belongs
+to AI and “whoever leads in AI will rule the world.”106 In early 2018, speaking at the WEF in Davos, the then UK prime minister announced that “we
+are establishing the UK as a world leader in Artificial Intelligence.”107 In
+March 2018, while presenting a national AI strategy, the French President
+announced the plan to turn his country into a world leader for AI research
+and innovation.108 In April 2018, the communication on AI for Europe
+stated the EU aim “to become a leader in AI revolution, in its own way and
+based on its values.”109 The December 2018 document on the European
+perspective on AI depicts the EU’s global position as follows:
+There is strong global competition on AI among the USA, China
+and Europe. The USA leads for now, but China is catching up fast
+and aims to lead by 2030. For the EU, it is not so much a question
+of winning or losing the race but of finding a way of embracing
+the opportunities offered by AI in a way that is human-centred,
+ethical, secure, and true to our core values.110
+Discourses around the global leadership in AI have led to comparing
+AI development to a new space race.111 Such international competitiveness discourses can help to mobilise political support and resources, but
+they have also been criticised, for example, in Paul Krugman’s 1994 essay
+“Competitiveness: A Dangerous Obsession” because according to him
+they lead to bad policies, drawing resources and attention to the “attractive” competitiveness discourse rather than major economic and social
+problems.112 An example here would be a well-known “the moon and the
+ghetto” problem,113 when some popular areas and hyped technologies such
+as a space race get much more political attention and resources than more
+complex social problems of the ghetto. This problem has been pointed out
+by Jack Stilgoe, who reminds us that “if we overinvest our hopes in new
+technologies, we underinvest in other necessary but less glamorous areas,
+including education, public health, infrastructure and maintenance.”114
+Moreover, discourse on international competitiveness in AI depicts
+technological development as a zero-sum game when one country wins
+
+Governance of Artificial Intelligence ◾ 45
+
+and others lose. Public policy and governance, however, can ensure that
+global AI development is a positive-sum game increasing benefits for all.
+Furthermore, the framing of relations between countries in the field of AI
+development is characterised not only by competition but also by cooperation. An example here are the European countries that in April 2018 signed
+a declaration to cooperate on AI.115 Emerging international cooperation
+initiatives in AI116 include the Global Partnership on AI (GPAI) launched
+in 2020. The GPAI, whose Secretariat is hosted at the OECD, currently
+brings together 18 countries and the EU “to support and guide the responsible adoption of AI that is grounded in human rights, inclusion, diversity, innovation, economic growth, and societal benefit, while seeking to
+address the UN Sustainable Development Goals.”117 Proposals for international cooperation in the field of AI include suggestions to use technology
+diplomacy “to help all interested parties develop a shared understanding
+and coordinate efforts to utilise AI for the benefit of humanity.”118
+Furthermore, competition and cooperation are closely related.
+Suggestions for the US leadership include calls for building strategic
+partnerships around the world.119 Similarly, at the time when the French
+President announced his plan to turn France into a world leader for AI, he
+also proposed to set up a group akin to the Intergovernmental Panel on
+Climate Change for AI.120 Thus, interactions among countries in AI development can be framed as “a competitive cooperation,” a notion coined
+by Merton121 to describe relationships in the scientific community where
+scientists at the same time compete for priority of discovery as well as
+cooperate to exchange ideas and knowledge. While social studies of science have focused on the intense interaction and competition in emerging
+fields in science and technology (see Section 2.2 above), here we can see
+that these dynamics apply not only to the science and technology community, but to the realm of public policy as well. Heightened focus on
+cooperation and competition among countries in AI development raises
+traditional questions about who is included and who is excluded, and how
+the benefits are distributed.
+The third emerging frame focuses on the role of policy in balancing
+benefits, risks, and responsibilities in the development and use of AI as a
+revolutionary, transformative, and disruptive technology, as indicated in
+the first frame discussed above. This third AI policy frame typically consists of the three pillars where the first is about realising opportunities, the
+second deals with mitigating risks and negative outcomes, and the third
+is about ensuring the responsible and ethical development of AI. While
+
+46 ◾ Governance of Artificial Intelligence
+
+some countries and organisations might prioritise one of these three pillars, elements of them can be found in many documents. For example, the
+focus of the US 2016 Strategic Plan includes long-term investments in AI
+research, security and safety of AI, standards and benchmarks, as well as
+ethical, legal, and societal implications of AI.122
+The three pillars are present in the EU 2018 communication on AI for
+Europe. In this document, the first pillar is called “boosting the EU’s technological and industrial capacity and AI uptake across economy.”123 It
+includes actions on stepping up investments, strengthening research and
+innovation from the lab to the market, supporting AI research excellence
+centres across Europe, bringing AI to all small businesses and potential
+users, supporting testing and experimentation, attracting private investments, and making more data available. Here we can see some elements
+of the previously discussed tentative governance approach to emerging
+technologies (discussed in Section 2.2 above) when due to uncertainties,
+governance is open to experimentation. The second pillar focuses on preparing for socioeconomic changes such as job replacement by providing
+retraining. The third pillar, “ensuring an appropriate ethical and legal
+framework”124 includes the preparation of AI ethics guidelines, action to
+ensure safety and liability, as well as empowering individuals to make the
+most of AI. While ethics guidelines and regulations are often mentioned
+next to each other, giving the impression that both are closely related,
+closer reading and examination reveals more enthusiasm about and progress in launching ethics guidelines, while issues of regulation are met with
+more caution or even resistance.125
+This third policy frame aims to present a balanced approach to new technologies where not only positive but also negative expectations towards
+emerging technology are considered, and mechanisms are suggested to
+address them. For example, it is not only about investing more in AI as a
+promising technology but also planning retraining programmes to deal
+with job losses due to automation. Moreover, focus on ethical, legal, and
+societal implications and the need for standards, legislation, and ethical
+frameworks represent an intention to mitigate risks and solve problems.
+An important question for future research is how this suggested balanced
+approach is implemented in practice.
+Thus, the three emerging AI policy frames demonstrate the performative function of hypes and expectations in the case of an emerging technology. Irrespective of their accuracy, positive and negative expectations
+towards AI influence emerging policies, political agendas, and resource
+
+Governance of Artificial Intelligence ◾ 47
+
+allocation. Furthermore, policies are affected by actual and perceived
+competition and collaboration that can have both positive (e.g. mobilisation of resources) as well as problematic (e.g. driving resources from social
+policies to hyped technologies) consequences.
+
+2.6 CONCLUSIONS: KEY INSIGHTS AND
+FUTURE RESEARCH QUESTIONS
+This chapter provides an overview of emerging trends and frames of AI
+policy, which since 2016 has been quickly developing around the world.
+While the beginning of AI development can be traced back at least to
+the 1950s, only recently has this technology attracted significant policy
+attention due to major technological advances that have enabled a wide
+range of applications. Thus, AI today has many characteristics of an
+emerging technology along with associated uncertainties, collaboration
+and competition dynamics, and performative function of hype as well
+as the positive and negative expectations that influence policymaking
+in this area.
+Fast-developing AI policy, along with many strategies and other policy documents launched in recent years, is unprecedented in technology
+policy. This can be explained by a wide range of AI applications that go
+beyond typical emerging technology issues about impact on safety and
+economic growth, and also affect the political system, labour market, and
+welfare state. Scandals such as the Cambridge Analytica case have added
+urgency to policy action in this area. Moreover, questions about machines
+achieving or superseding human intelligence have a special resonance
+within collective and individual imaginations. Furthermore, international assemblies such as the World Economic Forum and the OECD have
+drawn additional attention to policies for AI and facilitated cross-national
+learning in this area. AI policy developments, however, are unevenly distributed around the world and are concentrated in the most developed
+regions.
+This chapter identifies three main AI policy frames. These include
+first, framing AI as a revolutionary, transformative and disruptive
+technology; second, closely interconnected global competition and
+collaboration in the field of AI; and third, a three-pillar approach of
+realising opportunities, mitigating risks and ensuring responsibilities
+are met. As suggested by the social studies of emerging technologies,
+which highlight the performative function of hypes and expectations,
+these emerging policy frames can have positive as well as problematic
+
+48 ◾ Governance of Artificial Intelligence
+
+effects on resource allocation and political prioritisation. Thus, AI
+policy analysis can benefit from critical engagement, which questions
+resource re-allocation based on hypes, competitiveness discourse, and
+representation of international AI development as a global race where
+one country wins, and others lose. Moreover, while at the moment AI
+policies are mostly developed and implemented at the national and EU
+level, the need for international collaboration is recognised, and international cooperation initiatives are emerging.
+
+ACKNOWLEDGEMENTS
+This chapter has benefited from feedback on presentations of earlier drafts
+at a number of international conferences, including the 2018 Regulating
+Robotics and AI conference at the European University Institute in
+Florence (Italy), the EASST 2018 conference in Lancaster (UK), the
+2019 Singapore Public Policy Network meeting, the 2019 ISA Annual
+Convention in Toronto (Canada), and the UACES 2019 conference in
+Lisbon (Portugal). This work was supported by the European Union’s
+Horizon 2020 Framework Programme for Research and Innovation under
+the Specific Grant Agreements No. 720270 (HBP SGA1), No. 785907 (HBP
+SGA2) and No. 945539 (HBP SGA3).
+
+NOTES
+1. Jasanoff, Sheila. The ethics of invention: Technology and the human future.
+New York: W.W. Norton & Company, 2016, 267.
+2. See e.g. Coeckelbergh, Mark. AI ethics. Cambridge: The MIT Press, 2020;
+Dignum, Virginia. Responsible artificial intelligence. How to develop and
+use AI in a responsible way. Cham: Springer, 2019; Marcus, Gary, and Ernest
+Davis. Rebooting AI: Building artificial intelligence we can trust. New York:
+Pantheon Books, 2019.
+3. See e.g. Bartoletti, Ivana. An artificial revolution: On power, politics and
+AI. Southampton: Indigo Press, 2020; Noble, Safiya Umoja. Algorithms of
+oppression: How search engines reinforce racism. New York: NYU Press,
+2018; O’Neil, Cathy. Weapons of math destruction: How big data increases
+inequality and threatens democracy. London: Penguin Books, 2016; Zuboff,
+Shoshana. The age of surveillance capitalism: The fight for a human future at
+the new frontier of power. London: Profile Books, 2019.
+4. Ulnicane, Inga, Knight, William, Leach, Tonii, Stahl, Bernd Carsten and
+Winter-Gladys Wanjiku. “Framing governance for a contested emerging
+technology: Insights from AI policy.” Policy and Society 40, no.2 (2021):
+158–177. https://doi.org/10.1080/14494035.2020.1855800; Ulnicane, Inga,
+Eke, Damian Okaibedi, Knight, William, Ogoh, George and Bernd Carsten
+
+Governance of Artificial Intelligence ◾ 49
+Stahl. “Good governance as a response to discontents? Déjà vu, or lessons
+for AI from other emerging technologies.” Interdisciplinary Science Reviews
+46, no. 1–2 (2021): 71–93. https://doi.org/10.1080/03080188.2020.1840220;
+Ulnicane, Inga “Artificial Intelligence in the European Union: Policy, ethics, and regulation.” In Routledge Handbook of European Integrations,
+edited by Thomas Hoerber, Ignazio Cabras, and Gabriel Weber, 254-269.
+Abingdon: Routledge, 2022.
+5. Schatzberg, Eric. Technology: Critical history of a concept. Chicago: The
+University of Chicago Press, 2018.
+6. OECD/Eurostat. Oslo manual 2018: Guidelines for collecting, reporting and using
+data on innovation. 4th edition. The Measurement of Scientific, Technological
+and Innovation Activities. Paris: OECD Publishing/Luxembourg: Eurostat,
+2018, 254. https://doi.org/10.1787/9789264304604-en
+7. Schatzberg. Technology: Critical history of a concept, 5.
+8. Schatzberg. Technology: Critical history of a concept, 15.
+9. Jasanoff. The ethics of invention: Technology and the human future, 243.
+10. Winner, Langdon. The whale and the reactor. A search for limits in an age of
+high technology. Second edition. Chicago: The University of Chicago Press,
+2020, 55.
+11. Borras, Susana, and Jakob Edler, eds. The governance of socio-technical systems: Explaining change. Cheltenham: Edward Elgar, 2014, 1.
+12. Rotolo, Daniele, Hicks, Diana and Ben R. Martin. “What is an emerging
+technology?” Research Policy 44, no. 10 (2015): 1827–1843. https://doi.org/10
+.1016/j.respol.2015.06.006
+13. Rotolo, Hicks and Martin. “What is an emerging technology?,” 1828.
+14. E.g. Crane, Diana. Invisible colleges. Diffusion of knowledge in scientific
+communities. Chicago, IL: The University of Chicago Press, 1972; Mulkay,
+Mike J. The social process of innovation. A study in the sociology of science.
+London: Macmillan, 1972.
+15. Merton, Robert. “Behaviour patterns of scientists.” In The sociology of science.
+Theoretical and empirical investigations, edited by Robert Merton and Norman
+Storer, 325–342. Chicago: University of Chicago Press, 1973 [1968]: 331.
+16. E.g. Van Lente, Harro, Spitters, Charlotte and Alexander Peine. “Comparing
+technological hype cycles: Towards a theory.” Technological Forecasting and
+Social Change 80, no. 8 (2013): 1615–1628. https://doi.org/10.1016/j.techfore
+.2012.12.004
+17. Van Lente, Spitters and Peine. “Comparing technological hype cycles:
+Towards a theory,” 1616.
+18. Van Lente, Spitters and Peine. “Comparing technological hype cycles:
+Towards a theory,” 1616.
+19. Van Lente, Spitters and Peine. “Comparing technological hype cycles:
+Towards a theory,” 1616.
+20. Van Lente, Spitters and Peine. “Comparing technological hype cycles:
+Towards a theory,” 1616.
+21. Chhotray, Vasudha and Gerry Stoker. Governance theory and practice. A
+cross-disciplinary approach. London: Palgrave Macmillan, 2009, 3.
+
+50 ◾ Governance of Artificial Intelligence
+22. Chhotray and Stoker. Governance theory and practice. A cross-disciplinary
+approach, 4.
+23. Chhotray and Stoker. Governance theory and practice. A cross-disciplinary
+approach, 6.
+24. Chhotray and Stoker. Governance theory and practice. A cross-disciplinary
+approach, 6.
+25. Chhotray and Stoker. Governance theory and practice. A cross-disciplinary
+approach, 5.
+26. Borras and Edler. The governance of socio-technical systems: Explaining
+change, 13–14.
+27. Mazzucato, Mariana. The entrepreneurial state. Debunking public vs. private sector myths. London: Anthem Press, 2013.
+28. See e.g. Ulnicane, Inga. “‘Grand challenges’ concept: A return of the ‘big
+ideas’ in science, technology and innovation policy?” International Journal
+of Foresight and Innovation Policy 11, no. 1–3 (2016): 5–21. https://doi.org/10
+.1504/IJFIP.2016.078378
+29. Mazzucato, Mariana. Mission economy: A moonshot guide to changing capitalism. London: Allen Lane, 2021.
+30. Kuhlmann, Stefan, Stegmaier, Peter and Kornelia Konrad. “The tentative
+governance of emerging science and technology—A conceptual introduction.” Research Policy 48, no. 5 (2019): 1091–1097. https://doi.org/10.1016/j
+.respol.2019.01.006
+31. Kuhlmann, Stegmaier and Konrad. “The tentative governance of emerging
+science and technology—A conceptual introduction.”
+32. Kuhlmann, Stegmaier and Konrad. “The tentative governance of emerging
+science and technology—A conceptual introduction,” 1091.
+33. Kuhlmann, Stegmaier and Konrad. “The tentative governance of emerging
+science and technology—A conceptual introduction,” 1096.
+34. Ulnicane, Eke, Knight, Ogoh and Stahl. “Good governance as a response to
+discontents? Déjà vu, or lessons for AI from other emerging technologies,” 34.
+35. E.g. Cath, Corinne. “Governing artificial intelligence: Ethical, legal and
+technical opportunities and challenges.” Philosophical Transactions A 376
+(2018): 1–8. https://doi.org/10.1098/rsta.2018.0080; Winfield, Alan F.T. and
+Marina Jirotka. “Ethical governance is essential to building trust in robotics and artificial intelligence systems.” Philosophical Transactions A 376
+(2018): 1–13. https://doi.org/10.1098/rsta.2018.0085
+36. E.g. Cath, Corinne, Sandra Wachter, Brent Mittelstadt, Mariarosaria
+Taddeo and Luciano Floridi. “Artificial intelligence and the ‘Good Society’:
+The US, EU, and UK approach.” Science and Engineering Ethics 24 (2018):
+505–528. https://doi.org/10.1007/s11948-017-9901-7; Jobin, Anna, Ienca,
+Marcello and Effy Vayena. “The global landscape of AI ethics guidelines.”
+Nature Machine Intelligence 1 (2019): 389–399. https://doi.org/10.1038/
+s42256-019-0088-2; Floridi, Luciano, Cowls, Josh, Beltrametti, Monica et
+al. “AI4People – An ethical framework for a good AI society: Opportunities,
+risks, principles, and recommendations.” Minds & Machines 28 (2018):
+689–707. https://doi.org/10.1007/s11023-018-9482-5.
+
+Governance of Artificial Intelligence ◾ 51
+37. Cath. “Governing artificial intelligence: Ethical, legal and technical opportunities and challenges.”
+38. Winfield and Jirotka. “Ethical governance is essential to building trust in
+robotics and artificial intelligence systems,” 2.
+39. de Saille, Stevienna. “Innovating innovation policy: The emergence of
+‘responsible research and innovation.’” Journal of Responsible Innovation 2,
+no. 2 (2015): 152–168.
+40. Stilgoe, Jack, Owen, Richard and Phil Macnaghten. “Developing a framework for responsible innovation.” Research Policy 42, no. 9 (2013): 1570.
+41. Dignum. Responsible artificial intelligence. How to develop and use AI in a
+responsible way. Cham: Springer, 2019, 6.
+42. Dignum. Responsible artificial intelligence. How to develop and use AI in a
+responsible way. Cham: Springer, 2019, 6.
+43. Winfield and Jirotka. “Ethical governance is essential to building trust in
+robotics and artificial intelligence systems.”
+44. Winfield and Jirotka. “Ethical governance is essential to building trust in
+robotics and artificial intelligence systems.”
+45. See e.g. Kuziemski, Maciej and Gianluca Misuraca. “AI governance in the
+public sector: Three tales from the frontiers of automated decision-making
+in democratic settings.” Telecommunications Policy 44, no. 6 (2020): 1–13.
+https://doi.org/10.1016/j.telpol.2020.101976; Young, Matthew M., Bullock,
+Justin B. and Jesse D. Lecy. “Artificial discretion as a tool of governance: A
+framework for understanding the impact of artificial intelligence on public
+administration.” Perspectives on Public Management and Governance 2, no. 4
+(2019): 301–313. https://doi.org/10.1093/ppmgov/gvz014
+46. See e.g. Cihon, Peter, Maas, Matthijs M. and Luke Kemp. “Fragmentation and
+the future: Investigating architectures for international AI governance.” Global
+Policy 11, no. 5 (2020): 545–556. https://doi.org/10.1111/1758-5899.12890
+47. Ala-Pietilä, Pekka and Nathalie A. Smuha. “A framework for global cooperation on artificial intelligence and its governance.” In Reflections on artificial intelligence for humanity, edited by Bertrand Braunschweig and Malik
+Ghallab, 237–265. Cham: Springer, 2021.
+48. Taeihagh, Araz and Hazel Si Min Lim. “Governing autonomous vehicles:
+Emerging responses for safety, liability, privacy, cybersecurity, and industry risks.” Transport Reviews 39, no. 1 (2019): 103–128. https://doi.org/10
+.1080/01441647.2018.1494640
+49. See e.g. Cath, Wachter, Mittelstadt, Taddeo and Floridi. “Artificial intelligence and the ‘Good Society’: The US, EU, and UK approach.”
+50. See e.g. Galanos, Vassilis. “Exploring expanding expertise: Artificial intelligence as an existential threat and the role of prestigious commentators,
+2014–2018.” Technology Analysis & Strategic Management 31, no. 4 (2019):
+421–432. https://doi.org/10.1080/09537325.2018.1518521
+51. Robinson, Stephen Cory. “Trust, transparency, and openness: How inclusion of cultural values shapes Nordic national public policy strategies for
+artificial intelligence (AI).” Technology in Society 63 (2020): 101421. https://
+doi.org/10.1016/j.techsoc.2020.101421
+
+52 ◾ Governance of Artificial Intelligence
+52. Dexe, Jacob and Ulrik Franke. “Nordic lights? National AI policies for
+doing well by doing good.” Journal of Cyber Policy (2020): 1–18. https://doi
+.org/10.1080/23738871.2020.1856160
+53. af Malmborg, Frans and Jarle Trondal. “Discursive framing and organizational venues: Mechanisms of artificial intelligence policy adoption.”
+International Review of Administrative Sciences (2021). https://doi.org/10
+.1177/00208523211007533
+54. Köstler, Lea and Ringo Ossewaarde. “The making of AI society: AI futures
+frames in German political and media discourses.” AI & Society (2021):
+1–15. https://doi.org/10.1007/s00146-021-01161-9
+55. Ossewaarde, Marinus and Erdener Gulenc. “National varieties of artificial intelligence discourses: Myth, utopianism, and solutionism in West
+European policy expectations.” Computer 53, no. 11 (2020): 53–61. https://
+doi.org/10.1109/MC.2020.2992290
+56. Roberts, Huw, Josh Cowls, Jessica Morley, Mariarosaria Taddeo, Vincent
+Wang and Luciano Floridi. “The Chinese approach to artificial intelligence:
+An analysis of policy, ethics, and regulation.” AI & SOCIETY 36, no. 1
+(2021): 59–77. https://doi.org/10.1007/s00146-020-00992-2
+57. Ulnicane, Knight, Leach, Stahl and Wanjiku. “Framing governance for a
+contested emerging technology: Insights from AI policy.”
+58. Ulnicane, Eke, Knight, Ogoh and Stahl. “Good governance as a response to
+discontents? Déjà vu, or lessons for AI from other emerging technologies.”
+59. Calo, Ryan. “Artificial intelligence policy: A primer and roadmap.” UC Davis
+Law Review 51, no. 2 (2017): 399–435. https://doi.org/10.2139/ssrn.3015350
+60. Stix, Charlotte. “Actionable principles for artificial intelligence policy: Three
+pathways.” Science and Engineering Ethics 27, no. 1 (2021): 1–17. https://doi
+.org/10.1007/s11948-020-00277-3
+61. Stix, Charlotte and Matthijs M. Maas. “Bridging the gap: The case for an
+‘Incompletely Theorized Agreement’ on AI policy.” AI and Ethics (2021):
+1–11. https://doi.org/10.1007/s43681-020-00037-w
+62. See e.g. Broussard, Meredith. Artificial unintelligence: How computers misunderstand the world. Cambridge: The MIT Press, 2018; Dwivedi,
+Yogesh K., Hughes, Laurie, Ismagilova, Elvira, Aarts, Gert, Coombs,
+Crispin, Crick, Tom, Duan, Yanqing, et al. “Artificial intelligence (AI):
+Multidisciplinary perspectives on emerging challenges, opportunities,
+and agenda for research, practice and policy.” International Journal of
+Information Management 57 (2019). https://doi.org/10.1016/j.ijinfomgt.2019
+.08.002; Stilgoe, Jack. Who’s driving innovation? New technologies and the
+collaborative state. Cham: Palgrave Macmillan, 2020.
+63. For an overview, see e.g. OECD. Artificial intelligence in society. Paris:
+OECD Publishing, 2019. https://doi.org/10.1787/eedfee77-en
+64. See e.g. Ulnicane, Knight, Leach, Stahl and Wanjiku. “Framing governance
+for a contested emerging technology: Insights from AI policy.”
+65. European Commission. Artificial intelligence for Europe. Communication
+COM(2018) 237. Brussels: European Commission, 2018, 1.
+66. Cath, Wachter, Mittelstadt, Taddeo and Floridi, “Artificial intelligence and
+the ‘Good Society’: The US, EU, and UK approach,” 505.
+
+Governance of Artificial Intelligence ◾ 53
+67. Galanos, “Exploring expanding expertise: Artificial intelligence as an existential threat and the role of prestigious commentators, 2014–2018.”
+68. AI Strategies and Public Sector Components. https://oecd-opsi.org/projects
+/ai/strategies/ (Last accessed 15 February 2020).
+69. Jobin, Ienca and Vayena, “The global landscape of AI ethics guidelines.”
+70. See e.g. Coeckelbergh, AI ethics; Vesnic-Alujevic, Lucia, Nascimento, Susana
+and Alexandre Pólvora. “Societal and ethical impacts of artificial intelligence: Critical notes on European policy frameworks.” Telecommunications
+Policy 44, no. 6 (2020): 1–14. https://doi.org/10.1016/j.telpol.2020.101961
+71. These are: first, the Asilomar AI principles, second, the Montreal declaration for responsible AI, third, the general principles offered in the second
+version of Ethically Aligned Design, fourth, the Statement on Artificial
+Intelligence, Robotics and “Autonomous” Systems from the European
+Commission’ European Group on Ethics in Science and New Technologies,
+fifth, the five overarching principles for an AI code form the UK House of
+Lords report AI in the UK: ready, willing and able? and sixth, the tenets of
+the Partnership on AI.
+72. Floridi, Cowls, Beltrametti, et al. “AI4People—An ethical framework for a
+good AI society: Opportunities, risks, principles, and recommendations.”
+73. Jobin, Ienca and Vayena, “The global landscape of AI ethics guidelines.”
+74. Jobin, Ienca and Vayena, “The global landscape of AI ethics guidelines,” 389.
+75. Schiff, Daniel, Borenstein, Jason, Biddle, Justin and Kelly Laas. “AI ethics
+in the public, private, and NGO sectors: A review of a global document
+collection.” IEEE Transactions on Technology and Society 2, no. 1 (2021): 31.
+https://doi.org/10.1109/TTS.2021.3052127
+76. See e.g. Lee, Kai-Fu. AI superpowers: China, silicon valley, and the new
+world order. Boston: Houghton Mifflin Harcourt, 2018.
+77. Schwab, Klaus. The fourth industrial revolution. New York: Penguin, 2017.
+78. Henriques, Luisa and Philippe Larédo. “Policy-making in science policy:
+The ‘OECD model’ unveiled.” Research Policy 42, no. 3 (2013): 801–816.
+https://doi.org/10.1016/j.respol.2012.09.004
+79. The OECD AI Principles. https://www.oecd.ai/ai-principles (Last accessed
+19 April 2021).
+80. The OECD AI Policy Observatory. https://www.oecd.ai/ (Last accessed 19
+April 2021).
+81. The OECD Network of Experts on AI (ONE AI). https://www.oecd.ai/network-of-experts (Last accessed 19 April 2021).
+82. Dolowitz, David P. and David Marsh. “Learning from abroad: The role
+of policy transfer in contemporary policy-making.” Governance: An
+International Journal of Policy and Administration 13, no. 1 (2000): 5–24.
+https://doi.org/10.1111/0952-1895.00121
+83. European Commission. AI policy seminar: Towards and EU strategic plan
+for AI. Digital transformation monitor. Brussels, 29 November 2017.
+84. Carter, William A., Kinnucan, Emma and Josh Elliot. A national machine
+intelligence strategy for the United States. Washington, DC: Center for
+Strategic & International Studies, 2018, 19.
+
+54 ◾ Governance of Artificial Intelligence
+85. European Commission. Artificial intelligence: A European perspective.
+Luxembourg: Publications Office of the European Union, 2018.
+86. The Global AI Index. https://www.tortoisemedia.com/intelligence/global
+-ai/ (last accessed 15 April 2021).
+87. The Government AI Readiness Index. https://www.oxfordinsights.com/
+government-ai-readiness-index-2020 (Last accessed 15 April 2021).
+88. The AI Index. https://aiindex.stanford.edu/ (Last accessed 15 April 2021).
+89. Van Lente, Spitters and Peine. “Comparing technological hype cycles:
+Towards a theory.”
+90. Rein, Martin and Donald Schön. “Reframing policy discourse.” In The
+argumentative turn in policy analysis and planning, edited by Frank Fischer
+and John Forester, 145–166. London: UCL Press, 1993.
+91. Rein and Schön. “Reframing policy discourse,” 145.
+92. Rein and Schön. “Reframing policy discourse,” 146.
+93. More on AI policy documents see here See e.g. Ulnicane, Knight, Leach,
+Stahl and Wanjiku. “Framing governance for a contested emerging technology: Insights from AI policy.”
+94. Executive Office of the President. The national artificial intelligence research
+and development strategic plan. Washington, DC: National Science and
+Technology Council, 2016, 3.
+95. European Commission. Artificial intelligence for Europe, 1.
+96. BIC/APPGAI (Big Innovation Centre/All-Party Parliamentary Group on
+Artificial Intelligence). International Perspective and Exemplars. 30 October
+2017, 10.
+97. European Commission. Artificial intelligence for Europe, 1.
+98. European Commission. Artificial intelligence for Europe, 2.
+99. See e.g. Makridakis, Spyros. “The forthcoming artificial intelligence (AI)
+revolution: Its impact on society and firms.” Futures 90 (2017): 46–60.
+https://doi.org/10.1016/j.futures.2017.03.006
+100. Winner, The whale and the reactor. A search for limits in an age of high technology, 98.
+101. Winner, The whale and the reactor. A search for limits in an age of high technology, 117.
+102. BIC/APPGAI (Big Innovation Centre/All-Party Parliamentary Group on
+Artificial Intelligence). International Perspective and Exemplars, 4.
+103. BIC/APPGAI (Big Innovation Centre/All-Party Parliamentary Group on
+Artificial Intelligence). International Perspective and Exemplars, 19.
+104. Executive Office of the President. Preparing for the future of artificial
+intelligence. Washington, DC: National Science and Technology Council
+Committee on Technology, 2016.
+105. Larson, Christina. “China’s massive investment in artificial intelligence has an
+insidious downside.” Science 8 (2018). https://doi.org/10.1126/science.aat2458
+106. RT. “‘Whoever leads in AI will rule the world’: Putin to Russian children
+on Knowledge Day.” 1 September 2017. https://www.rt.com/news/401731-ai
+-rule-world-putin/ (Last accessed 16 February 2020).
+
+Governance of Artificial Intelligence ◾ 55
+107. WEF. “Theresa May’s Davos address in full.” 25 January 2018. https://www
+.weforum.org/agenda/2018/01/theresa-may-davos-address/ (Last accessed
+16 February 2020).
+108. Rabesandratana, Tania. “Emmanuel Macron wants France to become a
+leader in AI and avoid ‘dystopia.’” Science 30 (March 2018). https://doi.org
+/10.1126/science.aat7491
+109. European Commission. Artificial intelligence for Europe, 19.
+110. European Commission. Artificial intelligence: A European perspective, 12–13.
+111. E.g. Allen, John and Amir Husain. “The next space race is artificial intelligence.” Foreign Affairs, 3 November 2017; Horowitz, Michael, Kania,
+Elsa B., Allen, Gregory C. and Paul Scharre. Strategic competition in and
+era of artificial intelligence. Washington, DC: Centre for a New American
+Security, 25 July 2018.
+112. Krugman, Paul. “Competitiveness: A dangerous obsession.” Foreign Affairs
+73, no. 2 (1994): 28–44.
+113. Nelson, R. Richard. The Moon and the Ghetto. An essay on public policy
+analysis. New York: W.W. Norton & Company, 1977.
+114. Stilgoe, Who’s driving innovation? New technologies and the collaborative
+state, 51.
+115. Information from the European Commission. https://ec.europa.eu/digital
+-single-market /en/news/eu-member-states-sign-cooperate-artificial-intelligence (Last accessed 16 April 2019).
+116. See e.g. Cihon, Maas and Kemp. “Fragmentation and the future:
+Investigating architectures for international AI governance.”
+117. The Global Partnership on Artificial Intelligence. https://gpai.ai/ (Last
+accessed 20 April 2021).
+118. Feijóo, Claudio, Kwon, Youngsun, Bauer, Johannes M., Bohlin, Erik, Howell,
+Bronwyn, Jain, Rekha, Potgieter, Petrus, Vu, Khuong, Whalley, Jason, and
+Jun Xia. “Harnessing artificial intelligence (AI) to increase wellbeing for all:
+The case for a new technology diplomacy.” Telecommunications Policy 44,
+no. 6 (2020): 2. https://doi.org/10.1016/j.telpol.2020.101988
+119. Carter, Kinnucan and Elliot. A national machine intelligence strategy for the
+United State, 42–45.
+120. Rabesandratana. “Emmanuel Macron wants France to become a leader in
+AI and avoid ‘dystopia.’”
+121. Merton, Robert. “The normative structure of science.” In The sociology of
+science. Theoretical and empirical investigations, edited by Robert Merton
+and Norman Storer, 267–278. Chicago, IL: The University of Chicago Press,
+1973 [1942].
+122. Executive Office of the President. The national artificial intelligence research
+and development strategic plan.
+123. European Commission. Artificial intelligence for Europe, 5.
+124. European Commission. Artificial intelligence for Europe, 13.
+125. Ulnicane, Eke, Knight, Ogoh and Stahl. “Good governance as a response to
+discontents? Déjà vu, or lessons for AI from other emerging technologies.”
+
+

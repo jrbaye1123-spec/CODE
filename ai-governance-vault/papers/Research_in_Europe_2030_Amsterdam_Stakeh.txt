@@ -1,0 +1,2033 @@
+RESEACH AND INNOVATION FUTURES 2030: FROM EXPLOATIVE TO TRANSFORMATIVE SCENARIOS
+
+Research in Europe 2030:
+DOCUMENTATION
+OF THE AMSTERDAM POLICY IMPLICATION HIGH LEVEL STAKEHOLDERSWORKSHOP March 15th, 2013
+Stefan Kuhlmann, Ellen van Oost, Kornelia Konrad, Gonzalo Ordóñez-Matamoros, Evelien Rietberg,
+Peter Stegmaier, , Inga Ulnicane, (University of Twente);
+Lorenz Erdmann (Fraunhofer ISI); Mika Nieminen (VTT); Wolfram Rhomberg, Matthias Weber (AIT),
+Ozcan Saritas (Manchester)
+
+Table of Contents
+1. Introduction
+a. The RIF project
+b. The scenario process in the RIF project
+c. The five transformative scenarios of Research and Innovation Futures
+2. Analytical framework for assessing the scenarios from a policy and stakeholder perspective
+3. Agenda High Level Stakeholder Workshop Amsterdam
+4. Reports from the morning sessions: discussing and assessing the policy implications
+of the scenarios
+a. Open Research Platforms
+b. Knowledge Parliaments
+c. Grand Challenges for Real
+d. Knowledge Value Chains
+e. ‘esear hers Choice
+5. Reports from the afternoon sessions: exploring strategic policy options
+a. Open Research Platforms
+b. Knowledge Parliaments
+c. Grand Challenges for Real
+d. Knowledge Value Chains
+e. ‘esear hers Choice
+6. List of Participants
+
+Annex 1: Five transformative RIF scenarios: elaborate description
+Annex 2: RIF Scenarios on Research & Innovation nested in broader societal futures
+
+2
+
+1 Introduction
+The RIF project
+How will research and innovation be conducted and organized in the future knowledge society? How
+will scientists and other stakeholders be affected by the upcoming changes in science, technology
+and innovation? What kinds of opportunities do the changes open for them? What will these transformations imply for the European Research Area?
+The RIF project Research a d I ovatio Futures 0 0: fro Explorative to Tra sfor ative “ce arios explores these issues. It focuses on analysing new and emerging ways of doing and organizing
+research in universities, research organizations, companies and civil society. It will
+ systematise knowledge on emerging patterns, trends and drivers of change in science, technology development and innovation (STI)
+ provide an outlook on future developments in STI by way of scenarios,
+ identify and assess key issues against the background of the European Research Area (ERA),
+and
+ establish a dialogue on strategic options for different stakeholders.
+The RIF project concentrates on the dynamics of change resulting from the interplay of developments within STI systems and in their societal context. It is based on the assumption that current
+trends and developments in STI are likely to give rise to challenges & opportunities that need to be
+addressed if STI is to continue to play a key role for society. These tensions may be tackled within the
+confines of current institutional settings, but they may also require a substantial transformation of
+our STI systems as well as of our research and innovation practices.
+
+The scenario process in the RIF project
+The development of scenarios on future developments in research and innovation refers to two time
+horizons: 2020 and 2030. In a first stage, medium-term explorative scenarios with a time horizon of
+2020 have been developed together with experts (Workshop in Berlin, June 2012). These scenarios
+are based on current trends and drivers, based on the assumption that the prevailing institutional
+and organizational frameworks for research and innovation will by and large continue to be in place.
+Thereby, this first type of scenarios serves to explore emerging tensions and dilemmas in the current
+research and innovation system. The tensions are supposed to emerge because the strategic mismatch of current institutional settings to the changing world of doing and organizing research tends
+to grow over time.
+The second stage of the process aims at debating long-term transformative scenarios with an approximate time horizon of 2030. These transformative scenarios may imply significant structural and
+institutional changes in research and innovation systems.
+The explorative scenarios from the first stage, which point to emerging tensions, dilemmas in the
+research and innovation system, thus provide the basis for the development of transformative sce-
+
+3
+
+narios (see Figure 1 below). At a workshop in Karlsruhe in September 2012 the RIF project team,
+supported by some external experts, drafted transformative storylines, referring to those emerging
+tensions. These have subsequently been integrated and condensed into six transformative scenario
+drafts that were discussed in the Vienna World Café Workshop, October 22, 2012. Based on the discussion, amendments and assessments raised in the Vienna World Café Workshop, the RIF team has
+revised six draft scenarios into coherent, yet challenging set of five transformative scenario storylines
+of research and innovation futures.
+
+Figure 1: The scenario process in RIF 2030
+
+4
+
+The five transformative scenarios for Research and Innovation Futures
+The transformative scenarios are the result of both an analysis of literature and previous Foresight
+esults sto ktaki g a d the ide tifi atio of e e gi g te sio s i the e plo ati e s enarios. These
+scenarios form the basis for identifying and assessing key issues for future Research and Innovation
+Policy (national and EU), as well as implications for the European Research Area (ERA) and the tackling of the Grand Challenges. In the following chapter five transformative scenarios will be described.
+At the end a schematic overview of core dynamics in each scenario is provided. This overview on the
+transformative scenarios, points out the respective core tensions, the trigger of the transformation
+a d the ai ha ges i ‘IF di e sio s of a s of doi g esea h des i ed the s e a io.
+Most scenarios focus on the research landscape – i li e ith the ‘IF p oje t s ai esea h i terest. However each scenario provides glimpses of a future society that is intrinsically intertwined with
+the evolution of the research landscape. In annex 2 one can find an impression of future societies
+that could embed the respective scenarios on research and innovation.
+The RIF 2030 project has developed five narrative storylines imagining possible future dynamics towards 2030 of the practice and organization of research and innovation. The basis of each storyline is
+the rise of tensions in the current research and innovation system that will – in some scenarios triggered by a specific event - lead towards a dynamic of transformative change.
+The five scenarios are:
+1. Open Research Platforms: self-governance in a networked decentralized research landscape
+2. Knowledge Parliaments: free negotiation of knowledge claims worldwide
+3. Grand Challenges for Real: collective experimentation in socio-technical labs
+4. Knowledge Value Chains: research for innovation in a specialized and stratified research landscape
+. ‘esea he s Choice: autonomous researchers go for creativity and wellbeing
+
+A one page summarizing overview of the core dynamics of each scenario in provided on the next
+pages. In Annex 1 more elaborated scenario description can be found.
+
+5
+
+Open Research Platforms – self-governance in a networked decentralized research landscape
+Abstract: In 2030, the research
+landscape with its researchperforming organizations (and
+individuals) and funding mechanism is fully decentralized, global
+and open. Virtual communities
+initiate research that is integrated
+into virtual platforms and openly
+accessible. Self-governance of
+research around "Open Research
+Platforms" (ORPs), fully open to
+industry, individuals, foundations,
+and society at large, is the norm.
+Into the vast knowledge flows passing through these ORPs, governments of open societies worldwide
+embed their soft coordination activities such as monitoring of research, assistance in connection of
+research activities, and targeted provision of incentives for researchers to contribute to certain ORPs
+of public interest.
+
+Core dynamics
+Condition of
+change
+Core tension
+
+Transformation
+trigger
+Transformation
+processes
+
+
+
+
+
+
+
+R&I coordination complicated by complexity, fragmentation & conflicting
+stakeholder strategies. Rising global cooperation & open knowledge
+sharing.
+The fragmented research landscape hampered effective coordination of
+research findings in a global emergency case (a hardly understood deadly
+disease) and failed to deliver a solution.
+Scientists worldwide integrated their findings on an open wiki platform
+and discovered a solution for the disease.
+Discovery & open-source protection of the solution. The emergency case
+gave a strong push towards self-organized research using open wiki platforms.
+Global research collaboration and innovation too dynamic to allow for effective IPR protection
+
+6
+
+Knowledge Parliaments – the free negotiation of knowledge claims worldwide
+Abstract: Around 2030 all kinds
+of knowledge claims are raised
+and negotiated in so-called
+k o ledge parlia e ts . They
+prioritise research topics and
+pro ide tradi g zo es i
+hi h
+actors with particular research
+interests, topics and epistemologies compete for acceptance.
+This form of forum also facilitates the building of research
+consortia. Citizens and a variety
+of other local stakeholders and
+epistemic cultures (e.g., lay and indigenous knowledge) are incorporated. Neglected research topics
+and unconventional knowledge domains are brought to the fore.
+
+Core Dynamics
+Condition of
+change
+
+
+
+
+
+Core tension
+
+
+
+
+
+Transformation
+trigger
+Transformation
+processes
+
+
+
+
+
+
+Inspiration & innovation expected from unconventional knowledge domains.
+Epistemological wealth of regions & people defended globally against unlimited exploitation.
+Increasing significance of non-European funding agencies.
+Wo ld ide edist i utio st uggle et ee
+ode
+s ie tifi & othe
+knowledges (here: how far should research serve biotech companies or local communities?).
+Despite Responsible R&I in Europe, corporatist representation in closed
+circle programming persisted, participation procedures perceived as too
+rigid & inflexible.
+Fai k o ledge o e e ts e e ged, the Eu opea
+to allies across the world.
+
+a hes li ki g up
+
+Civil society quit participation & aligned with public research organizations
+& local initiatives worldwide to develop projects & seek funds for R&I on
+hithe to egle ted o o pa
+o ed issues.
+The crisis of democratic representation, felt also in R&I programming, was
+overcome by increasing participatory negotiation.
+Over time, the global research landscape with its plurality of knowledges,
+IPRs & research styles were reshaped.
+
+7
+
+Grand Challenges for Real –collective experimentation in socio-technical labs
+
+Abstract: In 2030, the research landscape in Europe is characterized by
+making extensive use of collective experimentation. Research on Grand Challenges is organized around large
+Knowledge and Innovation Communities (GC-KICs), each one overseeing
+several socio-technical laboratories in
+which a large number of different solutions responding to Grand Challenges
+are developed and tested. Diverse actors such as citizens, companies, universities, and social entrepreneurs engage
+in collective experimentation. Experimentation, measurement of practices and impacts, and cocreation go hand in hand so that real progress towards Grand Challenges becomes evident.
+
+Core Dynamics
+Condition of
+change
+
+
+
+
+
+
+Core tension
+
+Transformation
+trigger
+Transformation
+processes
+
+
+
+
+
+
+
+
+Grand Challenges are taken as R&I issues worldwide.
+EU took them as G a d Oppo tu ities & applied the KIC o ept to foste
+economic growth.
+EU's R&I actors adapted to the new headings due to increased public and
+private funding of Grand Opportunity R&I.
+An ecological disaster (draughts in Southern Europe) turned out to be the
+a id test fo olle ti e e pe i e tatio & e o o i all d i e G a d Oppo tu it -KICs.
+In the new public climate the voices for taking Grand Challenges for real
+could not be suppressed any more.
+Reconceptualization of the KIC concept, putting real solutions at centre
+stage and opening-up to new actors, Social Science and Humanities, & new
+experimental forms.
+EU GC-KICs set up under fierce multi-stakeholder lobbying.
+Diffusion of the successful configuration over the whole R&I system under
+political pressure.
+
+8
+
+Knowledge Value Chains – research for innovation in a specialized and stratified research landscape
+Abstract: In 2030, the public research landscape is closely intertwined with the private research
+landscape globally. Research in Europe proceeds at various national
+and regional speeds aiming to improve their competitiveness in global
+markets through innovation. Research is carried out in "Knowledge
+Value Chains" (KVCs) organizing the
+cooperation between three types of
+highly specialized and stratified organizations: research integration,
+research services and third-tier organizations. KVC actors interact according to management practices. Research is closely tied to industry processes adapting the respective degrees of openness in research and innovation.
+
+Core Dynamics
+Condition of
+change
+
+
+
+
+
+Core tension
+Transformation
+trigger
+Transformation
+processes
+
+
+
+
+
+
+
+Governments worldwide reinforced New Public Management (NPM) and
+funded fewer, but larger projects.
+European governments reduced expenditure on R&I, and opened up to get
+the best value for money.
+Europe lagged behind the USA and/or Asia in key future technologies and
+key enabling industries.
+Stiff competition among research institutes and a boost in efforts for fund
+raising and evaluation.
+In an EU program on electro-mobility consultancy-led (and similar) consortia proved their strengths.
+Consultancies and businesses took leadership in research aiming to improve Europe's position in the global innovation race.
+Few organizations focused on system competencies & on professionalization, while others specialized & subcontracted.
+Contractors became big and powerful, and they assembled consortia with
+specialized subcontractors.
+
+9
+
+Researchers’ Choice - autonomous researchers go for creativity and wellbeing
+
+Abstract: Society is characterized by
+highly individualistic values and strong
+emphasis on individual wellbeing,
+autonomy and creativity. Autonomous
+researchers are at the heart of scientific research. To realize their ambitions researchers choose options within a broad spectrum of models, ranging from new forms of science entrepreneurship to more collective forms
+u der the u rella of slo s ie e
+with a strong orientation towards
+local societal needs.
+
+Core Dynamics
+Condition of
+change
+
+
+
+
+
+
+Core tension
+
+
+
+
+Transformation
+trigger
+Transformation
+processes
+
+
+
+
+
+
+
+
+
+Increasing pressure and frustrating funding races in the academia.
+Society became more sensitive to wellbeing, work-life-balance and emphasized creativity & autonomy as core values.
+Pu li t ust i s ie e d i dled & s ie tists eputatio de li ed apidl .
+(Young) researchers increasingly left academia and looked for other jobs
+with a better work-life balance.
+Severe identity crisis of scientists.
+Individual researchers developed self-organized ways of doing research
+driven by individualism and techno-economic progress.
+Self-organized autonomous research was rising.
+Science entrepreneurship developed targeted solutions for world markets.
+Values of quality of life and work as well as sustainability and local embedding of scientific activities gave rise to slow science movement.
+In many countries new measures of progress emphasized quality of life rather than only economic growth.
+
+10
+
+2 Analytical framework for assessing the scenarios from a policy
+and stakeholder perspective
+The RIF 2030 project explores new and emerging ways of doing and organizing research. Based on
+the analysis of emerging trends and driving forces in the European science system, the RIF team explored future developments. These future perspectives show various contradictory demands and
+developments. Tackling such tensions may require a substantial transformation of the research and
+innovation system, policies and practices. To enhance insights into possible future transformational
+changes, the RIF2030 team has developed five distinct scenario storylines. These scenarios form the
+basis for identifying and assessing key issues for future Research and Innovation Policy (national and
+EU), as well as implications for the European Research Area (ERA) and the tackling of the Grand Challenges.
+The Amsterdam high-level stakeholder workshop aimed to discuss and appraise policy implications of
+the RIF2030 explorative and transformative scenarios and to reflect on strategic policy options from
+various stakeholders perspectives. The workshop results will be fed into a deepened analysis and
+subsequent development of options and strategies. For the structuring of the discussion on the policy implications we have developed the following framework.
+
+Policy Implication Assessment Framework
+Assessment
+ R&I system
+Implications
+ Tensions and
+Opportunities
+ Strategic Options
+
+Policy- relevant
+dimensions
+
+
+
+
+
+
+
+
+
+Stakeholder
+Perspectives
+
+Type of research
+Research practice
+Role of governments
+Key players
+Research funding
+Research careers
+IPR regimes
+
+11
+
+
+
+
+
+
+Academia
+Government
+Industry
+Civil society
+
+Arenas
+ R&I policy
+ ERA
+ Grand Challenges
+
+3 Agenda High-level Stakeholder Workshop March 15th 2013
+
+08.30
+09.00
+09.05
+09.20
+09.30
+11.00
+11.30
+12.30
+13.45
+14.00
+15.30
+15.45
+16.45
+17.00
+
+Day Chair: Stefan Kuhlmann
+Registration & Coffee
+Welcome
+Introduction to the RIF project
+By Matthias Weber (RIF project leader)
+Introduction: policy implication assessment of the five transformative
+scenarios: guiding questions and working methods
+Working group sessions: discussing & enhancing the scenario implications for policy relevant dimensions Working Group (2 rounds)
+Coffee Break
+Synthesis of scenario implication assessment
+Plenary presentations of working group results and discussion
+Lunch (in restaurant downstairs)
+Introduction exploring strategic policy options: guiding questions and
+working methods
+Working group sessions: exploring strategic policy options
+Working Groups (2 rounds)
+Coffee/Tea Break
+Synthesis
+of
+strategic
+policy
+options
+Plenary presentations of working group results and discussion
+Wrapping up
+End of workshop & drinks
+
+Workshop venue: De Waag
+The venue of the workshop is an inspiring
+location: the Theatrum Anatomicum in De
+Waag.
+Located in the city centre of Amsterdam,
+this 15th century city gate is currently
+used by the De Waag Society, an innovative Institute for Art, Science and Technology. Hence, the ultimate place where
+history and future meet!
+
+12
+
+4 Reports of the morning session: discussing and assessing the
+policy implications of the scenarios
+In the morning sessions we had working group sessions in two rounds of each 45 minutes. In the first
+round, the workshop participants were allocated to a scenario by the RIF team in order to secure a
+spread of stakeholder background over the scenarios. In the second round participants were free to
+choose the scenario of their interest.
+
+At the discussion tables the participants were provided with the scenario abstract and a set of guiding questions along the most important policy dimensions:
+
+Dimensions and guiding questions for analysing and assessing the policy implications
+1. Type of research
+What types of knowledge production are facilitated or constrained? (curiosity oriented/applied oriented/ social oriented)
+2. Research practice
+How will the research practice look like? (individual/collaboration/coordination/groups/open
+research/methods)
+3. The role of governments
+What role do governments (local, regional, national, supranational) have in the research and
+innovation system? (funding/steering/ monitoring/quality control/coordination/evaluation)
+
+13
+
+4. Key players
+Who are the key players in the research landscape, what are their roles and relations? (power constellations/new actors/roles/interests/winners/losers)
+5. Research funding
+How and by whom will research be funded? (type of funds/criteria and procedures for funding/role of competition/national or international)
+6. Research careers & mobility
+How will research careers be organized? (building & assessing scientific reputation/labour
+conditions/mobility)
+7. IPR regimes
+What knowledge is protected, by whom, and how? What are conditions to access and sharing knowledge?
+8. European Research Area (ERA)
+Will ERA missions be strengthened or weakened?
+9. Grand Challenges
+Is research aiming at tackling the Grand Challenges strengthened or weakened?
+10. Other relevant issues
+Are there other dimensions on which the scenario might have serious implications?
+
+14
+
+Open Research Platforms – self-governance in a networked decentralized research landscape
+Abstract: In 2030, the research landscape with its research-performing organizations (and individuals) and
+funding mechanism is fully decentralized, global and
+open. Virtual communities initiate research that is
+integrated into virtual platforms and openly accessible.
+Self-governance of research around "Open Research
+Platforms" (ORPs), fully open to industry, individuals,
+foundations, and society at large, is the norm. Into the
+vast knowledge flows passing through these ORPs,
+governments of open societies worldwide embed their soft coordination activities such as monitoring
+of research, assistance in connection of research activities, and targeted provision of incentives for
+researchers to contribute to certain ORPs of public interest.
+
+Host: Gonzalo Ordóñez-Matamoros
+Rapporteur: Lorenz Erdmann
+Type of research
+ Public and private actors take part in the Research and Innovation continuum
+ Challenge-oriented research favoured while purely curiosity-oriented research (e.g. theoretical
+maths) is potentially endangered
+ Excellence research combined with impact assessment. Open esea h ill d i e the e d of Oxbridge specializatio i.e. e elle e deli e ed a fe , ut all go fo it a d gi e ise to u erous, diverse long-tail research activities.
+ ‘ise of post-a ade i esea h e.g. data-mining, visualisation, supporting knowledge)
+ Attractiveness fo usi ess: f o tie esea h, the est i s pee e aluatio
+ Research of economic short-term value could be discouraged
+Research practice
+ Demarcation of useful knowledge and information pollution is a constant challenge: it is easy to
+participate and exchange information, but difficult to do structured research; brokerage what is
+good/bad expertise (data used, achievements) is required
+ Interdisciplinary research: technical integration via web 3.0 is no problem, but cognitive and social
+integration requires physical encounters (cities, local clusters, etc.)
+ Network-based, qualitative assessment by communities for challenge-oriented research
+ Mutuality principle (Monsanto example: strict entry requirements – you have to be good and
+provide good data to have access to rice DNA sequencing research)
+ Research is open, but not completely free (e.g. similar to small fees for i-Tunes and smart phone
+apps)
+ Rise of new formats to address challenges (non-verbal internet to leverage e.g. 3rd world
+knowledge to overcome language barriers, popular summaries on open access journals to bridge
+science and society, publishing of negative results)
+
+15
+
+Research careers
+ Open research supports researcher careers across institutions and disciplines; researcher mobility
+means they take their knowledge as assets with them; harmonized social security systems within
+ERA required
+ Training for open research and science communication required: basic bachelor training, challenge orientation in masters and PhDs; only a small percentage will stay at university (15%?),
+while the rest goes elsewhere
+ Human Resources for science in Europe will decline due to increased competition and labour instability; scientists will go for the newly industrializing countries (NICs). Only some frontier research institutions in Europe will be attractive enough for talent
+Key players
+ The public wants to know what they are buying when funding public research. Civil Society Organizations will formulate the ight uestio s fo esea h compliance to those questions by next
+generation companies will be their key asset
+ Universities will stay, but will have to seek diverse funding sources; they must make research
+more understandable and useful for society
+ Rise of actors such as supporting infrastructures & processing companies (e.g. virtualization &
+visualization, data management) and science communicators
+IPR regimes (and research exploitation, commercialisation)
+ Revolution of business models in open R&I: participation in frontier research is key, societal challenge-orientation is attractive to businesses
+ Being faster and better than competitors in exploitation instead of living of fees for use of IPRprotected knowledge
+ Access is open, not free (i.e. you may still have to pay)
+Research funding
+ Crowd funding is likely to increase, but stable long-term funding required
+ Governments will fund NGOs and individuals if they perform well (i.e. deliver better solutions).
+More and diverse actors will get public funding
+ Keep in mind: China funds Grand Challenges research; it is highly uncertain how open that will be
+in 2030
+ In an open research world, industry may reduce expenditure which may lead to less research vs.
+they have to invest (controversially discussed)
+Role of governments (research funding: see above)
+ Less money provided for research, but efficiency is increased as redundancies are squeezed out
+ Reorganize knowledge and quality assurance into viable forms
+ Foster a better understanding of science and trust
+ Provide infrastructure to get people together and to share knowledge and resources
+ Rising issue: ensure evidence-based policies in open systems
+
+16
+
+ERA
+ ERA funding will be focused on cooperation, translation and platforms
+ Globalization of science drives scenario, ERA goals need to focus on strong global relations
+ ERA as an open space is the outcome of the scenario, variable geometry, rest of the world connects, There is no alternative for Europe to compete in the world but by open research (top down
+does t o k
+ ORP scenario allows ERA to foster its top disciplinary groups, while lousy universities are not that
+relevant any more
+ ERA mission is linked to Grand Challenges
+Grand Challenges
+ Potentially effective on global challenges and solving of local problems (issue orientation)
+ Third world non-verbal Internet to facilitate communication and overcome language barriers
+ Rise of transparency of production and consumption as a key claim of civíl society
+Other
+ Share foresight analysis with NGOs / civil society
+
+17
+
+Knowledge Parliaments – the free negotiation of knowledge claims worldwide
+Abstract: Around 2030 all kinds of knowledge
+claims are raised and negotiated in so-called
+k o ledge parlia e ts . They prioritize resear h
+topics and provide tradi g zo es i
+hi h a tors
+with particular research interests, topics and epistemologies compete for acceptance. This form of
+forum also facilitates the building of research consortia. Citizens and a variety of other local stakeholders and epistemic cultures (e.g., lay and indigenous knowledge) are incorporated. Neglected
+research topics and unconventional knowledge domains are brought to the fore.
+
+Host: Peter Stegmaier
+Rapporteur: Mika Nieminen
+
+Type of research
+The scenario raises several questions that could be linked to the type of research. One of the most
+obvious ones relates to the finance of research as it usually also direct the orientation of research.
+How should the finance of research be arranged in Knowledge Parliaments (KPs) realistically? Concerns were put forward about long-term research: How to support long-term research? It was also
+put fo a d that this ode is pe haps ot halle gi g t aditio al k o ledge p odu tio , ut athe
+would or even should be within the traditional knowledge production system in order to function. In
+this regard it was also stated that there is perhaps no other option to finance and make it function
+ealisti all . “o the KPs ould e a ki d of additio to the e isti g esea h s ste a d it s steering. It
+was also stated that KPs include an epistemic change from traditional science to a wider knowledge.
+This, in turn, brings forward related knowledge production processes as learning processes, how to
+combine various kinds of knowledge being the essential question. This relates also to the question,
+how to assess various knowledge claims. As there are a number of various actors with different views
+of k o ledge a d its alue, the assess e t a fa e a elati isti dile
+a a thi g goes . A it
+sceptically, it was also stated that KPs are more about money allocation, not about how research is
+conducted or where.
+Research practice
+It was stated that most likely industry would not be acting like this as they always have vested interests in the ownership of knowledge. However, it was also agreed that this might serve also industry
+in the fields where open science is a practice and in the areas of generic technology. In this context
+one may also ask whether there would take place de-professionalization of science as new kinds of
+knowledge practices are incorporated into scientific practices? At the same time traditional scientific
+knowledge production is questioned. It was still, however, left open what would be the actual way to
+produce knowledge in KPs? On the other hand it was also stated that KPs may include reprofessionalization as traditional knowledge is integrated into scientific knowledge production (pro-
+
+18
+
+fessionalization of indigenous and lay people knowledge practices). It was also recognized that the KP
+development may lead to controversies among scientific communities as mixing science with indigenous knowledge is not easy.
+Role of governments
+KPs relationship with the public administration and the existing system was observed to be problematic in many ways. It was, for instance, put forward that the institutional basis of the scenario should
+be thought through more deeply: How can this kind of field/type of research be protected/legitimized against other forms of R&D? Is there a kind of market failure in this case that would
+justify support to this kind of activity? Is there a need to renegotiate each time PPP? Involvement of
+developing countries might also be difficult, as they have limited negotiation power and resources to
+be used in this ki d of a ti it . Afte all, all o es a k to o e a d fi a ie s po e . It as also
+stated that we need cross-sectorial platforms also on the administrational level, where various perspectives and interests may come together. This would support and make possible KPs a ti ities.
+Finally it was also doubted that KP would not really change current practices and roles of actors, but
+would be rather a new way to organize current roles and relationships.
+Key-players
+It was seen that especially everybody with money would be the key-players. Thus governments and
+EU would remain most likely as the major definers of action. It was stated that despite its initial outlook, KPs actually are a very competitive scenario. For instance, what happens to the developing
+countries, if a stock market will develop? Is the money talking after all (those who pay define the
+agenda)? On the other hand, the nature of the KP as a parliament was pondered. In order to be a real
+parliament, various stakeholders should have a representative there, how would the representativeness be organized? We come easily back to essential questions of democracy. Finally it was seen that
+especially new small companies would be emerging to do this kind of research. This, in turn, may
+lead to the question, how is the activity coordinated, as there are too many actors for simple agreement arrangements and coordination of work.
+Research funding
+It was seen an essential question to ask, where is the money coming to fund these activities? It was,
+for instance, asked whether political parties would finance KP activity for ideological reasons? It
+would provide kind of think tank services for them. It was also discussed, how the combination of
+funding would work. Especially it was discussed in the context of the relation between local and international level. On the one hand it was seen that domestic sources may also finance international
+research which has a local interest. On the other hand, for example, EU funding may provide additional funding for local initiatives. It was also considered rather clear that civil society organizations
+would not have enough money to finance all KPs a ti ities. Rather it would be so that citizens may
+make initiatives, but public bodies (like EU) have to finance them. Combination of various sources
+was considered, however, difficult.
+Research careers
+KP would most likely support precarious form of working. There are neither traditional careers anymore, because people take increasingly distance from the traditional institutions and practices.
+
+19
+
+IPR regimes
+Representatives of industry thought that if there is no clear IPR regime in the context of KPs, industry
+will hide everything from the others as it protects its interests (profit making).
+ERA
+It was brought out that EU is already now piloting focus groups to screen ideas from people for R&D
+purposes (Voices-project). In this sense the basic principles of the KPs scenario are already taking
+place albeit in small scale.
+Grand Challenges
+It was thought that the scenario would strengthen the presence of marginalized groups in the solution of Grand Challenges. KPs make it possible to put forward and connect local interpretations of
+GCs to more macro level interpretations of GCs (e.g. cities may have their own views of developments, what should be emphasized, and how they will tackle these GCs). Again, it was also brought
+out a bit cynical view that whether the parliament would be discussing about (new) challenges or
+more practically only on money allocations. There is always the threat that KPs will deteriorate into
+mere money allocation procedure.
+Other
+It was brought out
+that in the US there
+are going on already
+quite some developments towards more
+participatory science.
+
+20
+
+Grand Challenges for real –collective experimentation in socio-technical labs
+Abstract: In 2030, the research landscape in Europe is
+characterized by making extensive use of collective
+experimentation. Research on Grand Challenges is
+organized around large Knowledge and Innovation
+Communities (GC-KICs), each one overseeing several
+socio-technical laboratories in which a large number
+of different solutions responding to Grand Challenges
+are developed and tested. Diverse actors such as citizens, companies, universities, and social entrepreneurs engage in collective experimentation. Experimentation, measurement of practices and impacts, and co-creation go hand in hand so that real progress towards Grand Challenges becomes evident.
+
+Host: Ellen van Oost
+Rapporteur: Wolfram Rhomberg
+
+Type of research
+In this scenario there is a need for combining knowledge and discipliners and to go clearly beyond
+engineering knowledge. New knowledge is needed and also solutions on different technological levels a e eeded. Not just high-te h .
+At the same time the different types of research shall be balanced. Yet, what will happen to research
+(e.g. basic research or f ee research that does t directly contribute to KICs? Moreover, the type
+and content of research is also dependent on the type of KIC, respective the grand challenge the KIC
+deals with.
+U i e sities ill still e i po ta t ut solutio s a o e f o e e
+he e . Contributions can also
+o e f o ope po tals a d ope fo s of k o ledge eatio .
+The KICs will turn research also more towards experimental learning processes. Moreover, the educational dimension of the KICs has to be emphasised.
+Research practice and researcher careers
+The socio-technical labs in KICs can broaden scientific careers, can generate new career paths and
+bring new incentives for scientist. It will enable to rethink how to address GCs, and will increase creativity. It brings different forms of research, innovations and practice together. Civil society groups
+and user groups do the reality check. Therefore, the review and quality control of outputs is not primarily done through peers but through deployment groups. Quality for use will become more important.
+New interdisciplinary jou als ight a ise that do ot fo us o dis ipli es ut o G a d halle ges .
+Journals that are solutio a d p o le
+ased, ot do ai
+ased. These jou als a e ette a essi le a d ake o e se se i the e e of the use . KICs ha e the pote tial to bring needs and optio s togethe fo
+eal solutio s - in order to converge societal needs with industrial options/solutions. For scientists and researchers it becomes easier to explain what they are doing and
+they are more accountable for what they do. However, what role do universities play in such KICs?
+
+21
+
+Role of governments
+Key question: is it for government bodies just about funding or also about definition of tasks and
+giving orientation in direction of search? At the same time the question how to address the GCs has
+to come from bottom up from the community of practice and research. Proposals for research shall
+involve citizens. Establish participatory calls, bottom up/open calls. New incentives have to be created that are capable to change industry behaviour.
+Key players
+Industry: has to rethink what are good solutions and not just what is new. New combinations rather
+than ne thi gs. Not just high-te h . Linking of GC and KICs to other actors as a key factor of success. A key question stays i espe t of ho to i ol e i dust
+he KIC“ a e ot p i a e o o i
+growth led , ut solutio s led ? But: economy and societal challenges are no dichotomy, but on the
+other must not go hand in hand by necessity. It will mean a learning process also for industry as industry might focus more on transfer of solutions and follows GC.
+Research funding
+Nowadays, the EU only funds 4% of RTI activities1; the majority of funding comes from national
+states. Therefore where does the money for additional GC research solutions, for KICs, come from?
+National sources? PPP? Private institutes? Therefore, there could be a need for multilevel, multistakeholder perspective on funding structures. The funding question and the question how to organize funding might be a bigger challenge than the research itself. Additionally, funding has to consider,
+that i o atio s do ot o e just f o esea h a d te h ologi al de elop e t ut f o
+e e yhe e . The efo e, a shift i fu di g eligi ilit is the consequence.
+IPR regimes
+Is an important issue, not to be missed, but in the future it can become less important as innovation
+becomes more open and diverse in respect of sources and contributions from users etc.
+Grand Challenges
+What is a G a d Challenge ? Who defi es it? And from that: what are the right incentives and tools?
+There is a need to (continuously?) redefine what actually are GCs. A general problem might be that
+ou also p odu e lo k-i s ith these defi itio s: With the defi itio ou p odu e lo k i s : KICs
+that are addressing only todays issues; KICs a a oid new approaches and solutions. In general,
+a e ot e e GC is Kicka le , a d the efo e ade uate to e add essed ithi a KIC.
+Indicators, Impact
+Socio-technical experimentation also means another forms of impact analysis and assessment, as
+well as new forms of reliable indicators. What is quality, what is success?
+
+1
+
+The 4% is based on the total RTI budgets for research institutes. In the financing of research programs, the
+share of the EU is significant higher (appr 30%)
+
+22
+
+23
+
+Knowledge Value Chains – research for innovation in a specialized and stratified research landscape
+Abstract: In 2030, the public research landscape is closely
+intertwined with the private research landscape globally.
+Research in Europe proceeds at various national and
+regional speeds aiming to improve their competitiveness
+in global markets through innovation. Research is carried
+out in "Knowledge Value Chains" (KVCs) organizing the
+cooperation between three types of highly specialized
+and stratified organizations: Research Integration Organizations, Research Services Organizations and third-tier
+organizations. KVC actors interact according to management practices. Research is closely tied to
+industry processes, which implies different degrees of openness in research and innovation, depending on the industries IPR policies.
+
+Host: Kornelia Konrad
+Rapporteur: Ozcan Saritas
+General remarks on system implications, tensions and opportunities
+There was a general feeling among many participants that this scenario is the one closest to current
+structures – up to being accused of representing an out-dated mode of research --, but at the same
+time also not very desirable. (There were other voices as well, but rather in the minority.) There were
+general considerations about the appropriateness of the scenario, such as the remark that it might
+be restricted to certain sectors, or - turned more normatively - that it should be ensured that it is not
+becoming the only model to do research. For instance, it should be used in a few selected cases (e.g.
+large research programmes – for instance Grand Challenges - energy, space, health, defence, etc.).
+Somewhat contrary to this idea, there was also a concern that human wellbeing may not be appropriately considered.
+A more radical critical remark was that the system might be too rigid to adapt to change, up to being
+potentially self-destructive or in danger of being overruled by other systems. Put otherwise, the system is too simple to adapt to the complexity of society. (It was suggested that there could be an
+analogy with Nokia, which moved from growth to a hangover state.) Furthermore, the system was
+compared to the Artemis model – which proved to be too complicated to construct and manage.
+Ensuring some flexibility in how to structure the value chain might thus be helpful. More generally,
+for this – and probably also other scenarios to flourish – a major precondition is that Europe has to
+create an environment for highest quality research. It was also pointed to the importance of considering the global context, wondering if the rest of the world will follow such a model? It was mentioned that China is considering open platforms for the future.
+Type of research
+The research is likely to be mostly application-, respectively goal-oriented. An important question is
+thus, who sets the goals. Most of it is public money, but public research and industrial research are
+closely intertwined.
+
+24
+
+Research is likely to be oriented towards wealth creation and competitiveness. There is a danger that
+curiosity driven research may be driven out. There may thus be a need to ensure curiosity-driven
+research by way of separate funding. Potentially this may even be done by industry that is aware of
+the need of curiosity-driven research.
+There is furthermore a danger that creativity and diversity is lost in the long term. This might lead to
+more vibrant parts of the world taking the lead. (For instance in biotech, Europe was leading, but
+losi g the g ou d. Lots of good ualit esea h, ut ould t e o e ted.
+Research practice
+It is a e st u tu al a d s ste i app oa h to do esea h. It s st i tl organized, which may be
+problematic too. (See the concerns about lack of adaptability and flexibility of the system mentioned
+above.) But at the same time efficiency oriented. It is primarily organized top-down. How to manage
+bottom-up processes (still considered necessary) is a question.
+Role of governments
+This scenario does not foresee major changes in public policy. Government is the main funder.
+Key players
+Are supposed to be governments and industry. For the latter the situation may be ambiguous. While
+in principle being assigned an important position, they might also consider the system as not attractive enough, if the system turns out to be too complex and not flexible enough. A key issue will also
+be who in the end will be able to capture the value.
+A core issue related to that is who will be eligible as partners. Multinationals, countries and which
+ones? Will it be open to external partners or just for European companies (so far European partners
+cannot participate in Chinese programmes – due to reciprocity they cannot be involved in European
+research).
+Society is a key actor, but not reflected in this scenario.
+The hierarchical structure could result in the ones outside the hierarchy having to stay outside the
+game – or only have to support the top 10% institutions. Power structures are likely to be maintained. A few strong RIO may dominate research agendas. Overall bigger competition between Research Performing Organizations (RPOs) is to be expected.
+Research funding
+A mixture of public and private funding is expected to be common. Few large countries are likely to
+fund the bulk of research. Supposedly large organizations will benefit particularly from this funding.
+Researcher careers
+For high-level research organization quite some mobility between research and industry would probably be possible (supposed to be attractive, not the least since (some, e.g. Nokia) industry can be
+particularly attractive for young researchers). On the other hand, highly skilled people may move to
+other places where they would have more flexibility, openness and curiosity-driven research.
+IPR Regimes
+A differentiated IPR system seems to be likely/important to ensure in this scenario. There was a feeling that companies have been too protective so far, leading to an underuse of research results, and
+see the need to open up and exchange more openly – at least partly. For instance, research around
+
+25
+
+Grand Challenges will be shared, but core competences will still be protected (i.e., policy discussions
+will be open, technologies will be protected).
+Grand Challenges
+Implications for GC were considered somewhat ambiguous. In principle, this model may work well
+for dealing with Grand Challenges, yet in a particula Ho izo 2020 a .
+ERA
+Implications for ERA were not explicitly addressed, but there was a discussion about the regional
+distribution of research activities. Here the assumption was that a clustering in particular regions
+seems likely. On the other hand, via a form of smart distribution also a more inclusive distribution of
+activities might be possible.
+
+26
+
+Researchers’ Choice - autonomous researchers go for creativity and wellbeing
+
+Abstract: Society is characterized by highly individualistic values and strong emphasis on individual wellbeing, autonomy and creativity. Autonomous researchers are at the heart of scientific research. To realize
+their ambitions researchers choose options within a
+broad spectrum of models, ranging from new forms
+of science entrepreneurship to more collective forms
+u der the u rella of slo s ie e
+ith a stro g
+orientation towards local societal needs.
+Host: Matthias Weber
+Rapporteur: Inga Ulnicane
+General remarks
+A pre-condition for discussing the i pli atio s of the s e a io is ho the ke o epts of s ie e
+e t ep e eu ship a d slo s ie e a e u de stood. “ ie e e t ep e eu ship is ot only meant
+in a commercial sense of mobilizing funds but also as attracting political support and launching networks. The relevance of conditions for enabling science entrepreneurship are also discussed, such as
+p o idi g e t ep e eu ial t ai i g fo s ie tists a d i telle tual p ope t ights. Fo us of slo s ie e is o lo g-term perspectives, creative, thorough, in-depth and quality research. Wider changes
+in society are needed to enable slow science.
+There were some concerns that the scenario looks old-fashioned – like going back to Woodstock or
+even centuries ago when scientists also were autonomous and entrepreneurs. However, it was also
+agreed that the scenario could be a most likable future for Generation Y whose values are different:
+more creative, high tolerance, willing to share, givers.
+Type of research
+If this scenario would be primarily driven by individualistic curiosity then there is a danger of research
+becoming scattered and not being relevant. The outcome of curiosity driven research is unpredictable. Ho e e , it s o e likel that diverse types of research are being undertaken, also involving ideas from civil society, as the type of research undertaken is also influenced by the ability to attract
+funding.
+Research Funding
+There were concerns about who would be willing to fund science in this scenario and what would
+criteria for funding be. There will not be one central funder but more likely multiple funding sources
+to be combined: public, online crowdsourcing, charities, wealthy young entrepreneurs. Multiple funders will have multiple criteria for funding. If acquisition of funding depends on branding of resea he s, selli g o e s esea h to, e.g., esea h a gels, hat effe ts that ould ha e o esea h
+quality and topics?
+There were concerns uttered that the need for science entrepreneur to look for own resources
+would endanger some research topics, e.g., tradition of curiosity driven research; could fundamental
+
+27
+
+physicist become science entrepreneur or should he continue to do his research just as a hobby at his
+home office without any funding?
+Research practices
+An important question is how will the autonomy relate to the need to collaborate in small or large
+teams in many research fields; are autonomy and collaboration compatible and how? Individuals
+would have high autonomy to choose with whom to collaborate, but in the end it will be crucial to be
+able to realize larger scale research endeavours.
+The issue of research coordination is important. For example, how will research facilities be funded
+and organized in this scenario? It likely to have different solutions for different purposes but the scenario works better for small-scale niche facilities. Regional cluster initiatives can be launched bottomup to mobilize diverse resources and organize access to user facilities like nanotech cleanrooms or
+laser facilities. When such clusters are successful and attract global interest from scientists and industry, criteria for access have to be set and used in review or in computer-based decision support
+mechanisms: e.g., financial, quality of research and proposal. Cities can set-up small-scale, localised
+laboratories relevant for their communities, e.g., for food testing. For funding large-scale facilities
+where some critical mass is necessary like at CERN, this scenario reaches it limits.
+Coordination of research will shift form research subject to object, i.e., instead of organizing along
+disciplinary lines research activities are rather organized with a certain research goal in mind, like labon-a-chip, where many disciplines – chemists, physicists, biologists - have to collaborate to reach the
+goal.
+Role of governments
+Have a limited role, mainly facilitating conditions for science entrepreneurship and slow science.
+Local governments will be likely to be involved in supporting local research clusters.
+Research careers & mobility
+Tenured positions in research organizations will diminish and research will have more autonomy. An
+important question is, how much job security is necessary or desirable? Fewer tenured positions and
+long time needed to reach tenure can be a threat for the academia, however, this situation can also
+be attractive for Generation Y who are very mobile, dynamic, hopping between different activities,
+a d do t a t to ake a o
+it e t i a form of tenure. An important question is what the principles, the criteria for organizing research careers are? Flexible work organization, combining face-toface interaction with work from home, is likely to be attractive for female researchers.
+IPR regimes
+A post-patent era is likely, characterized by a combination of open spaces for sharing knowledge and
+parallel closed spaces with IPR.
+ERA
+Increased mobility of researchers will be a most important goal for ERA. The main competition arenas for attracting talent will not be nations, but innovative, creative cities that accelerate careers and
+reinforce mobility of researchers going back and forth.
+The scenario seen as a e Eu opea pe spe ti e ased o Eu opea alues e.g., ell ei g, uality of life). Other regions like Asia strongly focus on fast research. How would Europe interact with
+
+28
+
+other regions? Important aspect in slow science is embedding local platforms (niches, smart specialization) in global context; could ERA provide such links?
+Grand Challenges
+There is not one way of tackling Grand Challenges. Policy-makers often tend to assume that large
+research collectives are needed for addressing and finding solutions for Grand Challenges. However,
+autonomous individuals too can come up with important concepts for solving Grand Challenges. For
+some Grand Challenges more coordinated research needed.
+Whether Grand Challenges are solved will depend on a number of conditions: first, if scientists are
+curious about addressing energy, climate and other Grand Challenges topics; second, if science entrepreneurs self-organize and sustain networks needed for tackling Grand Challenges; and, third, if
+they manage to attract sufficient funding.
+Other relevant issues
+Online academic teaching was brought to the fore. The increase in online teaching from the worldleading universities like Harvard can endanger future of middle rank universities, which mainly focus
+on teaching. Middle rank universities can re-orientate themselves to become local or regional platforms for bringing together stakeholders and providing research infrastructure.
+
+29
+
+5 Reports from the afternoon sessions: exploring stakeholders’
+strategic options
+In the afternoon the same format of working group session was used. Now the stakeholders strategic options were discussion for each of the five scenarios in small working groups. Again two rounds
+were held, the first one allocated and the second round free choice.
+The guiding questions for the afternoon session were:
+
+
+
+
+
+How would the scenarios affect academia, industry, government and civil society in 2030?
+Who would be the winner/losers and why?
+What would be the key strategic options?
+What would be the key policy options?
+
+30
+
+Open Research Platforms – self-governance in a networked decentralized research landscape
+Abstract: In 2030, the research landscape with its research-performing organizations (and individuals) and
+funding mechanism is fully decentralized, global and
+open. Virtual communities initiate research that is integrated into virtual platforms and openly accessible.
+Self-governance of research around "Open Research
+Platforms" (ORPs), fully open to industry, individuals,
+foundations, and society at large, is the norm. Into the
+vast knowledge flows passing through these ORPs,
+governments of open societies worldwide embed their soft coordination activities such as monitoring
+of research, assistance in connection of research activities, and targeted provision of incentives for
+researchers to contribute to certain ORPs of public interest.
+Host: Lorenz Erdmann
+Rapporteur: Gonzalo Ordóñez-Matamoros
+The scenario in general
+This scenario was mostly seen as a win, win, win, win scenario from the stakeholder perspective. 2
+However several conditions were considered relevant for this scenario to become real and some
+strategic options would need to be taken into account. Key drivers of this scenario were globalization, ICT and open knowledge sharing; i.e. the universities and businesses who actively embrace these new trends.
+Industry
+From the industry perspective, and according to one of the participants, this scenario can be seen as
+a a d shop o i g edie t shop o e ipe shop he e k o ledge is a ke good to e supplied
+and demanded in the framework of this scenario. This is even so, that the European Industrial Research Management Association (EIRMA) would support it! The ICT industry has a particular interest
+in this scenario as provider of virtualization, collaboration and visualization solutions.
+The future business model of businesses (and some research organizations) must overcome traditional research exploitation via patenting. IPR regimes, logic and/or application practices would need
+to be transformed for this scenario to play a role at all. In an open and collaborative research landscape not effectively regulated by IPR regimes, stakeholders would retain and disclose knowledge
+tactically. The reason is that, for industry, knowledge is increasingly seen as a strategic asset that
+provides competitive advantage to firms. Although in general patents will not be more important
+than being faster and better in this scenario, they still are barriers and would need to be conceived
+
+2
+
+Losers might be innovation leaders that are copied fast and comprehensively by others. It was also argued, that research
+groups at universities have more interest in the ORP scenario than their universities, which may lead to new tensions at
+universities.
+
+31
+
+by industry in a tactical and flexible way for this scenario to be desirable and viable at the same
+time.3
+Academia
+Academic actors would also see this s e a io as a a d shop , he e the a offe thei
+knowledge products, especially RTOs and excellent groups. Under this scenario, and thanks to the
+instrumental value of ITCs, universities could play a key role as connectors of the system, connecting
+needs and opportunities. However, IPRs regimes again would need to be thought in such a way that
+it would both guaranty of continued interest on research as a function of her primacy and originality,
+a d the ope ess i pli it i this esea h platfo s. Although this a ie
+ould be somewhat
+compensated by the change of the reward system of academic research where researchers would be
+highl alued fo he o t i utio a d ge e osit to the sto k of k o ledge.
+Society
+Civil society will be one of the main drivers of this scenario because it increasingly has stakes in resea h: as k o ledge
+a dies
+o su e s, producers, and transferors. It will also be active research agenda-setters. However, if such ORPs are exclusively conceived as current European Technology Platforms – ith i dust a d ‘TO s as do i a t a to s - the i il so iet s role would be
+mostly relegated to the margins and would be therefore underexploited.
+Governments
+Last but not least, governments would be mostly devoted to protect the principles of open research
+and open (although not necessarily free) access to knowledge. Similar to current experiences with
+KICs, the European Institute of Technology would highly support this scenario. However, due the
+fragmented characteristics of this scenario, its coordination capabilities would be largely weakened
+and therefore questioned unless it makes intelligent use of big data management and networking
+capabilities. They would have a relatively smaller role as research funders in a space where crowd
+funding, philanthropic funding, voluntary work, industry funding, and foreign funding will add to the
+complexity of governance. In addition, given the open nature of the scenario, governments will be
+asked to play a major role in supporting ORPs self-governance logic terms of quality control and accreditation and to fight against fraud; as responsible of market approval and monitoring to avoid
+safety and security issues; as providers of public goods and funders of neglected or orphan problems,
+a d as poli e of critical IPRs commonly agreed upon amongst the stakeholders in a diffused landscape where its implementation and enforcement will be extremely difficult. Governments may have
+an interest in the ORP scenario if it proves to be more efficient and productive than the traditional
+ways of doing research. On the other hand, governments may be reluctant to leave that much research beyond their direct control and influence.
+
+3
+
+LE: I would not stress patenting too much. It was all about retaining and giving knowledge and about research exploitation
+to uncertain routes.
+
+32
+
+33
+
+Knowledge Parliaments – the free negotiation of knowledge claims worldwide
+Abstract: Around 2030 all kinds of knowledge claims
+are raised and negotiated in so- alled k o ledge parlia e ts . They prioritize resear h topi s a d pro ide
+tradi g zo es i hi h a tors ith parti ular resear h
+interests, topics and epistemologies compete for acceptance. This form of forum also facilitates the building of research consortia. Citizens and a variety of other local stakeholders and epistemic cultures (e.g., lay
+and indigenous knowledge) are incorporated. Neglected research topics and unconventional knowledge domains are brought to the fore.
+
+Host: Mika Nieminen
+Rapporteur: Peter Stegmaier
+Academia
+ With respect to individual researchers it was found they would certainly interested in third sector
+research. Here, they could collaborate on new, distinctive, un-belaboured research issues within
+new constellations of teams, cutting across even the usual partners in (smaller) research groups
+or (larger) consortia.
+ With regards to academic, professional education and training each and everybody would need to
+know more about many diverse issues. Boundary spanning stocks of knowledge and professional
+skills would be required, and the ability effectively work across conventional boundaries of
+knowledge and practice.
+ Advisory boards of participating organizations and of knowledge brokering organizations would
+have to be filled with more diversity of stakeholders than usual. Mere economic and political
+o pete e ould t e e ough a
+o e. Ad iso s ould eed egio al a d k o ledge a h
+specific, but also generalists o p ehe sio of ele a t issues.
+Industry
+ How far industry is intrinsically ready to collaborate on a KP basis, may depend on the issue at
+hand: take, for instance, nuclear energy, here rather no NGO would likely be promoted because of
+too high political conflict potential; take green energy, here one could actually well imagine NGOs
+working with industry and vice-versa.
+ However, there is not one single kind of attitude among business partners: some are pragmatic,
+ready to take dual risk in highly innovative fields: the risk to fail with an innovation as well the risk
+to fail with a research/business partnership; others political or rather a-political, and again others
+rather inflexible in changing forms of collaboration, having rather conservative orientations. One
+could imagine that here, too, a re-negotiation of market shares and alliances will take place.
+ In principle, it is expected that industry would want to take part if for no other reason then in
+order to keep themselves up-to-date. Or industry could want to solve problems and, by the way,
+sell their technologies.
+
+34
+
+ For pragmatic business managers the fear of loosing time with all that voting etc. might be an
+issue – but some may realise that time can also be won by earlier getting aware of other relevant
+a to s a d o su e s eeds a d p a ti es, as ell as of g ass oots te h ologi al de elop e ts.
+Governments
+ In general, the KP model would afford more governance and less government; governments more
+in the role of creating framework conditions, less being actors themselves (take, for instance, US
+states level policy-makers want interesting projects, whereas the top-level government wants
+more impact on responsibility or general thematic issues, not so much concrete research topics;
+the applies for the German sciencepolicy.de initiative of the BMBF, which is interested rather in
+general policy). If government is no longer taking voice for public problems, some observers expect a supermarket of initiatives – which is in itself neither bad nor good, but a sort of deregulated market of ideas and initiatives. In this context, the question is also how effective would be ad
+hoc populist turns in research orientation, if KPs would follow new fashions more erratically than
+other kinds of regimes?
+ A well-kno issue a also appl to the KPs p o ess: ho a he e legislato s keep up ith e
+technological developments?4 There may also be ethical problems arising, when KP initiatives lead
+to thi gs that help so e , thi gs that hu t othe s . Whi h pa lia e t does the deal ith the
+(unintended, or neglected) consequences? A minimum governance framework might be needed,
+in fact.
+ A KP regime would perhaps need new formal procedures by which less formalised processes can
+be organized and governed. In general, a KP regime may lead to an own original set of governance
+framework, rules, and procedures derived from practical experiences and necessities with KPs.
+KPs a e u lei fo go e a e i o atio s. The o ki g ode of the pa lia e t eeds further reflection, would it be based on concerted process or vote?
+ Some have observed has a tendency to EU move into spaces not yet occupied. So, in one way or
+another, the EU could be partner or competitor for new forms of collaboratively generating
+knowledge.
+Society
+ Societal actors in the broader sense may want to have a chance to define research in order to be
+not simply drawn into the way the company structures their lives (patient organizations in collaboration with pharma industry).
+ There may be more third sector knowledge production stimulated: actors coming in (from public
+& private) research; very different actors with non-market products; ways of producing
+knowledge and perceptions of what knowledge is may develop.
+ NGOs might serve as mediators.
+Scenario in general
+ The question remains for the scenario: what could be a game changer/change agent? Who would
+be having such an influence on the research landscape that it would move towards the KP model?
+Under which conditions?
+ How would the agenda-setting be organized and function?
+
+4
+
+This point was raised as critique that legal/regulatory issues are not (yet) problematised in the scenario.
+
+35
+
+ KPs would perhaps require a culture of not playing out others (among all sorts of actors). How
+likely is this? What would support such a change from a competitive culture to a more collaborative one?
+
+36
+
+Grand Challenges for Real –collective experimentation in socio-technical labs
+Abstract: In 2030, the research landscape in Europe is
+characterized by making extensive use of collective experimentation. Research on Grand Challenges is organized
+around large Knowledge and Innovation Communities
+(GC-KICs), each one overseeing several socio-technical
+laboratories in which a large number of different solutions
+responding to Grand Challenges are developed and tested.
+Diverse actors such as citizens, companies, universities,
+and social entrepreneurs engage in collective experimentation. Experimentation, measurement of practices and impacts, and co-creation go hand in hand so
+that real progress towards Grand Challenges becomes evident.
+
+Host: Wolfram Rhomberg
+Rapporteur: Ellen van Oost
+Academia
+The position of freedom of research, quality of research and the room for basic research were mentioned points of concern to secure in this scenario. Basic research needs places that go beyond Grand
+Challe ge esea h. ‘esea h age da s too ha e to be driven by bottom-up dynamics from science
+itself. The strong focus on G a d Challe ges a
+o k as a t ap fo s ie e , p e e ti g the ise of
+new theories.
+On the othe ha d, a st ateg of smart spe ializatio
+ould e a le to s ueeze edu da cy out
+of the research system, and would very well fit the grand challenge for real scenario.
+Small universities can profit from this scenario, as local cooperation with other stakeholders is crucial
+to meet local needs. Universities can well work on their local reputation for problem solving.
+In the second round, the convergence of academic research with industrial research was emphasized, as the realization of real solutions for grand challenges still will need a commercial/industrial
+fo us : science follo s o e . This ould i pl a athe st o g o e ge e of the t pe of
+knowledge produced: only relevant for practical solutions.
+Industry
+The rule for industry is: money talks. Industry can give incentives to stimulation competition. GC-KICs
+with industrial partners are expected to trigger innovation, the question however is, what type of
+innovation. Industry may use GC-KICs to gain profits and earn money. Focussing on GC is not a priori
+incompatible with new knowledge, one can think of new materials fitting (re)cycles of production
+with sustainability targets.
+Companies are already very active in scanning scientific developments as well as markets for opportunities. Policy measures (e.g., in China tax credit system stimulating sustainable development) can
+clearly influence industrial research.
+In future, IPR and patents will disappear: the future will be a post-patent era. Markets will regulate
+different ideas of property.
+In the second round, it was stressed that industry has to make choices to stay credible to society.
+The societal role of industry was stressed by the strategy to give society profit back from the profits
+
+37
+
+industry makes by fulfilling needs of citizens/consumers. A strong convergence of industrial and academic research is anticipated.
+Governments
+Have to jump in where markets fail. Knowledge scanning will increasingly become important. This
+raises two challenges: how to scan knowledge globally, how to integrate locally?
+Governments can stimulate open funding. Open sharing of knowledge is important and can be stimulated by developing supportive digital decision aids. Supra national funding will become important.
+However, one will need a way to integrate this type of funding locally/ nationally.
+In the second round, it was stressed the governments can steer research by ranking their priorities:
+first addressing regional challenges (e.g. harbour logistics for Antwerp). Bottom-up regional dynamics will strongly influence research policy & funding. GC-KICs may make a new way of distribution of
+funding possible.
+Society
+Civil society is expected to benefit in this scenario. Civil society actors will have more political power
+and influence on funding and research goals.
+New ways of organizing research allows for stronger social aspects addressed in technological developments. The question was raised hethe this ould lead to ette p odu ts as ell o definitive
+answer was found
+yet). It was too expected that NorthSouth relations and
+cooperation
+is
+strengthened
+and
+mutually enrich each
+other. Horizon 2020
+still is oriented to
+Europe, Horizon 2030
+should be more globally oriented.
+In the second round
+similar issues were
+aised. NGO s a d
+CSO can strengthen
+their influence on
+research goals serving
+societal
+problems.
+Although people do
+have to believe in the
+developed solutions,
+otherwise research
+can be hampered by
+loosing time with
+inadequate consultations with societal stakeholders.
+
+38
+
+Knowledge Value Chains – research for innovation in a specialized and stratified research landscape
+Abstract: In 2030, the public research landscape is closely
+intertwined with the private research landscape globally.
+Research in Europe proceeds at various national and regional speeds aiming to improve their competitiveness in
+global markets through innovation. Research is carried
+out in "Knowledge Value Chains" (KVCs) organizing the
+cooperation between three types of highly-specialized
+and stratified organizations: research integration, research services and third-tier organizations. KVC actors
+interact according to management practices. Research is closely tied to industry processes adapting
+the respective degrees of openness in research and innovation.
+
+Host: Ozcan Saritas
+Rapporteur: Kornelia Konrad
+Governments
+Governments have a dominant role in setting Research and Innovation agendas. The role of national
+governments in identifying key research themes and creating knowledge value chains depend on the
+availability of research funds, which become scarce. The distribution is usually made based on the
+ideology of governments (free market, controlled or some mixture). Research and innovation are
+directed toward particular industries, especially those related to security, including military and
+space; public health and those likely to be the basis of wealth creation and political and economic
+needs. Meanwhile, the EU plays a minor role in creating knowledge value chains while dealing with
+IPR and open access remain troublesome. There is no balanced distribution in terms of Research and
+Innovation performance. Only strong countries can afford large programmes. The others become
+dependent on other countries or industries.
+There are various strategic options for governments and policy makers at different levels. First of all,
+it is the responsibility of policy has to create good conditions for research in Europe. They need to
+make sure that they create an open and industry friendly environment. It becomes crucial to increase
+consciousness about the importance of basic and applied research. Diversification of research system
+to deliver both basic and applied research can be one of the solutions. Research and Innovation value
+chains should be extended to cover wider parts of industry and society. Close engagement of industry will increase the possibility of commercialisation of Research and Innovation. Meanwhile, extending the value chains towards society and increasing the number of SMEs involved will help to distribute the ealth i a o e ala ed a . This ill help to e su e itize s t ust to ‘esea h a d I novation and their contribution through production, information collection, consultation, or more proactively as citizen scientists, who are willing to take active part in Research and Innovation.
+At the EU level, the Framework Programmes are moving towards application side. However, the balance between basic and applied research should be considered and one should not be sacrificed for
+the sake of the other. In this regard, the distribution of funding between different disciplines and
+
+39
+
+areas should be considered more carefully by considering the priority areas and Grand Challenges
+faced by Europe and wealth creation, while ensuring increased quality of life of citizens.
+Academia
+In an environment with limited funding provided by national governments, universities conduct more
+directed research. There is less room for creativity, flexibility and curiosity-driven research. Universities do what is said of them. They supply information through any appropriate means to industry,
+other commercial private research performing organizations and their public counterparts. Universities consider themselves to be exploited in terms of their research capacity.
+Limited public funding pushes universities to seek for ways of attracting more money from industry.
+In order to achieve this, they should have a better understanding of applications for industry. There is
+a need to remove the borderline between academic research and industrial application. Besides
+basic and applied research, another area where universities can potentially play an important role
+and raise funding is service innovation, which will continue gaining more importance, especially in
+the areas of education, health and financial services. Automated research with advanced technologies, for instance to analyse big data, might allow routine research activities to be undertaken by
+machines and leaving more space for curiosity-driven research.
+Industry
+Industry conducts research, innovation and production in major fields identified by governments.
+However, in pursuit of flexibility, simplicity, speed and higher profit margins they operate both nationally and internationally through an appreciation of major themes in different parts of the world.
+Industry will continue to be very keen to establish knowledge value chains. This is done through collaborators in particular themes among a swarm of relevant companies that create knowledge value
+chains. Industry appreciates curiosity-driven research. This provides some leeway for universities to
+conduct more creative research. Open research platforms to be built can be a good interface to facilitate this interaction. Industry is also able to provide opportunities for SMEs, which are empowered
+through extended value chains.
+Society
+The scheme suggested in this scenario excludes society to a large extent. Institutions funding, performing and using research are interact with each other, but not necessarily with society. However,
+there is an increased awareness of Research and Innovation in society. The information and communications technologies enable society to express their needs and concerns about Research and Innovation. The networked society has a desire to be involved in the earlier phases of Research and Innovation development. The examples of GMOs and nanotechnologies have shown that society has
+po e to i flue e s ie tifi a d te h ologi al de elop e ts. “o iet
+a suppo t good esea h
+and may blockade certain research, which may contain some risks associated to public well-being.
+Distribution of Research and Innovation by increasing awareness in society seems to be the key strategic option for societal inclusion. For instance public can be involved actively in concrete technology
+assess e t. T aditio al lite a
+iti is
+a e applied fo te h o-scientific criticism. This can be
+taken up by science jou alists as ell as ou g Fa e ook ge e atio as e effe ti e a s of oicing public opinion.
+
+40
+
+41
+
+Researchers’ Choice - autonomous researchers go for creativity and wellbeing
+
+Abstract: Society is characterized by highly individualistic values and strong emphasis on individual wellbeing, autonomy
+and creativity. Autonomous researchers
+are at the heart of scientific research. To
+realize their ambitions researchers choose
+options within a broad spectrum of models, ranging from new forms of science
+entrepreneurship to more collective forms
+u der the u rella of slo s ie e ith
+a strong orientation towards local societal
+needs.
+
+Host: Matthias Weber
+Rapporteur: Inga Ulnicane
+General
+In an ideal ase this s e a io is i - i fo all stakeholde s if e e od a epts that it is otto up, curiosity driven. Can take time to adjust and to reap the benefits. Many opportunities but entrepreneurial skills are needed.
+Academia
+Big hierarchical organizations like universities will be losers because they are not able to adjust quickly. The role of universities may diminish and shift to become platforms for local research embedded
+in global context. If the position of universities changes, what will be the impact on the teaching of
+future researchers? What will academic teaching mean, teaching tools & theory or triggering curiosity and train entrepreneurial skills? How will the evaluation of academic performance be organized?
+Who will be the gatekeepers, defining criteria for quality and relevance?
+Individual researchers leave universities to start entrepreneurial activities; slow scientists have more
+time to be inventive, creative and have good ideas; they self-organize and define their codes of conduct; organizational and communication (YouTube, Google) skills become more important.
+More autonomy and more creativity may facilitate frontier research. In future, not so much the difference between fundamental and applied research is relevant, but the difference between frontier
+and non-frontier research; funding for frontier research tackling Grand Challenges has to be provided, i.e., ERC and FET OPEN for Grand Challenges. Slow science can very well be frontier science. It is
+not slow in the colloquial sense, but rather a very thorough way of practicing science meaning that
+researchers are engaged in deep, long-term science that includes complex issues and high-risk research. However, it is difficult to predict result of such science in advance, and difficult to formulate
+criteria for funding it.
+More freedom and more pressure for researchers to network and attract resources from diverse
+funding channels generates a paradox: while initially slow science and science entrepreneurship
+emerge to counteract pressures from hierarchical organizations, conflicting demands and assessment
+
+42
+
+s ste , the late auto o
+of esea he s hoi e i plies new pressure to self-organize and to
+survive in a competitive funding environment.
+Industry
+Industry adjusts faster than hierarchical academic organizations. This scenario is likely to bring about
+a very diversified world of knowledge production that can be tapped into; industry can embrace such
+kind of open innovation as long as there are also closed spaces. Industry may provide access to its
+labs when they are not used and give away patents that are not used. Industry buys knowledge
+wherever available, has easy access; learns about trends; has more variations to pick from. SMEs get
+more easy access to research. The question however was raised to what extent industry is equipped
+to fully exploit this opportunity of more diversified knowledge: multiple knowledge producers and
+diverse criteria make search processes more difficult and increase transaction costs. There is a need
+for transparency, quality filters, intelligent search strategies, intermediaries and brokerage.
+Governments
+National and international governments may have difficulties to identify counterparts if large research organizations become less important. If their main role is to support autonomous researchers,
+science entrepreneurs, and loose, self-organizing networks then with whom should governments
+talk? New roles for governments may come to the fore: formulate criteria and guidelines for decision
+making on what valuable research is in a situation where quality and relevance criteria are diversified; policy making for guaranteeing esea he s auto o ; moderation in cases of conflicts of interests. National government funding may well decline in importance, and even be contested in
+terms of legitimacy and credibility. Local governments will increasingly fund research among a variety
+of other types of funders (SME, NGOs, crowd funding, etc.). The scenario can lead to abandoning
+national approaches and policies/research nationalism. The role of supra-national institutions in linking local and global levels may be strengthened.
+Society
+Civil society will find this scenario attractive because it can have a prominent role in shaping research
+agendas, sensing new ideas and needs to be explored and in that way counteracting inertia. As civil
+society is very heterogeneous, conflicts may arise between civil society groups; all civil society organizations can turn to science for expertise needed to make their case. There are a number of mechanisms for civil society to influence research: first, to organize and approach science directly to provide research ideas and express concerns; second, to do research themselves or in collaboration,
+participate in funding; third, to influence indirectly by voting in elections for politicians who advocate
+for certain types of research.
+General
+In general, the importance of interaction between diverse stakeholders was stressed. Stakeholders
+with hybrid roles are crucial, like science shops bridging research and civil society, or institutes like
+EIT and KICs involving stakeholders from research, education and industry and combining diverse
+funding sources. It is difficult to coordinate consortia bringing together diverse stakeholders but one
+can come to solutions faster.
+
+43
+
+44
+
+6 List of Participants
+RIF Stakeholder Workshop March 15th 2013
+Surname
+
+Name
+
+Affiliation
+
+Boekholt
+
+Patries
+
+Technopolis Amsterdam, The Netherlands
+
+Burgelman
+
+Jean-Claude
+
+European Commission
+
+Chaparro-Osorio
+
+Fernando
+
+Colombian National Accreditation Council/Universidad Central, Bogota, Colombia
+
+Demiddeleer
+
+Léopold
+
+European Industrial Research Management Association (EIMRA)/ SOLVAY, Belgium
+
+Erdmann
+
+Lorenz
+
+Fraunhofer Institute of Systems and Innovation Research (ISI), Germany
+
+Ettl
+
+Christoph
+
+Max-Planck-Gesellschaft, Germany
+
+Laroche
+
+Giles
+
+European Commission - DG Research & Innovation
+
+Fammels
+
+Mathea
+
+European Institute of Innovation and Technology (EIT)
+
+Feudo
+
+Fabio
+
+Laboratorio di Scienze della Cittadinanza – LSC (Laboratory of Citizenship Sciences)
+
+Hinze
+
+Sybille
+
+iFQ Institute for Research Information and Quality Assurance, Germany
+
+Hull
+
+Christopher
+
+EARTO European Association of Research and Technology Organizations
+
+Jahn
+
+Sylvia
+
+European Institute of Innovation and Technology (EIT)
+
+Jonge, de
+
+Jos
+
+Science System Assessment, Rathenau Institute, The Netherlands
+
+Konrad
+
+Kornelia
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Kuhlmann
+
+Stefan
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Lehmann-Brauns
+
+Sicco
+
+National Academy of Science and Engineering, Germany
+
+Loikkanen
+
+Torsti
+
+VTT Technical Research Centre of Finland, Finland
+
+Macilwain
+
+Colin
+
+Jou al ‘esea h Eu ope a d ‘esea h Fo t ight , UK
+
+Mango
+
+Carlo
+
+Cariplo Foundation, Italy
+
+Mosoni-Fried
+
+Judit
+
+Hungarian Academy of Sciences, Hungary
+
+Mu
+
+Rongping
+
+Institute of Policy & Management, Chinese Academy of Science, China
+
+Mulder
+
+Henk
+
+Science shop, University of Groningen, The Netherlands
+
+Neubauer
+
+Claudia
+
+Fondation Sciences Citoyennes, Paris, France
+
+Nieminen
+
+Mika
+
+VTT Technical Research Centre of Finland, Finland
+
+Ordóñez-Matamoros
+
+Gonzalo
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Ormala
+
+Erkki
+
+Nokia Corporation/Aalto University
+
+Oost, van
+
+Ellen
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Pohjola
+
+Hannele
+
+Confederation of Finnish Industries, Helsinki, Finland
+
+Rietberg
+
+Evelien
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Rip
+
+Arie
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Rhomberg
+
+Wolfram
+
+AIT Austrian Institute of Technology, Vienna, Austria
+
+Saritas
+
+Ozcan
+
+Manchester Institute for Innovation Research, Manchester Business School, UK
+
+Stegmaier
+
+Peter
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Steinhaus
+
+Norbert
+
+Science shop WILA Bonn, Germany
+
+Stenros
+
+Anne
+
+KONE Corporation, Finland
+
+Theis
+
+Dietmar
+
+European Industrial Research Management Association/TU Munich
+
+Ulnicane-Ozolina
+
+Inga
+
+Institute for Innovation and Governance Studies, University of Twente, NL
+
+Wagner
+
+Caroline
+
+Ohio State University/Science Metrix Corporation (Alexandria, Virginia), USA
+
+Weber
+
+Matthias
+
+AIT Austrian Institute of Technology, Vienna, Austria
+
+45
+
+Annex 1: Five narrative scenarios for research and innovation futures towards 2030
+The RIF 2030 has developed five narrative storylines imagining possible future dynamics towards
+2030 of Research and Innovation. The basis of each storyline is the rise of tensions in the current
+Research and Innovation system that will – in some scenarios triggered by a specific event - lead towards a dynamic of transformative change .
+The five scenarios are:
+1. Open Research Platforms: self-governance in a networked decentralized research landscape
+2. Knowledge Parliament: free negotiation of knowledge claims worldwide
+3. Grand Challenges for Real: collective experimentation in socio-technical labs
+4. Knowledge Value Chains: research for innovation in a specialized and stratified research
+landscape
+5. ‘esea he s hoi e: autonomous researchers go for creativity and wellbeing
+
+Below one can find the narrative description structured along three phases:
+1. From today to 2020 (the explorative scenarios based on current trends and drivers)
+2. From 2020 to 2030 (transformation trigger and transformation process)
+3. The research landscape 2030 (describing the transformed R&I practices and organization)
+
+46
+
+Open Research Platforms – self-governance in a networked decentralized research landscape
+Abstract: In 2030, the research landscape with its research-performing organizations (and individuals) and funding mechanism is fully decentralized, global and open. Virtual communities initiate research that is integrated into virtual platforms and openly accessible. Self-governance of research
+around "Open Research Platforms" (ORPs), fully open to industry, individuals, foundations, and society at large, is the norm. Into the vast knowledge flows passing through these ORPs, governments of
+open societies worldwide embed their soft coordination activities such as monitoring of research,
+assistance in connection of research activities, and targeted provision of incentives for researchers to
+contribute to certain ORPs of public interest.
+
+From today to 2020
+As public debates on relevance of research and efficiency intensified throughout the world, the EU
+undertook substantive efforts to coordinate R&I policies. The coordination of R&I was complicated
+by the exploding complexity of the system, where powerful conflicting stakeholder strategies (member states, industry sectors, etc.) coexisted. Governments worldwide increasingly recognized the
+limits to govern and coordinate research agendas toward a mission in the ever more fragmenting R&I
+la ds ape. While de a ds fo esea h to ta kle the G a d Challe ges of ou ti es e.g. glo al
+pandemics) increased, lack of o fide e o go e
+e ts apa ilities to deli e solutio e t all
+also grew at a rapid pace.
+Mea hile, glo all ope s ie e o
+u ities e e isi g i a o te t he e losed s ie e as
+still the dominant mode of knowledge production and communication. With the aid of digital media,
+people took open knowledge sharing and research collaboration as a matter of course. Therefore,
+open collaborative research and publishing flourished. Not without difficulty from persistent traditional behaviors, however.
+
+From 2020 to 2030
+At the turn of the year 2020 a hardly understood deadly disease was spreading at lightning speed
+around the world.
+Governments at all levels put up emergency task forces to coordinate governments, universities,
+industry, intermediaries, and other actors to find countermeasures. EU member-state interests
+stayed disconnected as a result of deepened fragmentation and isolation. The pharmaceutical industry claiming exclusive exploitation of the research results was challenged by the prevailing openness
+paradigm. By now, the actor landscape was fragmented into too many activities with too diverse
+goals, interests and focus areas.
+When the pandemics set in, thousands of scientists worldwide began integrating their research findings into an open wiki platform on that deadly disease. Within a few months an effective drug was
+discovered and protected by an open-source license. Research and Technology Organizations (RTOs)
+paved the ways for manufacturing, licensing, marketing approval and dissemination of the new drug.
+
+47
+
+The emergency case gave a strong push towards self-organized research collaboration via open platforms. Due to the fact that some actors (certain businesses, countries, etc.) specialized in exploitation of research only, Intellectual Property Right (IPR) regimes were discussed controversially. Yet
+open collaborative global research was too dynamic to let any regime effectively regulate IPRs.
+
+The research landscape 2030
+In 2030, research activities are fully decentralised and dispersed over the globe. "Open Research
+Platforms" (ORPs) facilitate Web 3.0 collaborative research, each ORP focusing on a particular challenge. ORPs are open to society at large and dominate R&I activities of universities, RTOs and large
+parts of industry in Europe and other open societies.
+ORPs are predominantly self-governed. They constantly monitor research and automatically generate
+patterns of new and interesting research thus creating their own research agenda. New ORPs come
+into being bottom-up: from the initial idea, over analysis and representation of growth, until a critical
+mass is reached. Funding agencies (public, commercial, charity, civil society groups, etc.) monitor
+ORP dynamics by own tools to adapt funding policies and allocate funds to certain research groups.
+ORP research uses semantic analyses and advanced data mining to generate new hypotheses from
+ope data e.g., f o la o ato esea h, pe asi e se si g . O‘Ps at h a esea he s i put ontinuously with the input of others, and link persons with similar research interests. Research overlaps
+are notified in real-time thus disclosing research repetition. Next generation collaboration tools further stimulate co-operations (real-time language translators, high-quality 3D virtual meeting rooms,
+robotic tele-presence in practical laboratory research, etc.). ORP algorithms ensure target-oriented
+collaborative research campaigns.
+ORP research is vulnerable to cyber-attacks, for example insertion of misleading data into the open
+data system. To prevent fraud all active ORP contributors have to identify themselves allowing for
+tracing of research to an individual person. Deeper access to ORP research is bound to a certain level
+of reputation that can be increased by network linkages and provision of high-quality data. Research
+results can be published directly by self-authoring or mediated by peer review. The vast global expertise tied to an ORP allows for broad reviews of contributions within a week or two incentivised by the
+mutuality principle (i.e. who reviews quickly will also be reviewed quickly). The importance of scientific publishers to public research organizations is minor as their performance is judged by their contribution to ORPs.
+Open-source principles dominate in research licensing. Thereby industry competes to be first in
+transfer of ORP research into innovations. Some ORP domains are not open as proliferation could be
+dangerous (e.g., parts of nuclear energy, synthetic biology).
+In the decentralised world the importance of supranational governmental entities such as the EU is
+limited while national governments remain more important. Worldwide national governments embed their R&I policies into the massive and diverse flows of research through ORPs, namely by monitoring of research, assistance in connection with research activities, and targeted provision of incenti es fo esea he s to o t i ute to e tai O‘P a ti ities of pu li i te est. The EU s ‘&I poli
+focuses on topics of pan-European interest. National governments keep providing research infrastructure, while higher education follows research into the Web 3.0.
+
+48
+
+Knowledge Parliaments – the free negotiation of knowledge claims worldwide
+Abstract: Around 2030 all kinds of knowledge claims are raised and negotiated in so-called
+k o ledge parlia e ts . They prioritize resear h topi s a d pro ide tradi g zo es i
+hi h a tors
+with particular research interests, topics and epistemologies compete for acceptance. This form of
+forum also facilitates the building of research consortia. Citizens and a variety of other local stakeholders and epistemic cultures (e.g., lay and indigenous knowledge) are incorporated. Neglected research topics and unconventional knowledge domains are brought to the fore.
+
+From today to 2020
+The s ope of k o ledge
+s ie e-as-usual o e a d o e tu ed out to e too a o to eet
+all relevant societal needs and to find legitimation in a world progressively interconnected. Inspiration and innovation were increasingly expected from unconventional knowledge domains (e.g., indigenous and local EU farmers knowledges).
+In terms of collaboration between scientific and other knowledges, the decisive role of members of
+the San tribe from Namibia as traditional trace analysts in the spectacular deciphering the 17,000
+year old works in the famous French Volp caves in 2013, received with great interest in the EU public
+at large, set the wheels in motion for a re-assessment of the value of non-Western non-academic
+knowledge.
+At the same time, a sort of counter-globalization arose through which grassroots movements and
+alternative epistemologies from the global South and other non-mainstream-Western science hemispheres sought to defend the epistemological wealth of their regions and their people against unlimited exploitation (e.g., of Southern biodiversity, French association of patients with muscular dystroph alled Association française contre les myopathies AFM th ough state- and enterprisepromoted research programmes as the sole source of both scholarly justification and economic success.
+There was also an increase of (doctoral and advanced) research financed from agencies from non-EU
+countries (like Colombia, China, etc.) that actually helped EU based research groups and institutions
+to compensate severe cuts in national research budgets.
+
+From 2020 to 2030
+A world ide edist i utio st uggle oke out: et ee
+ode
+s ie tifi a d t aditio al peasa t
+and other knowledges, modern technology companies and, e.g., regional biodiversity, and conflicting
+definitions of intellectual property rights. The struggle basically went over how far research either
+should serve the interests of biotech companies only or local/traditional communities and knowledges equally. At home, EU grassroots initiatives started to link up with their natural allies across the
+world, learning from them how to become partners for research meeting their local needs.
+‘espo si le ‘esea h a d I o atio
+‘‘I e gaged the Eu opea pu li i de ates o ‘&I topi s
+and ethical issues to a ou t fo so ietal k o ledge lai s o a lo al a d glo al s ale. Fai
+k o ledge
+o e e ts took up thoughts k o
+i pu li f o the fai t ade o e e t. Ne er-
+
+49
+
+theless industry, established science, governments still dominated the advisory boards. Public deliberations were perceived as burdensome and time consuming.
+Civil society was dissatisfied with orthodox modes of policy-making based on corporatist representation and with too rigid and inflexible participation procedures in closed-circle activities, because the
+best-organized interests (e.g., of large businesses and NGOs) prevailed over the interests of others.
+Therefore civil society actors quit RRI participation and aligned with public research organizations
+and local initiatives in the EU and world-wide in order to develop projects and seek successfully funds
+(NGOs, philanthropic foundations, crowd-funding, civil society projects, etc.) for R&I on hitherto negle ted o o pa
+o ed issues.
+The research landscape 2030
+Around 2030, a new science-in-society contract has evolved from these flourishing new networks of
+practice, and governmental R&I budgets opened up for these research practices. All kinds of
+knowledge claims are brought to the fore and negotiated in so-called k o ledge pa lia e ts summoned ad hoc, on demand, by interested parties.
+The knowledge parliament is an open arena format that accounts for all research interests, topics
+and epistemologies not adequately covered by governmental administration research agenda setting. Knowledge parliaments operate through three main mechanisms:
+1. Involved authorities at various levels leave a certain share of their R&I budget to allocation
+by its citizens (available on demand). Regular voting decides over R&I topics to be equipped
+with these funds.
+2. The allo atio of fu ds takes pla e i a esea h sto k e ha ge . ‘esea h o so tia ompete fo esea h sto ks that spe if esea h eeds a d fu di g.
+3. Marketplaces provide a sphere in which research interests, topics and epistemologies compete for acceptance and facilitate the building of research consortia that may encompass any
+kind of stakeholders, in particular advocates of unconventional knowledge. These consortia
+go fo esea h sto ks , o othe fu ds e.g., fou dations, crowd funding, societal research
+beneficiaries).
+A oss all EU pu li ‘&I udgets, the k o ledge pa lia e ts o e all sha e ises to al ost 0 %. The
+ight to ote is t ou d to itize ship, a d all ki d of a to s f o all o e the o ld e gage in the
+marketplaces. The meetings are held in the EU and elsewhere when required, also using online forms
+of gathering.
+Research in the knowledge parliaments is initiated by civil society (e.g., patient groups, social enterp ises o
+esea h o so tia. A p oje t s ultu e is shaped
+the late t oope atio p a ti es i
+the consortium that looks for suitable funding. The knowledge claims are preselected through free
+negotiation in the building phase of representatives from all relevant knowledge domains. This brings
+alternative knowledge domains to the fore.
+Projects are characterized by a common framing of the task, but incommensurability of knowledge
+and specialized expertise require a division of labour in the research process. Actors of the diverse
+knowledge domains dispose of strong communicative and intercultural skills, as well as of transdisci-
+
+50
+
+plinary competences. The boundaries between citizens and experts in research projects have become extremely permeable.
+Most universities provide an umbrella for and enable fluidity of researchers between various epistemic cultures. Working under these open conditions is sometimes a bit stressful, but rewarded by
+publicly accountable, politically correct, and, a not insignificant driver, offering interesting research
+opportunities. Science shops, new kinds of media, and specialized mediators engage in bridging and
+translating the different epistemic cultures into each other.
+The shifting science-in-society contract in Europe made o thodo s ie e i o po ate ‘‘I p a ti es
+more fundamentally, whereas knowledge parliaments produce knowledge that increasingly replaces
+o thodo s ie e solutio s. While othe de o ati so ieties egulate di e se episte i ultu es
+similar to Europe in knowledge parliaments, undemocratic societies regulate the legitimacy of
+knowledge by administration or not at all.
+Over time they reshape the global landscape with all its plurality of knowledges, intellectual property
+rights, and research styles. The current crisis of democratic representation, felt also in the research
+policy field, is overcome by increased participatory negotiation over which research shall be carried
+out to which end, financed by which resources, and generating how much profit for whom.
+
+51
+
+Grand Challenges for Real –collective experimentation in socio-technical labs
+Abstract: In 2030, the research landscape in Europe is characterized by making extensive use of collective experimentation. Research on Grand Challenges is organized around large Knowledge and
+Innovation Communities (GC-KICs), each one overseeing several socio-technical laboratories in which
+a large number of different solutions responding to Grand Challenges are developed and tested. Diverse actors such as citizens, companies, universities, and social entrepreneurs engage in collective
+experimentation. Experimentation, measurement of practices and impacts, and co-creation go hand
+in hand so that real progress towards Grand Challenges becomes evident.
+
+From today to 2020
+The world increasingly recognized the Grand Challenges (e.g., climate change, sustainable energy) as
+a key issue for research and innovation (R&I). When China launched a massive investment campaign
+in Grand Challenges R&D, European business sector organizations aligned with EU's R&I policy to
+make Grand Challenges R&D a vehicle to foster economic growth in Europe ("Grand Opportunities").
+EU R&I policy formulation and coordination bodies adapted the concept of Knowledge and Innovation Communities (KICs) of the European Institute of Innovation & Technology to Grand Challenges in the end to stimulate Europe's economy. For example, a water-KIC was set up. These new KICs,
+while still focusing on research and technology, higher education, and business, attracted more and
+more public as well as private funds. Thus, the academic and research community reformulated their
+profiles according to the new "Grand Challenges as Grand Opportunities" headings.
+
+From 2020 to 2030
+At the turn of the decade, Southern Europe faced several long-lasting and severe draughts. Harvests
+were lost, tourism receded and industry branches collapsed.
+The most resilient regions had experimented collectively, i.e. society tried out things and learnt from
+it, long before. Shifting the accent from research on particular technologies to focus on collective
+goals, stimulated experimenting with any idea - from new social practices over diverse high-tech and
+low-tech solutions to combinations. The feedback cycle of trial and error, impact measurement,
+learning and invention provided the evidence for real progress. Collective experimentation gradually
+changed citizen lifestyles towards water-saving and engagement in novel collective practices. In contrast, the water-KIC taking "Grand Challenges as Grand Opportunities" developed sophisticated solutions not working effectively in most European regions.
+The European public, in particular Civil Society Organizations (CSOs) and media, started to demand
+serious citizen involvement and cost-effective solutions. In the inter-ministerial conflicts that followed, the voices calling to take Grand Challenges for real could not be suppressed any more. The
+KIC-concept on Grand Challenges was re-conceptualized in putting evidence of real progress at centre stage. Thereby it opened up to new actors (e.g., civil society), other science domains (e.g., neglected social sciences and humanities), and new experimental forms without favouring any particular kind of innovation.
+
+52
+
+When the EU decided to assign a large share of R&I funding to a few GC-KICs, member states, regions, industry, the academic and research community, and civil society began fierce lobbying with
+regard to the choice, scope, tasks, and actors' roles. As a powerful supranational union the EU was
+able to formulate a successful configuration and to diffuse it over the whole R&I system under political pressure.
+
+The research landscape 2030
+In a multipolar world, Europe focuses on Grand Challenges solutions that may, but must not necessarily foster economic growth, while the other world powers would take Grand Challenges for real
+only if they foster economic growth significantly.
+In 2030, large parts of R&I in Europe make use of collective experimentation. In particular research
+on Grand Challenges is organized around some Knowledge and Innovation Communities (GC-KICs).
+These GC-KICs receive large funds from the European Union and its member states to discover novel
+solutions by collective experimentation, to provide evidence of progress, and to implement the novelties in practice. These experiments take place in socio-technical laboratories that encompass physical and virtual, stationary and mobile infrastructures, and reality itself.
+Each GC-KIC oversees a number of socio-technical laboratories in which different solutions are developed and tested. As an example, elderly-care concepts are pioneered in East Finland, Saxony
+(Germany), and Northwestern Italy to ensure that research stays diverse. Agenda setting within the
+GC-KICs is facilitated by multi-stakeholder committees installed by the EU, combining top-down and
+bottom-up processes. The socio-technical laboratories are open to all stakeholders and results are
+fully accessible to allow for adaptations in other contexts.
+Socio-technical laboratories are equipped with sensor arrays measuring numerous parameters realtime, augmented reality interaction technologies, play-like 3D design tools, and they are dynamically
+modifiable. Diverse actors such as citizens, companies, universities, social entrepreneurs, and NGOs
+take part in regional experiments. People (most adhering to post-material wealth lifestyles) use socio-technical laboratories to test their behavior under real-world conditions and to generate conducive inventions.
+Doing research and idea generation are closely intertwined, as experimentation in socio-technical
+laboratories, measurement of practices and impacts in the field, and co-creation go hand in hand.
+That combined approach leads to a boost in number and variety of inventions. The integrated impact
+assessment (covering problem-solving potential, acceptance, etc.) enables fast and goal-directed
+selection of inventions.
+Universities collaborate within the respective regional communities. Higher education links up to
+collective experimentation in using the socio-technical laboratories for testing, teaching and learning.
+Companies value GC-KICs for their insights into potential collaborators as well as customers' values,
+lifestyles, and behaviour. They support experimentation by provision of technology, products, services and systems, and they are encouraged to transfer experiences into open innovations. Public
+socio-technical laboratory infrastructure stimulates the innovation capabilities in particular of SMEs.
+User-organizations, design entrepreneurship and developer communities flourish.
+
+53
+
+Science provides approaches to tackling Grand Challenges at regional level that have to be adapted
+to concrete regional circumstances. Design research becomes a leading science that integrates tacit
+knowledge, arts, engineering, craft, prototyping, social science and other knowledge domains. Research quality is assessed by the communities of practice in the GC-KICs. Excellence is redefined considering the facilitation of collective experimentation and the integrated impact assessments for inventions. Regional development organization networks play a major role in interregional knowledge
+transfer.
+EU and member-state governments provide socio-technical laboratory infrastructure and frameworks for conducting and controlling collective experimentation, and sharing of investments and
+benefits. EU's R&I policy is a horizontal activity covering different sector policies, for example on demographic change and infrastructure. EU member states fund basic research and higher education to
+support the GC-KICs. Businesses and states copy and adopt successful collective experimentations
+and inventions worldwide.
+
+54
+
+Knowledge Value Chains – research for innovation in a specialized and stratified research landscape
+Abstract: In 2030, the public research landscape is closely intertwined with the private research landscape globally. Research in Europe proceeds at various national and regional speeds aiming to improve their competitiveness in global markets through innovation. Research is carried out in
+"Knowledge Value Chains" (KVCs) organizing the cooperation between three types of highlyspecialized and stratified organizations: research integration, research services and third-tier organizations. KVC actors interact according to management practices. Research is closely tied to industry
+processes implying different degrees of openness in research and innovation, depending on the industries IPR policy.
+
+From today to 2020
+Go e
+e ts o ld ide ei fo ed Ne Pu li Ma age e t NPM) to evaluate and govern the
+ever more fragmenting landscape of research-performing organizations (RPOs). The administrative
+bodies of research and innovation (R&I) increasingly funded fewer, but larger projects. Government
+expenditure on R&I in Europe was reduced because of persisting economic constraints. Focussing on
+results and efficiency led to opening up of funding programmes to non-European and other new applicants to get the best research services at the lowest possible price.
+At the same time, Europe was lagging behind the USA and/or Asia in key future technologies (such as
+energy storage) and in key enabling industries (such as microelectronics) by 2020.
+
+From 2020 to 2030
+At the turn of the decade, RPOs faced stiff competition among each other and a boost in efforts for
+fu d aisi g a d e aluatio . ‘POs ope ati g a o di g to o sulta ies p a ti es a aged est to
+comply with these conditions. Consultancy-led research consortia (or similar form of organization)
+were generally encouraged as it had turned out that such consortia delivered the best results in a
+large research program on electro-mobility involving EU, member-state and regional governments.
+Therefore consultancies and businesses slowly took over leadership in research aiming to improve
+Europe's position in the global innovation race.
+Responding to the new conditions of R&I funding worldwide, only a small number of organizations
+managed to focus on system competencies and on professionalization of project management, fundraising and marketing. They succeeded in fundraising regardless of declining public funds because of
+close cooperation with industry, highly efficient project management and international sourcing.
+Contractors were increasingly big and powerful to cover the commercial risk of research projects,
+among them consultancies, RTOs, international universities and large private research organizations.
+Most universities (departments) and smaller research institutes opted for specialization in certain
+research fields and subcontracting. This division of labour now transforming the global research landscape had been forestalled in Life Sciences earlier.
+
+The research landscape 2030
+
+55
+
+In 2030, the main purpose of research all over the world is to foster innovation for economic competitiveness. Public and private research are closely intertwined. The desired system solutions are
+realised by consortia comprising highly-specialized and stratified organizations of three types:
+1. Research Integrating Organizations (RIOs) dispose of system and knowledge management
+competencies, and insider knowledge of the research market. They are large, operate globally, and have access to governments worldwide as well as to the management of internationally operating companies.
+2. Research Service Organizations (RSOs) provide in-depth knowledge in specific fields. They are
+small- to medium-sized, agile actors with good networking competencies.
+3. Third-tier organizations supply data and fragmented research contributions. They comprise a
+variety of actors with field access, data appraisal and processing competencies (e.g., laboratories), or creative ideas (e.g., think tanks, freelancers).
+The specialization binds all organizations to their position in the knowledge value chain (KVC). Like
+the OEMs in the automotive value chain (e.g., Toyota), RIOs manage the co-creation of value with
+RSOs and third-tier organizations, and sell research products to industry, government, and research
+customers. KVCs rationalize research by generally applied management practices (e.g. Total Cost of
+Ownership), and facilitate innovation-orientation of research in close cooperation with industry.
+Research projects are initiated by RIO/industry or they respond to government calls that reflect their
+research needs negotiated in closed circles. Overall, EU and member-state government expenditures
+on research for innovation is equal to industry R&D investment. RIOs employ world class talent able
+to understand innovation tasks deeply, ignite creative processes, and integrate various pieces into a
+whole solution. Intermediaries assist RIOs in finding suitable partners for a KVC.
+The majority of researchers worldwide work in one of the three organization types of KVCs. RIO researchers are assisted by advanced knowledge management systems to monitor, track, and control
+value creation in real-time and by diversity management systems to foster creative processes. Doing
+research in RSOs at the speed of industry innovation is demanding which favours the development
+and use of efficient research tools (e.g. seamless human-machine interaction) and performance enhancement measures (e.g. cognitive drugs). Third-tier suppliers of data use large automated data
+appraisal and processing infrastructures to maximize economies of scale and extract innovationrelevant meaning from data. Third-tier suppliers of fragmented research are active in time windows
+to deliver a missing piece for the whole solution. All research is managed by the RIOs' assistant systems that set standards and define interfaces.
+Research quality and impact is assessed by the flourishing evaluation organizations. Division of labour and management practices in KVCs disfavour the development of holistic theories. All kinds of
+knowledge (e.g., data-driven research, trial & error, tacit knowledge) compete with each other, but
+the measurable ones are favoured as they can be translated into scores relevant for funding and
+evaluation. RSOs publish to demonstrate competencies, though restricted by commercial exploitation interests.
+RIOs design research processes and access to results as open or closed, depending on the customer
+seeking either for open innovation or for knowledge protection. RIOs (rarely RSOs) also set the market- or power-based investment and benefit sharing rules within the KVCs. Industry itself conducts
+
+56
+
+own basic research for innovation beyond KVC research, while governments fund high-risk basic research for breakthrough innovation.
+As industry and RIOs drive the setting of R&I priorities, the importance of supranational unions (such
+as the EU) is downsized. National and regional governments with favourable economic conditions
+support their industry and RPOs to play an active role in KVCs. The specialization leads to a new dependence on certain world regions to cover scientific fields. Higher education funded by national and
+regional governments conveys competences that integrate the logics of research and value creation.
+Purely curiosity-driven research is restricted to a few international, state- or foundation-funded organizations, disconnected from higher education and KVCs.
+
+57
+
+Researchers’ Choice - autonomous researchers go for creativity and wellbeing
+Abstract: Society is characterized by highly individualistic values and strong emphasis on individual
+wellbeing, autonomy and creativity. Autonomous researchers are at the heart of scientific research.
+To realize their ambitions researchers choose options within a broad spectrum of models, ranging
+fro
+e for s of s ie e e trepre eurship to ore olle ti e for s u der the u rella of slo
+s ie e ith a stro g orie tatio to ards lo al so ietal eeds.
+From today to 2020
+From 2012 on pressure on scientists kept increasing from a number of different directions. More and
+more scientists felt torn between conflicting demands for scientific excellence, commercialisation,
+competition for funding, and demand for societal contributions. Others were unsatisfied with the
+current system of science quality assessment and evaluation, and with their career options. Working
+hours kept increasing and the number of burnouts of scientists grew sharply. To many this felt particularly frustrating as societal framework conditions were changing in the opposite direction: more
+and more people were becoming extremely sensitive to issues of wellbeing and work-life balance
+and emphasized creativity and individual autonomy as core values.
+On top of this, many scientists felt that strict regulations, loads of paperwork, increase of competences required and continuous assessments added to the number of cumbersome aspects making
+their work ever less rewarding. At the same time, public reputation of science was deteriorating.
+Many citizens felt that the established science system was ignoring societal needs. In spite of all the
+efforts for strict quality assessment, the number of cases of science-fraud, conflicting lobby-driven
+scientific-expertise, and fatal science errors grew steadily. Public trust in science dwindled and scientists so ietal eputatio de li ed apidl .
+By 2020 many scientists faced a severe identity crisis. In several universities protests were joined not
+only by students but also by young and senior researchers. The number of young talents aspiring to a
+carrier in science fell sharply and several researchers were on the lookout for better working conditions in other areas of the globe.
+
+From 2020 to 2030
+In this tense situation more and more individual researchers take action and develop alternative selforganized ways of doing research. A main driver of this movement is individualism; everyone tries to
+promote and sell her/his own idea or asset as a way of self-expression and self-fulfilment. Another
+backbone is the availability of affordable digital tools and web-platforms that are enabling individual
+research practices as well as seamless self-organized collaboration of autonomous scientists. Virtual
+science communities are becoming stronger.
+Self-organized, autonomous research is rising in different forms: One increasingly prominent format
+is competition-oriented autonomous science-entrepreneurship that is developing targeted solutions
+for global markets. These are often highly creative, ambitious talents who are motivated by the
+pleasure of seeing their numerous ideas turned into successful solutions and products and the aspiration of earning high revenues in return to their hard and restless engagement. They work autonomously, sometimes from home-offices, sometimes from different places all-over the world and con-
+
+58
+
+nect to other science-entrepreneurs through virtual platforms for exchange and collaboration on a
+project base.
+A othe phe o e o o the ise is the so alled slo s ie e o e e t . This i k a e as
+picked up f o the slo food o e e t as – similar to the food activists - slo s ie tists st o gly advocate quality of life and work as well as sustainability and local embedding of scientific activities. Several slow scientists reduce their professional activities in order to be able to pursue other
+activities such as arts, sports, friends and care for children and elderly.
+The Slow Science movement and the new science entrepreneurship pave the way for a higher share
+of women scientists. A silent revolution of women takes place, who find their way into science entrepreneurship through micro-businesses, local research, and bottom-up science entrepreneurship.
+Increasingly locally-anchored women scientists join their forces in a global network, which provides
+support for top women scientists from all over the world.
+While the science landscape is diversifying, society is undergoing changes as well. New indicators for
+measuring progress emphasizing quality of life rather than only economic growth are being established in many countries. As research emerges to be value-driven and oriented towards individual
+values and interests, researchers increasingly put into question the established mechanisms of
+measuring scientific excellence.
+
+The research landscape 2030
+In 2030 bottom-up innovation through self-organized research is the norm. Research is oriented towards the new governance paradigm that shifted emphasis from measuring economic production to
+easu i g people s ell-being. Societal reputation emerges from individual efforts relating to the
+fulfilment of societal needs. The autonomous researcher, coming forward as Slow Scientist or acting
+as “ ie e E t ep e eu , has gai ed a epta e a d ep ese ts the p e ale t esea he s a ee .
+Many ambitious young talents are working and striving for entrepreneurial success and societal reputation through science-entrepreneurship and slow science activities.
+The slo s ie e o e e t has o solidated i to a glo al et o k. “lo s ie e hu s ith a
+strong local orientation have emerged all-over the globe. They are very well networked and in constant exchange with each other. “o e u i e sities ha e st e gthe ed thei thi d issio a d established intense collaboration with the autonomous slow scientists. The quality of slow science activities is measured by its contribution to so iet s eeds a d goals that a e assessed through the
+virtual science communities and in close interaction with the local users. Slow science research is
+suppo ted
+fou datio s, itize s i itiatives, and individual activists through crowd-funding. Most
+slow science communities publish research findings on special online platforms and request voluntary contributions for each download. Often local governments closely collaborate with slow science
+communities to gather independent advice on local-level research questions. City and municipality
+networks adopt new roles in the transfer and local adaptation of Slow Science solutions. For the development of innovative system solutions to local demands slow scientists and science entrepreneurs
+from different disciplines collaborate with local companies under the coordination of local governments.
+Perpetual auditing, impact assessment and evaluations are no longer required and burdensome new
+public management principles have been abandoned. Publication speed and extent is determined by
+
+59
+
+the interests of the researchers themselves, who are motivated by recognition in their peer communities and feedback from the users of their results.
+Science-entrepreneurs offer their research services to various societal actors (SME companies, indust , lo al go e
+e ts, NGO s, et .). Many science-entrepreneurs also publish their results and live
+of the fees per clicks and download. This kind of revenue generation has become an important
+source of science funding with an impact on selection of research topics.
+Governments nurture science entrepreneurship by lowering the entry-barriers to business start-ups.
+There is an advanced entry-level feedback system to build a reputation of trust to come up with ideas. Thus the ha e a i di e t oo di atio effe t. Be ause of the ide a iet of esea he s hoices to deliver research-based solutions for markets and societal needs, ownership of research results
+and intellectual property rights are very controversial. Negotiation of adequate framework conditions for science entrepreneurship and slow science remains a constant challenge for international
+councils, EU institutions, and for national governments.
+
+60
+
+Annex 2: RIF 2030 Scenarios on Research & Innovation nested in broader societal futures
+
+61
+
+

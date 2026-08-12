@@ -1,0 +1,615 @@
+A NON–CONVENTIONAL GAUGE APPROACH
+TOWARDS CONTINUUM THEORIES
+OF DISSIPATIVE DEFORMATION PROCESSES
+M. SCHOLLE
+FB 6, Theoretische Physik, Universität Paderborn, Warburger Straße 100
+D–33095 Paderborn, Germany
+In this paper is presented a powerful method in order to establish Lagrangian
+descriptions for various systems in continuums mechanics: The inverse problem of
+the second kind is different from traditional approaches (classical inverse problem,
+gauge field theories) in many ways. It is based on an inverse treatment of Noether’s
+theorem on the one hand and of the area–type balance theorem — a mathematical
+procedure similar to Noether’s theorem — on the other hand. In order to make this
+procedure unique, an additional methodical requirement for the analytical form of
+the Lagrangian is needed which I call the dual property. These considerations give
+rise to a general ansatz for the Lagrangian which is applied to elastically deforming
+bodies with eigenstresses and viscous fluids.
+Keywords. Lagrange formalism, Lie and non–Lie symmetries, volume–type and
+area–type balances, dissipation
+1991/95 Math. Subject Class. 60G60, 73B35
+
+1
+
+Symmetries and Physical Balances within Lagrange Formalism
+
+Let a continous physical system be defined by a Lagrangian
+ℓ = ℓ (ψ, ∂t ψ, ∇ψ, ~x, t)
+
+(1)
+
+based on a set of N fundamental field variables
+
+ψ = ψ1 , · · · , ψN .
+
+(2)
+
+1
+
+Then, among all admissible processes the real processes are distinguished as
+solutions of Hamilton’s principle [1, 2] in its original sence which is based on
+an action integral. I call a process transformation of the general form
+
+i
+
+~x −→
+
+ψ (~x, t) −→
+
+:= f 0 (~x, t)
+:= f~ (~x, t)
+
+t′
+
+t −→
+
+~x′
+′i
+
+ψ (~x′ , t′ )
+
+(3)
+
+i
+
+:= F (ψ (~x, t) , ~x, t)
+
+a strict symmetry transformation of the Lagrangian if it fulfils the symmetry
+criterion
+ ′ ′ 
+∂(t , ~x )
+det
+ℓ (ψ ′ , ∂t′ ψ ′ , ∇′ ψ ′ , ~x′ , t′ ) = ℓ (ψ, ∂t ψ, ∇ψ, ~x, t) ,
+(4)
+∂(t, ~x)
+where time and space derivatives transform via Jacobi’s matrix
+(∂t′ , ∇′ )
+
+
+
+∂(t′ , ~x′ )
+∂(t, ~x)
+
+
+
+= (∂t , ∇) .
+
+∂(t′ , ~x′ )
+:
+∂(t, ~x)
+(5)
+
+The condition (4) is due to the requirement that the transformed and the
+original process fulfil Hamilton’s principle simultaneously.
+1.1
+
+Lie symmetries and Noether balances
+
+If a class of symmetry
+ transformations forms a group based on a finite set of
+parameters ε = εk I call it a Lie symmetry group. By means of Noether’s
+theorem each group parameter εk is associated with a homogeneous balance
+equation
+∂t ̺k + ∇ · ~jk = 0 .
+(6)
+
+Looking at different systems, their respective Lagrangians have their own, individual classes of symmetries. Nevertheless, within Galilei–invariant continuum theories there are some symmetries which are relevant for all closed system, namely time translations, space translations, rigid rotations and Galilei–
+boosts. By means of Noether’s theorem they are associated with the essential
+balances for energy, linear momentum and angular momentum and to the center of mass motion. For details, see [1, 2].
+1.2
+
+Duality — One Physics and two Representations
+
+Let ℓ be a Lagrangian which is invariant with respect to translations and
+Galilei–boosts simultaneously. From these methodically essential requirements
+2
+
+I derive some restrictions on the analytical form of the Lagrangian: At first,
+let us call the process transformation
+
+i
+
+~x −→
+
+ψ (~x, t) −→
+
+:= t + ε0
+
+t′
+
+t −→
+
+~x′
+′i
+
+′
+
+:= ~x + ~ε
+′
+
+ψ (~x , t )
+
+(7)
+
+i
+
+:= ψ (~x, t)
+
+a strict translation. Obviously, (7) fufils the symmetry criterion (4), if and
+only if the Lagrangian does not explicitly depend on the coordinates, i.e.
+ℓ = ℓ (ψ, ∂t ψ, ∇ψ) .
+
+(8)
+
+I call this wellknown analytical form the conventional form of the Lagrangian
+— it is the canonical form which in literature is taken for granted. In contrast to this classical viewpoint one could easily have started from a different
+methodical requirement which gives rise to another analytical form of ℓ: Consequently, I call the process transformation
+t′
+
+t −→
+
+i
+
+~x −→
+
+ψ (~x, t) −→
+
+~x
+′i
+
+:= t
+
+′
+′
+
+′
+
+ψ (~x , t )
+
+:= ~x − ~ut
+
+(9)
+
+i
+
+:= ψ (~x, t)
+
+a strict Galilei–boost. The terminus ”strict” means that this operation leaves
+the field variables untouched. It can be shown that (9) fulfils the symmetry
+criterion (4), if and only if the Lagrangian is of the analytical form
+
+
+(10)
+ℓ̃ = ℓ̃ ψ̃, ∂˜t ψ̃, ∇ψ̃, t ,
+where the dual time derivative ∂˜t is defined as
+~x
+∂˜t := ∂t + · ∇
+t
+
+.
+
+(11)
+
+Thus, we result in the dual form (10) of the Lagrangian which obviously is
+different from the conventional form (8): An essential feature of it is its explicit dependence of the space and time coordinates via (11). However, this
+non–conventional analytical form (10) is methodically as justified as the conventional form (8).
+To make sure that a physical theory is invariant with respect to translations and Galilei–boosts simultaneously, I postulate the dual property: The
+conventional form (8) and the dual form (10) are two different representations
+3
+
+of the same Lagrangian, i.e. both forms can be transformed into each other by
+means of a formula
+ψ̃ i = K i (ψ, ξ, ∇ξ)
+(12)
+with the generating field
+ξ = ξ (~x, t) =
+
+~x2
+2t
+
+(13)
+
+and an adequate set of functions K i (ξ, ∇ξ) fulfilling the system of functional
+equations
+K (K (ψ, ξ1 , ∇ξ 1 ) , ξ2 , ∇ξ 2 )
+K (ψ, 0, 0)
+
+=
+=
+
+K (ψ, ξ1 + ξ2 , ∇ξ 1 + ∇ξ 2 )
+ψ
+
+(14)
+(15)
+
+defining an Abelian group. The dual property is an essential stuctural requirement for the Lagrangian due to the Lagrangian being invariant with respect to
+translations and Galilei–boosts, simultaneously. Additionally, the dual property gives rise to a gauge symmetry of the Lagrangian,
+i
+
+ψ i −→ ψ ′ := K i (ψ, ξ0 , 0) ,
+
+(16)
+
+the induced regauging symmetry with a constant parameter ξ0 . Applying
+Noether’s theorem to (16) we get the mass balance of the system. For further
+details I refer to forthcomming papers. The above considerations are indispensible for the construction of Lagrangians by means of the inverse problem of
+the second kind which is pointed out in ch. 2.
+1.3
+
+Non–Lie Gauge Symmetries and Associated Area–Type Balances
+
+Noether’s theorem implies a procedure which connects Lie–symmetries with
+balance equations of the form (6). I call these equations balances of the
+volume–type, because the density ̺k (~x, t) gives rise to an associated global
+quantity Q(t) (”charge”) by integrating over an arbitrary test volume. There
+exists another type of balances
+∂t w
+~ + ∇ × J~ = 0 ,
+∇·w
+~ =0
+
+,
+
+(17)
+(18)
+
+which I call balances of the area–type because the line density w
+~ gives rise to an
+associated global quantity Γ (”circulation”) by integrating over an arbitrary
+test area. Examples for area–type balances are the homogeneous Maxwell
+equations, the Helmholtz laws in hydrodynamics and essential balances in
+4
+
+the theory of dislocation dynamics. These equations are outside the scope
+of Noether’s theorem. However, an alternative procedure, namely the area–
+type balance theorem, has been established to embed area–type balances into
+Lagrange formalism: Given a regauging transformation
+i
+
+ψ i −→ ψ ′ := F i (ψ, ~x, t)
+
+(19)
+
+which fulfils the symmetry criterion (4) with a specific class of functions F ∈ IF.
+It defines a non–Lie group. From (4) a basis representation of the canonical
+field momenta can be found:
+∂ℓ
+p
+= µα
+p Bi ,
+∂(∂α ψ i )
+
+(20)
+
+where the basis elements Bip (ψ, ∂t ψ, ∇ψ, ~x, t) transform covariantly with respect to the regauging group (19):
+(Bip )ψ→F (ψ)
+
+∂F i
+= Bjp
+∂ψ j
+
+(21)
+
+The coefficients µα
+x, t) are invariant with respect to (19). These
+p (ψ, ∂t ψ, ∇ψ, ~
+basis elements give rise to the definition of line densities w
+~ p and line flux
+densities J~p :
+w
+~p
+J~p
+
+:=
+:=
+
+∇Bip × ∇ψ i ,
+
+∂t ψ i ∇Bip − ∂t Bip ∇ψ i ,
+
+(22)
+(23)
+
+They fulfil a system of area–type balance equations (17, 18), see [4, 3]. In
+order to justify the interpretation of these quantities as densities and fluxes of
+topological defects (vortices, dislocations, etc.) we have to make sure that w
+~p
+p
+~
+and J are invariant quantities, i.e. they have to be invariant with respect to
+the regauging group (19) on the one hand and invariant with respect to the
+dual transformation (12) on the other hand. The latter requirement holds if
+and only if the constraint
+
+
+∂K i
+= cp0 = const
+(24)
+Bip
+∂ξ ξ=0
+
+
+∂K i
+p
+= ~cp = const
+(25)
+Bi
+∂(∇ξ) ξ=0
+is fulfilled. In addition to the required invariance of the balance quantities, by
+means of the conditions (24, 25) the basis elements are uniquely determined,
+apart from constant factors.
+5
+
+The area–type balance theorem supplements Noether’s theorem. Both
+theorems together are the foundations of the inverse problem of the second
+kind (see below).
+2
+
+The Inverse Problem of the Second Kind
+
+In continuum physics for various systems a Lagrangian description has not been
+established. Traditionally, there are two methodically different ways towards
+the construction of a Lagrangian: The conventional inverse problem starts
+from a yet established phenomenological description of the system by means
+of partial differential equations whereas gauge field theories start from specific
+symmetry requirements for the Lagrangian.
+In this paper a non–conventional method, the inverse problem of the second
+kind, is proposed which is neither the pure traditional inverse problem nor
+a pure gauge field theory nor a mixture of both: It starts from the local
+balances for energy, linear momentum, angular momentum, center of mass
+motion, mass, vortices and topological defects and from the dual property
+(see ch. 1.2) of the unknown Lagrangian as an essential methodical postulate.
+Looking in an inverse manner at Noether’s theorem on the one hand and at
+the area–type balance theorem (see ch. 1.3) on the other hand restrictions on
+the analytical structure and on the gauge symmetry group of the unknown
+Lagrangian can be found. This allows for the construction of a rough scheme
+for the structure of the Lagrangian which can be adapted to specific problems.
+3
+
+Particular Solutions of the Inverse Problem
+
+A quite general ansatz for a Lagrangian fulfilling all methodical requirements of
+the inverse problem of the second kind is given in conventional representation
+by
+
+
+
+
+~κ
+~ κ Dt Φ + b0 (Ψ) Dt Ψi − 1 ~v 2 + u Ψ, A
+,
+(26)
+ℓ = −̺ Ψ, A
+i
+2
+with the abbreviations
+Dt
+~κ
+A
+
+:=
+:=
+
+∂t + ~v · ∇ ,
+
+bκi (Ψ) ∇Ψi + ∇ (~cκ · ~v ) .
+
+(27)
+(28)
+
+This Lagrangian is based on the set of N + 4 independent field variables
+
+ψ = ~v , Φ, Ψ1 , · · · , ΨN
+(29)
+
+including the velocity field ~v , and on functions ̺, u, b0i , bκi which have to be
+chosen with respect to the particular problem: ̺ is the mass density and u
+6
+
+the density of the internal energy per mass. ~cκ are constant vectors. The
+range {κ} = {1, · · · , M } of the index κ is due to the type of the respective
+system (fluid, liquid crystal or solid crystal) — the number M may take an
+integer value between 0 and 3. The dual property of the Lagrangian is fulfilled
+if the dual transformation (12) takes the explicit form
+Φ̃
+~v˜
+Ψ̃i
+
+= Φ−ξ
+= ~v − ∇ξ
+= Ψi .
+
+(30)
+
+The general scheme (26) is adequate for conservative dynamics as well as for
+dissipative dynamics. Subsequently, two examples will be given.
+3.1
+
+Dynamical Theory of Elasticity with Eigenstresses
+
+~ κ are invariant with respect to the dual transformation (30)
+The quantities A
+~ κ may be identified with
+if and only if the vectors ~cκ vanish. Then, the A
+the reciprocal Cosserat–directors of a generallized Cosserat continuum, which
+is an ordinary fluid supplemented by a specific number M of supplementary
+”directors” due to an internal structure of the medium (see e.g. [8]).
+Especially for M = 3 the Cosserat–directors form a vector triad which
+can be interpreted as representative of the local unit cell of a solid crystal.
+This implies that the mass density is coupled with the reciprocal Cosserat–
+~ κ via
+directors A
+
+
+~2 × A
+~3 .
+~1 · A
+̺ = ̺0 A
+(31)
+~κ
+̺0 is the constant mass density of the undeformed crystal. Furthermore, the A
+give rise to the definition of the second rank tensor of dislocation density,
+
+~ κ ⊗ ~eκ = ∇bκi (Ψ) × ∇Ψi ⊗ ~eκ ,
+α := ∇ × A
+(32)
+
+where ~eκ denote the three euklidean basis vectors of a spatial coordinate system. For simplicity, choosing the internal energy according to the isotropic
+Hooke’s law,
+3
+h
+i− 2 X
+ 
+~κ2 ,
+~ κ = K ln ̺(A
+~κ) 3
+~ κ ) + µ ̺(A
+A
+u=u A
+2
+κ=1
+
+(33)
+
+the theory is restricted to pure elastic deformations. K is the bulk modulus
+and µ the shear modulus. After an adequate choice of the fundamental field
+variables Ψi and of the functions b0i (Ψ), bκi (Ψ) (see [3]) we obtain a theory for
+7
+
+an elastically deforming crystal with dislocations fixed at their initial lattice
+position. Thus, we are dealing with a dynamical generalization of Kröner’s
+theory of eigenstresses [5].
+This theory can be extended towards plastically deforming crystals with
+dissipation of energy [6].
+3.2
+
+Viscous Fluids
+
+A second example for a Lagrangian according to the general scheme (26) is
+given by
+
+
+1
+2
+ℓ = −̺ Dt Φ + γDt ϑ + g (T ) Dt ϕ − ~v + u (̺, T, ϕ, ∇ ⊗ ~v )
+(34)
+ω
+with an internal energy
+u = f (̺) + g (T ) +
+
+2
+
+ηϕ
+2
+T
+Tr ∇ ⊗ ~v + (∇ ⊗ ~v ) − (∇ · ~v ) 1 ,
+8ω̺
+3
+
+(35)
+
+which is the sum of a mechanical part f (̺), a thermal part g (T ) and a third
+part which is responsible for friction and dissipation: η is the shear viscosity
+coefficient and ω a constant frequency which takes place because of dimensional
+reasons. The Lagrangian (34) depends on the fundamental field variables
+ψ = (~v , Φ, γ, ϑ, ̺, T, ϕ) ,
+
+(36)
+
+namely on the velocity ~v , on the three Clebsch potentials Φ, γ, ϑ, on the mass
+density ̺, on the temperature T and on the thermal phase ϕ. The two thermal
+degrees of freedom T and ϕ are connected with the complex field of thermal
+excitation χ via
+√
+χ = T exp (iϕ) ,
+(37)
+according to Anthony’s approach [7] to thermodynamics within Lagrange formalism. The meaning of the three potentials Φ, γ, ϑ becomes apparent after
+calculating the Euler–Lagrange equation with respect to ~v :
+
+
+1
+1
+∂u
+~v + ∇ · ̺
+− g (T ) ∇ϕ = ∇Φ + γ∇ϑ
+(38)
+̺
+∂(∇ ⊗ ~v )
+ω
+Variation with respect to ϕ results in the inhomogeneous balance for the thermal part of the internal energy,
+
+2
+η
+2
+∂u
+T
+= Tr ∇ ⊗ ~v + (∇ ⊗ ~v ) − (∇ · ~v ) 1 ,
+̺Dt g (T ) = ω
+(39)
+∂ϕ
+8
+3
+8
+
+with a positive heat production rate according to the internal friction of a
+fluid with shear viskosity. The balance for linear momentum which can be
+calculated from Noether’s theorem reads
+
+
+∂t (̺~v + p~ ∗ ) + ∇ · ~v ⊗ (̺~v + p~ ∗ ) − σ = 0
+(40)
+
+with a non–vanishing density of quasi–momentum
+
+
+∂u
+∗
+.
+p~ = ∇ · ̺
+∂(∇ ⊗ ~v )
+
+(41)
+
+The latter one is microscopially associated with the linear momentum of ”quasi–particles” due to the local disorder of the particles of the fluid which is
+responsible for the shear viscosity. From the balance (40) and from the Euler–
+Lagrange equation of the Lagrangian (34) on can derive the dynamical equations for the velocity field,
+
+
+
+
+1
+(42)
+̺Dt~v + ∇ ̺2 f ′ (̺) − η ∆~v + ∇ (∇ · ~v ) + O ∂~v ∂ 2~v , ∂ 3~v = 0 ,
+3
+which are the Navier–Stokes equations apart from quadratic terms and third
+order derivative terms of the velocity which are comparablely small. Obviously, by means of the Lagrangian (34) the classical theory for viscous fluids is
+approximately reproduced. For a detailed discussion of the additional features
+of this non–conventional theory I refer to forthcomming papers.
+1. E. Schmutzer. Symmetrien und Erhaltungssätze der Physik, Akademie–
+Verlag, Berlin, 1972.
+2. E. M. Corson. Introduction to tensors, spinors, and relativistic wave
+equations, Chelsea Publ., New York, 1982.
+3. M. Scholle. Arch. Mech. 50 (1998) 569.
+4. M. Scholle, K.–H. Anthony, Symmetries and conservation laws beyond
+Noehter’s theorem, in preparation.
+5. E. Kröner. Kontinuumstheorie der Versetzungen und Eigenspannungen,
+Springer Verlag Berlin, Göttingen, Heidelberg, 1958.
+6. M. Scholle. A balance theorem and its applications to a continuum theory
+of dislocations and plasticity, to be published in Zeszyty Nauk. Politech.
+Swietokrzysk. Mech..
+7. K.–H.. Anthony, In Trends in Applications of Mathematics to Mechanics
+eds. J. F. Besseling and W. Eckhaus, Springer, 1988, p. 297.
+8. K.–H.. Anthony, A. Azirhi, Arch. Mech. 50 (1998).
+9
+
+

@@ -1,0 +1,562 @@
+NISSUNA UMANA INVESTIGAZIONE SI PUO DIMANDARE VERA SCIENZIA
+S’ESSA NON PASSA PER LE MATEMATICHE DIMOSTRAZIONI
+LEONARDO DA VINCI
+
+vol. 4
+
+no. 1
+
+2016
+
+Mathematics and Mechanics
+of
+
+Complex Systems
+M ARCELO E PSTEIN AND M ANUEL DE L EÓN
+UNIFIED GEOMETRIC FORMULATION
+OF MATERIAL UNIFORMITY AND EVOLUTION
+
+msp
+
+MATHEMATICS AND MECHANICS OF COMPLEX SYSTEMS
+Vol. 4, No. 1, 2016
+
+M∩M
+
+dx.doi.org/10.2140/memocs.2016.4.17
+
+UNIFIED GEOMETRIC FORMULATION
+OF MATERIAL UNIFORMITY AND EVOLUTION
+M ARCELO E PSTEIN AND M ANUEL DE L EÓN
+Dedicated to Gérard Maugin, in gratitude for many years of inspiration and friendship
+
+The differential-geometric underpinnings of a unified theory of material uniformity and evolution are exposed in terms of the language of groupoids subordinate to geometric distributions. Both the standard theory of material uniformity
+and the extended theory of functionally graded materials are included in the formulation as well as their temporal counterparts in anelastic and aging processes.
+
+1. Introduction
+The delightful classical survey article by Alan Weinstein [1996] brings home the
+idea that groups, considered as the main carriers of information about the symmetries of a physical system, are actually not sufficient to convey the generality of
+the intuitive concept of symmetry. His example of the regular rectangular tiling of
+a bathroom floor, as opposed to the tiling of the whole plane, is very suggestive.
+Indeed, in passing from the infinite to the finite extent, while the symmetries of the
+individual tiles are preserved, the translational symmetries are lost. Nevertheless,
+any observer of the bathroom floor will agree that it still has a remnant of this
+distant kind of symmetry. In continuum mechanics, if we replace the bathroom
+floor with a material body B, each tile can be identified with the tangent space
+TX B at each point X ∈ B. Any given constitutive equation at X will enjoy some
+material symmetries, which are encoded in the material symmetry group G X at X .
+But consider now another point Y ∈ B. What would the meaning be of a distant
+symmetry between X and Y ? The clearest answer to this question is that X and Y
+are thus related if they are made of the same material. In the terminology of Walter
+Noll [1967/68], the points are materially isomorphic. A body all of whose points
+are materially isomorphic is said to be materially uniform.
+Communicated by Raffaele Esposito.
+The financial support of the Natural Sciences and Engineering Research Council of Canada and of
+the Consejo Superior de Investigaciones Científicas of Spain is gratefully acknowledged.
+MSC2010: 74A20.
+Keywords: groupoids, distributions, material uniformity, material evolution, body-time manifold,
+groupoid actions, aging, morphogenesis.
+17
+
+18
+
+MARCELO EPSTEIN AND MANUEL DE LEÓN
+
+In a philosophical sense, however, the notion of symmetry is, literally, in the
+eyes of the beholder. We may choose to declare the presence of a distant symmetry between two points if they are made of possibly different materials while
+enjoying the same symmetry type,1 a much weaker condition. In this case, the
+symmetry groups G X and GY need only be conjugate. We call the equivalence
+relation associated with this property unisymmetry [Epstein and de León 2000].
+Unisymmetric bodies are known in engineering applications as functionally graded
+materials, usually made of two components with a spatially varying composition.
+Fixing attention on a particular material point and following its material response
+in time, we obtain the notion of material evolution [Epstein and Elżanowski 2007].
+If, as time goes on, the material response remains materially isomorphic to its
+initial response, we have a case of pure remodeling or anelastic evolution [Wang
+and Bloom 1973/74]. The material in an infinitesimal neighbourhood undergoes a
+process of reaccommodation, but does not experience any other essential changes.
+This is clearly another (timewise) manifestation of the concept of distant symmetry.
+Any other change of material behaviour can be considered as a process of material
+aging. A particular case is obtained when, while the material ages, the symmetry
+type is preserved. In other words, the material evolves unisymmetrically. Finally,
+any change in the symmetry type gives rise to a process of morphogenesis [Turing
+1952].
+When the spatial and temporal distant symmetries are combined, it is reasonable
+to expect that the corresponding geometrical descriptor will be a properly defined
+material groupoid based on the consideration of a body-time manifold, which is
+the main object of consideration in the present article. Some basic definitions pertaining to the theory of groupoids and their actions on sets are reviewed in Section 2
+and extended to distinguish classes of groupoids associated with distributions in
+manifolds. These ideas are applied in Section 3 to define and interpret various
+cases of material groupoids.
+2. Groupoids and distributions
+2.1. Groupoids. Recall that a groupoid consists of a total set Z , a base set M, two
+(projection) surjective maps
+α:Z →M
+
+and
+
+β :Z →M
+
+(1)
+
+called, respectively, the source and the target maps, and a binary operation (composition) defined only for those ordered pairs (y, z) ∈ Z × Z such that
+α(z) = β(y).
+1 By symmetry type we mean properties such as isotropy, transverse isotropy or orthotropy.
+
+(2)
+
+UNIFIED GEOMETRIC FORMULATION OF MATERIAL UNIFORMITY AND EVOLUTION 19
+
+This operation, indicated by the reverse apposition of the operands, must be associative, that is, (x y)z = x(yz), whenever the products are defined. Moreover,
+at each point m ∈ M, there exists an identity idm such that z idm = z whenever
+α(z) = m, and idm z = z whenever β(z) = m. Finally, for each z ∈ Z there exists
+a (unique) inverse z −1 such that zz −1 = idβ(z) and z −1 z = idα(z) .
+It follows from this definition that to each ordered pair (a, b) of elements of M
+one can associate a definite subset Zab of Z , namely the subset Z ab = {z ∈ Z |
+β(z) = b, α(z) = a}. It is clear that these subsets (some of which may be empty) are
+disjoint and that their union is equal to Z . It is also clear that the various identities
+are elements of subsets of the form Zbb . It is not difficult to show that each set
+of the form Zbb is actually a group. A useful way to think of a groupoid is as a
+collection of symbols (a, b, c, . . . ∈ M) and arrows (x, y, z, . . . ∈ Z ) connecting
+some of them.
+One can prove that if Zab 6 = ∅, then the groups Zaa and Zbb are conjugate, and
+the conjugation between them is achieved by any element z of Zab , namely,
+Zbb = z Zaa z −1 .
+
+(3)
+
+Analogously, the set Zab is spanned completely by composing any one of its elements with Zaa or with Zbb , that is,
+Zab = z Zaa = Zbb z.
+
+(4)
+
+A groupoid is said to be transitive if for each pair of points a, b ∈ M there exists
+at least one element of the total set with a and b as the source and target points,
+respectively. In other words, a groupoid is transitive if, and only if, Zab 6 = ∅
+∀(a, b) ∈ M × M. In a transitive groupoid all the local groups Zbb are mutually
+conjugate. In this case, we can consider any of the local groups as the typical group
+of the transitive groupoid.
+A groupoid is a topological groupoid if the total set Z and the base set M
+are topological manifolds and the projections α and β are continuous, as are the
+operations of composition and of inverse. It follows from the definition that each of
+the sets Zbb is a topological group. If Z and M are smooth manifolds and if both
+projections are surjective submersions and all operations are smooth, we obtain a
+Lie groupoid.2
+2.2. Groupoids subordinate to a distribution. Let C be an n-dimensional manifold and let 0 < k < n be an integer. A k-dimensional distribution D in C is a
+smooth assignment of a k-dimensional subspace Dc of the tangent space Tc C to
+each point c ∈ C . That the assignment is smooth means that each point c ∈ C has
+2 For a thorough treatment of Lie groupoids see [Mackenzie 1987] or [Mackenzie 2005].
+
+20
+
+MARCELO EPSTEIN AND MANUEL DE LEÓN
+
+a neighbourhood within which there exist k smooth linearly independent vector
+fields that span the subspaces of the distribution. In fact, a common way to specify
+a k-dimensional distribution is by providing k linearly independent smooth vector
+fields on C . A vector field V belongs to the distribution if, and only if, it is a linear
+combination of the vector fields defining it.
+A groupoid α, β : Z → C is said to be subordinate to a distribution D in C if
+every element z ∈ Z is a nonsingular linear map
+z : Dc1 → Dc2 ,
+
+(5)
+
+with c1 , c2 ∈ C .
+Given a distribution D in C , all possible groupoids subordinate to the distribution
+are subsets (subgroupoids) of the transitive Lie groupoid ZD obtained by considering all the possible nonsingular linear maps between all subspaces Dc in the
+distribution.
+A case of particular importance arises when the base manifold C is a fibre bundle
+π : C → B over an m-dimensional base manifold B, with m < n. At each point
+c ∈ C the tangent space Tc C has a canonically defined vertical subspace Vc , which
+can be identified with the tangent space Tc Cπ(c) to the fibre over b = π(c) (that
+is, the set π −1 ({b}), b ∈ B). A vector in Tc C belongs to the vertical subspace Vc
+(or: is vertical) if, and only if, its projection by π∗ is the zero vector of Tπ(c) B.
+The existence of these vertical subspaces allows us to define the canonical (n − m)dimensional vertical distribution V in the bundle C . Accordingly, a groupoid Z
+subordinated to V will be called a vertical groupoid.
+A vertical groupoid on a fibre bundle may or may not be transitive. An intermediate situation is worthy of consideration. We say that a vertical groupoid is
+fibrewise transitive if
+π(c1 ) = π(c2 ) =⇒ Zc1 c2 6 = ∅.
+
+(6)
+
+A fibrewise transitive vertical groupoid is transitive if, and only if, for every pair
+a, b ∈ B there exists a pair ca , cb ∈ C , with π(ca ) = a and π(cb ) = b, such that
+Zca cb 6 = ∅. The truth of this assertion follows from the associative property of the
+groupoid composition.
+2.3. Groupoids subordinate to an Ehresmann connection. In a fibre bundle π :
+C → B , if a vector in Tc C is not vertical, there is no canonical way to assign to it a
+vertical component. An Ehresmann connection provides this assignment.
+Formally, an Ehresmann connection H consists of a smooth horizontal distribution in C . This is a smooth assignment to each point c ∈ C of a subspace Hc ⊂ Tc C
+(called the horizontal subspace at c), of the same dimension as the base manifold B,
+
+UNIFIED GEOMETRIC FORMULATION OF MATERIAL UNIFORMITY AND EVOLUTION 21
+
+z
+C
+
+c1
+
+c2
+
+B
+
+Figure 1. An element (arrow) in a horizontal groupoid.
+such that
+Tc C = Hc ⊕ Vc .
+
+(7)
+
+In this equation, ⊕ denotes the direct sum of vector spaces. Each tangent vector
+v ∈ Tc C is, accordingly, uniquely decomposable as the sum of a horizontal part
+h(v) and a vertical part v(v). A vector is horizontal if its vertical part vanishes.
+The only vector that is simultaneously horizontal and vertical is the zero vector.
+Given a fibre bundle π : C → B endowed with an Ehresmann connection H, we
+define a horizontal groupoid α, β : Z → C as a groupoid whose elements z ∈ Z are
+nonsingular linear maps
+z : Hc1 → Hc2 .
+(8)
+Notice that no a priori restriction is imposed on c1 , c2 ∈ C , so that, in general, we
+may have π(c1 ) 6 = π(c2 ). Figure 1 illustrates this idea.
+A horizontal groupoid is fibrewise transitive if
+π(c1 ) = π(c2 ) =⇒ Zc1 c2 6 = ∅.
+
+(9)
+
+As in the case of a vertical groupoid, a fibrewise transitive horizontal groupoid is
+transitive if, and only if, for every pair a, b ∈ B there exists a pair ca , cb ∈ C , with
+π(ca ) = a and π(cb ) = b, such that Zca cb 6 = ∅.
+Note. Given an Ehresmann connection, it is possible to define a particular isomorphism between all the horizontal spaces at points lying on one and the same
+fibre. These Christoffel isomorphisms, however, may or may not belong to a given
+horizontal groupoid defined on the bundle.
+In a product bundle C = B × F we can always define a canonical Ehresman connection in an obvious way. Moreover, as dictated by convenience in particular applications, the roles of the base manifold and the typical fibre can be interchanged.
+
+22
+
+MARCELO EPSTEIN AND MANUEL DE LEÓN
+
+3. Uniformity and evolution
+3.1. The body-time manifold. The concepts introduced in Section 2 can, in principle, be exploited for various applications in continuum mechanics. Material bodies
+with internal structure, for example, are themselves modeled as fibre bundles. Classical space-time can be regarded as an affine bundle over the real line. General relativity provides an opportunity to regard a history as a world tube with identifiable
+world lines. For our purposes, however, which aim at a unified picture of material
+uniformity and evolution, we will content ourselves with a body-time manifold
+consisting of the product C = R × B of the time line R with an ordinary body B.
+Moreover, adopting a fixed inertial observer, we identify space-time with the product bundle S = R × R3 . In this simple setting, both time and space are admittedly
+absolute, but the essence of the unified geometric picture is not greatly altered.
+A history of the body can be regarded as a fibre-bundle morphism
+K :C→S
+such that the map between the base manifolds is the identity. Thus, for every instant
+of time t ∈ R, our morphism provides us with a map κt : B → R3 , assumed to be
+an embedding, whose derivative at X ∈ B is a linear map
+F = F(X, t) : TX B → Tκt (X ) R3 ∼
+= R3 ,
+called the deformation gradient at X ∈ B at time t.
+3.2. Constitutive considerations. The geometrical features of a material body described so far arise from the very nature of the body and of the physical space
+as continuous entities as well as from the kinematic manifestations of the former
+within the latter. An important feature of continuum mechanics is that the constitutive aspects of the material medium result in additional geometric structures. This
+material geometry arises essentially from a comparison of the material responses at
+different body points and at different instants of time. In view of the generality of
+the notion of groupoid and its ability to embrace both local and distant symmetries
+under the umbrella of a single mathematical entity, it is not unreasonable to expect
+that the material geometry alluded to above can be completely encapsulated within
+the compass of a single material groupoid.
+We have just shown how any history of the body gives rise, by differentiation, to
+a collection of linear maps F between the vertical subspaces of the body manifold
+and R3 . In a simple or first-grade body, we assume that the constitutive response
+at each body point and at each instant of time can be completely encoded in one
+or more functions of F. These functions may be scalar-valued (such as the energy density of a solid) or take values in a space of tensors (such as the stress).
+Without much loss of generality, we will assume the case of a single scalar-valued
+
+UNIFIED GEOMETRIC FORMULATION OF MATERIAL UNIFORMITY AND EVOLUTION 23
+
+function ψ = ψc (F) for each point c = (t, X ) ∈ C .3 We will assume all admissible
+constitutive functions ψc (F) belong to a prespecified function space 9, such as
+9 = C ∞ (GL(3; R)).
+A useful way to look at the constitutive response of a specific body-time manifold consists of considering the Cartesian product C9 = C × 9. The constitutive
+response is then a section σ of C9 , namely a map
+σ : C → C9 ,
+
+(10)
+
+such that pr1 ◦σ = idC , where pr1 denotes the first projection map in a product.
+In practice, this cross section is determined after choosing a particular reference
+configuration, that is, an identification of B with a domain in R3 . We will soon see
+the influence of this choice on the resulting geometric entities. Before proceeding,
+however, we need to review the notion of action of a groupoid on a set.
+3.3. Action of a groupoid on a set.
+3.3.1. Group actions. For the sake of clarity, we will first review the idea of right
+(or left) action of a group on a set, as it is widely used in physical applications.
+Since a groupoid is, in some sense, a generalization of a group, it should not be
+surprising that the extended idea of groupoid action on a set can be conceived. This
+extension, however, is far from trivial.
+If G is a group and A is a set, we say that G acts on the right on A if for each
+g ∈ G there is a map Rg : A → A such that (i) Re (a) = a for all a ∈ A, where e is the
+group identity; (ii) Rg ◦ Rh = Rhg for all g, h ∈ G . The order of the composition is
+the essential difference between a right and a left action. When there is no room for
+confusion, we also use the notation ag for Rg (a). With this notation, property (ii)
+neatly reads a(hg) = (ah)g.
+It is not difficult to show that each of the maps Rg is necessarily bijective. For
+this reason, these maps are also called transformations. Moreover, the inverse
+transformation is obtained as (Rg )−1 = Rg−1 . If we select a point a in A and
+follow its image ag = Rg (a) as g varies within G , we obtain a subset of A called
+the orbit through a, denoted by a G . Orbits are disjoint subsets. The relation of
+“belonging to the same orbit” is an equivalence relation. The orbits themselves are
+the equivalence classes. An often useful concept is the quotient set, which is the
+set whose elements are the orbits of A.
+The action of G on A is said to be effective if the condition Rg (a) = a for every
+a ∈ A implies g = e. The action is free if Rg (a) = a for some a ∈ A implies g = e.
+Finally, the action is transitive if for every a, b ∈ A there exists g ∈ G such that
+Rg (a) = b.
+3 The time dependence is often mediated by other variables which may obey additional evolution
+(constitutive) equations.
+
+24
+
+MARCELO EPSTEIN AND MANUEL DE LEÓN
+
+As a pertinent example of a right group action, consider the following right
+action of the general linear group G = GL(3; R) on the set 9 described above. An
+element of 9 is a possible constitutive equation ψ = ψ(F) for a material point.
+Let P ∈ GL(3; R). We define
+R P (ψ) = ψ(F P).
+
+(11)
+
+Thus, the right action assigns to each constitutive equation another constitutive
+equation that, in the parlance of continuum mechanics, differs from the original one
+by the adoption of a different local reference. The orbit ψ G , therefore, represents
+all the constitutive equations related in this way. From the physical standpoint, every orbit represents a different material, while the points in one orbit are different
+manifestations of the same constitutive law in different reference configurations.
+The symmetry group Gψ of a constitutive equation ψ is defined as the largest subgroup of G that leaves ψ invariant. In other words,
+G ∈ Gψ ⇐⇒ RG (ψ) = ψ.
+
+(12)
+
+3.3.2. Groupoid actions. A (left) action of a groupoid α, β : Z → B on a set A
+consists of two maps. The first map,
+ρ : A → B,
+
+(13)
+
+is known as an anchor map, assumed to be surjective. To introduce the second map,
+representing the action itself, we consider first the subset Z ∗ A of the Cartesian
+product Z × A defined as
+Z ∗ A = {(z, a) ∈ Z × A | ρ(a) = α(z)}.
+
+(14)
+
+An action map U , given by
+U : Z ∗ A → A,
+
+(15)
+
+must satisfy the following (rather expected) conditions:
+(1) Consistency:
+ρ(U (z, a)) = β(z) ∀(z, a) ∈ Z ∗ A.
+
+(16)
+
+U (yz, a) = U (y, U (z, a))
+
+(17)
+
+(2) Composition:
+whenever the operations are defined.
+(3) Unit:
+U (idρ(a) , a) = a
+
+∀a ∈ A.
+
+These properties are schematically represented in Figure 2.
+
+(18)
+
+UNIFIED GEOMETRIC FORMULATION OF MATERIAL UNIFORMITY AND EVOLUTION 25
+
+A
+ρ
+
+B
+
+Figure 2. Left action of a groupoid α, β : Z → B on a set A.
+3.4. The body-time material groupoids.
+3.4.1. Action of ZV on C9 . In Section 2.2 we introduced the canonical groupoid ZD
+subordinate to a distribution D defined as the collection of all possible nonsingular
+linear maps between all the subspaces in the distribution. We apply this notion to
+the case in which the manifold C is the body-time manifold and the distribution is
+identified with the vertical distribution V . The groupoid ZV has a natural action on
+the set C9 defined in Section 3.2. The anchor map is simply the trivial bundle projection in C9 . The action U (z, (c, ψ)) of an element z ∈ ZV on the pair (c, ψ) ∈ C9
+such that α(z) = c is defined as
+U (z, (c, ψ)) = (β(z), R P(z) (ψ)),
+
+(19)
+
+where R is the right group action defined in (11) and P(z) is the matrix associated
+with the element z in the vertical groupoid ZV . Note the apparent disagreement
+between the right character of the group action and the left action of the groupoid.
+3.4.2. The material groupoid. A particular material response, as we have seen, is
+a particular cross section σ of the product bundle C9 . Consider a subgroupoid W
+of ZV . We can certainly restrict the action U to W . The constitutive section σ
+may or may not be invariant under the action U of W . We define the material
+groupoid of a given body-time manifold with constitutive response σ as the largest
+subgroupoid W of ZV that leaves σ invariant under the action U . This definition
+makes sense because, on the one hand, the disjoint subgroupoid of the unit maps
+is always available (so that there is no danger that the material groupoid will be
+empty) and, on the other hand, given two subgroupoids with the desired property,
+the subgroupoid generated by their union also enjoys that property.
+A graphical way to visualize the material groupoid consists of drawing an arrow
+between each pair of points c1 and c2 in the body-time manifold C for every material isomorphism P between c1 and c2 . The collection of all arrows thus drawn
+constitutes the material groupoid. The groupoid is transitive if all point pairs are
+
+26
+
+MARCELO EPSTEIN AND MANUEL DE LEÓN
+
+arrowwise connected. The typical group of a transitive material groupoid is the
+symmetry group of any one of the body points.
+3.4.3. The material-type groupoid. Within the set 9 we can introduce an equivalence relation ∼ as follows.
+ψ1 ∼ ψ2 ⇐⇒ ∃H ∈ GL(3; R) | Gψ1 = H Gψ2 H −1 .
+
+(20)
+
+In other words, two constitutive equations are ∼-equivalent if, and only if, their
+respective symmetry groups are mutually conjugate. Define the quotient set
+9 ∼ = 9/∼.
+
+(21)
+
+The elements of the quotient set are equivalence classes ψ ∼ . Physically, two constitutive equations are in the same equivalence class if they represent the same type
+of material (e.g., isotropic, transversely isotropic, orthotropic).
+The groupoid ZV acts on C × 9 ∼ in an obvious way. Moreover, the constitutive
+section σ induces uniquely a section σ ∼ : C → C × 9 ∼ via the map ∼: ψ → ψ ∼ .
+We define the material-type groupoid as the largest subgroupoid of ZV that leaves
+the section σ ∼ invariant.
+As we have suggested for the case of the material groupoid, we may visualize
+the material-type groupoid by drawing an arrow between each pair of points c1
+and c2 in the body-time manifold C for every conjugation H between the symmetry
+groups Gc1 and Gc2 . The collection of all arrows thus drawn constitutes the materialtype groupoid. Clearly, the material groupoid is a subgroupoid of the materialtype groupoid, since materially isomorphic points have conjugate symmetry groups.
+The typical group of a transitive material-type groupoid is given by the normalizer
+of the symmetry group of any of the body points.
+3.5. Physical interpretation.
+3.5.1. The body-time material groupoid. The terminology used to describe various
+kinds of distant symmetries, relevant to, among other areas, the theories of continuous distributions of defects and the theories of biological growth and remodeling,
+is not completely standardized. We thus start by fixing a terminological scheme to
+interpret the differential-geometric picture in physically meaningful terms.
+In the introduction, we referred to the concepts of material isomorphism and uniformity as they pertain to the purely spatial (as opposed to temporal) component of
+the body-time description. Two points a and b of a material body B are materially
+isomorphic if there exists a nonsingular linear map P : Ta B → Tb B such that their
+respective constitutive functions, ψa (F) and ψb (F), are related by the identity
+ψb (F) = ψa (F P)
+
+(22)
+
+UNIFIED GEOMETRIC FORMULATION OF MATERIAL UNIFORMITY AND EVOLUTION 27
+
+for all deformation gradients F. Points a and b are, therefore, made of the same
+material. Within this context, a local material symmetry G at point a ∈ B can
+be regarded as a material endomorphism G : Ta B → Ta B. The collection of
+symmetries at a forms a group Ga . If a and b are materially isomorphic, their
+respective symmetry groups are conjugate. More specifically, if P is a material
+isomorphism, then Gb = P Ga P −1 . Conversely, if a and b are materially isomorphic,
+the cardinality of the set P of all possible material isomorphisms between a and b
+is the same as the cardinality of the respective (conjugate) symmetry groups. In
+fact, P can be generated from a given P according to the formula
+P = P Ga = Gb P = Gb P Ga .
+
+A body is called materially uniform if all of its points are materially isomorphic.
+Since material isomorphism is an equivalence relation, a body is materially uniform
+if and only if all its points are materially isomorphic to a fixed reference body point.
+The temporal counterpart of uniformity is a special kind of material evolution,
+whereby a material point remains materially isomorphic to a reference material
+point with the passage of time. This special kind of material evolution is common
+in the realm of biological tissues, with their natural tendency to adapt to their changing environments. A classical example is Wolff’s law of trabecular bone, whose
+trabeculae are thought to change their orientations to follow the principal directions
+of stress. The fact that the material remains materially isomorphic to its initial state
+does not preclude the possibility of growth and resorption, whereby material of the
+same kind is added or removed volumetrically to the material neighbourhood. But
+material isomorphism does preclude the transformation of the underlying material
+in terms of variation of its intrinsic material properties and chemical composition.
+In a simplified model, we may imagine a constitutive response idealized as an
+elastic spring with a characteristic rest length and a given stiffness constant. Material isomorphism would imply that, while the rest length may change in time, the
+stiffness constant must remain unchanged. We call this special type of material
+evolution remodeling. Any other kind of evolution we call aging. We will later
+identify a particular kind of aging as worthy of further attention.
+If we consider a transitive body-time material groupoid, its physical meaning
+is a body that is initially materially uniform and that evolves by pure remodeling
+(with no aging). In particular, it remains always materially uniform. Classical
+plastic evolution belongs to this material class and so does the model of tissue
+growth pioneered in [Rodriguez et al. 1994].
+Assume, on the other hand, that the material groupoid is only fibrewise transitive,
+a concept introduced in Section 2.2. The meaning of this situation is that, while
+the body is materially uniform at all times, there is a process of aging taking place
+at all points at the same pace. In constitutive terms, this will be the case if the
+
+28
+
+MARCELO EPSTEIN AND MANUEL DE LEÓN
+
+dependence of the constitutive equation ψ = ψ(F; t, X ) is expressed explicitly in
+terms of the observer time t, rather than mediated by some internal variable subject
+to evolution conditions. In other words, the material degradation takes place by the
+mere passage of time, without any coupling to other observable phenomena (such
+as the state of stress).
+Since the body-time manifold has been defined as a Cartesian product R × B,
+we may exchange the role of the base and the typical fibre and consider instead the
+product manifold B × R. In this product bundle, we have a natural horizontal distribution (Ehresmann connection) induced by the constant sections. The material
+groupoid can now be regarded, in the terminology of Section 2.3, as a horizontal
+groupoid. If this new material groupoid happens to be fibrewise transitive, we obtain the representation of a body that, without necessarily being materially uniform,
+evolves by pure remodeling, without aging. Notice that under these conditions if
+the body is initially nonuniform, it will never attain uniformity.
+3.5.2. The body-time material-type groupoid. We want to explore now the physical meaning of the material-type groupoid. Recall that the “arrows” of this groupoid
+represent only conjugation maps between the material symmetry groups of the
+source and target points. Put differently, the elements of this groupoid are not
+sensitive to any constitutive property, except the symmetries of the constitutive law.
+If the material-type groupoid is transitive, all that this implies is that the different
+material points are of the same symmetry type (isotropic, say). For all we know,
+part of the body may be made of cement and the rest of rubber. Moreover, as time
+goes on, the cement may be undergoing a process of curing and change its elastic
+properties. A functionally graded material obtained by varying the relative concentration of the components of a mixture belongs to the same category, even if the
+components undergo chemical reactions, as long as the symmetry type is preserved.
+If the material-type groupoid is only fibrewise transitive, we have a phenomenon of morphogenesis or symmetry breaking. In this instance, all the body points
+undergo a change of symmetry type simultaneously. In solid materials, where
+the collection of all possible symmetry groups is countable, this transition is, of
+necessity, abrupt. In some cases of phase transition these changes may be directly
+observable with the naked eye and be manifest as pattern formations. Reversing
+the role of the base and the fibre manifolds, a fibrewise transitive material-type
+groupoid represents a body with initially demarcated portions obeying different
+symmetry types and remaining so with the passage of time.
+References
+[Epstein and de León 2000] M. Epstein and M. de León, “Homogeneity without uniformity: towards
+a mathematical theory of functionally graded materials”, Internat. J. Solids Structures 37:51 (2000),
+7577–7591.
+
+UNIFIED GEOMETRIC FORMULATION OF MATERIAL UNIFORMITY AND EVOLUTION 29
+
+[Epstein and Elżanowski 2007] M. Epstein and M. Elżanowski, Material inhomogeneities and their
+evolution: a geometric approach, Springer, Berlin, 2007.
+[Mackenzie 1987] K. Mackenzie, Lie groupoids and Lie algebroids in differential geometry, London
+Mathematical Society Lecture Note Series 124, Cambridge University Press, 1987.
+[Mackenzie 2005] K. C. H. Mackenzie, General theory of Lie groupoids and Lie algebroids, London
+Mathematical Society Lecture Note Series 213, Cambridge University Press, 2005.
+[Noll 1967/68] W. Noll, “Materially uniform simple bodies with inhomogeneities”, Arch. Rational
+Mech. Anal. 27 (1967/68), 1–32.
+[Rodriguez et al. 1994] E. K. Rodriguez, A. Hoger, and A. D. McCulloch, “Stress-dependent finite
+growth in soft elastic tissues”, J. Biomech. 27:4 (1994), 455–467.
+[Turing 1952] A. M. Turing, “The chemical basis of morphogenesis”, Philos. Trans. Roy. Soc. London Ser. B 237:641 (1952), 37–72.
+[Wang and Bloom 1973/74] C. C. Wang and F. Bloom, “Material uniformity and inhomogeneity in
+anelastic bodies”, Arch. Rational Mech. Anal. 53 (1973/74), 246–276.
+[Weinstein 1996] A. Weinstein, “Groupoids: unifying internal and external symmetry. A tour through
+some examples”, Notices Amer. Math. Soc. 43:7 (1996), 744–752.
+Received 25 Jul 2015. Revised 9 Dec 2015. Accepted 6 Feb 2016.
+M ARCELO E PSTEIN : mepstein@ucalgary.ca
+Department of Mechanical and Manufacturing Engineering, University of Calgary,
+2500 University Drive NW, Calgary, AB T2N 1N4, Canada
+M ANUEL DE L EÓN : mdeleon@icmat.es
+Instituto de Ciencias Matemáticas, CSIC-UAM-UC3M-UCM, Nicolás Cabrera, 13-15,
+28049 Madrid, Spain
+
+M∩M
+
+msp
+
+

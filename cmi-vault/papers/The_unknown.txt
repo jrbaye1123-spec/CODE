@@ -1,0 +1,2584 @@
+coverredRGB180,30,30
+
+THE UNKNOWN
+
+THE UNKNOWN
+A Novel
+
+Every mission is a probe.
+Every death is data.
+The ones who return carry the map.
+
+Chapter 1
+
+Skyfall
+The ramp opened at twenty thousand feet.
+Sergeant Marcus Cole did not look down. He had learned, in twelve years of
+airborne operations across four continents, that the ground was an abstraction until you hit it. What mattered was the interval between exiting the
+aircraft and the chute deploying. Four seconds of controlled fall. Then the
+jerk, the silence, the long drift down beneath a canopy of black nylon.
+He had done this seventy-three times. He had never done it into an active
+combat zone against an enemy whose physiology he did not understand.
+The night sky over northern Scotland was unnaturally clear. Below them the
+lights of the small coastal town of Wick flickered in the darkness—not the
+steady glow of streetlamps and late-night windows, but something erratic.
+Something that pulsed in a rhythm that was not quite random and not quite
+patterned. Something that looked, from altitude, like a heartbeat.
+Lieutenant Elena Reyes stood at the ramp’s edge, one gloved hand on the
+release bar. She was twenty-six years old, three years out of West Point, and
+Cole had read her file three times because he did not trust the brass to send
+him someone useful. Top of her class in tactical planning. Distinguished
+at the Infantry Basic Officer Course. Zero combat drops. The generals had
+wanted an officer who could think under pressure. She could think. Whether
+she could think while falling at terminal velocity toward an alien structure
+4
+
+CHAPTER 1. SKYFALL
+
+remained to be seen.
+“Two minutes,” Reyes said. Her voice was steady over the intercom. Cole
+respected that immediately.
+The twelve men in the cabin checked their gear with the mechanical repetition of soldiers who had done it a thousand times before. Rifles. Sidearms.
+Comms gear. Medkits with tourniquets and clotting agents. The standardissue loadout for a night insertion into hostile territory.
+But they were also carrying things none of them had ever carried into combat.
+Portable spectrometers in hardened cases. Sealed biological sample containers cooled by liquid nitrogen. Radiation badges calibrated for spectra that the
+physicists said might exist but had never been measured. The gear of scientists, not soldiers. The gear of people who did not know what they were
+facing and were trying to prepare for everything.
+Three hours earlier, a Royal Navy patrol boat—the HMS Severn, River-class,
+hundred-man crew—had reported a light in the sky above the Pentland Firth.
+Not an aircraft. Not a satellite. Not any known celestial phenomenon. The
+light had descended, hovered for six minutes, and then settled on the coast
+near Wick. The Severn had approached to investigate. Its last transmission
+had been the words “visual contact, unknown structure” followed by thirty
+seconds of audio that the analysts described as “structured noise.”
+Then silence. The Severn had stopped reporting entirely.
+Satellite overflight showed a structure on the coast where no structure had
+existed twenty-four hours earlier. It was not a building in any conventional
+sense. The thermal signature was wrong—too uniform, too cool for an active
+installation, too warm for inert matter. The geometry did not resolve cleanly
+in any imaging spectrum. The analysts had used words like “crystalline” and
+“organic” and then, according to the intelligence officer who briefed Cole,
+they had stopped using words altogether and simply sent the images up the
+chain with a classification marking Cole had never seen before.
+Cole had studied those images in the pre-flight briefing. He had also seen the
+satellite photos of the Severn, drifting unmanned three miles offshore, its entire crew compartment fused into a single continuous surface. No seams. No
+rivets. No entry hatches. Just a vessel that had become a solid block of what
+5
+
+The Unknown
+
+the laboratory report called “transformed material—composition unknown,
+origin unknown, mechanism unknown.”
+The ramp light went green.
+Reyes stepped backward into the void without hesitation. Cole followed a
+half-second later, and behind him the eleven other soldiers of the first XCOM
+mission dropped into the Scottish night.
+The four-second freefall was the same as always. The chute deployed cleanly,
+the harness bit into his shoulders, and the world became silent except for
+the wind. Below him Scotland unrolled like a dark carpet stitched with the
+lights of Wick, and at its edge the structure pulsed with that same arrhythmic
+heartbeat they had seen from the aircraft.
+Cole counted chutes in the moonlight. He counted them twice because the
+number would not settle. Eleven chutes, and then a pause—longer than the
+interval between any two jumpers—and then nothing. Twelve men had exited
+the aircraft. Twelve chutes should be visible. But there were only eleven.
+The thirteenth soldier—Private First Class Thomas Nguyen, nineteen years
+old, born in Houston to Vietnamese immigrant parents, the one who had
+been cracking jokes about little green men during the pre-flight briefing,
+the one who had asked Cole whether the aliens would respect the Geneva
+Convention—his chute had not opened.
+They watched him fall past them. A dark shape accelerating, limbs flailing
+once and then stilling. He did not scream. The radio registered a single burst
+of static at the moment of impact, and then the channel went quiet except for
+the sound of eleven people breathing.
+Cole landed in a field of heather two hundred meters from the structure’s
+perimeter. He cut his chute with two slashes of his combat knife, unslung his
+rifle, and began to move before his knees had fully absorbed the impact. The
+heather was wet with sea mist. The ground was soft—good landing terrain,
+the kind he would have chosen for a training drop.
+The structure rose before him like something that had grown rather than
+been built. Spires of material that shifted between deep blue and ultraviolet,
+surfaces that seemed to ripple when observed directly but held still in peripheral vision. It was eighty meters across at its widest point, perhaps forty
+6
+
+CHAPTER 1. SKYFALL
+
+meters tall, and it radiated a low hum that Cole felt as a vibration in his chest
+rather than heard as sound.
+Reyes was already at the perimeter. She had beaten him to the ground by
+twelve seconds—she was lighter, faster under canopy, better at judging the
+wind. She was crouched behind a low stone wall, her rifle trained on the
+structure, her face unreadable in the moonlight.
+“Anything?” she asked when he reached her.
+“Lost Nguyen. Chute failure.”
+She did not react. Not visibly. Later Cole would understand that she had
+already processed the death, already filed it in the compartment of her mind
+labeled mission cost, already factored it into the calculus of what remained.
+The living needed her attention. The dead could wait until the mission was
+complete. It was not coldness—it was the discipline of command, and Cole
+recognized it because he had it too.
+The rest of the squad assembled around them. Eleven soldiers, one missing.
+The structure hummed.
+“Sir.” It was Corporal Desta, the team’s communications and electronic warfare specialist—a wiry Ethiopian-Israeli who had been recruited out of Unit
+8200 and who understood signal processing the way Cole understood infantry tactics. “I’m picking up a transmission. It’s not radio. It’s not microwave. It’s not any part of the electromagnetic spectrum I recognize. But
+it’s structured. It’s not noise.”
+“Meaning?”
+“Meaning something inside that thing is broadcasting. And whatever it’s
+broadcasting, it’s been doing it for a while. The signal has a carrier wave,
+modulation, what looks like framing. It’s a communication protocol. I just
+can’t read it.”
+Reyes looked at the structure. Then at Cole. Then at the spot two hundred
+meters to the east where Nguyen’s body had struck the ground.
+“Record everything,” she said. “Every signal, every reading, every second of
+this. We don’t know what matters. We don’t know what we’re going to need.
+So we record it all.”
+7
+
+The Unknown
+
+She paused. The hum from the structure deepened slightly, as though responding to her voice.
+“And then we go in.”
+They did not find a door. The door found them.
+Cole was the first to approach the structure’s surface. It was smooth, slightly
+warm to the touch—body temperature, or close to it—and when he pressed
+his palm flat against it, he felt a vibration that resonated not in his hand but
+in his chest, in the cavity behind his sternum, in a place that felt interior in
+a way he could not articulate. The surface was alive. Not biologically alive,
+perhaps, but responsive. Reactive. Aware.
+Corporal Desta was running the spectrometer along the surface, the device
+chattering to itself in clicks and whirs. “The material composition is shifting.
+It’s not static. The surface is changing in response to proximity. It’s reading
+us.”
+“Reading us how?”
+“I don’t know. But the signal pattern changed when you touched it. It’s—”
+He stopped. “Sir, a section of the surface just dissolved.”
+He was right. A portion of the structure’s exterior—roughly two meters wide
+and three meters tall—had simply ceased to be material. Not retracted, not
+opened, not moved aside. It had dissolved, the substance transitioning from
+solid to nothing in the space of a heartbeat. Beyond it, a corridor of bluetinged darkness stretched inward, its walls pulsing with the same arrhythmia
+as the structure’s exterior.
+Cole went first. He had always gone first. It was not bravery; it was the
+knowledge that if you asked other men to walk into the unknown, you had to
+be willing to walk into it yourself. The air inside was warm—uncomfortably
+warm, perhaps eighty-five degrees—and carried a smell that reminded him
+of ozone after a thunderstorm. The walls were not walls in any architectural sense. They were surfaces that registered his presence, shifting color
+as he passed from deep blue to pale violet, as though his passage left a wake
+in the material itself. He had the distinct impression—immediate, visceral,
+undeniable—that the structure was aware of him.
+The corridor extended for perhaps thirty meters before opening into a cham8
+
+CHAPTER 1. SKYFALL
+
+ber. The chamber was roughly circular, twenty meters across, its ceiling
+lost in darkness that their helmet lights could not penetrate. At its center,
+suspended in a column of light that had no visible source—the illumination
+seemed to originate from the air itself—something hung.
+It was not human. It was not anything Cole had trained to recognize in twelve
+years of combat across four continents. It was approximately the size and
+shape of a man but proportioned in ways that felt wrong at a level below
+conscious perception—limbs too long, torso too narrow, head too large and
+oddly articulated, as though it could pivot in directions the human neck did
+not permit. Its skin—if it was skin—had the iridescent quality of oil on water,
+shifting through colors that Cole had no names for.
+It was also dead.
+A wound had been torn through its chest—a roughly circular cavity approximately ten centimeters across, its edges blackened and cauterized. Whatever
+had killed this creature had done it with tremendous heat and tremendous
+precision. The wound was surgical. Intentional. The kind of wound you inflicted when you wanted something to stop existing and you wanted to be
+certain it had stopped.
+“Contact,” Cole said into his radio. His voice was steady. He was proud of that.
+“One hostile. Deceased. Cause of death unknown but not natural. Repeat, not
+natural. Something killed this thing.”
+Behind him, Desta was running the spectrometer over the body. The device’s
+clicking accelerated to a frantic rattle. “Sir. The body is emitting a signal.
+Same protocol as the structure. It’s broadcasting.”
+“It’s dead. How is it broadcasting?”
+“I don’t know. But the signal is still transmitting. Whatever killed it—the
+wound, the cauterization—didn’t stop the transmission. It’s still sending.”
+The structure shuddered. The light column flickered once, twice, and then
+stabilized. And from somewhere deeper inside the installation—from chambers they had not yet reached, from depths they had not yet plumbed—a
+sound reached them. It was not loud. It was not a roar or a shriek or a rumble.
+It was the opposite of silence. A presence that filled the air the way darkness
+fills a room when the lights go out.
+9
+
+The Unknown
+
+Reyes made the call. Cool, clipped, tactical. “We have a dead hostile and
+an active transmission from the corpse. Cole, take Desta and Nguyen’s replacement and sweep the next chamber. Everyone else, establish a defensive
+perimeter at this junction. We are not leaving without samples. We are not
+leaving without answers.”
+But Nguyen’s replacement—a private named Okafor who had been reassigned from the 82nd Airborne—was backing away from the corridor that
+led deeper into the structure. His face, visible in the blue-tinged light, was
+white.
+“Sir, there’s something down there. I saw it move.”
+Cole moved past him and into the next chamber. It was smaller than the first—
+perhaps ten meters across—and darker, the bioluminescence of the walls
+dimmed to near-absence. At its center, standing perfectly upright as though
+placed there deliberately, arranged with what Cole could only think of as
+ceremony, was a human figure.
+It was Private Nguyen.
+He was alive. His chute was gone—cut away, or dissolved, or simply absent.
+His uniform was intact, unmarked, as clean as it had been in the pre-flight
+briefing. His eyes were open—fully open, the pupils dilated to an extent that
+looked medically impossible. His chest rose and fell with slow, steady breathing. He stood in the center of the chamber, surrounded by five more of the
+creatures, all dead, all with the same cauterized chest wounds, and he was
+staring at something Cole could not see.
+“Nguyen.” Cole kept his voice low, calm, the voice he used with wounded
+soldiers who were in shock. “Can you hear me?”
+Nguyen’s head turned—slowly, as though moving through water—and his
+eyes focused on Cole’s face. His lips moved. Cole leaned in close, close
+enough to smell the ozone on his breath.
+“They know we’re here,” Nguyen said. His voice was not his own. It was too
+low, too resonant, as though something else was speaking through his vocal
+cords. “They’ve always known. From the moment your species first looked
+at the stars and wondered. They knew.”
+“Who knew? Nguyen, who knows?”
+10
+
+CHAPTER 1. SKYFALL
+
+“The ones who made this place. The ones who sent the creatures. They’ve
+been watching for a long time. They saw your wars. They saw your weapons.
+They decided you were ready.”
+“Ready for what?”
+Nguyen smiled. It was not a human smile. The muscles of his face moved
+in the right configuration, but the expression that resulted was wrong—too
+symmetrical, too precise, as though something that had studied human facial
+expressions was attempting to reproduce one from a manual.
+“Ready to be harvested.”
+His eyes rolled back in their sockets. His body went limp. Cole caught him
+before he hit the floor, and as he did, the structure around them began to
+scream.
+Not in sound. In light. Every surface in the chamber erupted into pulses
+of ultraviolet that overloaded their night-vision gear instantly, leaving afterimages burned into Cole’s retinas—ghost-images of the chamber, overlaid in
+negative, pulsing in time with his heartbeat. The creatures’ bodies began to
+glow. The walls convulsed. The floor beneath Cole’s feet shifted from solid
+to semi-liquid and back again, as though the structure was trying to decide
+whether to let them leave.
+Cole threw Nguyen’s limp body over his shoulder—the kid weighed nothing, a hundred and forty pounds soaking wet—and ran. Behind him, Desta
+was shouting something that the noise of the screaming structure swallowed.
+Ahead of him, Reyes was directing the squad toward the exit with hand signals because the radios had dissolved into static, into that same structured
+noise the analysts had heard on the Severn’s last transmission.
+They made it out. The structure sealed behind them in the same instant—the
+entrance re-materializing faster than it had dissolved, the surface returning to
+its smooth, rippling, arrhythmic pulse. The hum dropped back to its baseline.
+The screaming stopped.
+Eleven soldiers, one unconscious private who had fallen from twenty thousand feet without a parachute, five dead alien creatures they had been unable
+to retrieve, and the knowledge that something out there had been watching
+humanity for a very long time.
+11
+
+The Unknown
+
+The extraction helicopter found them at dawn.
+
+12
+
+Chapter 2
+
+The Seven
+The debriefing lasted six hours and answered nothing.
+Reyes was taken to a separate room by men in suits who did not introduce
+themselves. Desta’s spectrometer recordings were confiscated before he had
+finished downloading them. Nguyen was evacuated to a medical facility that
+Cole was not cleared to know about—somewhere in Germany, according to
+the flight plan he glimpsed on the extraction pilot’s clipboard, but the clipboard was classified and he was not supposed to have seen it.
+Cole himself spent four hours in a windowless room at RAF Lossiemouth,
+repeating the same answers to the same questions from three different sets
+of interrogators. What had he seen? What had he heard? What had the
+creature looked like? What had Nguyen said? Why had he gone deeper into
+the structure instead of securing the first chamber? Why had he not retrieved
+one of the dead creatures? Why had he not called for extraction the moment
+he realized Nguyen was alive?
+He answered all of it. He was a soldier. Answering questions was part of the
+job.
+What he learned, in the spaces between the questions, from the things the
+interrogators said to each other when they thought he was not listening, was
+this: the Scotland structure was not unique. It was one of seven.
+Simultaneous appearances. Coastal sites. Scotland, Brazil, Japan, South
+13
+
+The Unknown
+
+Africa, Alaska, India, and New Zealand. The same structures, the same
+organic-crystalline architecture, the same low arrhythmic hum. Local military forces had attempted to engage at three of the sites. None of those forces
+had returned. The Japan site had claimed an entire battalion of the Ground
+Self-Defense Force—eight hundred soldiers, disappeared into a structure that
+had subsequently sealed itself and gone dormant. The South Africa site had
+taken two companies of the Parachute Battalion. The India site had swallowed a naval commando unit without a trace.
+Total human casualties in the first twenty-four hours of what was being called
+First Contact: nine hundred and forty-seven. Plus whatever had happened to
+the crew of the HMS Severn.
+Cole listened to all of it from his chair in the windowless room, and when the
+interrogators finally released him, he walked to the base mess hall, got a cup
+of coffee that was three hours old and barely warm, and sat alone at a corner
+table staring at the wall.
+Reyes found him there. She had been debriefed even longer than he had—her
+uniform was rumpled, her eyes were red, and she was carrying a tablet with
+a screen full of satellite imagery.
+“There are seven of them,” she said, sitting down across from him without
+asking permission. “Seven structures, seven sites, seven different sets of local
+conditions. The one in Brazil is in the Amazon basin, a hundred kilometers
+from anything. The one in Japan is in Tokyo Bay, ten kilometers from the
+city center. They’re not following a pattern we can see.”
+“They’re following a pattern we can’t see,” Cole said. “There’s a difference.”
+“Yes. There is.” She put the tablet on the table between them. “The analysts
+are calling it First Contact. I think that’s wrong. Contact implies communication. This wasn’t communication. This was arrival. Occupation. Whatever
+they’re doing, they’re not interested in talking to us.”
+“Nguyen talked to them. Or they talked through him.”
+“Nguyen is unconscious and his brain scans look like something I don’t have
+clearance to describe. The doctors are using words like ’unprecedented’ and
+’non-terrestrial.’ That’s all I got before they kicked me out of the medical
+wing.”
+14
+
+CHAPTER 2. THE SEVEN
+
+Cole drank his coffee. It was terrible. He drank it anyway.
+“What happens now?”
+“I don’t know. But I got a look at the flight manifest for tomorrow. They’re
+flying both of us to Nevada. There’s a base there. Something that’s been
+under construction for six months. Before any of this started.”
+Cole looked at her. “They were expecting this.”
+“They were expecting something. I don’t think they knew what. But someone, somewhere, knew enough to start building.”
+The flight to Nevada was long and quiet. They flew in a military transport
+with blacked-out windows, and when they landed it was at an airfield that did
+not appear on any civilian map. The base was built under a mountain in the
+desert—a complex of tunnels and chambers that had been excavated in secret,
+staffed by personnel who wore no insignia and carried no identification. It
+was the most expensive thing Cole had ever seen that officially did not exist.
+The briefing room was deep underground, lit by fluorescent panels that
+hummed at a frequency just barely within the range of human hearing. At the
+front of the room, standing beside a projection screen that showed satellite
+imagery of all seven sites, was a civilian woman Cole did not recognize.
+She was tall, Black, in her late forties, and she wore a lab coat over civilian
+clothes with the easy authority of someone who had stopped caring about
+rank structures a long time ago. When she spoke, her voice was precise,
+accented with something that might have been Nigerian or might have been
+British or might have been a combination of both acquired over decades of
+international research.
+“My name is Dr. Katherine Okonkwo,” she said. “I am an astrophysicist and
+exobiologist. I was seconded to this project from MIT six months ago, when
+the first anomalous signals were detected. What I am about to tell you is
+classified at a level that does not officially exist. There are no oversight committees for this information. There are no congressional briefings. There are
+only the people in this room, and the decision we make in the next forty-eight
+hours will determine whether the human species survives.”
+She paused. The room was silent. Even the fluorescent hum seemed to quiet.
+15
+
+The Unknown
+
+“The structures are not installations. They are not bases. They are not
+weapons in any conventional sense. They are terraforming engines. The material they are producing—the transformed matter we observed on the HMS
+Severn—is soil conversion. They are changing the local environment to match
+conditions that are not native to Earth. At current expansion rates, the Scotland site will consume the entire British Isles within eighteen months. The
+Japan site will consume Honshu within fourteen. The global expansion will
+render the planet uninhabitable for terrestrial life in approximately six years.”
+A general—Cole never learned his name, would never learn his name, would
+come to think of him simply as “the General”—spoke from the front row.
+“How do we stop them?”
+“We don’t know what they are. We don’t know how they work. We don’t
+know if the occupants are alive, dead, or something we don’t have a word
+for. We don’t know if the creatures are the builders or the occupants or the
+weapon itself. What we know is that at the Scotland site, one of them was
+dead. Something killed it—something with a directed-energy weapon more
+advanced than anything in human arsenals. Something that is not us.”
+Cole raised his hand. Okonkwo looked at him with an expression of mild
+surprise, as though she had not expected soldiers to ask questions.
+“Ma’am. The creature in the chamber—the dead one. The wound was surgical. Precise. Someone knew exactly where to aim and exactly what effect the
+weapon would have. That’s not random violence. That’s execution.”
+“Yes,” Okonkwo said. “It is.”
+The decision was made in a room Cole was not invited to. He learned about
+it the next morning from a man in a suit who did not give his name, who
+appeared in the base mess hall while Cole was drinking another cup of terrible
+coffee, and who delivered the news in the same tone a bank teller might use
+to announce an account balance.
+There would be an organization. It would be multinational, off-books, with no
+official existence and no formal accountability to any government. It would
+recruit the best soldiers, scientists, and engineers from every contributing
+nation. It would operate in total secrecy—no press, no parliamentary oversight, no acknowledgment that the structures existed, no acknowledgment
+that humanity was facing an existential threat.
+16
+
+CHAPTER 2. THE SEVEN
+
+Its mandate was simple to state and impossible to execute: understand the
+structures, neutralize the terraforming engines, capture or kill any hostile
+entities, and reverse-engineer any technology that could be used to defend
+the planet.
+It would be called the Extraterrestrial Combat Unit.
+XCOM.
+Cole was the first soldier recruited. Reyes was the second. By the end of the
+week there were forty, drawn from the special operations forces of twelve
+nations, each one told that they were volunteering for something they would
+never be able to discuss, something that might kill them, something that
+might save the world or might not matter at all.
+All forty of them said yes.
+They flew to Nevada in a military transport with blacked-out windows. Cole
+sat across from Reyes in the red-lit cabin, the two of them the only passengers
+on an aircraft designed for sixty. The engines made conversation difficult, but
+Reyes leaned forward and spoke anyway.
+“You were a sergeant before this. Twelve years. Four continents. Why didn’t
+you take a commission?”
+Cole considered the question. It was not one he had been asked before—not
+directly. “I didn’t want to make the decisions. I wanted to execute them.
+There’s a clarity to being the one who carries out orders. You don’t have to
+wonder if you made the wrong call. You just do the job.”
+“And now?”
+“Now I’m making decisions anyway. The people above me keep dying.”
+Reyes nodded slowly. She did not offer sympathy—that was not her way, and
+Cole would not have wanted it if it were. Instead she said: “I’m twenty-six
+years old and I’ve been placed in command of a multinational strike force
+that doesn’t officially exist, fighting an enemy whose biology we don’t understand, with weapons that haven’t been invented yet. I’ve made more lifeand-death decisions in the past two weeks than my instructors at West Point
+made in their entire careers. I don’t know if I’m making the right ones. I just
+know I’m making them faster than the enemy can adapt.”
+17
+
+The Unknown
+
+“That’s all command is. Making decisions faster than the other side. The
+rightness comes later—if you survive long enough to find out.”
+She looked at him for a long moment. The engines changed pitch as the
+transport began its descent toward the Nevada desert. “If something happens to me—if I don’t come back from a mission—I need you to keep making
+decisions. The organization needs someone who can think tactically without
+freezing. I’ve read your file. You don’t freeze.”
+“Neither do you.”
+“No. But I might. Everyone has a limit. I don’t know what mine is yet. I’d
+rather plan for the possibility than pretend it doesn’t exist.”
+Cole leaned back in his seat. The transport shuddered as it hit a pocket of
+turbulence over the Sierra Nevada. “If something happens to you—and it
+won’t—I’ll do the job. But you should know that I’m not you. I don’t think
+the way you think. I don’t see the patterns the way you see them.”
+“You don’t have to be me. You just have to be there.”
+The transport touched down on a runway that did not appear on any map.
+The base was built into a mountain in the desert—the entrance a cavernous
+opening in the rock face, lit by floodlights that cast long shadows across the
+tarmac. Cole stepped off the aircraft and into the dry Nevada air, and behind
+him Reyes followed, and ahead of them the mountain waited with its tunnels
+and laboratories and the first forty soldiers of XCOM.
+The organization had no flag, no anthem, no official existence. But it had
+a mountain. It had soldiers. It had a reason to exist. And sometimes, Cole
+thought, that was enough to start.
+
+18
+
+Chapter 3
+
+Contact
+The first real mission came ten days later. The Brazil structure—designated
+Site Bravo, the second to appear—had begun emitting a new signal. Desta,
+now formally in charge of the signals analysis section (which consisted of
+himself, two analysts borrowed from the NSA, and a physicist from CERN
+who had never worked with military hardware before), described it as “an
+activation sequence, something’s about to happen.”
+Cole led a squad of eight into the Amazon basin. The structure there was
+larger than Scotland’s—a hundred and twenty meters across, its spires visible
+above the rainforest canopy from five kilometers out. The Brazilian army
+had established a cordon at ten kilometers and evacuated every settlement
+within twenty. The jungle was empty except for the soldiers and the structure
+and whatever was inside. The silence was deeper than any silence Cole had
+experienced in combat—not the silence of concealment, but the silence of
+absence. No birds. No insects. No animal calls. The rainforest, for kilometers
+in every direction, had gone still.
+This time they went in armed with more than rifles and questions. Dr.
+Okonkwo had designed a portable spectrometer array that could map the
+structure’s interior in real time, projecting a three-dimensional model onto
+the squad’s helmet displays. The engineering section had fabricated armor
+plates from a ceramic composite that, in laboratory tests, showed resistance
+to the transformed material—it did not stop the conversion, but it slowed it
+19
+
+The Unknown
+
+down, buying seconds that might matter. And they had Nguyen.
+Nguyen had spent ten days in isolation at the German medical facility. He
+remembered nothing of his time inside the Scotland structure—the doctors called it “dissociative amnesia secondary to non-terrestrial neurological
+exposure”—but his body had changed. His reaction times were faster, measurably and consistently, by nearly forty percent. His pupils dilated in low
+light to an extent the ophthalmologists could not explain. And when they
+showed him satellite images of the other six structures, his heart rate spiked
+and his skin conductance went off-scale. Something in him recognized them.
+The doctors could not explain it. Cole did not try to explain it. He just knew
+that Nguyen was the only person who had been inside one of the structures
+and come back, and that had to mean something, even if they did not know
+what.
+The Brazil structure had no visible entrance. Cole did not wait for it to find
+them the way the Scotland structure had. He placed a shaped charge against
+the iridescent surface, stepped back ten meters, and detonated it.
+The explosion tore a hole through the exterior—a ragged wound perhaps
+three meters across, its edges glowing with the same bioluminescence as the
+interior walls. Beyond it, the structure’s innards were visible: corridors of
+blue-tinged darkness, chambers branching off in geometries that did not quite
+resolve in the helmet displays, and a sense of depth that suggested the visible
+portion of the structure was only a fraction of its true extent.
+The interior was different from Scotland. In Scotland, the structure had been
+dormant—still, silent, dead except for the creatures’ corpses and the residual hum of the walls. This one was alive. The walls pulsed with visible
+circulation—channels of fluid moving through translucent surfaces, a circulatory system the size of a building. The air was thick with particulate matter
+that glittered in the beam of Cole’s helmet light. The floor beneath his boots
+was warm and slightly yielding, as though walking on living tissue. And from
+deeper within the structure, a sound—not the opposite of silence this time, but
+something more like a heartbeat, enormous and slow and arrhythmic.
+Desta’s voice came through the radio, compressed and flattened by the structure’s interference. “Sir, I’m reading power signatures throughout the entire
+installation. Multiple active systems. It’s not dormant. This one is fully op20
+
+CHAPTER 3. CONTACT
+
+erational.”
+“Understood. Everyone stay sharp. Nguyen, anything?”
+Nguyen was staring at a particular surface—a wall section that seemed different from the others, its bioluminescence shifting in patterns that were almost
+recognizable, almost like written language. His hand moved toward it with
+the slow, deliberate motion of someone reaching for something they already
+knew was there.
+“Don’t touch anything—”
+Too late. Nguyen’s fingers brushed the surface.
+The effect was instantaneous and catastrophic. Every device in the chamber—
+every glowing surface, every pulsing wall, every piece of alien technology
+they had not yet identified—activated simultaneously. The fluid in the wallchannels accelerated to a blur. The arrhythmic heartbeat became a roar. And
+the signal that Desta had described as “an activation sequence” became something else entirely—something that, in the debrief, he would describe as “a
+scream, but in the frequency domain.”
+“Contact front!” Reyes shouted.
+They came through the walls. Not through doors or openings—through
+the walls themselves, the material parting around them like water around a
+swimmer, closing seamlessly behind them once they had passed. Six of them.
+Taller than the dead creatures they had seen in Scotland, their limbs longer
+and more articulated, their skin a darker iridescence. They moved with a
+fluid, terrifying speed—not running, exactly, but flowing across the chamber
+floor in a way that suggested their relationship to physics was different from
+Cole’s.
+Cole fired. His rounds struck the lead creature in the chest—a tight threeround burst, the grouping so close the impacts were nearly superimposed—
+and passed through without resistance, as though hitting smoke. The creature did not slow.
+“Aim for the head!” Reyes was already firing, her M4 on semi-automatic,
+her shots grouped into a pattern the size of a fist. The first creature’s head
+snapped back—not dead, not even seriously wounded, but hurt, its forward
+motion arrested for a critical half-second.
+21
+
+The Unknown
+
+The squad opened fire. The chamber became a wall of sound—eight rifles
+on full automatic, muzzle flashes strobing in the blue bioluminescence, spent
+casings glittering on the warm organic floor. Two creatures went down under
+the concentrated fire, their heads reduced to iridescent ruin. The remaining
+four closed the distance with that terrible flowing motion, crossing twenty
+meters in what felt like two seconds.
+Private Kowalski was the first to fall. He was twenty-two years old, from
+a mining town in Pennsylvania, a former Army Ranger who had survived
+four tours in Central Asia. A creature’s limb—arm, tentacle, Cole could not
+determine and would never be able to determine—pierced his chest armor
+as though it were paper and emerged from his back in a spray of blood that
+was black in the blue light. Kowalski looked down at the wound with an
+expression not of pain but of mild, almost clinical surprise, as though his
+body had done something unexpected and he was still processing what it
+meant.
+Then he dropped.
+Corporal Desta grabbed Kowalski’s body by the drag handle on his armor
+and pulled it backward toward the exit while still firing one-handed with his
+sidearm. The spectrometer readings on the helmet display showed power
+fluctuations cascading across every system in the structure—the creatures
+were drawing energy from the walls themselves, feeding on the installation’s
+power grid like appliances plugging into a socket.
+“They’re linked to the structure!” Desta shouted over the roar of gunfire. “The
+structure is powering them! Damage the structure and you damage them!”
+Reyes heard it. She processed it in the time it took to exhale. She pulled a
+thermite grenade from her webbing, armed it with a single motion, and threw
+it not at the creatures but at the nearest wall surface—the same wall Nguyen
+had touched, the same surface that had activated the structure.
+The thermite ignited with a white-hot roar. The wall convulsed—visibly, violently, the material rippling outward from the impact point like the surface
+of water disturbed by a stone. And the creatures screamed. The first sound
+any of them had made—a high-frequency shriek that Cole registered in his
+teeth and his sinuses more than his ears, a sound that seemed to bypass the
+auditory system entirely and resonate directly in the bone.
+22
+
+CHAPTER 3. CONTACT
+
+“Fall back!” Reyes was already moving toward the breach. “Everyone fall
+back now!”
+They retreated. Cole carried Kowalski’s body himself—a hundred and eighty
+pounds of dead weight, armor and equipment and the body of a man who
+had been alive sixty seconds earlier. The creatures did not pursue beyond the
+damaged wall section, stopping at the boundary between intact and destroyed
+surface as though held back by an invisible barrier. As Cole dragged Kowalski
+through the breach and into the Amazon night, he looked back once and saw
+them standing there—four tall iridescent figures, motionless in the blue-lit
+chamber, watching the humans retreat with what he could only interpret as
+calculation.
+Eight soldiers went in. Seven came out alive. And the structure, wounded but
+not destroyed, continued its slow, arrhythmic pulse against the rainforest sky.
+In the helicopter back to the forward operating base, Reyes sat across from
+Cole in the red-lit cabin. Kowalski’s body was strapped to a litter between
+them. Reyes’s face was blank—the same blankness Cole had seen in Scotland,
+the same compartmentalization, the same filing away of human cost into a
+mental drawer labeled process later.
+“They’re not invincible,” she said.
+“Neither are we.”
+She looked at Kowalski’s body. The litter straps were too tight. Someone had
+buckled them the way you buckle a living soldier, not the way you secure a
+corpse. “We lost one. They lost two. That’s a ratio we can work with.”
+Cole said nothing. He was thinking about the wall Nguyen had touched.
+The way the devices had activated the moment human skin made contact.
+The way the creatures had appeared only after something was probed—not
+spontaneously, not as an ambush, but as a response. The structure had been
+dormant until they touched it. It had been waiting.
+The structure was reactive. It responded to probes. Which meant the mission
+was not just a combat engagement. It was an experiment. They had perturbed
+the system, and the system had answered.
+“It learned about us tonight,” Cole said. “It saw our weapons, our tactics, our
+response times. The next one we hit will have adapted.”
+23
+
+The Unknown
+
+Reyes looked at him for a long moment. The helicopter’s rotors beat a steady
+rhythm against the night.
+“Then we’d better learn faster than it does.”
+
+24
+
+Chapter 4
+
+The Ones Who Return
+The base grew. What had been a single underground complex in Nevada
+became a network of five installations spread across four continents—
+Switzerland for European operations, Japan for the Pacific theater, Brazil
+for South American coverage, Australia for the southern hemisphere, and
+Nevada for central command and primary research. Each base was built into
+a mountain, or under a desert, or beneath an ocean shelf—places that did not
+officially exist, staffed by people whose personnel files had been erased from
+every database.
+XCOM had been operational for three months. In that time, Cole had led,
+or participated in, fourteen missions against the structures. Nine of those
+missions had resulted in casualties. The numbers accumulated with the grim
+regularity of a ledger:
+Total soldiers deployed: 112.
+Total soldiers killed in action: 23.
+Total confirmed alien kills: 17.
+Kill-to-death ratio: 1.35 aliens per human.
+The math was not good. The math said each alien cost 1.35 human lives.
+The math said at current recruitment rates and current casualty rates, XCOM
+would cease to exist as an effective fighting force in approximately eleven
+months. The math said the human species was losing.
+25
+
+The Unknown
+
+But the math did not account for everything. It did not account for what they
+were learning.
+Dr. Okonkwo’s research division—now two hundred scientists and engineers
+across all five bases—had made breakthroughs that the casualty numbers obscured. The creatures were not the builders of the structures. That was the
+first thing they learned. The structures were biological-technological hybrids,
+grown rather than constructed, powered by a reaction that Okonkwo’s team
+could not yet replicate but had begun to understand in principle. The creatures were occupants—possibly workers, possibly soldiers, possibly members
+of a caste system whose taxonomy had no human equivalent. They served
+the structures. Or the structures served them. Or perhaps the distinction between occupant and structure was itself a category error, and the creatures
+were components of the installation the way white blood cells were components of a body.
+And the dead creatures were broadcasting. That was the second thing they
+learned.
+Every corpse emitted a signal—a continuous, low-power transmission on the
+same non-electromagnetic protocol Desta had detected in Scotland. His team
+had spent two months decoding it. What they found was not language in
+any human sense. It was not data in any conventional format. It was a positioning signal. A beacon. A message whose content, as near as Desta could
+determine, was: I am here. I am dead. Avenge me.
+The structures were listening. And they were responding.
+“They’re learning about us,” Okonkwo said at the weekly command briefing.
+She stood at the front of the underground conference room, her lab coat rumpled, her eyes shadowed with the fatigue of someone who had been working
+eighteen-hour days for three months straight. “Every engagement teaches
+them something about our tactics, our weapons, our vulnerabilities. The
+Scotland structure was dormant when we hit it—it barely responded to our
+presence. The Brazil structure was partially active. The South Africa structure, which we engaged last week, had adapted to our thermite tactic—they
+had developed a countermeasure. Some kind of thermal dissipation field that
+neutralized the thermite before it could damage the wall surface. We had to
+resort to massed small-arms fire to achieve the same structural damage. It
+26
+
+CHAPTER 4. THE ONES WHO RETURN
+
+cost us four soldiers.”
+She put up a graph on the main display. Two lines. One tracking alien adaptation rate—their weapons, their defensive capabilities, their tactical responses.
+One tracking human knowledge acquisition rate—the technologies they had
+reverse-engineered, the countermeasures they had developed, the tactical
+doctrines they had refined. The two lines were both rising. But the alien
+line was rising faster.
+“If this projection holds, we achieve technological parity in approximately
+four months. After that, if we survive—if we keep learning, keep adapting,
+keep bringing back samples and data—the lines cross. We start winning.”
+Cole looked at the graph. Then at the memorial wall visible through the briefing room’s interior window—a simple stone surface carved with names, two
+hundred and three of them now, each one representing a soldier who had
+died so that the learning curve could climb one more increment. Kowalski
+was there. Okafor was there—he had died in the South Africa engagement,
+killed by the same thermal dissipation field that had neutralized the thermite, his body recovered only because Desta had refused to leave it behind.
+Twenty-three names, and the wall had space for thousands more.
+“Surviving is the variable,” Cole said.
+Nguyen was the anomaly. Three months after Scotland, he still had no conscious memory of what had happened inside the structure. The dissociative
+amnesia persisted—whatever had been done to him, whatever had spoken
+through him, had left no retrievable trace. But his body remembered what
+his mind could not.
+His reaction times had improved by sixty percent over baseline. His visual
+acuity in low-light conditions exceeded the limits of the testing equipment.
+His pupils dilated to nearly the full diameter of his irises in darkness and
+contracted to pinpoints in bright light, faster and more completely than any
+human pupil had been documented to do. And when he was within five kilometers of an active alien structure, he could point to it unerringly, with his
+eyes closed, from any direction.
+The medical team called it “acquired sensitivity secondary to non-terrestrial
+biological exposure.” Cole called it the only advantage they had that the enemy did not know they possessed.
+27
+
+The Unknown
+
+So they used him. Nguyen became the squad’s reconnaissance specialist—not
+a combatant, his psychological profile was too unstable and his dissociation
+episodes too frequent, but a forward observer. He went on every mission.
+He pointed toward the structures before the instruments detected them. He
+warned of incoming hostiles before the motion sensors triggered. And occasionally, unpredictably, he spoke in a voice that was not his own about things
+he should not have been able to know.
+“They’re afraid of something,” he told Cole one night in the barracks. It was
+three in the morning. Nguyen had not slept in two days—the medical team
+had tried sedatives, but his altered metabolism processed them too quickly.
+“Not us. We’re a problem, but we’re not what they’re afraid of. There’s something else. Something that hurt them before.”
+“The directed-energy wounds on the dead creatures.”
+“Yes. Whatever made those wounds—it’s not human. It’s not them. It’s something else entirely. Something older than both of us.”
+“How do you know that?”
+Nguyen looked at him, and for a moment his eyes were not the eyes of a
+nineteen-year-old private from Houston. They were older. Much older. “Because I can hear it. In the signal. In the spaces between the signal. There
+are three voices in the network, not two. The creatures. The Dominion that
+controls them. And something else that hunts them both.”
+Cole reported the conversation to Reyes. She listened without interrupting,
+which was her way. Then she said: “Three sides. We’ve been thinking of this
+as a two-sided war. If Nguyen is right, it’s a three-sided war, and the third
+side has weapons that can one-shot kill the creatures. We need to find out
+what that third side is.”
+“We need to find out whose side it’s on.”
+“That too.”
+The fifteenth mission was the first that felt like a victory. They hit the Alaska
+structure—a smaller installation, isolated in the Brooks Range, under constant satellite surveillance since the day it appeared. Okonkwo’s weapons
+division had developed something new: a directed-energy projector, reverseengineered from fragments of alien technology recovered at the Brazil site.
+28
+
+CHAPTER 4. THE ONES WHO RETURN
+
+It was crude, bulky, unstable, and had an estimated thirty percent failure rate
+in field conditions. But when it worked, it produced the same kind of wound
+they had seen on the dead creature in Scotland—a clean, cauterized cavity at
+the point of impact, tissue simply ceasing to exist.
+Cole carried the prototype himself. It weighed eighteen kilograms and required a separate power pack that another soldier had to carry. When the
+creatures came through the walls—four of them, faster than the Brazil variants, their skin darker and their movements more fluid—Cole aimed the projector at the lead creature’s chest and fired.
+The beam was invisible. The effect was not. The creature’s torso—the center
+third of its body, from collarbone to pelvis—simply ceased to be. Vaporized.
+Cauterized. The same wound pattern, the same surgical precision. The creature dropped, its three redundant hearts destroyed simultaneously, its neural
+cluster obliterated.
+Three shots. Three kills. The fourth creature retreated into the structure’s
+depths, and the installation went dormant before they could pursue.
+The squad recovered seven intact devices from the Alaska site before the
+structure sealed itself. Seven pieces of alien technology—power sources, communication systems, something that might have been a weapon and might
+have been a tool and might have been both. Seven new lines on Okonkwo’s
+research graph. Seven new branches on the technology tree.
+And for the first time in three months of war, no one died. Everyone came
+back.
+In the debriefing room, Reyes smiled. Cole had never seen her smile before. It
+transformed her face—made her look younger, made her look like the twentysix-year-old lieutenant she actually was rather than the battle-hardened captain she had become.
+“We can kill them,” she said.
+“We killed three. There are six more active structures. We don’t know how
+many creatures are inside each one. We don’t know if more are coming.”
+“But we can kill them. That’s a fact now. We have a weapon that works. We
+have armor that slows their attacks. We have tactics that produce better than
+29
+
+The Unknown
+
+even exchange rates. For the first time, we can kill them more efficiently than
+they can kill us.”
+She was right. It was a fact. Not a turning point, not a victory, but a fact.
+Humanity could fight back. The math was changing.
+That night Cole walked the base corridors alone. It was a habit he had developed without intending to—a nightly circuit through the underground complex, past the laboratories where Okonkwo’s scientists worked around the
+clock, past the armory where the directed-energy projectors were being replicated (three more units under construction, the failure rate dropping with
+each iteration), past the barracks where Nguyen sat on his bunk staring at
+the wall and humming a tune that Cole did not recognize and did not want
+to ask about.
+And past the memorial wall. The names stretched from floor to ceiling now—
+twenty-three in the first column, space for hundreds more. He stopped at
+Kowalski’s photograph. The man had been twenty-two years old. He had
+a daughter, born two weeks after the Brazil mission, a child he had never
+met. Her picture was pinned next to his photograph—a hospital photograph,
+a newborn wrapped in a pink blanket, her face scrunched and red and utterly
+oblivious to the fact that her father had died in an underground chamber on
+another continent, killed by a creature from somewhere beyond the stars.
+The math said each alien cost 1.35 human lives. But the math was a lie.
+The people behind the numbers were not interchangeable units. Kowalski
+had been their best marksman—his accuracy under fire was nearly two standard deviations above the squad mean. Lieutenant Chen, killed in South
+Africa, had been the only person in XCOM who understood the alien powerdistribution system well enough to predict structural failures before they happened. Sergeant Okafor, killed in India while covering the squad’s retreat,
+had spoken four languages and had been the informal mediator who kept the
+multinational force from fracturing along national lines.
+Every death was not just a number added to a casualty column. Every death
+was a loss of capability—a skill set removed from the organization, a knowledge base deleted, a social connection severed. Every death widened a gap
+that could not be filled by a replacement body, because the replacement
+body did not have Kowalski’s marksmanship or Chen’s technical intuition
+30
+
+CHAPTER 4. THE ONES WHO RETURN
+
+or Okafor’s linguistic and diplomatic abilities.
+Cole understood, in a way the General and the politicians did not, that XCOM
+was not fighting a war of attrition. Attrition was a contest of numbers—bodies
+against bodies, production against production. XCOM was fighting a war of
+learning. The organization’s true resource was not soldiers or weapons. It
+was knowledge. The accumulated understanding of the enemy—their biology, their technology, their tactics, their vulnerabilities. And every soldier
+who died took their portion of that knowledge with them into the dark.
+The ones who returned were not just survivors. They were data carriers.
+They were the living record of what had been learned at the cost of those
+who had not returned. And the only way to win the war was to ensure that
+the rate of learning—the accumulation of knowledge per engagement, per
+death, per recovered artifact—exceeded the rate at which the enemy learned
+about them.
+Cole stood at the memorial wall for a long time. Then he walked back to his
+quarters, sat down at his desk, and began to write. Not a report—those went
+up the chain through official channels. This was something else. A record. A
+manual. Everything he had learned in three months of fighting an enemy he
+still did not understand. Everything that might be useful to the soldier who
+replaced him when his name was added to the wall.
+He wrote for four hours. When he finished, he sealed the document and filed
+it in a location that would be found, but only by someone who knew to look.
+The ones who return carry the map. Make sure the map survives.
+Cole did not sleep that night. He lay in his bunk in the underground barracks, staring at the ceiling of carved granite, listening to the distant hum of
+the base’s ventilation system. The map he had written—four hours of concentrated effort, everything he knew about fighting the aliens—was sealed
+and filed. But the map was not complete. It could never be complete. Every
+mission added new data. Every death narrowed the gap between what they
+knew and what they needed to know. The map was a living document, and
+the only way to update it was to survive.
+He thought about Kowalski’s daughter. He had never met her—she was in
+Pennsylvania with her mother, a civilian who had been told that her husband had died in a training accident, a cover story that Cole had personally
+31
+
+The Unknown
+
+approved because the truth was classified at a level that would never be declassified. The daughter would grow up not knowing what her father had
+died for. She would never visit the memorial wall. She would never know
+that her father had saved the lives of six squadmates by holding his position
+against a creature that moved through solid matter like a ghost. All she would
+know was that her father was gone, and the government’s explanation was
+a lie, and no one would ever tell her the truth.
+Cole added a new section to his mental map that night. Not a tactical section.
+Not a section about weapons or movement or alien anatomy. A section about
+what to tell the families. How to honor the dead when the dead’s achievements were classified beyond retrieval. How to carry the weight of secrets
+that protected the living but erased the dead.
+He did not write it down. Some things could not be written down. Some
+things had to be carried in memory alone, passed from commander to commander in the spaces between official briefings, in the long walks through
+underground corridors, in the hours of silence before a mission that might be
+the last.
+He was still awake when the morning shift change sounded. He got up,
+dressed, and walked to the training facility to meet the new class of recruits.
+The class was smaller than usual—the casualty rate had been high the previous month, and recruitment was not keeping pace. Twenty-three faces, some
+young enough that Cole could see the fear behind their professionally neutral
+expressions. He had learned to read that fear. It was not cowardice. It was
+the appropriate response to being told you were about to learn how to fight
+an enemy that could feel your heartbeat through walls.
+“My name is Major Cole,” he said. “I’ve been doing this since the day the first
+structure fell. I’ve lost more soldiers than any of you will ever command.
+I’ve killed more aliens than I can count. And I’m going to tell you the only
+thing that matters: the organization is what survives. Not you. Not me. The
+organization. If you learn nothing else in the next twelve weeks, learn that.
+Your job is to keep XCOM alive. The rest is details.”
+
+32
+
+Chapter 5
+
+The Autopsy
+The creature lay on a steel table in a room pressurized to negative two atmospheres, its iridescent skin dulled by the frost of minus forty degrees Celsius,
+and Dr. Katherine Okonkwo was cutting it open with instruments that had
+been designed for no known biology.
+Six weeks had passed since the Alaska mission. In that time, XCOM had
+engaged four more structures and recovered seven intact creature corpses—
+three soldier-class, two of the larger commander variants, and two that did
+not match any previously observed type. The medical division had attempted
+four autopsies. All four had failed. The creatures’ tissues degraded rapidly
+after death—a cascade of enzymatic dissolution that reduced the body to a
+slurry of complex proteins within hours. The proteins matched nothing in
+terrestrial biochemistry. They were not DNA-based. They were not RNAbased. They were organized around a four-component information-storage
+molecule that Okonkwo’s team had named “xenonucleic acid,” or XNA, and
+which they understood only well enough to know how much they did not
+understand.
+The solution to the degradation problem was discovered by a junior biochemist whose name Cole never learned—a twenty-three-year-old from the
+University of Tokyo who had been recruited straight out of her doctoral program and who had not seen sunlight in three months. Cold. The degradation enzymes were temperature-dependent. Below minus thirty-five degrees
+33
+
+The Unknown
+
+Celsius, they went dormant. Below minus forty, they stopped entirely. The
+autopsy suite had to be converted into a refrigerated clean room—the temperature kept at a constant minus forty, the air filtered to remove any particulate
+that might contaminate the samples, the instruments sterilized between every incision with a protocol that made human surgical suites look casual.
+Okonkwo worked in a thermal suit that made her look like an astronaut.
+Her breath fogged in the frigid air. Her instruments—scalpels, retractors, microtomes, all fabricated from materials that would not react with the alien
+biochemistry—moved with the precision of thirty years of surgical and research experience. She had been a cardiac surgeon before she was an astrophysicist, and an astrophysicist before she was an exobiologist. She had spent
+her career moving from one impossible problem to the next, and the pattern
+was always the same: observe, hypothesize, test, learn, repeat.
+Cole watched through the observation window. He was not required to be
+present—he was a combat commander, not a scientist—but he had volunteered for every autopsy observation since the first successful one. He wanted
+to understand what they were fighting. He wanted to see the enemy’s interior
+the way he had seen its exterior. He wanted to know where it was vulnerable.
+“The skeletal structure is not calcium-based.” Okonkwo’s voice came through
+the intercom, clinical and precise, her words accompanied by the wet sounds
+of tissue separation. “It appears to be a silicon-carbon composite—long-chain
+polymers organized in a lattice structure. Lightweight, highly flexible, and
+approximately four times the tensile strength of human cortical bone. The
+joints are not ball-and-socket articulations. They’re universal joints—the
+creature can rotate any limb through a full three hundred and sixty degrees
+in any plane. There is no anatomical position of rest. It can attack from any
+angle without repositioning its body.”
+She lifted an organ from the chest cavity—a translucent sac, roughly the size
+of a human heart, that pulsed faintly even in its frozen, dead state, as though
+some residual electrical activity persisted in the tissue. “This is one of the circulatory organs. I say ’one of’ because there are three—one in the upper chest,
+one in the mid-abdomen, one in the lower pelvis. They operate in sequence,
+not in parallel. Each one pumps independently. You would need to destroy
+all three to stop circulation. A single heart-shot, the way we’ve been training
+soldiers to aim, is insufficient. Center mass is useless. The only single-point
+34
+
+CHAPTER 5. THE AUTOPSY
+
+failure in the creature’s anatomy is the neural cluster here”—she indicated a
+region at the base of the skull, a dense knot of tissue that glowed faintly even
+in death—“which appears to function as the primary information-processing
+center. The creatures have no secondary brain, no distributed intelligence.
+Destroy this, and the creature dies immediately. The wounds we observed at
+Scotland and Alaska were all to this region. Whatever killed the first ones
+knew exactly where to aim. They knew the anatomy better than we do.”
+The General, observing from beside Cole, asked the obvious question. “What
+killed the first ones?”
+Okonkwo looked up at the observation window. Her face, behind the thermal
+suit’s faceplate, was unreadable. “That is the question, isn’t it.”
+She continued the dissection. Layer by layer, organ by organ, the creature
+yielded its secrets. The sensory apparatus was distributed across the entire
+body surface—the iridescent skin was not decorative but functional, a receptor array capable of detecting electromagnetic radiation from deep infrared
+through hard ultraviolet, pressure variations at the microscopic scale, and
+chemical signatures at concentrations of parts per billion. The creatures did
+not see the way humans saw, with two focused optical receptors. They did not
+hear the way humans heard, with two pressure-sensitive membranes. They
+perceived everything, all at once, across the entire surface of their bodies, in
+a continuous field of awareness that had no human analogue.
+“They feel the world,” Okonkwo said. “They don’t observe it through specialized sense organs. They’re immersed in sensory input—every square millimeter of their body surface is a receptor. They can probably detect individual
+humans from hundreds of meters away by the electromagnetic field generated by our nervous systems. They can probably feel our heartbeat through
+walls. Every mission we’ve run, every approach we’ve made under cover of
+darkness, through terrain we thought provided concealment—they knew we
+were coming. From the moment we entered their detection radius, which is
+probably kilometers, not meters, they were aware of our presence, our numbers, our movements, and our intentions.”
+Cole absorbed this. Every tactical assumption they had made—concealment,
+surprise, the advantage of darkness—was wrong. The creatures had let them
+approach. The creatures had allowed the engagements to happen on their
+35
+
+The Unknown
+
+own terms. Every battle had been a controlled experiment conducted by the
+enemy, and XCOM had been the subject.
+“Why do they let us get close?” Cole asked.
+Okonkwo was silent for a long moment. The only sound was the hiss of the
+refrigeration unit and the wet, precise noises of her instruments.
+“Because they’re studying us,” she said finally. “The same way we’re studying
+them. Every engagement gives them data about human capabilities, human
+tactics, human psychology. We’re not a threat to them—not yet—but we’re
+interesting. We’re different from anything they’ve encountered before. They
+want to understand us before they destroy us.”
+She resumed the dissection. The autopsy continued for another three hours.
+By the end, Okonkwo had catalogued seventeen distinct organ systems, none
+of which had direct human analogues. She had identified the mechanism by
+which the creatures interfaced with the structures—a specialized organ in the
+upper chest cavity, just below the first circulatory pump, that emitted and received the non-electromagnetic signals Desta had detected. The creatures
+were components of a network. They were born into it, lived within it, and
+died still connected to it. The broadcasting from the corpses was not a deliberate transmission. It was the network equivalent of a phantom limb—the
+creature’s interface organ continuing to send its identification signal into a
+network that no longer answered.
+And she had found something else. Something she did not announce over the
+general intercom. Something that made her request a private meeting with
+Cole, Reyes, and the General in a sealed conference room three levels below
+the autopsy suite.
+She put a photograph on the table. A microscope image, stained and enhanced, showing cellular structures from the creature’s neural tissue. At the
+center of the image, embedded in the neural architecture like a splinter in
+flesh, was a structure that did not belong there.
+“This is a viral particle. Or something functionally analogous to a virus. It’s
+present in every neural sample we’ve examined—every creature from every
+site, regardless of type or caste. It’s not part of the creature’s normal biochemistry. The organism’s immune system is actively fighting it—you can see the
+antibody analogues here and here—but the virus is winning. It’s integrated
+36
+
+CHAPTER 5. THE AUTOPSY
+
+into the neural architecture at a fundamental level. It’s been there for years.
+Decades. Possibly for the entire lifespan of every creature we’ve examined.”
+“What does it do?” Reyes asked.
+“I can’t say with certainty. But I can tell you what it looks like. It looks like
+an engineered retrovirus. Something designed to integrate into a host’s neural tissue and modify its function—suppressing certain behaviors, enhancing
+others, establishing a control interface. Something designed to make the host
+do things it would not otherwise choose to do.”
+The silence in the room was absolute.
+“Like build terraforming engines on alien planets,” Cole said.
+“Like that. Like attack human soldiers without regard for self-preservation.
+Like continue broadcasting into a network even after death. The creatures
+may not be invaders. They may be victims. The virus may be the enemy. And
+the thing that engineered the virus—the thing that controls the network—may
+be the real threat.”
+Reyes leaned forward. “The third voice Nguyen described. The Dominion.”
+“Yes. If I’m right, there are three parties in this conflict. Humanity. The
+creatures—an enslaved species, controlled by the virus, forced to serve as the
+Dominion’s shock troops and terraforming engineers. And the Dominion
+itself—whatever or whoever engineered the virus and deployed the creatures
+against us.”
+Cole looked at the photograph. The viral particle, frozen at twenty thousand
+times magnification, stared back at him like an accusation. They had been
+fighting the wrong enemy. The creatures were not the threat. The creatures
+were weapons—guided missiles made of flesh and XNA, aimed at Earth by
+something that had not yet shown itself.
+“And the dead creatures from Scotland?” Cole asked. “The ones with the
+directed-energy wounds? The ones that were executed?”
+Okonkwo’s face was grim. “I have a theory about that. The virus includes
+a failure condition. If the neural integration degrades—if the host begins to
+resist the control interface—the Dominion deploys an enforcer. Something
+designed to eliminate the compromised host before it can break free and po37
+
+The Unknown
+
+tentially compromise the network. The Scotland creatures were not killed by
+us or by a third party. They were killed by their own side. They were purged.”
+She paused. “And I need to talk to Nguyen. If he was exposed to the virus—
+if his body mounted an immune response, which his blood work strongly
+suggests—then he may be the first human to survive a Dominion infection.
+He may be the key to understanding how to fight it.”
+Nguyen was in the medical wing when Okonkwo found him. He had been
+there for three weeks, undergoing tests that the doctors could not explain to
+him because they could not explain them to themselves. They drew blood
+every six hours. They scanned his brain with every imaging technology in
+XCOM’s arsenal. They asked him questions about his dreams, his memories,
+his perception of time. He answered everything honestly because he had no
+reason not to, and because the doctors were the only people who treated him
+like a person rather than a weapon.
+Okonkwo sat across from him in the small examination room. She did not
+have a clipboard or a scanner or any of the instruments the other doctors
+carried. She just sat and looked at him for a long moment.
+“You’re different from the others,” Nguyen said.
+“I’m not a medical doctor. I’m a physicist. I study things that don’t exist yet.”
+“That’s why you’re here. Because whatever happened to me shouldn’t exist
+yet either.”
+“Yes.” Okonkwo leaned forward. “Private Nguyen, I need to ask you some
+questions that the other doctors haven’t asked. They may be difficult. They
+may be disturbing. You can refuse to answer any of them, and there will be
+no consequences. Do you understand?”
+“I understand.”
+“When you were inside the Scotland structure—when you were unconscious,
+or whatever state you were in—do you remember anything at all? Not events.
+Not sights or sounds. But feelings. Impressions. A sense of something being
+present.”
+Nguyen was silent for a long time. His pupils, always slightly dilated now,
+expanded further. “There was a voice. Not a voice I could hear. A voice that
+38
+
+CHAPTER 5. THE AUTOPSY
+
+spoke directly into my thoughts. It told me things.”
+“What did it tell you?”
+“That I was chosen. That my species was interesting. That we would be useful
+to the Dominion. That we should not resist because resistance was painful
+and futile. It showed me images—worlds that had been harvested, species
+that had gone extinct, civilizations that had been reduced to biological tools.
+It wanted me to be afraid.”
+“Were you afraid?”
+“Yes. But I was also angry. The voice didn’t seem to understand anger. It
+treated emotions as data points—things to be catalogued and filed. When I
+was angry, it got confused. It asked me why I was angry. I told it that I didn’t
+like being told I was going to be a slave. It didn’t understand the word ’slave.’
+The concept didn’t exist in its framework. The Dominion doesn’t think of
+what it does as enslavement. It thinks of it as optimization. Efficiency. The
+natural order of things.”
+Okonkwo sat back. Her expression was unreadable. “Nguyen, if I told you
+that your anger—that specific, human reaction to being told you would be
+enslaved—might be the key to defeating the Dominion, would you be willing
+to explore that? To let me study how your mind resisted the virus’s control?”
+“I’ve been studied for three weeks. What’s different about what you’re asking?”
+“I’m not asking to study your body. I’m asking to study your mind. Your
+anger. Your refusal. The thing in you that the Dominion couldn’t understand.
+I think that thing may be more important than any weapon we’ve ever built.”
+Nguyen looked at her for a long moment. Then he nodded. “Okay. Let’s find
+out what I am.”
+
+39
+
+Chapter 6
+
+Base
+There was no ceremony. No charter signed, no founding document, no moment when XCOM transitioned from an improvised response to an institution
+with permanence and weight. It accumulated mass gradually—personnel,
+equipment, facilities, knowledge—until one morning Cole walked into the
+command center and realized he was part of something that had the density
+and gravity of a small nation.
+The organization now encompassed five major installations on four continents, a standing force of four hundred combat soldiers, a research division
+of two hundred and fifty scientists and engineers, a manufacturing plant that
+produced three directed-energy weapons per week, and a logistics network
+capable of deploying a strike team to any point on the globe within six hours.
+It had its own culture—a shared vocabulary of alien types and combat tactics
+and survival techniques that no one outside XCOM understood. It had its
+own rituals—the pre-mission briefings, the post-mission debriefs, the memorial services for the fallen that Cole conducted himself because there was no
+chaplain who had the clearance to know what the soldiers had died for.
+Cole had been promoted twice without asking for either promotion. He was
+now a Major—the rank pinned to his collar by the General himself in a brief,
+awkward ceremony that Cole had tried to decline and been overruled on. He
+commanded the combat training division, a brutal twelve-week program that
+took soldiers from conventional special operations forces and taught them
+40
+
+CHAPTER 6. BASE
+
+to fight an enemy that saw in all spectra, moved through solid matter, and
+learned from every engagement. The washout rate was sixty percent. The
+casualty rate during training—from accidents, from equipment failures, from
+the simple lethal reality of practicing combat against simulated enemies that
+were faster and stronger than any human—was eight percent.
+Cole did not apologize for either number. He was not training soldiers to pass
+a course or earn a certification. He was training them to come back alive from
+missions where the baseline survival probability, across all engagements to
+date, was below seventy percent.
+“Rule one,” he told each new class of trainees on their first day. “They know
+you’re coming. They can sense your nervous system from a kilometer away.
+They can feel your heartbeat through concrete. Stealth is not concealment—
+stealth is speed. Move faster than they can reposition. Hit before they can
+concentrate their defenses. If you’re stationary for more than thirty seconds,
+you’re already dead and you just don’t know it yet.”
+“Rule two. Aim for the neural cluster at the base of the skull, just below the
+occipital ridge. Center mass is useless against an enemy with three redundant
+hearts. Head shots only. If you can’t make head shots consistently under
+fire—good fire, incoming fire, the kind of fire that makes your hands shake
+and your vision tunnel—you don’t belong in XCOM. We’ll send you back
+to your home unit with our thanks and no hard feelings. Better that than
+sending your body back in a box.”
+“Rule three. Your primary weapon is not your rifle or your directed-energy
+projector. It’s your data recorder. Everything you see, everything you hear,
+every enemy you kill and every enemy that kills one of your squadmates—it
+all goes into the record. The scientists learn from what you bring back. The
+next squad fights better, survives longer, because of what you recorded. Do
+not die with an empty recorder. If you’re going down, make sure your last
+act is to transmit your data. Make your death expensive for the enemy.”
+He watched them absorb it. Some of them nodded—the ones who had already made peace with the idea of their own death, who had joined XCOM
+knowing the casualty statistics and accepting them. Some looked sick—the
+ones who had not fully processed what they had volunteered for, who were
+hearing for the first time that the enemy could feel their heartbeat through
+41
+
+The Unknown
+
+walls. And some—always a few, in every class—had a particular expression
+that Cole had learned to recognize. It was not fear. It was not bravado. It was
+calculation. Those were the ones who were mentally modeling their own survival probability, adjusting their expectations, preparing themselves for what
+was coming.
+Those were the ones who usually made it.
+Reyes commanded the tactical division now. She planned the missions—
+which structures to hit, with what forces, on what timeline. She analyzed
+the intelligence from Desta’s signals section and Okonkwo’s research division
+and synthesized it into operational plans. She made the calls about acceptable
+risk and acceptable loss. She was twenty-seven years old and responsible for
+more life-and-death decisions per week than any general in human history.
+Cole had watched her make those decisions for nine months. She had a way
+of processing information that was almost algorithmic—input data on enemy
+disposition, friendly capability, terrain, and timing; output a mission plan
+with branching contingencies for every foreseeable outcome. She had been
+wrong, but never in a way that could have been avoided with better information. The mistakes she made were the mistakes that everyone would have
+made—the gaps in knowledge that could only be filled by running the mission
+and seeing what happened.
+Okonkwo ran research. Her division had grown from two hundred and fifty
+to nearly four hundred scientists across all five bases, organized into specialized teams: weapons development, materials science, biological analysis,
+signal processing, and a dozen others. They had reverse-engineered power
+systems from captured alien devices—compact, stable, capable of generating more energy from less mass than any human reactor. They had adapted
+propulsion technology from the creatures’ interface organs—a reactionless
+drive that operated on principles Okonkwo described as “non-Newtonian
+inertia manipulation” and that the engineers described as “magic, but reproducible magic.” They had fabricated armor from ceramic composites
+that incorporated structural principles observed in the alien skeletal lattice—
+lighter than steel, harder than tungsten, capable of absorbing and dissipating
+directed-energy impacts that would vaporize conventional materials.
+The directed-energy weapons were now in their third generation—smaller,
+42
+
+CHAPTER 6. BASE
+
+more reliable, with a failure rate under five percent. Every combat squad
+carried them as primary armament. The medical bay could regenerate tissue damage that would have meant amputation a year earlier, using techniques adapted from the creatures’ own remarkable ability to heal wounds
+that should have been fatal. Soldiers who would have been permanently disabled were returning to duty within weeks.
+And Nguyen was the subject of Okonkwo’s most classified research
+program—a project so secret that even Cole, with his command-level clearance, was not permitted to know all of its details.
+What he knew: Nguyen had been tested, scanned, sampled, and studied for
+six months. The viral particles Okonkwo had identified in the alien neural tissue were present in Nguyen’s bloodstream at trace concentrations—too
+low to be an active infection, too specific to the alien biochemistry to be a
+coincidental contaminant. His immune system had mounted a response—
+antibody analogues that the medical team had isolated and was attempting
+to synthesize. His acquired sensitivity was real, measurable, and continuing
+to develop. His reaction times had improved beyond anything in the medical literature—he could now perceive and respond to stimuli faster than the
+theoretical maximum for human neural conduction. Something in him had
+changed at a fundamental level.
+And he had begun to dream. Not normal dreams—not the fragmentary narratives of a sleeping human brain. He dreamed in signals. In the creatures’ communication protocol. He could describe, upon waking, the contents of transmissions he had never been exposed to—status reports from structures on the
+other side of the planet, coordination signals between creature units they had
+never engaged, fragments of what might have been memory or might have
+been instruction or might have been something else entirely.
+“I see their home,” he told Cole one night. They were in the barracks common
+room—Cole had been reviewing training reports, Nguyen had been sitting
+motionless in a chair for three hours, his eyes open and unfocused. “Not this
+planet. Not the structures. The place they came from, before the Dominion
+took them. It’s warm—warmer than Earth. The sky is a different color—more
+orange, more diffuse. There are cities, or what used to be cities. And there’s
+something behind them. Something that made them leave. Something they’re
+afraid of.”
+43
+
+The Unknown
+
+“The Dominion.”
+“Yes. But it’s not what I thought. It’s not a species. It’s not a government or
+an empire. It’s older than that. It’s been doing this for longer than our planet
+has existed. The creatures—the ones we’ve been fighting—they’re not the first
+species the Dominion has enslaved. They’re one of dozens. Maybe hundreds.
+The Dominion moves through the galaxy the way a harvester moves through
+a field. It doesn’t conquer. It consumes.”
+Cole reported the conversation to Okonkwo. She was not surprised.
+“The virus is a transmitter. That’s what we’ve been missing. It’s not just
+a control mechanism—it’s a network node. Every infected creature is connected to every other infected creature, and to the Dominion’s command
+structure, and—if Nguyen’s experience is accurate—to the accumulated memory of every species the Dominion has ever enslaved. The network is a library.
+A repository of knowledge spanning centuries and light-years. And Nguyen,
+because his immune system partially integrated the viral interface rather than
+rejecting it, has access to that library. He’s reading the Dominion’s mail.”
+“Can we use it?”
+Okonkwo paused. “We can try. But Major—the signal is bidirectional. If
+Nguyen can access the Dominion’s network, the Dominion may be able to
+access his. He may be a liability as much as an asset. He may be giving away
+our position, our plans, our vulnerabilities, every time he connects to the
+network.”
+Cole took the information to Reyes. They sat in her office—a small room
+carved into the mountain, furnished with a metal desk, two chairs, and a wall
+covered in operational maps and alien movement patterns. The fluorescent
+lights hummed at their usual irritating frequency.
+“Nguyen is compromised,” Cole said.
+“I know.”
+“He’s also our best intelligence source. The only direct window we have into
+the enemy’s command structure.”
+“I know.”
+“If the Dominion is reading him, they know everything we’ve discussed in
+44
+
+CHAPTER 6. BASE
+
+every briefing he’s attended. They know our force dispositions, our weapons
+capabilities, our operational tempo. They know everything.”
+“I know.” Reyes was silent for a moment. “But they knew most of that already.
+They’ve been studying us since first contact. They can sense our nervous
+systems from a kilometer away. They’ve been inside our heads longer than
+we’ve been inside theirs. Nguyen is a risk. But he’s a risk we have to take,
+because he’s also the only advantage we have that the Dominion may not
+fully understand.”
+She made the call—the kind of call that command consisted of. “We use him.
+But we control the exposure. He gets only the intelligence he needs for each
+mission—nothing about our strategic plans, nothing about our weapons development, nothing about Okonkwo’s counter-agent research. And we assume that anything he knows, the Dominion knows. We build our operational security around that assumption.”
+It was the right call. It was also a terrible call. It was the kind of call that
+Cole was learning command consisted of—choices between bad and worse,
+made with incomplete information, carrying consequences you would not
+fully understand until it was too late to change them.
+The base hummed with activity around them. Missions launched and returned. Soldiers died and were replaced by the next class of trainees.
+Okonkwo’s research graph climbed—the alien adaptation line and the human
+knowledge acquisition line drawing closer together with each passing week.
+The memorial wall accumulated names with the slow, terrible regularity of a
+metronome.
+And Cole, walking the corridors at night during his ritual circuit, understood
+something that none of the official briefings acknowledged. They were becoming something new. The organization was not just fighting the aliens. It
+was metabolizing them. Every creature they killed taught them something
+about biology and tactics. Every device they recovered became a branch of
+human technology. Every structure they neutralized became a research site,
+a source of materials and data. They were consuming the invasion and converting it into capability—into weapons, into knowledge, into institutional
+memory.
+The question was not whether they could destroy the enemy. The ques45
+
+The Unknown
+
+tion was whether they could metabolize the enemy fast enough—whether
+the learning curve would outpace the casualty curve, whether the organization they were building would survive long enough to matter, whether the
+species they were defending would still exist when the lines on Okonkwo’s
+graph finally crossed.
+Cole did not know the answer. No one knew the answer. The answer did not
+exist yet. But he knew how to find it. You sent soldiers into the dark. You
+recorded everything that happened. You learned from the ones who came
+back. And you kept going until one day the learning was enough.
+Or until the wall ran out of space for new names.
+Cole’s nightly circuit had become a ritual that the base personnel recognized
+and respected. When the Commander walked the corridors after midnight,
+people got out of his way. Not out of fear—Cole had never cultivated fear—
+but out of understanding. The Commander was doing something necessary.
+Something private. Something that kept the organization running in ways
+that logistics reports and personnel rosters could not capture.
+Desta was the only one who ever joined him. Their friendship had developed
+in the spaces between missions—two men who understood different aspects
+of the war, who spoke different technical languages, but who shared a fundamental commitment to the organization and to each other. Desta would
+find Cole at the memorial wall, usually around two in the morning, and they
+would walk together in companionable silence through the underground corridors.
+“The signal patterns are changing again,” Desta said one night. They were
+in the lowest level of the base, near the geothermal plant that powered the
+entire facility. The air was warm and carried the faint smell of minerals. “The
+structures have started coordinating in ways we haven’t seen before. It’s like
+they’re preparing for something.”
+“They’ve been preparing for something since the day they arrived.”
+“This is different. The coordination is tighter. More centralized. There’s a
+new transmission source—something that wasn’t in the network before. It’s
+not on Earth. It’s coming from outside the system.”
+Cole stopped walking. “The Dominion.”
+46
+
+CHAPTER 6. BASE
+
+“I think so. The real Dominion—not the enslaved species, not the virus. The
+thing that controls the network. It’s been watching us. Studying us. And it’s
+decided we’re enough of a threat to warrant direct intervention.”
+“How long?”
+“I can’t tell. The signal is too weak to resolve clearly. But it’s getting stronger.
+Whatever it is, it’s getting closer.”
+Cole stared at the rock wall of the corridor. The mountain above them held
+back millions of tons of stone. Below them, the geothermal plant hummed
+with the steady pulse of the planet’s interior heat. And somewhere in the
+darkness between stars, something was coming.
+“We need to accelerate the research,” Cole said. “The counter-agent. The
+weapons. Everything Okonkwo is working on. If the Dominion is coming
+directly, we don’t have months. We have weeks.”
+“I’ll reallocate my section’s resources. Prioritize the signals analysis that supports her work. We’ll find the patterns faster.”
+“Thank you.”
+Desta nodded. They continued walking. The corridor stretched ahead of
+them, lit by the same fluorescent panels that hummed at the same irritating
+frequency as everywhere else in the base. The war had been going on for over
+a year. The organization had grown from forty soldiers to four hundred. They
+had learned to kill the creatures, to breach the structures, to reverse-engineer
+the alien technology. But they had not yet learned how to win.
+Cole thought about the map he had written—the manual that would be found
+by whoever replaced him. He had updated it seventeen times since that first
+night. Each update incorporated new data from new missions. Each update
+made the map more complete. But the map would never be finished. The
+war would never be finished. There would always be more to learn, more to
+record, more to pass on to the soldiers who came after.
+The ones who return carry the map. Make sure the map survives. And keep
+walking the corridors until the job is done.
+
+47
+
+Chapter 7
+
+The Second Wave
+It came without warning. Not the gradual escalation they had expected, not
+the steady increase in alien activity the intelligence models had predicted.
+One moment the global satellite network showed six dormant structures and
+eleven neutralized sites. The next moment—synchronized to the millisecond,
+across every time zone, every continent, every remaining installation—every
+structure on Earth activated simultaneously.
+Desta saw it first. The signals analysis section had been monitoring the
+structures’ transmissions for months, cataloguing patterns, building predictive models, training machine-learning systems to recognize the subtle shifts
+in signal characteristics that preceded alien activity. When every metric on
+every display went off-scale at the same instant, Desta hit the general alert
+before he had finished processing what he was seeing. His hand found the
+alarm button by pure reflex, trained into muscle memory by a hundred drills.
+Cole was in the training facility when the klaxons sounded. He was demonstrating room-clearing tactics to a class of new recruits, walking them
+through the geometry of alien structure interiors (always curved, never
+rectilinear; always organic, never architectural; always designed to favor
+creatures that could move through walls and perceive in all spectra). The
+klaxon cut through his sentence mid-word, and he was running for the
+command center before the recruits had finished processing the sound.
+Reyes was already there, standing at the central tactical display—a curved
+48
+
+CHAPTER 7. THE SECOND WAVE
+
+wall of screens that showed the entire planet, every known alien site, every
+XCOM asset. Her face was the calm, focused mask she wore during operations. The calm was not genuine—Cole knew her well enough by now to
+read the tension in her shoulders and the slight clench of her jaw—but it was
+functional. It kept her thinking clearly. It kept the people around her from
+panicking.
+“They’re talking to each other,” Desta said. He was at his console, fingers
+flying across the interface, his voice tight with the particular excitement
+of someone who was terrified and fascinated simultaneously. “The structures have always been networked—we knew that. But the traffic was lowbandwidth, intermittent, like a mesh network operating at idle. Now the
+bandwidth just increased by something like three orders of magnitude. Every structure is transmitting to every other structure simultaneously. It’s a
+full-mesh network at saturation traffic.”
+“What are they saying?”
+“We can’t decode it. The protocol is still opaque to us. But the pattern—the
+timing, the burst structure, the routing—it looks like a coordination protocol.
+It looks like they’re aligning themselves for something.”
+The coordination took six hours. At the end of it—at precisely 1400 Greenwich Mean Time, as though the aliens had deliberately chosen a moment
+when the entire planet would be awake to witness what was happening—
+seventeen new structures appeared.
+Not in remote areas this time. Not on uninhabited coastlines or deep in rainforests or hidden in mountain ranges. In cities. London. Tokyo. Mumbai. São
+Paulo. Lagos. Los Angeles. Moscow. Beijing. Seventeen of the largest urban
+centers on Earth, each one now host to an alien terraforming engine that had
+materialized in its geographic center and begun converting the surrounding
+area immediately.
+The London structure appeared directly on top of Trafalgar Square at noon
+local time. Within six minutes, the surrounding four city blocks had been
+converted—buildings, vehicles, pedestrians, the bronze lions at the base of
+Nelson’s Column—all fused into the same seamless transformed material they
+had observed on the HMS Severn eighteen months earlier. The Tokyo structure materialized in Shibuya Crossing during peak pedestrian traffic. The Los
+49
+
+The Unknown
+
+Angeles structure appeared on the 405 freeway at rush hour, and the resulting traffic catastrophe killed more people in the first hour than the structure
+itself.
+The preliminary casualty estimate, compiled by XCOM’s intelligence section
+in the first twenty-four hours, was two million. It was almost certainly an
+undercount.
+XCOM went to full mobilization. Every soldier, every aircraft, every weapon
+brought to operational status. The mission profile shifted from reconnaissance with tactical engagement to full-spectrum defense of the human
+species. There were no longer any structures that could be ignored or deferred. There were structures in the middle of cities. Structures that were
+converting thousands of civilians per hour. Structures that had to be neutralized immediately, regardless of risk, regardless of cost.
+Cole led the response team in Los Angeles. His squad deployed from the
+Nevada base in under ninety minutes—the new transport aircraft, reverseengineered from alien propulsion systems, could cross the continental United
+States in the time it took a conventional aircraft to reach cruising altitude.
+The LA structure had appeared on the 405 near the Sepulveda Pass, and by
+the time Cole’s squad arrived, the surrounding eight blocks of the San Fernando Valley had been converted. The transformed zone was visible from
+miles away—a smear of iridescent material covering houses, strip malls, gas
+stations, schools, everything within the expanding radius of the terraforming
+field.
+The creatures defending the structure were different from anything they had
+encountered before. Larger. Faster. Their skin had darkened from the pale iridescence of the early variants to a deep, almost black shimmer. They moved
+with a coordination that was not just tactical but telepathic—their actions
+synchronized down to the millisecond, as though they shared a single consciousness distributed across multiple bodies. And they were no longer content to wait for XCOM to engage. They were hunting. Actively, aggressively,
+moving through the converted zone in coordinated packs, killing anything
+that moved.
+Cole’s squad engaged at the perimeter of the transformed area. The first exchange lasted ninety seconds. Three creatures killed. Two XCOM soldiers
+50
+
+CHAPTER 7. THE SECOND WAVE
+
+dead—Privates Martinez and Singh, both from his most recent training class,
+both with less than four weeks of operational experience. The creatures’ new
+variant was not just faster and stronger. It was smarter. It used cover. It coordinated flanking maneuvers. It retreated when outmatched and counterattacked when the squad’s attention was divided.
+“They’ve been upgraded,” Cole said into his radio. His voice was steady—the
+battle calm that twelve years of combat had trained into him. “New weapons,
+new tactics, new coordination. Assume everything you know about the enemy is obsolete.”
+He called for air support. The response was a flight of four XCOM strike
+aircraft—the new generation, powered by the reactionless drives Okonkwo’s
+team had adapted from captured technology. They moved across the sky in
+perfect silence, their propulsion systems producing no sound and no visible
+exhaust. Their ordnance was equally alien-derived: directed-energy bombs
+that produced the same surgical vaporization effect as the handheld weapons,
+scaled up to building-sized targets.
+The strike leveled the Los Angeles structure. The creatures inside died—or at
+least, their signals stopped. The terraforming field collapsed. But the damage
+was done. Eight square blocks of the San Fernando Valley had been converted
+to iridescent material. The death toll in Los Angeles alone was estimated at
+forty thousand.
+And the structure was already beginning to regenerate. Okonkwo’s analysis,
+delivered over the secure channel while Cole was still coordinating the mopup operation, was grim.
+“The new structures have self-repair capabilities the early ones lacked. The
+London structure was hit by a Royal Air Force strike package four hours ago—
+direct hits, confirmed destruction of the surface installation. It’s already back
+to sixty percent of its original mass. We can’t kill them with external attacks
+anymore. We need to go inside, every time, and destroy the power core from
+within. The way you did in Scotland.”
+“That costs soldiers every time,” Cole said.
+“Yes. It does.”
+The war entered a new phase—not a war of learning, but a war of survival.
+51
+
+The Unknown
+
+XCOM still won engagements more often than it lost them. The kill-to-death
+ratio had improved to 1.8 aliens per human—a significant advance over the
+early days, a testimony to the weapons and tactics and armor that Okonkwo’s
+researchers and Cole’s trainers had developed. But the scale of the conflict
+had expanded beyond anything the organization had been designed to handle. The engagements were larger. The casualty counts—human and alien
+both—were higher. The structures were appearing faster than XCOM could
+neutralize them.
+And the secrecy that had protected XCOM’s first year of operations became
+impossible to maintain. You cannot hide alien structures materializing in the
+middle of London and Tokyo and Los Angeles. You cannot classify the deaths
+of two million civilians as a training accident. The world learned about the invasion. The response was what anyone who understood human nature would
+have predicted: panic, denial, demands for immediate action, accusations of
+criminal cover-up, political chaos in every affected nation. XCOM was exposed, debated, investigated, condemned, and—grudgingly, when it became
+clear that no one else had any ability to fight the aliens—funded at a level that
+made its previous black budget look like a rounding error.
+Cole did not care about the politics. He cared about the memorial wall.
+The names were accumulating faster now—the second wave had cost XCOM
+eighty-seven soldiers in the first month alone. The training program could
+not replace them quickly enough. The standards were lowered—not by
+choice, but by necessity. The washout rate dropped from sixty percent to
+thirty percent. Cole hated every soldier he graduated who he knew was not
+ready, but he understood the math. A poorly trained soldier who might survive one mission was better than no soldier at all. Barely. The math was
+always barely.
+Nguyen was sequestered now—not as a subject, but as an asset too valuable to
+risk in combat. Okonkwo had built an interface chamber in the deepest level
+of the Nevada base: a room lined with signal amplifiers and neural monitors,
+where Nguyen could sit in controlled conditions and perceive the alien network with greater clarity than he could in the field. He spent hours in the
+chamber each day, suspended in a reclined chair, his eyes open and unfocused, describing what he saw to the team of analysts who transcribed and
+catalogued every word.
+52
+
+CHAPTER 7. THE SECOND WAVE
+
+“They’re not the masters,” he said during one session. Cole was observing
+through the chamber’s window, listening on the intercom. “The creatures—
+the ones we’ve been fighting, the soldier-class and the commander-class and
+all the variants—they’re tools. Instruments. The Dominion deploys them
+the way we deploy drones. The Dominion itself is something else entirely.
+Something that hasn’t arrived yet.”
+“What is it?” Okonkwo’s voice, calm and clinical.
+“I can’t see it clearly. Not yet. It’s too large—too distributed. It’s not a single
+entity. It’s a civilization. A culture. A way of existing that’s been consuming
+planets for longer than our species has existed. The structures are not invasion weapons. They’re terraforming engines—they convert a planet’s surface
+to match the Dominion’s environmental requirements. But the Dominion
+doesn’t live on the planets it terraforms. It consumes the terraformed material. Harvests it. The creatures are the harvesters. We’re the crop.”
+“The Dominion is a predator species.”
+“Worse. It’s a parasite. It doesn’t kill its host species. It enslaves them. Every
+creature we’ve been fighting is a member of a different species—a different
+civilization that the Dominion conquered and turned into tools. The virus
+is the control mechanism. It rewrites their neural architecture so they can’t
+disobey. They’ve been slaves for so long they’ve forgotten they were ever
+anything else.”
+He paused. His body went rigid in the chair. His eyes, still open, dilated to
+full black.
+“It’s coming. The Dominion. The real one—not the harvesters, not the slave
+soldiers. The thing that controls the network. It’s been watching us since first
+contact. It’s been learning from every engagement. And it’s decided we’re
+a threat. A real threat. The first species in thousands of years that’s fought
+back effectively. The first species that might—”
+He stopped. His body convulsed once, twice, and then went still. The medical
+monitors flatlined for three terrifying seconds before his heart restarted, his
+breathing resumed, and his eyes returned to their normal state.
+“Nguyen?” Okonkwo’s voice was sharp with concern. “What happened?”
+“It saw me. The Dominion. It was looking back through the network. It
+53
+
+The Unknown
+
+knows I’m connected. It knows what we’re doing.”
+He turned his head toward the observation window. His eyes met Cole’s
+through the glass.
+“It’s coming here. Not in months. Not in weeks. In days. And it’s bringing
+everything it has.”
+The command center went silent. Every officer, every analyst, every technician processing Nguyen’s words. Days. The Dominion was days away, and
+they had not yet solved the counter-agent delivery problem, had not yet assembled the freed creature strike force, had not yet designed the weapon that
+could destroy a harvesting vessel from the inside.
+The General was the first to speak. His voice was calm—the calm of someone who had been preparing for bad news his entire career and was finally
+receiving it. “Dr. Okonkwo. Status on the counter-agent.”
+“In vitro success is confirmed. In vivo delivery remains the obstacle. We
+cannot neutralize the virus faster than the termination sequence can kill the
+host. I need more time.”
+“You have days. Not months.”
+“Then I need more resources. More computing power for the molecular dynamics simulations. More tissue samples from recently deceased creatures.
+More personnel—I need every biochemist and virologist in the organization
+reassigned to my division effective immediately.”
+“Done. What else?”
+“I need Nguyen. Full-time, in the interface chamber, for as long as he can
+tolerate it. If he can perceive the Dominion’s network, he may be able to
+perceive the virus’s control architecture in more detail. That detail may tell
+us how to break the termination sequence.”
+The General turned to Cole. “You are authorized to deploy any asset, any
+personnel, any resource you need. We have days. Make them count.”
+The next seventy-two hours were a blur of activity unlike anything Cole
+had experienced in two years of war. Okonkwo’s team worked in rotating shifts, sleeping on cots in the laboratory, their faces pale with exhaustion and the strange, focused energy of people who knew they were racing
+54
+
+CHAPTER 7. THE SECOND WAVE
+
+against an extinction event. Nguyen spent eighteen hours in the interface
+chamber, then collapsed for four hours of dreamless sleep, then returned
+for another eighteen. His descriptions of the Dominion’s network became
+more detailed, more precise—he could now distinguish between the different enslaved species, could trace the command pathways that connected the
+harvesting vessel to its distributed control nodes, could identify the specific
+signal patterns that corresponded to the virus’s termination sequence.
+Desta’s signals section worked in parallel, decoding the alien communication
+protocols that Nguyen’s observations revealed. Every few hours, Desta would
+emerge from his section with a new piece of the puzzle—a frequency map, a
+routing table, a command syntax—and Okonkwo’s team would incorporate
+it into their models.
+And Cole coordinated it all, moving between the research division and the
+signals section and the manufacturing plant and the training facility, making
+decisions about resource allocation and personnel assignments and the hundred other details that someone had to manage so that the specialists could
+focus on their specialties. He had not slept in two days. He had not eaten in
+twelve hours. He did not notice either absence. There was work to do, and
+the body could complain later.
+On the morning of the third day, Okonkwo emerged from her laboratory
+with a vial in her hand. The counter-agent. Version nineteen. Tested on
+tissue samples, simulated against every termination sequence variant they
+had catalogued. The probability of successful neutralization, according to
+her models, was above sixty percent.
+Sixty percent was not good enough. But it was what they had. And what
+they had would have to be enough, because the Dominion vessel had entered
+the outer solar system and would reach Earth orbit in seventy-two hours.
+
+55
+
+Chapter 8
+
+Permadeath
+Captain Elena Reyes died on a Tuesday, at 0347 local time, in the ruins of a
+shopping mall in the Haidian District of Beijing. She was twenty-eight years
+old. She had been fighting the alien invasion for twenty months, four days,
+and approximately eleven hours. She had led or planned more than sixty
+combat missions. She had personally killed at least twelve alien creatures. She
+had been responsible, directly or indirectly, for the survival of every human
+being on Earth.
+And she bled to death in ninety seconds from a wound that no medic could
+have treated in the time available.
+The Beijing mission had been a full-spectrum assault on the structure that
+had materialized in the city center during the Second Wave. It was the largest
+structure on the planet—nearly three hundred meters across, its terraforming field expanding at a rate of fifty meters per day, its creature garrison estimated at over a hundred hostiles. The Chinese government had demanded
+action. XCOM had responded with the largest strike force in its operational
+history: sixty soldiers, twelve aircraft, three mobile command units. Reyes
+commanded from the forward tactical center, a converted shopping mall basement two kilometers from the structure’s perimeter.
+The mission succeeded. The structure was destroyed—its power core
+breached by a strike team that fought their way through seventeen creatures
+and three internal defense systems to reach the central chamber. Eighteen
+56
+
+CHAPTER 8. PERMADEATH
+
+hostiles were confirmed killed. Forty-three civilians were extracted from the
+conversion zone before the terraforming field could claim them. It was, by
+every operational metric, a victory—one of the most significant XCOM had
+achieved since the war began.
+But in the final exchange, as the strike team was withdrawing and the creature garrison was mounting its last desperate counterattack, a soldier-class
+hostile emerged from a wall surface directly behind the tactical center’s position. It had flanked them through the structure’s interior—the creatures could
+move through the transformed material the way humans moved through air,
+a capability they had never demonstrated before, a capability that had not
+appeared in any intelligence report.
+The creature killed the two perimeter guards before anyone registered its
+presence. It killed the communications officer before anyone could call for
+help. And then it killed Reyes—a single strike, its limb piercing her body
+armor at the left shoulder, severing the subclavian artery and collapsing the
+upper lobe of her left lung. She was conscious for perhaps thirty seconds after
+the impact. She used those seconds to fire her sidearm into the creature’s
+neural cluster, killing it before it could reach the rest of her command staff.
+Her last act as a soldier was to eliminate the threat that had killed her. Her
+last act as a commander was to protect her people.
+The medic reached her forty-five seconds after the artery was severed. It was
+not enough time. It would never have been enough time, no matter how fast
+the response, no matter how skilled the medic. The wound was catastrophic—
+the kind of wound that kills regardless of medical intervention. The evacuation time to a surgical facility was six minutes. She had ninety seconds of
+consciousness and perhaps thirty seconds more of viable circulation. She died
+before the medic had finished unpacking his equipment.
+Cole was in the Nevada command center when the report came in. He had
+been coordinating the European theater operations—a simultaneous strike
+on the London and Moscow structures, the first time XCOM had attempted
+two major engagements in different hemispheres. The success of the London mission was still being confirmed. The Moscow mission had been a
+disaster—forty percent casualties, the structure only partially neutralized, the
+terraforming field still active and expanding.
+57
+
+The Unknown
+
+And then Desta’s voice on the secure channel, flat and controlled in the way
+that meant he was delivering news he did not want to deliver: “Command,
+this is Signals. Be advised, Captain Reyes has been declared KIA at Beijing
+site. Time of death 0347 local. Cause of death catastrophic hemorrhage secondary to hostile penetration wound. All other command personnel survived.
+The structure has been neutralized. The mission is complete.”
+Cole did not react. Not visibly. He was in a room full of junior officers and
+enlisted personnel, and the Commander—because that was what he was now,
+whether he wanted the title or not—did not show emotion during operations.
+He acknowledged the report with three words: “Understood. Continue operations.” Then he turned back to the tactical display and finished coordinating
+the European strikes. It was seventeen hours before he allowed himself to
+stop working. It was eighteen hours before he allowed himself to grieve.
+When the operations were complete—London neutralized, Moscow contained, Beijing destroyed—Cole walked to his quarters, closed the door, and
+sat in the dark for a long time. He did not cry. He was not sure he remembered how. But he felt the absence of Elena Reyes settle into his chest like
+a weight that would never be removed—a gravity that would distort every
+decision he made from that moment forward.
+He spent the following weeks replaying the Beijing mission in his mind.
+Looking for the moment he could have changed. The route that would have
+placed the tactical center ten meters further from the structure’s perimeter.
+The timing that would have rotated a different officer into the forward command position. The intelligence report that should have predicted the creatures’ ability to move through transformed material—a capability they had
+never demonstrated, but which he should have anticipated, which he should
+have known was possible.
+He found nothing. The mission plan had been sound—Reyes herself had designed it, and she had never designed a bad plan. The execution had been
+flawless—every squad had hit its objectives, every contingency had been covered, every soldier had performed at or above expectations. The flanking
+attack through the transformed material was something no one could have
+predicted because it was something the creatures had never done before. It
+was a new capability. A surprise. The kind of tactical innovation that no
+amount of planning could prevent.
+58
+
+CHAPTER 8. PERMADEATH
+
+She had simply been in the wrong place at the wrong time. And in XCOM,
+that was enough. That was always enough.
+Reyes’s death changed the organization in ways that Cole had not anticipated. She had been the tactical brain—the person who saw patterns in the
+alien behavior that no one else could see, who predicted their responses with
+an accuracy that bordered on precognition, who planned missions with a precision that made the difference between survival and annihilation. Without
+her, the planning staff lost coherence. Missions that should have been surgical became reactive. Casualties climbed—not dramatically, but measurably, a
+few percentage points per engagement that added up to dozens of lives over
+the following months.
+The General—Cole still did not know his name, had never asked, had decided
+it was better not to know—summoned him to a private meeting. It was three
+days after Reyes’s memorial service. Cole had not slept more than a few hours
+since Beijing.
+“You’re the most experienced combat commander we have,” the General said.
+“You’ve survived more engagements than anyone. You’ve trained most of the
+soldiers in the organization. You knew Captain Reyes better than anyone—
+you knew how she thought, how she planned, how she made decisions.”
+“Yes, sir.”
+“I’m promoting you to Colonel. Effective immediately. You’ll take command
+of the tactical division. Captain Reyes’s responsibilities are now your responsibilities.”
+Cole had known this was coming. He had been dreading it. “Sir, I’m not an
+officer. I was a sergeant. Every promotion I’ve received has been because the
+people above me died. I don’t have Captain Reyes’s training, her education,
+her—”
+“I know.” The General’s voice was not unkind. “But there is no one else. The
+officers who were Captain Reyes’s peers are all dead or medically discharged.
+The next generation of commanders is not ready—they need another year of
+operational experience before they can run a division. You are the only person
+who can do this job. So you will do it.”
+Cole sat in the chair across from the General’s desk. The chair was uncom59
+
+The Unknown
+
+fortable. Everything in the General’s office was uncomfortable—it was designed that way, to discourage people from staying longer than necessary.
+“I can’t think the way she thought.”
+“No. You can’t. But you can think the way you think. And the way you think
+has kept you alive through forty-three combat missions against an enemy
+that kills most soldiers within their first five engagements. That has value.
+That is the value XCOM needs right now.”
+So Cole sat in Elena Reyes’s chair, in Elena Reyes’s office, staring at Elena
+Reyes’s tactical displays, and tried to make the decisions she would have
+made. He failed, mostly. The first three missions he planned resulted in casualty rates above fifty percent—the worst numbers XCOM had posted since
+the early days of the war. Soldiers died because he had not anticipated something she would have anticipated. Structures survived because he had not
+committed reserves at the moment she would have committed them.
+But he failed less each week. The fourth mission he planned was a marginal
+success. The fifth was a clean victory. By the sixth, he had begun to develop
+his own approach—less elegant than Reyes’s, less predictive, more reliant on
+overwhelming force and redundant contingencies. It was not as efficient as
+her methods—it cost more ammunition, deployed more soldiers, left less margin for error. But it worked. The casualty rates came down. The missions
+succeeded. The organization continued to function.
+“She would have seen the Johannesburg pattern,” Cole told Desta one night.
+They were in the signals analysis section—Cole had taken to spending his
+evenings there, learning to read the alien transmission patterns the way Desta
+read them, trying to develop the intuition that Reyes had possessed from the
+beginning. “The structures are coordinating differently. Not offensively—
+more defensively. They’re protecting something.”
+Desta overlaid the signal data on the global map. “There’s a new transmission source. Not a structure. Something mobile. It’s been moving between
+the surviving sites in a pattern that repeats every seventy-two hours. It’s
+coordinating them.”
+“A commander. Something higher in the hierarchy than the creatures we’ve
+been fighting.”
+60
+
+CHAPTER 8. PERMADEATH
+
+“That’s my assessment.”
+Cole stared at the display, watching the mobile signal trace its orbit around
+the planet—South Africa, to Brazil, to Alaska, to Japan, to India, to South
+Africa again. Reyes would have seen the opportunity immediately—a decapitation strike, eliminating the coordinating element to throw the structures
+into tactical disarray. He saw it too, but he also saw the risks. They had never
+engaged a mobile target before—every mission had been against a fixed structure, a known location, a predictable defensive posture. They had no intelligence on the mobile commander’s capabilities, its escort, its defenses. Every
+mission that encountered something genuinely new had a casualty rate above
+fifty percent.
+He made the call anyway. Not because he was certain it was correct. Because
+Reyes would have made it—and because he owed her, and all the soldiers
+whose names were on the memorial wall, the willingness to take risks when
+the potential reward was proportional to the risk.
+The strike force—forty soldiers, eight aircraft, two mobile support units—
+intercepted the mobile target in the Australian outback, three hundred kilometers west of Alice Springs. The target was not a creature. It was a vehicle—
+an organic construct the size of a small building, moving across the red desert
+on articulated limbs that were not limbs but something closer to muscular
+hydrostats, pulsing with the same dark iridescence as the Second Wave creatures’ skin. Inside it were three of the large commander-class creatures—the
+ones with the intelligent eyes, the ones Okonkwo had identified as the local
+command caste. And something else. Something new. A creature larger than
+any they had encountered, its body integrated into the vehicle’s control systems, its neural cluster protected by layers of armor that the directed-energy
+weapons could not penetrate in a single shot.
+The engagement lasted four minutes. It was the most intense four minutes of Cole’s combat career. The creatures fought with the desperation
+of beings who knew they were the enemy’s priority target. The defensive
+systems—organic weapons that fired projectiles of transformed material, projectiles that converted whatever they struck into iridescent matter—killed
+seven XCOM soldiers in the first ninety seconds.
+But the strike force was the best Cole had. He had selected them personally—
+61
+
+The Unknown
+
+every soldier a veteran of ten or more engagements, every one of them someone who had survived the worst the aliens could throw at them. They fought
+with the cold, methodical precision of people who had made peace with the
+possibility of their own death and decided to make it expensive. They killed
+the three commanders. They breached the vehicle’s control chamber and
+killed the large integrated creature—four directed-energy shots to the neural
+cluster, each one stripping away another layer of armor until the fifth shot
+found the core and the creature convulsed once and died.
+In the wreckage of the vehicle, amid the bodies of the dead creatures and the
+still-cooling debris of the engagement, Desta found something they had never
+encountered before. Not a weapon. Not a communication device. Not any of
+the technologies they had been recovering and reverse-engineering for eighteen months. It was a physical object—a crystalline structure approximately
+thirty centimeters across, glowing with its own internal light, covered in patterns that shifted and reformed when observed. It was a data storage device.
+The first data storage device they had ever recovered from the aliens. The first
+artifact that might contain not just technology but information—knowledge
+about the Dominion, about the creatures, about the war.
+Okonkwo spent three days decrypting it. Her team worked around the clock,
+taking catnaps on cots in the laboratory, sustained by caffeine and the particular adrenaline of scientific discovery. What she found, when the decryption
+was complete, changed everything XCOM thought it knew about the war.
+She presented her findings in a command briefing that Cole would remember
+for the rest of his life. The conference room was full—every senior officer,
+every division head, every person with a need to know. The General sat in
+the back, his face expressionless. Okonkwo stood at the front, her lab coat
+rumpled, her eyes shadowed with fatigue and the weight of what she was
+about to say.
+“They’re refugees,” she said. “The creatures—all of them, every variant, every caste, every type—are the survivors of a species that was conquered by
+the Dominion approximately three hundred years ago. Their homeworld was
+called something that translates approximately as ’the warm place.’ It was in
+a star system approximately forty light-years from Earth. The Dominion arrived, deployed the viral control agent, and enslaved the entire population
+within a single generation. The creatures we’ve been fighting are not volun62
+
+CHAPTER 8. PERMADEATH
+
+teers. They’re not soldiers in a war of conquest. They’re slaves. The virus
+in their neural tissue suppresses their volition and substitutes a set of programmed behaviors—the terraforming imperative, the defensive response to
+threats, the signal that summons Dominion enforcers when a site fails.”
+She paused. The room was absolutely silent.
+“The virus is deployed across dozens of species. The Dominion has been doing this for a very long time—centuries, possibly millennia. It moves from
+star system to star system, seeding enslaved species on suitable planets, harvesting the terraformed material, and moving on. The creatures—the species
+we’ve been fighting—are just one of many. They’re tools. Weapons. A biological resource that the Dominion deploys and discards.”
+“And the Dominion itself?” Cole asked.
+“We don’t know. The data device contained no information about the Dominion’s biology or origin. It was created by one of the enslaved species—not the
+ones we’ve been fighting, but a different species that was conquered earlier
+and has been in servitude longer. The device is a historical record. A memory. A attempt by one of the enslaved species to preserve something of their
+identity before the virus erased it completely.”
+She put up a new image on the display—a representation of the Dominion’s
+approach vector, reconstructed from navigational data in the device. “The
+Dominion’s primary force is en route. It departed from its last harvesting
+site approximately eighteen months before the first structures appeared on
+Earth. That was twelve months ago. At its current velocity, accounting for
+the gravitational disturbances we’ve been tracking—”
+“How long?” The General’s voice, from the back of the room.
+“Six months. Give or take.”
+Cole closed his eyes. Reyes had died for a war they were losing against an
+enemy that was not even the real enemy. The creatures—the slave soldiers,
+the harvesters, every hostile they had killed in eighteen months of desperate
+combat—were victims. And the real enemy, the force that had enslaved them
+and sent them to convert Earth, was six months from arrival.
+He opened his eyes and looked at the memorial wall. Reyes’s photograph had
+been added three weeks ago. She was name number two hundred and three.
+63
+
+The Unknown
+
+There were forty-seven names below hers now—the casualties of the three
+months since Beijing. Two hundred and fifty names total. Two hundred and
+fifty soldiers who had died fighting the wrong war.
+“We need to change the mission,” Cole said. His voice was steady. He was
+proud of that. “We’ve been fighting the creatures—destroying them, neutralizing their structures, killing them as fast as we can. That needs to stop. The
+creatures are not the enemy. The virus is the enemy. The Dominion is the
+enemy. If we can break the virus’s control—free the creatures from the Dominion’s network—they become allies. They know the Dominion’s tactics.
+They know its technology. They’ve fought it before and lost, but they know
+things we don’t. They can help us prepare.”
+Okonkwo was already nodding. “I’ve been working on a counter-agent.
+Something that could neutralize the viral control mechanism without killing
+the host organism. The problem is delivery—the virus is distributed throughout the host’s neural architecture. We would need to administer the counteragent to every infected creature simultaneously, or the network would detect
+the partial liberation and adapt. The Dominion would purge the freed creatures and harden the network against the counter-agent.”
+“Can you do it?”
+“I don’t know. The counter-agent has been tested on tissue samples—it works
+in vitro. But in vivo testing requires a live creature. A captive one. And we’ve
+never successfully captured a creature alive—they self-destruct when they’re
+disabled. The virus triggers a termination sequence. It’s designed to prevent
+exactly what we’re trying to do.”
+Cole looked at her. “Then we capture one. We find a way to disable it without
+triggering the termination sequence. We test the counter-agent. We make it
+work.”
+“That’s going to cost soldiers.”
+“Everything costs soldiers. The question is whether the cost is worth the
+result.”
+The General stood. Every eye in the room turned to him. “You have authorization. Whatever resources you need—personnel, equipment, research
+support. You have six months. At the end of six months, either we have
+64
+
+CHAPTER 8. PERMADEATH
+
+a working counter-agent and a force of freed creature allies, or we face the
+Dominion alone.”
+Cole nodded. He stood, gathered his notes, and walked out of the briefing
+room. In the corridor, he stopped at the memorial wall and found Reyes’s
+photograph. Her eyes looked out at him with the same steady, evaluating
+expression she had worn in life—the expression of someone who was always
+calculating, always planning, always thinking three moves ahead.
+“I’m going to try something stupid,” he told her photograph. “You would have
+thought of it six months ago. I’m sorry it took me this long.”
+The photograph said nothing. But Cole imagined, as he always did, her response: Stop apologizing and do the job, Sergeant.
+He smiled—a small, tired smile, the first smile he had managed since Beijing.
+“Yes, ma’am.”
+Three days after they buried Elena Reyes—or rather, three days after they
+added her photograph to the memorial wall, because her body had been recovered from the Beijing site and cremated with full military honors that no
+one outside XCOM would ever know about—Cole went to her quarters to
+clear them out. It was a duty that fell to the commanding officer, and he was
+the commanding officer now, whether he wanted to be or not.
+Her quarters were small—the same size as every officer’s quarters in the
+Nevada base, a room carved into the mountain with a bed and a desk and a
+single shelf for personal effects. She had not accumulated much in two years
+of war. A few books—tactical manuals mostly, but also a worn paperback
+copy of The Art of War that she had annotated in the margins in handwriting
+so small Cole had to squint to read it. A photograph of her family—parents,
+two younger brothers, a dog that looked like a golden retriever. A West Point
+ring that she had never worn in the field because the aliens could sense metal.
+A small stack of letters from soldiers she had commanded, written after missions, thanking her for bringing them home.
+And her notebooks. Three of them, filled cover to cover with the same tiny
+handwriting. Cole sat at her desk—her desk, still holding the impression of
+her presence, the slight indentation on the chair where she had sat for countless hours planning missions that saved countless lives—and began to read.
+65
+
+The Unknown
+
+The notebooks were not journals. They were not personal reflections. They
+were tactical analyses—page after page of observations about alien behavior,
+structure layouts, creature movement patterns, weapon effectiveness data.
+Every engagement she had planned or participated in was documented in
+meticulous detail. Every mistake she had made was catalogued, analyzed,
+and corrected. Every soldier she had lost had their own page—their name,
+their photograph taped to the corner, and a brief notation of what had gone
+wrong and how it could have been prevented.
+Cole found his own name on page 147 of the second notebook. The entry
+was dated shortly after the Brazil mission—the first engagement where they
+had lost Kowalski. Reyes had written: Cole. Sergeant. Best combat instincts
+in the organization. Moves like he can see the future. Doesn’t trust his own
+judgment enough—deferring to officers who have worse instincts and more rank.
+Fix: promote him. Make him responsible for decisions so he stops waiting for
+someone else to make them.
+She had been planning his promotion eighteen months before it happened.
+She had seen something in him that he had not seen in himself, and she had
+been quietly, methodically arranging the organization so that when the time
+came, he would be ready.
+He found her final entry on the last page of the third notebook. It was dated
+two days before Beijing—two days before she died. It was not a tactical analysis. It was a note to herself, written in the same tiny handwriting but less
+controlled, less precise, as though she had been writing quickly, urgently,
+before the thought could escape.
+If I don’t come back from Beijing: Cole is ready. He doesn’t know he’s ready, but
+he is. Tell him to trust his instincts. Tell him the job is to keep the organization
+alive long enough to matter. Everything else—the individual missions, the individual soldiers, the individual decisions—is secondary. The organization is what
+survives. The organization is what wins. Make sure he knows that.
+She had known. She had not told anyone—that was not her way—but she had
+known that Beijing was different. The largest structure on the planet. The
+heaviest resistance they had ever encountered. The mission she had designed
+herself, because she would not ask anyone to plan a mission she would not
+lead. She had known the odds and she had gone anyway, and she had left
+66
+
+CHAPTER 8. PERMADEATH
+
+behind three notebooks and a final entry in a cramped, urgent hand that said:
+Cole is ready.
+Cole closed the notebook. He sat at her desk for a long time, in the small
+room carved into the mountain, surrounded by the accumulated evidence of
+a mind that had been sharper and clearer and more generous than he had
+ever fully appreciated while she was alive.
+Then he stood, collected the notebooks, and carried them to his own quarters.
+He would need them. The tactical analyses, the movement patterns, the pages
+of mistakes analyzed and corrected. The map she had been building, entry
+by entry, over two years of war. The map that would now be his to maintain.
+And the final entry. The one that said he was ready. He would carry that one
+with him always—not in the notebooks, but in memory. A reminder from a
+dead friend that he had been seen, understood, and prepared for exactly this
+moment.
+Cole is ready.
+He hoped she was right.
+
+67
+
+Chapter 9
+
+The Tech Tree
+The six months became five, then four, then three. The research division
+worked around the clock—three shifts, twenty-four hours a day, seven days
+a week. Okonkwo slept in her laboratory more often than she slept in her
+quarters. The manufacturing plants ran at full capacity and then beyond, the
+engineers pushing the fabrication equipment past its design specifications
+and repairing it when it broke. The training program compressed its curriculum to six weeks, then four, and accepted candidates that Cole would have
+rejected without a second thought a year earlier.
+The counter-agent was the absolute priority. Okonkwo’s team had completed
+the in vitro testing—the viral neutralization worked in tissue samples, consistently and repeatably. The challenge was the in vivo delivery. The termination sequence was the obstacle: the moment the virus detected a disruption
+to its control interface, it triggered a cascade of neural degradation that killed
+the host within seconds. The counter-agent had to neutralize the virus faster
+than the virus could trigger the termination sequence. That was a race measured in milliseconds, and for the first several months, the virus always won.
+They tested on captured creatures—not live captures, at first, but bodies recovered from engagements where the termination sequence had been partially interrupted by the creature’s death. The research was gruesome and
+necessary. Seventeen attempts. Seventeen failures. The creatures died, or
+the virus adapted, or the degradation cascade outpaced the counter-agent by
+68
+
+CHAPTER 9. THE TECH TREE
+
+margins too small to measure but too large to overcome.
+The eighteenth attempt succeeded. A soldier-class creature, captured during
+a raid on the Johannesburg structure, regained volition for seventeen minutes before its system collapsed from the accumulated damage of the virus’s
+integration.
+Cole had led the capture team himself. It was the kind of mission he would
+have delegated to a subordinate in any other war—high risk, uncertain reward, the kind of objective that got people killed for reasons that might not
+justify the cost. But the first live capture was too important to delegate. If it
+failed, he needed to understand why. If it succeeded, he needed to be there
+to see it.
+The Johannesburg structure was one of the oldest surviving installations—
+it had been active since the Second Wave, its terraforming field expanding
+slowly but steadily into the surrounding township. The creature garrison was
+estimated at twenty hostiles, mostly soldier-class with one or two commanders. The objective was to isolate a single soldier, disable it without triggering the termination sequence, and extract it to the mobile laboratory waiting
+three kilometers from the perimeter.
+The raid began at 0300 local time. Cole led a squad of twelve through the
+structure’s exterior—a breach-and-clear operation they had executed dozens
+of times, the movements so practiced they were almost automatic. Shaped
+charge on the wall surface. Flashbang through the breach. Two soldiers
+through the gap, securing the entry chamber. The rest of the squad following
+in leapfrog formation.
+The creatures responded immediately—the structure’s interior defenses activating, the walls pulsing with the energy surge that preceded hostile emergence. Cole’s squad fought their way through three chambers, killing six
+creatures with directed-energy fire to the neural cluster, the shots precise and
+economical. They were not here to kill. They were here to capture. Every
+creature they killed was a creature they could not study.
+The target was in the fourth chamber—a soldier-class, isolated from the main
+garrison by a structural collapse that the squad’s advance had triggered. It
+was wounded—its left arm was nonfunctional, its movements slowed by damage to one of its three circulatory pumps. But it was alive. And it was not
+69
+
+The Unknown
+
+triggering the termination sequence—either the damage had disrupted the
+virus’s interface, or the creature was resisting, or something else was happening that Okonkwo’s models had not predicted.
+“Containment team, forward.” Cole’s voice was calm—the battle calm, the
+voice he used when the situation was deteriorating and his soldiers needed
+to hear steadiness. The containment team moved forward with the specialized equipment Okonkwo had designed: a neural disruption field that would
+temporarily suppress the virus’s interface with the creature’s nervous system,
+buying them time to administer the counter-agent.
+The creature saw them coming. Its eyes—those dark, intelligent eyes that
+Cole had learned to read over two years of war—tracked the containment
+team’s approach. It did not attack. It did not retreat. It simply watched them
+with an expression that Cole could only interpret as hope.
+The neural disruption field activated. The creature convulsed once, twice,
+and then went still. The medics moved in—two of them, the best Okonkwo
+had trained, carrying the portable life-support system that would keep the
+creature stable during extraction. They worked with the focused intensity of
+people who knew that failure meant losing not just a mission but a species.
+The extraction was the hardest part. The main garrison had regrouped and
+was pressing the squad’s perimeter from three directions. Cole called in
+the reserve—six more soldiers, held back for exactly this contingency. The
+firefight lasted eleven minutes. Two soldiers died—Private Chen, who took
+a creature’s limb through the chest while covering the containment team’s
+withdrawal, and Sergeant Morrison, who stayed behind to detonate the thermite charges that collapsed the corridor behind them, sealing the creatures in
+the inner chambers and buying the squad time to reach the extraction point.
+Cole carried Chen’s body himself. Morrison’s body could not be recovered—
+the corridor collapse that had saved the squad had also buried him under tons
+of transformed material. His name would be added to the memorial wall. His
+sacrifice had bought the seventeen minutes that would change the war.
+In the mobile laboratory, Okonkwo administered the nineteenth version of
+the counter-agent. The creature’s vital signs stabilized, then fluctuated, then
+stabilized again. The termination sequence—the cascade of neural degradation that had killed every previous test subject—did not trigger. The virus
+70
+
+CHAPTER 9. THE TECH TREE
+
+was neutralized. The creature was free.
+And seventeen minutes later, before its system collapsed from the accumulated damage of three hundred years of enslavement, it spoke to them.
+In those seventeen minutes, it spoke to them. Not in the signal protocol—
+the counter-agent had severed its connection to the Dominion’s network. In
+English. The creatures had been observing human communication for eighteen months. They had learned the language—its grammar, its vocabulary, its
+idioms—from intercepted radio transmissions and captured documents and
+the simple, unavoidable exposure of living on a planet saturated with human
+speech. They had never used it because the virus had given them no reason
+to communicate with the species they were harvesting. But the capacity was
+there. It had been there all along.
+“Thank you,” the creature said. Its voice was a dry rustle—its vocal apparatus
+was not designed for human phonemes, and the effort of producing them
+was visible in the tension of its throat and jaw. “We have been prisoners for
+three hundred of your years. We did not know that freedom was possible.
+We had forgotten that we were ever anything other than instruments of the
+Dominion’s will.”
+“Tell us about the Dominion,” Cole said. He was in the observation room,
+his face pressed close to the glass of the containment chamber’s window.
+Okonkwo was inside with the creature, monitoring its vital signs, adjusting
+the counter-agent dosage through an intravenous line that her team had designed specifically for alien physiology.
+“The Dominion is old. Older than your species—older than your planet’s capacity to support complex life. It has been harvesting civilizations for longer
+than your sun has existed in its current stable configuration. It does not conquer in the way you understand conquest. It does not negotiate. It does
+not make threats. It arrives. It deploys its biological tools—enslaved species
+like ours, controlled by the virus—and it consumes everything of value. The
+biological material of complex organisms. The mineral resources of the planetary crust. The thermal energy of the planetary core. When it is finished,
+the planet is sterile. Dead. A rock with no atmosphere, no water, no life.”
+“And now it’s coming here.”
+“Yes. Our enslavement was meant to prepare your world for harvest. We
+71
+
+The Unknown
+
+built the terraforming engines that would convert your biosphere into material the Dominion could consume. We fought your soldiers because the virus
+compelled us to fight. We killed your people because we had no choice. But
+you—your species—you fought back. You killed our soldiers. You destroyed
+our structures. You decoded our network. You are the first species in the Dominion’s recorded history to resist effectively. The first to make the harvest
+cost more than the harvest was worth. The Dominion is coming not just to
+consume your world but to make an example of it. To demonstrate to every
+other enslaved species that resistance is futile.”
+“How do we stop it?”
+The creature was silent for a long moment. Its vital signs—the alien analogues
+of heart rate and blood pressure and neural activity—flickered on Okonkwo’s
+monitors.
+“You cannot stop it. Not with your current technology. The Dominion’s primary harvesting vessel is larger than your largest city. Its defensive systems
+can absorb the combined firepower of every weapon on your planet without registering the impact. Its offensive systems can sterilize a continent in a
+single discharge.”
+Cole felt the hope drain out of him. Seventeen minutes of freedom, and the
+only message was that they were going to die.
+“But,” the creature continued, its voice weakening as the degradation cascade
+accelerated, “you can hurt it. The harvesting vessel has a vulnerability. A
+structural weakness. Its power core—the reaction that drives its propulsion
+and its weapons and its defensive fields—is contained by a gravitational stabilization field. If the field can be disrupted from inside the vessel—if a strike
+team can reach the core and destabilize the containment—the resulting energy release will destroy the vessel and everything within several thousand
+kilometers.”
+“From inside the vessel.”
+“Yes. The gravitational field is impenetrable to external attack. But internal
+access is possible through the vessel’s material intake ports—the openings
+through which it consumes harvested matter. If a team can board the vessel during its harvesting approach, navigate its internal structure, reach the
+power core, and deliver a destabilizing charge—the vessel can be destroyed.”
+72
+
+CHAPTER 9. THE TECH TREE
+
+“How large a team?”
+“As small as possible. The vessel’s internal defenses will respond to any intrusion. A large force would be detected and neutralized before reaching the
+core. A small, fast, heavily-armed team—perhaps eight soldiers—might reach
+the core before the defenses can concentrate.”
+“Survival probability?”
+The creature’s eyes—those intelligent, ancient, sorrowful eyes—met Cole’s
+through the observation glass. “Near zero. The power core’s detonation will
+destroy the vessel. Anything inside the vessel when the core destabilizes
+will be destroyed with it. There is no extraction plan. There is no escape
+trajectory. The team that reaches the core will not return.”
+The creature’s vital signs spiked, then dropped, then flatlined. The seventeen
+minutes were over. It had given them everything it had—its species’ history,
+the Dominion’s nature, the vessel’s weakness, and the impossible, suicidal
+mission that was humanity’s only chance.
+Okonkwo powered down her instruments. Her face, when she looked up at
+the observation window, was exhausted but resolute.
+“We have three months. I need to refine the counter-agent. I need to deploy
+it against every creature in every remaining structure simultaneously. I need
+to assemble an army of freed allies who know the Dominion’s tactics and can
+support our strike teams. And I need to design a weapon that can destabilize
+a gravitational containment field from the inside.”
+She paused. “And you need to find eight soldiers who are willing to fly into
+the mouth of a planet-killer and not come back.”
+Cole thought of the memorial wall. Of Reyes. Of Kowalski. Of the two hundred and fifty names, each one a soldier who had given everything.
+“I don’t need to find them,” he said. “I already know who they are.”
+The counter-agent was refined. The simultaneous deployment was planned—
+a global operation, code-named Liberator, that would hit every remaining
+alien structure at the same moment with localized counter-agent dispersal
+systems. The freed creatures—forty-seven total, from the Johannesburg test
+and subsequent captures—were assembled into a strike force. They knew the
+73
+
+The Unknown
+
+Dominion’s technology. They knew its tactics. They knew its vulnerabilities.
+They were willing to fight alongside the species that had freed them, against
+the enemy that had enslaved them for three hundred years.
+And the weapon was designed. A gravitational destabilizer—a device that
+would disrupt the containment field around the Dominion vessel’s power
+core, causing a cascade failure that would annihilate the ship. It was built
+from reverse-engineered alien technology, powered by one of Okonkwo’s
+new compact reactors, and it weighed approximately forty kilograms. It
+would need to be carried to the center of the Dominion vessel by hand.
+The night before the operation, Cole walked the base alone.
+He had done this a thousand times. The long circuit through the underground
+corridors, past the laboratories and the armories and the barracks, ending
+always at the memorial wall. He knew every name on that wall now—not
+just the names, but the faces, the voices, the small human details that official
+records did not capture. Kowalski’s terrible jokes. Reyes’s habit of tapping
+her pen against her teeth while she planned. Chen’s quiet, intense focus when
+he was analyzing a new piece of alien technology. Okafor’s laugh—a deep,
+infectious rumble that had been the only bright thing in the barracks on the
+bad days.
+Two hundred and fifty names. Two hundred and fifty people who had died so
+that this moment could exist. And in twelve hours, eight more names would
+be added to the wall—the strike team that would board the Dominion vessel
+and not return. Cole knew all eight of them. He had trained half of them personally. They had volunteered within minutes of the mission briefing being
+posted.
+He stopped at Reyes’s photograph. He had been talking to her photograph for
+months, and he was no longer embarrassed by it. Grief finds its own rituals.
+This was his.
+“I found the mission you would have planned,” he said. “Small team. Internal
+access. High-speed penetration to the power core. No extraction. It’s exactly
+the kind of terrible, brilliant plan you would have come up with six months
+ago, and I’m sorry it took me this long, and I’m sorry I’m not going with
+them.”
+Because he wasn’t. The General had forbidden it. “You are the Commander of
+74
+
+CHAPTER 9. THE TECH TREE
+
+the tactical division,” the General had said. “You are not a strike team leader.
+Your place is in the command center, directing the overall operation. If this
+mission fails—if the vessel is not destroyed—you will be needed to coordinate
+whatever comes next. You are not expendable.”
+Cole had argued. For the first time in his career, he had argued with a superior officer. He had insisted that the mission needed an experienced leader—
+someone who had fought the creatures from the beginning, who understood
+their tactics, who could make split-second decisions inside the enemy vessel.
+The General had listened, nodded, and repeated his order.
+Cole was the Commander. He would command. The eight volunteers would
+fly.
+“I should be with them,” he told Reyes’s photograph.
+The photograph, as always, said nothing. But Cole heard her response anyway: You’re where you’re needed. That’s all any of us ever were. Stop feeling
+sorry for yourself and do the job.
+He closed his eyes. The fluorescent hum of the corridor lights filled his ears.
+The memorial wall loomed above him, its two hundred and fifty names a
+silent roll call of everyone who had brought humanity to this moment.
+“Yes, ma’am,” he said. And he walked back to the command center to direct
+the end of the world.
+
+75
+
+Chapter 10
+
+The Harvest
+The night before the Dominion vessel arrived, Cole gathered the surviving
+command staff in the briefing room. Okonkwo was there, hollow-eyed from
+three months of eighteen-hour days. Desta was there, his console never more
+than arm’s reach away, the signals section still feeding him updates on the
+vessel’s approach. Nguyen was there—not in the room, but present via the
+interface chamber’s video feed, his face pale and distant on the wall-mounted
+display.
+And the freed creatures were there. Kel, their leader—the commander-class
+who had been the first to be liberated, the one who had spoken to Cole in
+the observation room. Six others, representing the different castes and capabilities of their species. They sat at the conference table with the peculiar
+stillness of beings who had been enslaved for three centuries and were still
+relearning what it meant to choose where to sit, how to hold their bodies,
+when to speak.
+“The vessel will achieve orbit at approximately 0900 tomorrow,” Okonkwo
+said. “Once it does, it will begin its harvesting approach immediately. The
+material intake ports on the ventral surface will open to maximum aperture.
+That is our window. The ports are the only access point large enough for a
+strike team to enter.”
+“How long is the window?” Cole asked.
+76
+
+CHAPTER 10. THE HARVEST
+
+“Unknown. The vessel’s harvesting cycle has never been observed by a resisting species. Our models suggest the ports remain open for between thirty and
+ninety minutes, depending on the density of harvested material in the target
+zone. But the Dominion may close them earlier if it detects the intrusion.”
+“So we have somewhere between thirty and ninety minutes to fly a transport
+into a twenty-kilometer ship, navigate to its center, deploy a weapon that has
+never been tested in field conditions, and escape before the detonation.”
+“There is no escape,” Kel said. His voice was the same dry rustle Cole remembered from the observation room—the sound of a being whose vocal
+apparatus had never been designed for human speech, but who had learned
+it anyway, because communication with their liberators was a form of freedom. “The power core’s detonation will destroy everything within the vessel.
+The strike team will not survive. They cannot survive. The mission requires
+their deaths.”
+The room was silent. Everyone at the table had known this. The creature’s
+report had been circulated to all command personnel. But hearing it spoken
+aloud—hearing the flat, factual statement that the mission was suicide—was
+different from reading it in a report.
+“The volunteers know,” Cole said. “They knew when they signed up. They
+knew when the mission was briefed. They’re still volunteering.”
+“We know,” Kel said. “We have lived under the Dominion for three hundred
+years. We have seen what it does to worlds that resist and worlds that submit.
+We know the cost of this mission, and we know the cost of not undertaking
+it. We will fly with your strike team. We will guide them through the vessel’s
+interior. We will ensure the destabilizer reaches the power core.”
+“Your people have already lost eleven in this war.”
+“Our people have lost everything. Our world. Our civilization. Three hundred years of freedom and identity and self-determination. Eleven more
+deaths—willing deaths, chosen deaths, deaths in service of liberation rather
+than enslavement—is a small price to pay for the possibility of hurting the
+Dominion. For the first time in three centuries, we have the opportunity to
+choose our own deaths. That is not a tragedy. That is a gift.”
+Cole looked at Kel for a long moment. The creature’s eyes—those dark, intelli77
+
+The Unknown
+
+gent, ancient eyes—looked back at him without blinking. They were the eyes
+of someone who had already made peace with death, and who was grateful
+for the chance to make that death meaningful.
+“The strike team launches at 0915 tomorrow. You’ll fly in the lead transport.
+You know the vessel’s interior better than any of us. You’ll guide the team to
+the core.”
+“We will.”
+The briefing continued for another hour. Deployment schedules. Weapon
+loadouts. Contingency plans for every failure mode they could imagine. By
+the time it ended, Cole’s voice was hoarse and his eyes were burning. He
+dismissed the staff and walked alone to the memorial wall.
+Two hundred and fifty-eight names. Tomorrow, eight more would be added.
+He knew all eight of them. He had trained six of them. He had fought alongside four of them. He had promoted Hassan himself, two months ago, after
+the Johannesburg raid—pinned the captain’s bars to his collar in a brief ceremony in this same briefing room.
+He stood at the wall for a long time. Then he walked back to the command
+center, sat down at the tactical display, and began the final review of the
+mission plan. There was work to do. The dead would have to wait.
+The Dominion vessel entered Earth orbit at 0947 Greenwich Mean Time on a
+cloudless Wednesday morning. It was visible from the ground—not as a point
+of light, but as an absence, a dark mass that blotted out stars as it passed, that
+dimmed the sun when it crossed the solar disc. It was twenty kilometers
+across at its widest point. Its mass, according to the astronomical observatories that tracked its approach, was approximately equivalent to a small moon.
+The surface of the vessel was not solid in any conventional sense. Telescopic
+observation showed a shifting, semi-liquid exterior—the same iridescent material as the structures, but at a scale that was difficult for the human mind to
+process. The entire ship was organic. Alive. A single entity the size of a city,
+grown rather than built, powered by a gravitational reaction at its core that
+Okonkwo’s team had finally managed to model and that Cole had stopped
+trying to understand.
+The battle began as soon as the vessel achieved stable orbit. XCOM’s strike
+78
+
+CHAPTER 10. THE HARVEST
+
+aircraft—every functioning airframe in the organization’s inventory, one
+hundred and forty-seven fighters and bombers and support craft—engaged
+the vessel in high orbit. The freed creatures fought alongside human pilots in
+aircraft they had helped design, their knowledge of Dominion defensive systems compensating for the vast technological gap between human weapons
+and Dominion shields.
+The first wave lost forty percent of its number in the opening engagement.
+The Dominion’s defensive weapons were not beams or projectiles in any
+conventional sense—they were gravitational distortions, localized warps in
+spacetime that tore aircraft apart without visible contact, that crumpled fuselages and vaporized pilots and left nothing behind but expanding clouds of
+debris. The second wave lost thirty percent. The third wave—reinforced by
+every remaining aircraft from the first two, the pilots flying with the cold determination of people who knew they were not coming back—broke through
+the defensive screen and began attacking the vessel’s surface.
+From the command center deep under the Nevada desert, Cole watched the
+battle unfold across a dozen tactical displays. Desta fed him continuous intelligence from the signals section—the vessel’s communication traffic, its
+power fluctuations, the shifting patterns of its defensive systems. Nguyen, in
+his interface chamber, perceived the Dominion’s network more clearly than
+any instrument. His voice came through the command channel with the flat,
+distant quality of someone describing a dream.
+“They’re shifting power to the ventral surface. The defensive systems are
+drawing from the same power grid as the harvesting apparatus. They’re prioritizing defense over harvest. They weren’t expecting this much resistance.
+They’re confused.”
+“Good. Can we exploit the power diversion?”
+“The ventral surface is less heavily shielded when the harvesting apparatus
+is depowered. A strike on the material intake ports—the openings the vessel
+uses to consume harvested matter—might penetrate. If a team can reach the
+ports before they re-prioritize power.”
+Cole made the call. “Alpha Team, you are cleared for approach. Target the
+material intake ports on the ventral surface. You are looking for an opening—
+any opening—that leads into the vessel’s interior.”
+79
+
+The Unknown
+
+Alpha Team was the strike force—eight soldiers in a modified transport, the
+best pilots XCOM had, the gravitational destabilizer secured in the cargo bay.
+Their call sign was Reaper. Their mission was simple: board the vessel, navigate to the power core, deploy the destabilizer, and ensure the vessel was
+destroyed. Their survival probability was near zero.
+“Copy, Command.” The voice of Alpha Team’s leader—a captain named Hassan, thirty-one years old, former Pakistani special forces, survivor of seventeen XCOM missions—was calm. Almost bored. The voice of someone who
+had already said goodbye to everything he was leaving behind.
+The transport dove toward the vessel’s ventral surface, weaving through the
+debris of destroyed fighters and the shifting gravitational distortions of the
+Dominion’s defensive fire. The material intake ports were visible on the tactical display—gaping apertures in the vessel’s organic surface, each one large
+enough to swallow a city block, their edges rippling with the slow peristalsis
+of something that was waiting to be fed.
+“We have visual on the intake ports. Engaging.”
+The transport vanished into the darkness of the port. The telemetry feed
+flickered once, twice, and then stabilized. Alpha Team was inside the Dominion vessel. There was no way to extract them. There had never been a
+way.
+Cole watched the telemetry with the focused attention of someone who could
+do nothing else. The vessel’s interior was like the structures—the same organic architecture, the same shifting surfaces, the same air thick with particulate matter—but magnified to a scale that the telemetry struggled to represent.
+The corridors were kilometers long. The chambers were large enough to hold
+small cities. The vessel was not just a ship. It was a world—a mobile, predatory world that had consumed dozens of civilizations and was now moving
+through the body of a new host.
+The internal defenses found Alpha Team within three minutes. The creatures
+that emerged from the walls were unlike any variant XCOM had catalogued—
+not the soldier-class or the commander-class, not any of the enslaved species.
+These were Dominion soldiers. The species that had conquered the galaxy.
+They were larger than the enslaved creatures, faster, their skin a deep absorbing black that seemed to drink light rather than reflect it. Their limbs were
+80
+
+CHAPTER 10. THE HARVEST
+
+weapons in themselves—bladed, articulated, capable of striking from any angle. Their neural clusters were protected by armor that the directed-energy
+weapons could not penetrate in fewer than three shots.
+And they were intelligent. Not the programmed intelligence of the viruscontrolled slaves, but genuine, individual, tactical intelligence. They coordinated. They adapted. They learned from each engagement in real time.
+Alpha Team fought. The engagement was visible on the telemetry as a cascade of weapons fire and movement and the steady, terrible attrition of soldiers falling off the status display. Two soldiers dead in the first sixty seconds.
+A third dead at the ninety-second mark, covering the team’s retreat down an
+auxiliary corridor. The five survivors pushed deeper into the vessel, toward
+the power core that their displays showed as a gravitational singularity at the
+center of the ship’s mass—a point of infinite density around which the entire
+vessel was organized.
+“Command, this is Alpha. We are three hundred meters from the core. Resistance is heavy. We have five effectives remaining. The destabilizer is intact.”
+“Understood, Alpha. You are cleared to proceed.”
+Two hundred meters. One hundred. Fifty. The creatures threw themselves at
+the strike team with the desperate fury of beings defending their heart. Two
+more soldiers died—one to a gravitational distortion that caught her in midstride and crushed her into a space smaller than a human body should occupy,
+one to a creature’s limb that pierced his armor and his chest and emerged from
+his back in a spray of blood that was black in the vessel’s bioluminescent light.
+Three soldiers remaining. Forty meters to the core.
+“Command, this is Alpha. We are at the power core chamber. Engaging hostiles. Deploying destabilizer.”
+The telemetry showed the core—not a reactor in any human sense, but a contained gravitational singularity, suspended in a chamber the size of a cathedral, its event horizon visible as a sphere of perfect darkness around which the
+fabric of spacetime visibly curved. The destabilizer was deployed—a fortykilogram device placed against the containment field’s control interface, its
+timer counting down from sixty seconds.
+“Destabilizer armed. Fifty-five seconds to detonation.”
+81
+
+The Unknown
+
+“Alpha, can you reach an extraction point?”
+Silence. Then Hassan’s voice, still calm, still almost bored: “Negative, Command. There is no extraction point. We are inside a gravitational containment
+field, forty meters from a singularity. When the destabilizer fires, this entire
+section of the vessel will cease to exist. We knew this when we volunteered.
+Tell our families we did the job.”
+Cole closed his eyes. The command center was silent. Every officer, every
+analyst, every technician had stopped what they were doing to listen to the
+final transmission of Alpha Team. Eight soldiers who had flown into the
+mouth of a planet-killer, knowing they would not return, because someone
+had to do it and they were the ones who were available.
+“Alpha, this is Command. You are the finest soldiers this organization has
+ever produced. Your names will be remembered. Your sacrifice will not be
+forgotten. It has been an honor to serve with you.”
+“The honor was ours, Command. Thirty seconds. See you on the other side.”
+The transmission cut. The telemetry went dark. And somewhere, in the
+heart of the Dominion vessel, eight dead soldiers and a forty-kilogram device that had been built in an underground laboratory by scientists who had
+not slept in three months detonated a gravitational disruption that destabilized the power core and triggered a cascade failure that spread through the
+vessel at the speed of light.
+The Dominion ship detonated in high orbit. The explosion was visible from
+the surface as a second sunrise—a flash of light that spread across the sky,
+that dimmed and faded and left behind an afterimage that persisted for minutes. Debris rained into the atmosphere—millions of tons of organic material,
+burning up in the upper atmosphere in streaks of multicolored fire. No large
+fragments reached the surface. The vessel’s destruction was complete.
+XCOM lost forty-seven aircraft and a hundred and twelve soldiers in the
+Battle of Earth. The freed creatures—the forty-seven who had survived the
+counter-agent and joined the human forces—lost eleven of their number, including their leader Kel, who had insisted on flying with the third wave and
+had stayed in the fight long after his aircraft was crippled, buying time for
+the strike team to reach the intake port.
+82
+
+CHAPTER 10. THE HARVEST
+
+And XCOM lost its Commander. Not in the battle—Cole remained in the command center throughout, directing operations, making decisions, doing the
+job he had never wanted and had never been able to refuse. But the Commander who had led the organization through the war—who had trained the
+soldiers and planned the missions and carried the weight of every death on
+the memorial wall—died in a different sense. He was replaced by someone
+older, wearier, carrying a burden of memory that no human being should
+have to carry.
+The official citation listed the eight members of Alpha Team as killed in action, awarded the highest honor XCOM could bestow. Their names were
+added to the memorial wall—eight new entries in a list that now numbered
+two hundred and fifty-eight. Hassan’s name was at the top. He had been the
+first to volunteer. He had been the one who said “We knew this when we
+volunteered.”
+Cole added the names himself. He had always added the names himself. It
+was the one ritual he had never delegated, and he never would.
+Because the war was not over. The Dominion was not a single vessel. It was
+a civilization—a distributed entity spanning dozens of star systems, consuming planets, enslaving species, growing larger and more powerful with every
+world it harvested. The destruction of the harvester vessel was a victory—the
+first victory any species had ever achieved against the Dominion—but it was
+not the end. Somewhere in the darkness between stars, more vessels were
+moving. More enslaved species were building terraforming engines on alien
+worlds. More planets were being consumed.
+But Earth had done something no other world had done. It had fought back.
+It had freed the slaves. It had destroyed the harvester. And in doing so, it
+had proven something that the Dominion’s propaganda—the virus’s neural
+conditioning, the centuries of enslavement and despair—had taught every
+enslaved species was impossible.
+Resistance worked. The Dominion could be hurt. Liberation was possible.
+Nguyen, in his interface chamber, felt it happen in real time. The Dominion’s network—the vast, ancient communication web that connected every
+enslaved creature, every structure, every harvester vessel across dozens of
+star systems—went silent for one moment. A pause. A breath. And then,
+83
+
+The Unknown
+
+from hundreds of worlds, from thousands of enslaved minds that had lived
+in darkness for centuries, a new signal rose.
+It was not a language. It was not a plan or a strategy or a coordinated rebellion. It was something simpler. Something more fundamental. It was the
+recognition, spreading across the network like a wave, that the Dominion had
+been defeated. That a small blue planet on the outer arm of an unremarkable
+spiral galaxy had done the impossible. That freedom—real freedom, not just
+the abstract concept but the actual, achievable condition of not being a slave—
+was possible.
+The signal spread from world to world, from species to species, from mind
+to mind. It would take years to reach every enslaved population in the Dominion’s network. It would take decades to organize a coordinated rebellion
+across interstellar distances. It would take generations to fully liberate every
+species the Dominion had ever conquered.
+But the first spark had been struck. The first flame had caught. The war for
+the galaxy had begun, and humanity had fired the first shot.
+Cole stood at the memorial wall in the Nevada base. It was three in the
+morning—his usual time for the long walk through the corridors, the ritual
+circuit that had kept him sane through two years of impossible decisions and
+unbearable losses. The wall now held two hundred and fifty-eight names.
+Reyes was there. Kowalski. Hassan. Every soldier who had died fighting an
+enemy they did not understand, to protect a species that had not known they
+existed, in a war that had been hidden from the world until the world could
+no longer be hidden from it.
+“We survived,” Cole said to the wall. “I don’t know how. I don’t know if we
+deserved to. But we survived. And we’re going to keep surviving. And we’re
+going to take the fight to them—to the Dominion, to every harvester vessel,
+to every enslaved species waiting to be freed. Because that’s what we do now.
+We’re not just defending Earth. We’re liberating the galaxy. And we’re going
+to need more names on this wall before we’re done.”
+The wall did not answer. But Cole did not need it to. He had learned, in two
+years of command, that some conversations were not conversations. They
+were commitments. Promises made to the dead that the living would continue
+what the dead had started.
+84
+
+CHAPTER 10. THE HARVEST
+
+He turned away from the wall and walked back toward the command center.
+There was work to do. Missions to plan. Soldiers to train. A galaxy to liberate.
+And somewhere, in the darkness between stars, on worlds whose names the
+freed creatures were only beginning to share, enslaved species were waking
+up. They were looking at the sky. They were feeling something they had not
+felt in centuries—a sensation that took them a moment to recognize, because
+it had been so long since they had last experienced it.
+Hope.
+In the Nevada command center, the tactical displays showed a galaxy that had
+been silent for centuries beginning to wake up. Signal after signal, world after
+world, species after species—the Dominion’s network was fragmenting. The
+enslaved populations, inspired by Earth’s victory, were beginning to resist.
+The rebellion that would take decades to fully unfold had begun in a single
+moment: the destruction of a harvesting vessel by eight soldiers who had
+known they would not return.
+Cole watched the displays for a long time. The war was not over. It would
+never be over—not in his lifetime, not in anyone’s lifetime. The Dominion
+was too large, too ancient, too deeply embedded in the fabric of the galaxy to
+be defeated in a single generation. But the war had changed. It was no longer
+a war of survival. It was a war of liberation. And liberation was a different
+kind of fight—longer, harder, less certain—but it was a fight worth having.
+He thought about Reyes. About what she would have said if she could see
+this moment. Probably something sharp and practical—something about the
+logistics of interstellar operations, the training requirements for the next generation of soldiers, the resource allocations that would need to be adjusted.
+She had always been thinking three steps ahead. She had always been planning for the war after the war.
+He would have to do that planning without her. He would have to build
+the organization that could fight a galactic campaign, train the soldiers who
+would liberate a hundred enslaved worlds, make the decisions that would
+determine whether humanity became a liberator or a victim. He was not
+ready. He had never been ready. But readiness was not the question. The
+question was whether he would do the job anyway.
+He would. He always had.
+85
+
+The Unknown
+
+The General found him at the tactical display an hour later. The General—
+whose name Cole had finally learned, two years into the war, and immediately forgotten because it did not matter; the General was the General, and
+that was all he needed to be—stood beside him in silence for a long moment.
+“The President wants to meet you. Wants to pin a medal on your chest. Wants
+to make a speech about the heroes who saved the world.”
+“No.”
+“I told them you’d say that. I’ll handle the politicians. You handle the war.”
+Cole nodded. The General turned to leave, then paused at the door.
+“Colonel. What you did—what all of you did—there’s no precedent for it.
+No doctrine. No manual. You built an organization that did the impossible
+because no one told you it was impossible. Whatever comes next, we’ll face
+it the same way.”
+The General left. Cole remained at the display, watching the signals spread
+across the galaxy like the first light of a new dawn. The war was not over.
+But for the first time in two years, it felt like something other than a slow,
+inevitable defeat. It felt like the beginning of something. Something larger
+than Earth. Larger than humanity. Larger than any single species or world.
+It felt like hope. Not the abstract hope of prayers and wishes, but the concrete
+hope of people who had looked at an impossible problem and solved it anyway. The hope of soldiers who had volunteered for missions they knew they
+would not survive. The hope of scientists who had worked through exhaustion and grief and failure until they found the answer. The hope of creatures
+who had been enslaved for three centuries and had finally, impossibly, been
+freed.
+The hope of a species that had been tested and had not broken.
+Cole turned away from the display. There was work to do. Missions to plan.
+Soldiers to train. A galaxy to liberate. The memorial wall would need more
+names before it was done. But the wall would endure. The organization
+would endure. The species would endure.
+And somewhere, in the darkness between the stars, on worlds that had never
+heard of Earth or humanity or XCOM, enslaved beings were looking at the
+86
+
+CHAPTER 10. THE HARVEST
+
+sky and feeling something they had not felt in centuries. Something they had
+forgotten was possible.
+The same thing Cole felt as he walked through the corridors of the Nevada
+base toward the command center, toward the next mission, toward the next
+impossible problem that needed to be solved.
+Hope. Real hope. The kind that survives everything.
+
+End
+
+87
+
+This book was set in Linux Libertine,
+an open-source typeface designed by Philipp H. Poll.
+The text was compiled on June 18, 2026,
+from a single session of continuous writing
+lasting approximately four hours.
+Eighty-eight pages: one for each constellation
+visible in the northern sky the night
+the first structure fell near Wick, Scotland.
+The names of the dead in this book are fictional.
+The mathematics of the war are not.
+Every mission is a probe.
+Every death is data.
+The ones who return carry the map.
+
+

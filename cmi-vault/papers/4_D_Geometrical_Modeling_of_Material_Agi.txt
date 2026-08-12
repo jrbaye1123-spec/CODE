@@ -1,0 +1,3153 @@
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+arXiv:math-ph/0604034v1 16 Apr 2006
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+Abstract. 4-dim intrinsic (material) Riemannian metric G of the material
+4-D space-time continuum P is utilized as the characteristic of the aging processes developing in the material. Manifested through variation of basic material characteristics such as density, moduli of elasticity, yield stress, strength,
+and toughness., the aging process is modeled as the evolution of the metric G
+(most importantly of its time component G00 ) of the material space-time P
+embedded into 4-D Newtonian space-time with Euclidean metric.
+The evolutional equation for metric G is derived by the classical variational
+approach. Construction of a Lagrangian for an aging elastic media and the
+derivation of a system of coupled elastostatic and aging equations constitute
+the central part of the work. The external and internal balance laws associated
+with symmetries of material and physical space-time geometries are briefly reviewed from a new viewpoint presented in the paper. Examples of the stress
+relaxation and creep of a homogeneous rod, cold drawing, and chemical degradation in a tubing are discussed.
+
+1. Introduction
+We seek to develop a model of inelastic processes in the aging materials by
+employing a 4-D inner material metric tensor G as the aging (damage) parameter
+of a material continuum. Aging here implies any variation in the chemical make-up,
+i.e., chemical degradation, phase transformation, phase coarsening, nucleation, and
+growth of micro-defects such as dislocations and voids, shear bands, crazes, microcracks, etc. Material engineering and failure analysis indicate that, in addition
+to the stress and strain tensors, a parameter of state (the ”aging” parameter)
+is needed to represent on a continuum level the sub-micro and micro-structural
+changes of material. A kinetic equation for the evolution of the aging parameter
+will represent the aging process of a material. The equations of evolution for the
+material metric G are the Euler-Lagrange equations resulting from a Variational
+Principle. The conjugate force of the evolution of metric G (and of the related
+quantities characterizing the properties of the material) is the Energy-Momentum
+Tensor of Elasticity introduced by J. Eshelby (see Sec.7 below).
+A 3-D material metric g has long been employed as an internal variable in continuum mechanics. For example, it was used for studying the duality of material
+and physical relations of the Doyle-Erikson type in article [1], the thermodynamics
+of a continuum in [2], and in [3] where the curvature of material metric g defined
+by a uniformity mapping of a uniform material was employed as the driving force
+of the material evolution. We use the 4-D material metric G as an additional state
+parameter that reflects the aging process. G is introduce with the largest covariance
+group allowed by the condition that a small vicinity of each point of the material
+preserves its topology during the aging process (see Sec. 2 below). We consider the
+3-D material metric g on the slices Bt of constant physical time as one of the main
+1
+
+2
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+dynamical variables following the ADM (Arnovitt, Deser, Misner) presentation of
+G (see [4, 5] or Sec.2.3 below). In that respect, we follow the tradition of the cited
+works. What is new in our work is that the smaller (in comparison to the General
+Relativity) covariance group of the Lagrangian allows us to use the lapse function
+~ as independent dynamical variables reflecting the proper
+S and the shift vector N
+material time scale and the intrinsic material flows respectively.
+This aging parameter is justified by the observation of shrinkage associated with
+aging and the subsequent material density variation as well as a change of the resonance atomic frequencies and characteristic relaxation times measured in macroscopical studies. In other words, the internal length and time scales change with
+aging when compared to the corresponding absolute (physical) scales. The most
+sensitive indicator of aging is a variation of an intrinsic material time scale. The
+measurement of time in the laboratory as well as in material (intrinsic time) can
+be accomplished by several methods, the most common of which is the use of oscillating processes such as those found in clocks with a pendulum or crystal-based
+timepieces. Another way of measuring time is the use of a unidirectional evolution
+of state. In medieval Europe, for example, time was measured by burning a candle
+which had numbered and colored beeswax strips. Still another method is associated
+with relaxation processes which require an excitation input to enable a fading response. Electronic relaxation generators employing the discharge of a capacitor and
+the fading luminescence of phosphorus are both examples of relaxation processes,
+which are well suited for measuring intrinsic time scale changes because they reflect
+atomic or interatomic events.
+Consider an external excitation of a material which responds with a specific
+change in its state. The decay or fading of the response constitutes the relaxation
+process. The decay can be described by an exponential function (within certain
+limits) et/τ0 where t is time and τ0 is the time constant characterizing the rate of
+relaxation. Usually τ0 becomes smaller with an increase in temperature or decrease
+in pressure. Phosphorous fades more slowly at colder temperatures, for example.
+In section 2 we discuss the kinematics of a media with a variable Riemannian
+metric G in a 4-D material space-time P , embedded into 4-D Absolute (Newton’s)
+space-time M 4 with the Euclidean metric H. Thus, the 3-D ”ground state” metric
+tensor is introduced together with the proper time lapse function and the material shift vector field. We consider mass conservation law in section 3. Elastic and
+inelastic strain tensors E el ; E in are introduced in section 4 as a measure of deformation and the ”unstrained state” respectively. The Lagrangian describing inelastic
+and elastic processes in media is discussed in section 5. A variational formulation of
+aging theory and the Euler-Lagrange equations (equations of elasticity coupled with
+the aging equations) are considered in section 6. We present the combined system
+of elasticity and aging equations in section 7 and discuss special cases of the aging
+equations in section 8. Corresponding to the material and laboratory symmetries,
+we consider the space and material balance laws in section 9. In section 10 the
+Energy-Momentum balance Law and the decomposition of the Energy-Momentum
+tensor into components, including the Eshelby tensor and terms related to the aging processes are presented. In the final section we explore the application of this
+model to the basic inelastic processes- unconstrained aging, stress relaxation, and
+creep of a homogeneous rod.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+3
+
+2. 4D kinematics of media with a variable metric.
+In this section we introduce the basic elements of the kinematics of a continuum
+with a variable metric, including material space-time P , 4D material metric G,
+4D deformations φ, slicing of the material space-time by the surfaces of constant
+physical time Bφ,t , and total, elastic and irreversible strain tensors.
+2.1. Physical and Material Space-Time. Let us consider the 4-D Euclidean
+vector space M = R × R3 (physical space-time) with the standard Euclidean
+metric H. There exists the volume form d4 v corresponding to this metric.
+We select global coordinates xi , i = 1, 2, 3, in thePphysical space R3 and x0 = t
+on the time axes R. We have H = dt2 + h = dt2 + i dxi 2 .
+Hyperplanes t = c are endowed with the 3D Euclidean metric h induced by H.
+We extend 3D tensor h to the degenerate (0,2)-tensor ĥ in M , taking ĥ0i = ĥi0 =
+ĥ00 = 0.
+A solid is considered here, in a conventional way as a 3D manifold B with the
+boundary ∂B, i.e. a set of ”idealized” material points. We will use local coordinates
+X I , I = 1, 2, 3 which, incidently, may be global coordinates induced by a reference
+configuration i.e., a diffeomorphic embedding φ0 3 : B 7−→ R3 ([6]).
+Cylinder P = R × B̄ (with the coordinates (X 0 = T, X I , I = 1, 2, 3)) is equipped
+with the 4D Riemannian metric G (material metric) with the components GIJ
+relative to the coordinates X 0 = T, X I , I = 1, 2, 3. Space (P, G) is further referred
+to as the material ”space-time”.
+p
+Metric G defines the 4D volume form dV = |G|d4 X, where |G| is the determinant of the matrix (GIJ ).
+An example of such a material metric G can be constructed as follows. Extend the reference configuration φ0 3 to the diffeomorphic embedding φ0 : P 7−→
+M, φ0 (T, X I ) = (T, xi = φi0 3 (X I )). Let G0 be the metric φ∗0 (H) (here and below
+we denote by φ∗ Q the pullback of a covariant tensor Q by the differentiable
+ mapping
+
+1
+0
+. Denote
+φ). In the coordinates (X, T ) the matrix of the metric G0 is
+0 hIJ
+p
+by dV0 = |G0 |d4 X = φ∗0 (dv 4 ) the 4D-volume element defined by the metric G0 .
+Projection π : P 7−→ B along T -axes plays the same role in the construction
+below as in the relativistic elasticity theory ([7],[8]). In particular, we require invariance of Lagrangian theory with respect to the automorphisms of the bundle
+(P, π, B) (diffeomorphisms of material space-time P onto itself, projecting to B, so
+that material points retains their identity during the material evolution) preserving
+the direction of the flow of the ”intrinsic” time (see below), but not with regard to
+the whole group of diffeomorphisms of P as in Gravity Theory.
+2.2. Deformation History. The history of the deformation of the body B
+is represented by a diffeomorphic embedding φ : P 7−→ M of the material
+space-time P into the physical (Newtonian) space-time M (see Fig.1).
+A deformation history φ for which t = φ0 (X) = T will be called ”synchronized”. The synchronization can practically performed for relatively slow deformation processes (in comparison to sound wave velocity).
+Using the deformation φ, we introduce the slicing of the material space-time P
+by the level surfaces of the zeroth component of φ
+Bφ = {Bφ,t = φ0 −1 (t)} = {(T, X) ∈ P |φ0 (T, X) = t}.
+
+(2.1)
+
+4
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Figure 1. 4D Deformation History and the Field of Flow Vector
+For a synchronized deformation Bφ,t = {(T, X) ∈ P |T = t}.
+There is a time flow vector field uφ in P , associated with the slicing Bφ,t of
+the space-time P ([4], [7]). This (future directed) vector field represent the flow of
+”intrinsic” (proper in Relativity Theory) time in the material. Lifting the index in
+the 1-form dφ0 with the help of the metric G and normalizing obtained vector field,
+we define the time flow vector field as
+u.φ =
+
+(dφ0 )#
+.
+kdφ0 k G
+
+(2.2)
+
+The norm of the 1-form dφ0 is defined as kdφ0 k2 = (GAB φ0,A φ0,B )1/2 (summation agreement by repeating indices is used here). Thus, uφ is the unit vector
+G-orthogonal to the slices Bφ,t . In the local coordinates X I ,
+GAB φ0,B
+∂
+u.φ = q
+.
+A
+GAB φ0,A φ0,B ∂X
+
+(2.3)
+
+For the synchronized deformations does not depend on φ:
+GI0 ∂
+u.φ = u.G = √
+.
+G00 ∂X I
+
+(2.4)
+
+Additionally, if the metric G has the block-diagonal form in the coordinates (X 0 =
+1 ∂
+.
+T, X I ) (shortly, BD - metric), we have u.G = [G00 ]− 2 ∂T
+∂
+Let u0 = ∂T be the flow vector associated with the metric G0 and the corresponding 3D slicing B0 .
+We require fulfillment of the following condition ensuring the irreversibility of
+the flow of time:
+< uφ , u0 >G > 0.
+(2.5)
+Deformation history φ for which the condition (2.5) is satisfied is called admissible.
+In coordinates (X I ) this condition reduces to the following simple inequality
+φ0,0 > 0
+
+(2.6)
+
+and, therefore is a restriction on the deformation history only.
+For a synchronized deformation history φ, this condition is trivially satisfied.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+5
+
+Time component φ0 of the deformation history may be excluded from the list
+of dynamical variables by an appropriate ”gauging”. Namely, we use the invariance of Lagrangian under the automorphisms of the bundle (P, π, B) to make the
+deformation history synchronized.
+An automorphism F : P 7−→ P, X I = F I (Y A ) of the bundle (P, π, B) determines
+the diffeomorphism of the base B that can be considered as a change of variables
+X I = F I (Y A ).
+∂φ0
+0
+I
+0
+0
+In the new variables, the condition (2.6) takes the form ∂Y
+0 = φ,I F,0 = φ,0 F,0 >
+I
+0
+0 (since F , I = 1, 2, 3 do not depend on Y ). Thus, the class of admissible
+deformation histories φ is stable under the action of the subgroup Aut+ (P ) of all
+automorphisms of P with F,00 > 0.
+The group Aut+ (P ) of automorphisms of the bundle contains two subgroups.
+One is the subgroup T C of the ”time change” proper gauge diffeomorphisms (X 0 =
+T ; X I , I = 1, 2, 3) 7−→ (F (T, ; X J , J = 1, 2, 3), X I , I = 1, 2, 3) for an arbitrary
+smooth function F (X I ) with F,0 > 0. The other one (denoted D(B)) consists of
+the lifts to the slices Bφ,t of the manifold P of the orientation preserving diffeomorphisms of the base B (group of such transformations of B is denoted Dif f + (B)). To
+lift a diffeomorphism we use (diffeomorphic) projections πφ,t = π|Bφ,t : Bφ,t 7−→ B.
+If φ is synchronized, lifted diffeomorphisms do not depend on T .
+Any automorphism of the bundle φ ∈ Aut+ (P ) generates the time independent
+diffeomorphism φB of the base B, that is element of Dif f +(B). Lifting this element
+to the element of D(B) we represent the group Aut+ (P ) as the semi-direct product
+of the normal subgroup T C(P ) and the subgroup D(B). Thus, we have proved the
+first of two following statements
+(1) Automorphisms group Aut+ (P ) is the semidirect product of the subgroup
+D(B) ∼ Dif f + (B) of orientation preserving diffeomorphisms of the base
+B and the subgroup T C of proper gauge transformations ξF of the fibers
+ξF : ((X 0 = T ; X I , I = 1, 2, 3) 7−→ (F (T, ; X J , J = 1, 2, 3), X I , I = 1, 2, 3))
+with F,0 > 0.
+(2) For any admissible history of deformations φ one can choose a transformation ξF ∈ T C such that the history of deformation φ ◦ ξF is synchronized.
+
+To prove the second statement let φ be an admissible history of deformation. Define the element F ∈ T C(P ) as follows: F : (T, X I , I = 1, 2, 3) 7−→ (φ0 (T, X J , J =
+1, 2, 3), X I , I = 1, 2, 3). Then, φ = φ1 ◦ F where φ1 is another admissible history of
+deformation with the same components φi , i = 1, 2, 3 and the identity component
+φ01 (T, X I , I = 1, 2, 3) = T . Transformation F is admissible since F,00 = φ0,0 > 0,
+thus F ∈ T C(P ). Apparently, the deformation history φ1 is synchronized.
+Therefore we may restrict our consideration to the synchronized histories of
+deformation keeping in mind that the covariance group of the theory reduces from
+the group Aut+ (P ) to the group D(B) of time-independent orientation preserving
+diffeomorphisms of base B.
+2.3. ADM-decomposition of Material Metric, Lapse and Shift. Slicing
+Bφ,t , generates the (3,1)-decomposition of the material metric G employed (for
+a Lorentz type metric) in General Relativity ([4],[5]). Specifically, the sandwich
+structure of the part of the manifold P bounded by the surfaces Bφ,t and Bφ,t+∆t
+allows one to introduce the time-dependent lapse function N and the shift vector
+
+6
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+~.
+Figure 2. Lapse Function S and Shift Vector N
+~ tangent to the slices Bφ,t such that the metric is block-diagonalized in the
+field N
+moving coframe (dT, dX A + N A dT ):
+ds2 = GIJ dX I dX J = gIJ (dX I + N I dT )(dX J + N J dT ) + S 2 dT 2 .
+
+(2.7)
+
+Matrix representation of the material metric tensor G and inverse tensor G−1
+have in these notations, the forms
+!
+
+ 
+  00
+
+J
+1
+G00 G0J
+NA N A + S 2 NJ
+G
+G0J
+−N
+2
+2
+S
+S
+=
+,
+=
+,
+I
+I
+J
+GI0 GIJ
+GI0 GIJ
+NI
+gIJ
+−N
+g IJ + N SN
+2
+S2
+(2.8)
+−1
+where g is the 3D-metric induced by Gp
+on the slices
+B
+and
+g
+is
+the
+correspondp φ,t
+ing inverse tensor. In these notations |G| = S |g|.
+In what follows we assume that the 4D-deformation history φ is synchronized.
+Thus slices Bφ,t has the form T = t = const.
+In these notations, the flow vector uG and the corresponding 1-form have the
+form
+NA
+1
+∂ A , u♭G = SdT.
+(2.9)
+uG = ∂T −
+S
+S X
+The last formula gives the ”material time differential” dτ = SdT for the material
+metric G. In our context, the coordinate X dependence of lapse function S(T,X)
+accounts for heterogeneity of material aging in different points of the solid. On the
+Fig. 3 the local observer at different points of body at different moments of time T
+sees the different rate of the local time in comparison with the laboratory clocks.
+Moreover, the lapse function S can be considered as an intrinsic measure of
+material age, associated with its cohesiveness. It can be normalized to be equal
+1 in the reference state of the solid. As a result of energy dissipation in various
+inelastic processes, material loses its cohesiveness with aging. In the formalism
+presented here it is manifested in slowing down of the material (intrinsic) time, i.e.
+increasing of S(X, T ).
+Here we do not consider thermodynamics. However, monotonic increase of
+S(X, T ) resembles and can be linked to the principle of non-negative entropy production of the thermodynamics of irreversible processes: dSdtin > 0.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+7
+
+Figure 3. Illustration of Time Rate S (Lapse Function) by Variation of Time Interval (τ − τ0 ) = S(T1 − T0 ).
+
+Figure 4. Propagation of Phase Boundary Represented by Shift
+~
+Vector N
+
+The requirement S > 1 leads to the strong constraints on the form of the ”ground
+state term” of the material Lagrangian Lm , (see Sec. 5).
+~ in the metric G reflects a propagation of
+In this context, the shift vector field N
+the phase transition or chemical transformation boundary through the material as
+reflected, for instance in the mass conservation law (see below).
+The separation of the evolution of 3D material metric g, material transformation
+~ and the inhomogeneity of the local time dτ =
+process in Bt , characterized by N
+SdT , are the main reason for introduction (3+1) ADT-representation of 4D-metric
+in Gravity Theory ([4]). In addition, an adoption of this view leads to a very clear
+separation of the ”physical” degrees of freedom in the canonical formalism and to
+the explicit hyperbolic formulations of Einstein Equations ([10, 11]).
+
+3. Mass conservation law
+The mass form dM = ρ0 dV defined in P is introduced here, in addition to
+the volume form dVG of metric G. The reference mass density ρ0 , defined by this
+representation, satisfies the mass conservation law ([6],[7])
+Luφ dM = d(iuφ dM ) = 0.
+
+(3.1)
+
+Here Luφ is the Lie (substantial) derivative of the exterior 4-form dM in the direction of the vector field uφ . Recall that the Lie derivative of a differential form ω
+d ∗
+φt ω|t=0 , where φ∗t ω is the pullback of
+along a vector filed u is defined as Lu ω = dt
+the form ω by the flow t −→ φt = exp(tu) of the vector field u ([6]).
+
+8
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Equation (3.1) is equivalent to the condition divG (ρ0 uφ ) = 0, where divergence
+is taken with respect to the volume form dV . In local coordinates the Mass Conservation Law has the form
+!
+GIB φ0,B p
+= 0.
+(3.2)
+ρ0 |G|
+kdφ0 k
+,I
+
+Due to the properties of the metric G and the deformation φ, the material spacetime manifold P is foliated by the phase curves of the flow vector field uφ and thus
+the value of the reference mass density ρ0 (0, X) at T = 0 uniquely defines its values
+for all T > 0.
+√
+M
+In the synchronized case φ0 = T, kdφ0 k = G00 = S −1 , GM0 = − NS 2 , G00 =
+S −2 and (3.2) take the form of the following balance law
+(ρ0
+
+3 
+X
+p 
+p
+|g|),0 =
+N A ρ0 |g|
+A=1
+
+,A
+
+.
+
+(3.3)
+
+~ can describe the matter (denFrom (3.3) we note that the shift vector field N
+sity) flow due to the some internal processes such as the phase or chemical
+transformations.
+If, in addition to being synchronized, the material metric G is also in the BD~ = 0), the flow term in (3.3) disappears and the mass conservation law is
+form (N
+equivalent to the following representation of the reference mass density in terms of
+its initial value ρ0 (0, X) = ρ0 :
+s
+G00
+ρ0 (0, X)
+ρ0 (T, X I ) = ρ0 (0, X)
+,
+(3.4)
+= p
+|G|
+|g(T, X)|
+
+where G(0, X) is assumed to be Euclidean metric. If metric G does not changes
+0
+with time T , we get the classical local mass conservation law ∂ρ
+∂T = 0.
+4. Elastic, Inelastic and Total Strain Tensors
+In this section we introduce the principal quantities characterizing both elastic
+and inelastic deformation processes. Total deformation is presented as a composition of elastic and inelastic ones and is integrable. Its elastic and inelastic ”components” are non-integrable, in general, but might be such in special situations
+(see Sec.11). We recall that the presentation of total deformation as a composition
+of this type was studied in different forms in many works ([9, 12, 14], to name a
+few). What is new here is the 4D-approach to this decomposition and direct definition of elastic, inelastic and total strain tensors in terms of material metric gt as
+an independent dynamical variable, reference (undeformed) Cauchy metric g0 and
+the current Cauchy metric C3 (φ) rather then using the ”deformation gradients”
+(integrable or not) of elastic and inelastic (plastic) deformations. 
+
+NA N A NJ
+s
+Slicing Bφ ,t of P defines the covariant tensor γ = G−uφ ⊗uφ =
+NI
+gIJ
+([7],[4]). Here and later the sign s over = means that this equality is true in synchronized case. Tensor γ induces the time dependent 3D-metric gt on the slices
+Bφ ,t (see, for example, [11]).
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+9
+
+To obtain the expression for gt in material coordinates X I , we notice that the
+tangent vectors
+φ0,I
+(4.1)
+ξI = − 0 ∂X 0 + ∂X I , I = 1, 2, 3
+φ,0
+form the basis of the tangent spaces to the slices Bφ,t . In this basis, gt is given by
+gAB = g(ξA , ξB ) = GAB − G0B
+
+φ0,B
+φ0,A φ0,B
+φ0,A
+−
+G
++
+G
+, A, B = 1, 2, 3. (4.2)
+A0 0
+00
+φ0,0
+φ,0
+φ0,0 2
+
+For a synchronized deformation γ = G − (G00 )−1 dT ⊗ dT and gt is simply the
+restriction of 4D-metric G to the slices BT =c , i.e. gt IJ = GIJ |T =t , see (2.8).
+Denote by ht the 3D metric on the leaves Bφ,t induced by the metric G0 (that
+is by the tensor γ0 = G0 − u0 ⊗ u0 ).
+Associated with the tensor γ there is the projector ((1,1)-tensor)
+
+
+GI0
+0
+0
+−1
+∗
+s
+.
+(4.3)
+Π = G γ = I − uφ ⊗ uφ = I − 00 ∂X I ⊗ dT =
+N I I3
+G
+on the tangent spaces to the slices Bφ,t , last equality being true for synchronized
+deformations φ.
+Let us consider the pullback C4 (φ) = φ∗ ĥ of the degenerate tensor ĥ by the 4Ddeformation mapping φ. Tensor C4 (φ) is degenerate in P , its kernel is generated
+∂
+I
+by the vector φ−1
+∗ ( ∂t ). In coordinates (X ) we have
+!
+hij φi,0 φj,0 = kVk2h
+hij φi,0 φj,J
+P3
+.
+(4.4)
+C4 (φ)IJ =
+i j
+hij φi,I φj,0
+i,j=1 hij φ,I φJ
+The spatial part of this tensor is the conventional Cauchy-Green strain tensor C3 (φ)
+of the Elasticity Theory. Components of this tensor with indices (0J) and (I0),
+I, J = 1, 2, 3 have the form velocity × deformation covector (see [15]). (00)i
+∂
+∂
+) =s ∂φ
+component of C4 (φ) is the square of the material velocity V = φ3∗ ( ∂T
+∂t ∂xi .
+
+4.1. Elastic Strain Tensor. Here we define the 4D (1,1)-elastic strain tensor
+in P . We will do it first in linear approximation and then, using logarithm of a
+(1,1)-tensor function, in another way, more suitable for large deformations.
+We start with the following, conventional definition:
+1
+Ê·el · = G−1 (C4 (φ) − γ) =s
+2
+ −2
+S kVk2h − S −2 N I hV, φ.,I ih
+1
+−S −2 N I kVk2h − N I +
+= 
+2
+−2 I K
++(S N N + g IK )hφ.,K , Vih
+
+
+S −2 hV, φ.,J ih − S −2 N K hφ.,K φ.,J ih
+−S −2 N I hV, φ.,J ih + g IK C3 (φ)KJ − .
+−δJI − S −2 N I N K hφ.,K φ.,J ih
+(4.5)
+
+This tensor contains the square of material velocity and the shift vector field.
+Having in mind the general, dynamical situation it is more appropriate to use the
+following tensor as the proper Elastic Strain Tensor
+
+
+1
+1
+0
+0
+,
+E.el . (φ) = ΠÊ el Π = ΠG−1 (C4 (φ)−γ))Π =s
+g IK hφ.,K , φ.,0 ih − N I g IK C3 (φ)KJ − δJI
+2
+2
+(4.6)
+
+10
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Here Π is the projector on the slices Bφ,t defined in (4.3). The last equality is valid
+in the synchronized case. Notice that the basic invariants T r(Ak ) for the tensor
+(4.6) are the same as for the tensor C3 (φ) − g.
+For the simplicity we use the same symbol E el for the restriction of this tensor
+to the slices Bφ,t .
+Tensor E(φ)el is a measure of the deviation of the Cauchy metric C3 (φ) of the
+actual state from the ”ground state” G. For a synchronized deformation φ and a
+material metric G with the zero shift vector, E el = 21 (C(φ) − gt ) has the form of
+the conventional elastic strain tensor.
+Remark 1. The deformation φ is essentially 3-dimensional in the sense that
+only the spatial Euclidean metric g0 = h in B is deformed. The 4D-tensor C4 (φ) =
+φ∗ h defines the degenerate metric in the material space-time P . It is instructive
+to compare C4 (φ) with the (degenerate) tensor γ = G − uφ ⊗ uφ . The elastic
+strain tensor E el measures the deviation of C4 (φ) from γ on the slices Bφ,t . Thus,
+the scheme presented here is essentially different from relativistic elasticity theory
+([7],[8]) as well as from 4D version of conventional elasticity theory.
+We see from (4.6) that E el = 0 if and only if the following two conditions are
+fulfilled:
+(
+1) gij = C3 (φ)IJ = φ∗3 (h)IJ ,
+(4.7)
+2) N I = g IK hφ.,0 , φ.,K i.
+In particular, metric g coincide with the Cauchy metric induced by deformation
+φ and is flat.
+If E el = then Ê el = 0 if and only if in addition to the conditions (4.9) the
+following conditio is fulfilled
+3) kV k2h = g IJ hφ.,0 , φ.,I ihφ.,0 , φ.,J i.
+
+(4.8)
+
+4.2. Inelastic Strain Tensor. Now we introduce the inelastic strain tensor in
+linear approximation
+
+
+1 −1
+0
+S −2 N K hKJ
+s 1
+in
+,
+(4.9)
+Ê = G (γ − γ0 ) =
+N I δJI − g IK hKJ − S −2 N I N K hKJ
+2
+2
+(last equality being true in synchronized case) and the total strain tensor Ê tot of
+the body at each given moment T to characterize the deviation of the deformed
+Euclidean metric φ∗ h|Bφ,t from the initial (Euclidean) 3D-metric h (h being the
+restriction of G0 to the slices Bφ,t )
+Ê tot =
+
+1 −1
+G (C4 (φ) − γ0 ).
+2
+
+(4.10)
+
+Tensor Ê tot can be represented as the sum of the elastic strain tensor Ê el and of
+inelastic strain tensor Ê in :
+Ê tot = Ê el + Ê in .
+(4.11)
+To obtain the corresponding decomposition for the 3D strain tensors we apply
+projector Π to the total and inelastic strain tensors. In particular we introduce
+
+
+0
+0
+in
+in
+s 1
+,
+(4.12)
+E = ΠÊ Π =
+N I − g IK hKB N B δJI − g IK hKJ
+2
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+11
+
+As a result, we get from (4.11) the corresponding decomposition of ”3D total strain
+tensor”
+ΠE tot Π = E el + E in .
+(4.13)
+Restriction of these tensors on the 3D slices Bφ,t leads to the more conventional
+(t-dependent) version of this decomposition.
+For a synchronized deformation history, restriction of E in to the slices Bt takes
+the form
+1
+1
+(4.14)
+E in |Bt = g −1 (g − g0 ) = (I − g −1 g0 ),
+2
+2
+that describes the decline of 3D material metric g from its initial (reference) value
+g0 = φ∗0 h.
+Another way to define strain tensors, more suitable for description of large deformation is to take
+1
+1
+1
+tot
+= ln(G−1
+(4.15)
+Ê el = ln(G−1 C4 (φ))), Ê in = ln(G−1
+0 G)), Ê
+0 C4 (φ))).
+2
+2
+2
+We can define E el , E in , E tot correspondingly, using projector Π. Strain tensors,
+defined in such a way will, in some simple cases, enjoy the same additive relations
+as (4.11),(4.13). On the other case, if elastic deformation happens in the directions
+different from the principal axes of inelastic deformation, relation between these
+deformations becomes more complex.
+The relationship between these definitions and those of the linear approximation
+above is established by using the fact that for a couple A, B of (0,2)-tensors such
+that A is invertible, ln(A−1 B) ≈ A−1 (A−B) provided A−B is small enough. Thus,
+when linear approximation is allowable, first definition is the good approximation
+of the second. For instance
+ln(g −1 C3 (φ)) = ln(I + g −1 (C3 (φ) − g)) ≈ g −1 (C3 (φ) − g),
+
+(4.16)
+
+provided C3 (φ) − g is small.
+
+4.3. Strain Rate Tensor. One can also define the material elastic strain rate
+tensor as follows
+˙ el
+Ê = Luφ Ê el ,
+(4.17)
+as well as inelastic strain rate tensor
+˙ in
+Ê = Luφ Ê in .
+(4.18)
+
+In the case where G = G0 and φ0 = T , elastic strain rate tensor defined in (4.17)
+has, the same spatial components as the conventional strain rate tensor ([6]).
+Denote by Ġ the the Lie derivative Ġ = Luφ G of the metric tensor G with
+respect to the flow vector ~uφ . Then the calculation of the Lie derivative in (4.17)
+results in the following relation
+1
+˙ el
+(4.19)
+Ê = Luφ Ê el = −G−1 ĠÊ el + G−1 (C4˙(φ) − K),
+2
+where K = Luφ γ is the extrinsic curvature tensor of the slices Bφ,t .
+
+Remark 2. Here we are using material coordinates and tensors only. In order to
+obtain the corresponding ”laboratory” quantities (seen by an external observer),
+one defines the laboratory (Euler) Elastic Strain Tensor
+i
+el A
+ǫel
+= φi,A φj−1 B EB
+j
+
+(4.20)
+
+12
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Figure 5. Decomposition of Deformation History.
+and recalculate all the other quantities accordingly.
+Figure 5 presents the above decomposition of total deformation into the inelastic
+and elastic deformations.
+The actual state under the load at any given moment T results from both elastic
+(with the variable elastic moduli) and inelastic (irreversible) deformations. The
+”ground state” of the body is characterized by the 3D-metric gt . This state is the
+background to which the elastic deformation is added to reach the actual state
+([14]).
+Transition from the reference state to the ”ground state” that manifests in the
+evolution of the (initial) Euclidean metric h to the metric gt cannot be described,
+in general, by any point transformation. Transition from the ”ground state” to the
+actual state at the moment t also is not compatible in general. Yet the transition
+from the reference state to the actual state is represented by a diffeomorphism φt .
+Here we are considering the material 4D-metric G and the deformation φ
+(or elastic strain tensor E el (φ)) to be the dynamical variables of the field theory.
+The reference mass density ρ0 is found (for the synchronized deformation φ and the
+BD-metric G) by the formula (3.4) if its initial value ρ0 (T = 0) is known. In this
+study we consider mainly the quasi-static version of the theory, i.e. inertia forces
+and kinetic energy are assumed to be negligible.
+5. Parameters of Material Evolution, metric Lagrangian
+In examining the processes of deformation and aging of a solid with a synchro~ , g) notations
+nized deformation history φ we use both general (GIJ ) and ADM (S, N
+for the 4D material metric G.
+Following the framework of Classical Field Theory ([16]) we take a Lagrangian
+density L(G, φ) referred to the volume form dV as a function of 4D-material
+metric G, its invariants (with respect to the group of Dif f + (B) of the orientation
+preserving diffeomorphisms of the base B, see above) and the elastic strain tensor:
+L(G, E el ).
+The Lagrangian L(G, E el )dV is represented as a sum of the two parts: the metric
+part Lm (G) and, as a perturbation of the ground state, the elastic part Le (G, E el )
+associated with elastic deformation
+L = Lm (G) + Le (E el , G).
+
+(5.1)
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+13
+
+Metric Lagrangian Lm (G) in (5.1) is introduced to account for the ”cohesive
+energy” or strength of the solid state, the strain energy of ”residual strain” and the
+energy of the change associated with a evolution of material properties in time, for
+instance material aging processes of phase transitions.
+Metric Lagrangian Lm is the sum of several terms with the coefficients that may
+depend on the 3D volume factor |gt | (actually |gt |/|g0 |) and the lapse function S.
+These volume factors are associated with the solid state ability to retain its intrinsic
+topology in contrast to the fluid and gaseous states.
+~ k2 ) (shortly GS) First term of Lm is the ”ground state energy” F (E in , S, kN
+g
+initial (”cohesive”) energy (per unit volume).
+The second (kinetic) term in Lm (see (5.4) below) is the function of invariants
+of the tensor K = LuG γ of extrinsic curvature of the slices BT in the material
+space-time P ( [4, 11]).
+In the ADM notations, the (1,1)-tensor K has the following form
+(KJI ) =
+
+
+
+0
+0
+(∗) S −1 g IS (ξ · g)SJ
+
+
+
+,
+
+(5.2)
+
+where (∗) represents the terms which do not enter the invariants of K and ξ · g =
+∂
+~
+~ g. Lie derivative LN
+~ g of the tensor g with respect to the vector field N
+∂T g − LN
+is calculated on each 3D slice BT for a fixed T .
+
+
+0 0
+;
+In the case of a block-diagonal metric G (no shift: N̄ = 0), γ =
+0 gt
+therefore, K is, essentially, the time derivative of the metric gt :
+
+
+0
+0
+KJI =
+.
+(5.3)
+∂
+0 S −1 g IA ∂T
+gAJ
+Therefore, tensor K represents the rate of change of intrinsic length scales that
+reflects the aging processes. It shall be noted that K is also related to the elastic
+strain rate (see (4.19)).
+~ through its norm kN
+~ k2 =
+Lm (G) also may depend on the shift vector field N
+g
+A
+~)
+NA N (entering the ”ground state energy” F ) and, possibly, divergence divg (N
+~
+and the ”proper time derivative” Lu N .
+We also include the term reflecting the residual strain energy (incompatibility)
+of E tot which is accounted for by the scalar curvature R(g) of 3D material metric
+g.
+Summarizing the above assumptions we construct the metric Lagrangian Lm as
+the scalar function of the parameters listed above:
+~ k2g , E in ) + χ(K) + αdivg (N
+~ )2 + βR(gt ).
+Lm = F (S, kN
+
+(5.4)
+
+Function χ of invariants of tensor KJI (”dissipative potential”, comp.[13]) corresponds to the energy of inelastic processes in the material a.
+Coefficients α, β may depend on S and |g|.
+a
+Initially ([17]) we’ve considered function χ to be a quadratic function of invariants
+T r(K), T r(K 2 ) but as the examples of stress relaxation and creep in a rod demonstrate
+this function should be chosen differently, corresponding to the material studied. In particular, if the Dorn relation η̇ = D(expβσ − 1) between the stress σ and the strain rate η̇
+(η(t) is the volume preserving part of inelastic strain ) is to be obtained, one should take
+x
+x
+x
+x
+ln( D
+) − β1 (1 + D
+)ln(1 + D
+).
+χ(x) = cx + βD
+
+14
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+In the case of a homogeneous media or in 1D case, the scalar curvature R(gt ) of
+the metric gt is zero and the corresponding term in (5.4) vanishes.
+Given the diversity of the material properties and the different conditions (of
+loading, boundary, forces, heat,etc.) of inelastic processes affecting the material
+it is especially important to choose the material Lagrangian of different materials
+appropriately. It appears as if the different conditions activate different ”layers”
+of structural changes for a given material and, correspondingly, turn on terms in
+the ”ground energy” and in the ”dissipative potential” that are responsible for
+the given type of aging. For example, the slow process of unconstrained aging in
+a homogeneous rod (see sec.11. or [19]) is overcome by the scale processes of a
+stress relaxation or creep each of which begins in a different loading situation after
+the strain energy (density) reaches a (different) activation level. For these two
+processes both ground energy F and the dissipative potential χ(K) have the same
+form different from those for unconstrained aging.
+Remark 3. The scalar curvature R(G) of the 4D metric G can be expressed, by
+the Gauss equation, as the combination of scalar curvature of 3D metric g and of
+invariants of its extrinsic curvature: R(G) = −(tr(K 2 ) − (trK)2 ) + R(gt ), up to
+a divergence term ([11]). As a result, the above form of Lagrangian for
+p an aging
+media (5.4) is a generalization of the Hilbert-Einstein Lagrangian R(G) |G| of the
+General Relativity ([4]). By breaking of the invariance group of general relativity to
+the smaller group of automorphisms of the bundle P → B we can use more general
+form of metric Lagrangian.
+The perturbation of Lagrangian due to elastic deformation is taken in the form
+of the Lagrangian of Classical elasticity ([6], Sec.5.4)
+Le (E el , G) =
+
+ρ0
+kV k2h − ρ0 f (E el , G) − ρ0 U ◦ φ,
+2
+
+(5.5)
+
+P
+where ρ0 kV k2h = ρ0 ij hij φi,0 φj,0 is the density of kinetic energy, f is the strain
+energy per unit of mass, U is the potential of the body forces. Strain energy f is
+assumed to be a function of two first invariants of the (1,1)-strain tensor E el . Strain
+energy may depend on the metric G through the invariants of g0−1 gt , S, vector field
+~ , scalar curvature R(g) etc.
+N
+Because we are considering a quasistatic synchronized theory here we ignore the
+inertia effects and, therefore, omit the kinetic energy term in (5.5).
+The strain energy density in linear elasticity is conventionally presented as follows
+f (E el ) =
+
+µ
+λ
+T r(E el 2 ) + (T r(E el ))2 ,
+2
+2
+
+where µ, λ are the initial values of the Lame constants ([18]).
+We assume that Strain Energy f and the ”ground state” term F are independent
+of each other. Yet, in Appendix A we introduce a scheme where elastic deformation
+(elastic strain tensor E el ) is considered as (small) perturbation of (large) inelastic
+deformation (presented by inelastic strain tensor E in ). Therefore, strain energy
+f (E el ) is obtained by decomposition of the function F (S, E tot ) into the ”Taylor
+series” by the parameter E el . This leads to the expression of elastic moduli of a
+media through the invariants of material metric g and the lapse function S.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+15
+
+6. Action, boundary term, Hooke’s law.
+The Action functional is the integral of the Lagrangian density L(G, φ) over a
+4D domain U = [0, T0 ] × V . Here (V, ∂V ) is an arbitrary subdomain of B with the
+boundary ∂V , combined with the 3D boundary integral that accounts for the work
+W of surface traction ([6]).
+AU (G, φ) =
+
+Z
+
+(Lm (G) + Le (E el , G))dV +
+
+Z
+
+Vτ (φ, G)d3 Σ.
+
+(6.1)
+
+[0,T0 ]×∂V1
+
+U
+
+Here d3 Σ is the area element on the 3D boundary ∂U of the cylinder U ([6]).
+The second term on the right represents a boundary conditions put on the deformation history φ. Typically the boundary ∂V of the domain V ⊂ B is divided
+into two parts V = ∂V1 ∪ ∂V2 . The deformation is prescribed on the part ∂V2 :
+φ∂V2 = ψ(t, X), while along the part ∂U1 of the boundary the traction τ is prescribed. Function Vτ depends (conventionally) on the velocity V~ of deformation φ
+and on the traction 1-form τ , which is chosen in such a way as to have −∇φ Vτ = τ
+- traction ([6]). In Euclidean space with the dead load one takes Vτ = −τ · φ.
+~ = φ∗ ( ∂ of material points is assumed to
+Deformation φ(0, X) and the velocity V
+∂t
+be given at the moment t = 0. This determines initial conditions for the deformation
+history.
+The boundary conditions for the metric G (including initial conditions for 3D
+~ are known
+material metric g) require some special attention. Initial values of S, g, N
+- prescribed by the material manufacturing process and by the previous history of
+the material deformation. On the part ∂V1 of lateral surface ∂V where deformation
+φ|∂V1 is prescribed (for instance when this part of surface is not moving at all,
+see [19] for examples) we can find φ∗ (g|∂V1 ) by measuring distances between the
+material points on the boundary of the body in the physical space at moment t and
+recalculating them back to B by the tangent to the (prescribed) mapping φt . If a
+part of surface is free from load, one can use the natural (Neumann type) condition
+that the mean curvature (with respect to the metric induced by gt ) of this part of
+surface is zero. Along the part V2 of the surface where the load τ is applied one may
+use for g analog of Laplace-Young condition for liquid surfaces relating difference
+of pressure with the surface tension and the mean curvature. The formulation of
+corresponding boundary conditions are the subject of another work.
+From the requirement that the variation of the action near the lateral sides of
+cylinder U are zero we get to the natural boundary condition
+X
+P · N = τ, or
+gIJ PjI N J = τj
+IJ
+
+in terms of the first Piola-Kirchoff stress tensor PjI defined by the equation (material
+form of the Hooke’s law, see [6]):
+PjI = −
+
+∂Le
+∂φj,I
+
+=
+
+∂f
+∂φj,I
+
+.
+
+(6.2)
+
+Notice that if the kinetic energy is included into Le , Piola-Kirchoff Tensor has the
+density of linear momentum vector as its Pi0 components ([20, 21]).
+We will be using the second (material) Piola-Kirchoff tensor SJI = PiI φi,J .
+
+16
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+It is useful to recall that the (laboratory) Cauchy stress tensor σij is related to
+the first Piola-Kirchoff tensor by the following formula σij = J −1 (φ)hik φk,I PjI , J(φ)
+being the Jacobian of the deformation φ.
+The zero condition for the variation at the top (T = T0 ) and the bottom (T = 0)
+of the cylinder lead to the relation between the linear momentum and the kinetic
+energy in the classical case (Legendre transformation). In the scheme presented
+here these variations also includes terms related to the aging processes.
+7. Euler-Lagrange Equations.
+The variation principle of the extreme action δA = 0 taken with respect to the
+dynamic variables φ and G results in a system of Euler-Lagrange equations that
+represent the coupled Elasticity and ”Aging” equations
+I=3
+
+X ∂
+∂Le
+∂
+−
+(ρ0 φm
+,0 ) +
+m
+∂T
+∂φ
+∂X I
+I=1
+
+∂Le
+∂φm
+,I
+
+!
+
+− ρ0
+
+p
+|G|(∇B)m = 0, m = 1, 2, 3. (7.1)
+
+p
+δLm
+δLe
+=−
+= |G|T IJ , I, J = 0, 1, 2, 3. (7.2)
+δGIJ
+δGIJ
+
+The Elasticity Equations (7.1) are obtained by taking the variation δA with
+respect to the components φi within the domain U . In the case of a BD metric
+G and the synchronized deformation φ, these equations coincide with the conventional dynamical equations of Elasticity Theory. However their special features are
+associated with the different form of the elastic strain tensor E el and with the dependence of the elastic parameters on time through the invariants of the metric G.
+The evolution of these parameters is defined by the equations (7.2) (referred to as
+Aging equations).
+The Aging Equations (7.2) resulting from the variation of action with respect
+to the metric tensor G describe the evolution of the material metric G for a given
+initial and boundary conditions.
+The right side of the equationsp
+(7.2) represents the (symmetrical) ”Canonical
+δLe
+([5]). In our situation this
+Energy-Momentum Tensor” |G|T IJ = − δG
+IJ
+tensor is closely related to the Eshelby EM Tensor bIJ .
+In his celebrated works J.Eshelby ([23, 15]), introduced the 3D and then 4D
+dynamical energy-momentum tensor (Eshelby EM Tensor) b (denoted Plj∗ in
+[15]).
+bIJ = f δJI −
+
+i=3
+X
+∂f
+
+∂φi,I
+i=1
+
+φi,J = f δJI − SJI ,
+
+(7.3)
+
+f being the elastic energy per unit volume.
+The tensor b includes the 3D-Eshelby stress tensor ([15, 21]) , the 1-form of quasimomentum (pseudomomentum) P = b0J , J = 1, 2, 3, (see [15, 20]), strain energy
+density b00 = −Le = f (plus kinetic energy, if the last one is present) and the
+energy flow vector s = bI0 = −PiI φi,0 , I = 1, 2, 3. In the quasi-static case b0J = 0 for
+~ = 0) G we have PB = b0B = 0, B = 1, 2, 3.
+J = 1, 2, 3. In the case of a BD metric (N
+Tensor bIJ is, in general, not symmetric (although its 3x3 space part is symmetric
+with respect to the Cauchy metric C3 (φ), see [20].
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+17
+
+~ = 0) and the
+It was proved in [22] that if metric G is block diagonal (i.e. if N
+body forces are zero, then
+T
+
+IJ
+
+1
+= b(IJ) +
+2
+
+
+
+δf (S, g, E el )
+δgIJ
+
+
+
+, I, J = 1, 2, 3,
+
+(7.4)
+
+exp
+
+where b(IJ) is the symmetrical part of the 4D Eshelby tensor and the symbol exp
+refers to the derivative of Le by the explicit dependence of G (not through E el ).
+For the Lagrangian L = Lm + Le defined by (5.4-5) the Aging Equations (7.2)
+can be rewritten in the more convenient ADM notations.
+The aging equations (7.2) take the form of the system of PDE for the lapse
+~ and the 3D material metric g. The explicit form of
+function S, shift vector field N
+the above equations can be readily obtained for the Lagrangian in a form (5.4-5).
+In order to achieve this the variational derivatives of components of Lagrangian
+~ , gIJ need to be calculated. In Appendix B we
+with respect to the variables S, N
+calculate the variations of some of these terms and present them in tabular form.
+Variation by S (assuming that f does not depend on S):
+δL
+∂F
+∂χ
+~ )2 + βR(g) = f + S ∂f . (7.5)
+= 0 ⇔ (F + S
+) + (χ(K) −
+: K) + αdivg (N
+δS
+∂S
+∂K
+∂S
+Variation by N I :
+∂
+∂F
+δLg
+~ )) + [−S −1 ∂χ g AS ∂X I gSJ +
+NI −
+=2
+(2α · ln(ρ0 S) · divg (N
+I
+2
+~
+δN I
+∂X
+∂KJA
+∂(kN k )
+p
+p
+1
+∂χ AS
+∂χ
+1
+p ∂X S (ρ0 |g|
+p ∂X J (ρ0 |g|
+g gIJ ) +
+)] = 0. (7.6)
++
+A
+I
+∂K
+∂K
+ρ0 S |g|
+ρ0 S |g|
+J
+J
+
+Variation by gIJ (for simplicity, we omit in this equation the terms coming from
+~ )2 in Lagrangian (5.4-5), for the corresponding term in the equation see
+divg (N
+Appendix B):
+
+1
+(∆g (ρ0 βS)g AB + HessAB (ρ0 βS))]+
+ρ0 S
+
+
+p
+1
+∂χ −1 IA ∂N B
+∂χ IA
+∂χ −1 IS ∂N A ∂χ IA B
+p ∂t ρ0 |g|
++
+S g
+S g
+g KJ −
+g
++[−
+−
+−
+I
+I
+∂X J ∂KB
+∂X S ∂KJI
+∂KJI
+∂KB
+ρ0 S |g|
+
+
+p
+1
+∂F
+1
+∂χ IA K
+p ∂X K ρ0 |g|
++
++
+] + Lm g AB +
+g
+N
+I
+2
+∂gAB
+∂KB
+ρ0 S |g|
+[−βE AB +
+
++
+
+∂F
+
+~ 2
+∂kNk
+g
+
+1 ~ 2 AB
+1 (AB)
+1 AB
+1
+1
+∂f
+∂f
+·[N A N B + kN
+exp = b
+exp+ U g
+kg g ] = (f +U )g AB − S (AB) +
++
+.
+2
+2
+2
+∂gAB
+2
+∂gAB
+2
+(7.7)
+
+AB
+Here E AB = Ric(g)AB − R(g)
+is the Einstein tensor of metric g. In the
+2 g
+first line of equations (7.6) (left side) ∆g is the 3D Laplace operator is defined by
+the metric g, Hess(f ) = f;M;N stands for the Hessian of the function f (double
+covariant derivative tensor of f ).
+On the right side of (7.7) remains the symmetrized Second Piola-Kirchoff Stress
+Tensor S (Here and thereof S(AB) = 21 (SAB + SBA )) or the Eshelby stress tensor
+
+18
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+since S (AB) = −b(AB) + Le g AB . The Eshelby EM Tensor b is thus the driving force
+of the evolution of material metric g (comp. [24]).
+Equations (7.1-2) together with the equation (3.4) for the reference density form
+a closed system of equations for dynamic variables (GIJ , φi , ρ0 ). Complemented
+with the initial and boundary conditions, these equations provide a closed nonlinear boundary value problem for the deformation of solid and evolution of the
+material properties.
+In general, the system (7.1-2) seems rather complex, especially if Le depends
+on the metric G an its (differential) invariants explicitly. Nevertheless, leaving a
+detailed analysis of this system for future studies, we make some brief remarks
+about special cases where system (7.2) is effectively simplified.
+8. Special cases and examples.
+~ = 0 (no shift).
+8.1. Block-diagonal metric G. In a case of a BD-metric, N
+in
+Therefore, the metric Lagrangian has the form Lm = F (S, E ) + χ(K) + βR(g)
+that includes time derivatives of 3D metric g (in χ(K)) and the space derivatives
+of g in the curvature term R(gt ).
+No derivatives of the lapse function S appear anywhere in Lagrangian. In particular, equation obtained by variation of S is not a dynamical equation but
+rather a constraint, similar to the ”energy constraint” in the Einstein equations
+([11]).
+In the case, when the elastic coefficients do not depend on S, equation (7.5) takes
+the form
+∂χ
+∂F
+) + (χ(K) −
+: K) + βR(g) = f,
+(8.1)
+(F + S
+∂S
+∂K
+p
+where ρ0 f |g|S is the density of strain energy (per unit of unperturbed volume).
+This relation represents an equilibrium between the strain energy in the material
+(residual stresses presented by the scalar curvature of g) and the internal material
+constituents (the ”ground state term” and the terms defined by the kinetic of
+material processes). In the case of a homogeneous tensile rod ([19]) this relation
+determines the domain of admissible evolution in the phase space and the ”stopping
+surface” where evolution of the material under the fixed conditions stops (see Sec.11
+below).
+As f → 0 and the kinetic processes are stopped, the system tends to the ”natural” limit state which determines the relation between the ”ground state energy”
+F (S, E in ) and the residual stresses (see Sec.8.3 below).
+8.2. Spacial subsystem. The spatial part (7.7) of aging equations represents the
+system of PDE for the metric gIJ having the form
+2 M
+(AB)
+.
+−βE AB (g) − S −1 S IA QBN
+IM (ξp g)N + W = S
+
+∂2χ
+I ∂K M
+∂KB
+N
+
+(8.2)
+
+~ is the principal part of the 1st order
+Here QBN
+and ξp = ∂t − N
+IM =
+linear operator ξ = ∂t − LN~ . The term W in the left side depends on the metric
+coefficients, function S and their first derivatives. Einstein tensor E(g) is linear by
+the second-order space derivatives of g. Thus, this system is quasilinear evolutional
+second order system for metric g. It can be easily transformed to the normal form
+under simple conditions on the dissipative potential χ.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+19
+
+~ = 0, U = 0, f does not depend on
+8.3. Statical case. Consider the case where N
+G, S explicitly, S, g are time-independent, β = const. Then the system of aging
+equations is reduced to the following form (here and below F̃ = SF )
+(
+∂ F̃
+el
+∂S + βR(g) = f (E ),
+F̃
+1
+AB
+= 12 (f g AB − S (AB) ).
+(S)−1 ∂g∂AB
+− βE AB + (ρ0 S)−1 [∆g (ρ0 S)g AB + HessAB
+g (ρ0 S)] + 2 (F + βR(g))g
+(8.3)
+In the absence of the strain energy, i.e. when f (E el ) = 0, b(AB) = 0 system (8.3)
+has the trivial solution S = const, g = g0 .
+Calculate S AB through the Cauchy stress tensor using (6.3) as follows:
+S AB =
+√
+|h| BC A
+g σC .
+|g|
+
+PjA φjC g CB = (J(φ)φs−1 A his σij )φjC g CB = J(φ)g BC φjC φs−1 A his σij = √
+
+Multiplying the first equation in (8.3) by 21 g AB and subtracting from the second
+we get
+p
+p
+1 ∂ F̃ AB p
+∂F
+1p
+A)
+AB
+−
+g ] |g|+(ρ0 S)−1 |g|[∆g (ρ0 S)g AB +HessAB
+|g| = −
+|h|g (B|C σC .
+g (ρ0 S)]−βE
+∂gAB 2 ∂S
+2
+(8.4)
+This is the balance equation between the metric characteristics (Einstein tensor,
+”ground state energy”, lapse function S) and the stresses in the body. It is especially
+simple in the case where S ≡ 1 is absent from F :
+[
+
+p
+p
+1p
+∂F p
+A)
+|g| − βE AB |g| + ρ−1
+|g|[(∆g ρ0 )g AB + HessAB
+|h|g (B|C σC .
+g ρ0 ] = −
+0
+∂gAB
+2
+(8.5)
+Here we can see how the curvature of material metric and the density of nonhomogeneities may be a source of the stresses in the body in the absence of elastic
+deformation, i.e. when the conventional strain tensor E el con = 21 ln(g0−1 C3 (φ)) is
+zero. Namely, in such a case though the conventional strain tensor is zero, decline
+of the Cauchy metric C3 (φ) from the material metric g is not zero. Subsequently
+stress tensor S is not zero. Equation (8.5) thus describes the self-equilibrated stress
+resulting from the curvature of the metric g and is related to the incompatibility of
+embedding of the solid into the physical space. The first term on the left in (8.5)
+is related to the deviation of the total energy from its stationary value.
+One example of this situation a nonhomogeneous chemical transformation (oxidation) of material, which results in the variation of material density and an incompatibility with the reference configuration. A more specific example of stress
+induced chemical transformation is discussed below in section 8.6.
+8.4. Almost flat case. Here we use essentially that the dimension of B is 3. In the
+case, where Ric(gt ) ≈ 0, a good approximation of the general system (7.1-2) can be
+proposed. If the total deformation φ is approximated by the ”ground deformation”
+φ̄ (i.e. deformation φ̄(X, T ) such that φ̄∗ h = gT , recall that this is the synchronous
+case!) in the evaluation of the EMT T IJ on the right side of aging equations (7.2),
+the latter becomes decoupled from the equilibrium equations (7.1). This allows
+us to study the aging equations separately from the elasticity equations and, after
+obtaining solution for G, substitute them into the elastic equilibrium equation (7.1)
+and solve it as the conventional elasticity equation with variable elastic moduli.
+
+20
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+8.5. Homogeneous media. In the case of a homogeneous material ([20]) metric
+G depends on T only, and Einstein tensor ẼIJ (g) is identically zero. As a result,
+(7.2) becomes a system of quasi-linear ordinary differential equations of the second
+order for the lapse function N and the material 3D metric gIJ . The Cauchy problem
+for this system is correct under some mild conditions to the dissipative potential χ.
+The linearized version of aging equations of 1D homogeneous rod was discussed
+in ([25]). In Sec.11 we shall briefly describe the study of some aging problems for a
+homogeneous rod (more detailed presentation will be published elsewhere, see [19]).
+We conclude this section with two model examples that show the type of material
+behavior that can be studied using presented approach.
+Example 1. Modeling of Necking Phenomena in Polymers.
+Delayed Necking, observed in various engineering thermoplastics, is a pictorial
+illustration of traveling wave solution. Necking in general is a localized large deformation (drawing) of a polymer with a distinct boundary between the drawn and
+undrawn material domains ( [26, 27, 28]). Delayed necking takes place in a rod in
+uniaxial tension, i.e., under constant applied load when the initial Piola-Kirchoff
+stress S11 (0) is less then the yield stress. At first a uniform creep takes place,
+i.e., a uniform stretching with a draw ratio λ = l/l0 , where l stands for an actual
+(current) length scale. After certain time interval when the increasing stress S11
+reaches the yield stress value, necking, also called ”cold drawing” with a natural
+draw ratio λ = l1 /l0 starts, i.e., strain localization is formed and propagates along
+the rod with a constant speed N 1 . The observed elongation results exclusively from
+a transformation of the original material adjacent to the neck boundary into the
+drawn (oriented) state and propagation of the boundary along the rod, as depicted
+in Fig. 6.
+We consider here a 1D model of a rod, with the lapse function S = 1 and the
+~ = N 1 ∂ being constant (see [17] for a 3D model of the necking
+shift vector field N
+∂X
+process). Denote by g = g11 (t, X) = λ2 g0 the only component of material metric.
+Take the ”ground state” energy as
+F (λ) = (λ − λ0 )2 (a + b(λ − λ1 )2 )
+
+where the elongation of the rod λ(t, X) = 21 gg0 is the drawing variable, λ0 = 1, λ1
+are two states (to compare with example of the creep in Sec.11 put λ = eη ≈ 1 + η).
+This is the simplest function that admits two different stable states (metrics) with
+equal chances when true stress reaches a critical value.
+The metric Lagrangian is reduced to Lm = F (λ)+χ(K), where K = (g −1 uG ·g) =
+2∂τ η, η = ln(λ) where ∂τ = uG = ∂t − N 1 ∂X .
+Experimental data suggest that in the necking the material density variation is
+negligible, thus we take ρ0 (t, X)λ(t, X) = ρ0 (0, X). As a result, the action takes
+the form
+Z
+[F (λ) + χ(2∂τ ln(λ))]dt ∧ dX =
+A(λ(t, X)) =
+[0,t1 ]×[0,L]
+Z
+F
+[(λ − λ0 )2 (a + b(λ − λ1 )2 ) −
+(λ − λ0 )2 + χ(2∂τ ln(λ))]dt ∧ dX,
+A0
+[0,t1 ]×[0,L]
+(8.6)
+where A0 is the initial cross section of the rod and F is the force acting on the right
+end pulling in X-direction. The second term here represents the work of the load
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+21
+
+Figure 6. Necking of a 1D Rod
+on non-elastic deformation. Consider the case where F is large enough to change
+sign of the quadratic part of the”ground energy” F . For simplicity we take AF0 = a.
+Variation by λ leads to the aging equation in the form
+λτ ′
+λ2
+[χ + (2λ−1 λτ )χ′′ ] − F̄ ′ (λ) = 0,
+2
+4
+2
+2
+where F̄ (λ) = b(λ − λ0 ) (λ − λ1 ) .
+The 2D dynamical system corresponding to this equation has equilibria points
+(λi , 0), i = 0, 1, 2 at the roots λ0 , λ2 = 21 (λ0 + λ1 ), λ1 ) of the polynomial F ′ (λ).
+If the dissipative potential χ(u) satisfies to the conditions χ′ (0) = 0, χ′′ (0) > 0,
+root λ2 is the center while other two are saddles whose separatrix loop enclose the
+elliptic region.
+For a given F (g), when the stress reaches the initiation level and from the trivial
+solution for g there bifurcates the separatrix solution, then, we get the ”traveling
+wave solutions” in the form of ”kink” ([17]), propagating with the the speed N 1
+along the rod, for the metric g(X, t) (and, by the mass conservation law, for the
+density ρ0 (X, t)).
+χ′′ λτ τ −
+
+8.6. Example: Variation of Material Metric g due to the Chemical Degradation. Here the evolution of the uniform material metric to the piecewise constant
+metric with the jump along the interface between a layer of chemically degraded
+material and the original material follows the kinetics of chemical degradation (see
+[29]).
+Consider a thin-walled thermoplastic tubing employed for transport of chemically
+aggressive fluid. In time, the inner surface layer of material undergoes chemical
+degradation due to interaction with aggressive fluid flow.
+Chemical degradation is manifested in an increase of the material density ρ0 ,
+significant reduction in toughness (resistance to cracking) and a subtle change in
+yield strength, Young’s modulus and other thermo-mechanical properties.
+Assuming the homogeneity of degraded layer we see that the original euclidian
+material reference metric in degraded ring evolves (see the mass conservation law
+(3.4)) which generates a jump on the interface with the outer layer of unchanged
+material. Continuity of normal stresses on the interface allows us to describe the
+final state of the system by elementary methods presented below.
+Consider a thin ring (see Figure 7) which represent the 2D cross-section of the
+tubing. The wall thickness t = Ro − Ri is small in comparison to the outer radius
+
+22
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Ro : t/Ro ≪ 1. Rd in Fig ** stands for the radius of interface between the layer of
+degraded material and unchanged layer. The depth of degradation td = Rd − Ri is
+relatively small: td /t ≪ 1.
+Select the polar coordinate system (r, θ). 2D material metrics of the initial (g 0 )
+and degraded (g ′ ) states are
+
+
+
+
+′
+1+ǫ 0
+1 0
+′2
+, |g ′ | = (1 + ǫ)r 2 ,
+g 0 = 0 r(0)2 , |g 0 | = r2 (0); g ′ =
+0 r
+where r′ = (1 + ǫ)r and ǫ is apsmall variation
+p of scale in the radial direction.
+Mass conservation law ρ0 |g 0 | = ρ′0 |g ′ | relates density variation ρ′0 = ρ0 +
+−3
+0
+with the change in material metric
+∆ρ0 , ∆ρ
+ρ0 ∼ 10
+s
+∆ρ0
+3
+(1 + ǫ)r′ 2
+ρ0
+=
+= (1 + ǫ)3/2 =⇒ 1 −
+≈ 1 + ǫ + O(ǫ2 ).
+(8.7)
+2
+ρ0 + ∆ρ0
+r(0)
+ρ0
+2
+
+2
+0
+Therefore ǫ ≈ − 23 ∆ρ
+ρ0 + O(ǫ ).
+Thus, the densification (i.e. ∆ρ0 > 0) leads to the shrinkage of the thin ring of
+degraded material. If we remove the constrains on shrinkage applied by the outer
+ring of original material the gap
+
+w = Rd0 − (1 −
+
+2 ∆ρ0 0
+2 ∆ρ0 0
+)Rd =
+R
+3 ρ0
+3 ρ0 d
+
+(8.8)
+
+appears.
+As a result of such constrains, the degraded material should be elastically stretched
+to close the gap w. This elastic deformation has the form
+(
+′
+0
+r′′ (r) = (1 + 23 ∆ρ
+ρ0 )r ,
+φ(r, θ) =
+θ′′ = θ′ = θ.
+Under such a deformation elastic strain tensor E el = 21 g −1 (C3 (φ) − g), C3 (φ) =
+hij φi,I φj,J has the form
+
+
+2 ∆ρ0 1 0
+E el ≈
+.
+(8.9)
+3 ρ0 0 1
+
+The tensile strain (8.9) is directly translated into the tensile radial stress via
+Hooke’s law
+Y 2 ∆ρ0
+σrr =
+.
+1 − ν 3 ρ0
+Although hoop stresses σrθ may be discontinuous, the equilibrium conditions requires continuity of radial stress across the interface, ,
+σrr nr |r=Rd −0 = σrr nr |r=Rd +0 .
+
+This implies that the outer ring of original material experiences compressive stresses
+while the inner degraded layer is under tension. The elastic strains E el jointly close
+the gap w and restore the compatibility of the Cauchy metric gf inal in the whole
+domain:
+gf inal = g ′ + E el .
+Therefore while the material metric g ′ has the jump leading to the nonzero singular
+curvature along the interface, the final metric is continuous and flat.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+23
+
+Figure 7. A sketch of polymer tubing cross section with inner
+degraded layer
+9. Physical and Material Balance Laws
+As it is typical for a Lagrangian Field Theory, action of any one-parameter
+group of transformations of the space P × M , commuting with the projection to
+P , leads to the corresponding balance law (See [6]). In particular, translations in
+the ”physical” space-time M lead to the dynamical equations (7.1-2), rotations in
+M lead to the angular momentum balance law (conservation law in the absence of
+applied torque). Respectively, translations in the ”material space-time” P lead to
+the energy balance law (translations along the time T axis) and to the material
+momentum balance law (”pseudomomentum” balance, ([20], [30], [31]), rotations in the material space B lead to the ”material angular momentum” balance
+law ([20]).
+In the table below we present basic balance laws together with the transformations generating them. It is instructive to compare the space and material balance
+laws as it has been considered previously by several authors ([30], [31]).
+Table 1. Space and Material Balance Laws
+
+Symmetry
+
+Physical space-time
+(Material independent)
+
+Material space-time
+(Space independent)
+
+Linear momentum balance law
+
+Material momentum (pseudo(-momentum) balance law
+
+Homogeneity of 3D-space (Equilibrium equations)
+div(σ) = f
+Time homogeneity
+Isotropy of 3D-space
+
+Energy balance law:
+∂t E tot = div(P tot )
+
+Angular momentum balance law
+≡ h-symmetry of Cauchy stress
+tensor σ:
+I:σ=σ:I
+
+div(b)=fmat
+Energy balance law
+Material angular momentum
+balance law ≡ C-symmetry of
+Eshelby stress tensor b
+
+b:C=C:b
+
+Space and Material balance (conservation) laws are related via the deformation
+gradient dφ. Restricting ourselves to the synchronized case and writing the material
+balance laws in the form ηI = 0 and their ”physical” counterparts in the form νi = 0
+
+24
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+we get the relationsship between these families of balance laws
+
+
+
+
+
+
+1 φ1,0 . . . φ3,0
+η0
+ν0
+ 1 φ1,1 . . . φ3,1 
+  ... 
+ ...  = 
+ ... ... ... ...  ·
+η4
+ν4
+0 . . . . . . φ3,3
+
+(9.1)
+
+Similar to the case of relativistic elasticity ([8]), the system of material balance laws
+ηI = 0, I = 1, 2, 3 is equivalent to the elasticity equations νi = 0, i = 1, 2, 3, while
+the energy balance law η0 = 0 (which here is the material conservation law as well
+as the physical one: in the case of synchronized history of deformation φ material
+time T and physical time t coincide). As a result, the energy conservation law is the
+consequence of the time translation invariance in both senses and follows from any
+Pi=3
+of these two systems: η0 = i=1 φi,0 νi . This reflects the fact that the deformation
+we consider here are not truly 4-dimensional.
+Balance laws (with the source terms) can be transformed into conservation laws
+by adding new dynamical variables. In the theory of uniform materials ([20, 24, 32])
+it is zero curvature connection in the frame bundle over M that is added to the list
+of conventional dynamical variables, in our scheme - it is the 4D material metric G.
+10. Energy-Momentum Balance Law and the Eshelby Tensor.
+In this section we consider the Energy-Momentum balance law resulting from
+the Least Action Principle and the space-time symmetries.
+Consider local rigid translations in the material space-time X J 7−→ X J + δX J .
+They generate a variation of components φi of the deformations, components GIJ of
+material metric and their derivatives (we follow the arguments
+of J.Eshelby
+([21]).
+p
+p
+Taking the variation of the Lagrangian density L = |G|L = |G|(Lg (G) +
+Le (G, E el )) with respect to the material coordinates X J , one obtains
+δL
+δX J
+
+=
+
+i=3
+X
+δL
+
+i=3
+∂ X ∂L i
+δL
+i
+φ
++
+(
+GAB +
+φ,J ) +
+,J
+i
+i
+I
+AB ,J
+δφ
+∂X
+δG
+∂φ
+,I
+i=0
+i=1
+
+∂
+∂X I
+
+∂L
+∂L
+∂
+E(G)IJ =
+GAB
+GAB
+,J +
+,KJ −
+AB
+K
+∂X
+∂GAB
+∂G
+,I
+,IK
+
+∂L
+∂GAB
+,IK
+
+!
+
+GAB
+,J
+
+!
+
+.(10.1)
+
+The last term in the right side of (10.1) includes a definition of the (1,1)-tensor
+density E(G). Employing the Euler-Lagrange equations (7.1-2), we obtain for the
+Total Energy-Momentum Tensor (density)
+the conservation law
+
+E tot = −LδJI − SJI + E(G)IJ ,
+
+(10.2)
+
+∂ tot I
+E
+= 0, J = 0, 1, 2, 3.
+(10.3)
+∂X I J
+Divergence here is taken with respect to the 4D ”reference” metric G0 . Since Lm
+does not depend on deformation φ and the body forces potential U does not depend
+on its derivatives while Le = −ρ0 f − ρ0 U ,
+divG0 (E tot ) =
+
+SJI = −
+
+i=3
+X
+∂L
+
+i=3
+X
+p
+i
+PiI φiJ S |g|,
+φ,J =
+i
+∂φ,I
+i=1
+i=1
+
+(10.4)
+
+which is the 4D-version of the (density of) Second Piola-Kirchoff Stress Tensor.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+25
+
+p
+I
+I
+Rewrite E tot in the form: E tot
+p = B +U δJ kGk+Lm δJ +E(G) where we denoted
+by B the tensor density B = b |G| of the Eshelby EM Tensor. Then the equation
+(10.3) takes the form
+p
+I
+= −divG0 (U δJI kGk + Lm δJI + E(G)),
+divG0 B = BJ,I
+(10.5)
+
+where in the right side only metrical quantities and the potential U of the body
+forces are left.
+The second term and the metrical part of the third term in the right side of (10.5)
+are related to the ground state of the Lagrangian density i.e. to the inhomogeneity
+of ”cohesive energy” and the ”material flows”. The elastic part of the third term
+on the right is related to a variation of elastic moduli if these moduli depend on
+the derivatives of the metric G. Equality (10.5) can be easily rewritten in terms of
+covariant derivatives with respect to the metric G.
+Taking J = 0 in (10.6) we arrive at the energy conservation law in ADM notations
+(using t instead of X 0 )
+!
+I=3
+i=3
+X
+X
+p
+p
+∂
+∂
+0
+I
+I i
+(10.6)
+P φ S |g| − E(G)0 .
+((f + U + Lm )S |g| + E0 ) =
+∂t
+∂X I i=1 i ,0
+I=1
+
+Equation (10.6) has the form ∂(TotalEnergyDensity)
+= TotalF lowDensity, with
+∂T
+the total (inner) energy density given by
+p
+E0tot 0 = (f + U + Lm )S |g| + E(G)00 .
+(10.7)
+
+The total energy is the sum of the following parts: elastic energy f , potential energy
+of the volume forces U , cohesive ”ground state” energy - thepterm F (E in , S) in Lm ,
+inhomogeneities energy from the curvature density βR(g)S |g| and corresponding
+terms of E00 , ”kinetic metric energy” that is defined by the term s produced by χ(K)
+in Lm and E00 and reflects the intensity of irreversible deformation and ”metrical
+~ )-terms.
+volume change energy” coming from the divg (N
+The sum on the right side of (10.5)
+p consists of the flow of the Piola-Kirchoff
+PI=3
+stress tensor density I=1 [PiI φi,0 S |g|],I and the flows related to the change of
+the material metric - internal material flows, flows of inhomogeneities (coming from
+the curvature R(g) etc.
+If the metric G does not depend on time (i.e. N̄ = 0, K = 0, G = G0 ) and
+if Ric(gt ) = 0, one obtains the conventional energy conservation law of Elasticity
+PI=3 ∂
++U)
+I i
+Theory ([6], Chapter 5, Sec.5): ∂(f∂T
+= − I=1 ∂X
+I (Pi φ,0 ),.
+
+Example 2 (Block diagonal metric G, synchronous deformation and homogeneous
+media). In this case we have Ric(g
+t ) = 0, Ñ = 0, g
+= g(t), S = S(t), the extrinsic
+
+0
+0
+I
+and χ(K) is the only term in
+curvature has the form KJ =
+0 S −1 g IK gKJ,0
+the Lagrangian containing time derivatives.
+In addition to this, no flow terms except the usual Piola-Kirchoff flow appear on
+the right side in the energy balance law which takes the form
+
+
+
+
+I=3
+X
+p
+p
+∂
+∂χ MA
+∂χ MB p
+−1
+I i
+(f + U + Lm )S |g| + S gAB,0
+S
+g
++
+g
+|g|
+=
++
+(P
+φ
+S
+|g|),I .
+i
+,0
+M
+M
+∂t
+KB
+KA
+I=1
+(10.8)
+
+26
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+This equation describes how the energy supplied by the boundary load spreads not
+just to the increase of the strain energy, but also to the change of its ”cohesive
+energy” of the material (F (S, |g|)) and to the acceleration of the aging processes.
+11. Aging of a homogeneous rod
+In considering three types of inelastic processes in a tensile homogeneous rod:
+unconstrained aging, stress relaxation and creep (see [19] for more detailed exposi~ = 0, R(g) = 0, S(t = 0) = 1 and that S(t) is increasing to
+tion) we assume that N
+a certain level depending on the initial state of the body and the process.
+11.1. Deformation, strain tensors and tensor K. Introduce material cylindrical coordinates (R, Θ, Z) in the reference state of a rod B. Spacial cylindrical
+coordinates (r, θ, z) are introduced in the physical space R3 . In addition we normalize the initial state g(0) of material metric taking g(0) = g0 .
+We consider the class of time dependent (total) deformations φ of the from
+φt : (R, Θ, Z) → (r = µ(t, Z)R, θ = Θ, Z = k(Z, t)),
+
+(11.1)
+
+with µ, k representing amount of ”stretch” in radial and axial directions respectively.
+Material metric gt is flat (homogeneous case!) and is generated by a global
+deformation φm of the same type as (11.1), with µm , km the same as above: gt =
+φm (t, ·)∗ h. As a result
+g = φ∗m h =
+
+µ2m
+0
+Rµm µm,Z
+0
+R2 µ2m
+0
+Rµm µm,Z
+0
+λ2 +R2 µ2m,Z
+
+!
+
+, C(φ) =
+
+µ2
+0
+Rµµ,Z
+0
+R2 µ2
+0
+Rµµ,Z
+0 λ2 +R2 µ2,Z
+
+!
+
+,
+
+(11.2)
+where λ = k,Z , λm = km,Z . For a homogeneous rod k(Z, t) = λ(t)Z, km (Z, t) =
+λm (t)Z.
+In the elasticity theory (see [33]) it is customary to present deformation (total
+and inelastic as well) as the composition of a uniform dilatation with the axial
+expansion factor λv (t) and of the volume preserving normal expansion with the
+p
+−1/2
+factor λd : λ = λv λd . We will obtain µ = λv λd
+and |g| = λ3v R (and the same
+for λmv , λmd ).
+As a result, the inelastic strain tensor can be written in the following form
+E in =
+
+1 −1
+(g g) =
+2 0
+
+ ln(µ)
+0
+0
+
+0
+0
+ln(µ) 0
+0 ln(λ)
+
+
+
+=
+
+ ξ− 1 η
+2
+
+0
+0
+
+0
+0
+ξ− 12 η 0
+0
+ξ+η
+
+
+
+(11.3)
+
+Here we introduced the variables ξ = ln(λm v ), η = ln(λm d ). As a result,
+calculating basic invariants of these tensors we see that the ”ground state” energy
+F is the function of S, ξ, η 2 .
+Decomposing the total deformation as the composition of inelastic and elastic
+one and assuming that elastic deformation is small compared to 1 we write:
+λv = λv m (1 + ǫv ), λd = λd m (1 + ǫd ).
+In these notations elastic strain tensor takes the conventional diagonal form
+E el =
+
+1
+1
+1
+ln(g −1 C(φtot )) ≈ diag( ǫv − ǫd , ǫv − ǫd , ǫv + ǫd ).
+2
+2
+2
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+27
+
+Strain energy for our (homogeneous) rod will now take the form
+K 2 3µ 2
+ǫ +
+ǫ
+(11.4)
+2 v
+2 d
+with the bulk coefficient K and the Lame coefficient µ.
+Mass conservation law (3.4) takes the form ρ0 (t) = λ3v ρ0 (0).
+The spacial part of the tensor K for a homogeneous rod takes the diagonal form
+f=
+
+K = S −1 diag(2ξt − ηt , 2ξt + 2ηt , 2ξt − ηt ).
+(11.5)
+1
+−1
+2
+−2 2
+Thus, T r(K) = 6S ξt , T r(K − 3 T r(K)I) = 6S ηt and dissipative potential
+χ(K) is the function of arguments S −1 ξt , S −1 ηt .
+Remark 4. In general, aging equation for the described situation have the form of
+a 3D degenerate Lagrangian system (we refer to [19], or [34] for more details). In
+the cases of the processes studied below this system reduces to the 2D degenerate
+dynamical system. In all three cases one can trivially solve elasticity equations,
+exclude elastic variables ǫv , ǫd from aging equations and, therefore, to close the
+system of aging equations.
+11.2. Unconstrained aging. Unconstrained aging (shortly UA) is the simplest
+example of a material evolution. A sample of material (rod) is prepared and then
+is left without any constraints or load applied to it. Usually the process of aging is
+manifested in a variation of material density, or a specific volume change up to a
+saturation point, when the observable evolution stops. In many polymers the aging
+is accompanied by shrinkage up to a few percent of initial volume. This diminishing
+in volume (2-5%) is called unconstrained aging. We discuss here a model for UA
+in terms of variables (S, ξ) (dilatational deformation plays negligible role in UA).
+No strain energy is present, stress is zero.
+We take the ”ground state energy” to be
+FUA (S, ξ) = (c1 + c2 S + (pξS −1 + kξ 2 )
+with k > 0, p < 0, c1 < 0, c2 > 0 and the dissipative potential
+χUA (K) = α(S −1 ξt )2 .
+Integrating over the volume of the rod we get the action in the form
+A(ξ, S) = V
+
+Z T
+
+((c1 S + c2 S 2 + (pξ + kξ 2 S) + αS(S −1 ξt )2 )dt.
+
+(11.6)
+
+0
+
+Euler-Lagrange Equations of UA can be reduced to the following dynamical system
+
+1
+
+
+ξt = −S c1 +2c2 S+kξ2 2 ,
+α
+(11.7)
+
+ 12
+2
+
+c
++2c
+p
+1
+2 S+kξ
+St = −
+.
+2c2
+α
+We have here ξt ≦ 0, St ≧ 0.
+F̃ )
+Equation (7.5) takes here the form αξt2 = S 2 ∂(∂S
+, where F̃ = SF .
+Take α = −1. Then, the domain of admissible dynamics defined by the positivity
+of expression under the square root is
+1
+(c1 + kξ 2 ),
+(11.8)
+S≦−
+2c2
+
+28
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+UA(c2=0.001
+0
+S(0)=1.9)
+−0.01
+
+−0.02
+
+ξ
+
+S(0)=1.6
+−0.03
+S(0)=1.3)
+−0.04
+S(0)=1
+−0.05
+
+−0.06
+
+0
+
+0.5
+
+1
+
+1.5
+
+t
+
+Figure 8. Aging curves
+and the curve where evolution stops when the phase trajectory reaches the final
+state is S = − 2c12 (c1 + kξ 2 ).
+The ”ground state energy” F is negative at initial moment and that it increases
+during the evolution.
+System (11.7) has the first integral J = c2 S 2 − pξ. Choosing an initial point
+(S(0), ξ(0) = 0) of a trajectory Γ in the domain of admissible dynamics. Along Γ
+we have J(ξ, S) = J(S(0), 0) If we calculate S(t) as the function of ξ(t) along Γ,
+substitute into the first equation (11.7) and separate variables in this equation we
+get the ξ(t) as the explicit function of parameters of the problem and initial value
+S(0) in terms of elliptic functions (see [19]).
+Figure 8 shows a family of shrinkage curves corresponding to the various values of
+S(0) = 1, 1.3, 1.6, 1.9 (which represent the initial aging of the material). Apparently,
+the higher is the initial age, the less shrinkage is observed.
+When a load applied to the rod reaches certain level, new processes may start.
+These new processes (going on the background of the UA) initiate action of a new
+part of the ”ground state” F (S, ξ, η) and activates the new kinetic potential χ2 (K).
+For the description of stress relaxation and creep we choose the dissipative potential
+K
+1
+K
+K
+χ2 (K) = βD
+ln( K
+D ) − β (1 + D )ln(1 + D ) corresponding to the phenomenological
+Dorn relation between the stress and the strain rate η̇ (see [36], Sec.2.3 and the
+footnote in Sec.5 above). Unconstrained aging is much slower and leads to smaller
+changes then both stress relaxation and the creep. That is why we may with good
+accuracy disregard the UA while describing two other processes.
+11.3. Stress relaxation. In the case of a stress relaxation (SR) we fix the rod
+of initial length L at the left end and then quickly pull (or compress) it uniaxially
+and fast (elastically) until it reach certain length L∗ . Then we fix right end as well,
+leaving side surface of the rod free. In this configuration the only component of
+Cauchy stress that is nonzero is σzz . For the SR the volume change is negligible
+and we have λm v = 1, λm = λm d
+Initially all the stretching is due to elastic process and λ∗d = L∗ /L = (1 +
+ǫz (0)). Then the inelastic deformation starts to increase in expense of elastic one
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+29
+
+maintaining the total strain constant. The reduction of elastic strain is directly
+translated into the reduction of stresses via Hooke’s law. The total elongation at
+moment t can be decomposed as follows
+λ∗d = (1 + ǫz (t))λm,d (t) = (1 + ǫz (t))eη(t)
+∗
+
+∗
+
+(11.9)
+
+∗
+
+and therefore ǫz (t) = η − η(t), where η = ln(λ ).
+From Hooke’s law σzz = Y ǫz , where Y is the Young module. Thus for the strain
+energy expression we obtain
+f (η) =
+
+1
+Y
+1
+σzz ǫz = Y ǫ2z = (η ∗ − η(t))2 .
+2
+2
+2
+
+(11.10)
+
+For pure stress relaxation (without background UA)
+F = FSR (S, η) = (q1 + q2 S) + η(b0 S −1 + b1 + a1 η), q1 < 0, q2 < 0, b0 < 0, a1 < 0,
+with the coefficients different from those of the slow UA.
+Action A(S(t), η(t)) now takes the form
+
+Z T
+Y ∗
+−1
+2
+−1
+(q1 + q2 S) + η(b0 S + b1 + a1 η) + (η − η(t)) + Sχ(S ηt ) Sdt =
+A(S, η) =
+2
+0
+Z Th
+i
+=
+F̃SR (S, η) + Sχ(S −1 ηt ) dt, (11.11)
+0
+
+where
+
+Y ∗
+(η − η(t))2 =
+2
+q2 S 2 + p2 (η)S, (11.12)
+
+F̃SR (S, η) = SFSR = (q1 S + q2 S 2 ) + η(b0 + b1 S + a1 ηS) + S
+
+where p2 (η) = (q1 + Y2 η ∗ 2 ) + (b1 − Y η ∗ )η + (a1 + Y2 )η 2 .
+We have F̃S = 2q2 S + p2 (η) and the domain of admissible motion is defined by
+Dad = {(η, S)|η > 0, S ≧ 1, S < −
+
+p2 (η)
+},
+2q2
+
+2 (η)
+.
+while the stoping curve has the form S = − p2q
+2
+Aging equations (7.5-7.7) will now take the form
+
+(
+ηt
+St
+
+= Sψ −1 (2q2 S + p2 (η)) = Sψ −1 (2q2 S + [(q1 + Y2 η ∗ 2 ) + (b1 − Y η ∗ )η + (a1 + Y2 )η 2 ]),
+b0
+= 2q
+ψ −1 (2q2 S + p2 (η)) = Sψ −1 (2q2 S + [(q1 + Y2 η ∗ 2 ) + (b1 − Y η ∗ )η + (a1 + Y2 )η 2 ]).
+2
+(11.13)
+This system has the first integral J = b0 η − q2 S 2 , and the phase q
+trajectory corresponding to the initial value S = S(0), η(0) = 0 has the form S = S(0)2 + qb02 η.
+
+Using this one can find analytic solutions η(t) in terms of elliptic functions ([19]).
+On the Figure 9 we present results of calculations of the stress relaxation σzz (t)
+for several values of initial stretching L = 0.1, 0.15, 0.2, 0.5 and for realistic values
+of parameters of the problem. Values of σzz (t) are found by solving numerically
+system (11.13) for η(t), calculating elastic strain ǫz (t) and using the Hooke’s law.
+Apparently, the higher is the value of initial stretching, the sharper is the stress
+relaxation curve and the higher is the asymptotic value of stress.
+
+30
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+SR Figure 2 stress relxation
+3.5
+
+σ
+
+3
+
+2.5
+0.2
+
+0.25
+
+0.15
+
+0.1
+2
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+0.3
+
+0.35
+
+t
+
+Figure 9. Stress Relaxation: Stress σzz (t). for η ∗ = 0.1, 0.15, 0.2, 0.25.
+11.4. Creep. In the case of the creep we fix the left end of the rod and apply
+force F in Z-direction to its right end. If this force is large enough (i.e. if the
+concentration of elastic energy f in the rod is larger then an activation threshold),
+the creep starts - inelastic deformation that goes on for some time until the rod
+brakes. Thus, at the moment when the inelastic strain η(t) starts growing from
+zero, there should be a supply of strain energy obtained from the work of the
+F
+stress σzz = A(t)
+on elastic deformation. Denote by fin this strain energy (of
+initiation).
+During the creep the homogeneous component σzz of stress is equal
+σzz (t) =
+
+eη F
+F
+λd (t)F
+F
+=
+.
+=
+=
+−1
+A(t)
+A0
+A0
+λv (t)2 λd (t)A0
+
+(11.14)
+
+The last equality is true given the assumption (natural for a conventional creep)
+that inelastic volume change is negligible, i.e. λv = 1, ξ = 0., for a constant
+force F and variable cross-section area A(t).
+Using the Hooke’s law one can show that ǫz = σYzz and that the strain energy is
+2 2η
+e
+equal to f = 2YF A(0)
+2.
+Calculating the work of the load F on the total way L(eη(t) − 1) of the right
+end of the rod we get the additional term in the Lagrangian (work of load on the
+inelastic deformation) equal AF0 (eη − 1).
+Overall action takes the form (ξ(t) = 0)
+L(S(t), η(t)) = [FCR (S, η) +
+
+F η
+(e − 1) + φ(S −1 ηt ) + ΛF 2 e2η ]Sdt,
+A0
+
+(11.15)
+
+where F (S, η) is the same as for stress relaxation.
+Acting as before we get the following dynamical system for parameters η, S:
+(
+ηt = Sψ −1 ( AF0 (eη − 1) + ΛF 2 e2η + (q1 + 2q2 S + b1 η + a1 η 2 )),
+(11.16)
+b0
+St = 2q
+ψ −1 ( AF0 (eη − 1) + ΛF 2 e2η + (q1 + 2q2 S + b1 η + a1 η 2 )).
+2
+where ψ(x) = (eDx − 1)+ function as in the case of stress relaxation. We have in
+this system ηt ≧ 0, St ≧ 0 for the admissible initial values S(0), η(0).
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+31
+
+For the creep to start, the argument of the function ψ(x) in the system should
+η
+be positive at initial moment. Since σzz = FAe0 , this condition takes the form
+σ(0)2
++ q1 + 2q2 S(0) + a1 η(0)2 > 0.
+(11.17)
+2Y
+Since q1 , q2 , a1 are negative parameters, the inequality (11.17) defines the stress (or
+strain energy - fin ) threshold for the initiation of the creep processes (see [35], p.7).
+On the Figure 11 the graphs of η(t) for the creep are presented for different values of
+Creep: F=1.1.5.2.3
+1
+F=1.5
+
+0.9
+
+F=1
+
+F=2
+
+0.8
+
+F=3
+
+0.7
+
+η
+
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+−7
+
+−6
+
+−5
+
+−4
+
+−3
+
+−2
+
+−1
+
+0
+
+1
+
+2
+
+ln(t)
+
+Figure 10. Creep: inelastic strain η(t) for F = 1, 1.5, 2 and 3.
+the force AF0 = 1, 1.5, 2 (A0 = 1). There is a point on each trajectory, corresponding
+to the instability of creep deformation where the cross-section of the rod diminishes
+to zero and the rod fails in so called ductile manner. As it can be seen from the
+results of calculations, the higher is the force, the faster creep deformation develops
+and the time to the ductile failure becomes significantly shorter, for example, three
+times increase in force results in more then 3 order of magnitude in time to failure.
+Comparing these graphs with the experimental data ([35, 36]) we see the good
+qualitative (and, for some materials, quantitative) agreement.
+12. Appendix A. Strain energy as a perturbation of the ”ground
+state energy”.
+In this section we discuss perturbation scheme of a ground state Lagrangian
+F (E in , S, N̄ ), E in = 21 ln(g0−1 g) by elastic deformation, assuming that elastic strain
+tensor is small in compare to the inelastic one.
+In the pure inelastic mode of behavior (free aging, special load that produces
+C(φ) = g) only metric quantities g, S, N̄ enter the total Lagrangian L. Under the
+general load the material metric g is deformed into C(φ) and total deformation
+E tot = 21 ln(g0−1 C(φ)) takes the place of E in .
+Assuming that g −1 C(φ) ≈ I+small, so that E el ≪ E in we decompose g0−1 C(φ) =
+−1
+(g0 g) · (g −1 C(φ)). Taking logarithm, we obtain
+E tot =
+
+1
+1
+ln(exp(2E in ) · exp(2E el )) ≃ ln(exp(2E in ) · (I + 2E el ))
+2
+2
+
+32
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Here we’ve used the linear approximation exp(2E el ) ≃ I+2E el . Using the CampbellHausdorff-Dynkin formula we get
+E tot ≃
+
+1
+[ln(exp(2E in )) + Ad(exp(2E in ))2E el ] = E in + Ad(exp(2E in ))E el . (12.1)
+2
+
+We consider the ”total ground state” Lagrangian F depending on E tot through
+its invariants Ik (E tot ), k = 1, 2, 3. Then we decompose it into Taylor series by
+considering E el small in compare to E in . The approximate expression for E tot
+above gives us up to the second order terms
+−1
+
+−1
+
+−1
+
+Ik (E tot ) ≃ Ik (E in ) + dIk (E in )(E el g0 g ) + d2 Ik (E in )(E el g0 g , E el g0 g ) + h.o.t..
+(12.2)
+Substituting this into the metric term F (Ik (E tot ) (for this discussion we suppress
+in F all other arguments it depends on) we get, after recombining its terms, its
+decomposition up to the second order
+X
+−1
+F (E tot ) ≃ F (E in ) +
+F,Ik (E in ) < dIk (E in ), E el g0 g > +
+k
+
++{
++
+
+X
+
+X
+
+−1
+
+−1
+
+F,Ik (E in ) < d2 Ik (E in )(E el g0 g , E el g0 g )+
+
+k
+
+−1
+
+−1
+
+FIi Ij (E in ) < dIi (E in ), E el g0 g >< dIj (E in ), E el g0 g >} (12.3)
+
+ij
+
+In this formula first term on the right is the basic metric (”ground state”) energy
+describing, in particular, equilibrium values for the metric g (see example below).
+The second term, linear by E el describes the interaction of elastic and inelastic
+processes. In the absence of such interactions or other material processes g takes the
+value delivering minimum to the basic energy F (E in ). Therefore, its differential
+takes a zero value for corresponding value of the argument E in and linear term
+vanishes.
+Finally, the quadratic form in formula (12.3) is the conventional elastic (strain)
+energy with variable and possible inhomogeneous elasticity tensor.
+During the active processes of configurational changes in the material (aging, in
+the zone of phase transition) this elasticity tensor as well as the basic energy plays
+an active role in the evolution. But when such processes stops (no aging happens
+or wave of phase transition passed) and the material metric g is locked in some
+stable state (local minimum of F ?), the value of this tensor is also locked at the
+corresponding value (see below).
+In order to calculate the elasticity tensor e we have to calculate differentials of
+invariants Ik of the inelastic strain tensor E in . We choose momenta T r(E k ) as
+the basic invariants of a (1,1)-tensors ([32]). In our, 3D case we have I1 (E) =
+T r(E), I2 (E) = T r(E 2 ), I3 (E) = det(E). Thus, we have for its first differentials
+([32])
+∂I2 (E)
+∂I3 (E)
+∂I1 (E)
+J
+= δIJ ;
+= 2EIJ ;
+= 3EK
+EIK = 3EI2 J .
+EJI
+EJI
+EJI
+and < dI1 (E), P >= T r(P ); < dI2 (E), P >= 2T r(EP ); < dI3 (E), P >= 3T r(E 2 P ).
+Here we are using multiplication of (1,1)-tensors. The second differentials of momenta have the form d2 I1 (E) = 0; d2 I2 (E)(B, B) = 2T r(B 2 ); d2 I3 (E)(B, B) =
+6T r(EB 2 ).
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+33
+
+Before using these expressions for differentials we notice that since g0−1 g =
+−1
+exp(2E in ), (E in )g0 g = E in and due to the properties of T r for all natural powers
+−1
+a, b one has T r(E in a ((E el )g0 g )b ) = T r(E in a E el b ). Thus, conjugation by g0−1 g
+disappear from the formulas for Elastic energy.
+Substituting expression for differentials in (12.3) we get expression for F (E tot )
+as the sum of ”constant”, linear by E el and quadratic by E el terms
+F (E tot ) ≃ F (E in ) + T r(CE el ) + T r(e : E el : E el )
+
+(12.4)
+
+C = F,I1 (E in )I + 2F,I2 (E in )E in + 3F,I3 (E in )(E in )2 ,
+
+(12.5)
+
+Here C is the (1,1)-tensor
+
+and e the elasticity tensor
+in B
+in D
+in B D
+in B D
+in B D
+eBD
+AC = 2F,I2 (E )δC δA +6F,I3 (E )C δA +2F,I1 I1 (E )δA δC +4F,I2 I2 (E )A (E )C +
+in B
+in 2 D
+in 2 D
+B
+B
+2 D
+(E in )D
++4F,I1 I2 δA
+9F,I3 I3 (E in )2A B (E in )C
+C +6F,I1 I3 δA (E )C +12F,I2 I3 (E )A (E )C .
+(12.6)
+
+If the ground state function F is given as the function of variables g, S, N̄ , these
+formulas determine values of elastic moduli in a material which depend on the
+point X and on time t through the metric variables g, S, N̄ . If these variables
+take stationary values,we get isotropic but nonhomogeneous material. If they are
+constant - we return to the conventional linear elasticity.
+Example 3. Isotropic material For isotropic material of linear elasticity, elastic
+tensor (in its (1,1)-version) has the form ([6])
+j l
+l j
+ejl
+ik = 2µδi δk + λδi δk .
+
+(12.7)
+
+Comparing with (15.7) we see immediately that there are two simple cases when
+(15.3) determines an isotropic material.
+in A
+A
+Case 1 - generic. Take EB
+= hδB
+where h is a scalar function of g, S, N̄ .
+In this case
+B D
+eBD
+AC = [2F,I2 + 6F,I3 h]δC δA +
+B D
+δC .
++ [2F,I1 I1 + 4F,I1 I2 h2 + 9F,I3 I3 h4 + 4F,I1 I2 h + 6F,I1 I3 h2 + 12F,I2 I3 h3 ]δA
+(12.8)
+
+The first bracket gives expression for 2µ while the second one - for λ.
+Case 2 - simple elasticity. In this case we have no aging, E in = 0. Then we
+get material with
+B D
+B D
+eBD
+AC = 2F,I2 (0)δC δA + 2FI1 I2 (0)δA δC .
+
+(12.9)
+
+Thus, in this, restricted case 2µ = 2F,I2 (0),λ = 2FI1 I2 (0).
+Example 4. Consider the model 1D case with one component of strain tensors
+E el , E in , trivial decomposition E tot = E el + E in and simple Taylor decomposition
+of the basic energy function F (E tot ):
+1
+(12.10)
+F (E tot = F (E in ) + F ′ (E in )E el + F ′′ (E in )(E el )2 + h.o.t.
+2
+As a result, strain energy here has the form
+1
+U (E el ) = F ′′ (E in )(E el )2 ,
+(12.11)
+2
+
+34
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+and the Young’s module (or compressional stiffness, in a case of an elastic bar) is
+Y =
+
+1 ′′ in
+F (E ).
+2
+
+Consider two special cases.
+1. Classical elasticity. In this case we take F (E) = F0 + cE 2 . In this case there
+is one equilibrium - minimum E = 0 that corresponds, for E = E in = 12 ln(g0−1 g)
+to the value g(X, T ) = g0 -constant. We have Y = c.
+2. Two-phase material (material that can exist in two stable phases). In this
+example function F (E) has two (locally) stable states g = g0 , g1 , or E = 0, E =
+Q = 21 ln(g0−1 g1 )
+1
+1
+F (E) = F0 + c4 E 2 (E + Q−1 )2 + c2 E 2 .
+4
+2
+
+(12.12)
+
+Then, for E = E in ,
+1
+1
+1
+1 1
+F (E) = F0 + c4 ( ln(g0−1 g))2 ( ln(g1−1 g))2 + c2 ( ln(g0−1 g))2 .
+4 2
+2
+2
+2
+
+(12.13)
+
+We have
+1
+F ′′ (E) = c2 + c4 ((E + Q−1 )2 + 4E(E + Q−1 ) + E 2 ).
+2
+Young module in the state g = g0 is equal to
+1
+Y0 = c2 + c4 Q−2 ,
+2
+while in the second stable state g = g1 ,
+1
+Y1 = c2 + c4 ((Q + Q−1 )2 + 4Q(Q + Q−1 ) + Q2 ) = Y0 + 3c4 (1 + Q2 )
+2
+Thus, in a case of a wave of phase transition going along the bar, Young module
+changes by the amount Y1 − Y0 = 3c4 (1 + Q2 ).
+13. Appendix II. Variations
+Variations of some expressions for the Lagrangian (5.4-5.5) are calculated here
+and presented in a table. All terms in
+density L(G, φ) will be refereed to
+pLagrangian
+4
+the
+mass
+form
+dM
+=
+ρ
+d
+V
+=
+ρ
+S
+|g|d
+X.
+In
+other
+terms we calculate variation
+0
+G
+0
+R
+f (A)dM by A. Result of variation has the form VdM : δf (A)dM =pVdM.
+In
+√ the calculations we repeatedly using the following standard relation δ |g| =
+|g| IJ
+2 g δgIJ
+
+(see, for instance, [5]). In the table below we present tensors V for
+different f .
+~ )dM ]
+As an example of such apcalculation we provide calculation of δ [divg (N
+∂
+1
+I
+where divg (N ) = √ ∂X I ( |g|N ):
+|g|
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+35
+
+p
+|g| IJ
+1
+∂ p
+( |g|N I ))dM =
+g δgIJ )+δ( p
+2
+|g| ∂X I
+
+
+1 1
+1 I ∂
+∂
+I
+−1
+~
+~
+~
+ln(ρ0 S)δN + divg (N ) − (divg (N ) − N
+ln(ρ0 S)) g AB δgAB )dM =
+= (divg (N )S δS−
+∂X I
+2 2
+2
+∂X I
+
+
+1 I ∂
+∂
+I
+−1
+~
+ln(ρ0 S)δN + − N
+ln(ρ0 S)) g AB δgAB )dM
+(divg (N )S δS −
+∂X I
+2
+∂X I
+(13.1)
+p
+~ )dM = divg (N
+~ )ρ0 ( |g|δS+S
+δdivg (N
+
+since
+p
+p
+1
+∂ p
+1
+∂ p
+∂
+δ( p
+( |g|N I ))dM = −( p 2 δ |g|
+( |g|N I ))dM −
+(ρ0 S)δ( |g|N I )d4 X =
+I
+I
+I
+∂X
+∂X
+|g| ∂X
+|g|
+
+1
+~ ) − 1 N I ∂ ln(ρ0 S))g AB δgAB − ∂ ln(ρ0 S)δN I ]dM (13.2)
+= [− (divg (N
+2
+2
+∂X I
+∂X I
+p
+Formula of variation of hR(g) |g| in the 5th row of the table is taken from [11],
+Prop.3.2.
+p
+To find variation of the p
+strain energy density f (G, E in )ρ0 S |g|d4 X we first
+take variation of dM = ρ0 S |g|d4 X to get the first two terms in the last row of
+the Table, then - explicit variation by g if the strain energy function f depends
+on g not just through E el . Finally for variation by g through the strain tensor
+I
+E el J = 12 g IK (C(φ)KJ − gKJ ) we have
+
+1 ∂f
+1 ∂f
+δg IK C(φ)KJ =
+[−g IA g KB δgAB ]C(φ)KJ =
+I
+el
+2 ∂E J
+2 ∂E el IJ
+
+1 ∂f
+1 ∂f
+J
+J
+[(g IA g KB +g IB g KA )δgAB ]C(φ)KJ δgAB = −
+−
+[ δM
+gIN + δN
+gIM ×
+I
+el
+4 ∂E el J
+4 ∂E MN
+
+1
+∂f
+∂f
+× (g IA g KB + g IB g KA )δgAB ]C(φ)KJ δgAB = − (
+g KB +
+g KA +
+4 ∂E el JA
+∂E el JB
+∂f
+∂f
+1
++
+g KB +
+g KA )C(φ)KJ δgAB = − S (AB) δgAB , (13.3)
+el
+el
+∂E AJ
+∂E BJ
+2
+δf (E el ) =
+
+∂f
+
+I
+∂E el J
+
+I
+
+δE el J =
+
+where S (AB) is the symmetrization of the second Piola-Kirchoff Tensor S (see [6]),
+the last equality is proved in [22].
+14. Conclusion
+In this work, we consider the intrinsic material metric tensor to be an additional
+parameter of state, i.e., an internal variable that characterizes material degradation
+and aging. The material metric tensor G is a conjugate (with respect to a particular
+Lagrangian) to the canonical Energy-Momentum Tensor (or to the Eshelby energystress tensor to some degree).
+Equations of metric evolution, (i.e., the aging equations), are derived as the
+Euler-Lagrange equation of a corresponding variational problem. Canonical energymomentum tensor (or Eshelby Tensor) play a role of the source of metric evolution.
+This represents an alternative approach to numerous phenomenological damage
+models, which usually have more adjustable parameters than practical testing is
+
+36
+
+Term
+f (|g|)
+f (S)
+~ k2
+kN
+g
+χ(KJI )
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+Variation by S, N I , gIJ
+S f (|g|)δS + [ 21 f (|g|)g IJ + f ′ (|g|)|g|g IJ ]δgIJ
+[f ′ (S) + S −1 f (S)]δS + 21 f (S)g IJ δgIJ
+2 −1
+~ k2 g IJ ]δgIJ
+~
+kN kg S δS + 2NI δN I + [N I N J + 12 kN
+g
+−1
+
+p
+−1 ∂χ
+AS
+1
+√ ∂X S (ρ0 |g| ∂χA g AS gIJ )+
+S −1 KJI ∂χ(K)
+∂X I gSJ +
+I δS + [−S
+Ag
+∂KJ
+∂KJ
+∂KJ
+ρ0 S |g|
+p
+B
+∂χ
+∂χ
+∂χ
+I
+−1
+IA
+−1 IS ∂N A
+1
+∂N
+√ ∂X J (ρ0 |g| I )]δN
++
++ [− ∂K I S g ∂X J − ∂K
+g ∂X S −
+I S
+∂KJ
+ρ0 S |g|
+J
+B
+
+
+
+
+∂χ
+IA B
+1
+1
+√ ∂t ρ0 |g| ∂χI g IA +
+√ ∂X K ∂t ρ0 |g| ∂χI g IA N K ]δgAB
+g
+K
+−
+I
+J
+∂K
+∂K
+∂K
+J
+
+hR(g)
+~)
+divg (N
+f (G, E el )
+
+ρ0 S
+
+|g|
+
+B
+
+ρ0 S
+
+|g|
+
+B
+
+S −1 hR(g)δS + [−h(Ric(g) − 21 R(g)g) + ρ01S [∆g (ρ0 hS)g AB + Hess(ρ0 hS)]]δgAB
+
+
+~ )S −1 δS − ∂ K ln(ρ0 S)δN K + − 1 N K ∂ K ln(ρ0 S)) g IJ δgIJ
+divg (N
+2
+∂X
+∂X
+exp − 12 S (AB) ]δgAB
+S −1 f δS + [ 12 f g AB + ∂g∂f
+AB
+Table 2. Table of Variations.
+
+able to determine. Thus it is difficult to validate the models since they can almost
+always be adjusted to reach an agreement with the experiment. In contrast, a
+variational approach prescribes a functional form of the aging equations, limits the
+number of constants (adjustable parameters) employed in the Lagrangian, provides
+a simple physical interpretation of the constants, and admits an essential experimental examination of the validity of the basic assumptions of the model. Particular
+examples (aging homogeneous rod, see Sec. 11 or [20], cold drawing (necking) [18],
+residual stress and others) can be analyzed theoretically and unambiguously tested
+in the experiments as a natural continuation of the present work.
+A natural development of this scheme requires the following: thermodynamical
+interpretation of the balance equation considered in section 10, especially the structural entropy evolution manifested by the increase of the lapse function S(t) during
+aging; introduction of a temperature dependence of the material metric (based
+on an unpublished work by A.Chudnovsky and B.Kunin); development of models
+(”ground energy” F + kinetic potential Â + possibly other metrical terms) characterizing a hierarchy of aging phenomena for specific materials; and especially, the
+development of models of phase transition (front propagation, fractal restructuring
+of materials, etc.).
+We would like to express our gratitude to Professor M. Francaviglia for his attention to this work. We would also like to thank Professor R.Tucker and the
+participants of his seminar in the Physics Department of Lancaster University,UK
+for the useful discussion.
+References
+[1] Simo, J. and Marsden, J., On the Rotated Stress Tensor and the Material version of the
+Doyle-Ericksen Formula, Arch. Rational Mech. Analysis 86, 1984, pp. 213-231.
+[2] V.Ciancio, M.Francaviglia, Non-Euclidian Structures as Internal Variables in NonEquilibrium thermodynamics, Balcan J. of Geometry ans its Applications, v.8,No.1,2003,
+pp.33-43.
+[3] M. Epstein, Self-driven continuous dislocations and growth, Private comm., 2004.
+[4] Misner, C. and Thorne, K. and Wheeler, J., Gravitation, Freeman, N.Y.,1973.
+[5] Arnovitt,R and Deser,S and Misner, C.W., in Gravitation: An Introduction to Current
+Research, ed. L.Witten, Wiley, N.Y.,1962.
+[6] J. Marsden, T. Hughes,Mathematical foundations of Elasticity, Dover, 1994.
+
+A 4D GEOMETRICAL MODELING OF A MATERIAL AGING
+
+37
+
+[7] Carter, B. and Quintana, Foundations of general relativistic high-pressure elasticity theory,
+Proceedings of Royal Society London,1972,Ser.A 331, pp. 57-83.
+[8] Kijowski, J. and Magli, G., Relativistic elastomechanics as a lagrangian field theory, Journal
+of Geometry and Physics, vol. 9,no.3,1992, pp. 207-233.
+[9] E. Kroner, Kontinuumstheorie der Versetzungen und Eigenspannungen, Springer Verlag,
+Berlin, 1958.
+[10] Anderson, A. and Choquet-Bruhat, Y and York, J., Einstein Equations and Equivalent Hyperbolic Dynamical Systems, preprint arXiv, gr-qc/990/099 V2., 1999.
+[11] Fisher, A. and Marsden, J., The Einstein Equations of Evolution - a Geometrical Approach,
+Journal of Mathematical Physics, vol.13, No.4,1972, pp. 546-568.
+[12] Lee, E.H., Elastic plastic deformation of finite strain, ASME, Trans. J. Appl. Mech., 54,1-6,
+1969.
+[13] G.Maugin, Thermomechanics of Plasticity and Fracture, CUP, 1992.
+[14] Simo, J. and Ortiz, S.0, A unified approach to finite deformation elastoplastic analysis based
+on the use of hyperelastic constitutive equations, Comp. Methods in Applied Math. and
+Engineering, v.49, 1985, pp.221-245.
+[15] J. D. Eshelby, The elastic energy-momentum tensor, Journal of Elasticity, vol. 5, Nos. 3-4,
+1975, pp. 321-335.
+[16] E.Binz, J.S’niatycki, H.Fischer, Geometry of classical fields Amsterdam North-Holland, 1988.
+[17] A. Chudnovsky, S. Preston, Configurational mechanics of necking phenomena in enigneering
+thermoplastics, Mechanics Research Communications, 29, 2002, 467-475.
+[18] Landau, L. and Lifshitz, E., Elasticity Theory, 2nd ed., Pergamon Press, Elmsford, N.Y.,1970.
+[19] A. Chudnovsky, S. Preston, Aging Rod,I. Homogeneous case, manuscript, 2005.
+[20] Maugin, G., Material Inhomogeneities in Elasticity, Chapman Hall, London, 1993.
+[21] J. D. Eshelby, Energy relations and the energy-momentum tensor in continuum mechanics,
+in Inelastic behaviour of solids. ed. M.Kannien, W.Adler, A.Rosenfeld, R.Jaffe, McGraw-Hill,
+N.Y.,1970, pp.77-113.
+[22] A. Chudnovsky, S. Preston, Variational Formulation of a Material Ageing Model, in ”Configurational Mechanics of Materials”, ed. R. Kienzler, G. Maugin, Springer, Wien, 2001, pp.
+273-307.
+[23] J. D. Eshelby, The force of an elastic singularity, Phil. Trans. Roy. Soc. London, A244, 1951,
+pp. 87-.
+[24] Epstein, M. and Maugin, G., The Energy-Momentum tensor and material uniformity in
+finite elasticity, Acta Mechanica, vol.83,1990, pp.127-133.
+[25] A. Chudnovsky, and S. Preston, Geometrical modeling of material aging, Congreso de
+Segovia, Extracta Matematicae, 1995, pp.1-15.
+[26] Liu, J. et al.,True Stress-Strain-Temperature Diagrams for Polypropilenes, in ”Proceedings
+SPE/ANTEC’99,III,N.Y, May 2-6”, Plenum Press, N.Y.,1999, pp. 3338-3442.
+[27] Zhou W. e.a., Cold-Drawing (Necking) Behaviour of Polycarbonate as a Double Glass Transition, Polymer Engineering Science, v.35, pp. 304-309,1994
+[28] Zhou W. e.a., The Time Dependency of the Necking Process in Polyethilene, in ”Proceedings
+SPE/ANTEC’99,III,N.Y, May 2-6”, Plenum Press, N.Y., pp. 3399-3406,1999.
+[29] B-Ho Choi, Z.Zhou, A. Chudnovsky, S.Stivala, K. Sehanobish, C.Bosnyak, Fracture Initiation
+associated with chemical degradation: observation and modeling, manuscript, 2004.
+[30] A. Golebiewska-Hermann, On conservation laws of continuum mechanics, Int. J. Solids and
+Structures, 17, 1981, pp. 1-9.
+[31] Herrmann, A. G.,On physical and material conservation laws , Proc.IUTAM Symp. on Finite
+Elasticity, 1981, Martinus Nijhof, Boston, pp.201-209.
+[32] C. Truesdell, W. Noll, The non-linear Field Theories of Mechanics, 2nd ed. , Springer, Berlin,
+1992.
+[33] A.Green,W. Zerna, Theoretical Elasticity, ed.2, Clarendon Press, Oxford, 1968.
+[34] S. Preston, A Degenerate Lagrangian Problem of Material Aging, manuscript, 2005.
+[35] H. Kraus, Creep Analysis, John Wiley and Sons, New York,1980.
+[36] J.T.Boyle, J.Spence, Stress Analysis for Creep, Butterworths, London, 1983.
+
+38
+
+ALEXANDER CHUDNOVSKY AND SERGE PRESTON
+
+CEMM, University of Illinois at Chicago, Chicago, IL
+E-mail address: achudnov@uil.edu
+Department of Mathematics and Statistics, Portland State University, Portland,
+OR, U.S.
+E-mail address: serge@pdx.edu
+
+

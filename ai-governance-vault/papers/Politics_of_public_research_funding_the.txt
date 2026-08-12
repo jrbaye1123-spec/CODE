@@ -1,0 +1,1006 @@
+PREPRINT: Ulnicane, I. (2023) Politics of Public Research Funding: the case of the European Union.
+In: Lepori B., Jongbloed B., and Hicks D. (Eds) Handbook of Public Funding of Research, Edward Elgar
+Publishing, pp.55-71. https://doi.org/10.4337/9781800883086.00009
+
+Politics of public research funding: the case of the European Union
+Inga ULNICANE
+Abstract: This chapter examines the politics of public research funding by focusing on one of the
+most prominent international initiatives, namely the European Union’s Framework Programme. It
+investigates how over the years policy frames combining certain values and interests have
+contributed to the emergence and expansion of the EU public research funding. If the initial
+establishment EU research policy was largely driven by economic frame, then in recent decades its
+further expansion has been facilitated by two additional – scientific excellence and societal
+challenges – frames. Although similar frames can be encountered at national level, specific feature
+of EU research policy is that the EU level cooperation, coordination, and competition are seen as
+solutions to economic competitiveness, scientific excellence, and societal challenges. While public
+research funding typically is analysed from technocratic perspective, this chapter highlights the need
+to examine the role of political priorities, values, and interests in research policy and funding.
+Keywords: EU research policy; Framework Programme; policy framing; European Research Area;
+economic competitiveness; societal challenges
+
+‘...research policy has become of one of the EU’s core instruments for advancing its policies,
+promoting European integration, and achieving change. It has won the support of researchers, both
+in Europe and beyond, gained prestige, and found a solid place on the EU political agenda. With its
+extensive programs and significant funding, it has transformed the European research landscape for
+good. However, to remain relevant, the EU research policy needs to be tailored to serve the most
+compelling needs of the European societies. If designed right, it can be a powerful force, enabling
+critical and truly transformative effort for which none of the individual member states would be
+capable alone.’ (Mitzner, 2020, p.276)
+
+Introduction: EU research policy as a success story?
+While in developed countries research policy and funding tends to be predominantly decided at
+national level, there is a number of emerging international science policy and funding initiatives.
+Such initiatives are particularly relevant in the area of research because the scientific community has
+a long-standing tradition of collaborating across borders (Kastenhofer & Molyneux-Hodgson, 2021;
+1
+
+Nedeva, 2013). So far emerging international research policy and funding initiatives tend to be small
+and fragmented, with the European Union (EU) being the major exception.
+
+Since the 1980s, the EU research policy has experienced major growth in terms of increase in EUlevel competencies, funds, initiatives and instruments. Over the past 40 years, EU research funding
+programme, known as the European Union Framework Programme (EU FP), has grown considerably
+from 3 billion Euros allocated for the first EU FP for research and development (1984-1987) to
+almost 100 billion Euros assigned for the current ninth EU FP (2021-2027), known as Horizon Europe
+(European Commission, 2021). Moreover, research at the EU level is funded not only through the EU
+FPs but also through other programmes, in particular, the Structural Funds for regional development
+and the recently launched European Defence Fund for defence research. The EU research policy has
+become the third largest item on the EU budget after agriculture and structural funds (Ulnicane,
+2016a). Research policy is seen as a success story of European integration where it represents ‘an
+area of sustained growth and impact’ (Mitzner, 2020, p.1).
+
+How to explain the establishment and continuous expansion of EU research policy as a major
+example of international research policy and funding? This chapter examines this question by
+applying a constructivist lens of policy framing that in particular considers political and social aspects
+of policy design (Rein & Schon, 1993, 1996; Schon & Rein, 1994). Policy framing approach focusses
+on how in policy practice, policy stories influence the shaping of laws, regulations, allocation
+decisions, institutional mechanisms and incentives. Policy frames, which integrate facts, values,
+theories, and interests, help to structure and inform policy debates and practice, which are situated
+in a specific political and historical context.
+
+Examining research policy through the lens of policy frames helps to uncover political and social
+aspects of designing research policy and funding programme. Thus, rather than perceiving design of
+2
+
+research funding programmes as purely technocratic activity driven by increasingly questioned
+economic ideas such as market failure, government failure and public goods (Bozeman, chapter 2 in
+this Handbook; Mazzucato, 2021), this chapter uses policy framing lens to examine political and
+social aspects of designing research policy and funding in a specific historical context. The idea that
+research investments can be seen as ‘a continuation of politics by other means’ (Elzinga, 2012,
+p.416) helps to investigate the case of the EU, where the establishment and expansion of research
+policy and funding has been part of political European integration process. Thus, this chapter
+examines the role of policy framing in structuring the design of EU research policy and funding.
+
+The chapter draws on an extensive and growing but fragmented literature on EU research policy and
+funding. Typically, this literature originating from various disciplines including political science,
+history and economics focusses on specific EU initiatives and funding instruments. This chapter
+integrates this disperse literature to examine the role of framing in the establishment and growth of
+EU research policy.
+
+This chapter proceeds as follows: first, an overview of the establishment and growth of EU research
+policy is provided; second, the conceptual lens of policy frames and their use in research policy is
+introduced; third, various frames of EU research policy and their role in the growth of this policy
+area is examined; and finally, key findings are discussed.
+
+Establishment and growth of EU research policy
+Today the EU’s research funding programme is largely taken for granted. However, in the early days
+of European political and economic integration in the 1950s, the establishment of EU research policy
+was far from obvious. Back then, almost all decisions about research and its funding remained at
+national level. To understand the contested origins of EU research policy (Mitzner 2020), it is
+important to pay a close attention to the political and historical context of European integration.
+3
+
+The establishment and growth of EU research policy is intertwined with European integration
+process. Broadening, deepening and expansion of European integration provided opportunities for
+the launch and growth of new initiatives and programmes in the area of research. New EU treaties,
+competencies, enlargements and political priorities shaped the evolution of EU research policy. Since
+the initial Treaties on European integration in the 1950s, research policy has emerged and expanded
+gradually (see Table 1). To introduce the political and historical context of the establishment and
+expansion of EU research policy, four key developments are presented here: 1) mixed beginnings
+within and outside the European Communities 1950s-1970s; 2) establishment and expansion of EU
+research funding programme since the 1980s; 3) establishment and expansion of the EU legal
+competencies in area of research; and 4) expansion of new types of instruments in 2000s.
+
+Year
+
+Launch of milestones in research policy
+
+Initiative
+
+1950s-
+
+Mix of initiatives within and outside the
+
+Euratom (European Atomic Energy
+
+1970s
+
+European Communities framework
+
+Community) Treaty
+
+1984
+
+EU research funding
+
+Launch of the Framework Programme
+
+1987
+
+EU competence in the area of research
+
+Introduction of legal competence in
+research in the Single European Act
+
+2000
+
+New types of instruments
+
+Launch of the European Research Area
+
+Table 1 Key milestones in history of EU research policy (own compilation)
+
+Mixed beginnings within and outside the European Communities 1950s-1970s
+The first decades of the European integration in 1950s in the area of research can be characterized
+by a mix of limited research policy within the newly launched European Communities (as
+predecessors of the European Union were known), and a number of ad hoc intergovernmental
+initiatives outside the European Communities framework.
+
+4
+
+While in the field of research there is a long tradition of international cooperation at the level of
+scientific community (Kastenhofer & Molyneux-Hodgson, 2021) and integration in terms of
+technological infrastructures (Misa & Schot, 2005), the initial Treaties on European integration in the
+1950s paid little attention to research policyi. The exception was the Euratom Treaty on the
+European Atomic Energy Community in 1957 that among other things aimed to promote research in
+the field of nuclear energy. Experience of the Euratom provided important legacy for future
+development of EU research policy (Mitzner, 2020). The 1960s and 1970s also saw establishment of
+the first institutions in the field of research such as the Directorate General for Research at the
+Commission and the committee of member state and Commission representatives known as PREST
+(Politique de la Recherche Scientifique et Technique) and later as CREST (Comité de la Recherche
+Scientifique et Technique) to advice the Council of Ministers and the Commission.
+
+However, from the 1950s until the 1970s most joint European cooperation initiatives in the field of
+research took place outside the Treaties (Cramer, 2020; Cramer & Hallonsten, 2020; Krige, 2003;
+Papon, 2009). Such intergovernmental research initiatives included the establishment of large-scale
+research facilities such as the European Organization of Nuclear Research CERN in 1954, the
+European Southern Observatory in 1962, and the European Molecular Biology Laboratory in 1974
+(Ulnicane, 2020). The first joint research funding initiatives also were launched as cooperation
+among national governments with major examples being the European Cooperation in Science and
+Technology COST in 1971 and the European Science Foundation in 1974.
+
+Important reasons for this initial cooperation taking place outside the Treaties were: first, lack of
+legal competencies in the area research policy in the initial Treaties (see above), and second, initially
+a small number of member states of the European Community (EC)ii (six in the 1950s and the 1960s,
+and nine from 1973iii), while these intergovernmental initiatives typically brought together ten or
+5
+
+more countries. Although these initiatives were launched outside the Treaties, the European
+Commission and the Council of Ministers have been involved in negotiations preceding some of
+these initiatives, over the years have established cooperation with them, and also later developed
+new EU policy frameworks for such cooperation, for example, for European Research Infrastructures
+(Ulnicane, 2022).
+
+Launch and expansion of European level research funding
+Important changes took place in the 1980s when ‘research became a full-fledged EC policy with
+sizable budgets, truly ambitious programs, and a more strategic approach’ (Mitzner, 2020, p.231)
+bringing together the various plans and scattered initiatives of the previous twenty years (Mitzner,
+2020, p.261). A major milestone was the launch of the EU FP for funding research and innovation in
+1984. As mentioned in the introduction, over the past 40 years the amount of funding allocated to
+multi-annual FPs has increased considerably. While the subsequent FPs were typically known by
+their numbers from FP1 (1984) until FP7 (2007-2013), the two most recent programmes are known
+as Horizon 2020 (2014-2020) and Horizon Europe (2021-2027). The Horizon 2020 amounted to
+approximately 8% of the EU multi-annual budget for 2014-2020 (Ulnicane, 2016a). Participation in
+FPs is open not only to the EU member states but also to non-EU countries (Cavallaro & Lepori,
+2021; European Commission, 2020). In Horizon 2020, 16 associated countries participated fully or
+partially (Ulnicane, 2020).
+
+The expansion of EU FPs has involved the launch of new funding programmes and instruments. A
+prominent example of new FP funding instrument has been the launch of the European Research
+Council (ERC) in 2007 to fund investigator driven blue-sky research (König, 2017; Nedeva, 2013;
+Wedlin & Nedeva, 2015).
+
+6
+
+In addition to the EU FP, the EU also funds research from a number of other programmes. In the
+current EU multi-annual budget 2021-2027, funding for research, innovation and technology
+features prominently including within the post-Covid recovery agenda Next Generation Europe
+(European Commission, 2020). Research and innovation in less developed regions are supported by
+the EU Cohesion Policy and Structural Funds (European Commission, 2020; Sharp, 1998). In 2017,
+the EU set up the European Defence Fund to fund defence research (Calcara, Csernatoni, & Lavalée,
+2020). While the EU FP funds research with exclusive focus on civilian applications, the new
+European Defence Fund is a unique example of international funding for defence research, which
+traditionally has been seen as a highly sensitive area of national sovereignty. Different EU research
+funding programmes have different allocation models. If the EU FP funding is allocated competitively
+to research projects at EU level, then the Structural Funds are allocated to regions which then have
+their own funding allocation models.
+
+In EU member states with more developed research systems the majority of public research funding
+is allocated at national level, and EU programmes provide some additional funds. For example,
+during 2007-2013, the FP7 funds typically amounted for approximately 10-20% of government
+support for research and development (R&D) in the EU member states (Veugelers, 2014). FP funding
+has played an important role in facilitating international research collaborations in Europe (Borras,
+2019). During the same time, EU Structural Funds contribution to research and development
+amounted to just 1-3% of government support in the most developed national research systems in
+Europe such as Sweden, Finland and Denmark, while they constituted over 50% of government
+support for R&D in East European member states such as Slovenia and Hungary (Veugelers, 2014).
+Against this background, the European Commission has repeatedly emphasized the limits of EU
+funding for research and innovation (R&I) and the continuous importance of national funding
+reminding that:
+
+7
+
+Horizon Europe and other relevant programmes under the EU budget alone, such as Cohesion Policy
+or Next Generation EU, would not be enough to fund the R&I needed for the green and digital
+transitions. In order to bring about a real positive change, this must be complemented by investments
+from Member States. These efforts combined should crowd in significant private investment to
+ensure ownership and quality of results. (European Commission, 2020, p.6)
+
+Establishment and expansion of EU competence in the field of research
+If the initial Treaties on the European Communities in the 1950s included hardly any competencies in
+research policy (except the Euratom), then soon after the launch of the FP in 1984 the Community
+competence for research policy was introduced in the Single European Act (SEA) that came into
+force in 1987iv. Although this official introduction of the EC competence in research was legally
+important, Veera Mitzner points out that ‘it was more about reaffirmation of established practices
+rather than creating truly new ones’ (Mitzner, 2020, p.246). The initially restricted supporting
+competencev in this area introduced in the SEA was gradually expanded in the subsequent Treaties
+(Mitzner, 2020, p.264). Finally, the most recent Lisbon Treaty that came into force in 2009
+introduced a shared competence in this area. Article 179 of the Treaty on Functioning of the EU
+defines the aim of EU research policy as follows:
+The Union shall have the objective of strengthening its scientific and technological bases by achieving
+a European research area in which researchers, scientific knowledge and technology circulate freely,
+and encouraging it to become more competitive, including in its industry, while promoting all the
+research activities deemed necessary by virtue of other Chapters of the Treaties.
+
+New types of policy instruments
+The Treaty mentions the European Research Area (ERA) initiative that was launched by the European
+Commission in 2000 and has been portrayed as a new step towards deepening European integration
+in research (Borras, 2003; Chou & Gornitzka, 2014; Delanghe, Muldur & Soete, 2009; Edler,
+Kuhlmann & Behrens, 2003; Prange-Gstohl, 2010; Ulnicane, 2015). While the main type of policy
+
+8
+
+instruments in EU research policy has been funding and dedicated funding instruments have been
+launched in subsequent FPs to implement the ERA, this initiative also introduced a new type of
+instrument in this policy area, namely, the Open Method of Coordination. The Open Method of
+Coordination is aimed at facilitating coordination among EU member states by setting joint targets
+as well as identifying, sharing and learning from good practices. The main example of the Open
+Method of Coordination in research policy is the so called 3% target that aims to achieve that
+national research and development (R&D) funding is increased to 3% of Gross Domestic Product
+(GDP). However, this target has been criticized for focusing only on inputs rather than on how
+research funding is spent. Moreover, its usefulness and efficiency has been questioned as almost 20
+years after setting this target in 2002, it has still not been achieved in many EU countries (Borras,
+2019; Ulnicane, 2016a) and in 2018 on average the EU countries were investing 2.19% of GDP in R&D
+(European Commission, 2020). Thus, new objectives and instruments introduced by the ERA
+initiative are closely connected to funding either by influencing design of the FPs or by aiming to
+influence the amount of national research funding.
+
+To summarize, while at the early days of European integration in the 1950s there was hardly any
+indication of potential EU research policy, since the 1980s the EU funding, competencies and a range
+of instruments in area of research policy have been established and grown considerably. How to
+explain this emergence and growth of EU research policy? What role have policy framing played in
+it?
+
+A conceptual lens: frames in research policy
+The approach of policy framing (Rein & Schon, 1993, 1996; Schon & Rein, 1994) is a fruitful way to
+examine political and social dynamics of the growth and evolution of EU research policy and funding.
+Policy frames are ‘diagnostic/ prescriptive stories that tell, within a given issue terrain, what needs
+
+9
+
+fixing and how it might be fixed’ (Rein & Schon, 1996, p.89). According to Martin Rein and Donald
+Schon (1993),
+framing is a way of selecting, organizing, interpreting, and making sense of a complex reality to
+provide guideposts for knowing, analysing, persuading, and acting. A frame is a perspective from
+which an amorphous, ill-defined, problematic situation can be made sense of and acted on (Rein &
+Schon, 1993, p.146)
+
+and in such frames ‘facts, values, theories, and interests are integrated’ (Rein & Schon, 1993, p.145).
+Rein and Schon distinguish between two closely connected types of frames – rhetorical and action.
+According to them, ‘rhetorical frames are constructed from the policy-relevant texts that play
+important roles in policy discourse, where the context is one of debate, persuasion, or justification’
+(Rein & Schon, 1996, p.90), while ‘action frames are constructed from the evidence provided by
+observation of patterns of action inherent in the practice of policy practitioners’ (Rein & Schon,
+1996, p.91).
+
+They associate policy frames with public controversies and pluralism, as ‘in any given issue terrain,
+there are almost always a variety of frames competing for both meaning and resources’, where ‘the
+contest over meaning gives legitimacy to the claim for economic and social resources’ (Rein & Schon
+1996, p.95). According to Schon and Rein, these situated policy controversies with their competing
+frames structure policy debates and practices and shape the design of policies (Schon & Rein, 1994;
+see also Capano, chapter 8 in this Handbook). For them, design of policy is a social and political
+process involving divergent interests and powers of actors. In their approach to policy design, Schon
+and Rein emphasize interaction of multiple designers, redesign in use, and shifting contexts. Thus,
+this constructivist approach offers an insightful way to analyse research policy frames and their
+influence on the design of EU research policy and funding.
+
+10
+
+The concept of policy frames as well as related notions of policy paradigms, discourses, narratives,
+rationales, motivations, periodizations and generations have been productively applied to analyse
+evolution, growth and changes in science, technology and innovation policy within and beyond the
+EU (Aleman-Diaz, chapter 3 in this Handbook; Borras, 2003; Boekholt, 2010; Diercks, Larsen &
+Steward, 2019; Elzinga, 2012; Mitzner, 2020; Ulnicane, 2015). Evolution and international diffusion
+of science, technology and innovation policy frames have been facilitated by epistemic communities
+of experts and policy-makers collaborating in international forums such as the Organization of
+Economic Cooperation and Development and the EU. Typical evolution of policy frames is
+characterized by moving from science, technology and innovation contributing to economic
+objectives towards their role in addressing societal issues in areas such as health, environment and
+energy. An example here would be the recent shift towards a transformative innovation policy
+paradigm. This shift includes a move from a focus on economic competitiveness and only positive
+outcomes of innovation towards highlighting the relevance of science and technology for other
+objectives and policy domains (e.g. health, environment) as well as acknowledging both positive and
+negative outcomes of innovation, namely, that new technologies can also have harmful effects on
+health, safety and environment (Diercks et al., 2019).
+
+This shift from mostly economic focus towards broader societal challenges is sometimes described
+as a normative turn (Diercks et al., 2019) emphasizing values and norms underpinning societal
+challenges agenda. However, such association of societal challenges with normative turn implies
+that previous focus on economic growth and competitiveness is value-free and purely technocratic.
+It would be important to recognize normative underpinnings of all frames admitting that traditional
+economic focus of research policy is also highly normative prioritizing values of economic growth
+and competitiveness, which in the current situation of climate crisis are increasingly questioned.
+
+11
+
+However, the evolution of science, technology and innovation policy frames should not be seen as a
+simple linear development from narrow to broader objectives and understandings. It is rather a
+process of path-dependence and reinvention of ideas characterized by ‘the continuation and
+deepening of old issues in new forms’ (Elzinga, 2012, p.426). Instead of being a rational process of
+continuous improvement, changes in science, technology and innovation policy are rather a result of
+many complex socially, politically and economically embedded factors (Borras, 2003). This is a highly
+relevant insight also for examining the development of EU research policy.
+
+Expansion of EU policy frames and funding programme
+What are the dominant EU research policy frames and what role have they played in the
+establishment and expansion of EU funding for research? The two recent EU Framework
+Programmes have been designed according to the three main policy frames of economic
+competitiveness, scientific excellence, and societal challenges. The Horizon 2020 programme (20142020) was organized according to the three pillars of excellent science, societal challenges, and
+industrial competitiveness. The current Horizon Europe programme (2021-2027) has three slightly
+revised main priorities of excellent science, global challenges and European industrial
+competitiveness, and innovative Europe (European Commission, 2021). More than half (53.5 billion
+euros) of Horizon Europe’s almost 97 billion euros budget is allocated to the global challenges and
+European industrial competitiveness priority, followed by 25 billion euros earmarked for excellent
+science, and 13.5 billion euros planned for innovative Europe (European Commission, 2021). Funds
+are also allocated for widening participation and strengthening the ERA (3.3 billion euros) and
+Euratom (1.3 billion euros) (European Commission, 2021).
+
+What are the key features of these three dominant frames in the recent FPs? The first frame of the
+economic competitiveness focusses on the role of EU research policy in contributing to economic
+growth and closing the technology gap with the United States and Asia (Mitzner, 2020). The second
+12
+
+frame of scientific excellence highlights the EU’s attempts to fund investigator driven ‘blue sky’
+fundamental research (König, 2017; Nedeva, 2013; Wedlin & Nedeva, 2015). The third frame of
+societal challenges (Ulnicane, 2016b) includes joint activities that aim to contribute to major societal
+issues and achieving the United Nations’ Sustainable Development Goals (Mazzucato, 2021). While
+the economic competitiveness has been a dominant frame facilitating the emergence and expansion
+of EU research policy since the early days of European integration, the other two - scientific
+excellence and societal challenges - frames have acquired prominent positions and resources in the
+past 15 years (see information on Horizon 2020 and Horizon Europe above).
+
+These three frames draw on old and new ideas in European integration and science, technology and
+innovation policy and contribute to further European integration in this area. While similar frames
+can also be found in national and international research policy (Aleman-Diaz, chapter 3 in this
+Handbook; Diercks et al., 2019), a unique feature of EU research policy is that here the framing of
+diagnosis and prescription is related to European integration and cooperation.
+
+Table 2 summarizes these three dominant frames focusing on their background ideas, diagnosis of
+the problems and corresponding prescriptions for tackling them. Below, each of these frames and
+their role in EU research policy is explained in more detail examining how they have emerged and
+developed in particular political and historical context, what ideas, beliefs and values they entail,
+and how they have shaped EU research policy and funding.
+
+Frame
+
+Background ideas
+
+Diagnosis
+
+Prescription
+
+Economic
+
+Research as a source
+
+EU is lagging behind
+
+EU will be more
+
+competitiveness
+
+of economic growth;
+
+because it is too
+
+economically
+
+Technological gap
+
+13
+
+between EU and
+
+fragmented and
+
+prosperous and
+
+others – US, Japan,
+
+invests too little in R&I
+
+internationally
+
+China
+
+competitive if it has
+EU-level competencies
+and initiatives in
+research; coordinates
+and cooperates more
+
+Scientific excellence
+
+‘Republic of Science’
+
+Scientific elite
+
+EU supports
+
+(Polanyi 1962),
+
+dissatisfied with
+
+investigator-driven
+
+academic freedom,
+
+perceived quality,
+
+fundamental research
+
+self-governance of
+
+applied orientation &
+
+allocated
+
+scientific community
+
+top-down nature of
+
+competitively on EU
+
+FPs
+
+level based on
+scientific excellence
+
+Societal challenges
+
+Societal function of
+
+Research has to
+
+Joint EU activities to
+
+research (Bernal
+
+address major societal
+
+address Grand societal
+
+1939), social relevance challenges that
+
+challenges & UN SDGs
+
+require efforts beyond
+national capacity
+Table 2 Dominant frames in EU research policy
+
+Economic competitiveness
+The economic competitiveness frame is a long-standing driver behind the establishment and
+expansion of EU research policy (Mitzner, 2020). According to this frame, research is seen as a major
+contributor to economic growth and productivity which are considered to be desirable political
+goals. In this context, research becomes a key ingredient of the discourse of international economic
+
+14
+
+competitiveness. Economic competitiveness discourse has been popular around the world including
+in the United States which have experienced their own concerns about a Japanese ‘threat’ in the
+1980s and more recently about China’s growth (O’Mara, 2019). While this international economic
+competitiveness narrative has been criticized pointing out that countries do not compete like
+companies and international economy is not a zero-sum game (Krugman, 1994), it continues to
+dominate policy and media discussions.
+
+In Europe, the economic competitiveness discourse has focused on the EU’s standing vis-à-vis major
+global powers such as the US and Asian countries. One of the key concerns in this discourse has been
+the technology gap, where Europe is portrayed as lagging behind other global powers. The typical
+diagnosis for this gap is that Europe is too fragmented and is not investing enough in research and
+innovation. Accordingly, the prescription has been that in order to be competitive and catch-up with
+other countries, Europe should cooperate and coordinate more, and have the necessary legal
+competencies and ambitious initiatives in this area. Mitzner (2020) explains the historical role of the
+technology gap narrative in the establishment of EU research policy as follows:
+… the gap became a political imperative in European integration. The basic argument was
+straightforward: science had expanded exponentially and now required resources that not even the
+largest European states could provide on their own. In the world of “big science,” national efforts
+remained too fragmented and insufficient, while European firms lacked the critical scope to
+successfully face global competition. So, for the promoters of integration, the problem of the gap was
+first and foremost a problem of a scale. The American advantage not only stemmed from generous
+government spending, but also from the sheer size of the country and its powerful companies, which
+were big enough to undertake large scale research and enter large markets. [..] this argument was
+adopted by a number of politicians, public officials, and other actors promoting a “common research
+policy” within the framework of the European Community. (Mitzner, 2020, p.49-50)
+
+15
+
+The policy frame of economic competitiveness and technology gap demonstrates a strong continuity
+from early discussions about the need to establish a European research policy in the 1960s (Mitzner,
+2020) until the most recent EU research policy documents (European Commission, 2020). In the
+1960s, focus on the utilitarian idea of research as contributor to economic growth was important
+due to then rather limited competencies of the European Community that were largely focusing on
+promoting economic cooperation and prosperity. Framing research as essential for economic growth
+and competitiveness allowed to consider European activities in the area in times, when there was no
+European research policy. Ideas of European cooperation in research as a way to increase economic
+competitiveness and to close the technology gap provided an important rationale for launching
+European funding and establishing legal competencies in the area of research in the 1980s. If in the
+1960s early discussions about European research policy were fuelled by fears about lagging behind
+the US, then the launch of the major milestones of European research policy in the 1980s were
+accompanied also by new worries about Japanese domination in new technologies (Mitzner, 2020;
+Sandholtz, 1992).
+
+The economic competitiveness and technology gap discourse was also at the core of launching the
+European Research Area (ERA) initiative in 2000. It was framed in terms of the urgent need for joint
+action to improve Europe’s competitive position and close the gap with the US and Japan, in
+particular in areas some of which have been of concern already since the 1960s (Mitzner, 2020) such
+as public and private expenditure on research and development, employment of researchers in
+industry, and trade in high-tech products (Ulnicane, 2015). To address the usual ‘suspects’ behind
+the gap, such as the lack of coordination and investment, the ERA initiative suggested policy
+coordination measures and in 2002 declared the so-called ‘3% target’ of national research and
+development funding reaching 3% of GDP to catch up with the US and Japan. The EU has recently
+reaffirmed the aim to achieve the 3% target, even though in the past 20 years progress towards this
+controversial target (Borras, 2019; Ulnicane, 2015, 2016a) has been limited and the R&D funding
+16
+
+level in Europe still lags behind the US, Japan, South Korea and China (European Commission, 2020).
+The economic competitiveness rationale for EU research coordination and cooperation in the early
+years of the ERA was reinforced by its close links to the EU’s Lisbon strategy also launched in 2000
+and aiming to make the EU the most competitive knowledge-based economy by 2010 (Ulnicane,
+2015).
+
+While the ambitious goal of the Lisbon strategy was never achieved, the discourse of economic
+competitiveness has continued to dominate EU policies, including in the area of research. It was
+prevalent during the post-2008 financial crisis recovery when the EU policy presented research and
+innovation as sources of renewed economic growth (Ulnicane, 2016a). In times of austerity, the EU
+increased its funding for research seeing that as a source of economic growth and competitiveness
+vis-à-vis the US, Japan and China. Similarly, recent EU policy documents present research not only as
+a part of the post-Covid recovery but also as a crucial ingredient for the agenda to close the
+persistant technological gap with other major powers (European Commission, 2020).
+
+The continuity of the economic competitiveness and technological gap frame in EU research policy is
+remarkable. Already over some 60 years it has served as a major driving force for the establishment
+and continuous expansion of EU research policy.
+
+While in the past 20 years two additional frames of scientific excellence and societal challenges have
+emerged and facilitated further expansion of EU research policy, this traditional frame of economic
+competitiveness and technology gap still has a strong presence in today’s policy-making in the area
+of EU research.
+
+17
+
+Scientific excellence
+In addition to the traditionally dominant frame of economic competitiveness in EU research policy,
+the discourse of scientific excellence gained support in the early years of the 21st century. Largely
+promoted by the scientific elite, this policy frame draws on ideas about the importance of selfgovernance, autonomy and independence of the scientific community that have been well-known
+since Michael Polanyi’s work on the Republic of Science (1962). The scientific excellence frame in EU
+research policy largely evolved during the discussions that preceded establishment of the European
+Research Council (ERC) in 2007 as the main instrument to fund excellent science at the EU level
+(König, 2017; Nedeva, 2013).
+
+Discussions before the establishment of the ERC identified a number of shortcomings in EU research
+that needed to be fixed. The European scientific elite was dissatisfied with the FPs due to their
+perceived quality issues, top-down organisation and applied nature (Luukkonen, 2014). The wellknown discourse of the European paradox was challenged. If traditionally it was claimed that Europe
+was good at fundamental science but weak in application, then it was increasingly argued that
+Europe was lagging behind also in fundamental science (Wedlin & Nedeva, 2015).
+
+As a prescription to these problems, ideas for the ERC were developed to support EU-wide
+competition for investigator driven risky and novel ‘frontier research’ based on the sole criterion of
+scientific excellence. This included revisiting ideas about ‘European added value’. If previously added
+value of EU policy and funding was seen in cooperation and coordination, then now it was extended
+to include Europe-wide competition as well (Wedlin & Nedeva, 2015). Ideas about the ERC as an
+autonomous governance body where the scientific elite decides funding allocation independently
+from policy considerations were developed by learning from the experiences of the US National
+Science Foundation and the intergovernmental European Science Foundation (König, 2017; Nedeva,
+2013). Thus, also in the scientific excellence frame we see a number of elements of international
+
+18
+
+comparison and global positioning of EU research to play an important role. Huge and highly
+competitive investigator-driven ERC grants for blue-sky research have quickly become popular
+among the scientific elite, and the ERC has been presented as a success story of EU research policy.
+
+Although the ERC has constituted the core of the excellent science priority in Horizon 2020 and
+Horizon Europe programmes, this priority has included also some other actions. The Marie
+Sklodowska-Curie Actions providing funding for individual mobility grants and research training
+networks fits with the main features of the scientific excellence frame such as scientific freedom and
+EU wide competition based on the criterion of scientific quality. Other activities funded under this
+priority – research infrastructures and Future and Emerging Technology Flagships (discontinued in
+Horizon Europe programme) – are expected to contribute not only to scientific excellence but also to
+societal challenges and economic competitiveness (European Commission, 2020; Ulnicane, 2020).
+
+What is common to all scientific excellence funding schemes is a strong presence of and support
+from the scientific community or more narrowly scientific elite. If the traditional frame of economic
+competitiveness has at least initially been largely promoted by policy-makers and industry
+representatives, the more recent emergence of the scientific excellence frame in EU has been coshaped by the scientific community as one of the main stakeholders of expanding EU research
+policy.
+
+The scientific excellence frame is largely about supporting fundamental research and academic
+freedom, which are some of the most traditional characteristics of research policy (Elzinga, 2012).
+However, in EU research policy this frame emerged relatively late. It took more than 20 years from
+the launch of the FP to the establishment of ERC. Historically, idea that there should be support for
+fundamental research at the EU level was far from obvious. From original focus on economic
+integration in Europe, research policy initially emerged to support Europe-wide cooperation for
+19
+
+global economic competitiveness and closing technology gap with other major global powers.
+Accordingly, support for fundamental research was left for national research funding at the member
+state level. The relatively recent EU support for fundamental research emerged due to a novel
+excellent science frame challenging established notions and highlighting that the EU is lagging
+behind not only in technology but also in science and to address this gap the EU research funding
+should not only support cooperation but also the EU-wide competition for individual investigator-led
+grants.
+
+Societal challenges
+Interestingly, in the early 21st century in parallel to the emergence of excellent science frame in EU
+research policy, a completely opposite frame of societal challenges started to develop as well. If
+excellent science frame focusses on fundamental research and academic freedom, then societal
+challenges frame highlights the need for science to address societal needs and develop according to
+societal values. This tension between academic freedom and societal relevance is well-known since
+the so-called Bernal-Polanyi debate where the former argued for social function of science (Bernal,
+1939), while according to the latter any interference in the self-governing Republic of Science is
+potentially harmful for scientific enquiry (Polanyi, 1962).
+
+While the idea that science has to address human needs has a long history (Bernal, 1939), it gained
+particular prominence in research policy in the early 21st century when the societal challenges frame
+became popular around the world. Societal challenges, also known as Grand Challenges and global
+challenges, typically focus on major social issues in areas such as environment, health and energy
+through cross-disciplinary and cross-sectoral collaborations (Diercks et al., 2019; Ulnicane, 2016b).
+Although the concept of Grand societal challenges has been widely used around the world (Hicks
+2016), a unique feature of its framing in EU policy is that the formulation of problems and solutions
+is related to European cooperation, namely, societal challenges cannot be tackled by individual
+
+20
+
+nations, they require European cooperation, and EU level funding is provided to address them
+(Ulnicane, 2016b).
+
+The concept of societal challenges became part of the EU research policy rhetoric in 2007 when the
+ERA Green Paper highlighted that EU research policy should be deeply rooted in European society
+and support sustainable development in the fields of major public concern such as health, energy,
+and climate change (European Commission, 2007). To optimise EU research policy, this document
+called for the systemic identification of major societal challenges relevant to many countries and
+requiring research efforts beyond national capacity. To address such common societal challenges,
+the Green Paper suggested European research cooperation involving stakeholders and citizens.
+
+Additional impetus for using the Grand Challenges concept in EU research policy came from the ERA
+expert group report (ERA expert group, 2008), which followed the Green Paper and argued that the
+Grand Challenges concept can provide the content dimension for the ERA as well as help to increase
+support and funding for European research. In the context of the ERA expert group
+recommendations, the Grand Challenges concept had a role in moving EU research policy beyond a
+focus on deficit (e.g. fragmentation and lack of coordination) towards opportunities to jointly tackle
+Grand Challenges of climate change, food and energy security. The experts suggested that the focus
+on Grand Challenges would help to capture public and political imagination and thus play an
+instrumental role in shifting EU budget allocations towards research. This is an interesting example
+of explicitly using a particular frame in a highly strategic manner to advocate for the increase in EU
+research funding.
+
+The major support for Grand Challenges was announced in the Lund Declaration ‘Europe must focus
+on the grand challenges of our time’ adopted during the Swedish Presidency of the Council of the EU
+in 2009 (Lund Declaration, 2009). The Lund Declaration called for moving away from rigid thematic
+21
+
+approaches towards research priorities based on Grand Challenges in areas such as global warming,
+tightening supplies of energy, water and food, ageing societies, public health, pandemics and
+security. The Lund Declaration played a key role in the preparation of Horizon 2020, where societal
+challenges were one of the three priorities. Within this priority, funding was allocated to seven
+broad societal challenges from health and food security to climate action and secure, clean and
+efficient energy. These challenges were addressed through a number of instruments supporting
+large-scale cross-sectoral cooperation such as Joint programming initiatives and European
+Innovation Partnerships (Ulnicane, 2016b).
+
+In the current Horizon Europe programme the global challenges priority is implemented through the
+missions-approach. The development of missions-approach in the Horizon Europe has been led by
+economist Mariana Mazzucato who sees missions as moonshots similar to the Apollo programme
+launched by the US government to put a man on the moon (Mazzucato, 2021). According to her,
+missions are bold societal goals which can be achieved by collaboration on a large scale between
+public and private entities. This has important implications for the role of public policy in supporting
+research. Rather than correcting market failures, mission-oriented research policy is expected to
+have more active role in shaping markets, making risky investments and setting direction for
+research towards achieving societal goals (Mazzucato, 2021).
+
+In Horizon Europe, missions have been defined in five areas: first, cancer; second, adaptation to
+climate change including societal transformation; third, healthy oceans, seas, coastal and inland
+waters; fourth, climate-neutral and smart cities; and fifth, soil health and food (European
+Commission, 2021). It is expected that tackling these missions will contribute to the goals of major
+EU and global initiatives, such as the European Green Deal and the UN SDGs.
+
+22
+
+Thus, the key focus of recent EU policies to address societal challenges, missions and Sustainable
+Development Goals is on shaping research towards societal goals and values (see also Bozeman,
+chapter 2 in this Handbook). In EU research policy this orientation towards societal values and broad
+societal benefits of research have been further enhanced by supporting approaches such as
+Responsible Research and Innovation and Open Science that aim to put societal needs at the core of
+research (Owen et al., 2021).
+
+Beyond the Framework Programmes: Other EU research policy frames
+While the three main above discussed frames dominate the recent EU FPs, some further frames can
+also be encountered, in particular in relation to other EU funding programmes for research. Two
+frames of cohesion and defence are briefly discussed here.
+
+First, in the shadow of the global competitiveness discourse and concerns about Europe catching up
+with other major powers, a very different frame concerning huge differences in research
+performance among EU member states has developed (Sharp, 1998). With the EU enlargements to
+southern and eastern Europe, the narrative of weaker national research systems catching up with
+western and northern countries has become more important. The main instrument to enhance
+internal cohesion has been EU regional funds allocating resources for research capacity building
+within less developed regions. Some funding for this purpose has also been allocated within the FPs
+such as in the widening participation and strengthening ERA package in the current Horizon Europe
+programme (European Commission, 2021). Additionally, the EU also provides expert advice and
+support for reforming national research systems. Despite the variety of EU support instruments for
+weaker research systems over decades, important differences in policies and performance persist
+(European Commission, 2020; Ulnicane, 2016a).
+
+23
+
+Second, in recent years a new EU research funding frame has emerged outside the EU FP, which
+facilitated the launch of the European Defence Fund in 2017 to fund EU defence research (Calcara et
+al., 2020). The emergence of the EU-level funding for defence research was supported by the
+discourse that the EU is too fragmented to address new security threats and challenges, and
+therefore joint EU defence research is needed. Considering that traditionally defence research has
+been perceived as a highly sensitive area of national sovereignty, the launch of the European
+Defence Fund is a recent example of EU research funding expanding further into areas that have
+previously been sole responsibility of the member states. It remains to be seen if and how the newly
+launched European Defence Fund with its explicit focus on defence research will interact with the
+FPs that only fund research with an exclusive focus on civil applications. Interestingly, a recent major
+document on EU research policy (European Commission, 2020) does not even mention defence
+research, leaving open questions about the relationships between different EU research funding
+programmes.
+
+Thus, since the 1980s a number of major and minor policy frames have facilitated expansion of EU
+research funding within and beyond the FPs and the launch of new EU programmes and instruments
+gradually moving into areas that have traditionally been perceived as the realm of national
+government funding from investigator-driven fundamental research to joint defence research. It
+remains to be seen how recent changes in EU politics, e.g. major revision of EU energy and defence
+policies in early 2022 after the Russian invasion in Ukraine will affect future development on EU
+research policy and funding.
+
+Conclusions
+This chapter has demonstrated how since the 1950s EU research policy as a key example of
+international research funding has gradually emerged and expanded in terms of funds,
+competencies and policy instruments. Its emergence and expansion have been facilitated by certain
+24
+
+policy frames which have been shaped by broader political, economic and social processes within
+and beyond Europe. Most prominent among these policy frames has been the economic
+competitiveness and technological gap narrative that has portrayed research as a source of
+economic growth and highlighted that Europe has been lagging behind other major powers such as
+the US and Asian countries. To facilitate research contributing to economic growth and closing the
+gap, European policy, cooperation and coordination has been promoted as the main prescription.
+More recently two other major frames of scientific excellence and societal challenges have
+facilitated further expansion of EU research policy. These three major policy frames have guided the
+design of recent FPs.
+
+While similar frames of economic competitiveness, scientific excellence, and societal challenges can
+be also found at national level, a unique feature of EU research policy is claim that they cannot be
+properly addressed at the level of individual member states and therefore EU level cooperation,
+coordination, and competition is needed. If some accounts of development of science policy focus
+on common features across countries and regions (Aleman-Diaz, chapter 3 in this Handbook; Elzinga,
+2012), then this chapter demonstrates importance of historical and political context. For example,
+while academic freedom and science-national defence link are typically seen as traditional and longstanding features of research policy (Elzinga, 2012), then in the case of the EU they started to play
+the role relatively recently due to expansion of European integration to new areas.
+
+As can be expected on the basis of policy frames literature, some competition over meaning,
+legitimacy and resources can be seen among these three main frames of economic competitiveness,
+scientific excellence and societal challenges. However, continuous expansion of policy and increased
+funds allocated to recent FPs have also alleviated this competition among the various frames in EU
+research policy ensuring that each frame and related stakeholders promoting them get substantial
+funding. At the same time, designing the FPs according to the three main policy frames has also led
+25
+
+to certain fragmentation in policy practice and academic research, where specific academic and
+policy communities focus on a certain frame – be it scientific excellence or mission-oriented policy –
+with little cross-fertilization and focus on interaction across different frames.
+
+The question asked at the beginning of this chapter about EU research policy as a success story is not
+easy to answer. As argued by Mitzner (2020), continuous expansion and impact of EU research policy
+can be seen as a success story. At the same time, more questionable is the success of EU research
+policy trying to pursue more or less controversial aims, targets and indicators such as catching up
+with US and Asian countries, cohesion among EU counties, and increase of national research funding
+to 3% of GDP. The question of what counts as success in international research funding remains
+open and invites further public debates and scientific investigation including about norms and values
+underpinning not only recent societal challenges frame but also more traditional economic
+competitiveness discourse. One direction for such debates and investigation is suggested in the
+introductory quote to this chapter that highlights the need for EU research policy to be a
+transformative effort serving the needs of the European societies, which are also open to the
+debate.
+
+This chapter has highlighted the role of politics in public research funding. While often perceived as
+highly technocratic area, this chapter demonstrates how political priorities, values, norms, and
+interests have been shaping EU research policy and funding. Political priorities of European
+integration and their change over time – from initial focus on peace project and economic
+cooperation to more recent prioritization of sustainability and emergence of defence cooperation have had direct impact on the way EU research policy and funding has been established and evolved
+over time, exemplifying how research investments play their political role being ‘a continuation of
+politics by other means’ (Elzinga, 2012, p.416).
+
+26
+
+Acknowledgments:
+This research has benefited from comments on earlier versions presented at the 2021 virtual
+conferences of Eu-SPRI (European Forum for Studies of Policies for Research and Innovation) and
+UACES (Academic association for Contemporary European Studies).
+
+References:
+Bernal, J.D. (1939). The Social Function of Science. The MIT Press.
+
+Boekholt, P. (2010). The Evolution of Innovation Paradigms and their Influence on Research,
+Technological Development and Innovation Policy Instruments. In Smits, R.E., Kuhlmann, S., &
+Shapira, P. (Eds) The Theory and Practice of Innovation Policy. An International Research Handbook
+(p.333-359). Edward Elgar.
+
+Borras, S. (2003). The Innovation Policy of the European Union. From Government to Governance.
+Edward Elgar.
+
+Borras, S. (2019). Changes in European research and innovation governance: coordination effect and
+membership effects. In Simon, D., Kuhlmann, S., Stamm, J., & Canzler, W. (Eds) Handbook on Science
+and Public Policy (pp.401-418). Edward Elgar.
+
+Calcara, A., Csernatoni, R., & Lavalée, C. (Eds) (2020). Emerging Security Technologies and EU
+Governance: Actors, Practices and Processes. Routledge.
+
+Cavallaro, M., & Lepori, B. (2021). Institutional barriers to participation in EU framework programs:
+contrasting the Swiss and UK cases. Scientometrics, 126(2), 1311-1328.
+
+Chou, M.-H., & Gornitzka, A. (Eds) (2014). Building the Knowledge Economy in Europe. New
+27
+
+Constellations in European Research and Higher Education Governance. Edward Elgar.
+
+Cramer, K. C. (2020). A Political History of Big Science in Europe. The Other Europe. Palgrave
+Macmillan.
+
+Cramer, K. C., & O. Hallonsten (Eds) (2020). Big Science and Research Infrastructures in Europe.
+Edward Elgar.
+
+Delanghe, H., Muldur, U., & Soete, L. (Eds) (2009). European science and technology policy: Towards
+integration or fragmentation? Edward Elgar.
+
+Diercks, G., Larsen, H., & Steward, F. (2019). Transformative innovation policy: Addressing variety in
+an emerging policy paradigm. Research Policy, 48(4), 880-894.
+
+Edler, J., Kuhlmann, S., & Behrens, M. (Eds) (2003). Changing Governance of Research and
+Technology Policy: The European Research Area. Edward Elgar.
+
+Elzinga, A. (2012). Features of the current science policy regime: Viewed in historical perspective.
+Science and Public Policy, 39(4), 416-428.
+
+ERA expert group (2008). Challenging Europe’s Research: Rationales for the European Research Area
+(ERA). Report.
+
+European Commission (2007). The European Research Area: New Perspectives. Green Paper.
+04.04.2007. COM(2007) 161.
+
+28
+
+European Commission (2020). A new ERA for Research and Innovation. Communication. 30.9.2020.
+COM(2020) 628.
+
+European Commission (2021). Horizon Europe. Available from https://ec.europa.eu/info/researchand-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizoneurope_en Last accessed: 22 June 2021.
+
+Hicks, D. (2016). Grand Challenges in US Science Policy Attempt Policy Innovation. International
+Journal of Foresight and Innovation Policy, 11(1-3), 22-42.
+
+Kastenhofer, K., & Molyneux-Hodgson, S. (2021). Community and Identity in Contemporary
+Technosciences. Sociology of Sciences Yearbook, Vol.31. Springer.
+
+König, T. (2017). The European Research Council. Polity.
+
+Krige, J. (2003). The Politics of European scientific collaboration. In Krige, J. & Pestre, D. (Eds)
+Companion to science in the twentieth century (pp.897-918). Routledge.
+
+Krugman, P. (1994). Competitiveness: A Dangerous Obsession. Foreign Affairs, 73(2), 28-44.
+
+Lund Declaration (2009). Europe Must Focus on the Grand Challenges of Our Time. The Lund
+Conference ‘New Worlds – New Solutions’, July 2009.
+
+Luukkonen, T. (2014). The European Research Council and the European Research Funding
+Landscape. Science and Public Policy, 41(1), 29-43.
+
+29
+
+Mazzucato, M. (2021). Mission Economy: A Moonshot Guide to Changing Capitalism. Allen Lane.
+
+Misa, T. J., & Schot, J. (2005). Inventing Europe: Technology and the Hidden Integration of Europe.
+History and Technology, 21(1), 1-19.
+
+Mitzner, V. (2020). European Union Research Policy. Contested Origins. Palgrave Macmillan.
+
+Nedeva, M. (2013). Between the global and the national: Organising European Science. Research
+Policy, 42, 220-230.
+
+O’Mara, M. (2019). The Code: Silicon Valley and the Remaking of America. Penguin Press.
+
+Owen, R., von Schomberg, R., & Macnaghten, P. (2021). An unfinished journey? Reflections on a
+decade of responsible research and innovation. Journal of Responsible Innovation, 8(2), 217-233.
+
+Papon, P. (2009). Intergovernmental cooperation in the making of European research. In Delanghe,
+H., Muldur, U., & Soete, L. (Eds) European science and technology policy: Towards integration or
+fragmentation? (pp.24-43). Edward Elgar.
+
+Polanyi, M. (1962). The Republic of Science. Its Political and Economic Theory. Minerva, 1(1), 54-73.
+
+Prange-Gstohl, H. (Ed) (2010). International Science and Technology Cooperation in a Globalized
+World. The External Dimension of the European Research Area. Edward Elgar.
+
+Rein, M., & Schon, D. (1993). Reframing Policy Discourse. In Fischer, F., & Forester, J. (Eds) The
+Argumentative Turn in Policy Analysis and Planning (pp.145-166). UCL Press.
+
+30
+
+Rein, M., & Schon, D. (1996). Frame-Critical Policy Analysis and Frame-Reflective Policy Practice.
+Knowledge and Policy: The International Journal of Knowledge Transfer and Utilization, 9(1), 85-104.
+
+Sandholtz, W. (1992). ESPRIT and the Politics of International Collective Action. Journal of Common
+Market Studies, XXX(1), 1-21.
+
+Schon, D., & Rein, M. (1994). Frame Reflection: Toward the Resolution of Intractable Policy
+Controversies. Basic Books.
+
+Sharp, M. (1998). Competitiveness and cohesion – are the two compatible? Research Policy, 27, 569588.
+
+Ulnicane, I. (2015). Broadening Aims and Building Support in Science, Technology and Innovation
+Policy: The Case of the European Research Area. Journal of Contemporary European Research, 11(1),
+31-49.
+
+Ulnicane, I. (2016a). Research and innovation as sources of renewed growth? EU policy responses to
+the crisis. Journal of European Integration, 38(3), 327-341.
+
+Ulnicane, I. (2016b). ‘Grand Challenges’ concept: A Return of the ‘Big Ideas’ in Science, technology and
+Innovation Policy? International Journal of Foresight and Innovation Policy, 11(1-3). 5-21.
+
+Ulnicane, I. (2020). Ever-Changing Big Science and Research Infrastructures: Evolving European Union
+Policy. In Cramer, K. & Hallonsten, O. (Eds) Big Science and Research Infrastructures in Europe (pp.76100). Edward Elgar.
+
+31
+
+Ulnicane, I. (2022). Introduction - technologies and European integrations. In Hoerber, T., Cabras, I.,
+& Weber, G. (Eds) Routledge Handbook of European Integrations (pp.199-207). Routledge.
+
+Veugelers, R. (2014). Undercutting the future? European research spending in times of fiscal
+consolidation. Bruegel Policy Contribution, Issue 2014/06.
+
+Wedlin, L., & Nedeva, M. (2015). Towards European Science: Dynamics and Policy of Evolving European
+Research Space. Edward Elgar.
+
+i
+
+On history of European integration see here https://europa.eu/european-union/about-eu/history_en
+Accessed 9 August 2021.
+ii
+Referring to the development before the Maastricht Treaty adopted in 1992 that established the European
+Union, the term ‘European Community’ is used. On history of European integration see here
+https://europa.eu/european-union/about-eu/history_en Accessed 9 August 2021.
+iii
+On the history of EU enlargements see https://ec.europa.eu/neighbourhood-enlargement/policy/from-6-to27-members_en Accessed 2 August 2021.
+iv
+On history of EU Treaties see https://europa.eu/european-union/law/treaties_en Accessed 2 August 2021.
+v
+The EU has the three main types of competencies: exclusive, shared and supporting. They refer to division of
+competencies between the EU and its member states. The Single European Act that came into the force in
+1987 conferred the Community supporting competence in area of research which meant that the Community
+could only support, coordinate or complement the action of the member states in this area. Since the Lisbon
+Treaty that came into force in 2009, the EU has a shared competence for research which means that both the
+EU and its member states are able to legislate and adopt legally binding texts. Available from https://eurlex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM%3Aai0020 Accessed 2 August 2021.
+
+32
+
+

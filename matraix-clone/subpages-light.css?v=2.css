@@ -1,0 +1,69 @@
+/* subpages-light.css — carries the homepage's lighter typography pass to the
+   rest of the site. Mirrors home-light.css: it only lowers weights on display
+   headings, titles, names and prominent numbers, and softens glow. It never
+   touches prose bold (strong/b), buttons, tabs, badges, brand marks, or small
+   mono labels, which stay bold on purpose. Font family is unchanged (Inter).
+
+   Tag-level rules catch bare <h1>/<h2>/<h3> (which otherwise render at the
+   browser default bold); the class rules below match the same specificity as
+   the page CSS so, loaded last with !important, they win. */
+
+/* ---- Tag-level fallback for un-classed headings ---- */
+h1 { font-weight: 300 !important; }
+h2 { font-weight: 400 !important; }
+h3 { font-weight: 500 !important; }
+
+/* ---- Large page / hero titles (300) ---- */
+.headline { font-weight: 300 !important; letter-spacing: -0.025em; }
+.blog-title { font-weight: 300 !important; }
+.ex-title { font-weight: 300 !important; }
+.mx-title { font-weight: 300 !important; }
+
+/* ---- Section headings (400) ---- */
+.closing h2 { font-weight: 300 !important; }
+.closing h2 span { font-weight: 400 !important; text-shadow: none !important; }
+.panel-head h2 { font-weight: 400 !important; }
+.article h2 { font-weight: 400 !important; }
+.mx-section-head { font-weight: 400 !important; }
+.sec-title { font-weight: 400 !important; }
+.sec-h { font-weight: 400 !important; }
+.gr-title { font-weight: 400 !important; }
+.runway-hud h1 { font-weight: 400 !important; }
+.purpose h2, .persona h2, .eval h2 { font-weight: 400 !important; }
+
+/* ---- Card / sub headings and named items (500) ---- */
+.card h3 { font-weight: 500 !important; }
+.article h3 { font-weight: 500 !important; }
+.svc h3 { font-weight: 500 !important; }
+.os-id { font-weight: 700 !important; }
+.drawer-name { font-weight: 500 !important; }
+.dim-label { font-weight: 500 !important; }
+.dim-card-title { font-weight: 500 !important; }
+.dim-name { font-weight: 500 !important; }
+.rsnap-name { font-weight: 500 !important; }
+.paper-title { font-weight: 500 !important; }
+.report-target { font-weight: 500 !important; }
+.ph-title { font-weight: 500 !important; }
+
+/* ---- Prominent big numbers (500) ---- */
+.megacount .count { font-weight: 500 !important; }
+.tele-val { font-weight: 500 !important; }
+.stat-val { font-weight: 500 !important; }
+.rstat b { font-weight: 500 !important; }
+.vital .vv { font-weight: 500 !important; }
+.swarm-foot b { font-weight: 500 !important; }
+.verdict .target { font-weight: 500 !important; }
+.verdict .lift { font-weight: 500 !important; }
+.gr-lift { font-weight: 500 !important; }
+.gr-run-score { font-weight: 500 !important; }
+.gr-target { font-weight: 500 !important; }
+.verdict-lift, .rsnap-lift { font-weight: 500 !important; }
+
+/* ---- Soften / remove text glow to match the homepage ---- */
+.megacount .count, .megacount .count-unit,
+.tele-val, .stat-val,
+.verdict .lift, .verdict .target, .gr-lift, .gr-run-score, .gr-target,
+.verdict-lift, .rsnap-lift { text-shadow: none !important; }
+
+/* ---- Mute secondary text ---- */
+.sec-sub, .subhead, .stat-cap { font-weight: 400; }

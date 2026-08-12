@@ -1,0 +1,35 @@
+{
+  "gate": "index-eligibility",
+  "mode": "audit",
+  "build_timestamp": "2026-08-06T13:27:53.536093+00:00",
+  "vault_path": "/tmp/tmp47zotc0c/v",
+  "total_notes": 4,
+  "parsed_ok": 4,
+  "parse_failed": 0,
+  "missing_required_fields": 0,
+  "eligible": 3,
+  "rejected": 1,
+  "index_eligibility_rate": 0.75,
+  "rejection_reasons": {
+    "missing_required_field: provenance_status": 1,
+    "missing_required_field: source_classification": 1,
+    "missing_required_field: reviewer": 1,
+    "missing_required_field: reviewed_at": 1
+  },
+  "rejected_entries": [
+    {
+      "path": "/tmp/tmp47zotc0c/v/bad.md",
+      "title": "bad",
+      "rejection_reasons": [
+        "missing_required_field: provenance_status",
+        "missing_required_field: source_classification",
+        "missing_required_field: reviewer",
+        "missing_required_field: reviewed_at"
+      ]
+    }
+  ],
+  "parse_errors": [],
+  "build_status": "AUDIT \u2014 REPORT ONLY",
+  "index_path": null,
+  "governance_action": "Audit complete. 3/4 notes eligible (75.0%). 1 rejected: missing_required_field: provenance_status: 1, missing_required_field: reviewed_at: 1, missing_required_field: reviewer: 1, missing_required_field: source_classification: 1. Switch to enforce mode when metadata schema is stable."
+}

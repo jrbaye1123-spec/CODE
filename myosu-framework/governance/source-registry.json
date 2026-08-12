@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "source_id": "internal-spec-epistemic-supply-chain",
+      "title": "Epistemic Supply Chain — Knowledge Engineer as Control Point",
+      "type": "internal-spec",
+      "uri": "vault/wiki/agents/epistemic-supply-chain.md",
+      "ingested_by": "manual",
+      "safety_scan": "passed",
+      "provenance_class": "internal-spec",
+      "governance_status": "approved",
+      "reviewer": "@knowledge-engineer",
+      "reviewed_at": "2026-08-06",
+      "scope": "agent-pipeline-design, governance, triage",
+      "notes": "Concept note defining the knowledge engineer role as epistemic control point."
+    }
+  ]
+}

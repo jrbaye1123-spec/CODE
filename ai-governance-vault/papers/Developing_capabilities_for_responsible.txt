@@ -1,0 +1,1488 @@
+Journal of Responsible Technology 15 (2023) 100065
+
+Contents lists available at ScienceDirect
+
+Journal of Responsible Technology
+journal homepage: www.sciencedirect.com/journal/journal-of-responsible-technology
+
+Developing capabilities for responsible research and innovation (RRI)
+George Ogoh a, *, Simisola Akintoye e, f, Damian Eke f, Michele Farisco b, c, Josepine Fernow b,
+Karin Grasenick f, Manuel Guerrero b, d, Achim Rosemann f, Arleen Salles b, Inga Ulnicane f
+a
+
+School of Computer Science, University of Nottingham, Nottingham, UK
+Centre for Research Ethics & Bioethics (CRB), Uppsala University, Uppsala, Sweden
+c
+Biogem, Biology and Molecular Genetics Research Institute, Ariano Irpino, (AV), Italy
+d
+Department of Bioethics and Medical Humanities, University of Chile, Santiago, Chile
+e
+Centre for Law, Faculty of Business and Law, Justice and Society, De Montfort Law School, De Montfort University, Leicester, UK
+f
+Centre for Computing and Social Responsibility, Faculty of Computing, School of Computer Science and Informatics, Engineering and Media, De Montfort University,
+Leicester, UK
+b
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Research and innovation
+RRI
+Ethics
+Capacity building
+Capability development
+
+This paper examines the notion of capability development through the lens of Responsible Research and Innovation (RRI). It describes how RRI capabilities can be promoted and developed through capacity-building activities by drawing on a reflection of the experiences of some members of the Ethics and Society team of the EUfunded Human Brain Project (HBP) who have contributed to the development of an extensive RRI capacity
+building programme for HBP researchers, EBRAINS research infrastructure developers and users, as well as
+interested external audiences. It also highlights some of the outcomes of the RRI capacity-building exercise and
+the challenge of assessing the impact of such activities.
+
+Introduction
+The implementation of the Responsible Research and Innovation
+(RRI) approach requires researchers and other stakeholders to have an
+understanding of the concept and practice of RRI itself, an adequate
+knowledge of its dimensions/components, and the capability to undertake the activities required to successfully implement it. Much work on
+RRI has therefore expended on developing RRI teaching and training
+activities, with the aim of developing key RRI capabilities. In this paper,
+we define the term “RRI capabilities” as the acquisition and internalization of the skills, knowledge, know-how and attitudes to apply core
+dimensions and principles of RRI in the context of the planning, development, management and everyday operation of research and innovation activities and projects. Still, numerous questions around how
+specific RRI capabilities can be developed, and which capabilities are
+required to successfully implement RRI at a project level remain.
+Open issues also include the identification of the relevant criteria to
+develop RRI capabilities and the level of competence required (in terms
+of skill set) by possible stakeholders, how these stakeholders are identified, what the consequences of these interventions are in practice, and
+how to assess/quantify them.
+
+A particular challenge arises when looking at these questions on a
+project level. Most RRI training activities are aimed at improving capabilities on the level of the research system, for example, by targeting
+early career researchers, typically in a particular discipline or funding
+environment such as the CDTs (Centre for Doctoral Training) in the UK
+funded by the EPSRC i.e. the Engineering and Physical Science Research
+Council (Stahl et al 2023; Ten Holter, Stahl and Jirotka, 2022). This is
+understandable where specific RRI-related needs are identified on a
+topic or discipline level and the aim is to promote a general culture
+change towards RRI in this field. The issue is more difficult on the
+project level when broader questions are considered, for example, on the
+RRI capabilities required beyond the immediate project. Thus, this paper
+asks: How can the required capabilities to achieve the implementation of
+specific RRI dimensions be identified and developed? And how can the
+impact of RRI capability development activities be assessed?
+This question is addressed at the level of a discrete research and
+innovation project by drawing on a reflection of RRI capacity-building
+processes in the Human Brain Project (HBP). This is a huge, international, and interdisciplinary project working across neuroscience and
+information and communications technology (ICT). The HBP is an
+interesting case because RRI capacity building has been an important
+
+* Corresponding author.
+E-mail address: george.ogoh@nottingham.ac.uk (G. Ogoh).
+https://doi.org/10.1016/j.jrt.2023.100065
+Available online 12 August 2023
+2666-6596/© 2023 Published by Elsevier Ltd on
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+behalf
+
+of
+
+ORBIT.
+
+This
+
+is
+
+an
+
+open
+
+access
+
+article
+
+under
+
+the
+
+CC
+
+BY-NC-ND
+
+license
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+part of a broader range of RRI activities developed throughout the 10
+years of the project (2013-2023). It is expected that these activities will
+have an impact on the main planned HBP legacy initiative - the digital
+brain research infrastructure called EBRAINS (Stahl et al 2021). By
+reflecting on some experiences of the Ethics and Society Team - a
+multidisciplinary group of ethicists, social scientists, and philosophers
+within the HBP - the paper explores insights from the broad range of
+interactions, research, practices, and efforts culminating in an extensive
+RRI capacity building exercise for EBRAINS.
+
+to a fast-changing world. In the context of this paper, instinct refers to
+the complex interaction of intrinsic and experiential factors that promotes learning. This considers the mindsets, motivations and hopes of
+individuals which are crucial to the development of capacities.
+Also in this context, while the organisation mainly refers to the HBP
+and EBRAINS, the community referred to here is the community of HBP
+researchers and the users, developers, and management of the innovative EBRAINS Research Infrastructure for brain research that has resulted from the activities of the HBP. The idea of a community also takes
+into consideration the structures, configuration and patterns of different
+groups within the HBP and their interactions. This is especially important as the HBP is a large-scale research initiative involving more than
+500 researchers, scientists and engineers in over 150 different organisations (including universities, teaching hospitals and research centres)
+spread across 20 countries around Europe.
+Considering this context, some indications of the challenges of the
+capacity-building effort aimed at the development of an RRI-inspired
+culture and practice within the HBP and the community around
+EBRAINS digital brain research infrastructure can be seen. The challenges include those brought about by the sheer size of the HBP, the
+distributed nature of its partnering institution and organisations spread
+all over Europe, as well as constraints related to project funding and the
+temporary nature of the project. Challenges like these along with those
+discussed in the next section are limiting factors that were taken into
+consideration during the development of the capacity-building
+programme.
+A link between the concepts of capacity development and dynamic
+capability can be seen here, as both concepts relate to the ability to
+acquire competencies that are required for survival in a fast-changing
+world. Nevertheless, these concepts can be differentiated because
+while "capacity development" refers to processes of developing necessary skills and abilities, "dynamic capabilities" refer to the adapting
+application of those skills. Also, the reference in both definitions to a
+‘fast-changing world’ is certainly apt for the context of the HBP
+considering the complex nature of neuroscience research that it is
+involved in and the pace of development of such research. Neuroscience
+is a fast-paced complex multidisciplinary field that has advanced rapidly
+over the last 50 years and is predicted to accelerate even further over the
+next 50 years (Altimus et al., 2019) as it combines disciplines such as
+computer science, ICT, chemistry, medicine, mathematics etc. The
+complex nature of the HBP can be seen in the fact that it combines
+empirical neuroscience in both human and animals brain with theory
+and modelling with the development of an advanced research infrastructure (i.e. EBRAINS) for brain research comprising supercomputing,
+big data analytics artificial intelligence and simulation (Amunts, et. al.,
+2019).
+Building on these ideas, some indication of what such learning may
+include can be seen in Owen, von Schomberg and Macnaghten (2021)
+who have argued that it is important to integrate and embed capacities
+for anticipation, inclusive deliberation, and stakeholder engagement.
+This is especially important as the complex nature of innovation means
+that there is a potential to generate ethical, social and environmental
+challenges in uncertain and unpredictable ways. A clear understanding
+of such dimensions of responsible research and innovation (RRI) is
+crucial for a complex multidisciplinary project like the HBP which embraces neuroscience, ICT, and brain-inspired technologies and where
+there are different understandings about what responsible research entails and how it translates into practice. However, as Steen, Nauta,
+Gaasterland and Ogier (2018) point out, while it is relatively easy to
+conduct a single RRI activity, it is much more difficult to institutionalise
+RRI or embed it in an organisation’s structure or culture. Thus, the need
+to understand good ways of developing RRI capabilities and the challenges involved.
+
+Capabilities and their development in RRI
+In the management sciences, the notion of capabilities has been used
+for many years to refer to the ability to achieve certain goals. For
+example, Andrews, Christensen, Guth and Learned (1969) described
+capabilities as the potential ability of an individual or organisation to
+accomplish whatever they have set out to do. On the other hand, capacity is described as the sum of the capabilities of a group or organisation. Both terms are often linked to the ability to learn and adapt to the
+performance of an organisation and highlight the creation or development of competencies that are truly distinctive and essential for the
+improved performance of an organisation.
+With constantly changing world environments bringing new challenges, the need to dynamically build capabilities that enable individuals and organisation to thrive have also been recognised. Such an
+ability to respond quickly to rapidly changing environments has been
+described as a dynamic capability. The concept of dynamic capability
+was developed by Teece et al. (1997) who created a framework for
+businesses to achieve and sustain competitive advantage in a
+fast-changing world. They defined dynamic capability as “the ability to
+integrate, build and reconfigure internal and external competencies to
+address rapidly changing environments.” Dynamic Capability involves a
+continuous effort to adapt and improve processes and encompasses the
+ability to learn, innovate, and restructure resources in response to new
+opportunities and challenges (Teece, 2007). Importantly, Otto and Zeigler (2006) have pointed out that such capabilities may be derived
+mainly through training, learning, and education and the broadening of
+human capabilities can play a role in influencing individual and societal
+values.
+Interestingly, in the early days of the development of RRI, Owen
+et al. (2013) recognised the need for dynamic capability when applying
+the RRI approach. They described responsiveness, a key dimension of
+RRI as an iterative, inclusive and open process of adaptive learning with
+dynamic capability. Among other things, they suggested that organisations have to be responsive to survive in a quickly changing world,
+which requires both dynamic capability and adaptive learning. Adaptive
+learning refers to the continuous learning and adoption of strategies and
+actions that facilitate critical reflection and inform decisions that optimise the effectiveness of program implementation in unexpected and
+changing circumstances (Joey et al., 2021). Thus, it appears that there is
+a common understanding both within the management and RRI fields
+that the prerequisite of dynamic capability is continuous learning, or
+training and education - concepts which call to mind the idea of capacity
+building or capacity development.
+The terms capacity building and capacity development are used
+interchangeably in this paper to refer to “a process of developing and
+strengthening the skills, instincts, abilities, processes and resources that
+organisations and communities need to survive, adapt, and thrive in a
+fast-changing world” (UN Habitat, 2019). This definition is important
+because it describes capacity building using concepts that are familiar,
+easy to relate to, and at the core of the RRI training programme
+described in this paper. For example, it indicates that capacity building
+is ‘a process’, indicating a series of related and progressive activities.
+Among other things, the definition also gives some indication of the
+purpose, suggesting that this is to develop skills, instincts, and abilities
+that organisations and communities need in order to survive and adapt
+2
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+In 2021, the Edinburgh Hub for Responsible Research and Innovation1 collaborated with the European Research Area Cofund on BioTechnologies i.e., ERA CoBioTech Funding Programme to understand
+the capabilities necessary to pursue RRI and how they intersect with the
+professional capabilities of individuals (Smith, Bernstein, O’Donovan, &
+Cuttica, 2022). Among other things, it has shown how the integration of
+skills, knowledge and the right institutional conditions can contribute to
+the building of RRI capabilities. And although the context of the application was focused on funding cultures and funders, a good portion of
+the messaging resonates quite well with the context of this article as they
+have described capabilities as “the real ability to do or be what a person
+values in their professional roles or to achieve goals that they think are
+important to pursue RRI”. They agree with O’Donovan, Michalec and
+Moon (2022) that expertise is an instance of capabilities, and that
+research capacity aggregates the capabilities and resources to perform
+research. They maintain that although capabilities do not emerge uniformly, they depend on people’s situations and values, and it is important to focus on identifying the goals along with valued capabilities for
+RRI and then develop conditions that enable the capabilities to emerge
+and thrive. Such goals and the necessary interventions to support RRI
+must be co-created with a diversity of stakeholders, using approaches
+that create shared spaces for reflection and action.
+To understand how other funded RRI-related projects involved in the
+development of RRI training have determined the necessary capabilities
+for which they have created capacity-building resources, several projects were examined. For example, EnRRICH2 (Enhancing Responsible
+Research and Innovation through Curricular in Higher Education) is a
+project that was aimed at embedding RRI in Higher Education. A key
+objective of the project was to "improve the capacity of students and staff
+in higher education to develop knowledge, skills and attitudes to support
+the embedding of RRI in curricula” (Hally, O’Mahony and Burns, 2018).
+The project therefore focused on enabling students to acquire the broad
+range of skills, knowledge, and experience required for flourishing of the
+knowledge economy and knowledge society. It has been suggested that
+this happened by initiating discussions and debates both within and
+beyond the project consortium and at institutional, national and international levels. An important starting point for the EnRRICH project was
+the understanding that responsibility refers to the capability to use past
+and present knowledge in order to understand, and at best to predict, the
+impact of one’s endeavours (Tassone and Eppink, 2016). Among other
+things, the project developed a 15-credit module for teaching
+community-based participatory research to PhD students and a tool to
+help educators (re)design curricula for RRI. This tool was based on the
+outcome of a scoping exercise involving the examination of curricula in
+partner institutions to identify promising RRI practices.
+Another project that has embarked on the development of RRI capacities is EMBRACE3 (Embedding RRI in Future and Emerging Technologies). The project draws on RRI-related activities of the HBP to
+provide training and consultancy services aimed at increasing the skills
+of scientific and technical researchers to identify and address social and
+ethical concerns associated with the activities of FET (Future and
+Emerging Technology) projects. This is considering that although FET
+research and innovation activities create radically novel technologies,
+they are also capable of raising social and ethical concerns. Thus, the
+project developed 4 training modules covering data governance, stakeholder engagement, design of ethical AI systems and researcher integrity. According to Keene (2022) the RRI capabilities of the FET
+researchers were determined from the outcome of interviews with 40
+FET launchpad coordinators. The focus of the interviews was to understand the needs of the researchers in terms of RRI-related knowledge and
+services and how to satisfy these needs through the provision of relevant
+
+training and consultancy services.
+Unlike EMBRACE, the HEIRRI4project (Higher Education Institutions and Responsible Research and Innovation) project developed
+10 training RRI training programmes for different education levels at
+higher education institutions. Also, for them, the development of these
+modules was influenced by findings from a state-of-the-art review and
+database of good practices, cases, and teaching materials that the project
+developed (Tokalić et al., 2021). They found that although there were
+numerous educational resources that encompass RRI to some extent,
+higher education still struggles with structural changes needed for the
+optimal implementation of RRI education. The training programmes
+which are based on the Problem-Based Learning (PBL) methodology
+include a Massive Open Online Course (MOOC) and a summer school.
+They were designed as modules that can be incorporated into a wide
+range of existing undergraduate subjects such as Bioethics or Science
+Communication. The PBL approach adopted enabled reflection and
+dialogue and is supported by videos, scenarios and card games.
+However, other providers of RRI training resources are not very clear
+about how they have determined RRI capabilities which they have targeted with the training materials they have developed. For example,
+projects like FIT4RRI5 (Fostering Improved Training Tools for Responsible Research and Innovation) have developed 6 online training courses
+on RRI and open science topics. The online courses include an introduction to RRI; engaging the public in RRI; RRI for companies; openness
+in Science and RRI; research and data ethics; and open and fair data.
+Although it is hard to find the rationale for the choices made, they have
+maintained that the “content collection was developed in close dialogue
+with the RRI community, in contact with several projects” (Principe,
+2020). Building on these resources, a follow-on project called FOSTER
+Plus6 (Fostering the practical implication of Open Science in Horizon
+2020 and beyond) has developed capacity-building resources to promote Open Science - one of the RRI dimensions - to academic staff,
+young scientists and policymakers.
+ORBIT-RRI7 (Observatory for Responsible Research and Innovation
+in ICT) is another project that has embarked on RRI training, capacity
+building and consultancy services. The project builds on the outcomes of
+a previous RRI Project (i.e., RESPONSIBLE INDUSTRY8 – Responsible
+Research and Innovation in Business and Industry in the Domain of ICT
+for Health, Demographic Change and Well-being; and FRICT - Framework for Responsible Research and Innovation in ICT). It is worth noting
+that FRICT developed an Ethics Observatory that gathered ethical
+challenges faced by contemporary ICT research and a collection of best
+practices to promote recommendations and engagement with the ICT
+community. ORBIT-RRI (or simply ORBIT) was borne out of the need to
+ensure sustainability at the end of these projects and became a nonprofit legal entity. Based on the outcomes of the predecessor projects,
+ORBIT started off providing Foundation and Practitioner Courses on RRI
+for CDTs often funded by the EPSRC. It should be noted that the EPSRC
+have invested quite heavily in programmes aimed at further institutionalising RRI by funding RRI training programmes in CDTs all over the
+UK (Owen, von Schomberg and Macnaghten, 2021; Stahl et al 2023).
+The ORBIT project was funded through one of such EPSRC funding calls
+and has since expanded to providing RRI-related consultancy and
+training on other RRI-related topics most notably providing a home for
+RRI training courses that resulted from the EMBRACE project. presents a
+summary of the targeted RRI training programmes described in this
+section (Table 1).
+This overview offers some indications of how other funded projects
+have attempted to build capabilities around RRI by developing relevant
+
+4
+
+https://cordis.europa.eu/project/id/666004
+https://cordis.europa.eu/project/id/741477
+6
+https://cordis.europa.eu/project/id/741839
+7
+https://www.orbit-rri.org/
+8
+https://cordis.europa.eu/project/id/609817
+5
+
+1
+
+https://rri.ed.ac.uk/capabilities-responsible-innovation/
+https://cordis.europa.eu/project/id/665759
+3
+https://cordis.europa.eu/project/id/101034471
+2
+
+3
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+inspired culture and practice) in organisations (Stahl et al., 2021), the
+ethics and society team of HBP started a targeted programme of
+capacity-building on RRI for the HBP and EBRAINS – the brain research
+infrastructure developed by the project starting from April 2020.
+Through a comprehensive set of capacity-building activities, the programme has aimed to enable the institutionalisation of responsible
+innovation practices in the HBP and EBRAINS. The capacity building
+programme also sought to facilitate the development of capacities for
+anticipating, identifying, and proactively addressing the ethical, legal,
+and societal issues raised by research in the project, including issues
+related to diversity dimensions.
+The RRI capacity building programme, which builds on the legacy of
+the Ethics and Society work carried out since the inception of the HBP in
+2013 (Aicardi et al 2020; Stahl et al 2019; 2021; Ulnicane et al 2022),
+also promoted proactive approaches for addressing relevant legal,
+ethical and social issues within the project. It provided different tools
+and methods for foresight, sociological, regulatory, critical and philosophical reflection, as well as public engagement and science communication. A range of activities, including workshops, training sessions
+and discussion groups, was developed to increase the knowledge,
+experience and skills required to work with the RRI approach. The target
+audience includes HBP researchers, EBRAINS users, data and infrastructure providers, as well as EBRAINS leadership and management,
+and interested external audiences. At the end of the training programme,
+the targeted audience was expected to develop the ability to:
+
+Table 1
+Summary of capabilities targeted by funded RRI Training programmes and
+outcomes.
+Project
+
+How have targeted
+capabilities been
+identified?
+
+Target group
+
+Outcomes
+
+EnRRICH
+
+Initiating discussions
+and debates both
+within and beyond
+the project
+consortium and at
+institutional, national
+and international
+levels;
+Scoping exercise
+involving the
+examination of
+curricula in partner
+institutions to
+identify promising
+RRI practices.
+Interviews with 40
+FET (Future and
+Emerging
+Technology)
+launchpad
+coordinators.
+
+Students and staff
+in higher
+education.
+
+1 module (15-credit)
+for teaching
+community-based
+participatory
+research to PhD
+students and a tool to
+help educators re
+(design) curricula for
+RRI.
+
+Scientific and
+technical
+researchers in
+FET projects.
+
+Findings from a stateof-the-art review and
+database of good
+practices, cases, and
+teaching materials
+that the project
+developed.
+Content collection
+was developed in
+close dialogue with
+the RRI community,
+in contact with
+several projects.
+
+Different
+education levels
+at higher
+education
+institutions
+
+4 training modules
+covering data
+governance,
+stakeholder
+engagement, design
+of ethical AI systems
+and researcher
+integrity.
+10 training RRI
+training programmes.
+
+EMBRACE
+
+HEIRRI
+
+FIT4RR
+
+ORBITRRI
+
+ORBIT was a direct
+response to EPSRC
+funding calls for CDT
+training on RRI and
+built on the outcomes
+of 2 previous projects
+
+RRI trainers (as
+they conducted
+several ‘train the
+trainers’
+workshops)
+
+PhD candidates
+based in UK CDTs
+(Centres for
+Doctoral
+Training).
+
+• Identify, understand, and address the ethical, legal, and societal issues related to the HBP and EBRAINS.
+• Identify and involve relevant (internal and external) experts, stakeholders and members of the lay public in processes to anticipate and
+deliberate on content and solutions to such issues.
+• Communicate about the research and activities of the HBP and
+EBRAINS.
+• Contribute to maximization of the positive societal impact of
+research and activities of the HBP and EBRAINS.
+• Contribute to the reduction of existing gaps between scientific
+research and its public exploitation.
+
+6 online training
+courses on RRI and
+open science topics.
+The online courses
+include an
+introduction to RRI;
+engaging the public in
+RRI; RRI for
+companies; openness
+in science and RRI;
+research and data
+ethics; and open and
+fair data.
+1 foundation RRI and
+1 practitioner Course
+on RRI.
+
+The planning and development of the RRI Capacity building programme started in April 2020 at the beginning of the third Specific Grant
+Agreement (SGA3) of the HBP, and the first modules were formally
+rolled out a year later in April 2021. It was understood that for the
+programme to be successful, a good grasp of the required capabilities
+and suitable methods for delivering the necessary training was necessary, especially as this was being planned at the height of the COVID-19
+pandemic.
+In determining the RRI capabilities that needed to be developed, a
+key consideration was the lessons learned from previous work carried
+out by the HBP Ethics and Society team. The group produced several
+scientific publications and three Opinions on RRI-related topics of high
+relevance to the HBP specifically the Opinion and Action Plan on Data
+Protection and Privacy (Salles et al., 2021), Opinion on ‘Responsible
+Dual Use’ - Political, Security, Intelligence and Military Research of
+Concern in Neuroscience and Neurotechnology (Aicardi et al., 2018) and
+Opinion on Trust and Transparency in Artificial Intelligence). The
+Opinion on Data Protection and Privacy recognises that HBP’s goal is to
+attain a fuller understanding of the human brain for better diagnosis and
+treatment of brain disorders and the development of new brain-like
+technologies. However, in order to do this, the project must go beyond
+existing legal compliance with applicable laws to ethical considerations
+involved in the collection, storage, and analyses of large amounts of data
+having different levels of confidentiality. Considering the potential to
+raise ethical, legal, and societal issues, data protection, data management, and data governance became key topics requiring skill to identify
+and address relevant concerns. Three capacity development modules
+were developed based on these themes, designed specifically for
+
+capacities. While most have targeted students at higher education institutions (e.g., PhD candidates), at least one of the projects targeted
+researchers involved in a wide range of projects. It appears that for most
+of these projects, the preferred approach was to engage with relevant
+stakeholders through some form of dialogic process. In fact, Smith,
+Bernstein, O’Donovan, & Cuttica, 2022 suggest that this is the right
+thing to do as they have pointed out that the capabilities for achieving
+important RRI goals must be co-created with the diversity of those who
+are affected by particular RRI interventions. The outcomes were often
+discussed in terms of the types and numbers of training materials
+developed and while the outcomes varied from 1 to 10 modules/courses,
+they cover a wide range of topics. Also, while some were quite specific in
+terms of targeted RRI topic areas, others were more generic in coverage.
+An RRI capacity building programme for HBP and EBRAINS
+Recognising that an effective RRI capacity-building programme can
+enable the institutionalisation of RRI (i.e., the development of RRI4
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+EBRAINS users, giving, (1) an introduction to data governance in
+EBRAINS, (2) training on data protection in EBRAINS and (3) training on
+the ethics compliance requirements for EBRAINS data.
+Similarly, in the Dual Use Opinion, Aicardi et al. (2018) suggest that
+applying RRI to the concept of ‘dual use’ can enable an increased ability
+to identify research programmes and projects as well as innovation and
+development that can be classed as ‘dual use research of concern’. The
+authors also highlight that rather than eliminate debates about types of
+research, RRI seeks to build the capacity to reflect on such issues and
+engage stakeholders in the decision process. One of the recommendations in this Opinion suggests developing ongoing training activities on
+dual use of concern. To this end, dual use was considered an important
+theme for inclusion in the capacity-building programme and a module
+was designed and developed in this area.
+Other themes that were considered relevant for RRI capacity building were selected from the RRI approaches adopted within the HBP –
+chiefly the AREA (Anticipate, Reflect, Engage, and Act) framework and
+the EU RRI keys namely i.e. public engagement, open access, gender,
+ethics, science education, and governance. These have been well
+explained in Stahl et al. (2021). Regardless, it should be noted that the
+AREA framework stresses that anticipation, reflection, and engagement
+with diverse publics are prerequisites for the societal desirability and
+acceptability of outcomes and process of research and innovation. Thus,
+themes around ‘foresight and anticipation of social and ethical issues,’
+and stakeholder/public engagement were considered important additions to the capacity-building programme. Later, science communication was also added to support the researcher’s outreach and
+engagement.
+Additionally, the HBP has developed two gender action plans (GAP)
+based on research from Change and Complexity Management as well as
+Diversity and Gender Studies and Sociology to acknowledge the
+complexity of the project. Both set a strong emphasis on capacity
+building via training, coaching, and guidelines offering reflective
+questions (for example, the Equality, Diversity and Inclusion toolkit9).
+Measures are structurally anchored and supported by the project
+members, contributing thus to the integration of diversity dimensions in
+HBP research and innovation.
+Another important consideration has been that EBRAINS is a digital
+research infrastructure designed to target specific societal challenges in
+the areas of health and well-being with a focus on brain-related research
+and neurotechnologies. Consequently, themes around neuroethics were
+also deemed to be crucial for the RRI capacity-building programme. And
+in keeping with the RRI vision for inclusive research and innovation
+processes and practices, diversity-related themes were also represented
+in the RRI capacity building programme.
+It should be pointed out that many of these themes also build on the
+dialogic approach to RRI that has influenced much of the RRI-related
+work in the HBP (Stahl et al., 2019). It recognises that dialogue
+cannot happen in a vacuum and, therefore, promotes ethical discourses
+that have openness, inclusive deliberation, and responsiveness at the
+heart. This has led to the development of structures within the HBP that
+enable discourse ethics such as Working Groups, Embedded Ethics
+Tasks, and Committees.
+Such structures have also influenced the development of some of the
+themes of the RRI capacity building programme. For example, themes
+on researcher awareness and research integrity built on ongoing work on
+the HBP’s Ethics Rapporteurs Programme, a project-wide participatory
+internal structure to flag and address ethical concerns. Other HPB groups
+that also had an influence on the RRI Capacity Development Programme
+include the Data Governance Working Group (DGWG), Dual Use
+Working Group (DUWG), Diversity and Equal Opportunities Committee
+9
+
+(DEOC), and the Ethics Advisory Board (EAB), an independent body that
+advises the Project’s Science and Infrastructure Board10 (SIB) and the
+HBP Directorate11 (DIR) on specific ethical, regulatory, social and
+philosophical issues raised by research that is being undertaken or
+planned under the umbrella of the HBP. Other experiences that had a
+bearing on the RRI Capacity Building programme include collaborative
+workshops with neuroscientists (Aicardi et al., 2020), the work of
+embedded neuroethics and ethics tasks in diverse scientific work packages (the virtual brain, consciousness, brain-inspired AI) and the experiences of the Ethics and Society team in educational events where
+opportunities were available to experiment with different methods and
+formats. An example is the HBP Education Programme where
+RRI-related training regularly features in annual HBP Student
+Conferences.
+This has now resulted in the development of the 17 modules detailed
+in Table 2. Most of these modules aim to provide a set of general RRI
+capabilities that can also be used in the context of other research projects
+than the HBP and other research areas. They include capabilities to
+conduct public engagement, implement foresight and anticipation,
+reflect on the ethical dimensions of knowledge transfer and commercialization, identifying issues related to the dual use and misuse of
+research and inventions, awareness of diversity and inclusion, recognise
+and address challenges to research integrity, as well as the use of key
+principles in science communication. Other modules sought to facilitate
+RRI capabilities limited to the use of specific types of projects and/or
+research fields, such as the capability to apply concepts and approaches
+in neuroethics (in neuroscience projects), apply principles from neuroethics to AI, managing the ethical dimensions related to the use of
+human biological or medical data, as well as animal data. Still other
+modules aimed to facilitate capabilities related to the specific characteristics of EBRAINS, such as the use of an RRI lens to reflect on the
+ethical and societal issues in EBRAINS. The capabilities that these
+modules seek to transmit constitute a more general set of skills and
+competencies that researchers can adopt and operationalize in the specific projects or sub-projects they conduct and lead. In this sense, the
+training serves mainly as an entry point to develop more specific and indepth forms of RRI that are specifically tailored to the needs of individual research projects, its different purposes, stages, or application
+domains. In other words, while the training aimed to teach a set of
+overall RRI capabilities, and facilitate their practical use, it did not
+support the implementation of these skills and techniques at the level of
+individual projects, or the ways in which these projects are designed or
+organised. One reason for this rather broad and general approach was
+that the HBP itself is a large-scale research project, that comprises
+several 100 research projects and sub-projects, that explore widely
+divergent areas of the neurosciences, computer sciences, data management, AI, and other areas.
+Note, however, that after the formal delivery of training began, three
+modules (all data governance-related modules) were revamped and
+remodelled to make them more useful to the target audience. The
+modules were previously referred to as: “Introduction to EBRAINS Data
+Governance”; “Ethics Compliance for EBRAINS Data”; and “Data Protection in EBRAINS”. As the modules were all data governance related,
+the training for these modules was often delivered together in a single
+event rather than at individual events for each module. Although the
+modules received very positive feedback from participants, the module
+leaders reflected on the delivery of these modules, discussed their ideas
+for improving them with the capacity-building team and other stakeholders and the decision was reached to restructure them. Also, as
+indicated previously, the Science Communication module was added
+
+10
+https://www.humanbrainproject.eu/about-hbp/project-structure/go
+vernance/science-and-infrastructure-board/
+11
+https://www.humanbrainproject.eu/about-hbp/project-structure/gover
+nance/directorate/
+
+https://www.edi-toolkit.org/
+
+5
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+Table 2
+Description of Modules of the RRI capacity building programme of the HBP and
+EBRAINS.
+Module
+
+Description
+
+Animal Data in EBRAINS Governance and Compliance
+
+This module addresses the legal, ethical,
+and societal pressures that underpin the
+establishment of requirements for animal
+research to ensure that participants have a
+good handle on not only what is expected of
+them as researchers, but also on why these
+expectations have come about. By the end of
+the module, participants will have the tools
+they need to ensure that they handle their
+animal research, and the data it produces, in
+a responsible, legal and ethical manner.
+The module introduces a number of ethical,
+compliance and data protection issues
+related to human data processing in
+neuroscience research, particularly issues
+raised by data processing activities in
+EBRAINS (such as informed consent,
+pseudonymisation, data controllership and
+data security). Participants will learn how
+to address these issues in ways that are
+socially acceptable, ethically responsible
+and legally compliant.
+In this workshop, we use the lens of
+Responsible Research and Innovation (RRI)
+to facilitate reflection on societal and
+ethical aspects of the EBRAINS research
+infrastructure. The workshop provides:
+• An overview of the RRI approach by
+highlighting its History, Definitions and
+the HBP RRI Approach.
+• A space for deliberation and critical
+reflection of work being undertaken in
+EBRAINS through the use of case studies.
+• tools and resources for responsible
+innovation in EBRAINS
+The module takes the format of a hands-on
+workshop and introduces the theory and
+practice of public engagement and citizen
+participation. It shows the aims and
+outcomes one can achieve with the different
+public engagement methods. Participants
+are trained in how to choose engagement
+methods that fit the desired outcome and
+will learn how to engage different types of
+stakeholders, from experts to lay people.
+The module consists of a mixture of lectures
+and practical exercises. Participants are first
+introduced to foresight theory in RRI as well
+as neuroethical and societal issues. They are
+thereafter presented with cases and
+examples of possible long-term societal and
+ethical implications of brain research and
+an overview of approaches to anticipate
+these issues and implications.
+This module takes the form of an interactive
+workshop that explores the ethical and RRI
+dimensions of knowledge transfer,
+collaborations with industry partners, and
+the commercialization of research findings.
+It will introduce criteria and assessment
+procedures for identifying key ethical and
+social issues related to the exploitation,
+commercialisation and international
+transfer of research findings and
+innovations from HBP and EBRAINS.
+This workshop will introduce a novel
+approach to dual use of concern developed
+by the Ethics and Society team in the
+Human Brain Project. This approach goes
+beyond the traditional civil-military
+dichotomy understanding of dual use and
+considers broader societally beneficial and
+harmful uses including political, security,
+
+Human Data in EBRAINS Governance and Compliance
+
+Introduction to RRI in EBRAINS
+
+Introduction to Public Engagement
+
+Foresight and anticipation of social
+and ethical issues
+
+Ethics and RRI Dimensions of
+Knowledge Transfer &
+Commercialization
+
+Understanding dual use of concern &
+misuse in the infrastructure
+
+Table 2 (continued )
+Module
+
+Diversity and inclusion
+
+Diversity in research
+
+Researcher Awareness and Research
+Integrity
+
+Introduction to Neuroethics in HBP
+and EBRAINS. Pilot course
+
+Neuroethical reflection on
+consciousness and cognition
+
+Neuroethical reflection on the virtual
+brain: model’s reliability and
+validity
+
+Description
+intelligence and military uses of concern.
+Participants will gain an understanding of
+dual use of concern and misuse in brain
+research (including AI, robotics and
+computing), and learn about the ways to
+identify and address potential concerns and
+misuse issues.
+In this module, you will learn how to
+contribute to an inclusive working
+environment and get insights into different
+aspects related to interaction, collaboration,
+and leadership.
+You will also:
+• Understand individual diversity traits,
+the impact on how we perceive others
+and are perceived by others
+• Learn about different working styles,
+values and norms and their impact on
+(virtual) collaboration
+Get to know, recognise and solve
+conflicts that arise from diversity,
+addressing discriminatory
+communication and actions
+This module explores the incorporation of
+diversity in research design and practices,
+and in interdisciplinary research. In this
+module, participants will
+• Understand definitions of gender,
+diversity, and intersectionality and how
+to operationalise them in specific fields of
+science;
+• Learn about the impact of biases on
+scientific priorities and findings;
+• Apply lessons learned in gender and
+diversity in project design and research
+processes
+How can we address research integrity
+issues in big research projects? How do we
+identify research integrity mechanisms in
+our interdisciplinary work? This Researcher
+Awareness and Research Integrity module is
+designed to open a conversation about
+research integrity issues, developing
+capacities for researchers, staff and
+managers to identify and address them.
+The Neuroethics pilot course convened
+some leading scholars in the field with the
+aim to get feedback on the proposed module
+to be offered to HBP and EBRAINS
+community and to possible external
+audiences. Both the module’s contents (and
+introduction to key notions and issues) and
+methodology (normative, descriptive,
+conceptual) were discussed, and relevant
+strategies to optimize them were developed
+on the basis of the attendees’ comments and
+suggestions.
+This course offers an overview of the stateof-the-art neuroethical reflection about
+consciousness and cognition, with a
+particular focus on two dimensions:
+1 Foundational issues related to the
+definition of consciousness, including its
+possible operationalization in the clinical
+context and its implication for potential
+technological simulation/emulation.
+2 Practical issues related to the detection of
+residual consciousness in patients with
+Disorders of Consciousness (i.e.,
+Vegetative State/Unaware Wakefulness
+Syndrome, Minimally Conscious State,
+Cognitive-Motor Dissociation).
+Through an analysis of the personalised
+brain models developed in the HBP and
+with an emphasis on the issues raised by
+validity, reliability, benefits and risks, and
+(continued on next page)
+
+6
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+to enable all the competing needs to be met and yet allow some level of
+evaluation at the end. An example of the careful wording of lesson plans
+can be seen in the introductory RRI module, where the learning outcomes specify that at the end of the module, participants will: have a
+good understanding of RRI including such things as its history, definitions and the HBP RRI approach; critically reflect on work being undertaken in EBRAINS through the use of case studies; identify and apply
+relevant tools and resources for RRI in EBRAINS.
+To ensure that the plans for delivery of the RRI capacity building
+programme are validated, the decision was made to peer-review the
+modules and lesson plans. The peer-review process involved inviting
+relevant stakeholders from within the HBP and EBRAINS (i.e. HBP researchers, EBRAINS users, data and infrastructure providers, EBRAINS
+leadership and management and the EAB, that is, the primary audience
+of the capacity-building exercise) to provide written feedback on the
+plans and on the pilot demonstration of the modules. The onset of the
+COVID-19 pandemic meant that the initial plans for delivering these
+modules using a face-to-face format had to be modified to accommodate
+travel restrictions. Accordingly, the modules were redesigned to suit an
+online audience (Grasenick and Guerrero, 2020).
+Three introductory modules were selected for piloting in April 2021.
+The modules were on RRI in EBRAINS, Neuroethics in HBP and
+EBRAINS, and EBRAINS Data governance. All feedback received was
+then used to improve plans for delivering the entire capacity-building
+programme. The modules were designed to include a substantial
+amount of discussion with participants based on a selection of relevant
+case studies. At the end of each delivery, participants were encouraged
+to provide feedback which was then used to improve further delivery of
+the training programme. For example, while several participants
+emphasised the high relevance of case studies for their personal learning
+outcome, in one of the pilot modules, a participant provided the
+following feedback: “I like the case studies. Send the cases more in
+advance.” Similarly, another participant asked for the time available for
+discussion to be increased. Such feedback spurred the redesign of
+module delivery for the next round of training across the programme
+such that the cases were sent well in advance and more time was dedicated to discussion. Thus, feedback from the audience also played a very
+important role in shaping the delivery and content of all modules of the
+training programme.
+
+Table 2 (continued )
+Module
+
+Neuroethics in HBP and EBRAINS
+
+Neuroethics, Brain Research and
+Culture
+
+Neuroethics and AI Ethics
+
+Science communication
+
+Description
+neuroscience communication and
+engagement, the main aim of the course is
+to enhance both the science and
+understanding of scientific outputs, possible
+clinical and social applications, and the
+social, ethical, and philosophical issues
+raised.
+This course offers an essential introduction
+to the field of neuroethics, as well as an
+analysis and justification of its relevance to
+EBRAINS. The goal is to increase the
+knowledge and understanding of EBRAINS
+users of neuroethical topics and
+methodologies in order to identify, assess,
+and better manage relevant ethical
+questions raised by the research and the
+use/exploitation of EBRAINS.
+This course analyses the issues associated
+with the interaction between cultural
+diversity and neuroethics, with the goal of
+providing the conceptual tools for
+advancing in the direction of multicultural
+neuroethics.
+The course on Neuroethics and AI ethics
+introduces AI ethics, a field that has literally
+exploded in the last 10 years, trying to
+provide an original contribution through
+the reflection on two specific topics: the
+connection between neuroethics and AI
+ethics, and the analysis of brain-inspired AI
+with explicit reference to the work done
+within the HBP.
+The goal is to raise awareness of the ethical
+relevance of AI and to introduce relevant
+conceptual tools for identifying and
+assessing them.
+Designed as a crash course in
+communications, the training covers the
+basics of how to navigate the media
+landscape and the basics of popular science
+writing. It includes a talk about impact,
+transparency, plain language, inclusion and
+accessibility. It also covers social media
+communication, how Altmetric data works,
+and why this is important.
+
+Reflecting on the outcome of RRI capacity development in the
+HBP
+
+towards the end of the capacity development programme.
+It was apparent that to ensure the modules were useful for EBRAINS
+users, they would need to be structured so that interested persons could
+find the relevant resources easily. To illustrate, most researchers conducting research with animals will likely not be particularly interested
+in the minutiae of the protection of human data in research. Similarly,
+those conducting research with human subjects will not be interested in
+animal research ethics compliance requirements. To that end, the team
+chose to restructure the three modules as two modules: “Animal Data in
+EBRAINS Governance and Compliance” and Human Data in EBRAINSGovernance and Compliance”. This way, topics on data governance
+(including data protection) and ethics compliance are made more specific for relevant audiences.
+As a starting point, for each module, lesson plans were developed
+describing the module, giving an indication of its audience, learning
+outcomes, methodology and delivery mechanism, and time plan. All of
+these were intended to ensure a good balance between the target audience’s expectations about the training and what can efficiently be
+offered in reality considering constraints related to factors such as time;
+available resources in terms of manpower and person months; restrictions brought about by COVID-19; and the distributed nature of the
+project with researchers spread all over Europe. One of the important
+parts of the lesson plans where these considerations had to be encapsulated is the learning outcome which had to be planned in such a way as
+
+As yet, the RRI training programme for the HBP and EBRAINS has
+delivered over 40 training events. This has been possible because
+module leads for all 17 modules committed to delivering at least two
+training events before the end of the project. Interestingly, some modules have gone beyond this commitment to host more training events
+than the two events originally planned. For example, the module on
+Dual Use has been delivered 6 times already using a variety of formats
+some of which have already been documented in a recently published
+article (Ulnicane et al., 2022). Also, although the majority of the modules were delivered in stand-alone events, some were done in combination with other events like the HBP Young Researchers training events
+and the HBP Student Conference. For example, diversity modules were
+regularly delivered at conferences and via the HBP mentoring programme. Recorded lectures and other materials were processed, and in
+January 2023, they were made available as an online Ethics & Society
+training resource for the HBP, EBRAINS and beyond, to live on as a
+legacy on the HBP website12.
+So far, over 300 people have participated in the training events
+organised as part of the RRI capacity-building programme. This number
+12
+https://www.humanbrainproject.eu/en/science-development/ethics-andsociety/ethics-society-training-resources/
+
+7
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+has considerably exceeded the target number of 200 set out at the
+beginning of the programme. Despite the successes of organising and
+hosting these RRI training events, one challenge experienced was
+regarding attendance. This is because, in some of these events, the
+volume of attendance varied considerably. While in some cases the
+attendance was as high as 40 (e.g., the Science Communication
+training), for most online events the number of participants who joined
+was significantly lower than the registrations received. For example, in a
+recently completed training event on ‘Neuroethical reflection on consciousness and cognition’ 70 people registered but only 22 participants
+attended. Also, in at least one case, the training event planned for the
+day had to be cancelled as only a couple of participants were present
+despite up to 20 people indicating their interest and registering to attend
+the training.
+Although clear explanations for the attendance issues cannot be
+provided, one apparent explanation might be what many now term
+‘zoom fatigue’ - a situation where people find video meetings exhausting
+or draining (Fosslien and Duffy, 2020; Fauville, Luo, Queiroz, Bailenson,
+& Hancock, 2021). With work, socialising, meetings, workshops etc. all
+moving online, many have found it quite exhausting (even when they
+have an interest) to attend events especially when they are not
+mandatory. Another reason may be that existing workloads may have
+resulted in interested persons prioritising other work and therefore
+impacted their ability to attend the RRI capacity building events. Also,
+the fact that since the RRI training events are free and without charge,
+some who have registered may have felt little or no commitment to
+attending them.
+As noted earlier, each module was developed with clear lesson plans
+that highlight, among other things, learning outcomes (skills/knowledge that participants are expected to gain at the end of each module). In
+developing the lesson plans, a challenge that had to be addressed was
+how to evaluate learning outcomes to assess the effectiveness of learning
+and development and to determine what worked and what did not work
+as anticipated. To enable the evaluation of the training programme and
+gauge participants’ progress toward learning outcomes, a standard
+survey was developed by the capacity building team to be completed by
+each participant at training events. Participants were asked to assess
+how well the module met their expectations, what was the most
+important thing they learned from the module, how satisfied they were
+with the content of the module, and how satisfied they were with the
+overall format of the module.
+Among other things, participants could respond to questions using
+the following 6-point rating scale: extremely satisfied, very satisfied,
+somewhat satisfied, not so satisfied, and dissatisfied. Participants were
+also given an opportunity to provide additional feedback and comments
+in a section on the feedback form for additional comments. This concept
+was adapted to various formats where the RRI training modules were
+integrated into existing programmes such as the HBP mentoring programme, or educational events organised by the HBP education team
+such as the HBP student conferences and HBP Young Researchers events.
+In such cases, the feedback mechanism was adapted to suit already
+existing feedback practices. In addition to the structured approach,
+module leads also made a point to always consider the diversity of
+participants by using different mechanisms to request feedback. For
+example, by offering the opportunity to provide verbal feedback during
+or after the event, using the chat functionality of video conferencing
+software and using emails to provide written feedback. A summary of
+the outcome of the feedback received using the structured approach can
+be seen in Table 3.
+As shown in the above table, overall, 2% of participants had some
+level of dissatisfaction with the content of the training they attended.
+Most responses (96%) fell within the ranges of extremely satisfied to
+satisfied. Also, when asked whether the module met their expectations,
+only one participant out of those who responded to the feedback suggested some level of dissatisfaction while the response of the majority
+(80%) was within the range of very satisfied to extremely satisfied with
+
+Table 3
+Outcome of participant feedback on training.
+Level of
+Satisfaction
+
+Did the module
+meet your
+expectations? (%)
+
+How satisfied are
+you with the
+content of this
+module? (%)
+
+How satisfied are
+you with the overall
+format of this
+module? (%)
+
+dissatisfied
+not so
+satisfied
+somewhat
+satisfied
+satisfied
+very satisfied
+extremely
+satisfied
+
+0
+2
+
+2
+2
+
+0
+2
+
+18
+
+4
+
+2
+
+0
+31
+49
+
+22
+42
+28
+
+20
+40
+36
+
+the others (18%) being somewhat satisfied. An indication of the reason
+why, despite the positive feedback, a considerable proportion felt that
+their expectations were not met can be seen in the additional comments
+left by the participants. Most comments suggested the way the cases
+were discussed or the amount of time available for discussing the cases
+was insufficient and would have preferred more time for discussions.
+Likewise, when asked about their satisfaction with the overall format of
+the module, 2% of the participants said they were not so satisfied while a
+total of 91% were either satisfied, very satisfied or extremely satisfied.
+In summary, it can be said that, despite some marginal points to be
+improved, the majority of participants were mostly very satisfied with
+the training provided and the overall format, and that it met their expectations. Thus, this section gives some indication of the level of success and some of the challenges of the RRI capacity development
+programme.
+Measuring the impact of RRI Capacity Building Activities Since the
+early days of Responsible Research and Innovation (RRI), questions have
+been asked about the impact of RRI activities. In some cases, addressing
+them has become a requirement of the Research Excellence Framework
+(REF) (Grigorov, Elbæk, Rettberg, & Davidson, 2015) and sometimes is
+required by funders as part of the review process of RRI-linked research
+projects. It is no surprise, then, that similar questions have been asked
+about the RRI capacity-building programme developed for the HBP and
+EBRAINS.
+Impact is often taken to mean a longer-term sustainable change that
+can emerge from a specific activity or the changes that will happen as a
+result. The RRI community is divided on the issue of whether RRI impact
+can be measured. There have been attempts to develop practical and
+theory-based impact evaluations for RRI activities. These have largely
+focused on the RRI keys. For example, Strand and Spaapen, (2020) have
+suggested that the impact of RRI can be measured by using defined indicators such as the SMART (specific, measurable, attainable, relevant
+and timely). However, the possibility of applying these impact
+measuring tools to the principles contained in RRI frameworks like
+AREA and ARIR i.e. ‘‘anticipation, reflexivity, inclusion and responsiveness" (Stilgoe et al., 2013), is yet to be fully explored (Bührer et al.,
+2021). In fact, others strongly argue against it. For example, Owen, von
+Schomberg and Macnaghten (2021) have argued that SMART performance indicators would "inexorably become tethered” to the five keys (i.
+e., the RRI keys promoted by the EC) and further reify these as being
+synonymous with RRI. Furthermore, they argue that such attempts including well-intentioned ones that aim to make RRI pragmatic,
+actionable, and measurable must be resisted.
+It has also been suggested that the complex nature of RRI means that
+RRI performance cannot be directly measured. According to van de Poel
+(2020) the reliability of measures of RRI performance must be questioned as the normative nature of RRI makes it difficult to objectively
+measure its real value. Similarly, the validity of such measures must also
+be questioned as RRI interventions are simply aimed at improving
+processes of innovation from a societal point of view rather than an
+absolute level of ‘responsibility’. As learning programmes, like those
+8
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+developed by the HBP Ethics and Society RRI capacity building programme, are aimed at improving RRI performance through the development of relevant RRI capabilities, it can be seen why it is difficult to
+measure the impact of such activities. The challenges of measuring the
+impact of the RRI capacity-building programme are compounded by the
+fact that the programme is not a stand-alone initiative, but it builds on
+the work of other RRI-related activities, processes and groups that have
+been an important part of the HBP throughout the years of the project.
+Nevertheless, this does not imply that such activities do not have a
+positive impact. In fact, significant impact is visible in areas such as the
+integration of ethics into data processing workflows (Stahl, Rainey,
+Harris, & Fothergill, 2018; Eke et al., 2021); in addressing dual use and
+misuse (Ulnicane et al., 2022); the conceptual expansion of neuroethics
+(Evers, 2017; Salles et al., 2019); integration of inclusion and reflection
+on diversity in the HBP (Grasenick et al., 2022); and processes and
+structures for public engagement (Bitsch et al., 2020). The RRI capacity
+development activities represent a specific model and further efforts to
+formalise and sustain the impact of RRI activities in the HBP and
+EBRAINS, through the provision of access to training both in the project
+and beyond and by making capacity-building resources available as a
+legacy of the RRI related work.
+As per funding requirements, there is an expectation that key performance indicators for impact are identified. However, that does not
+fully capture the capacity to act responsibly, and this is mainly because
+this capacity is not the result of linear effort, and partly because the
+capacity to act responsibly or the capability of responsiveness is only
+measurable when a legitimate action is either performed or withheld.
+Owen et al. (2013) have also described responsiveness as the coupling of
+reflection and deliberation into action that has a material influence on
+the direction and trajectory of innovation itself. Thus, while it is possible
+to, for example, measure how many engagement activities were conducted, or the number of people who participated in those events, and,
+to some extent, determine the quality of the engagement activity
+through feedback and participant comments, the impact of such activities can only be measured when it leads to some material outcome.
+Perhaps one way to conceptualise and anticipate the impact of RRI
+capacity building in the HBP is through the lens of the Horizon Europe
+Framework programme’s Key Impact Pathways, a monitoring approach
+developed to capture and communicate impact in three domains: the
+scientific domain, social domain, and technological/economic domain.
+For this discourse, one of the relevant pathways to scientific impact is
+Key Impact Pathway 2 (or KIP 2) concerned with ‘Strengthening Human
+Capital in Research and Innovation i.e., R&I (Nixon, 2022). KIP 2 is
+designed to show improvements in skills, career (reputation) and
+working conditions which correspond to short-term, medium-term and
+long-term indicators. The short-term indicator (skills) measures the
+number of researchers involved in upskilling (i.e., training, mentoring/coaching, mobility and access to R&I infrastructures). The
+medium-term indicator (career) measures the number and share of
+upskilled researchers in Horizon Europe’s projects with an increased
+H-Index – where the H-index is a metric that combines research productivity (i.e. the volume of output) with impact (i.e. citation volume).
+Thus, the H-Index is simply a count of the number of articles published
+by an author versus the citations gathered. And the long-term indicator
+(working conditions) measures the number and share of skilled workers
+that are involved in a funded research programme having improved
+working conditions including the researcher’s salaries. It is based on a
+survey that seeks to understand job security by collecting data on contract type, satisfaction with pension/social security provisions, and
+other working conditions.
+The most relevant of the 3 indicators of KIP 2 for the type of RRI
+capacity development provided for the HBP and EBRAINS community is
+short-term indicators which measure the number of researchers
+involved in the training. As indicated in the previous section, the result
+of this measure was over 300 researchers participating in the training
+provided. The nature of the medium-term and long-term KIP 2
+
+indicators make them unsuitable for use for the type of training provided
+by the ethics and society team because the parameters measured are
+neither directly related to the RRI training activities nor do they provide
+a direct measure of its.
+Nevertheless, it is worth noting that within the HBP different structures in the project form a framework that supports responsible research
+and innovation, equipping junior and senior researchers with the
+knowledge they need to act responsibly. Examples of this are the visible
+governance structures, tangible cross-disciplinary research activities in
+the form of joint research publications, and the provision of necessary
+conceptual and ethical tools to identify and assess potential ethical issues arising from their work. Thus, while the training delivered through
+this capacity-building programme serves as an important building block
+that can establish a foundation for acting responsibly, it is not the only
+vehicle for facilitating the type of positive societal impact that RRI
+promotes. With the pathway model, the impact is built into the inner
+workings of the HBP: enabling a generation of researchers who have
+been trained in responsible research and innovation practices.
+Summary and Conclusion
+RRI capabilities can be developed through training and capacitybuilding activities that develop and strengthen skills and abilities that
+researchers in projects like the HBP and users of infrastructures like
+EBRAINS need in order to thrive and adapt in this fast-changing world.
+The ability to integrate such competencies in a fast-changing environment is referred to as capability. The need to build RRI capacities and
+hence develop necessary capabilities has been linked to responsiveness –
+an important dimension of RRI. This has been recognised since the early
+days of the development of RRI and has been identified as a suitable
+means of institutionalising RRI by funders including the EPSRC and the
+European Commission.
+Several RRI-related projects have been funded to build RRI capacities. Analyses of these projects have shown that a common way to
+identify the required capabilities is through engagement with diverse
+stakeholders. To some extent, some of the programmes have been
+influenced by the outcomes of systematic reviews. The outcomes were
+very often the development of RRI training resources and events –
+ranging from a single course to up to 10 programmes.
+In a similar vein, over the past three years, members of the Ethics and
+Society Team of the HBP have embarked on an extensive RRI capacitybuilding exercise targeting HBP researchers, EBRAINS users, data, and
+infrastructure providers, EBRAINS leadership and management, and
+interested external audiences. Here, we have shown that the HBP/
+EBRAINS RRI capacity development initiative has relied on similar
+processes of engagement with stakeholders for identifying RRI capabilities and for developing the resources and training models used. This
+programme has also built on the legacy of the Ethics and Society work
+carried out since the inception of the HBP as well as other RRI-related
+structures, strategies, and processes developed for the HBP. In terms
+of content and style of delivery, the HBP’s capacity-building programme
+has been influenced by:
+- lessons learned from previous work carried out by the HBP Ethics
+and Society team and published in various academic publications
+and three joint Opinions on RRI-related topics of high relevance to
+the HBP.
+- thematic elements of the RRI AREA framework which has largely
+informed the work of the Ethics and Society group, stressing anticipatory ethics, critical reflection and public/stakeholders
+engagement.
+- the dialogic approach to RRI that has influenced much of the RRIrelated work in the HBP
+- existing governance structures developed for the HBP by the Ethics
+and Society team such as Working Groups and Committees.
+9
+
+Journal of Responsible Technology 15 (2023) 100065
+
+G. Ogoh et al.
+
+- thematic areas that are of direct relevance to brain research which is
+the main research focus of the HBP and EBRAINS, e.g., neuroethics
+and ethics of brain-inspired AI.
+
+Evers, K. (2017). The contribution of neuroethics to international brain research
+initiatives. Nature Reviews Neuroscience, 18(1), 1–2.
+Fauville, G., Luo, M., Queiroz, A. C. M., Bailenson, J. N., & Hancock, J. (2021). Zoom
+Exhaustion & Fatigue Scale. Computers in Human Behavior Reports, 4, 100119.
+Fosslien, L., & Duffy, M. W. (2020). How to combat zoom fatigue. Harvard Business
+Review, 29 Apr.
+Grasenick, K., Beranek, S., Godfroy, A.-S., Reidl, S., Romero, P. F., Schiffbänker, H.,
+Stadlbauer, J., Trattnig, J., Wolffram, A., & Waechter, C. (2022). The Gendered
+Analog-Digital Divide in Virtual Academia: 20th Annual STS Conference Graz 2022
+„Critical Issues in Science, Technology and Society Studies. In G. Getzinger,
+M. Jahrbacher, & F. Häller (Eds.) (pp. 93–110).
+Grasenick, K., & Guerrero, M. (2020). Responsible research and innovation & digital
+inclusiveness during Covid-19 crisis in the human brain project (HBP). Journal of
+Responsible Technology, 1, Article 100001.
+Grigorov, I., Elbæk, M., Rettberg, N. and Davidson, J. (2015) Winning Horizon 2020 With
+Open Science. FP7 FOSTER & FP7 OpenAIRE+.
+Hally R., O’Mahony C. and Burns K. (2018) D3.2 Report on trialling of RRI teaching
+strategies including an executive summary of the completed pilots including case
+studies and teaching materials for widespread dissemination. Cork, Ireland:
+EnRRICH Project.
+Joey, R., Karlage, A., Etheridge, J., Alade, M., Fifield, J.Goodwin, C., … (2021). Adaptive
+Learning Guide: A pathway to stronger collaboration, learning, and adapting.
+Washington, DC: USAID MOMENTUM.
+Keene, P. (2022). Supporting researchers in dealing with social, ethical and regulatory
+issues - the EMBRACE project [Online] Ethics Dialogues. Available from: htt
+ps://www.ethicsdialogues.eu/2022/04/06/supporting-researchers-in-dealing-with
+-social-ethical-and-regulatory-issues-the-embrace-project/ [Accessed 15/11/22].
+Nixon, J. (2022). Study to support the monitoring and evaluation of the framework
+programme for research and innovation along key impact pathways: indicator
+methodology and metadata handbook. LU: Publications office of the European
+commission. Directorate General for Research and Innovation.
+(Ola) and O’Donovan, C., Michalec, A., & Moon, J. R. (2022). Capabilities for
+transdisciplinary research. Research Evaluation, 31(1), 145–158.
+Otto, H. U., & Ziegler, H. (2006). Capabilities and education. Social Work and Society, 4.
+Owen, R., Stilgoe, J., Macnaghten, P., Gorman, M., Fisher, E. and Guston, D. (2013) A
+framework for responsible innovation. Responsible innovation: Managing the
+responsible emergence of science and innovation in society, pp. 27–50.
+Owen, R., von Schomberg, R., & Macnaghten, P. (2021). An unfinished journey?
+Reflections on a decade of responsible research and innovation. Journal of
+Responsible Innovation, 8(2), 217–233.
+van de Poel, I. (2020). RRI measurement and assessment. Assessment of responsible
+innovation (pp. 339–360). London: Routledge.
+Principe, P. (2020). Training, community engagement & support report (Deliverable 4.2).
+Braga, Portugal: Fostering Improved Training Tools for Responsible Research and
+Innovation) Fit4RRI.
+Salles, A., Stahl, B., Bjaalie, J., Domingo-Ferrer, J., Rose, N., Rainey, S., & Spranger, T.
+(2021). Opinion and Action Plan on Data Protection and Privacy. Ethics & Society - The
+Human Brain Project.
+Salles, A., Evers, K., & Farisco, M. (2019). The need for a conceptual expansion of
+neuroethics. AJOB Neuroscience, 10(3), 126–128.
+STAHL, B. C., et al. (2023). Assessing responsible innovation training. Journal of
+Responsible Technology (forthcoming).
+Stahl, B. C., et al. (2021). From responsible research and innovation to responsibility by
+design. Journal of Responsible Innovation, 8(2), 175–198.
+STAHL, B. C. (2019). Beyond research ethics: dialogues in neuro-ICT research. Frontiers in
+Human Neuroscience, 13. https://doi.org/10.3389/fnhum.2019.00105
+Smith, R., Bernstein, M. J., O’Donovan, C., & Cuttica, F. (2022). Capabilities to support
+responsible research & innovation in European biotechnology: Funding Cultures Lab
+Working Paper. Edinburgh: University of Edinburgh.
+Stahl, B. C., Rainey, S., Harris, E., & Fothergill, B. T. (2018). The role of ethics in data
+governance of large neuro-ICT projects. Journal of the American Medical Informatics
+Association, 25(8), 1099–1107.
+Steen, M., Nauta, J., Gaasterland, R., & Ogier, S. (2018). Institutionalizing Responsible
+Research and Innovation: Case Studies. Innovation, The Name of The Game. The
+International Society for Professional Innovation Management ISPIM 17-20 June 2018.
+Stockholm, Sweeden: ISPIM.
+Stilgoe, J., Owen, R., & Macnaghten, P. (2013). Developing a framework for responsible
+innovation. Research policy, 42(9), 1568–1580.
+Strand, R., Spaapen, J., Yaghmaei, E., & van de Poel, I. (2020). Locomotive breath? Post
+festum reflections on the EC expert group on policy indicators for responsible
+research and innovation. Assessment of responsible innovation: Methods and practices.
+London: Routledge.
+Tassone, V., & Eppink, H. (2016). Deliverable 2.3 The EnRRICH tool for educators: (Re-)
+Designing curricula in higher education from a “Responsible Research and Innovation”
+perspective. Wageningen, Netherlands: EnRRICH Project.
+Teece, D. J. (2007). Explicating dynamic capabilities: the nature and microfoundations of
+(sustainable) enterprise performance. Strategic Management Journal, 28(13),
+1319–1350.
+Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic
+management. Strategic Management Journal, 18(7), 509–533.
+Ten Holter, C., Stahl, B., & Jirotka, M. (2022). Built in, not bolted on: responsible
+innovation in UK centres for doctoral training – the new normal? The Learning
+Organization. https://doi.org/10.1108/TLO-09-2021-0117 [Online] Available from:
+[Accessed 29/01/2023].
+
+The outcome of this programme includes the development of 17
+modules, over 40 training events, and the training of over 300 members
+of the HBP, EBRAINS users, and interested external publics. It has also
+resulted in the curation of online training resources for each of the
+modules including the recorded presentations. Case materials have also
+been made available online to enable active learning and stimulate
+critical reflection, deliberation, and anticipation of social and ethical
+issues of brain research and innovation. We have also discussed the
+difficulty of measuring the impact of these activities as they are only
+designed to enable participants to develop the dynamic RRI capabilities
+necessary for sustainability in a fast-changing world.
+In the HBP, RRI capabilities have also been developed through
+collaborative research activities and governance structures across the
+project. The training modules have reinforced tacit knowledge gained
+through interaction and engagement with groups like the Data Governance Working Group, Diversity and Equal Opportunities Committee,
+Dual Use Working Group, Ethics Rapporteur Programme, and crosscutting (or embedded) research tasks in science work packages. As key
+performance indicators, it is only possible to measure the number of
+individuals that engage with particular structures and activities over
+time. Making online resources available to EBRAINS users enables some
+level of measurement of reach and the level of engagement with training
+materials. However, such metrics can only be used as a key performance
+indicator for awareness raising, delivery of information and reach, not as
+indicators for capacity to act responsibly.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgment
+This project/research has received funding from the European
+Union’s Horizon 2020 Framework Programme for Research and Innovation under Grant Agreements No. 720270 (HBP SGA1), 785907 (HBP
+SGA2), 945539 (HBP SGA3) and the Framework Partnership Agreement
+No. 650003.
+References
+Aicardi, C., Akintoye, S., Fothergill, B. T., Guerrero, M., Klinker, G., Knight, W., …
+Ulnicane, I. (2020). Ethical and Social Aspects of Neurorobotics. Science and
+Engineering Ethics, 26(5), 2533–2546.
+Aicardi, C., Bitsch, L., Bådum, icklas, B., Datta, S., Evers, K., … Ulnicane, I. (2018).
+Opinion on ‘Responsible Dual Use. Political, Security, Intelligence and Military Research of
+Concern in Neuroscience and Neurotechnology. Ethics & Society - The Human Brain
+Project.
+Altimus, C. M., Marlin, B. J., Charalambakis, N. E., Colón-Rodríguez, A., Glover, E. J.,
+Izbicki, P., … Wells, M. F. (2019). The Next 50 Years of Neuroscience. Journal of
+Neuroscience, 40(1), 101–106.
+Amunts, K., Knoll, A. C., Lippert, T., Pennartz, C. M. A., Ryvlin, P., Destexhe, A., …
+Bjaalie, J. G. (2019). The Human Brain Project—Synergy between neuroscience,
+computing, informatics, and brain-inspired technologies. PLoS Biology, 17(7),
+e3000344.
+Andrews, K. R., Christensen, C. R., Guth, W. D., & Learned, E. P. (1969). Business policy:
+text and cases. Rev. Homewood, Ill.: Irwin.
+Bitsch L., Bådum B.N. and Palsberg A. (2020) Lessons from stakeholder engagement and
+dialogue. Denmark: human brain project public engagement, nt, the danish board of
+technology foundatio.
+Bührer, S., Yorulma, M., Feudo, F., Reichmann, S., Gomez, L.B., Kinnula, M., Laar, M.
+van, Shauna, M.B., Rüfenacht, S. and Riemenschneider, D. (2021) Measuring the
+Impact of RRI: Lessons learned from Pilot Action 1 of the Social Lab No. 15 SwafS.
+Eke, D., Aasebø, I. E. J., Akintoye, S., Knight, W., Karakasidis, A., Mikulan, E., … Zehl, L.
+(2021). Pseudonymisation of neuroimages and data protection: Increasing access to
+data while retaining scientific utility. Neuroimage: Reports, 1(4), 100053.
+
+10
+
+G. Ogoh et al.
+
+Journal of Responsible Technology 15 (2023) 100065
+
+Tokalić, R., Buljan, I., Mejlgaard, N., Carrió, M., Lang, A., Revuelta, G., & Marušić, A.
+(2021). Responsible research and innovation training programs: implementation and
+evaluation of the HEIRRI project. Forensic Sciences Research, 6(4), 320–330.
+
+Ulnicane, I., Mahfoud, T., & Salles, A. (2022). Experimentation, learning, and dialogue:
+an RRI-inspired approach to dual-use of concern. Journal of Responsible Innovation,
+1–18.
+UN Habitat. (2019). Capacity Building Strategy 2020–2030. Nairobi: United Nations.
+
+11
+
+

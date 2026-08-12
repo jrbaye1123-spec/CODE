@@ -1,0 +1,91 @@
+{
+  "output_id": "output_1e7604e57b1c",
+  "workflow": "literature_triage",
+  "session_id": "0a499578",
+  "summary": "Triaged 5 papers. Top result: Scalable Oversight of AI Systems via Recursive Reward Modeling",
+  "claims": [
+    {
+      "claim_id": "claim_3dc33bee607e",
+      "claim_text": "We propose recursive reward modeling (RRM), where AI assistants help humans evaluate other AI systems by breaking complex evaluations into simpler sub-evaluations.",
+      "source_document": "https://arxiv.org/abs/demo_5",
+      "source_location": "abstract, sentence 2",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.914113+00:00"
+    },
+    {
+      "claim_id": "claim_9734e23b9d87",
+      "claim_text": "We demonstrate that RRM scales to tasks where direct human evaluation becomes unreliable.",
+      "source_document": "https://arxiv.org/abs/demo_5",
+      "source_location": "abstract, sentence 3",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.914116+00:00"
+    },
+    {
+      "claim_id": "claim_8d96674bda26",
+      "claim_text": "Our results suggest that recursive decomposition is a promising direction for maintaining human oversight as AI capabilities grow.",
+      "source_document": "https://arxiv.org/abs/demo_5",
+      "source_location": "abstract, sentence 6",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.914138+00:00"
+    },
+    {
+      "claim_id": "claim_8d80a2126dfa",
+      "claim_text": "We propose Constitutional AI, a method for training AI assistants that are both helpful and harmless.",
+      "source_document": "https://arxiv.org/abs/demo_2",
+      "source_location": "abstract, sentence 1",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.913268+00:00"
+    },
+    {
+      "claim_id": "claim_9feb19e0a1d8",
+      "claim_text": "We demonstrate that this approach significantly reduces harmful outputs while maintaining helpfulness.",
+      "source_document": "https://arxiv.org/abs/demo_2",
+      "source_location": "abstract, sentence 4",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.913289+00:00"
+    },
+    {
+      "claim_id": "claim_1ce5bc831eef",
+      "claim_text": "We present a novel approach to transformer-based language modeling that reduces parameter count by 40% while maintaining performance on standard benchmarks.",
+      "source_document": "https://arxiv.org/abs/demo_1",
+      "source_location": "abstract, sentence 1",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.912686+00:00"
+    },
+    {
+      "claim_id": "claim_b297122ba509",
+      "claim_text": "We demonstrate that up to 60% of attention heads in large transformer models are redundant for downstream tasks.",
+      "source_document": "https://arxiv.org/abs/demo_1",
+      "source_location": "abstract, sentence 3",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.912852+00:00"
+    },
+    {
+      "claim_id": "claim_1b470b77672e",
+      "claim_text": "We find that CoT reasoning improves performance on arithmetic, commonsense, and symbolic reasoning tasks by an average of 15-30% across model scales.",
+      "source_document": "https://arxiv.org/abs/demo_4",
+      "source_location": "abstract, sentence 3",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.913845+00:00"
+    },
+    {
+      "claim_id": "claim_6476e0c7a84b",
+      "claim_text": "We propose a taxonomy of CoT failures and suggest directions for more robust reasoning architectures, including external verification mechanisms and iterative refinement loops.",
+      "source_document": "https://arxiv.org/abs/demo_4",
+      "source_location": "abstract, sentence 5",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:46.913865+00:00"
+    }
+  ],
+  "sources_consulted": [
+    "https://arxiv.org/abs/demo_4",
+    "https://arxiv.org/abs/demo_3",
+    "https://arxiv.org/abs/demo_2",
+    "https://arxiv.org/abs/demo_1",
+    "https://arxiv.org/abs/demo_5"
+  ],
+  "agent_version": "literature_triage_v1",
+  "model_provider": "keyword",
+  "model_version": "",
+  "created_at": "2026-08-06T13:47:46.914207+00:00"
+}

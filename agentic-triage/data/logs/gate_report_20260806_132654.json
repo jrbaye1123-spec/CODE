@@ -1,0 +1,34 @@
+{
+  "gate": "index-eligibility",
+  "mode": "audit",
+  "build_timestamp": "2026-08-06T13:26:54.644990+00:00",
+  "vault_path": "/tmp/tmp71481p8g/vault",
+  "total_notes": 1,
+  "parsed_ok": 0,
+  "parse_failed": 1,
+  "missing_required_fields": 0,
+  "eligible": 0,
+  "rejected": 1,
+  "index_eligibility_rate": 0.0,
+  "rejection_reasons": {
+    "parse_failed": 1
+  },
+  "rejected_entries": [
+    {
+      "path": "/tmp/tmp71481p8g/vault/expired.md",
+      "title": "expired",
+      "rejection_reasons": [
+        "Parser unavailable \u2014 install python-frontmatter"
+      ]
+    }
+  ],
+  "parse_errors": [
+    {
+      "path": "/tmp/tmp71481p8g/vault/expired.md",
+      "error": "Parser unavailable \u2014 install python-frontmatter"
+    }
+  ],
+  "build_status": "AUDIT \u2014 REPORT ONLY",
+  "index_path": null,
+  "governance_action": "Audit complete. 0/1 notes eligible (0.0%). 1 rejected: parse_failed: 1. Switch to enforce mode when metadata schema is stable."
+}

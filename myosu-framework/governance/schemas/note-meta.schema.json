@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vault.nousresearch.com/schemas/note-meta-v1.0.0.json",
+  "title": "Note Metadata Schema",
+  "description": "Canonical governance metadata for every note in the vault.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "note_id",
+    "space",
+    "title",
+    "content_hash",
+    "metadata_hash",
+    "origin_type",
+    "authorship_status",
+    "epistemic_status",
+    "project_id",
+    "created_at",
+    "modified_at",
+    "review_status",
+    "integrity"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "note_id": { "type": "string", "pattern": "^note_[a-zA-Z0-9]{10,}$" },
+    "space": {
+      "type": "string",
+      "enum": [
+        "my_thinking",
+        "agent_extractions",
+        "agent_summaries",
+        "agent_syntheses",
+        "agent_dissent",
+        "source_cache",
+        "quarantine",
+        "governance"
+      ]
+    },
+    "path": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "content_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "metadata_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "origin_type": {
+      "type": "string",
+      "enum": ["human_authored", "extraction", "summarization", "synthesis", "speculation"]
+    },
+    "authorship_status": {
+      "type": "string",
+      "enum": ["human_authored", "agent_generated", "human_promoted", "human_reconstructed", "mixed"]
+    },
+    "epistemic_status": {
+      "type": "string",
+      "enum": ["working_idea", "provisional_claim", "stable_finding", "abandoned", "quarantined"]
+    },
+    "project_id": { "type": "string" },
+    "risk_tier": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "classification": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["internal_research"]
+    },
+    "privacy_context": { "type": "string", "default": "internal_research" },
+    "retrieval_scope": { "type": "string", "default": "internal_research" },
+    "review_status": {
+      "type": "string",
+      "enum": ["pending_review", "reviewed", "rejected", "quarantined", "preapproved"]
+    },
+    "review_required": { "type": "boolean" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "modified_at": { "type": "string", "format": "date-time" },
+    "retention": {
+      "type": "object",
+      "properties": {
+        "retention_class": { "type": "string" },
+        "do_not_retrieve": { "type": "boolean" },
+        "delete_after": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "human_author": { "type": ["string", "null"] },
+    "agent": {
+      "type": "object",
+      "properties": {
+        "agent_id": { "type": "string" },
+        "role": { "type": "string" },
+        "model_id": { "type": "string" },
+        "prompt_version": { "type": "string" },
+        "pipeline_version": { "type": "string" },
+        "capability_token_id": { "type": "string" }
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": { "type": "string" },
+          "title": { "type": "string" },
+          "type": { "type": "string" },
+          "locator": { "type": "string" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "lawful_basis": { "type": "string" },
+          "usage_restrictions": { "type": "string" },
+          "language": { "type": "string" },
+          "trust_level": { "type": "string" }
+        }
+      }
+    },
+    "input_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "note_id": { "type": "string" },
+          "content_hash": { "type": "string" },
+          "origin_type": { "type": "string" },
+          "epistemic_status": { "type": "string" },
+          "relationship": { "type": "string" }
+        }
+      }
+    },
+    "epistemic_markers": {
+      "type": "object",
+      "properties": {
+        "interpretive_threshold": { "type": "boolean" },
+        "marker_text": { "type": "string" },
+        "extraction_confidence": { "type": ["string", "null"] },
+        "summarization_scope": { "type": ["string", "null"] },
+        "pattern_confidence": { "type": "string" },
+        "inference_confidence": { "type": "string" },
+        "speculation_flag": { "type": "boolean" }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim_id": { "type": "string" },
+          "text": { "type": "string" },
+          "claim_type": { "type": "string" },
+          "origin_type": { "type": "string" },
+          "epistemic_status": { "type": "string" },
+          "source_refs": { "type": "array", "items": { "type": "string" } },
+          "input_refs": { "type": "array", "items": { "type": "string" } },
+          "confidence": { "type": "string" },
+          "contested": { "type": "boolean" }
+        }
+      }
+    },
+    "tensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tension_id": { "type": "string" },
+          "description": { "type": "string" },
+          "related_claims": { "type": "array", "items": { "type": "string" } },
+          "resolution_status": { "type": "string" },
+          "resolved_by": { "type": ["string", "null"] },
+          "resolution_note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "handoff_chain": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "seq": { "type": "integer" },
+          "handoff_id": { "type": "string" },
+          "from_role": { "type": "string" },
+          "to_role": { "type": "string" },
+          "action": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "policy_decision_id": { "type": "string" },
+          "artifact_hash": { "type": "string" }
+        }
+      }
+    },
+    "promotion_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "promotion_id": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "original_note_id": { "type": "string" },
+          "target_space": { "type": "string" },
+          "promotion_type": { "type": "string" },
+          "promoted_by": { "type": "string" },
+          "rationale": { "type": "string" }
+        }
+      }
+    },
+    "export_history": { "type": "array", "items": { "type": "object" } },
+    "integrity": {
+      "type": "object",
+      "required": ["signature", "signed_by", "signed_at"],
+      "properties": {
+        "signature": { "type": "string" },
+        "signed_by": { "type": "string" },
+        "signed_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "origin_type": { "not": { "const": "human_authored" } } }
+      },
+      "then": {
+        "required": ["agent", "input_refs", "handoff_chain"]
+      }
+    },
+    {
+      "if": {
+        "properties": { "origin_type": { "const": "synthesis" } }
+      },
+      "then": {
+        "required": ["claims", "tensions"],
+        "properties": {
+          "epistemic_markers": {
+            "required": ["interpretive_threshold", "marker_text"],
+            "properties": {
+              "interpretive_threshold": { "const": true }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "origin_type": { "const": "extraction" } }
+      },
+      "then": {
+        "required": ["source_refs"],
+        "properties": {
+          "source_refs": { "minItems": 1 }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "origin_type": { "const": "human_authored" } }
+      },
+      "then": {
+        "required": ["human_author"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "js-wall",
+  "version": "1.0.0",
+  "description": "JS Wall — JavaScript security boundary for Python. Uses bubblewrap for namespace isolation and prlimit for resource caps.",
+  "main": "wall.js",
+  "bin": {
+    "js-wall": "./cli.js"
+  },
+  "scripts": {
+    "test": "node -e \"require('./wall')\" && echo 'Module OK'",
+    "start": "node cli.js"
+  },
+  "keywords": ["sandbox", "security", "python", "bubblewrap", "isolation"],
+  "author": "",
+  "license": "ISC"
+}

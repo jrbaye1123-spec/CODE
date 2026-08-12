@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "fail_closed": true,
+  "review": {
+    "max_pending_items": 100,
+    "max_daily_approvals": 50,
+    "rubber_stamp_detection": true,
+    "minimum_review_seconds_tier3": 120
+  },
+  "authorship_drift": {
+    "window_weeks": 4,
+    "warning_threshold_percent": 25,
+    "critical_threshold_percent": 40
+  },
+  "quarantine": {
+    "auto_quarantine_missing_provenance": true,
+    "auto_quarantine_missing_marker": true,
+    "auto_quarantine_firebreak_violation": true
+  },
+  "retrieval": {
+    "exclude_epistemic_status": ["abandoned", "quarantined"],
+    "require_explicit_authorization_for_abandoned": true,
+    "attach_provenance": true
+  },
+  "synthesis": {
+    "require_interpretive_threshold": true,
+    "allow_stable_finding": false,
+    "allow_tension_resolution": false,
+    "max_circular_synthesis_depth": 1
+  },
+  "export": {
+    "require_publication_audit_for_tier3": true,
+    "require_provenance_manifest": true,
+    "allow_provenance_stripping": false,
+    "require_human_approval_for_dual_use": true
+  },
+  "dependencies": {
+    "require_change_log": true,
+    "require_acceptance_tests_after_change": true
+  }
+}

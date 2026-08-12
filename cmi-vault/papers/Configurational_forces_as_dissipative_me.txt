@@ -1,0 +1,448 @@
+Author's personal copy
+
+C. R. Mecanique 336 (2008) 126–131
+http://france.elsevier.com/direct/CRAS2B/
+
+Duality, inverse problems and nonlinear problems in solid mechanics
+
+Configurational forces as dissipative mechanisms: a revisit
+Anurag Gupta a,∗ , Xanthippi Markenscoff b
+a Department of Mechanical Engineering, University of California, Berkeley, CA 94720, USA
+b Department of Mechanical and Aerospace Engineering, University of California, San Diego, La Jolla, CA 92093, USA
+
+Available online 9 January 2008
+
+Abstract
+A variational argument is used to obtain a necessary and sufficient condition for interpreting the work done by configurational
+forces as the net dissipation. This condition is the Euler–Lagrange equation associated with the variational integral. We use this
+simple proposition to re-interpret classical results and also gain insight into recently obtained configurational forces in the stress
+space. To cite this article: A. Gupta, X. Markenscoff, C. R. Mecanique 336 (2008).
+ 2007 Académie des sciences. Published by Elsevier Masson SAS. All rights reserved.
+Résumé
+Les forces configurationnelles vues comme des mécanismes dissipatifs : un ré-examen. Un argument variationnel est utilisé
+pour obtenir une condition nécessaire et suffisante permettant d’interpréter le travail effectué par les forces configurationnelles
+comme une dissipation nette. Cette condition est l’équation d’Euler–Lagrange associée à l’intégrale variationnelle. Nous utilisons
+cette proposition simple pour ré-interpréter des résultats classiques et aussi approfondir l’interprétation de forces configurationnelles récemment définies dans l’espace des contraintes. Pour citer cet article : A. Gupta, X. Markenscoff, C. R. Mecanique 336
+(2008).
+ 2007 Académie des sciences. Published by Elsevier Masson SAS. All rights reserved.
+Keywords: Computational solid mechanics; Dissipative mechanisms; Variational integral
+Mots-clés : Mécanique des solides numérique ; Mécanismes dissipatifs ; Intégrale variationnelle
+
+Configurational forces are the driving forces associated with the dissipative mechanisms which result as a consequence of material rearrangements. In the mechanics of solids they are related to the concept of the force acting on
+a defect [1]. These forces are manifested as energy release rates in the study of crack growth [2,3], delamination [4]
+and epitaxial growth of thin films [5]. In classical dislocation theory they appear in the form of Peach–Koehler force
+[6], and as a driving traction for a moving phase boundary [7]. For an elastic body, one can obtain expressions for
+configurational forces using a variational method which follows the procedure of Noether’s theorem [8]. Dissipation
+is quantified by a variation in energy under an infinitesimal rearrangement in the material body and is equal to the
+work done by the configurational force. We show below (in Section 1) as a simple proposition that this is true if and
+only if the Euler–Lagrange equations associated with the energy are satisfied.
+
+* Corresponding author.
+
+E-mail addresses: agupta@berkeley.edu (A. Gupta), xmarkens@ucsd.edu (X. Markenscoff).
+1631-0721/$ – see front matter  2007 Académie des sciences. Published by Elsevier Masson SAS. All rights reserved.
+doi:10.1016/j.crme.2007.11.004
+
+Author's personal copy
+
+A. Gupta, X. Markenscoff / C. R. Mecanique 336 (2008) 126–131
+
+127
+
+In classical elasticity, the energy is given by the quadratic (in strain) strain energy, and the corresponding Euler–
+Lagrange equations are the equilibrium equations. The compatibility of strain is assumed. Therefore, in this case, the
+dissipation as a result of material rearrangement is given by the work done due to configurational forces if and only
+if equilibrium is maintained in the body. We thus have a physical interpretation of our proposition: the consequence
+that configurational forces act as dissipative mechanisms, is necessary and sufficient for the equilibrium equations to
+remain valid during the infinitesimal rearrangement in the material body. We discuss this in more detail in Section 2.
+We are then led to the question of obtaining a dissipative mechanism when the Euler–Lagrange equations are the
+Beltrami–Michell (B–M) compatibility conditions. We therefore consider a generalized energy in the stress space
+whose Euler–Lagrange equations are the B–M compatibility conditions [9–11]. Here equilibrium is satisfied trivially.
+Classical complementary energy principles like Hellinger–Reissner [12] assume the existence of a displacement field
+a-priori and therefore are not suitable for this purpose. Our proposition is then used (in Section 3) to impart a physical
+meaning to a recently obtained invariant integral in stress space [11].
+1. A variational argument
+Consider the following functional (for Ω ⊂ R3 ):
+
+Π(ui , ui,j ) = W (xi , ui , ui,j ) dV
+
+(1)
+
+Ω
+
+where xi and ui (xi ) are the independent and the dependent variables, respectively and the function W is assumed
+to be defined almost everywhere on Ω. All variables are expressed in terms of their Cartesian coordinates, where
+the subscript indices vary from one to three. In the above relation ui,j denotes the gradient (total derivative) of ui
+with respect to xj . We will also represent the total derivative (with respect to xi for example) by dxd i and denote the
+partial derivative by ∂x∂ i . We consider smooth transformations in xi and ui such that the new independent variables
+are yi = ŷi (xi , ǫi ) and the new dependent variables are vi (yi ) = v̂i (xi , ǫi ) where ǫi represent the transformation
+parameters satisfying the condition, xi = ŷi (xi , 0) and ui = ûi (xi , 0). One can expand yi and ui for small ǫi as
+yi = xi + φi + O(ǫ 2 ) and vi = ui + ψi + O(ǫ 2 ), respectively, where φi and ψi are the terms in the expansion which
+are linear in ǫi . For small ǫi (i.e. if |ǫi | ≪ 1), the change in the functional under such a transformation can then be
+obtained as ([13], page 173)
+
+
+
+
+∂W
+d
+ψ̄k + W φi dV + Ψi ψ̄i dV
+δΠ =
+(2)
+dxi ∂uk,i
+Ω
+
+Ω
+
+where ψ̄k = ψk − uk,j φj and
+Ψi =
+
+d ∂W
+∂W
+−
+∂ui
+dxj ∂ui,j
+
+(3)
+
+In rest of the article we will not consider any independent variations in ui , i.e. take ψi = 0. Therefore ψ̄k = −uk,j φj
+and Eq. (2) reduces to
+
+
+δx Π = Bi,i dV − Ψi ui,j φj dV
+(4)
+Ω
+
+Ω
+
+where
+
+
+∂W
+φj
+Bi = W δij − uk,j
+∂uk,i
+
+(5)
+
+and the notation δx denotes the variation with respect to xi .
+Observe that Ψi ≡ 0 represent the Euler–Lagrange equations corresponding to the functional given in (1). The
+relation (4) also provides us with a special case of Noether’s theorem which can be stated as: “if the integral Π
+is invariant with respect to the group of transformations induced by ǫi , then linearly independent combinations of
+
+Author's personal copy
+
+128
+
+A. Gupta, X. Markenscoff / C. R. Mecanique 336 (2008) 126–131
+
+the Lagrange expressions become divergences. The converse is also true”. By Lagrange expressions we refer to Ψi .
+Therefore if the integral Π is invariant under considered transformations then δx Π = 0, which implies
+Bi,i = Ψi ui,j φj
+
+(6)
+
+as stated in the Noether’s theorem above. If the Euler–Lagrange equations hold true then Ψi = 0 and we obtain
+conservation laws. For a complete proof, the interested reader is referred to the original paper [14] and the book by
+Gelfand and Fomin [13].
+For the ease of discussion we denote the flux term in (4) by F , i.e.
+
+(7)
+F = Bi,i dV
+Ω
+
+We state a simple proposition:
+(P) “δx Π = F if and only if Ψi = 0”
+whose validity can be easily verified: assume Ψi = 0, then (4) implies δx Π = F . Assume δx Π = F , then owing to
+the arbitrariness of φi , we have ui,j Ψi = 0 and assuming ui,j to be invertible it follows that Ψi = 0 (we also use
+the arbitrariness of Ω and the fact that the fields are smooth almost everywhere on Ω). We demonstrate the physical
+significance of this proposition by considering examples from elasticity.
+2. An interpretation of energy release rates in the classical formulation of elasticity
+∂W
+, where pij is the first
+Let W denote the elastic strain energy density, such that W = W (xi , ui,j ) and pij = ∂u
+i,j
+Piola stress tensor (equivalent to the Cauchy stress tensor for small strains). The vectors xi and ui (xi ) have the usual
+meaning of the (reference) position and the displacement, respectively. We restrict our attention to the transformation
+corresponding to a translation, i.e. φi = ǫi . Assume that there are no body forces and only displacement boundary
+conditions are prescribed. Under these conditions, Eq. (4) is reduced to
+
+
+(8)
+δx Π = (W δij − uk,j pki )ǫj ni dA + pik,k ui,j ǫj dV
+Ω
+
+∂Ω
+
+where we have used the divergence theorem to replace the volume integral by a surface integral (assuming that the
+fields are smooth), with ni being the surface normal. The flux term here is given in terms of the Eshelby Energy
+Momentum tensor Eij as
+
+F = Eij ǫj ni dA
+(9)
+∂Ω
+
+where Eij = (W δij − uk,j pki ). The term conjugate to ǫj is defined to be as the configurational force, which in this
+case is given by ∂Ω Eij ni dA. The Euler–Lagrange equations are the equilibrium conditions: pik,k = 0. Eq. (8) can
+be rewritten using the notation introduced in Eq. (9) as
+
+(10)
+δx Π = F + pik,k ui,j ǫj dV
+Ω
+
+The proposition (P) as stated in Section 1 then implies the following: the energy release (or the change in energy) δx Π
+is given by the flux F (as defined in (9)) if and only if the equilibrium condition is satisfied. The notion of energy
+release as obtained from the flux F is a popular concept in defect mechanics and was initial introduced in the context
+of elasticity by Eshelby [15]. Our proposition says that for such a relation (that of the calculation of energy release
+through flux F ) to hold, it is necessary and sufficient to satisfy the equilibrium condition. We elaborate our point
+further in the following.
+Imagine that the body Ω is homogeneous and smooth. This implies that the explicit derivative of W with respect
+to xi , ∂W
+∂xi = 0 everywhere in Ω and we can use the divergence theorem to reduce F to a volume integral. We thus
+obtain from (10),
+
+Author's personal copy
+
+A. Gupta, X. Markenscoff / C. R. Mecanique 336 (2008) 126–131
+
+δx Π =
+
+
+
+(W δij − uk,j pki ),i ǫj dV +
+
+Ω
+
+=
+
+
+
+
+
+129
+
+pik,k ui,j ǫj dV
+
+Ω
+
+(pki uk,ij − uk,j i pki − uk,j pki,i )ǫj dV +
+
+Ω
+
+
+
+pik,k ui,j ǫj dV
+
+Ω
+
+=0
+and therefore the energy release δx Π is rendered zero.
+In a case of an inhomogeneity inside Ω, ∂W
+∂xi = 0 and the flux F does not cancel exactly with the last term in (10).
+The choice of φi = ǫi with small ǫi provides with an infinitesimal translation to all the material points (denoted by xi )
+in the body. We reinterpret the proposition in this case as follows: the energy release (or the change in energy) is given
+by the flux F so as to maintain equilibrium (given by pij,j = 0) in the state obtained by an infinitesimal translation of
+material points. Since the material points in the region without inhomogeneities do not contribute to energy release,
+we associate this (non-trivial) change in energy to the motion of the inhomogeneity. Therefore the flux ensures that
+the body remains infinitesimally close to equilibrium even after a small perturbation of the inhomogeneity position.
+We can use similar arguments in the presence of dislocations and cracks.
+Note that the issue of compatibility never arises in this case, since we assume existence of a smooth (almost
+everywhere) displacement field a priori, and therefore a compatible strain/stress field is assumed to persist before and
+after the infinitesimal translation of the defect. A natural question arises of finding a suitable energy release or flux
+which associates itself in imposing compatibility as a necessary and sufficient condition.
+3. An energy release rate associated with the compatibility of stress field
+We now consider a formulation of linear and isotropic elasticity in stress space. A positive definite functional has
+been introduced by Pobedrya [9–11,16,17], whose Euler–Lagrange equations are the B–M compatibility conditions.
+The functional is given as
+
+
+ 
+1
+1
+1−ν
+dV
+σij,k σij,k +
+σkk,i σij,j +
+σik,k σij,j + σj k,k σj i,i
+Π(σij , σij,k ) =
+2
+1+ν
+2ν(1 + ν)
+Ω
+
+
+  
+1
+− χij σij dS +
+(11)
+σij,j σik,k + σij nj σik nk dS
+2
+∂Ω
+
+∂Ω
+
+∂LΩ
+where χij = ∂σ
+nk (LΩ is the integrand in the volume integral above) and ν is the Poisson’s ratio. Here σij (xi )
+ij,k
+
+denotes the Cauchy stress tensor. The traction forces are assumed to vanish all over the boundary. We also assume
+body force and incompatibility field distribution to vanish throughout the body Ω. The Euler–Lagrange equations
+corresponding to the functional above are:
+1
+σkk,ij = 0,
+1+ν
+σij nj = 0, ∀xk ∈ ∂Ω
+σij,kk +
+
+σij,j = 0,
+
+∀xk ∈ Ω
+
+∀xk ∈ ∂Ω
+
+(12)
+(13)
+(14)
+
+The equilibrium relation σij,j = 0 needs to be satisfied only on the boundary, as a result of which it is satisfied automatically in the domain [9]. Therefore, equilibrium inside the domain is always maintained as long as the equilibrium
+conditions hold on the boundary. We would now like to express the integral equation (4) for the functional (11) for
+the case of translation transformation (φi = ǫi ). We assume that the boundary ∂Ω is smooth and the boundary terms
+in (11) remain invariant under the translation transformation [11]. We obtain,
+
+
+(15)
+δx Π = Xij ǫj ni dA − Ψij σij,k ǫk dV
+∂Ω
+
+Ω
+
+where
+1
+1
+Xij = σlm,n σlm,n δij − σmn,j σmn,i −
+σmi,j σqq,m
+2
+1+ν
+
+(16)
+
+Author's personal copy
+
+130
+
+A. Gupta, X. Markenscoff / C. R. Mecanique 336 (2008) 126–131
+
+and
+−Ψij = σij,kk +
+
+1
+σkk,ij
+1+ν
+
+(17)
+
+The proposition (P) in Section 1 then implies the following: under a coordinate translation, the change in functional
+Π (as given in (11)) is equal to the flux (second term in (15)) if and only if the compatibility equations in the form
+of (12) are satisfied almost everywhere in the domain. Note that the functional Π in (11) does not have dimensions
+of energy. In fact if σij,k (xi ) ∈ L2 (Ω) then under the assumption of equilibrium, the volume part of this functional
+provides the norm associated with the space L2 (Ω) [18].
+A change of dimensions in Eq. (15) might be useful for its physical interpretation. We define a generalized energy
+Π̂ such that
+Π̂ =
+
+l2
+Π
+μ
+
+(18)
+
+where μ denotes the shear modulus (material constant) and l represents an internal length scale in the problem.
+The internal length scale is assumed to be a fixed constant and can be associated to the characteristic length scales
+involved in gradient elasticity theories. Here, however, we do not formulate a gradient theory, in the sense that there
+are no higher order stresses in our problem. An interpretation of this internal length scale can also be made as a
+length parameter at which gradients of stress remain finite. Below such a scale, the gradients might not remain smooth
+and our formulation would lose its validity. Consequently the scale defined by l defines a lower limit for the length
+dimension at which the notion of compatibility as expressed by (12) makes sense. Relation (15) can then be rewritten
+as
+
+
+l2
+δx Π̂ = X̂ij ǫj ni dA −
+Ψij σij,k ǫk dV
+(19)
+μ
+∂Ω
+
+Ω
+
+l2
+
+where X̂ij = μ Xij . The proposition (P) mentioned in the Section 1 can now be re-interpreted: the flux term F̂ is given
+by
+
+F̂ = X̂ij ǫj ni dA
+(20)
+∂Ω
+
+
+and the corresponding configurational force is given by ∂Ω X̂ij ni dA. According to the proposition, the change in
+the energy equals the flux if and only if Ψij = 0. In the absence of inhomogeneities and defects, we can use the
+divergence theorem to convert the flux term to a volume integral, which cancels identically with the last term in
+Eq. (19). Therefore in such a case δx Π̂ = 0.
+In the case where there is an inhomogeneity or a defect inside Ω, the flux F̂ no longer cancels identically with
+the last term in (19).The flux F̂ then represents a necessary and sufficient change in energy such that compatibility
+(in terms of stress) is maintained even after an infinitesimal translation of the inhomogeneity/defect inside Ω. The
+equilibrium of stress is satisfied trivially (as a consequence of satisfying the equilibrium on the boundary) during
+such an infinitesimal translation. It is evident that for large characteristic length scales, such a dissipation is large in
+comparison to the problems where the internal length scales are small. If Ψij = 0 (see for example [19]), then the
+dissipation should be evaluated using the complete right-hand side of Eq. (19) (a similar remark can be made for the
+case in Section 2).
+Finally, we relate our interpretation to Kröner’s ([20], page 287) ‘internal observer’ who ‘cannot distinguish between compatible deformations’, but would be sensitive to an incompatibility. In our settings, it is this observer who
+is operating the dissipative mechanism which ensures that compatibility is not violated anywhere in the domain.
+Acknowledgements
+This research was supported by a SEGRF fellowship from Lawrence Livermore National Laboratory (AG) and by
+NSF grant No. CMS-0555280 (XM).
+
+Author's personal copy
+
+A. Gupta, X. Markenscoff / C. R. Mecanique 336 (2008) 126–131
+
+131
+
+References
+[1] J.D. Eshelby, The continuum theory of lattice defects, in: F. Seitz, D. Turnbull (Eds.), Solid State Physics, vol. 3, Academic Press, New York,
+1956, pp. 79–144. For a complete set of papers by J.D. Eshelby see X. Markenscoff, A. Gupta (Eds.), Collected Works of J.D. Eshelby:
+Mechanics of Defects and Inhomogeneities, Springer, 2006.
+[2] J.R. Rice, A path-independent integral and the approximate analysis of strain concentrations by notches and cracks, Journal of Applied
+Mechanics 35 (1968) 379–386.
+[3] H.D. Bui, Fracture Mechanics: Inverse Problems and Solutions, Springer, 2006.
+[4] G. Gioia, M. Ortiz, Delamination of compressed thin films, Advances in Applied Mechanics, vol. 33, 1997, pp. 119–192.
+[5] E. Fried, M.E. Gurtin, A unified treatment of evolving interfaces accounting for small deformations and atomic transport with emphasis on
+grain boundaries and epitaxy, Advances in Applied Mechanics, vol. 40, 2004, pp. 5–177.
+[6] M. Peach, J.S. Koehler, The forces exerted on dislocations and the stress fields produced by them, Physical Review 80 (3) (1950) 436–439.
+[7] W. Heidug, F.K. Lehner, Thermodynamics of coherent phase transformations in non-hydrostatically stressed solids, Pure and Applied Geophysics 123 (1985) 91–98.
+[8] J.K. Knowles, E. Sternberg, On a class of conservation laws in linear and finite elastostatics, Archive for Rational Mechanics and Analysis 44
+(1972) 187–211.
+[9] B.E. Pobedrja, A new formulation of the problem in mechanics of a deformable solid body under stress, Soviet Mathematics Doklady 22 (1)
+(1980) 88–91.
+[10] B.E. Pobedria, T. Holmatov, On the existence and uniqueness of solutions in the elasticity theory problem with stresses, Vestnik Moskovskogo
+Universiteta, Seriya 1 (Matematika Mekhanika) 1 (1982) 50–51.
+[11] S. Li, A. Gupta, X. Markenskoff, Conservation laws of linear elasticity in stress formulations, Proceedings of Royal Society London A 461
+(2005) 99–116.
+[12] E. Reissner, On a variational principle for finite elastic deformations, Journal of Mathematical Physics 32 (2–3) (1953) 129–135.
+[13] I.M. Gelfand, S.V. Fomin, Calculus of Variations, Dover, 2000.
+[14] E. Noether, Invariante variationsprobleme, Göttinger Nachrichten (Mathematisch-physikalische Klasse) 2 (1918) 235–257; Transl.: Transport
+Theory Statistical Physics 1 (1971) 186–207.
+[15] J.D. Eshelby, The elastic energy-momentum tensor, Journal of Elasticity 5 (1975) 321–335.
+[16] B.E. Pobedrya, D.V. Georgievskii, Equivalence of formulations for problems in elasticity theory in terms of stresses, Russian Journal of
+Mathematical Physics 13 (2) (2006) 203–209.
+[17] V. Kucher, X. Markenscoff, M. Paukshto, Some properties of the boundary value problem of linear elasticity in terms of stresses, Journal of
+Elasticity 74 (2) (2004) 135–145.
+[18] R.A. Adams, Sobolev Spaces, Academic Press, New York, 1975.
+[19] X. Markenskoff, A. Gupta, Configurational balance laws for incompatibility in stress space, Proceedings of Royal Society London A 463
+(2007) 1379–1392.
+[20] E. Kröner, Continuum theory of defects, in: R. Balian, et al. (Eds.), Les Houches, Session 35, 1980, Physique des défauts, North-Holland,
+New York, 1981, pp. 215–315.
+
+

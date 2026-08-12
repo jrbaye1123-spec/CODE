@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://matraix.ai/research/microverse-colm.html" />
+  <title>MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations — MatrAIx Research</title>
+  <meta name="description" content="A concise introduction to MicroVerse, our COLM 2026 Social Simulation Workshop paper on measuring identity drift in long-horizon multi-agent simulations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/blog-post.css?v=21" />
+  <link rel="stylesheet" href="../css/navigation.css?v=2" />
+  <link rel="stylesheet" href="../css/workshop-post.css?v=2" />
+<link rel="icon" type="image/png" href="/Assets/logos/MatrAIx_Logo.png"></head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Matr<em>AI</em>x</a>
+    <nav><a href="/">Home</a><a href="/research/" aria-current="page">Research</a><a href="/personas/">Personas</a><a href="/applications/">Applications</a><a href="/playground/">Playground</a><a href="/community/">Community</a></nav>
+    <a href="/community/" class="btn-nav"><span class="dot live"></span> Join community</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">Menu</button>
+  </header>
+
+  <main>
+    <div class="blog-header">
+      <div class="blog-breadcrumb"><a href="/">Home</a><span>/</span><a href="/research/">Research</a><span>/</span><span>Publication</span></div>
+      <h1 class="blog-title">MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations</h1>
+      <p class="blog-deck">A behavioral-science instrument for measuring how persona-conditioned agents revise their identities under sustained environmental pressure.</p>
+      <div class="publication-status">
+        <div class="acceptance-note"><span>Accepted</span> COLM 2026 @ SocialSim</div>
+        <div class="paper-link" role="status">ArXiv · link coming soon</div>
+      </div>
+      <div class="blog-meta">
+        <div class="blog-meta-item"><strong>MatrAIx Research Community</strong></div>
+        <div class="blog-meta-item"><strong>July 26, 2026</strong></div>
+        <div class="blog-meta-item"><strong>4 min read</strong></div>
+      </div>
+    </div>
+
+    <figure class="hero-media">
+      <img src="../Assets/media/microverse-colm/microverse_demo.gif" alt="Twenty-five agents moving through the resource-scarce MicroVerse desert environment" />
+      <figcaption>Twenty-five agents inhabit a deterministic desert world where water scarcity creates sustained survival pressure.</figcaption>
+    </figure>
+
+    <article class="article">
+      <p class="article-lead">Long-horizon social simulations often assume that persona-conditioned agents remain faithful to their identities. MicroVerse turns that assumption into something we can measure.</p>
+
+      <p>Accepted to the <strong>COLM 2026 Workshop on Social Simulation with LLMs</strong>, MicroVerse is a behavioral-science instrument for studying self-authored identity drift. Each agent begins with an immutable original “soul file” containing values, moral boundaries, personality, and goals, alongside a mutable current identity that can change only through the agent's own reflection.</p>
+
+      <h2>Pressure with measurable consequences</h2>
+      <p>Twenty-five agents inhabit a deterministic 50 × 50 desert environment. Water drains every tick, the central Atmospheric Siphon cannot supply everyone, and death is permanent. The eight available actions, including trade, talk, attack, and scavenging, directly engage the agents' moral boundaries.</p>
+
+      <p>The instrument separates <strong>revision</strong> from <strong>measurement</strong>. Agents decide organically whether reflection has genuinely changed them. The engine independently records identity snapshots at fixed intervals and captures every agent at the end, including agents that died, reducing sampling and survivor bias.</p>
+
+      <div class="takeaway">MicroVerse measures the structural gap between an immutable starting identity and an agent's self-authored current identity, rather than relying on a single opaque similarity score.</div>
+
+      <h2>Two preliminary findings</h2>
+      <p>First, <strong>anti-self-deception emerged without being prompted</strong>. Across the pilot, 27 of 111 added moral boundaries described agents recognizing and rejecting their own rationalizations, the largest semantic category of identity modification.</p>
+
+      <p>Second, a reflection-threshold sweep at 40, 80, and 150 showed that the gate controls <strong>when and how often</strong> revisions occur, but not their qualitative direction. Lower thresholds produced earlier and more frequent revisions; where ruthless personas drifted, they consistently acquired guardrails toward others.</p>
+
+      <p>These findings are preliminary existence proofs from one model and limited seeds, not population-level significance claims. The next experiments will add no-persona baselines, memory and framing ablations, stronger censoring adjustments, multi-judge reliability, and broader model and seed coverage.</p>
+
+    </article>
+  </main>
+
+  <footer><p><a href="/">Home</a> · <a href="/research/">Research</a> · <a href="/personas/">Personas</a> · <a href="/applications/">Applications</a> · <a href="/community/">Community</a></p><p style="margin-top:14px">SIMULATE BEFORE REALITY · © 2026 MATRAIX</p></footer>
+  <script src="../js/site-performance.js?v=1"></script>
+  <script>(function(){const t=document.querySelector('.nav-toggle'),n=document.querySelector('header nav');if(!t||!n)return;t.addEventListener('click',()=>n.classList.toggle('active'));})();</script>
+</body>
+</html>

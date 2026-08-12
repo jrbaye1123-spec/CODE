@@ -1,0 +1,238 @@
+The Somatic Register: Mapping Lacan’s Three Orders
+onto Autonomic Physiology
+June 2026
+Position paper — correspondence welcome: rbaye1123@gmail.com
+Abstract
+Thayer and Lane’s neurovisceral integration model established that heart rate variability (HRV) indexes prefrontal-amygdala regulation of emotion. Interoception research
+(Critchley, Garfinkel, Barrett) demonstrated that heartbeat detection accuracy predicts
+emotional granularity. Polyvagal theory (Porges) connected vagal tone to social engagement. What remains absent is an interpretive framework that can hold the physiological data and the subjective structure of experience in a single model without reducing
+one to the other. We propose that Lacan’s three registers—the Imaginary, Symbolic, and
+Real—provide exactly this framework. Heart rate is the Real: a brute biological rhythm
+that resists symbolization. Body image and interoceptive self-representation constitute
+the Imaginary. Diagnostic categories, quantified-self metrics, and the language of psychophysiology form the Symbolic. The gap between these registers produces the phenomena we call anxiety, alexithymia, and depersonalization. We outline a research program
+that treats resting heart rate as a fixed-point attractor for personality configuration, drawing on the phase-diagram methodology developed by Baye (2026) in the Moe complexity
+framework.
+
+1 The Empirical Foundation
+Three independent research programs have converged on a single finding: the body’s autonomic state is not merely correlated with emotional experience—it is infrastructural to it.
+
+1
+
+1.1 The Neurovisceral Integration Model
+Thayer and Lane (2000, 2009) proposed that HRV serves as an index of neurovisceral integration: the degree to which prefrontal inhibitory circuits can modulate subcortical threatdetection systems. High HRV indicates an intact vagal brake—the myelinated vagus can
+rapidly down-regulate cardiac output in response to changing environmental demands. Low
+HRV indicates a failure of this brake: the organism, once aroused, cannot return to baseline.
+Meta-analyses confirm that low HRV is transdiagnostically associated with anxiety disorders, depression, PTSD, and borderline personality disorder (Koenig et al., 2016; Chalmers et
+al., 2014). Critically, HRV is not merely a state marker of distress. It is stable within individuals over years (Bertsch et al., 2012; Li et al., 2019), with heritability estimates of approximately
+0.47–0.50 (De Geus et al., 2019). It is a trait, not a symptom.
+
+1.2 Interoception and Emotional Granularity
+Interoception—the perception of internal body states—mediates the relationship between autonomic activity and felt emotion. Critchley et al. (2004) demonstrated that interoceptive accuracy (IA), measured via heartbeat detection tasks, correlates with insula activation and with
+the intensity of emotional experience. Garfinkel et al. (2015) distinguished three dimensions:
+interoceptive accuracy (objective detection), interoceptive sensibility (subjective confidence),
+and interoceptive awareness (metacognitive calibration of the two).
+Barrett (2017) integrated these findings into a predictive processing framework: emotions
+are constructed from interoceptive predictions, not read out from a fixed set of innate circuits.
+The brain continuously models the body’s expected state, and the match or mismatch between
+prediction and interoceptive signal constitutes the raw material of emotional experience. In
+this view, alexithymia—the inability to identify and describe emotions—is fundamentally an
+interoceptive deficit: the body is sending signals that the Symbolic cannot name.
+
+1.3 Low Resting Heart Rate and Fearless Dominance
+Raine (1993, 2014) established that low resting heart rate (RHR) is the best-replicated biological
+correlate of antisocial behavior and psychopathy. Prospective longitudinal studies (Portnoy &
+Farrington, 2015) show that low RHR at age 3 predicts conduct disorder at age 11. The effect
+size is substantial (Cohen’s d ≈ 0.56) and independent of confounds including BMI, physical
+fitness, and socioeconomic status.
+The leading interpretation is the low fear hypothesis: if threat does not register somatically—
+if the heart does not race, the palms do not sweat—then threat does not register psychologi2
+
+cally. Fear conditioning fails to take. Punishment does not deter. The superego, in psychoanalytic terms, never installs itself because the somatic marker for transgression is absent.
+
+2 The Missing Framework: Why Lacan?
+The empirical programs above are rich, precise, and mutually reinforcing. They share a limitation: they have no framework for the subject—for the entity that experiences the body’s
+signals, that interprets them, that builds an identity around them or fails to.
+Psychophysiology measures physiological variables. Cognitive neuroscience identifies
+neural correlates. But neither addresses the structure of subjective experience: the gap between what the body is doing (Real), how one imagines oneself (Imaginary), and how one
+names and categorizes experience (Symbolic). These are Lacan’s three registers, and they map
+onto autonomic physiology with surprising precision.
+
+2.1 The Real: Heart Rate as Brute Biology
+The Real is that which resists symbolization absolutely. It is the kernel of experience that
+cannot be put into words, cannot be integrated into the subject’s self-narrative, cannot be domesticated by interpretation. Heart rate is the Real par excellence: a rhythm generated by the
+sinoatrial node, independent of conscious control, continuing during sleep, during anesthesia,
+during the most elaborate symbolic acts. You cannot talk your heart rate down. You cannot
+argue with it. It does not respond to interpretation.
+When the Real of heart rate intrudes into awareness—palpitations, a racing pulse at rest,
+the sensation that one’s heart is “too fast” or “too slow”—the Symbolic order is punctured.
+The gap between “I am calm” (a Symbolic statement) and 90 BPM (a Real measurement) is the
+structural locus of anxiety. In Lacanian terms, this is not the anxiety that signals a specific
+danger but the anxiety that signals the proximity of the Real—what he called l’angoisse du réel.
+
+2.2 The Imaginary: Body Image and Interoceptive Self-Representation
+The Imaginary is the register of images, identifications, and the ego’s self-constitution through
+the mirror stage. It is how the subject imagines themselves as a coherent whole. Applied to
+the soma, the Imaginary includes:
+• Body image: the visual-proprioceptive schema of one’s physical form.
+
+3
+
+• Interoceptive self-representation: the felt sense of one’s internal state. “I am an anxious
+person” is an Imaginary identification with a recurring somatic pattern.
+• The quantified-self transformation: when a Fitbit reports “resting heart rate: 72 BPM,”
+the Imaginary appropriates this number. “My RHR is 72.” The Symbolic provides the
+digit; the Imaginary makes it an identity.
+Garfinkel’s distinction between interoceptive accuracy (Real: can you count your heartbeats?) and interoceptive sensibility (Imaginary: how confident are you that you can?) maps
+cleanly onto the Real/Imaginary distinction. The metacognitive calibration between them—
+awareness of the gap—is a higher-order Symbolic operation.
+
+2.3 The Symbolic: Diagnostic Categories and the Naming of the Body
+The Symbolic is the register of language, law, and the signifier. It is the system of differences through which experience is categorized. In the somatic domain, the Symbolic operates
+through:
+• Medical diagnosis: “bradycardia,” “tachycardia,” “sinus arrhythmia.”
+• Psychiatric classification: “Generalized Anxiety Disorder,” “Panic Disorder,” “Somatic
+Symptom Disorder.”
+• Quantified-self discourse: “My HRV is 45 ms. That’s below average for my age.”
+• Cultural norms: “A normal resting heart rate is 60–100 BPM.”
+Verhaeghe (2002, 2012) argued that diagnostic categories do not merely describe conditions; they create subjectivities. When a patient receives a diagnosis of Panic Disorder, the
+Symbolic has named the Real of their racing heart. This naming can be stabilizing—it provides
+a framework, an explanation, a treatment protocol. But it can also be alienating: the diagnosis
+becomes an identity. “I am a panic disorder patient” replaces “my heart races and I don’t know
+why.”
+The Symbolic never fully captures the Real. There is always a remainder—Lacan’s objet
+a—that escapes signification. In the somatic domain, this remainder is the brute fact of the
+heartbeat itself: the particular rhythm, the felt quality, the way it changes when you measure it. The quantified-self movement is the Symbolic’s most ambitious attempt to grasp this
+remainder, and it reproduces the gap at a higher resolution.
+4
+
+3 The Phase-Diagram Approach
+Baye (2026) developed a methodology in the Moe complexity framework: treat the system’s
+configuration space as a phase diagram, identify fixed-point attractors, measure gradients, and
+locate critical thresholds where qualitative transitions occur. The same methodology applies
+to the soma-psyche interface.
+
+3.1 Resting Heart Rate as a Fixed-Point Attractor
+RHR is stable within individuals (test-retest r ≈ 0.7–0.8 over years). It acts as an attractor:
+perturbations (exercise, stress, caffeine) shift heart rate temporarily, but the system returns
+to its resting baseline. This baseline is not arbitrary. It represents a specific configuration of
+the autonomic nervous system—a particular balance of sympathetic and parasympathetic tone
+that defines the system’s default operating point.
+Different RHR baselines correspond to different basins of attraction in the psychological
+phase diagram. Low RHR (<60 BPM) creates a basin where threat signals are attenuated; the
+organism seeks stimulation because baseline arousal is insufÏcient. Extremely low RHR (<50
+BPM) creates a basin where fear conditioning fails entirely—the Raine effect. High RHR (>80
+BPM) creates a basin where threat signals are amplified; the organism avoids stimulation because baseline arousal is already high.
+
+3.2 The Critical Threshold Hypothesis
+We hypothesize that there exists a critical RHR threshold—approximately 50–55 BPM—below
+which the qualitative structure of personality reconfigures. Above this threshold, fear conditioning operates normally; punishment produces avoidance; the superego (in Freudian terms)
+can install itself through internalized parental prohibitions. Below this threshold, the somatic
+marker for threat is insufÏcient to drive avoidance learning. The result is not a quantitative
+difference in fearfulness but a qualitative difference in the capacity for guilt.
+This is directly analogous to the Λ-critical threshold in the Moe framework: a specific
+value of the coupling constant (Λ) separates regimes where computational complexity classes
+differ qualitatively (P vs. NP-hard). In both cases, a continuous biological parameter produces
+a discontinuous psychological outcome.
+
+5
+
+3.3 HRV as an Order Parameter
+If RHR is the fixed-point attractor, HRV is the order parameter: it measures the system’s capacity to leave the attractor. High HRV indicates a shallow basin—the system can respond
+flexibly to perturbations, engage and disengage, accelerate and decelerate. Low HRV indicates a deep basin—the system is trapped near its attractor, and perturbations produce either
+no response (freeze, dissociation) or an exaggerated one (panic, flooding) because the vagal
+brake cannot modulate the transition.
+This maps onto the clinical phenomenology: PTSD and depression are characterized by
+low HRV and behavioral rigidity—the system cannot leave its attractor. Meditation and HRV
+biofeedback training increase HRV and behavioral flexibility—they shallow the basin, enabling
+transitions that were previously inaccessible.
+
+4 Research Program
+We propose four empirical investigations:
+
+4.1 Study 1: RHR Distribution and Personality Structure
+Recruit N = 500 healthy adults. Measure RHR (5-minute seated baseline), HRV (RMSSD, HFHRV), interoceptive accuracy (heartbeat tracking task), and personality (Big Five, Triarchic
+Psychopathy Measure). Primary hypothesis: RHR will show a bimodal distribution with a
+critical threshold at approximately 50–55 BPM, below which fearless dominance scores increase discontinuously. Secondary hypothesis: HRV will mediate the relationship between
+RHR and neuroticism such that the combination of low RHR + high HRV predicts adaptive
+sensation-seeking, while low RHR + low HRV predicts psychopathic traits.
+
+4.2 Study 2: The Lacanian Registers as Measurable Constructs
+Operationalize the three registers:
+• Real: RHR, HRV, skin conductance response (SCR) — directly measured autonomic
+variables.
+• Imaginary: Interoceptive sensibility (confidence ratings on heartbeat task), body image questionnaires, self-report personality items that involve identification with somatic
+states (“I am a calm person,” “I am an anxious person”).
+6
+
+• Symbolic: Diagnostic labels (PHQ-9, GAD-7), quantified-self metrics that the subject
+endorses as self-descriptive, language use in free-response descriptions of bodily experience (analyzed via LIWC for category words, medical terminology, and emotional
+labels).
+Hypothesis: The gap between Real and Imaginary (calibrated as IA minus interoceptive
+sensibility) predicts anxiety scores independent of absolute RHR. The gap between Imaginary
+and Symbolic (discrepancy between felt experience and available vocabulary) predicts alexithymia scores.
+
+4.3 Study 3: HRV Biofeedback and Register Realignment
+Randomized controlled trial. Intervention: 8-week HRV biofeedback training with resonant
+frequency breathing. Control: sham biofeedback (random visual feedback). Primary outcome: change in the IA-to-interoceptive-sensibility gap. Secondary outcomes: anxiety (GAD7), alexithymia (TAS-20), emotional granularity (experience sampling of emotion labels). Hypothesis: biofeedback reduces the Real-Imaginary gap, and this reduction mediates improvements in anxiety and emotional granularity.
+
+4.4 Study 4: Longitudinal RHR and Identity Formation
+Adolescent cohort (N = 200, ages 12–18), followed for 5 years with annual RHR, HRV, and
+personality assessments. Hypothesis: individuals whose RHR crosses the critical threshold
+(either upward or downward) during adolescence will show corresponding shifts in personality structure, specifically in traits related to fear, inhibition, and sensation-seeking. Those
+whose RHR remains stable will show corresponding personality stability.
+
+5 Conclusion
+The neurovisceral integration model provides the physiological foundation. Interoception research provides the mechanism. What is missing is a framework that can hold the body’s Real,
+the self’s Imaginary, and the culture’s Symbolic in a single coherent model. Lacan’s three registers, operationalized through measurable constructs, provide exactly this framework.
+The resting heart rate is not merely a number. It is a fixed-point attractor for personality
+configuration. It is the Real that the Symbolic names but never captures. It is the somatic
+ground from which the subject emerges—and against which the subject defines itself.
+7
+
+We invite correspondence, collaboration, and critique.
+Contact: rbaye1123@gmail.com
+
+References
+[1] Barrett, L.F. (2017). How Emotions Are Made: The Secret Life of the Brain. Houghton MifÒin
+Harcourt.
+[2] Baye, R. (2026). The Moe Framework: Ψ = Λ × Zbdry × Shor . Unpublished manuscript.
+gitlab.com/jacquesmyo/moe_subject-data.
+[3] Bertsch, K., Hagemann, D., Naumann, E., Schachinger, H., & Schulz, A. (2012). Stability of
+heart rate variability indices reflecting parasympathetic activity. Psychophysiology, 49(5),
+672–682.
+[4] Critchley, H.D., Wiens, S., Rotshtein, P., Ohman, A., & Dolan, R.J. (2004). Neural systems
+supporting interoceptive awareness. Nature Neuroscience, 7(2), 189–195.
+[5] Garfinkel, S.N., Seth, A.K., Barrett, A.B., Suzuki, K., & Critchley, H.D. (2015). Knowing
+your own heart: Distinguishing interoceptive accuracy from interoceptive awareness.
+Biological Psychology, 104, 65–74.
+[6] De Geus, E.J.C., Gianaros, P.J., Brindle, R.C., Jennings, J.R., & Berntson, G.G. (2019).
+Should heart rate variability be “corrected” for heart rate? Biological Psychology, 143,
+103–115.
+[7] Koenig, J., Kemp, A.H., Feeling, N.R., Thayer, J.F., & Kaess, M. (2016). Resting state
+vagal tone in borderline personality disorder: A meta-analysis. Progress in NeuroPsychopharmacology and Biological Psychiatry, 64, 18–26.
+[8] Lacan, J. (1973). Le Séminaire, Livre XI: Les quatre concepts fondamentaux de la psychanalyse. Seuil. [English: The Four Fundamental Concepts of Psychoanalysis, Norton, 1978.]
+[9] Lacan, J. (1975). Le Séminaire, Livre XX: Encore. Seuil. [English: On Feminine Sexuality,
+the Limits of Love and Knowledge, Norton, 1998.]
+[10] Porges, S.W. (2011). The Polyvagal Theory: Neurophysiological Foundations of Emotions,
+Attachment, Communication, and Self-Regulation. Norton.
+
+8
+
+[11] Portnoy, J., & Farrington, D.P. (2015). Resting heart rate and antisocial behavior: An
+updated systematic review and meta-analysis. Aggression and Violent Behavior, 22, 33–
+45.
+[12] Raine, A. (1993). The Psychopathology of Crime: Criminal Behavior as a Clinical Disorder.
+Academic Press.
+[13] Raine, A. (2014). The Anatomy of Violence: The Biological Roots of Crime. Vintage.
+[14] Seth, A.K., & Friston, K.J. (2016). Active interoceptive inference and the emotional brain.
+Philosophical Transactions of the Royal Society B, 371(1708), 20160007.
+[15] Thayer, J.F., & Lane, R.D. (2000). A model of neurovisceral integration in emotion regulation and dysregulation. Journal of Affective Disorders, 61(3), 201–216.
+[16] Thayer, J.F., & Lane, R.D. (2009). Claude Bernard and the heart–brain connection: Further elaboration of a model of neurovisceral integration. Neuroscience & Biobehavioral
+Reviews, 33(2), 81–88.
+[17] Verhaeghe, P. (2002). On Being Normal and Other Disorders. Other Press.
+[18] Verhaeghe, P. (2012). What About Me? The Struggle for Identity in a Market-Based Society.
+Scribe.
+
+9
+
+

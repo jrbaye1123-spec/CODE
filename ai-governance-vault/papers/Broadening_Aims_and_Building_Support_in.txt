@@ -1,0 +1,1070 @@
+Journal of Contemporary
+European Research
+Volume 11, Issue 1 (2015)
+
+Research Article
+
+Broadening Aims and Building Support in
+Science, Technology and Innovation Policy: The
+Case of the European Research Area
+Inga Ulnicane University of Vienna
+
+Citation
+Ulnicane, I. (2015). Broadening Aims and Building Support in Science, Technology and Innovation
+Policy: The Case of the European Research Area , Journal of Contemporary European Research. 11
+(1), pp. 31-49.
+First published at: www.jcer.net
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+Abstract
+The aim of this article is to analyse the evolution of the ideational framework of the most ambitious
+initiative in supranational research governance so far – the European Research Area (ERA), launched
+by the European Commission in 2000. In order to do so, the ERA initiative is analysed against the
+background of the long-term development of the science, technology and innovation policy ideas. The
+analysis reveals that over the course of 14 years, the policy aims of, and support for, the ERA initiative
+have considerably broadened. While economic competitiveness goals initially dominated the
+Co
+issio s i itiati e to lau h the E‘A, the initiative has gradually expanded towards social and
+scientific aims as well as stronger involvement of member states and stakeholders. Recent big ideas
+of excellent science and Grand Challenges help increase support for the ERA initiative among the
+research community and society. In the broadened ERA ideational frame, diverse aims of scientific
+freedom, societal relevance and economic competitiveness co-exist but attention to the relationships
+between them has been limited. Further exploration and conceptualization of the relationships
+between diverse policy ideas is an important challenge for future research policy studies and practice.
+
+Keywords
+European Research Area; Science; technology and innovation policy; Economic competitiveness;
+Grand Challenges; Scientific excellence
+
+There is te sio etwee those who stress the i porta e of a auto o ous Repu li of “ ie e
+and those who emphasise that considerations of social and economic value and cost, judged in
+considerable part by non-scientists, should play a major role in determining basic research allocation
+decisions. The controversies here shade over into a semantically adjacent area – the relative
+emphasis that should be placed on basic versus applied research. (Nelson 1977: 65)
+Toward what is the Eu opea U io s EU) research policy aiming? Is the EU supporting research so it
+can become the most competitive economy in the world? Does it want to promote research of the
+highest scientific quality? Or does it see research as a tool to solve major societal problems in areas
+such as health, environment and energy? How compatible are these different aims and what roles do
+the long-standing tensions and controversies, as indicated in the opening quote from Richard Nelson
+(1977), play in the current EU research policy? What are the values, ideas and interests involved in the
+diverse aims of EU research policy? These are timely questions considering the EU s increased
+involvement in the field of research policy. While the majority of research funding is allocated at the
+national level, the EU s involvement has gradually increased over the decades (Borrás 2003; Peterson
+and Sharp 1998). This article will focus on the most ambitious EU project in this field so far - the
+European Research Area (ERA) initiative, launched in 2000. The ERA initiative covers a broad set of
+activities including reforms of national research systems, cooperation and coordination among
+national research funding activities, improved career systems and mobility of researchers.
+While a number of previous studies have addressed the emergence of the ERA initiative in the context
+of the EU s research policy (Chou 2014; Delanghe et al. 2009; Edler et al. 2003; Prange-Gstöhl 2010),
+the novelty of this analysis is to study the evolution of the ERA initiative and its main goals from the
+launch of the initiative in 2000 until 2014, in light of the long-term development of science, technology
+
+32
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+and innovation (STI) policy1 ideas. Analysing the ERA initiative against the background of the long-term
+evolution of the STI policy frame enables us to also shed light on how old policy ideas appear in the
+ERA initiative in new forms, helping to mobilize support for the initiative. Additionally, applying a
+historically developed research policy frame for the interpretation of recent ERA developments draws
+attention to further conceptual work needed. This article proceeds as follows: firstly, the concept of
+framing is introduced and the historical evolution of the STI policy frame is discussed; secondly, the
+evolution of the ERA initiative from 2000 until 2014 is analysed with a particular focus on its main aims
+and actors involved; and finally, the concluding section conceptualizes the evolution of the ERA
+ideational framework in the context of the long-standing STI policy ideas.
+
+SCIENCE, TECHNOLOGY AND INNOVATION POLICY FRAMING
+To study the main ideas, rationales, interests and values guiding STI policy, the concept of f a e is
+used, in which facts, values, theories, and interests a e i teg ated ‘ei and Schön 1993: 145).
+According to Donald Rein and Martin Schön (Rein and Schön 1993:
+), framing is a way of selecting,
+organizing, interpreting, and making sense of a complex reality to provide guideposts for knowing,
+analysing, persuading, and acting. A frame is a perspective from which an amorphous, ill-defined,
+problematic situation can be made sense of and acted o . According to Rein and Schön, frames are
+developed in interactions among individuals, interest groups and institutions and can be used
+strategically for problem-solving, agenda-setting and decision-making. Thus, the concept of the frame
+is useful for exploring changes in the content of STI policy.
+While diverse ideas on the role of science, technology and innovation in society have been debated
+over centuries, STI policy as a distinct public policy area was established after World War II (Elzinga
+and Jamison 1995). Scholars depict the evolution of this policy field as a cumulative three-step
+expansion from s ie e poli
+to te h olog poli
+a d late to innovation policy , where every
+subsequent step is broader and incorporates ideas and instruments from the previous ones (Borrás
+2003; Lundvall and Borrás 2005). Expansion of this policy field has also been conceptualized as
+evolution of policy paradigms and frames (Biegelbauer and Borrás 2003; Sanz-Menendez and Borrás
+2001), generations (Boekholt 2010) and periodizations (Elzinga 2012), helping to make sense of
+changing ideas. It is important to keep in mind that this is a cumulative process and not a succession
+of strictly delineated and clear-cut historical stages.
+The evolving STI policy frame has been spread internationally by an epistemic community of experts
+and policy-makers that has largely operated via the Organisation for Economic Cooperation and
+Development (OECD), which has played a leading role in the development of STI policy (Lundvall and
+Borrás 2005; Elzinga and Jamison 1995). The international policy frames have influenced the
+development of the STI policy of the EU and its member states (Borrás 2003; Sanz-Menendez and
+Borrás 2001) and appropriate policy instruments (Boekholt 2010). Toda s de ates a out the
+objectives, values and governance of the ERA can be better understood by taking a long-term view of
+how the policy ideas in this area have emerged and evolved.
+
+Science policy frame
+The i itial s ie e poli
+frame emerging in the 1940s was largely shaped by the experience of the
+two world wars, where science played an important but also widely debated role. One of the bestknown early manifestos calling for the establishment of scie e poli is the 9
+epo t Science The
+E dless F o tie by Vannevar Bush. Building on the vital role science had played during the war, the
+report calls for the establishment of a science policy in the United States that would support the use
+
+33
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+of the scientific knowledge accumulated during the war fo i ilia pu poses su h as a agai st
+disease and public welfare. Such a policy would also support research activities in public and private
+organizations as well as discover and develop scientific talent. The report is well known for its call to
+suppo t basic research (Pielke 2012), which, according to Bush, would later lead to new products
+and processes. Therefore, the report advocated what became known as the linear model of
+inno atio , according to which support for basic research leads to the development of new products
+and processes which are afterwards introduced into production and market, thus fuelling economic
+growth (Kline and Rosenberg 1986). An emphasis on support for basic research in the report was
+accompanied by a call to preserve freedom of inquiry, stati g that [S]cientific progress on a broad
+front results from the free play of free intellects, working on subjects of their own choice, in the
+manner dictated by their curiosity fo e plo atio of the u k o
+(Bush 1945: 12).
+A u e of ideas i Bush s epo t e e losel elated to the ajo o t o e s a out the ole of
+science between the views of John Bernal advocating the social function of science (1939) and Michael
+Polanyi stressing the importance of academic freedom (1962). Writing between the two world wars,
+Be al 9 9) e phasised that e e t e e ts ha e led to a iti al e a i atio of the function of
+s ie e i so iet Be al 9 9: xiii). According to him, the social function of science implies that
+science has to assist human needs and be the chief agent of change in society (Bernal 1939: 383).
+Be al defi es s ie e as a integral part both of the material and economic life of our times and of
+the ideas which guide and inspire it. Science puts into our hands the means of satisfying our material
+needs. It gives us also the ideas which will enable us to understand, coordinate, and satisfy our needs
+in the so ial sphe e 9 9: 408).
+While Bernal responded to the attacks on scientists involvement in wars by advocating its social
+function, his contemporaries emphasised internal norms of science. One of the best-known
+contributions comes from Robert Merton, who stated in his 1942 essay on the normative structure of
+science that the i stitutio al goal of s ie e is the e te sio of e tified k o ledge Me to 9 :
+270) and that the ethos of modern science consists of four sets of institutional imperatives:
+communism (i.e. common ownership of findings by scientific community), universalism,
+disinterestedness and organized scepticism2.
+The main critique of Be al s all fo the so ial fu tio of s ie e came from Pola i s 9 essay
+‘epu li of “ ie e , which emphasised the freedom for scientists to choose their research problems
+and to self-organize. According to Polanyi, the pu suit of s ie e
+i depe de t self-coordinated
+initiatives assures the most efficient possible o ga isatio of s ie tifi p og ess. A d […] a autho it
+which would undertake to direct the work of the scientist centrally would bring the progress of science
+virtually to a sta dstill Pola i 9 : 56). He assigns the main role to the scientific authority that
+scientists exercise over each other, while central political authority can, in his view, only assist or
+hamper spontaneous developments of science but cannot shape its advance.
+While these debates on the social function and freedom of science emerged in a certain historical
+context, they have shaped the development of research policy worldwide and have been major points
+of reference in the on-going discussions about the governance of science (Borrás 2012; Pielke 2014).
+Arguments of Polanyi and Bernal have been used for discussing a wide range of issues from
+anticipation of emerging technologies (Guston 2012) to analysing the changing character of research
+councils (Rip 1994), evaluation and funding (Ziman 1983). Another important term that emerged
+during the post-war era was ig s ie e (Price 1963), which describes the increased role of the large
+scale research infrastructure and collaborations which today require complex strategic partnerships
+and are k o as egas ie e (Elzinga 2012).
+To summarize, the initial science policy frame started to evolve when this policy field was established
+after World War II. The big questions asked about the use of scientific knowledge for civilian purposes
+(Bush 1945), the social function of science (Bernal 1939), scientific norms (Merton 1942) and scientific
+
+34
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+freedom (Polanyi 1962) are still important in shaping scientific debates today (Borrás 2012; Pielke
+2014). This initial frame also sets out some of the key policy instruments which are still relevant today
+such as support for basic research, public and private research organizations, scientific talent and
+infrastructure.
+
+Technology policy frame
+During the 1970s, the STI policy frame expanded towards a more dedicated focus on science-based
+technologies (e.g. nuclear power, computer and space technology). Bengt-Åke Lundvall and Susana
+Borrás (2005:
+9) ote that te h olog poli
+ep ese ts a shift f o
+oade philosophi al
+considerations to a more instrumental focus o atio al p estige a d e o o i o je ti es . At this
+time, technology policy thinking was strongly influenced by economic ideas (Edler 2003) and was
+perceived as a useful tool for solving wider economic problems in the aftermath of the oil crisis
+(Biegelbauer and Borrás 2003). As perception of global industrial competition increased, national
+governments used technolog poli fo p o oti g thei
+atio al ha pio s in specific sectors
+(Lundvall and Borrás 2005). The widely used rhetoric of national and European competitiveness has
+been criticised by Paul Krugman (1994) as a meaningless concept when applied to national economies
+because countries do not go out of business like companies and the international economy is not a
+zero sum game. K ug a alls o petiti e ess a da ge ous o sessio , because it can lead to wrong
+policies and wasteful government spending while ignoring the real causes of economic problems.
+Concerns about the impact of science and technology were raised by the new social (anti-war, feminist
+and environmental) movements that emerged in the late 1960s. They facilitated focus on
+democratization, public participation and the social relevance of science and technology and
+contributed to interest in technology assessment and foresight of broader impacts of future
+technologies (Elzinga and Jamison 1995). One of the major contributions to discussing social questions
+of technology at that time was Nelso s 9
+ook The Moon a d the Ghetto , which focussed on
+uneven technological progress whereas some socio-political issues have been tackled more
+successfully than others:
+a country that recently had accomplished the truly remarkable feat of sending a man to the
+moon and bringing him back to earth safely, had wiped out scourges of infantile paralysis, and
+more generally had achieved an historically unprecedented standard of living for the middle
+class, for some reason seemed unable to provide an effective education for ghetto kids, halt
+or significantly slow down the rising cost of medical care, keep the air and water clean or cut
+down on the incidence of drug addiction and drug-related crime (Nelson 2011: 681).
+To summarize, the technology policy frame presents science and technology as instruments to achieve
+economic competitiveness. Simultaneously, growing societal concerns over new technologies lead to
+increased public participation, technological forecasting and attention to the social implications of
+technological development.
+
+Innovation policy frame
+Gradually the policy frame evolved and expanded further to what became known as innovation policy
+in the 1990s. Building on earlier ideas about innovation, this policy frame emphasised collaboration,
+diffusion and the need for a systemic approach. The linear model of innovation was replaced by a
+chain-link model incorporating feedback loops and multiple paths of innovation (Kline and Rosenberg
+1986), demonstrating that rather than being a smooth and linear process, innovation is complex,
+uncertain and somewhat disorderly. A related idea on the importance of policy supporting the
+
+35
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+diffusion of innovation was put forward by Henry Ergas (1987), who made a famous distinction
+between mission-oriented policies promoting the development of new technologies and diffusionoriented policies supporting the widespread dissemination of capacities of firms to respond to new
+technologies.
+Particularly influential in this policy frame is the innovation systems approach3 focussing on the role
+of historically developed institutions and interactions between them in explaining innovation (Lundvall
+1992). The crucial role of interaction among diverse institutions has been emphasised by a number of
+other approaches emerging approximately at the same time, such as triple helix, third mission and
+Mode 2 knowledge production. According to the Triple Helix model (Leydesdorff and Etzkowitz 1996),
+university-industry-government relations play a crucial role in knowledge production, and universities
+– also known as entrepreneurial universities - undertake important economic functions. Similarly, the
+o ept of the thi d issio of universities (Goransson et al. 2009) envisages an extension of the
+university s role beyond teaching and research to include its socio-economic contribution as well. The
+idea of Mode 2 knowledge production (Gibbons et al. 1994) argues that Mode 1, characterized by
+knowledge production in an academic context, disciplinarity, homogeneity, autonomy and traditional
+quality control (peer review), is being replaced by the Mode 2 where knowledge is produced in the
+context of application, transdisciplinarity, heterogeneity, reflexivity, social accountability and novel
+quality control. Innovation policy translated these ideas into instruments supporting networks and
+capacity building, small and medium-sized enterprises and intellectual property rights. Susana Borrás
+(2003: 17) distinguishes between a narrow innovation policy agenda focussing directly on supporting
+innovation and a wide innovation policy agenda including policies such as education and training,
+competition and infrastructure.
+A lot of the economic thinking that had influenced STI policy ideas since the 1970s was reinforced
+during the 1990s through the introduction of the New Public Management (NPM) ideas, which
+promoted the introduction of private sector management techniques in public policy. For STI policy,
+NPM meant an increased focus on the evaluation of quantifiable results and competitive resource
+allocation (Elzinga 2012: 426). The appropriateness of NPM ideas for STI policy has been widely
+debated because they differ considerably from sociological views on the organization of the research
+community (Hagstrom 1965; Merton 1942). The limits of organizing research systems according to
+market principles have been pointed out (Georghiou 2006).
+To summarize, the innovation policy frame aims for a more systematic approach to knowledge
+production and diffusion. Accordingly, it emphasises accountability and collaboration among research
+organizations, business, government and society. While the main focus of the innovation policy frame
+is on interactions and linkages between heterogeneous actors involved in the innovation process, the
+cumulative expansion of the STI policy frame means that this frame includes ideas from the previous
+frames (e.g. importance of research infrastructure, foresight, training of young scientists), though
+some of these ideas have been revised (e.g. chain-link model of innovation replacing linear model) or
+integrated in a new context (e.g. basic science organizations being one of the institutions in the
+innovation system rather than playing a dominant role as in the earlier science policy frame).
+The main ideas of an evolving STI policy frame are summarized in Box 1. This historical review of the
+broadening STI policy frame helps to interpret ideas, rationales, values and interests involved in
+toda s esea h poli
+d a i g atte tio to the o ti uatio a d deepe i g of old issues i e
+fo s Elzi ga
+: 426).
+
+36
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+Box 1: Stylized evolution of the main ideas of science, technology and innovation policy
+Science policy
+
+Technology policy
+
+Innovation policy
+
+since 1940s
+
+since 1970s
+
+since 1990s
+
+Social function of science
+
+Science-based tech
+
+Innovation system
+
+Scientific freedom
+
+Economic goals
+
+Chain-link model
+
+Big science – infrastructure
+
+Global competition
+
+Diffusion
+
+Education of young scientists
+
+National prestige
+
+Mode 2
+
+National champions
+
+Triple Helix
+
+Foresight
+
+Third mission
+
+Social concerns
+
+New public management
+
+As pointed out by Borrás (2003: 13), this three-step evolution of STI poli is a a al ti al odel fo
+heu isti pu poses hi h has ot al a s ee strictly followed in practice. For example, while policy
+thinking in recent decades has emphasised the non-linear character of innovation and social
+accountability associated with Mode 2 knowledge production, in policy practice and debates it is still
+possible to encounter the linear model of innovation and Mertonian norms of disinterestedness.
+Borrás elaborates on the complexity of capturing policy evolution, stating it is
+a st lized fa t of the t a sfo atio s taki g pla e th ough histo . I this e olutio the e is
+not necessarily an overall predetermined rationality constantly improving it, as if there was
+a e d of histo where policy achieves a perfect, ultimate, formulation. Policy changes are
+the fruit of many complex factors, which are socially, politically, and economically embedded,
+and that are not necessarily improvements of one single course of history (Borrás 2003: 14).
+Accordingly, this article will use the main long-standing ideas from STI policy discussed above for
+analysing the evolution of the ideational framework of the ERA initiative. In this analysis, policy
+evolution is understood not as a predetermined rational and purposeful process but rather as a
+constant adaptation to a changing social, political and economic environment (Borrás 2003).
+
+EVOLUTION OF THE EUROPEAN RESEARCH AREA INITIATIVE
+The policy framing perspective is seen as particularly relevant for structuring political conflict and
+competition at the European level, characterized by competing constituencies and contested
+competencies (Daviter 2007). Some earlier studies have analysed the cognitive dimensions of the EU
+research policy a d alled fo
+i gi g ideas a k i to account for its evolution (Sanz-Menendez
+and Borrás 2001). Taki g a i d e e s ie of the history of EU research policy since the establishment
+of the EU, Borrás (2003: ) lai s its e olutio a e portrayed as the transition from science policy,
+to te h olog poli , a d fi all to i o atio poli .4 In particular, she takes a close look at the
+t a sitio f o EU te h olog poli to i o atio poli
+in the mid-1990s, arguing that while the
+main EU innovation policy documents at that time take a narrow view on innovation policy, actual EU
+
+37
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+activities towards supporting innovation go far beyond this narrow view and include areas such as
+education, small and medium-sized enterprises, regional policy, information society and competition
+policy (Borrás 2003: 17-20). A i po ta t ole i this i o atio tu in EU policy framing was played
+by expert communities in the OECD and national and Commission policy fora (Sanz-Menendez and
+Borrás 2001). Additionally, some studies have analysed the framing of the specific EU initiatives; for
+example, Jakob Edler (2003) studied the influence of economic ideas on the EU research programme
+BRITE (Basic Research in Industrial Technologies for Europe) in the 1980s.
+The ERA initiative launched in 2000 emerged during the most recent innovation policy frame. The
+earlier discussion of the long-term development of STI policy ideas helps to make sense of the
+development of ideas, values and interests involved in the ideational framework of the ERA initiative.
+This paper traces the evolution of the ERA initiative and its main goals from its launch in 2000 until
+2014 by studying relevant literature and the main documents defining the ERA initiative (e.g. the
+Co
+issio s Co
+u i atio s a d the Cou il s Co lusio s)5. The chronology of the key events of
+the ERA initiative is outlined in Box 2.
+
+Box 2: Evolution of the ERA initiative
+2000
+
+Launching ERA and Lisbon strategy
+
+2002
+
+Barcelona target of R&D funding of 3% of GDP
+
+2002
+
+Co
+
+2005
+
+Mid-term review and re-launch of Lisbon strategy
+
+2007
+
+ERA Green paper – public consultation
+
+2007
+
+Fifth f eedo
+
+2007
+
+European Research Council focussing on excellence established
+
+2008
+
+Ljubljana process on ERA governance as enhanced partnership
+
+2009
+
+Lisbon treaty enters into force providing treaty basis for ERA
+
+2009
+
+Lund declaration on Grand challenges
+
+2010
+
+Europe 2020 & Innovation Union
+
+2012
+
+ERA reform agenda and ERA Stakeholders Platform
+
+2013
+
+First ERA Progress Report
+
+2014
+
+Deadline for completing ERA
+
+2015
+
+ERA roadmap has to be developed
+
+u i atio
+
+The Eu opea ‘esea h A ea: P o idi g a e
+
+i the si gle
+
+a ket
+
+38
+
+o e tu
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+The two main phases in the development of the ERA initiative and its main ideas are distinguished
+here. The initial phase, from the launch of the ERA initiative in 2000 by the Commission with the
+endorsement from the Lisbon Council until the mid-term review of the Lisbon strategy in 2005, is
+characterised by the dominance of economic ideas and limited involvement of member states and
+stakeholders. The second phase, starting from the public consultation on the ERA in 2007, is
+characterised by dedicated efforts to develop a partnership with the member states and stakeholders
+and a broadening of the ERA goals to scientific excellence and societal relevance.
+
+Phase I (2000-2006): The Commission’s i itiative do i ated by economic ideas
+The European Commission launched the ERA initiative in January 2000. The initial ERA document (EC
+2000) sets out rationales for establishing the ERA and lists activities it should cover. However, it does
+not provide a definition of what the ERA actually is. The urgent need for European action was framed
+i te s of i p o i g Eu ope s competitive position and closing the gap with the United States (US)
+and Japan. The document provides data demonstrating that the EU lags behind the US and Japan on
+indicators such as public and private expenditure on research and development, employment of
+researchers in industry and trade in high-tech products. Concerns of the EU lagging behind the US
+have been a major driving force of integration of European research policy since the 1950s (SanzMenendez and Borrás 2001: 34). An important problem identified in the initial ERA document is a lack
+of coordination between national and European research policies.
+To address these problems and establish the ERA, the document suggests seven action lines:
+optimisation of resources and facilities at the European level, more coherent use of public instruments
+and resources, more dynamic private investment, a common system of scientific and technical
+reference for policy implementation, more abundant and mobile human resources, a dynamic
+European landscape that is open and attractive to researchers and investment, and an area of shared
+values. These seven broad lines cover diverse activities from designing effective tools to protecting
+intellectual property and encouraging risk capital investment to developing a shared vision of the
+ethical issues of science and technology. The use of policy instruments such as financial, legal and
+coordination measures was envisaged. While the EU was – to different degrees - already dealing with
+the actions listed, the novelty was bringing them together and the ambition was to develop them
+further under the large-scale framework of the ERA. The Commission stated at the outset that the ERA
+ill ot o e i to ei g i sta tl i its fi al fo . It ill de elop g aduall EC
+).6
+Borrás (2003: ) sees the a ge of topi s i the i itial E‘A do u e t as athe i p essi e a d
+i te p ets it as a sig that the Co
+issio has holehea tedl e
+a ed the s ste i app oa h ,
+aki g the p odu tio a d disse i atio of k o ledge the o e sto e of a t ul EU esea h
+s ste , ell e o d the deli ited f a e o k p og a
+e . Heiko Prange-Gstöhl (2010: 3) points out
+that the list of activities was important for narrowing down the ERA concept in a situation when the
+Commission did not provide a definition of the ERA. Thus, while a broad range of activities listed in
+the ERA initial document largely fit with the dominant innovation policy frame of this time (although
+questions can be asked about linkages and interactions between different activities), its main aims are
+articulated in line with ideas about economic competitiveness, already familiar from the technology
+policy frame. This can be explained by the specificity of innovation policy frame, i.e. its main focus on
+facilitating interactions and linkages in knowledge production and diffusion, paying less attention to
+ea lie
+ig uestio s about the ultimate aims of policy.
+The dominant economic rationales for the establishment of the ERA were strongly supported by the
+Lisbon strategy, launched two months thereafter. The Lisbon strategy set an ambitious goal for the EU
+in the next decade: to become the most competitive and dynamic knowledge-based economy in the
+world capable of sustainable economic growth with more and better jo s a d g eate so ial ohesio
+
+39
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+(LEC 2000). The strategy endorsed the ERA initiative and assigned it an important role in achieving the
+st ateg s ai goal. Specific steps for the establishment of the ERA were outlined, including
+encouragement to develop an open method of coordination for benchmarking national research
+policies, identifying indicators for assessing performance and setting up a European innovation
+scoreboard (LEC 2000). This focus on quantitative indicators is in line with the New Public
+Management approach.
+Accordingly, the Lisbon strategy established a number of quantitative targets including the so-called
+Barcelona target defined in 2002 to achieve research and development (R&D) funding of three per
+cent of gross domestic product (GDP) with one third coming from government funds and two thirds
+contributed by the private sector (BEC 2002). The pe e t target was set taking into account the
+higher R&D investment levels in the US and Japan (see Graph 1) which had already concerned EU
+policy-makers for some time. While increasing R&D funding is seen as important, the need to pay
+attention to quality, efficiency and composition of funding has been emphasised as well (CEU 2014).
+
+Graph 1: Gross domestic expenditure on R&D in the Triad, 2000-2010 (% of GDP). Source: Eurostat
+
+Less than three years after launching the ERA initiative, the Commission undertook an early review
+aiming to reinvigorate it (EC 2002). In this document, the ERA concept began to emerge more clearly
+as defined by three related and complementary ideas: a i te al a ket for research with free
+movement of knowledge, researchers and technology; improved coordination of national research
+policies; and development of European research policy that goes beyond funding activities.7 The
+document states that one of the main factors hampering progress for the ERA is insufficient
+participation from the member states. A low overall level of member state involvement is seen as a
+major barrier to tackling weaknesses such as the fragmentation of activities and the limited degree of
+coordination between national research policies. Achieving a substantial increase in member state
+involvement is one of the main objectives, along with the need for increasing the impact of the
+activities underway and consolidating the conceptual and policy framework in which the project is
+being implemented. Similar to the initial ERA document, the Commission presented a long list of
+activities to be strengthened that largely repeated those mentioned in 2000 (e.g. mobility and
+infrastructure), but also emphasised some new aspects such as the international dimension of the ERA
+and its openness to the world.
+In 2005, the mid-term review of the Lisbon strategy found limited progress towards its ambitious aims
+to become the most competitive economy. The strategy was re-launched as the Growth and Jobs
+strategy based on a close partnership between the Commission and the member states8. These
+developments further influenced the evolution of the ERA initiative.
+
+40
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+Phase II (2007-2014): Developing partnership and broadening aims
+After the initial review of the ERA initiative in 2002 and the mid-term review of the Lisbon strategy in
+2005, the ERA initiative gradually started to be better defined, to involve more actors and to broaden
+its ideational scope. While the Commission and economic ideas still played an important role, the
+member states and stakeholders were increasingly involved, and ideas on scientific excellence and
+addressing societal challenges acquired more prominence. The status of the ERA was strengthened by
+providing the concept a basis in the Lisbon treaty, which was signed in 2007 and entered into force in
+2009. Article 179 states that the EU has a o je ti e to a hie e the E‘A i hi h esea he s, s ie tifi
+k o ledge a d te h olog i ulate f eel EU
+).
+Simultaneously, the ERA aims were more closely linked to the core of the European integration
+process, namely the single market and its four freedoms. The communication on the single market (EC
+2007b) introduced knowledge and innovation as its new frontier, saying the si gle a ket o igi all
+conceived for an economy reliant on primary products and manufactured goods has to adapt to foster
+openness and integration in a knowledge-based, service-o ie ted e o o
+. The do u e t stated
+that in addition to the four established freedoms of the single market – free movement of people,
+goods, services and capital – the fifth f eedo of free movement of knowledge and innovation has
+to be promoted.
+Important changes in the ERA initiative were triggered by the 2007 ERA Green Paper (EC 2007a) that
+launched a public consultation on the ERA, activating European and national policy-makers as well as
+public and private research organizations to work on the creation of the ERA (Prange-Gstöhl 2010: 8).
+The Green Paper states that the scientific community, business and citizens need the ERA to have the
+six following features9: an adequate flow of competent researchers, a world-class research
+infrastructure, excellent research institutions, effective knowledge-sharing, well-coordinated research
+programmes and priorities, and a wide opening to the world.
+The ERA Green Paper mentions a number of new ideas and institutions that became significant in the
+following years. In particular, the social aims of research became more visible in this document. In the
+context of globalization and the emerging scientific and technological powers of China and India, the
+Green Paper presented the ERA as a cornerstone for a European knowledge society. The document
+states the importance of research in fulfilling EU economic, social and environmental ambitions and
+referred to the need of identifying major societal challenges10 jointly and for establishing joint
+programmes for society-driven research. Additionally, it emphasised that European research policy
+should be deeply rooted in European society and that besides the pursuit of scientific excellence, it
+should support policies for sustainable development in fields of major public concern such as health,
+energy and climate change. In the context of the recent deadline (set in 2010) to complete the ERA by
+2014, it is interesting that the Green Paper suggested that the ERA vision may not be fully realised for
+10 or 20 years – around the year 2020. The document envisaged an important role for the two new
+ERA institutions – the European Research Council (ERC) and the European Institute of Technology.
+The ERC launched in 2007 became a crucial element of the ERA, contributing to widening and
+strengthening the ERA initiative through new ideas and support from additional stakeholders11. It was
+largely built on the ideas of scientific elite about high quality research, academic freedom and selfgovernance of the research community (Luukkonen 2014). Thus, while excellence was not prominent
+on the initial ERA agenda, it has become a visible part of it since 2007 (Luukkonen 2014: 33-34). The
+ERC has been widely appreciated by the scientific community, which had previously been dissatisfied
+with the perceived quality, applied orientation and top-down nature of the EU Framework
+Programmes and wanted more funding for basic research in Europe (Luukkonen 2014: 40). The
+establishment and success of the ERC broadened the ERA ideational frame with long-standing ideas
+about the role of basic research and self-organization in the academic community that have been
+popular since the early days of the science policy frame. The broadened STI policy frame raises
+
+41
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+questions about how such support for asi esea h o alled frontie esea h ) interacts with
+other institutions in knowledge production and diffusion process.
+The increased engagement of a broader set of actors in the ERA triggered by the public consultation
+on the Green Paper (EC 2007a) was strengthened by the launch of the so- alled Lju lja a p o ess
+during the Slovenian presidency in 2008 (Prange-Gstöhl 2010: 9). Its core idea was to strengthen the
+ERA governance as an enhanced partnership between the member states and the European
+Commission with broad support from stakeholders and citizens (CEU 2008). Additionally, within the
+long-term vision for the ERA, the Council emphasised the ole of the knowledge triangle of research,
+innovation and education (CEU 2008).
+At this time, the social aspect and public support received increased attention within the ERA
+framework, in particular through the Grand Challenges concept12. In 2008, the ERA expert group
+recommended that the E‘A should e o st u ted as a esse tial ele e t of Eu ope s espo se to a
+series of Grand Challenges. According to them, a focus on Grand Challenges would provide substance
+to the ERA and increase support for the initiative and research in general, as Grand Challenges would
+aptu e pu li a d politi al i agi atio , eate idesp ead i te est a o g s ie tifi a d usi ess
+communities and NGOs and inspire younger people E‘A e pert group 2008: 37).
+During the Swedish presidency in 2009, the concept of Grand Challenges was put high on the European
+research policy agenda by the Lund Declaration, saying European research must focus on grand
+challenges of our time moving beyond rigid thematic approaches. This calls for the new deal among
+European institutions and member states, in which European and national instruments are well
+aligned and cooperation builds o t a spa e
+a d t ust (Lund Declaration 2009). The declaration
+stated that solutions have to be found in areas such as global warming, tightening supplies of energy,
+water and food, ageing societies, public health, pandemics and security. To respond to the Grand
+Challenges effectively, the ERA was seen as important for de elopi g processes for the identification
+of Grand Challenges, which gain political support and gradually move away from current thematic
+approaches, towards a structure where research priorities are ased o these G a d Challe ges . The
+focus on Grand Challenges in STI policy has spread around the world during the last 10 years. It has
+many similarities with earlier STI policy ideas about the social function of science and social concerns
+and it re-emphasises the i po ta e of ig ideas in the innovation policy frame, which initially paid
+little atte tio to the ig policy aims.
+When the Lisbon strategy expired in 2010, it was replaced by the Europe 2020 strategy for smart,
+sustainable and inclusive growth (EC 2010a). The Europe 2020 strategy adopted many ideas from the
+Lisbon strategy including the target to invest three per cent of GDP in R&D. The ERA initiative is
+particularly important for one of the seven so-called flagship initiatives of the Europe 2020 strategy,
+namely the Innovation Union flagship (EC 2010b), which sets 2014 as the deadline for completing the
+ERA. This target date has received some criticism for either being set too early13 or for being of limited
+use for such a complex and far-reaching initiative as the ERA; as stated by a major stakeholder
+organization Science Europe, the E‘A is a lo g-term project, and to strive fo its o pletio would
+e to la k a itio “ ie e Eu ope
+).
+The deadline to complete the ERA by 2014 is an important focus of the ERA reform agenda launched
+by the Commission in 2012 (EC 2012). This document provides a consolidated definition of the ERA
+based on the Lisbon treaty and the Council Conclusions stating that the ERA is a u ified esea h a ea
+open to the world based on the Internal market, in which researchers, scientific knowledge and
+technology circulate freely and through which the Union and its Member States strengthen their
+scientific and technological bases, their competitiveness and their capacity to collectively address
+Grand Challe ges (EC 2012). Additionally, the document sets out five ERA priorities which combine
+earlier ERA action lines (EC 2000, 2002, 2007a): more effective national research systems, optimal
+
+42
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+transnational cooperation and competition, an open labour market for researchers, gender equality,
+and optimal circulation of scientific knowledge including via the digital ERA.
+As a pragmatic approach towards implementing these priorities, a reinforced partnership between
+member states, the Commission and research stakeholder organizations has been suggested (EC
+2012). While the gradual involvement of the stakeholders has developed since the public consultation
+on the ERA Green Paper in 2007, the reinforced partnership envisages a new explicit role for the
+stakeholders. This new role led to the Commission signing the first joint statement with major
+stakeholder organizations (EARTO et al. 2012) to work together towards the achievement of the ERA.
+In 2013 this partnership was renewed (EARTO et al. 2013) by six stakeholder organizations: the
+European Association of Research and Technology Organisations (EARTO), the European University
+Association (EUA), the League of European Research Universities (LERU), a Nordic research funding
+organization NordForsk, an association of European research funding and performing organizations
+Science Europe and the Conference of European Schools for Advanced Engineering Education and
+Research (CESAER). The ERA Progress Report 2014 mentions that the Stakeholders Platform is a good
+instrument, contributing to ERA policy-making and implementation (EC 2014). According to the report,
+this platform could be expanded to include additional research players.
+Additionally, the 2012 reform agenda envisages the development of the ERA monitoring mechanism
+(EC 2012). The first comprehensive ERA Progress Report was prepared in 2013 (EC 2013). After
+reviewing it, the Council (CEU 2014) invited the member states and the Commission to develop an ERA
+roadmap by mid-2015 at the European level to provide a shared understanding and facilitate national
+efforts in implementing ERA objectives. The ERA Progress Report 2014 (EC 2014) presents the
+development of the roadmap as a major step in strengthening the implementation of the ERA. The
+launch of the new funding programme Horizon 2020 in 2014 is seen as providing new momentum for
+the ERA implementation (CEU 2014). The three priorities of Horizon 2020 (EC 2011) are excellent
+science, societal challenges and industrial leadership14, which are related to the diverse STI policy ideas
+of scientific freedom, societal relevance and economic competitiveness.
+The ERA Progress Report 2014 (EC 2014) concludes that the conditions for the completion of ERA are
+o i pla e, a d it is o up to Member States and research stakeholders to implement the
+necessary ERA reforms and make E‘A o k . While 2014 was previously set as a deadline for
+o pleti g the E‘A, the
+p og ess epo t states that the o pletio of E‘A, like the i te al
+market, re ai s a g adual p o ess 15 (EC 2014). To summarize, the ERA initiative has indeed developed
+gradually since its launch in 2000. Initially, the Commission presented a rationale for the ERA and a
+long list of activities it involves but did not even define it. It took approximately a decade for the ERA
+initiative to acquire some of its essential features such as a treaty basis in 2009, explicit partnership
+with stakeholders in 2012 and its first comprehensive monitoring report in 2013. Thus, during 14
+years, the ERA initiative has de eloped f o the Co
+issio s project dominated by economic
+rationale to a broader initiative involving member states and stakeholders and having a wider range
+of economic, social and scientific aims.16
+The initial ERA initiative has been criticized for being a collection of activities with no vision and no
+mission (Delanghe et al. 2009). Such an approach largely fits with the innovation policy frame that
+emerged in the 1990s focusing mainly on interactions and linkages among institutions and actors
+involved in knowledge productio a d diffusio athe tha o
+ig uestio s about the vision and
+mission of policy that dominated during earlier science and technology policy frames. However, during
+the last ten years this innovation policy frame has been changing and ig ideas such as the need for
+research to address Grand Challenges has become popular around the world. Today the ERA is still
+largely characterized by a collection of activities (reforming research systems, supporting
+collaboration and competition, facilitating mobility), which are regularly monitored ut big
+
+43
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+questions of vision and mission such as societal challenges play an increasingly important role in
+defining the ERA.
+
+CONCLUSIONS AND OUTLOOK: FROM TENSIONS TO INTERACTIONS?
+The long-term evolution of STI policy ideas discussed earlier helps to analyse the ideational
+development of the ERA initiative and the strategic use of big ideas (such as excellent science and
+Grand Challenges) to broaden support for the ERA among the research community and society.
+The ERA initiative was launched at the time of a broad STI policy frame emphasizing a systematic
+approach to knowledge production and diffusion. While the innovation policy frame that emerged in
+the 1990s influenced the ideational framework of the ERA initiative, it does not fully explain its
+development from 2000 to 2014. The initial list of ERA activities covering research, innovation and
+societal involvement (EC 2000) largely corresponded to the innovation policy frame, even if the links
+between different activities were not always explicit. However, the original rationale of the ERA
+initiative was framed more narrowly, emphasising economic competitiveness (EC 2000), an idea,
+which has been widely used in policy framing for several decades despite criticism it has received
+(Krugman 1994). While the initial document (EC 2000) mentioned the need for a broad-based
+debate17, social and scientific aims (known in science policy since the 1940s) were not invoked in
+framing the key reasons for launching ERA.
+The strong initial focus on economic aims corresponded to the goals of the Lisbon strategy with which
+the ERA initiative was closely linked. Historically, economic rationales had already been at the core of
+European integration. Accordingly, the ERA initiative was framed in the context of the internal/single
+market and its four freedoms, i.e. as an internal market for research (EC 2002) and as the fifth freedom
+(EC 2007b), although in research policy literature, the limits of organising research systems according
+to market principles have been pointed out (Georghiou 2006). However, initial reviews of the ERA (EC
+2002) and the Lisbon strategy showed limited success in achieving economic goals and demonstrated
+the need to involve the member states.
+An important change in the ERA initiative came with the Green Paper in 2007 (EC 2007a), which
+launched a public consultation. In addition to economic aims it also emphasised social and scientific
+goals of the ERA. The scientific elite has been supportive of the ERC funding research on topics chosen
+by scientists themselves and judged by their scientific peers (Luukkonen 2014). Thus, the ideational
+framework of the ERA has been extended to include long-standing ideas from an early science policy
+frame such as academic freedom and self-governance (Polanyi 1962). Another institution, the
+European Institute of Innovation and Technology, has been established to implement ideas of the
+knowledge triangle between education, research and innovation. The concept of the knowledge
+triangle largely builds on innovation policy ideas such as innovation systems (Lundvall 1992), triple
+helix (Leyedesdorff and Etzkowitz 1996) and the third mission of universities (Goransson et al. 2009).
+The strategic use of ideas to strengthen the ERA and enlarge its support has been particularly
+emphasised in recommendations to use the concept of addressing Grand Challenges as a rationale for
+the ERA (ERA Expert group 2008). The experts explicitly suggested the use of the Grand Challenges
+concept as a way to increase support for the ERA initiative among political, scientific and business
+communities, civil society and younger people. The Grand Challenges concept, strengthened by the
+Lund Declaration in 2009, has broadened the ERA goals to addressing social issues such as health,
+environment and climate change. The concept emphasises the social goals of research, which have
+been a recurring theme in expanding the STI policy frame for more than half a century, e.g. in debates
+about the social function of science (Bernal 1939) in the initial science policy frame, the need to
+
+44
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+address pressing social issues (Nelson 1977) in the technology policy frame and the more recent
+approach of the Mode 2 knowledge production (Gibbons et al. 1994) in the innovation policy frame.
+To summarize, linking the ideational framework of the ERA initiative to long-standing STI policy ideas
+(for an overview see Table 1) also helps to analyse the broadening of the ERA aims and to understand
+the ERA initiative within the broader context of research policy ideas
+d a i g atte tio to the
+continuation and deepening of old issues i e fo s (Elzinga 2012: 426).
+
+Table 1: Main ideas in the ERA initiative and their roots in long-term STI policy ideas
+Main ideas in the ERA initiative
+
+Their roots in long-term STI policy ideas
+
+Contribution to international economic
+competitiveness, internal market,
+fifth
+f eedo
+
+Economic perspectives of 1970s on
+contribution of STI to global competiveness
+
+Scientific excellence, frontier research,
+autonomy, European Research Council
+
+Scientific freedom (Polanyi 1962; Bush 1945)
+
+Grand/societal challenges
+
+Social function of science (Bernal 1939), solving
+social problems (Nelson 1977), Mode 2
+
+Knowledge triangle of education, research and
+innovation, EIT
+
+Innovation systems, triple helix, third mission
+
+Monitoring: Lisbon strategy, Europe 2020,
+Scoreboards, Progress Reports
+
+New Public Management, quantification of
+objectives
+
+Thus, the broadened ERA ideational frame18 as found in a recently consolidated ERA definition (EC
+) a d Ho izo
+p io ities i ludes disti t, et utuall ei fo i g, p io ities EC 2011) of
+scientific excellence, societal challenges and economic competitiveness. While these different ideas
+coexist and ensure a broader support for the ERA initiative, links and relationships between them are
+underdeveloped. It remains to be seen if and how the ERC grants supporting excellent science could
+be mutually reinforced with projects addressing societal challenges and promoting industrial
+leadership. This lack of interactions between diverse ideas in science, technology and innovation
+policy is not unique to the ERA initiative. Research policy studies have paid relatively little attention
+to the interactions among these diverse ideas. While tensions among them have been emphasised
+(Borrás 2012; Nelson 1977), possibilities to combine diverse ideas of excellence and relevance (Irwin
+2014; Rip 2011) need to be further explored and conceptualized. Further articulation of tensions and
+interactions among diverse policy aims and specific instruments designed to implement them could
+facilitate the development of a more comprehensive ERA frame.
+***
+
+Correspondence address
+Inga Ulnicane, Institute for European Integration Research EIF, University of Vienna, Strohgasse
+45/DG, 1030 Vienna, Austria [inga.ulnicane@univie.ac.at]
+
+45
+
+Volume 11, Issue 1 (2015) jcer.net
+
+1I
+
+this pape , the te
+
+s s ie e, te h olog a d i
+
+Inga Ulnicane
+
+o atio poli
+
+a d esea h poli
+
+a e used as synonyms.
+
+2 Known by their abbreviation as CUDOS norms, see Elzinga 2012.
+3 Including national, regional, sectoral and trans-national innovation systems.
+4 For an elaboration of a similar argument see Sanz-Menendez and Borrás 2001.
+5 The Commission has prepared detailed documents on specific aspects of the ERA initiative such as mobility,
+
+infrastructures and networking of national programmes (EC 2002). An analysis of all of these numerous documents is far
+beyond the scope of this paper, which focusses on the key documents defining overall objectives and activities of the ERA
+initiative. Detailed information on specific aspects of the ERA initiative can be found on the official ERA website
+http://ec.europa.eu/research/era/index_en.htm. Accessed 2 August 2014.
+6 Lepo i et al.
+:
+) state that the E‘A ep ese ted i
+a e pt f a e of efe e e . Ho e e , this state e t is
+not based on the analysis of the ERA initiative and relevant documents but on the study of one specific element of the ERA,
+namely joint European research programmes, the majority of which were launched after 2000. Against the background of
+the ERA initial document (EC 2000) listing numerous ongoing activities, their general statement about the ERA can be
+questioned.
+7 This approach to the ERA concept as combining these three elements is also used later in the ERA Green Paper (EC
+2007a).
+8 For more information on the Lisbon strategy for Growth and Jobs see its official website
+http://ec.europa.eu/archives/growthandjobs_2009/. Accessed 2 August 2014.
+9 These six features largely consolidate action lines mentioned in the initial ERA documents (EC 2000, 2002).
+10 At this ti e, the o ept of G a d/“o ietal Challe ges
+as e o i g popula i “TI poli a ou d the o ld, i
+particular after the Gates Foundation launched its Grand Challenges in Global Health initiative in 2003. Available at
+http://grandchallenges.org/. Accessed 27 October 2014.
+11 In the ERA reform programme (EC 2012), the ERC is mentioned as one of the examples of progress in building the ERA.
+12 The o ept of “o ietal Challe ges used i “TI poli
+i te ha gea l ith G a d Challe ges ) as al ead
+mentioned in the ERA Green Paper (EC 2007a).
+13 It is earlier than 2020, as mentioned in the ERA Green Paper (EC 2007a).
+14 The details on the implementation of these three priorities are provided on the Horizon 2020 official website
+http://ec.europa.eu/programmes/horizon2020/h2020-sections. Accessed 2 August 2014.
+15 The idea that the ERA will develop gradually was mentioned already in the initial document launching the ERA initiative
+(EC 2000).
+16 To implement these aims, a range of financial, coordination and legal instruments are used including new funding
+schemes within the recent EU Framework Programmes (Edler and Kuhlmann 2011), joint funding programmes among the
+member states (Lepori et al. 2014) and Open Method of Coordination (De Ruiter 2010). A variety of policy instruments
+addresses issues such as research careers (Chou and Real-Dato 2014), citizen participation and infrastructure (Ryan
+forthcoming). An analysis of these instruments and their implementation is beyond the scope of this article.
+17 It was stated that this broad- ased de ate should u fold fi st a d fo e ost i the Eu opea i stitutio s ; o l
+afte a ds as it e tio ed that it is also esse tial to hea the ie s of the s ie tifi o
+u it , the o ld of i dust
+a d, o e oadl
+i il so iet , a d the e e states ould e i ited to o ga ize de ates at atio al a d egio al
+levels (EC 2000).
+18 The findings on the broadening of the main aims of the ERA initiative in this paper are similar to the observations of
+Meng-Hsuan Chou (2014) on the ideational widening of the ERA concept and Terttu Luukkonen (2014) on the evolved ERA
+concept.
+
+46
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+REFERENCES
+BEC (Barcelona European Council) (2002). Presidency Conclusions, 15 and 16 March.
+Bernal, J.D. (1939 [1967]). The Social Function of Science. Cambridge: The MIT Press.
+Biegelbauer, P.S. and Borrás, S. (2003). Introduction: Ideas and the Transition from Technology to Innovation Policy , in P.S.
+Biegelbauer and S. Borrás (eds.) Innovation Policies in Europe and the US. The New Agenda. Aldershot: Ashgate: 1-15.
+Boekholt, P. (2010). The Evolution of Innovation Paradigms and their Influence on Research, Technological Development
+and Innovation Policy Instruments , in R.E. Smits, S. Kuhlmann and P. Shapira (eds.) The Theory and Practice of Innovation
+Policy. An International Research Handbook. Cheltenham: Edward Elgar: 333-359.
+Borrás, S. (2012). Three Tensions in the Governance of Science and Technology , in D. Levi-Faur (ed.) Oxford Handbook of
+Governance. Oxford: Oxford University Press: 429-440.
+Borrás, S. (2003). The Innovation Policy of the European Union. From Government to Governance. Cheltenham: Edward
+Elgar.
+Bush, V. (1945). Science The Endless Frontier. Washington: United States Government Printing Office.
+CEU (Council of the European Union) (2014). Conclusions on progress in the European Research Area. 21 February,
+Brussels.
+CEU (Council of the European Union) (2008). Conclusions on the launch of the Lju lja a P o ess - towards full realisation
+of ERA, 28-29 May, Brussels.
+Chou, M.H. (2014). The evolution of the European Research Area as an idea in European integration , in M.H. Chou and Å.
+Gornitzka (eds.) Building the Knowledge Economy in Europe. New Constellations in European Research and Higher
+Education. Cheltenham: Edward Elgar: 27-50.
+Chou, M.H. and Real-Dato, J. (2014). T a slati g the Eu opea Cha te fo Researchers and the Code of Conduct for the
+Recruitment of Resea he s i national arenas: Norway vs Spain , in M.H. Chou and Å. Gornitzka (eds.) Building the
+Knowledge Economy in Europe. New Constellations in European Research and Higher Education. Cheltenham: Edward Elgar:
+51-80.
+Daviter, F. (2007). Policy Framing in the European Union. Journal of European Public Policy, 14(4): 654-666.
+Delanghe, H., Muldur, U. and Soete, L. (eds.) (2009). European Science and Technology Policy. Towards Integration for
+Fragmentation?. Cheltenham: Edward Elgar.
+De Ruiter, R. (2010). Variations on a Theme. Governing the Knowledge-Based Society in the EU through Methods of Open
+Coordination in Education and R&D. Journal of European Integration, 32(2): 157-173.
+EARTO, EUA, LERU, NordForsk, Science Europe, CESAER and European Commission (2013). Joint Declaration on Working in
+Partnership in Achieving the European Research Area, Brussels.
+EARTO, EUA, LERU, NordForsk, Science Europe and European Commission (2012). Joint Statement on Working in
+Partnership in Achieving the European Research Area, Brussels.
+EC (European Commission) (2014). European Research Area. Progress Report 2014. 15 September. COM(2014) 575,
+Brussels.
+EC (European Commission) (2013). European Research Area. Progress Report 2013. 20 September. COM(2013) 637,
+Brussels.
+EC (European Commission) (2012). A Reinforced European Research Area Partnership for Excellence and Growth.
+Communication 17 July. COM(2012) 392, Brussels.
+EC (European Commission) (2011). Horizon 2020 – The Framework Programme for Research and Innovation.
+Communication 30 November. COM(2011) 808, Brussels.
+EC (European Commission) (2010a). Europe 2020 A strategy for smart, sustainable and inclusive growth. Communication 3
+March. COM(2010) 2020, Brussels.
+
+47
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+EC (European Commission) (2010b). Europe 2020 Flagship Initiative Innovation Union. Communication 6 October.
+COM(2010) 546, Brussels.
+EC (European Commission) (2007a). The European Research Area: New Perspectives. Green Paper 4 April. COM(2007) 161,
+Brussels.
+EC (European Commission) (2007b). A single market for 21st century. Communication 20 November. COM(2007) 724,
+Brussels.
+EC (European Commission) (2002). The European Research Area: Providing new momentum. Communication 16 October.
+COM(2002) 565, Brussels.
+EC (European Commission) (2000). Towards a European Research Area. Communication 18 January. COM(2000) 6, Brussels.
+Edler, J. (2003). How Do Economic Ideas Become Relevant in RTD Policy Making? Lessons From a European Case Study, in
+P.S.Biegelbauer and S.Borrás (eds.) Innovation Policies in Europe and the US. The New Agenda. Aldershot: Ashgate: 253284.
+Edler, J. and Kuhlmann, S. (2011). Integration of European Research Systems: A Multi Dimensional Phenomenon , in
+D.Jansen (ed.) Towards a European Research Area. Baden-Baden: Nomos: 71-96.
+Edler, J., Kuhlmann, S. and Behrens, M. (eds.) (2003). Changing Governance of Research and Technology Policy: The
+European Research Area. Cheltenham: Edward Elgar.
+Elzinga, A. (2012). Features of the current science policy regime: Viewed in historical perspective. Science and Public Policy
+39 (4): 416-428.
+Elzinga, A. and Jamison, A. (1995). Changing Policy Agendas in Science and Technology , in S. Jasanoff, G.E. Markle, J.C.
+Peterson and T. Pinch (eds.) Handbook of Science and Technology Studies. Thousand Oaks: Sage: 572-597.
+ERA Expert Group (2008). Challe gi g Europe’s Resear h: Ratio ales for the Europea Resear h Area ERA , Report,
+Brussels.
+Ergas, H. (1987). The importance of technology policy , in P. Dasgupta and P. Stoneman (eds.) Economic policy and
+technological performance. Cambridge: Cambridge University Press: 51-96.
+EU (European Union) (2010). Consolidated Treaties. Charter of Fundamental Rights. Luxembourg: Publications Office if the
+European Union.
+Georghiou, L. (2006). Innovation, Learning, and Macro-institutional Change: The Limits of the Market Model as an
+Organizing Principle for Research Systems , in J. Hage and M. Meeus (eds.) Innovation, Science, and Institutional Change. A
+Research Handbook. Oxford: Oxford University Press: 217-231.
+Gibbons, M., Limoges, C., Nowotny, H., Schwartzman, S., Scott, P. and Trow, M. (1994). The New Production of Knowledge:
+The Dynamics of Science and Research in Contemporary Societies. Thousand Oaks: Sage.
+Goransson, B., Maharajh, R. and Schmoch, U. (2009). Introduction: New challenges for universities beyond education and
+research. Science and Public Policy, 36(2): 83-84.
+Guston, D.H. (2012). The Pumpkin or the Tiger? Michael Polanyi, Frederick Soddy, and Anticipating Emerging Technologies.
+Minerva, 50(3): 363-379.
+Hagstrom, W.O. (1965). The Scientific Community. New York: Basic Books.
+Irwin, A. (2014). Excellence and responsibility in social scientific research: both, neither, either/or?. Keynote speech at the
+conference Changing Worlds: Ideologies, Utopias and Ambitions in Science and Technology. University of Vienna, 20-22
+November.
+Kline, S.J. and N. Rosenberg (1986). An Overview of Innovation , in R. Landau and N. Rosenberg (eds.) The Positive Sum
+Strategy: Harnessing Technology for Economic Growth. Washington, DC: National Academy Press: 275-305.
+Krugman, P. (1994) Competitiveness: A Dangerous Obsession. Foreign Affairs, 73(2): 28-44.
+LEC (Lisbon European Council) (2000). Presidency Conclusions, 23 and 24 March.
+
+48
+
+Volume 11, Issue 1 (2015) jcer.net
+
+Inga Ulnicane
+
+Lepori, B., Reale, E. and Laredo P. (2014). Logi s of i teg atio a d a to s st ategies in European joint programs. Research
+Policy, 43(2): 391-402.
+Leydesdorff, L. and Etzkowitz, H. (1996). Emergence of a Triple Helix of university-industry-government relations. Science
+and Public Policy, 23(5): 279-286.
+Lund Declaration (2009). Europe must focus on the grand challenges of our time, Lu d o fe e e New Worlds - New
+“olutio s , Jul
+9.
+Lundvall, B.A. (ed.) (1992). National Innovation Systems: Towards a Theory of Innovation and Interactive Learning. London:
+Pinter.
+Lundvall, B.A. and Borrás, S. (2005). Science, Technology, and Innovation Policy , in J. Fagerberg, D.C. Mowery and R.R.
+Nelson (eds.) The Oxford Handbook of Innovation. Oxford: Oxford University Press: 599-631.
+Luukkonen, T. (2014). The European Research Council and the European research funding landscape. Science and Public
+Policy, 41(1): 29-43.
+Merton, R. (1942 [1973]). The Normative Structure of Science , in R. Merton and N. Storer (eds.) The Sociology of Science.
+Theoretical and Empirical Investigations. Chicago: The University of Chicago Press: 267-278.
+Nelson, R.R. (2011). The Moon and The Ghetto revisited. Science and Public Policy, 38(9): 681-690.
+Nelson, R.R. (1977). The Moon and the Ghetto. An Essay on Public Policy Analysis. New York: W.W. Norton & Company.
+Peterson, J. and Sharp, M. (1998). Technology Policy in the European Union. Basingstoke: Macmillan.
+Pielke Jr., R. (2014). In Retrospect: The Social Function of Science. Nature, 507(7493): 427-428.
+Pielke J ., ‘.
+
+). Basic Resea h as a Politi al “
+
+ol. Minerva 50(3): 339-361.
+
+Polanyi, M. (1962). The Republic of Science. Its Political and Economic Theory. Minerva. 1(1): 54-73.
+Prange-Gstöhl, H. (2010). The Eu opea ‘esea h A ea goes glo al : a introduction , in H. Prange-Gstöhl (ed.)
+International Science and Technology Cooperation in a Globalized World. The External Dimension of the European Research
+Area. Cheltenham: Edward Elgar: 1-27.
+Price, D.J.D. (1963). Little Science, Big Science. New York: Columbia University Press.
+Rein, M. and Schön, D. (1993). Reframing Policy Discourse , in F. Fischer and J. Forester (eds.) The Argumentative Turn in
+Policy Analysis and Planning. London: UCL Press: 145-166.
+Rip, A. (2011). The future of research universities. Prometheus 29(4): 443-453.
+Rip, A. (1994). The republic of science in the 1990s. Higher Education 28(1): 3-23.
+Ryan, L. (forthcoming). Governance of EU research policy: Charting forms of scientific democracy in the European Research
+Area. Science and Public Policy.
+Sanz-Menendez, L. and Borrás, S. (2001). Explaining Changes and Continuity in EU Technology Policy: The Politics of Ideas ,
+in S. Dresner and N. Gilbert (eds.) The Dynamics of European Science and Technology Policies. Aldershot: Ashgate: 28-51.
+Science Europe (2013). Science Europe Roadmap. Brussels.
+Ziman, J.M. (1983). The collectivization of science. The Bernal lecture, 1983. Proceedings of the Royal Society of London B
+219 (1214): 1-19.
+
+49
+
+

@@ -1,0 +1,2686 @@
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Artificial Intelligence (AI) Governance: An Overview © Alexander A Wodi*1
+Abstract
+The explosion of interest in AI which bestrode the introduction of OpenAI’s Chat GPT and GPT 4
+underscores the need for this overview to contextualize and address public concerns.
+If you are like me or most people, my early impression of Artificial Intelligence (AI) was largely
+influenced and shaped by Hollywood. I remember the doomsday scenario in the Terminator movie
+franchise. However, there is more to AI than killer robots or drones. AI has huge potential in such
+areas as finance, agriculture, manufacturing, medicine, robotics, research, education, autonomous
+vehicles, including law enforcement, military, and defence applications. AI like many human
+technologies and discoveries has a dual use problem. Meaning it may be employed for good or
+bad. It is often the fear of the latter that is reflected in movies. The rapid evolution of AI technology
+at breakneck speed has implications for humans and society. AI and Algorithm bias and
+discrimination, systemic and environmental risks, the intersections between AI and data privacy,
+torts, and IP rights violations have made AI governance a necessity and imperative.
+This paper looks at global and regional efforts to come up with strategies and regulatory
+frameworks for AI governance. Chief amongst them include the OECD AI Principles; the EU AI
+Act; and the NIST AI RMF. The common thread running through these frameworks and legislation
+is identifying and categorizing AI developments and deployments according to their risk levels
+and providing guidelines for ethical and trustworthy AI with considerations for human safety and
+innovation. Also identified and examined are a few national and state efforts, namely in the US,
+UK, Canada, China, Nigeria, and Singapore.
+The objective is to facilitate understanding of AI governance among AI stakeholders and arm AI
+actors with the tools to establish a robust AI risks management framework and compliance regime.
+Key Words: AI, AI Governance, Data Privacy, OECD AI Principles, NIST AI RMF, EU AI Act.
+
+*1 Alex Wodi (JD/LLB, BL, LLM, CIPP/US, ISC2 CC, ACIArb, UK, Member ICMC) is a lawyer and a certified
+cybersecurity and data privacy professional. He has a background in banking and commercial law, regulatory
+compliance, international law, and comparative law. He is also a chartered arbitrator, mediator, and conciliator. He has
+written many scholarly articles and is the author of Garnishment Law and Practice in Nigeria, UK, and US (Amazon,
+and Barnes & Noble, 2023) ISBN 9798987288306 and The Most Expensive Real Estate and Other Works: An
+Anthology of Essays, Poems and Artworks on the Cusp of a Pandemic (Amazon, 2021) ISBN 9798706781880. He
+may be contacted via email – aawodi21@yahoo.com or alexwodi@wodiandwodi.com.
+
+i
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Contents
+1.0 AI and AI Governance ………………………………………………………………….….... 1
+1.1 AI and AI Systems: Types and Applications ……………………………….…….……... 2
+1.2. What is AI Governance? …………………………………………………….....….……. 9
+1.3. Why is AI Governance Important? ………………………………………..…….……… 10
+2.0. OECD AI Principles …………………………………………………………………….…. 19
+3.0. NIST AI RMF ………………………………………………………………………….…... 25
+4.0. EU AI Act ………………………………………………………………….…….……….... 32
+5.0. Other Global Trends …………………………………………………………………….…. 38
+6.0. Next Steps.…………………………………………………………………………….….… 52
+
+ii
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+1.0 AI and AI Governance
+Artificial intelligence (AI) may very well be the greatest invention of our time. It has been likened
+to the discovery of fire or the invention of the internet. The rapid growth and various use cases of
+AI have implications for humans and society. This has heightened interest in the subject matter,
+the regulatory frameworks, and strategies to be adopted by governments, big technology
+companies, consumers, lobbyists, activists, and other stakeholders to govern and manage AI.
+AI has become the number one topic at board meetings1 and government fora.2 Primus amongst
+their concerns are how best to regulate AI, integrate AI into the economy and build capacity around
+AI. Governments must adopt AI strategies that preserve the rights and freedoms of consumers and
+at the same time promote and do not stifle research and development. In sum, ensuring “innovative
+and trustworthy AI.”
+Presently there are essentially three major approaches to AI Governance identifiable globally.
+These are distributed among the three dominant digital powers – European Union (EU), United
+States (US), and China. They are the comprehensive legislation approach adopted by the EU; the
+industry-specific approach adopted by the US; and the state-controlled approach adopted by
+China.3 The US has pioneered a market driven model, China a state-driven model and the EU a
+rights-driven model.4 All three approaches reflect different AI regulatory guiding principles and
+priorities tied to divergent economic theories, political ideologies, and cultural identities. 5
+The convergence of AI benefits and risks is governance. AI Governance provides strategies,
+standards, rules, and guidelines to manage the development and deployment of AI.
+There are intersections between artificial intelligence and privacy law. This is because of the
+importance of data to AI. Large datasets are used to train AI models. These may include personal
+data.6 AI may also be used to process personal data or for automated decision making and profiling.
+Personal data or Personally Identifying Information (PII) is any information or piece of
+1
+IOD – “AI in the Boardroom: The essential questions for your next board meeting” (IOD, 24 March 2023)
+<https://www.iod.com/resources/science-innovation-and-tech/ai-in-the-boardroom-the-essential-questions-for-yournext-board-meetin/> accessed 19 May 2024.
+2
+Kostas Loukas and Madhavi Gosalia “AI innovation takes center stage at the World Governments Summit 2024”
+(Microsoft, 14 March 2024) <https://www.microsoft.com/en-us/industry/blog/government/2024/03/14/ai-innovationtakes-center-stage-at-the-world-governments-summit-2024/> accessed 23 May 2024.
+3
+3 Essential Features to AI Governance (WEF, 28 November 2023)
+<https://www.weforum.org/agenda/2023/11/generative-ai-governance-regulation/> accessed 3 April 2024.
+4
+A similar divergence of approach is notable in respect of privacy and privacy law.
+5
+Anu Bradford, Digital Empires (OUP 2023) 7.
+6
+Data sources could be first party (from data subjects directly); public sources (public records, websites or
+publications); or third-party (from data brokers or companies that share or sell their data assets).
+
+1
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+information relating to an identified or identifiable natural person that can be used to identify such
+person directly or indirectly.7
+Sometimes sensitive personal data and Protected Health Information (PHI) may be affected. These
+data are protected under such laws as the EU General Data Protection Regulation (GDPR) 8 or
+Health Insurance Portability and Accountability Act (HIPAA). 9 There have also been concerns
+raised about violation of intellectual property (IP) law in respect of copyrighted works used as
+training material for developing AI models.
+1.1 AI and AI Systems: Types and Applications
+From the abacus to modern computers the history of humanity and civilization is replete with
+examples of mathematical and computational tools10 used to aid human intelligence11 and
+ultimately mimic human intelligence and perform human-like tasks.12 Examples include the
+
+7
+
+Such as your name, address, phone number, date of birth, social security number, account number, national identity
+number (NIN), bank verification number (BVN), URL or IP address, medical and health information, biometric data,
+geographic information, or email address. GDPR, art 4 defines “personal data” thus - any information relating to an
+identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified,
+directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location
+data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic,
+cultural, or social identity of that natural person.
+8
+GDPR, art 9 defines “sensitive personal data” or “special categories of personal data” to include - Race and ethnic
+origin; political opinions; Religious or philosophical beliefs; Trade union membership; Genetic data; Biometric data;
+Health data; and Sex life or sexual orientation. The GDPR prohibits processing of sensitive personal data except with
+the explicit consent of the data subject.
+9
+HIPAA protects sensitive health information from being disclosed without the patient’s consent or knowledge.
+10
+David Darling, The Universal Book of Mathematics: From Abracadabra to Zeno’s Paradox (1st edn, Wiley 2004),
+ISBN 0471270474.
+11
+Colossus, ENIAC, IBM 5100 are 19th – 20th century examples of programmable machines and early computers.
+We are told Quantum Computing, Chemical Computing, DNA Computing and Optical Computing are the next wave.
+12
+ChatGPT, DALL-E and Midjourney are recent popular examples of AI, Generative AI in particular, used to generate
+text and images from descriptive prompts. Open AI recently announced its latest AI model, Sora an AI video generator
+capable of generating videos from simple text prompts. See AI Revolution, “AI Shocks Yet Again: New ChatGPT
+Features, OpenAI Sora’s New Music Video, Samsung AI Fridge & More!” (YouTube, 5 April 2024)
+<https://www.youtube.com/watch?v=nC1MqXXsXhg> accessed 6 April 2024.
+
+2
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Ishango bone,13 Abacus,14 Astrolabe,15 Babbage’s adding machine,16 ENIAC, Mainframe
+Computers, IBM’s Deep Blue, Home Computers, laptops, smart phones, ChatGPT 17 and Quantum
+Computers.
+Artificial Intelligence (AI) is one of the disruptive technologies identified in the Fourth Industrial
+Revolution.18 The term “artificial intelligence” was coined in 1955 by John McCarthy of the
+Massachusetts Institute of Technology (MIT) in a bid to distinguish the field of AI from other fields
+like “cybernetics” and “automata theory.” The term AI was formally introduced in the proposal for
+the Dartmouth Summer Research Project on Artificial Intelligence held in 1956.19 The Dartmouth
+Workshop involved the top scientists and mathematicians of the time and is considered the pivotal
+event establishing AI as a field of study. However, prior to that Alan Turing in a 1950 article titled
+“Computing Machinery and Intelligence”20 had posed the question, “can machines think?” Turing
+also proposed a Turing Test or imitation game to compare computer intelligence and human
+intelligence. Turing’s paper attempted to deepen the concept of what would six years later be
+termed “artificial intelligence.”21
+
+The Ishango bone discovered in Congo (DRC) in 1950 is dated at between 18,000 to 20000 BCE (Upper Palaeolithic
+Era) and is suggested to be a tool for performing simple arithmetic tasks or used as a lunar calendar for tracking
+celestial events. The Ishango bone is often confused with the Lebombo bone, dated at over 40,000 BCE, conjectured
+to be a tally stick discovered in a cave in the Lebombo Mountain located between South Africa and Eswatini. See
+Adina Socaci, “The Ishango Bone: Unraveling the Earliest Evidence of Mathematics in Human History” (Medium, 24
+July 2023) <https://adinasocaci.medium.com/the-ishango-bone-unraveling-the-earliest-evidence-of-mathematics-inhuman-history-85b9864e2e7c> accessed 21 December 2023.
+14
+The Abacus was used by the Babylonians, Romans, and Chinese from as early as 2400 BCE. See TI Oren, “Advances
+in Computer and Information Sciences: From Abacus to Holonic Agents” Special Issue on Artificial Intelligence of
+Elektrik (Turkish Journal of Electrical Engineering and Computer Sciences - Published by TUBITAK - Turkish
+Science and Technical Council) 9:1, 63-70.
+15
+The Astrolabe was used by the Greeks, Persians, and Arabs in ancient times as a star chart for working out problems
+and calculations in astronomy. See Gentili, Graziano; Simonutti, Luisa; Struppa, C Daniele, “The Mathematics of the
+Astrolabe and Its History” (2020) Journal of Humanistic Mathematics. 10: 101–144. doi:10.5642/jhummath.202001.0.
+16
+Charles Babbage’s Difference Engine and its proposed successor the Analytical Engine were inspired by the
+Jacquard Loom and developed in collaboration with Ada Lovelace (daughter of Poet Lord Byron).
+17
+Generative Pre-trained Transformer (GPT) – AI that utilizes a transformer model that excels at understanding
+context, meaning, and relationships in sequential data, which allows it to predict and generate human-like text.
+18
+Others include – blockchain, cloud computing, nanotechnology, IoT, 3D Printing, robotics, biotechnology and
+genetic engineering, drone technology, quantum computing, VR and AR, autonomous vehicles et al. See World
+Economic Forum (WEF) Centre for the Fourth Industrial Revolution Network Impact Report 2023-2023 (WEF,
+January 2024). <https://www.weforum.org/publications/centre-for-the-fourth-industrial-revolution-network-20222023/> accessed 3 April 2024.
+19
+The Dartmouth Conference was a six to eight weeks brainstorming workshop comprising scientists and
+mathematicians held between 18 June – 17 August 1956 at the top floor of the Dartmouth Math Department,
+Dartmouth College, Hanover, New Hampshire.
+20
+AM Turing, “Computing Machinery and Intelligence” Mind, Volume LIX, Issue 236, October 1950, Pages 433–
+460, https://doi.org/10.1093/mind/LIX.236.433 Published: 01 October 1950.
+21
+P Paolo, “History of AI: From Alan Turing to John McCarthy, the first definition of Artificial Intelligence” (Pigro,
+7 September 2021) <https://blog.pigro.ai/en/history-of-artificialintelligence#:~:text=McCarthy%20wanted%20a%20new%20neutral,the%20AI%20definition%20is%20used.>
+accessed 8 December 2023.
+13
+
+3
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+So, what exactly is artificial intelligence? Artificial Intelligence (AI) has been defined in
+reference to processes and algorithms that simulate human intelligence, including mimicking
+cognitive functions such as perception, learning and problem solving. 22 Simply put AI is the ability
+of machines to imitate intelligent human behavior.
+AI is capable of being trained and deployed to perform faster and efficiently tedious and repetitive
+tasks previously undertaken manually. These tasks include learning from experiences, interpreting
+complex data, making decisions based on the information gathered, understanding natural
+language, and recognizing patterns or objects.23
+The core components of AI include algorithms, data, and computing power. AI is only as good as
+the algorithms programmed, the data it is trained on, and the computing power available. 24 AI
+algorithms are rules and instructions that guide data processing and decision-making in AI
+systems.25
+Artificial intelligence (AI) works by combining massive dataset, with fast, iterative processing and
+intelligent algorithms, which enable software learn automatically from features and patterns in the
+data. AI learns from experience, adjust to new inputs, and makes it possible for machines to
+perform human-like tasks. Most examples of AI, from chess-playing computers to self-driving
+cars, rely on deep learning and natural language processing technology. 26
+AI involves two broad types: generative AI and predictive AI. Both generative AI and predictive
+AI use advanced artificial intelligence algorithms to address complex business and logistical
+challenges.
+Generative AI (GenAI)- finds functionality in generating content, such as text, images, videos,
+audio, and computer code. GenAI combines algorithms, deep learning, and neural network
+techniques to analyze large datasets, learn from the vast amount of patterns in the datasets to mimic
+style or structure to replicate a wide array of contemporary or historical content. 27 ChatGPT, for
+example, is based on large language models (LLMs), which are built by “training” the AI models
+on massive bodies of text often scraped from the internet. The models incorporate information
+
+Benjamin M Sadun, “The Intersection of AI and Privacy” (USC Webinar, 18 March 2024).
+R//C – “Artificial Intelligence: An Introduction to AI Fundamentals” (Redress Compliance, 11 March 2024)
+<https://redresscompliance.com/artificial-intelligence-an-introduction-to-ai-fundamentals/> accessed 7 April 2024.
+24
+ibid.
+25
+ibid.
+26
+SAS, “Artificial Intelligence: What it is and why it matters” <https://www.sas.com/en_us/insights/analytics/whatis-artificial-intelligence.html> accessed 2 April 2024.
+27
+Aminu Abdullahi, “Generative AI vs. Predictive AI: What’s the Difference?” (eWeek, 11 January 2024)
+<https://www.eweek.com/artificial-intelligence/generative-ai-vs-predictive-ai/> accessed 6 April 2024. SAS,
+Generative AI: What it is and Why it Matters” <https://www.sas.com/en_us/insights/analytics/generative-ai.html>
+accessed 2 April 2024.
+22
+
+23
+
+4
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+from these datasets and “learn” the patterns of words within a given context. Then, when queried,
+the LLM can predict the most likely combination of words, generating a natural-language response
+to the user’s prompt. These texts are memorized and stored by the AI model and can be regurgitated
+verbatim in response to a user query or prompt, which raises concerns about intellectual property
+rights violation.28
+Predictive AI - in contrast, uses statistical algorithms to analyze large historical data repositories
+to recognize and identify patterns across time and makes predictions about the future that can better
+inform decisions in business, finance forecasting, healthcare, 29 and fraud detection.30
+Predictive AI can detect anomalies in data flows and draw inferences about future outcomes in
+terms of results or behavior. It can ensure business success by providing a significant competitive
+advantage in terms of strategy, predictive analytics and enhanced business operations and
+processes.31
+Both GenAI and predictive AI use machine learning models at their foundations. Machine
+Learning (ML) is a subset of AI focused on the idea that systems can learn from data, identify
+patterns, and make decisions with minimal human intervention. It involves algorithms that allow
+computers to learn from and make predictions or decisions based on data.32 There are three main
+kinds of learnings models usually employed in machine learning: Supervised Learning,
+Unsupervised Learning, and Reinforcement Learning.
+Supervised learning entails using labeled data sets (structured data) to train algorithms to classify
+data or predict outcomes accurately by learning to maps an input to an output based on example
+input-output pairs.
+Unsupervised learning entails using unlabeled data (unstructured data). Unlike supervised
+learning, the outcome is not known beforehand. The algorithm learns from the data, by classifying
+it into groups based on attributes.33
+
+Audrey Pope, “NYT v. OpenAI: The Times’s About-Face” (Harvard Law Review, 10 April 2024)
+<https://harvardlawreview.org/blog/2024/04/nyt-v-openai-the-timess-about-face/> accessed 22 April 2024.
+29
+DeepMind Health, an AI research company owned by Alphabet, partnered with Moorfields Eye Hospital in London,
+and developed an AI system capable of analyzing optical coherence tomography (OCT) scans, identifying over 50 eye
+conditions with accuracy comparable to world-leading eye specialists.
+30
+Mastercard has integrated AI into its transaction processing systems to identify and prevent fraud in real-time.
+31
+A Abdullahi, ibid (n 27).
+32
+R//C, ibid.
+33
+Google Cloud, “What is Artificial Intelligence (AI)?” <https://cloud.google.com/learn/what-is-artificialintelligence> accessed 7 April 2024; Geeks for Geeks, “Supervised and Unsupervised Learning,” (GeeksforGeeks,
+Last Updated 13 March 2024) <https://www.geeksforgeeks.org/supervised-unsupervised-learning/> accessed 8 April
+2024.
+28
+
+5
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Reinforcement learning is a machine learning model that can be broadly described as “learn by
+doing.” An “agent” learns how to perform a defined task by trial and error (a feedback loop) until
+it attains a pre-determined and acceptable range of performance.34
+Deep Learning is a subset of machine learning that uses neural networks with many layers (hence,
+“deep”). These neural networks attempt to simulate the behavior of the human brain—albeit at a
+very basic level—allowing the machine to learn from large amounts of data. 35
+AI may also be classified as Narrow, General and Super AI 36 based on their capabilities and
+potential future development:
+Narrow AI (or Weak AI) are AI systems designed and trained for a specific task. Examples of
+Narrow AI include speech recognition systems like Siri or Alexa, recommendation systems on
+Netflix or Amazon, and facial recognition technologies. Narrow AI lacks human’s understanding
+or consciousness.37 Generative AI is a subset of Narrow AI or Specialized AI. Specialized AI is
+designed to perform a specific task or task domain extremely well. It typically requires large
+amounts of training data and is often used in industries such as recruitment, healthcare, finance,
+and manufacturing.38
+General AI (or Strong AI) are AI systems that can understand, learn, and apply their intelligence
+to solve problems with the same competence as a human. This level of AI could perform any
+intellectual task a human can. General AI is still theoretical, with no existing systems displaying
+this level of versatility and adaptability. Its vast potential, however, encompasses the ability to
+reason, solve puzzles, make judgments under uncertainty, plan, learn, and integrate prior
+knowledge in decision-making processes.39
+Super AI: Super AI is a hypothetical stage of artificial intelligence that surpasses human
+intelligence across all fields, including creativity, general wisdom, and problem-solving. Its
+implications are profound, raising questions about ethics, governance, and the very fabric of
+human society. While the development of Super AI could lead to unparalleled technological
+advancements and solutions to complex global challenges, it poses significant risks if not properly
+managed, including ethical dilemmas and existential threats to humanity.40
+Renowned British-Canadian computer scientist, Geoffrey Hinton, has expressed concerns about
+the existential risks of artificial general intelligence. 41 He also identified such AI risks as misuse
+Google Cloud, “What is Artificial Intelligence (AI)?” ibid.
+R//C, ibid.
+36
+ibid.
+37
+ibid.
+38
+Mitchel de Bruin “Generic Generative AI vs. Specialized AI: What Are the Differences?” (Carv, 2024)
+<https://www.carv.com/blog/generic-ai-vs-specialized-ai.> accessed 7 May 2024.
+39
+R//C, ibid.
+40
+ibid.
+41
+60 Minutes - "Godfather of AI" Geoffrey Hinton: The 60 Minutes Interview” (YouTube, 9 October 2023)
+<https://www.youtube.com/watch?v=qrvK_KuIeJk> accessed 29 April 2024.
+34
+
+35
+
+6
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+by malicious actors, deepfakes, massive job loss, massive surveillance, lethal autonomous
+weapons, cybercrimes and deliberate pandemics, and bias and discrimination. He however noted
+that the immense benefits of AI in healthcare provide good reason why the development of AI
+should not be stopped.42 Hinton is considered “the Godfather of AI.” His ground-breaking work
+with neural networks accelerated the development of AI and machine learning.
+There have been much apprehension about the AI revolution and its potential impact on jobs and
+the economy. Many workers fear AI would take over their jobs. 43 Historically technological
+advancements have led to job losses, 44 however, my take is that AI (like computers) would enhance
+productivity and those who will stay ahead of the curve are those who embrace the technology and
+learn how to us it and apply it to their current job roles. I believe AI (Generative AI, in particular)
+will augment and complement jobs and not replace them. Humans have unique traits like empathy,
+creativity and problem-solving. It is that innovative and out-of-the-box thinking ability that sets us
+apart from machines. The AI revolution may also create new industries and job creation.45 The key
+is to upskill and reskill to remain relevant in the job market. Erik Brynjolfsson, the director of the
+Digital Economy Lab at the Stanford Institute for Human-Centered AI, in a recent interview stated,
+“I don’t think generative AI is going to replace workers, but workers who work with generative AI
+will replace those who don’t.” 46
+OpenAI’s development and deployment of ChatGPT and its different iterations since November
+2022 has fuelled an arms race by big tech companies to develop their own Generative AI. 47 Hoping
+to leverage and position themselves to profit from the new technology. In the book “Digital
+Empires”48 Anu Bradford notes how five companies49 in the US that account for a major portion
+of the revenue and control of the personal data and platforms where the digital economy sits. This
+fact gives the said companies enormous economic and political power due to lukewarm
+enforcement of anti-trust laws. Hence the need for some form of regulation to protect the
+vulnerable and unsuspecting consumer public from unfair, deceptive, and abusive practices.
+
+University of Oxford - Prof. Geoffrey Hinton – “Will digital intelligence replace biological intelligence?”
+Romanes Lecture (YouTube, 19 February 2024) <https://www.youtube.com/watch?v=N1TEjTeQeg0> accessed
+29April 2024.
+43
+Josie Cox, “AI anxiety: The workers who fear losing their jobs to artificial intelligence” (BBC, 13 July 2023)
+<https://www.bbc.com/worklife/article/20230418-ai-anxiety-artificial-intelligence-replace-jobs> accessed 3
+December 2023.
+44
+Luddites in the 19th Century English Textile Industry protested being replaced by cost-saving machines by
+destroying them. Similarly, thousands of lamplighters lost their jobs when Thomas Edison’s light bulb became
+widely adopted and commercially successful in the late 19th and early 20th Century.
+45
+For example - AI ethicists, AI trainers, AI auditor, AI developers, and AI data scientists.
+46
+Jennifer Liu, “Stanford and MIT study: A.I. boosted worker productivity by 14%—those who use it ‘will replace
+those who don’t’” (CNBC Make it, 25 April 2023) <https://www.cnbc.com/2023/04/25/stanford-and-mit-study-aiboosted-worker-productivity-by-14percent.html> accessed 28 October 2023.
+47
+Google’s Gemini, Midjourney Inc’s Midjourney and Stability AI’s Stable Diffusion are examples of the AI Boom.
+48
+Anu Bradford, Digital Empires: The Global Battle to Regulate Technology (OUP 2023) 2.
+49
+Amazon, Apple, Google, Meta, and Microsoft.
+42
+
+7
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+McKinsey’s June 2023 Report states that Generative AI alone has the potential to add between
+$2.6 trillion and $4.4 trillion to annual business revenues. About 75 percent of that value falls
+across four areas: customer operations, marketing and sales, software engineering, and research
+and development activities.50 In 2018 McKinsey identified about 170 use cases for AI to benefit
+humans and society. In another report published in 2024 that number had more than tripled to 600
+identified use cases.51A recent MIT study reported that access to ChatGPT boosted productivity of
+white-collar workers in the performance of such tasks as writing and cost benefit analyses. It
+decreased cycle time by 40 percent and improved quality of work by 18%.52
+Leveraged properly, ethically, and responsibly, AI has the potential to transform human existence.
+The possibilities and capabilities of AI are huge with the implications for humans and society in
+the area of agriculture, banking, climate action, e-commerce,53 telecommunications, disaster
+management, education, cybersecurity, finance, fintech, healthcare, justice system, policing, public
+service delivery, research, risk management, security, supply-chain management, transportation,
+water management, waste management, weather forecast, and work.
+The World Economic Forum has noted that AI applications can super-charge sustainable
+development by harnessing data, optimizing processes, and kindling innovation. 54 AI can find
+solutions to Sustainable Development Goals (SDGs) in such areas as agriculture, climate action,
+education, healthcare,55 hunger, poverty, and water management.56 The other side of the balance,
+however, is that AI can enhance oil and gas exploration and increase profits but not without the
+associated environmental impact. As the use of AI increases so will the demand for more
+computing power which raises questions about AI carbon footprint.57 Furthermore, the application
+McKinsey June 2023 Report – The Economic Potential of Generative AI (McKinsey, 14 June 2023)
+<https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-thenext-productivity-frontier > accessed 27 March 2024.
+51
+McKinsey, “AI for Social Good: Improving Lives and Protecting the Planet” (Mckinsey, 10 May 2024)
+<https://www.mckinsey.com/capabilities/quantumblack/our-insights/ai-for-socialgood?stcr=DB1BB2A89485433581B57A7AE2BD954B&cid=other-eml-alt-mipmck&hlkid=cbeceb487bb84295ae52d452896af950&hctky=15504181&hdpid=e397bf84-33b3-42c3-bca66a3710755a24> accessed 21 May 2024.
+52
+Zach Winn, “Study finds ChatGPT boosts worker productivity for some writing tasks” (MIT News, 14 July 2023)
+<https://news.mit.edu/2023/study-finds-chatgpt-boosts-worker-productivity-writing-0714> accessed 23 November
+2023.
+53
+AI has application in such e-commerce activities as big data analytics, data management, customer insights,
+personalisation, marketing, behavioral profiling and targeted advertisements.
+54
+Claudia Ukonu, “4 ways AI can super-charge sustainable development” (WEF, 13 November 2023)
+<https://www.weforum.org/agenda/2023/11/ai-sustainable-development/> accessed 4 February 2024
+55
+Virtual Healthcare Assistants, Robotic Surgery, and Enhanced Cancer diagnostics.
+56
+UN paper on use of AI for SDGs (IISD, 7 March 2024) < https://sdg.iisd.org/news/un-paper-discussesgovernments-role-in-regulating-and-using-ai-for-the-sdgs/ > accessed April 2024. Damian Eke and others,
+“Responsible AI, SDGs, and AI Governance in Africa,” 2022 IST-Africa Conference (IST-Africa) 1
+<https://www.academia.edu/89771747/Responsible_AI_SDGs_and_AI_Governance_in_Africa?sm=b > accessed 2
+October 2023.
+57
+Sam Altman and Mark Zuckerberg have hinted that more energy would be required as AI technology evolves.
+This could have negative consequences for the environment if the energy/power sector does not transition from
+50
+
+8
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+of AI in the management of critical infrastructure and public safety comes with the risk of
+cyberattacks and disruptions which may result in blackouts and economic losses. 58 AI has also
+been implicated in the perpetuation of bias and discrimination as well as mis and dis information
+and the distortion of public discourse and markets. 59
+1.2. What is AI Governance?
+“AI Governance” has been defined as –
+A system of laws, policies, frameworks, practices and processes at international, national
+and organizational levels. AI governance helps various stakeholders implement, manage
+and oversee the use of AI technology. It also helps manage associated risks to ensure AI
+aligns with stakeholders’ objectives, is developed and used responsibly and ethically, and
+complies with applicable requirements.60
+This definition encompasses the sources, context and purpose of AI governance. AI
+governance involves directing, managing, and monitoring AI activities to meet legal and ethical
+requirements. On the ethical front, businesses or companies61 are focused on ensuring a high level
+of transparency, safety, and security in their AI models to build and maintain customer trust. On
+the legal side, companies must conform to legal requirements and satisfy regulators or risk
+substantial financial penalties and damaged brand reputation.
+Effective AI governance has been described as one that, “provides control and oversight, ensuring
+that companies develop and manage their AI services responsibly, ethically, and in compliance
+with both internal policies and external regulations in a documented, efficient, and demonstrable
+manner.”62
+AI governance refers to the imposition of frameworks, rules, standards, and legal requirements
+that protect an individual’s fundamental rights including data privacy rights by governing and
+
+carbon-based fossil-fuel to clean renewable energy. Victor Tangermann, “Sam Altman Says AI Using Too Much
+Energy, Will Require Breakthrough Energy Source” (Futurism, 17 January 2024) <https://futurism.com/sam-altmanenergy-breakthrough> accessed 19 May 2024. Dwarkesh Patel, “Energy, not compute, will be the #1 bottleneck to
+AI progress – Mark Zuckerberg” (YouTube, April 2024) <https://www.youtube.com/watch?v=i-o5YbNfmh0>
+accessed 19 May 2024.
+58
+Dylan Walsh, “Tackling Climate Change and Machine Learning” (MIT Sloan, 24 October 2024)
+<https://mitsloan.mit.edu/ideas-made-to-matter/tackling-climate-change-machinelearning?utm_source=mitsloangooglep&utm_medium=social&utm_campaign=mlclimate&gad_source=1&gclid=Cj
+0KCQjwxeyxBhC7ARIsAC7dS38GsdqgsYdLXH8CW-ySDepr9AfjkD45oz_NgaWIDTqHRgG66SJ16kaAn8aEALw_wcB> accessed 15 December 2023.
+59
+OECD update on AI Principles (OECD.org, 3 May 2024) <https://www.oecd.org/newsroom/oecd-updates-aiprinciples-to-stay-abreast-of-rapid-technological-developments.htm?> accessed 8 May 2024.
+60
+IAPP – “Key Terms for AI Governance” < https://iapp.org/resources/article/key-terms-for-ai-governance/>
+accessed 4 January 2024.
+61
+Both words are used interchangeably, with “organization(s)” also used on occasion.
+62
+Securiti Education “AI Governance” <https://education.securiti.ai/certifications/ai-governance/introduction-to-aigovernance/overview-introduction-to-ai-governance/> accessed 2 April 2024.
+
+9
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+managing the use of AI systems. AI governance is key to addressing many concerns associated
+with AI, like algorithm bias, data privacy, unethical AI, and impact of AI on humans and society.
+Governments all around the world are increasingly drafting specific regulations governing the use
+of AI. 63 However, AI systems are also subject to existing data protection laws if those AI systems
+involve the processing of personal data.64 A cursory look at these draft AI strategies and
+frameworks seems to indicate that the overall goal of most Governments is to regulate AI in such
+a way that would not stifle research and development, maximize economic benefits, and mitigate
+risk and harm to humans and society. That is not to say that there may be no hidden or venal state
+agendas to regulating AI or similar revolutionary technology.65 Hence the need for the involvement
+of all stakeholders66 in the development and implementation of AI governance frameworks.
+Whatever the choice of approach,67 AI governance should provide clarity and certainty to
+companies and consumers about what the “dos and don’ts” are regarding the development and
+deployment of AI within a particular jurisdiction.
+1.3 Why is AI Governance So Important?
+Asking the question, Why is AI Governance Important? is like asking the question, Why is Data
+Privacy Important? You would probably arrive at similar answers. This is because there are
+intersections between AI and Data Privacy. Aside from the ethical concerns involved in the
+development and deployment of AI68 it is in the business interest of organizations to tailor their
+operations to promote trust and public confidence, which are a corollary of accountability and
+transparency. In view of the increased consumer awareness regarding their data privacy rights, the
+recognition of privacy as a fundamental right in the global market,69 growing publicity and media
+reports about data breaches and compromises,70 the greater scrutiny of the business practices of
+63
+
+International Association of Privacy Professionals (IAPP) Global AI Law and Policy Tracker,
+<https://iapp.org/resources/article/global-ai-legislation-tracker/> accessed 22 March 2024. Tortoise Media’s Global
+AI Index, <https://www.tortoisemedia.com/intelligence/global-ai/#rankings> accessed 17 March 2024. The US,
+Canada, China, UK, Nigeria, and Singapore belong to this class of AI aware governments.
+64
+Like the EU GDPR and the US State of California’s CCPA/CPRA. The EU has a swathe of legislation and guidelines
+dealing with data and the digital economy which may also have implication for AI tech companies and gatekeeper
+(eCommerce and Social media giants). This is discussed further below.
+65
+cf. Nuclear technology and weapons of mass destruction.
+66
+Governments, Developers, Academics, lobby groups, Civil Societies, Consumers, and data subjects.
+67
+Comprehensive legislation, Industry or Sectoral, and State-controlled approach (n 3).
+68
+There are concerns about the legality of scraping the internet for data to train AI algorithms, use of AI for automated
+decision making in employment or credit/loan applications, autonomous robots/killer drones, real-time facial
+recognition for law enforcement and other high risks or prohibited use cases for AI identified by the EU AI Act and
+OECD that may harm humans.
+69
+Post 2013 Edward Snowden revelations, 2016 GDPR enactment and the Brussel Effect which say the explosion of
+data protection legislation beyond the European Economic Area (EEA) in over 120 countries globally.
+70
+For example - GeoCities, Wyndam Hotels & Resort, Eli Lily & Co., Equifax, LabMD, LifeLock, Facebook, Google
+and YouTube data breaches resulting in FTC fines and consent decrees. In January 2020, the Italian regulatory
+authority fined TIM, a telecom company, €27.9 million for failure to obtain data subjects’ valid consent, aggressive
+marketing strategies, and personal data breaches. In December 2020, the French DPA fined Google €100 million and
+Amazon €35 million for cookie’s consent violation. In March 2021, the Spanish regulatory authority fined Vodafone
+€8.15 million for sending marketing communications without consumer’s consent.
+
+10
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+organizations plus the risk of huge fines and even terms of imprisonment for regulatory
+infractions,71 it is expedient for businesses to be compliant with existing laws and policies as they
+carry out their domestic and international operations. These laws, international or local, 72 regulate
+the privacy rights of data subjects and the activities of organizations that collect, process, share or
+sell personal data. AI governance like data privacy governance would provide clarity and sanity in
+AI development and deployment. A regulatory framework would ensure ethical, responsible, and
+trustworthy AI. A robust AI governance framework would help businesses avoid and mitigate a
+number of risks: legal and regulatory risk, reputational risk, operational risk and financial risks.
+It addresses ethical concerns and secures business interests by mitigating and managing risks.
+Google and Alphabet CEO Sundar Pichai, recently stated while introducing Gemini that:
+Every technology shift is an opportunity to advance scientific discovery, accelerate human
+progress, and improve lives. I believe the transition we are seeing right now with AI will be
+the most profound in our lifetimes, far bigger than the shift to mobile or to the web before it.
+AI has the potential to create opportunities — from the everyday to the extraordinary — for
+people everywhere. It will bring new waves of innovation and economic progress and drive
+knowledge, learning, creativity, and productivity on a scale we haven’t seen before.73
+Contrary to the romanticized view presented by many AI developers, AI may not be the benign
+super smart assistant or solution to all the problems plaguing humanity. AI, like many life-changing
+and revolutionary technologies in history, has a dual use dilemma. AI is not of itself good or bad,
+however it is the potential use cases that raise concern. AI in the hands of threat actors or rogue
+nations may be deployed to cause harm to humans or society. In my opinion the likelihood of
+Artificial General Intelligence (AGI) or Super Intelligence acting out a Hollywood-like doomsday
+scenario74 is presently less a threat than the actual deployment of specific purpose AI by humans
+with deleterious effects. AI and algorithm bias is an identifiable risk and vulnerability in the use
+of AI. The same is true of Generative AI’s limitations and difficulties understanding symbolic
+reasoning, Industry nuances, misalignment between prompts’ input context and desired output or
+
+The EU GDPR imposes fines as high as 20 million Euros or 4 % of Annual Revenue of a company as penalties for
+violation of GDPR Principles. The Brazilian LGPD prescribes fines as high as 2 % of organization’s annual revenue
+or $9. 3 million USD (or $50 Million Reais) for violations of the law. Uber CISO was convicted and spared serving
+jail time for his involvement in covering up a 2016 data breach involving over 57 million customers and 600,000
+drivers. Jai Vijayan, “Judge Spares Former Uber CISO Jail Time Over 2016 Data Breach Charges” (Dark Reading, 5
+May 2023) <https://www.darkreading.com/cyberattacks-data-breaches/judge-spares-former-uber-ciso-jail-time-over2016-data-breach-charges.> accessed 7 January 2024.
+72
+The US is a good example of a decentralized/states-level or Industry specific approach to the regulation of privacy
+rights. Various States (e.g., California, Colorado, Delaware, Massachusetts, New York, New Jersey, Virginia,
+Washington, Utah et al) and Sectors (Health, Finance, Telecommunications, Education et al) have enacted privacy
+laws.
+73
+Sundar Pichai, “Introducing Gemini: our largest and most capable AI model” (Google Blog, 6 December 2023)
+<https://blog.google/technology/ai/google-gemini-ai/#sundar-note> accessed 8 April 2024.
+74
+Like in the T2 movie franchise and more recently in the Netflix movie “Atlas.”
+
+71
+
+11
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+even generating false information, a phenomenon known as “hallucination.” 75 These flaws clearly
+call for human oversight and guardrails76 against misinformation and disinformation or defamation
+lawsuits,77 by consumers.
+AI and Algorithm Bias and Discrimination
+Unscrupulous AI Hiring software developers are promising investors capabilities that their faulty
+algorithm fall short of. In the book, “The Algorithm,”78 by Hilke Schellmann, the author talks
+about how AI and algorithms79 are now ubiquitous in the hiring, promotion, monitoring and firing
+of employees in the world of work. The dawn of robot recruitment has come and gone. 75 to 95
+percent of resumes are read by AI before Humans. Every job board from Indeed, Monster,
+ZipRecruiter to LinkedIn use some form of AI. Using AI reduces cost, and the human labor
+required to sift through the deluge of job applications, hence the mass adoption. AI is now used in
+the entire lifecycle of employment from hiring to retiring. AI can be used to determine who is a
+flight risk, who is a bully, a high-performer or under-performer. AI can also be used to monitor the
+browsing activity and location data of employees.80 The book also points out how biased and faulty
+AI unfairly impact a protected class when hiring, promotion or firing decisions are made based on
+discriminatory metrics like facial expressions, voice tone, online activity, race, gender, or hobbies
+instead of merit and qualifications. Faulty AI Hiring Tools have an intrinsic bias against Women
+and African Americans. This is traceable to limited and biased training datasets that perpetuate
+stereotypes and discrimination. Employers and Recruiters are using AI Hiring Tools to scan social
+media profiles of candidates and make hiring decisions based on information candidates are not
+obliged by law to disclose. US labor and employment laws prohibit employment inequality and
+discrimination based on age, disability, ethnicity, or sexual orientation.
+AI is transforming the world of work, medicine, policing, justice system, banking and finance with
+advanced predictive analytics and automated decision making. AI has also been utilized in suicide
+This phenomenon has prompted OpenAI to include a disclaimer in its terms of use urging users to verify the veracity
+or accuracy of output generated by its product. This is coming on the heels of a defamation lawsuit by a Radio Host
+for false legal accusations generated by Open AI’s ChatGPT. Isaiah Poritz “OpenAI Fails to Escape First Defamation
+Suit From Radio Host” (Bloomberg Law, 16 January 2024) <https://news.bloomberglaw.com/ip-law/openai-fails-toescape-first-defamation-suit-from-radio-host> accessed 7 April 2024. AI developers are now adopting RetrievalAugmented Generation (RAG) and Grounding to supplement LLM’s internal information with external, current and
+verifiable facts to reduce the risk of incorrect or misleading responses.
+76
+Technical and regulatory safeguards and countermeasures to avoid or mitigate the identified risk and vulnerabilities.
+77
+Walters v OpenAI LLC, Ga. Super. Ct., No. 23-A-04860-2, 1/11/24.
+78
+Hilke Schellmann, The Algorithm (Hachette Books 2024).
+79
+HireVue a major US based AI Hiring Tool has been called out by critics and AI researchers and condemned the
+technology as “profoundly disturbing,” “pseudoscience” and a “license to discriminate.” In its defense HireVue’s
+Chief Technology Officer (CTO) has dismissed the criticism as “uninformed” stating that interview candidates are
+“getting the same shot regardless of gender, ethnicity, age, employment gaps, or college attended.”
+80
+This is a serious privacy threat as browsing and location data can reveal a lot about a person’s personal life, including
+their religious affiliations, health and medical conditions, financial status, and sexual orientation. See FTC Technology
+Blog “FTC Cracks Down on Mass Data Collectors: A Closer Look at Avast, X-Mode, and InMarket” (FTC, 4 March
+2024)
+<https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/03/ftc-cracks-down-mass-data-collectorscloser-look-avast-x-mode-inmarket> accessed 3 April 2024.
+75
+
+12
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+prediction for US military veterans, albeit with allegations of gender bias by the Fuller Project
+Report.81 Even universities are now using predictive analytics to determine admission offers and
+financial aid.82
+The State of Illinois recently passed the “Artificial Intelligence Video Interview Act, 2020”
+requiring full disclosure by Employers and informed consent by applicants before the use of AI
+Hiring Tools and ensuring that the AI analysis is used in a way that is fair and unbiased.83 New
+York also passed the NYC Local Law 144, which came into effect on July 5, 2023. The law requires
+employers who use automated employment decision tools (AEDT) in their hiring, firing or
+promotion process to confirm that such tools have undergone a “bias audit.”
+AI tools may be touted as aimed at reducing the drudgery of repetitive tasks, eliminating human
+error and bias and ensuring diversity, equity, and inclusion in certain screening processes but in
+reality, AI systems can only be as unbiased as the training data and programming permits. There
+could be deliberate or unconscious bias transferred from the developer and data which can be
+perpetuated throughout the AI system’s lifecycle. It is important to balance the benefits of the
+technology and harm to humans and society. In this context as they impact race and gender, in
+particular.84 It is crucial to include human oversight and ethical safeguards.85
+
+Aaron Glantz, “V.A. Uses a Suicide Prevention Algorithm To Decide Who Gets Extra Help. It Favors White Men”
+(Markup, 30 May 2024) <https://themarkup.org/news/2024/05/30/v-a-uses-a-suicide-prevention-algorithm-todecide-who-gets-extra-help-it-favors-white-men> accessed 30 May 2024.
+82
+Rutgers and Rocky Mountain universities were reported as amongst the first to use Student Select’s AI software in
+its admission process – Aaron Gifford, “University Admissions Use AI to Gauge Applicant Skills, Traits” (GovTech,
+25 April 2023) <https://www.govtech.com/education/higher-ed/university-admissions-use-ai-to-gauge-applicantskills-traits> accessed 3 May 2024; See also Verge AI – “How AI is being used for University Admissions” (Verge
+AI, 30 January 2024) <https://verge-ai.com/blog/how-ai-is-being-used-for-university-admissions/> accessed 3 May
+2024.
+83
+cf. In the EU region/EEA GDPR, art 22 prohibits automated decision making and profiling except with the express
+consent of the data subject; or necessary for performance of a contract between the data subject and data controller;
+or to safeguard the data subject’s rights and freedoms and legitimate interest. GDPR, art 35 also requires a Data
+Protection Impact Assessment (DPIA) to be carried out before embarking on such processing activity. Section 208 of
+the E Government Act 2002 requires that all US federal agencies conduct a “privacy impact assessment” (PIA) for all
+new or substantially changed technology that collects, maintains, or disseminates personally identifiable information
+(PII), or for a new aggregation of information that is collected, maintained, or disseminated using information
+technology. Some US State Privacy laws (e.g., California, Colorado, Connecticut, and Virginia) also require a PIA for
+activities that pose significant risk and harm to consumer privacy and security. These include targeted ads, sale of PII
+and profiling activities that is unfair and deceptive, bias, and discriminatory, or creates risk of financial, reputational,
+or physical injury. DPIAs and PIAs are invaluable tools in risk management. They help mitigate risk to the privacy
+and security of consumer PII, they boost public confidence and trust in the business, promote accountability and
+transparency, and facilitate regulatory compliance.
+84
+Supreme Court Justice Sotomayor in the Harvard-UNC affirmative action/admission case had noted that the US is
+an “endemically segregated society where race has always mattered and continues to matter.” Students for Fair
+Admissions, Inc. v. President and Fellows of Harvard College 600 U.S. 181 (2023). Justia U.S. Supreme Court
+< https://supreme.justia.com/cases/federal/us/600/20-1199/> accessed 17 January 2024.
+85
+Verge AI, ibid.
+81
+
+13
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+AI and Copyrights
+Open AI developers of ChatGPT has faced several lawsuits for copyright infringement for using
+copyrighted works to train its AI model without permission, thereby causing harm and loss of
+revenue. Notable among the lawsuits is the filed by a group of prominent authors, including John
+Grisham and George R.R. Martin, in September 2023 and more recently the suit filed by the New
+York Times in December 2023 against OpenAI and Microsoft alleging that the company used
+millions of its articles in the training and development of its generative AI models, specifically
+OpenAI’s ChatGPT and Microsoft’s Bing Chat (or “Copilot”), both built on top of OpenAI’s GPT
+model. In its defence OpenAI has pleaded “fair use” of the copyrighted material for the
+development of its AI models. Fair use permits a party to use a copyrighted work without the
+copyright owner’s permission for purposes such as criticism, comment, news reporting, teaching,
+scholarship, or research. However, there are factors to consider, namely whether the nature of the
+use is for a commercial or educational purpose; the amount and substantiality of the portion used
+in relation to the copyrighted work as a whole; and the impact of the use on the potential market
+or value of the work. These cases underscore the need for clear guidelines and regulations to protect
+the intellectual property rights of creatives.
+AI Solutions and Dating Sites
+AI is also transforming the realm of Sex and Intimacy. There have been an explosion of AI
+solutions and dating sites. With the convergence of AI, robotics and virtual reality consumers are
+now being offered the possibility of creating bespoke virtual companions or interacting with AI
+models of influencers and creators of adult content. Which raises concerns about consent and the
+psychological effect on young and inexperienced consumers who may become addicted to and
+dependent on their personalized AI partners at the risk of compromising their ability to form
+genuine human connections in the real world. Already there are individuals who identify
+themselves as “digisexuals,” defining their sexuality based on a preference for online pornography
+or cybersex.86
+Malicious AI and the Dark Web
+A recent article by M Page, a senior fellow at Australian Strategic Policy Institute (ASPI),
+highlighted how malicious AI are now available for sale on the dark web. FraudGPT and
+WormGPT are examples of the offerings. The author writes –
+Just as people around the world have shared tips on using ChatGPT and other AI tools to
+enhance efficiency or outsource tasks, dark web users have been sharing tips on how to
+jailbreak the technology to get around safety and ethical guardrails or use it for more
+sophisticated malicious activity.
+
+Bernard Marr, “Sex and Intimacy In The Generative AI Era” <https://www.linkedin.com/pulse/sex-intimacygenerative-ai-era-bernard-marr-lcdhe/> accessed 6 May 2024.
+
+86
+
+14
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+The first of these tools, WormGPT, appeared on the dark web on 13 July. Marketed as a
+‘Blackhat’ alternative to ChatGPT with no ethical boundaries, WormGPT is based on the
+open-source GPT-J large-language model developed in 2021. Available in monthly (€100) or
+yearly (€550) subscriptions, WormGPT, according to its anonymous seller, has a range of
+features such as unlimited character inputs, memory retention and coding capabilities.
+Allegedly trained on malware data, its primary uses are generating sophisticated phishing
+and business email attacks and writing malicious code. The tool is constantly being updated
+with new features, which are advertised on a dedicated Telegram channel.
+Hot on WormGPT’s heels, FraudGPT appeared for sale on the dark web on 22 July. The tool—
+based on GPT-3 technology—is marketed as an advanced bot for offensive purposes. Its uses
+include writing malicious code, creating undetectable malware and hacking tools, writing
+phishing pages and scam content, and finding security vulnerabilities. Subscriptions start at
+US$200 a month through to US$1,700 for an annual licence.
+There are already two new malicious AI tools in the works that represent a giant leap beyond
+WormGPT’s and FraudGPT’s capabilities. The creator of FraudGPT is apparently developing
+DarkBART—a dark web version of Google’s Bard AI—and DarkBERT, a bot trained on data
+from the dark web. Both tools will have internet access and be integrated with Google Lens.
+Interestingly, DarkBERT was originally developed by researchers to help fight cybercrime.87
+The above developments are indeed scary. The brewing concerns about bias and discrimination,
+cyberthreats, misuse and abuse, data privacy and IP rights violations pervading AI development
+and deployment call for urgent action to engender a legal and regulatory framework that will
+ensure ethical, responsible, and trustworthy AI.
+AI and the Three Laws of Robotics
+In a perfect world all technology, including AI, is supposed to protect and enhance Human Life
+and Society. In 1942, renowned author and scientist, Isaac Asimov proposed “the Three Law of
+Robotics”88 which today I surmise should not only apply to robots but to AI, Algorithms and
+Machine Learning. They are as follows:
+A robot may not injure a human being or, through inaction, allow a human being to come
+to harm.
+2. The Second Law: A robot must obey the orders given it by human beings except where
+such orders would conflict with the First Law.
+1.
+
+87
+Mercedes Page, “Malicious AI Arrives on the Dark Web” (ASPI Strategist, 22 August 2023)
+<https://www.aspistrategist.org.au/malicious-ai-arrives-on-the-dark-web/> accessed 14 April 2024. See also Tim
+Keary, “The Future of Dark AI Tools: What to Expect Next?” (Techopedia, 1 September 2023)
+<https://www.techopedia.com/the-future-of-dark-ai-tools-what-to-expect-next> accessed 2 November 2023.
+88
+The rules were introduced in his 1942 short story “Runaround” (included in the 1950 collection I, Robot).
+
+15
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+3.
+
+The Third Law: A robot must protect its own existence as long as such protection does
+not conflict with the First or Second Law.
+
+Asimov’s Laws have influenced science fiction and have been referenced in many books, films, 89
+and other media. They have also influenced thought on ethical and responsible AI.
+There have been recent outcry over the development of AI weapons 90 due to their potential to be
+more dangerous than human operated weapons. Elon Musk, 91 Steve Wozniak,92 Emad Mostaque,93
+John J Hopfield94 and Yuval Noah Harari95 are amongst over 33,000 luminaries who signed an
+open letter in March 2023 calling for the halt of the training of powerful AI systems due to the
+potential risks and threat to humanity.96
+In July 2023, the UN Session on AI acknowledged that AI could be a double-edged sword with
+potential for good or bad depending on its use case and the manner in which governments decide
+to regulate AI. There was a general call on nations to take an ethical and human-centric approach
+to regulating AI, prioritizing human safety and benefits to humans and society. 97
+AI and Cyberattacks
+In October 2023, the UK government issued a report stating AI might facilitate cyberattacks or aid
+terrorists in planning chemical attacks. The report preceded a speech by the UK Prime Minister
+presenting the UK government’s plan to make AI safe and establish the UK as a global leader in
+
+The Hollywood movies “I, Robot” and “the Creator” referenced the rule that Robots cannot harm humans.
+Autonomous drone weapons/ Killer drones.
+91
+Founder, Chairman, CEO and CTO Telsa and Space X, Co-founder OpenAI.
+92
+Co-Founder Apple.
+93
+Former CEO Stability AI, developers of Stable Diffusion.
+94
+Princeton University, Professor Emeritus, inventor of associative neural networks.
+95
+Professor, Historian and Award-winning Author.
+96
+Future of Life Institute, “Pause Giant AI Experiments: An Open Letter” (Future of Life, March 2023)
+<https://futureoflife.org/open-letter/pause-giant-ai-experiments/> accessed 22 March 2024.
+97
+UN Meetings Coverage and Press Release – “International Community Must Urgently Confront New Reality of
+Generative, Artificial Intelligence, Speakers Stress as Security Council Debates Risks, Rewards” (SC/15359, 18 July
+2023) < https://press.un.org/en/2023/sc15359.doc.htm> accessed 22 March 2024.
+
+89
+
+90
+
+16
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+AI safety.98 In August 2021, and December 2023, UK had accused China99 and Russia100 as being
+behind state sanctioned cyberattacks aimed at disrupting its electoral process. 101
+The US in May 2024 issued a report on its “Cybersecurity Posture” aimed at protecting critical
+infrastructure, national security, and economic interests. The report noted that Artificial intelligence is one of the most powerful, publicly accessible technologies of our
+time, and its continued evolution in 2023 presented opportunities and challenges for cyber
+risk management at scale.102
+Obviously, there are growing concerns about cyberattacks and cybersecurity particularly with
+rapid developments recorded in AI and related technologies.
+Futurists and Technology analysts have noted that with the development of AI, Quantum
+Computing and Biotech at breakneck speed the biggest concerns and issues in the next decade
+would be increased risk of AI enabled cyberattacks.103
+Framing Strategies for AI Governance
+The foregoing concerns have not fallen on deaf ears. They have yielded fruits across the globe as
+there are concerted efforts internationally, regionally and at the state level to regulate AI. The EU,
+OECD, US, UK, Canada, Nigeria, 104 China, Singapore and many countries are working on
+strategies and finding appropriate legal frameworks to regulate AI. 105
+
+Chris Vallance, “AI could worsen cyber-threats, report warns” (BBC, 25 October 2023)
+<https://www.bbc.com/news/technology-67221117> accessed 17 March 2024. cf. Conversely, AI systems can identify
+and react to cybersecurity threats faster than traditional software, improving data protection. AI and ML can enhance
+the ability of IDS/IPS to detect and prevent zero-day attacks, advanced persistent threats, and other stealthy techniques
+traditional methods may miss.
+99
+James Gregory and Iain Watson, “China Linked to UK Cyberattacks” (BBC, 25 March 2024)
+<https://www.bbc.com/news/uk-politics-68652374> accessed 7 May 2024.
+100
+Gordon Corera, “Russia Hacking: FSB in Years-long Cyberattacks on UK” (BBC, 7 December 2023)
+<https://www.bbc.com/news/uk-politics-67647548> accessed 7 May 2024.
+101
+A more recent attack is the hacking of the payroll of the Ministry of Defence (MoD) compromising personal data
+of Army, RAF, and Navy personnel. Alex Forsyth, “MoD Data Breach” (BBC, 6 May 2024)
+<https://www.bbc.com/news/uk-68966497> accessed 7 May 2024.
+102
+Fact Sheet: 2024 Report on Cybersecurity Posture of the United States (White House, 7 May 2024)
+<https://www.whitehouse.gov/oncd/briefing-room/2024/05/07/fact-sheet-cybersecurity-posture-report/> accessed 7
+May 2024.
+103
+Bernard Marr, “The Top Privacy and Security Tech Trends Shaping the Next Decade” (Forbes, 1 May 2024)
+<https://www.forbes.com/sites/bernardmarr/2024/05/01/the-top-privacy-and-security-tech-trends-shaping-the-nextdecade/?sh=6f8c43fa6c01> accessed 6 May 2024.
+104
+Workshop of 120 AI experts to be held 15-18 April 2024 to help formulate Nigeria’s AI Strategy and Policy. See
+Website of Federal Ministry of Communications, Innovation and Digital Economy, “Ministry’s Artificial Intelligence
+Strategy Workshop to Attract 120 Experts from Across the World” (FMCIDE, posted 3 April 2023)
+<https://fmcide.gov.ng/ministrys-artificial-intelligence-strategy-workshop-to-attract-120-experts-from-across-theworld/> accessed 15 April 2024.
+105
+These are examined in the sections below.
+98
+
+17
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+The importance of AI governance is inextricable from its potential benefits and risks. In a nutshell,
+uncontrolled or unregulated AI is a recipe for disaster. It can lead to financial loss, reputation
+damage, and flawed business decisions.106 A way to guarantee ethical and responsible AI is to bake
+in guardrails from the design and development stage to the deployment stage throughout the entire
+AI life cycle. An AI governance framework should ensure human oversight and a zero -trust
+approach given AI’s potential risk for misuse and unpredictability. Additionally, with the
+introduction of the EU AI Act and similar regulations, businesses that proactively implement
+responsible AI governance practices will have a competitive advantage over businesses that do
+not.107 Proper AI governance promotes trust and public confidence in government and businesses
+among consumers and stakeholders.108
+
+You can search over 3000 reports on AI incidents at (AI Incident data base) <https://incidentdatabase.ai/> accessed
+1 April 2024.
+107
+A Guide to AI Governance <https://www.modulos.ai/guide-to-ai-governance/? > accessed 8 May 2024
+108
+ibid.
+106
+
+18
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+2.0 OECD AI Principles
+The Organisation for Economic Co-operation and Development (OECD) is an international
+organization that works to build better policies for better lives. 1 The organization harnesses over
+sixty years of experience to proffer governments advice on public policy, international best
+practices, and standards to tackle social, economic, and environmental challenges and more. 2
+The OECD has undertaken empirical and policy activities on AI in support of the policy debate
+since 2016, starting with a “Technology Foresight Forum on AI” that year, followed by an
+international conference on “AI: Intelligent Machines, Smart Policies” in 2017. The Organization
+also conducted other analytical work that demonstrated the need to shape a stable policy
+environment at the national and international level to foster trustworthy and safe adoption of AI. 3
+The OECD Council adopted the Recommendation at its meeting at Ministerial level on 22-23 May
+2019. The OECD AI Principles were adopted in May 2019 on the proposal of the Digital Policy
+Committee (DPC, formerly the Committee on Digital Economy Policy, CDEP). They set out a
+framework containing ten principles – divided into five values-based principles and five
+recommendations to governments.4 The Recommendation of the Council on Artificial Intelligence
+in 2019 was the first intergovernmental standard on AI.
+the OECD Recommendations were revised by the OECD Council meeting at Ministerial level on
+3 May 2024 to reflect technological and policy developments, including with respect to generative
+AI, and to further facilitate its implementation. The revised principles now directly address AIassociated challenges involving privacy, intellectual property rights, safety, and information
+integrity.5 With 47 adherents now including the EU, signing on 2 May 2024, and a general scope
+that ensures applicability to AI developments around the world, the OECD AI Principles provide
+a blueprint for policy frameworks on how to address AI risks and shape AI policies.6
+Scope of Recommendations
+The scope of the recommendations is comprised of two main sections:
+
+OECD, “Who we are,” (OECD.org) <https://www.oecd.org/about/> accessed 7 February 2024.
+ibid.
+3
+OECD Legal Instruments, “Recommendation of the Council on Artificial Intelligence” (OECD.org, 2 May 2024)
+Adopted on: 21/05/2019; Amended on: 02/05/2024 <https://legalinstruments.oecd.org/en/instruments/OECDLEGAL-0449 > accessed 8 May 2024.
+4
+OECD AI Principles Overview (OECD AI Policy Observatory) <https://oecd.ai/en/ai-principles> accessed 2 October
+2023.
+5
+See OECD Report, “OECD updates AI Principles to stay abreast of rapid technological developments” (OECD.org,
+3 May 2024) <https://www.oecd.org/newsroom/oecd-updates-ai-principles-to-stay-abreast-of-rapid-technologicaldevelopments.htm? > accessed 8 May 2024.
+6
+OECD Legal Instruments, “Recommendation of the Council on Artificial Intelligence” (May 2024) ibid.
+1
+
+2
+
+19
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+1. Principles for responsible stewardship of trustworthy AI: the first section sets out five
+complementary principles relevant to all stakeholders: i) inclusive growth, sustainable
+development, and well-being; ii) respect for the rule of law, human rights, and democratic values,
+including fairness and privacy; iii) transparency and explainability; iv) robustness, security, and
+safety; and v) accountability.
+This section calls on AI actors to promote and implement the principles according to their roles.
+AI actors are to engage in trustworthy AI with beneficial outcomes for people and the planet, like
+enhancing creativity, reducing social-economic and gender inequity, bias and discrimination, and
+protecting the natural environment. AI actors must respect human rights and freedoms, including
+privacy and intellectual property rights. Include human oversight in AI systems to address risks of
+misuse, misinformation and disinformation. AI actors should be transparent and commit to
+disclosure about AI systems their capabilities and limitations, when a consumer is interacting with
+AI, sources of data/inputs leading to a prediction, recommendation or decision, and how those
+adversely affected can challenge such AI generated content/outputs. There should be safeguards
+and mechanisms in place to manage risks and undue harm throughout the AI life cycle. AI actors
+are expected to be accountable for the proper functioning of AI systems, allow for traceability and
+analysis of datasets and processes, and adopt responsible business conduct. AI actors involved in
+different stages of the AI life cycle should collaborate and cooperate towards innovative and
+trustworthy AI. 7
+
+2. National policies and international co-operation for trustworthy AI: consistent with the five
+aforementioned principles, this section provides five recommendations to Members and nonMembers having adhered to the draft Recommendation (hereafter the “Adherents”) to implement
+in their national policies and international co-operation: i) investing in AI research and
+development; ii) fostering an inclusive AI-enabling ecosystem; iii) shaping an enabling
+interoperable governance and policy environment for AI; iv) building human capacity and
+preparing for labour market transformation; and v) international co-operation for trustworthy AI.
+The five principles are to guide and form the elements to consider when drafting an AI law or
+policy, while the five recommendations are to guide successful implementation of the regulatory
+framework adopted.
+The OECD AI Principles and allied frameworks/guides have aided the formulation and
+implementation of AI Strategies and regulatory frameworks globally. The OECD’s influence is
+quite evident in the NIST AI RMF and EU AI Act.
+
+7
+
+ibid.
+
+20
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+OECD AI Policy Observatory
+The OECD has a platform, the OECD AI Policy Observatory, which monitors developments in AI
+law and policy around the globe. This AI policy tracking repository is a valuable resource for
+researchers and policy makers.
+The OECD AI Policy Observatory includes a live database of AI strategies, policies, and initiatives
+that governments, policymakers and stakeholders can share and update, enabling them interact and
+learn from the experiences of one another. It is constantly updated with AI metrics, policies, and
+global best practices.
+In October 2023, the Observatory published a report on the level of implementation of the OECD
+AI Principles globally. In the report the OECD noted that “Overall, over 930 related policy
+initiatives across 70 jurisdictions had been reported to the OECD.AI policy hub by May 2023.”8
+There are other platforms that monitor the developments in AI law and policy. These include: the
+Oxford Insights AI Readiness Index,9 Tortoise Media Global AI Index. 10 and IAPP Global AI Law
+and Policy Tracker.11
+The Oxford Insights AI Readiness Index which monitors 193 countries notes that “Governments
+are not only working to foster AI innovation and establish regulatory frameworks but also striving
+to integrate this technology into public services.”12 The Oxford index includes 39 indicators across
+10 dimensions, which make up 3 pillars: Government, Technology Sector, and Data &
+Infrastructure. The primary research question remains, how ready is a given government to
+implement AI in the delivery of public service to its citizens? The US was ranked first and Canada
+fifth as at December 2023, with Singapore, UK, and Finland occupying the second, third, and
+fourth positions.
+The Tortoise Media Global AI Index monitors 62 countries and as at 28 June 2023 ranked the US,
+China, Singapore, UK, and Canada among the overall top five countries in AI strategy and
+regulation, respectively. The Global AI Index is underpinned by 111 indicators, collected from 28
+different public and private data sources, and 62 governments. These are split across seven subpillars: Talent, Infrastructure, Operating Environment, Research, Development, Government
+Strategy and Commercial.13
+
+ibid 8 – 12.
+<https://oxfordinsights.com/ai-readiness/ai-readiness-index/> accessed 2 January 2024.
+10
+<https://www.tortoisemedia.com/intelligence/global-ai/> accessed 23 December 2023.
+11
+< https://iapp.org/resources/article/global-ai-legislation-tracker/> accessed 22 March 2024 – The IAPP has valuable
+articles about AI developments and interactive infographic tools for monitoring AI laws and policies globally.
+12
+Oxford AI Index ibid.
+13
+Tortoise Media AI Index ibid.
+8
+
+9
+
+21
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+The OECD also has the OECD AI Incident Monitor (AIM). AIM tracks AI incidents in the global
+press for valuable insights into existing AI risks. 14
+The OECD also has a catalog of metrics and tools for trustworthy AI. The objective is to help AI
+actors develop AI systems and applications that adhere to and promote the OECD AI principles
+(i.e., respect human rights, fairness, and privacy, are transparent, explainable, robust, secure and
+safe).15 The Catalog provides links to educational tools for reskilling or upskilling, 16 Metrics to
+measure privacy,17 technical tools to remove bias, 18 tools for robust and secure data collection, 19
+AI governance, risk and compliance,20 and AI certifications and quality marks21 among others.22
+
+UNESCO Recommendation on the Ethics of AI
+On 23 November 2021, all the 193 members states of the United Nations Educational, Scientific
+and Cultural Organization (UNESCO adopted the first global standard on AI Ethics, “the
+Recommendation on the Ethics of Artificial Intelligence.” The recommendation are comprised of
+four core values and ten principles. The Recommendation aims to provide a “globally accepted
+normative instrument” that not only focuses on the articulation of values and principles, but also
+their practical realization via concrete laws and policies based on a human rights approach to AI
+with maximal benefits and minimal risk to humans, society and the environment.23
+The four core values are: Respect, protection & promotion of Human Rights and Fundamental
+Freedoms and Human Dignity; Living in peaceful, just and interconnected societies; Ensuring
+diversity and inclusiveness; and Environment and Ecosystem flourishing.24
+The ten principles are:
+1. Proportionality and Do No Harm: AI systems should be designed and developed to ensure
+proportionality and to do no harm, and to prevent harm to individuals and society. The use of
+
+OECD AIM (OECD.org) <https://oecd.ai/en/incidents> accessed 8 May 2024. The cite reported, inter alia – (i)
+concerns about burned out employees’ increased use of AI tools at work to cope with pressure, without the knowledge
+of their bosses or proper SETA (security education, training, and awareness), (ii) DOJ is investigating Telsa for alleged
+overstating the capabilities of its self-driving cars to unsuspecting public. (ibid).
+15
+OECD Catalogue of Tools & Metrics for Trustworthy AI (OECD.org) <https://oecd.ai/en/catalogue/overview>
+accessed 8 May 2024.
+16
+Teeny-Tiny Castle.
+17
+Face Acceptance Rate (FAR) and Face Rejection Rate (FRR).
+18
+Biaslyze, and Fujitsu LLM Bias.
+19
+Casebase.
+20
+Lumenova.
+21
+CertEye, and Digital Trust Label.
+22
+ibid.
+23
+UNESCO Recommendation on AI Ethics, “Aims and Objectives,” 5.
+24
+UNESCO, “Artificial Intelligence” <https://www.unesco.org/en/artificial-intelligence?hub=32618> accessed 12
+November 2023.
+14
+
+22
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+AI systems must not go beyond what is necessary to achieve a legitimate aim. Risk assessment
+should be used to prevent harms which may result from such uses.
+2. Safety and Security: AI systems should be designed and developed to ensure their safety and
+security, and to prevent harm to individuals and society. Unwanted harms (safety risks) as
+well as vulnerabilities to attack (security risks) should be avoided and addressed by AI actors.
+3. Right to Privacy and Data Protection: AI systems should be designed and developed with
+adequate data protection frameworks to ensure data privacy and protection throughout the AI
+lifecycle.
+4. Fairness and Non-Discrimination: AI systems should be designed and developed to ensure
+fairness and non-discrimination, and to prevent bias and discrimination. AI actors should
+promote social justice, fairness, and non-discrimination while taking an inclusive approach to
+ensure AI’s benefits are accessible to all.
+5. Sustainability: AI technologies should be developed and deployed with minimal
+environmental impact and to ensure sustainability. AI and AI systems should be assessed
+against their impacts on ‘sustainability,’ understood as a set of constantly evolving goals
+including those set out in the UN’s Sustainable Development Goals.
+6. Transparency and Explainability: The ethical deployment of AI systems depends on their
+transparency & explainability (T&E). The level of T&E should be appropriate to the context,
+as there may be tensions between T&E and other principles such as privacy, safety and
+security.
+7. Awareness and Literacy: AI systems should be designed and developed to ensure awareness
+and literacy, and to provide users with the knowledge and skills needed to understand and
+interact with AI systems. Public understanding of AI and data should be promoted through
+open and accessible education, civic engagement, digital skills & AI ethics training, media &
+information literacy.
+8. Responsibility and Accountability: AI systems should be auditable and traceable. There
+should be oversight, impact assessment, audit and due diligence mechanisms in place to avoid
+conflicts with human rights norms and threats to environmental wellbeing.
+9. Human Oversight and Determination: AI systems should be designed, developed and
+deployed with mechanisms in place to ensure human oversight and control. Member States
+should ensure that AI systems do not displace ultimate human responsibility and
+accountability.
+10. Multi-stakeholder and Adaptive Governance and Collaboration: International law &
+national sovereignty must be respected in the use of data. Additionally, participation of diverse
+stakeholders is necessary for inclusive approaches to AI governance.25
+As can be seen from the foregoing there are commonalities between the UNESCO
+recommendations on the Ethics of AI and the OECD AI principles, namely: data privacy and
+
+25
+
+ibid.
+
+23
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+protection, safety and security, human rights protection, capacity building and training,
+international cooperation, transparency and explainability, and accountability.
+This is not a coincidence but speaks to the influence of the OECD AI principles in shaping global
+AI strategy and policy. This is also true in respect of the NIST AI RMF and EU AI legislation as
+shall be seen presently below.
+
+24
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+3.0 NIST AI RMF
+The National Institute of Standards and Technology (NIST) is a non-regulatory agency of the US
+Department of Commerce. The agency has its origin in the US Constitution’s grant on Congress
+the power “to fix the Standard of Weights and Measures,”1 as well as the establishment of a federal
+Superintendent of Weights and Measures in 1836, followed by NIST’s predecessor the National
+Bureau of Standards which was founded on 3 March 1901 to provide standard weights and
+measures and serve as the national physical laboratory of the US. The agency became the NIST in
+1988 with a new mandate to:
+Promote U.S. innovation and industrial competitiveness by advancing measurement
+science, standards, and technology in ways that enhance economic security and improve
+our quality of life. 2
+With the evolution of the role of science and technology in the economy and society, so has the
+role of NIST evolved at the intersection of government, science and technology, and commerce. It
+conducts measurement science, enables standards, and operates advanced laboratories. The NIST
+has published a number of standards and frameworks on different subjects, like cybersecurity, risk
+management, privacy, including artificial intelligence.
+A Framework for Managing AI Risk
+In recognition of the potential benefits and risks of AI technologies, the US Congress directed
+NIST to come up with a framework. The AI RMF is a product of several months of consultative
+and iterative engagements with stakeholders. Between July 2021 to January 2023 NIST held three
+workshops and received over 400 comments on the project in October 2021/March 2022 and in
+October 2022 from over 240 stakeholders in the Private and Public sector within the US and around
+the world.3
+The NIST Artificial Intelligence Risk Management Framework (AI RMF) was published on 26
+January 2023. The AI RMF follows the template of previous information risk management and
+governance frameworks from NIST, like the Cybersecurity Framework released in 2014 and a
+Privacy Framework released in 2020. It has been described as, “a living document” that is
+“voluntary, rights-preserving, non-sector-specific, use-case agnostic,” and adaptable to all types
+and sizes of organizations.4 The intention is for the framework to be used in the design,
+US Const. art. 1, s. 8, cl. 5.
+NIST General Information < https://www.nist.gov/director/pao/nist-general-information> accessed 4 February 2024.
+3
+AI RMF timelines and engagements <https://www.nist.gov/itl/ai-risk-management-framework> accessed 4 February
+2024.
+4
+Cameron F Kerry, “NIST’s AI Risk Management Framework plants a flag in the AI debate” (Brookings, 23 February
+2023)
+<https://www.brookings.edu/articles/nists-ai-risk-management-framework-plants-a-flag-in-the-ai-debate/>
+accessed 24 February 2024.
+1
+
+2
+
+25
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+development, deployment, and use of AI systems to manage risk and promote ethical, responsible,
+and trustworthy AI products, services, and systems. The NIST AI RMF is an industry-neutral tool
+designed for flexibility and applicability across various disciplines and domains for their different
+use cases irrespective of their size or sector. 5 This flexibility and adaptability has also been said
+“to be emblematic of Congress’s light-touch approach to AI regulation.” 6
+The framework includes ways to manage risk and minimize negative impacts on humans, 7
+organizations,8 and the environment.9
+The framework is divided into two main parts comprising six sections. Part 1 deals with
+Foundational Information, while Part 2 deals with Core and Profiles. The NIST AI RMF adopts
+the Organisation for Economic Co-operation and Development (OECD) recommendations in its
+definition of “AI Systems” an engineered or machine-based system that can, for a given set of objectives, generate
+outputs such as predictions, recommendations, or decisions influencing real or virtual
+environments. AI systems are designed to operate with varying levels of autonomy 10
+Part 1 covers: i) Framing Risk, ii) Audience, iii) AI Risks and Trustworthiness, and iv)
+Effectiveness of the AI RMF.
+Framing Risk
+The framework recognizes that risks can emerge in various ways and categories – long term or
+short term, high probability, or low probability, systemic or localized, and high impact or lowimpact. Risk can impact or harm humans, society, or the environment. Trustworthy AI systems and
+their responsible use can mitigate negative risks and contribute to benefits for people,
+organizations, and ecosystems.11 There are challenges to Risk Management, namely: Risk
+Measurement; Risk Tolerance; Risk Prioritization; and Organizational Integration and
+Management of Risk.
+i. Risk Measurement - risks or failures that are not well-defined or adequately understood
+are difficult to measure quantitatively or qualitatively.
+
+Video explainer –
+<https://www.nist.gov/video/introduction-nist-ai-risk-management-framework-ai-rmf-10-explainer-video> accessed
+7 February 2024.
+6
+Hadrien Pouget and Matt O'Shaughnessy, “Reconciling the U.S. Approach to AI” (Carnegie Endowment, 3 May
+2023) <https://carnegieendowment.org/research/2023/05/reconciling-the-us-approach-to-ai?lang=en> accessed 4
+May 2024.
+7
+Threats to civil liberties and democratic values, bias and discrimination, access to employment, education, or
+economic opportunities.
+8
+Security breach, reputational risk, business, and operational risk.
+9
+Supply chain, natural resources, or global financial systems.
+10
+Adapted from: OECD Recommendation on AI:2019; ISO/IEC 22989:2022.
+11
+AI RMF, 4-5.
+
+5
+
+26
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+ii. Risk Tolerance - the level of risk an entity is willing to assume to achieve a desired
+result. In the case of business entities, it is the risk that is tolerable or acceptable to an
+organization as the “cost of doing business.” Risk threshold, risk appetite, and acceptable
+risk are terms used synonymously with “risk tolerance.”
+iii. Risk Prioritization - Policies and resources should be prioritized based on the assessed
+risk level and potential impact of an AI system. Any residual risks (i.e., risk remaining after
+risk treatment) must be documented by the AI system provider and end-users should be
+informed about the potential negative impacts of interacting with an AI system. 12
+iv. Organizational Integration and Management of Risk - AI risks should not be considered
+in isolation. AI risk management should be integrated and incorporated into broader
+enterprise risk management strategies and processes.13 Treating AI risks along with other
+critical risks, such as cybersecurity and privacy, will yield a more integrated outcome and
+organizational efficiencies. For risk management to be effective, organizations must
+establish and maintain the necessary procedures for accountability, assign roles and duties,
+and foster an awareness culture and an incentive structure. 14
+Audience
+The framework is intended for “AI Actors” which include those involved in the design,
+development, deployment, and use of AI systems. This is representative of AI Actors across AI
+lifecycle15 and key dimensions.16 AI actors are defined by the OECD as “those who play an active
+role in the AI system lifecycle, including organizations and individuals that deploy or operate
+AI.”17 The NIST AI RMF references the OECD framework on the Classification of AI Systems in
+determining the audience of AI, looking at actors across socio-technical dimensions and lifecycle
+as this is vital to allocating accountability. 18
+Trustworthy AI
+The NIST AI RMF notes the essential building block for reducing negative AI risk and enhancing
+trustworthy AI:
+
+AI RMF, 7-8.
+i.e., the process of identifying, evaluating, and controlling threats, including all the phases of risk context (or
+framing), risk assessment, risk treatment (accepting, avoiding, mitigating, sharing, or transferring risk), and risk
+monitoring.
+14
+AI RMF, 8.
+15
+Plan and Design; Collect and Process Data; Build and Use Model; Verify and Validate; Deploy and Use; Operate
+and Monitor.
+16
+Application Context; Data and Input; AI Model; Task and Output.
+17
+OECD (2019) Artificial Intelligence in Society—OECD iLibrary.
+18
+AI RMF, 4-12.
+12
+
+13
+
+27
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+1) Validity and Reliability; 2) Safety; 3) Security and Resiliency; 4) Accountability and
+Transparency; 5) Explainability and Interpretability; 6) Privacy- enhanced; and 7)
+Fairness with Mitigation of Harmful Bias 19
+1) Validity and Reliability – AI systems should be designed to perform validly and reliably
+throughout their lifecycle. Training datasets should be accurate and valid and there should be
+mechanisms for monitoring and testing performance during the AI lifecycle.
+2) Safety - AI systems should “not under defined conditions, lead to a state in which human life,
+health, property, or the environment is endangered.”20
+3) Security and Resiliency - AI systems should maintain confidentiality, integrity, and availability
+through implementation of security controls. The NIST Cyber Security Framework and Risk
+Management Framework are applicable here.
+4) Accountability and Transparency – There should be information about the risks, capabilities
+and outputs of AI systems at different stages of the AI lifecycle, tailored to the knowledge or role
+of the individual interacting with the system. This enhances auditability and compliance.
+5) Explainability and Interpretability – There should be information about how the AI system
+functions and why it gave a specific output. This is intended to address the “black box” problem
+associated with AI.21
+6) Privacy- enhanced – AI systems should be designed, developed and deployed in a manner that
+protects the rights and freedoms of individuals and addresses privacy related risks. The NIST
+Privacy Framework is applicable here.22
+7) Fairness with Mitigation of Harmful Bias – AI systems be designed, developed and deployed
+in a manner that ensures equality and equity and addresses concerns about harmful bias and
+discrimination to a group or an individual.23
+These principles are similar to the OECD AI principles. They encompass key issues like safety,
+privacy and security, bias, explainability, accountability and transparency.
+
+Effectiveness of the AI RMF
+Users of the AI RMF are encouraged to periodically evaluate its effectiveness in improving their
+ability to manage AI risks, as well as policies, processes, practices, implementation plans,
+indicators, measurements, and expected outcomes. NIST intends to work collaboratively with
+AI RMF, 12.
+AI RMF, 14.
+21
+AI RMF, 16-17.
+22
+AI RMF, 17.
+23
+AI RMF, 17.
+19
+
+20
+
+28
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+stakeholders to develop metrics, methodologies, and goals for evaluating the efficacy of the AI
+RMF and to share such resources widely. 24
+
+Part 2 covers: i) AI RMF Core, and ii) AI RMF Profiles.
+Core
+Part 2 comprises the “Core” of the Framework. It describes four specific functions to help
+organizations address the risks of AI systems in practice. These functions – Govern, Map, Measure,
+and Manage – are broken down further into categories and subcategories. While Govern applies
+to all stages of organizations’ AI risk management processes and procedures, the Map, Measure,
+and Manage functions can be applied in AI system-specific contexts and at specific stages of the
+AI lifecycle.
+Profiles
+AI RMF use-case profiles are implementations of the AI RMF functions, categories, and
+subcategories for a specific setting or application based on the requirements, risk tolerance, and
+resources of the Framework user. AI RMF profiles assist organizations in deciding how they might
+best manage AI risk that is well-aligned with their goals, considers legal/regulatory requirements
+and best practices, and reflects risk management priorities. 25
+Examples of Profiles are temporal or cross-sectoral profiles.
+AI RMF temporal profiles are descriptions of either the current state or the desired, target state of
+specific AI risk management activities within a given sector, industry, organization, or application
+context.26
+AI RMF cross-sectoral profiles cover risks of models or applications that can be used across use
+cases or sectors.27
+
+AI RMF Playbook and Other Key Developments
+A companion NIST AI RMF Playbook 28 has also been published by NIST along with an AI RMF
+Roadmap, AI RMF Crosswalk, and various Perspectives. Since the framework is a product of
+collaborative efforts and engagements with stakeholders, such collaboration is ongoing and
+encouraged by NIST. Developers, deployers, researchers and experts from academia, users from
+AI RMF, 19.
+AI RMF, 33.
+26
+ibid.
+27
+ibid.
+28
+NIST AI RMF Playbook <https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook>
+accessed 24 February 2024.
+24
+
+25
+
+29
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+the private and public sector are encouraged to provide feedback, evaluations and profiles
+regarding the AI Framework and experiences implementing the approaches in the framework.
+On 30 March 2023, NIST launched the Trustworthy and Responsible AI Resource Center, to
+inventory all feedback and facilitate implementation and international alignment with the AI RMF.
+In 2023 Meta’s Open Loop Program29 launched its first policy prototyping research program in the
+US to test the NIST AI RMF for clarity, implementability and effectiveness in aiding companies
+to identify and manage risks arising from generative AI.
+The program gives participating companies the opportunity to learn about NIST's AI RMF, and to
+understand how it can be applied to managing risks associated with developing and deploying
+generative AI systems. At the same time, the program will gather evidence on current practices
+and provide valuable insights and feedback to NIST, which can inform future iterations of the AI
+RMF.30
+On 8 February 2024, NIST established the AI Safety Institute (AISI). The mission of the AISI will,
+initially, include projects aimed at advancing research and measurement science for AI safety,
+conducting safety evaluations of models and systems, and developing guidelines for evaluations
+and risk mitigations, including content authentication and the detection of synthetic content. These
+would be modified as the global AI landscape changes. The AISI will collaborate with
+representatives of industry, academia, civil society and government towards achieving its goal of
+responsible, safe and trustworthy AI that benefits humans and the planet.31
+On 29 April 2024, NIST published a draft AI RMF Generative AI Profile to aid organizations in
+identifying unique risks associated with GenAI and suggested measures for managing those risks
+best aligns with their business goals and interests. 32
+
+ISO AI Standard 42001
+The ISO/IEC 42001 (ISO 42001)33 is a voluntary standard on managing AI risks and opportunities
+published on December 18, 2023, by the International Organization for Standardization (ISO) and
+the International Electrotechnical Commission (IEC). The standard provides guidance, on ethical,
+
+Open Loop is a global initiative that connects tech companies and policymakers with the aim of developing effective
+and evidence-based policies around new technology, particularly AI. Supported by Meta, Open Loop brings together
+regulators, governments, tech companies, academics, and civil society representatives. Together, they co-create policy
+prototypes and test new and different approaches to laws and regulations before they are enacted.
+30
+https://openloop.org/
+31
+NIST, “US Artificial Intelligence Safety Institute” <https://www.nist.gov/aisi> accessed 27 May 2024.
+32
+ibid. See also AI RMF <https://www.nist.gov/itl/ai-risk-management-framework> accessed 4 February 2024.
+33
+ISO/IEC 42001: 2023 “Information technology - Artificial intelligence - Management system” (ISO, 2023)
+<https://www.iso.org/standard/81230.html> accessed 7 June 2024.
+29
+
+30
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+privacy and security concerns, to organizations engaged in the design, development, and
+deployment of AI systems.
+The ISO 42001 has several annexes:
+▪
+▪
+▪
+▪
+
+Annex A: Management guide for AI system development, including a list of controls.
+Annex B: Implementation guidance for the AI controls listed in Annex A, including data
+management processes.
+Annex C: AI-related organizational objectives and risk sources.
+Annex D: Domain- and sector-specific standards.
+
+The key themes and requirements of the standard include:
+▪
+
+▪
+▪
+▪
+▪
+▪
+
+Leadership: there should be management buy-in and commitment to the AI management
+system (AIMS) with policies and procedures that align with the overall goals and objectives
+of the organization.
+Planning: the risks and opportunities associated with AI should be identified and assessed
+with a robust framework and plan for addressing them.
+Support: provide adequate resources and support to the AIMS, including training and
+awareness across the organization.
+Operation: establish sustainable processes and procedures for the development,
+deployment, and maintenance of AI systems.
+Performance evaluation: monitor, measure, analyze, and evaluate the performance of AI
+systems and undertake corrective measures when and where necessary.
+Continual improvement: continually improve the AIMS and ensure that it remains
+current, relevant and efficient.
+
+As the AI landscape continues to evolve businesses and organizations engaged in AI development
+and deployment are encouraged to embrace frameworks and standards like the NIST AI RMF and
+the ISO 42001 to foster public trust and success in the long-term.34
+
+“Understanding ISO 42001: The World’s First AI Management System Standard” (A-LIGN) < https://www.align.com/articles/understanding-iso-42001 > accessed 7 June 2024.
+34
+
+31
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+4.0 EU AI Act
+The European Union’s Artificial Intelligence Act is the first comprehensive legislation on AI. It
+takes a balanced approach to AI governance by taking cognizance of the potential benefits and
+risks of AI to humans and society. The AI Act seeks to provide legal certainty, promote investment
+and innovation, ensure respect for existing laws on fundamental rights and EU values and facilitate
+a single market.1 The AI Act also adopts a human-centric and risk-based approach in achieving
+safe and trustworthy AI with phased implementation over a 6-to-24-month period.
+The EU AI Act aims to establish a common legal and regulatory framework for AI. It was proposed
+by the European Commission on 21 April 2021 and, after much deliberation and consultative
+sessions, was passed by the European Parliament on 13 March 2024 and the EU Council on 21
+May 2024, respectively.
+4.1 Highlights and Essential Provisions of the EU AI Act.
+A. Subject matter and Scope (Cap I, arts 1 and 2)
+Article 1(1) provides that the purpose of the AI Act is to improve the functioning of the internal
+market and promote human-centric and trustworthy AI, while ensuring a high level of protection
+of health, safety, fundamental rights, democracy, rule of law, the environment and supporting
+innovation. Article 1(2) further provides that the AI Act lays down harmonised rules for the placing
+of AI on the market, putting into service or use within the Union; Prohibition of certain AI; and
+specific rules and requirements for High-risk AI; General- Purpose AI; and certain AI systems.
+Article 2 (a) to (g) lists the scope of operators to whom the AI Act applies as: providers, deployers,
+importers, distributors, product manufacturers, and authorized representatives. The AI Act also
+applies to AI Actors outside the union who place AI systems within the union or where output of
+their AI systems are used in the Union.
+The extraterritorial applicability of the AI Act raises strategic and operational questions for
+multinational organizations. They would have to decide whether to adopt the EU AI Act standards
+globally, develop or use EU-specific AI systems and models, or scale back AI operations in the EU
+altogether.2
+
+Explanatory Memorandum, (1. Context of the Proposal, 1.1 Reasons for and Objectives of the Proposal) Proposal
+for a Regulation Of The European Parliament And Of The Council Laying Down Harmonized Rules On Artificial
+Intelligence (Artificial Intelligence Act) And Amending Certain Union Legislative Acts - {SEC (2021) 167 final} {SWD (2021) 84 final} - {SWD (2021) 85 final} (EUR-Lex, 21 April 2021) <https://eur-lex.europa.eu/legalcontent/EN/TXT/?uri=celex%3A52021PC0206 > accessed 14 March 2024.
+2
+Suchitra Nair and Valeria Gallo, “EU AI Act: the finish line is in sight” (Deloitte, 10 June 2024)
+<https://www.deloitte.com/uk/en/services/legal/blogs/the-eu-ai-act-the-finish-line-is-in-sight.html> accessed 12
+June 2024.
+1
+
+32
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+B. Definitions (art 3)
+Article 2(1)(e) defines product manufacturers as persons placing AI system(s) on the market under
+their name or trademark.
+Article 3 contains the definition of terms used in the AI Act. Article 3 defines providers, deployers,
+importers, distributors, and authorized representatives as follows:
+i.
+
+ii.
+
+iii.
+
+iv.
+v.
+
+Providers - means a natural or legal person, public authority, agency or other body that
+develops an AI system or a general-purpose AI model or that has an AI system, or a generalpurpose AI model developed and places it on the market or puts the AI system into service
+under its own name or trademark, whether for payment or free of charge. 3
+deployers - means a natural or legal person, public authority, agency or other body using
+an AI system under its authority except where the AI system is used in the course of a
+personal non-professional activity. 4
+importers - means a natural or legal person located or established in the Union that places
+on the market an AI system that bears the name or trademark of a natural or legal person
+established in a third country;5
+distributors - means a natural or legal person in the supply chain, other than the provider
+or the importer, that makes an AI system available on the Union market;6
+authorized representatives – means a natural or legal person located or established in the
+Union that places on the market an AI system that bears the name or trademark of a natural
+or legal person established in a third country.7
+
+C. Risk-Based Approach
+The AI Act has four major risk categories with varied assessments requirements, documentation,
+and obligations to be performed by AI Actors during the AI life cycle. These include Unacceptable Risk; High Risk; Limited Risk; and Minimal Risk.
+A fifth category General Purpose Artificial Intelligence (GPAI) was added during the trilogue
+negotiations.
+I.
+
+Prohibited AI Practices (Cap II, art 5) – The following are unacceptable AI risks and
+therefore constitute prohibited AI which are required to be banned 6 months after the
+regulation comes into effect. These include the placing on the market, the putting into
+service, or the use of an AI system:
+i.
+that deploys subliminal, manipulative, or deceptive techniques.
+ii.
+that exploits vulnerabilities.
+
+art 3(3).
+art 3(4).
+5
+art 3(6).
+6
+art 3(7).
+7
+art 3(5).
+3
+
+4
+
+33
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+iii.
+iv.
+v.
+vi.
+vii.
+viii.
+
+II.
+
+for social scoring
+for predictive policing
+that creates or expands facial recognition databases.
+that infers emotions in workplaces or educational institutions.
+that use biometric categorisation systems.
+for ‘real-time’ remote biometric identification (RBI) in publicly accessible
+spaces for purposes of law enforcement, except in serious crimes like kidnap,
+murder, terrorism, child pornography, human and drug trafficking, et al.
+
+High Risk (Cap III, Sec 1, art 6) – There are two categories of high-risk AI under Article 6
+of the Act:
+(i) AI systems used as a safety component of a product (or otherwise subject to EU health
+and safety harmonization legislation); and
+(ii) AI systems deployed in eight specific use cases, listed in Annex III, these include:
+▪ permissible biometric,
+▪ critical infrastructure,
+▪ education and vocational training,
+▪ employment workers management and access to self-employment,
+▪ access to essential public and private services and benefits,
+▪ law enforcement,
+▪ migration asylum and border control management, and
+▪ the administration of justice and democratic processes.
+Articles 49 and 71 provide that AI systems and their providers (or where applicable, the
+authorized representative) must be registered in an EU database before being placed on the
+market or put into service. High risk AI systems must comply with an array of requirements
+contained in Chapter III, Section 2 namely: Compliance with the Requirements (art 8);
+Risk Management System (art 9); Data and Data Governance (art 10); Technical
+Documentation (art 11); Record-Keeping (art 12); Transparency and Provision of
+Information to Deployers (art 13); Human Oversight (art 14); Accuracy, Robustness and
+Cybersecurity (art 15).8
+Article 27 of the AI Act, introduced by European Parliament, requires the completion of a
+fundamental rights impact assessment (FRIA) for high-risk AI used by public entities or
+private entities providing public services, such as banks and insurance companies. If, for
+these deployers, a data protection impact assessment already exists under the GDPR, the
+DPIA will be an integral part of the FRIA.
+
+arts 8-15. Some of these requirements and documentation are also found in other EU legislation. This is in keeping
+with the harmonised standards, directives and regulations for the EU single market. For example, the conformity
+assessment is to ensure products meet safety, health and environmental standards before they are placed on the market.
+8
+
+34
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+III.
+
+Limited Risk (art 50) - Providers and deployers of AI systems with limited risks are subject
+to fewer transparency obligations save for the requirement to ensure that end-users are
+aware that they are interacting with AI (as in the case of chatbots and deepfakes).
+Providers shall ensure that AI systems intended to interact directly with natural persons are
+designed and developed in such a way that the natural persons concerned are informed that
+they are interacting with an AI system.9
+Providers of AI systems, including general-purpose AI systems, generating synthetic audio,
+image, video or text content, shall ensure that the outputs of the AI system are marked in a
+machine-readable format and detectable as artificially generated or manipulated.10
+
+IV.
+
+V.
+
+Minimal Risk – Any AI system not caught by the above are of low or minimal risk. AI
+systems do not have specific obligations or requirements under the EU AI Act. No
+additional measures are needed in minimal risk cases, such as spam filters.
+General-Purpose AI (GPAI) – (Cap V, Secs 1 -3, arts 51 -56) - There is an obligation to
+keep records for general-purpose AI, including records on any copyrighted data used as
+part of the training data, but general-purpose AI will not necessarily be considered high
+risk unless it also falls within the relevant categories for high risk.
+GPAI will be considered a systemic risk if it carries a specific risk that has a significant
+impact on the EU market due to its scale, or actual or reasonably foreseeable adverse effects
+on public health, security or fundamental rights. GPAI will also be considered a systemic
+risk if it has a computational power greater than 10^25 floating point operations 11 or so
+deemed by the EU AI Office, which will be responsible for such assessments.
+Providers of such models will be subject to a number of additional obligations. These
+include conducting an assessment to identify and mitigate systemic risk, analyzing and
+mitigating such risks, and documenting and reporting serious incidents. These providers
+will also have to ensure an adequate level of cybersecurity protection regarding the model
+and its physical infrastructure.
+
+D. Exemptions to Scope of the AI Act
+Article 2 (2)-(12) provides various exemptions to the AI Act. It shall not apply to:
+i.
+
+AI systems used exclusively for military, defence or national security purposes, 12
+
+art 50(1).
+art 50(2).
+11
+These include foundational models that use large datasets and computing power to train. ChatGPT, GPT4.o and
+Gemini are examples.
+12
+art 2(3).
+
+9
+
+10
+
+35
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+ii.
+
+iii.
+iv.
+v.
+
+AI systems used by public authorities in a third country and international organizations to
+fulfill international cooperation frameworks or agreements for law enforcement and
+judicial cooperation with the EU or one or more of its member states, 13
+AI systems or AI models, including their output, specifically developed and put into service
+for the sole purpose of scientific research and development, 14
+deployers who are natural persons using AI systems in the course of a purely personal nonprofessional activity,15 and
+AI systems released under free and open-source licences, unless they are placed on the
+market or put into service as high-risk AI systems or as an AI system that falls under Article
+5 or 50.16
+
+E. Penalties (art 99)
+Member States are required to lay down rules for penalties and enforcement measures for
+violations of the Act. The penalties must be effective, proportionate, and dissuasive, and take into
+account the interests and economic viability of small and medium-sized enterprises (SMEs) and
+startups.
+The Penalties range from €7.5 to €35 million Euros and 1% to 7% of turnover:
+(i) the higher of €35,000,000 Euro or up to 7 percent of a company’s total worldwide annual
+turnover for non-compliance with prohibited AI practices;17
+(ii) Non-compliance with any of the following provisions18 related to operators or notified bodies,
+other than those laid down in Articles 5, shall be subject to administrative fines of up to €15,000,
+000 Euro or, if the offender is an undertaking, up to 3 % of its total worldwide annual turnover for
+the preceding financial year, whichever is higher;19 or
+(iii) the higher of €7,500,000 Euro or up to 1 percent of a company’s total worldwide annual
+turnover for the supply of incorrect, incomplete, or misleading information to notified bodies and
+national competent authorities.20
+F. Timelines
+Article 113 provides that the AI Act will enter into force 20 days following its publication in the
+Official Journal of the European Union and will apply after 24 months. However, the
+implementation of different parts of the Act with be in phases over a period of 6 to 36 months:
+
+art 2(4).
+art 2(6).
+15
+art 2(10).
+16
+art 2(12).
+17
+art 99(3).
+18
+arts 16, 22, 23, 24, 26, 31, 33, 34, 50.
+19
+art 99(4).
+20
+art 99(5).
+13
+
+14
+
+36
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+i. Chapters I and II which deal with Prohibited AI will apply six months after the Act comes
+into effect.
+ii. Chapter III Section 4 (Notifying Authorities and Notified Bodies), Chapter V (General
+Purpose AI [GPIA]), Chapter VII (Governance) and Chapter XII (Penalties) and Article
+78 (Confidentiality of information and data), with the exception of Article 101(Fines
+for providers of GPIA); will be applied after 12 months.
+iii. Article 6(1) (High risk AI systems under Annex I) will be applied after 36 months.
+Article 56 provides that Codes of practice shall be ready at the latest nine months from the date of
+entry into force of the Act. If the codes of practice are not ready or deemed inadequate within a
+year, the Commission may create common rules.
+G. Governance Architecture
+The AI Acts sets up a framework for regulation and enforcement through a combination of
+authorities and few governing bodies:
+▪
+▪
+▪
+▪
+
+AI Office – An office within the Commission to enforce the common rules across the
+Union.21
+AI Board – a body comprised of representatives of member states to advise and assist the
+Commission and member states on consistent and effective application of the AI Act.22
+Advisory forum – a platform for stakeholders to provide technical expertise to the AI
+Board and the Commission.23
+Panel of Experts - A panel of independent scientific experts to support enforcement
+activities.24
+
+art 64.
+art 65.
+23
+art 67.
+24
+art 68.
+
+21
+
+22
+
+37
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+5.0 Other Global Trends
+The global landscape of AI strategy and regulation is an alphabet soup of Laws, Principles,
+Standards and Frameworks. We have already examined three major examples (OECD AI
+Principles, NIST AI RMF and EU AI Act) in the preceding portions of this paper. Let us now
+proceed to examine them at a national level from different regions across the globe.
+UNITED STATES (US)
+The US approach to AI regulation is Market and Industry driven as noted above. US lacks a
+flagship legislation like the EU AI Act. 1 It is a patchwork of standards and frameworks and State
+level legislation in respect of employment, policy or AEDT with intersections with privacy, bias
+and ethics.2
+US is a party to the OECD AI principles issued in 2019. In November 2021 US also adopted
+UNESCO's Recommendation on the Ethics of AI. US also participated in the November 2023
+U.K. AI Summit, which led to the Bletchley Declaration. US as part of the G7 endorsed the 11
+Hiroshima Process International Guiding Principles for Advanced AI systems.
+The Tortoise Media 2023 Global AI Index ranked US first place ahead of China, Singapore, UK,
+and Canada.3 Curiously the Tortoise Index ranked the US first place in respect of “talent” and
+eighth place for “government strategy,” while Saudi Arabia4 was ranked first place on
+“government strategy” but fifty-third for “talent” and given an overall ranking of thirty-first place
+out of 62 countries ranked. The Oxford Insights’ 2023 AI Readiness Index also ranked US first
+place, among 193 nations ranked, using three main pillars: Government; Technology; and Data &
+Infrastructure.5
+
+The American Data Privacy and Protection Act is still in draft form.
+AI Training for the Acquisition of Workforce Act; the Algorithmic Accountability Act; AI in Government Act;
+National AI Initiative Act; Title VII of the Civil Rights Act; Age Discrimination in Employment Act; Fair Credit
+Reporting Act; Genetic Information and Non-discrimination Act (GINA); Children’s Online Privacy Protection Act
+(COPPA), FTC Act and HIPAA, et al.
+3
+the Global AI index <https://www.tortoisemedia.com/intelligence/global-ai/#rankings> accessed 27 May 2024.
+4
+Saudi Arabia launched its National Data and AI Strategy in 2020 and aims to be a global leader in AI by 2030. The
+strategy adopted the OECD AI principles and covers the following policy areas: Competition, Digital economy,
+Education, Employment, Innovation, Investment, Science and technology, Social and welfare issues. See OECD AI
+Policy Observatory <https://oecd.ai/en/dashboards/policy-initiatives/http:%2F%2Faipo.oecd.org%2F2021-datapolicyInitiatives-26934> accessed 19 May 2024.
+5
+Oxford Insight, AI Readiness Index < https://oxfordinsights.com/ai-readiness/ai-readiness-index/> accessed 22
+April 2024.
+1
+
+2
+
+38
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Blueprint for AI Bill of Rights
+The NIST AI RMF, examined above, and the Blueprint for AI Bill of Rights are emblematic of
+US AI strategy. 6 The Blueprint in recognition of the benefits and potential risks of AI technology
+sets out non-binding ethics and civil rights-based principles for the use of AI. In furtherance of this
+objective the White House Office of Science and Technology Policy identified five guiding
+principles for the design, use, and deployment of AI systems: Safe and Effective Systems;
+Algorithmic Discrimination Protections; Notice and Explanation; Human Alternatives,
+Consideration, and Fallback; and Data Privacy.7
+Voluntary Commitments by AI companies
+In July 2023, the US President obtained voluntary commitments from seven leading AI
+companies to manage AI risks.8 The companies are Amazon, Anthropic, Google, Inflection, Meta,
+Microsoft, and OpenAI. The commitment underscores safety, security, and trust as critical steps
+toward developing responsible AI.
+Executive Order
+On 30 October 2023 the US President, Joe Biden, issued an Executive Order calling for “Safe”
+and “Trustworthy” development and deployment of AI in the US.9 The Executive Order contains
+directives, on the development of new standards for AI safety and security and the establishment
+of an advanced cybersecurity program. It also covers key issues like data privacy and protection,
+bias and discrimination, job creation and protection, ethical and responsible AI, equity and civil
+rights, consumer protection, AI training and awareness in public service, health care and education,
+promotion of AI research and innovation, International alliances and cooperation.10
+US State Laws
+As noted earlier there have been some legislation on AI in the US at the States-level. Some of these
+include the 2021 New York City Local Law 144 which requires employers who use automated
+employment decisions tools to undergo a “bias audit.”
+
+6
+Hadrien Pouget and Matt O’Shaughnessy, “Reconciling the US Approach to AI” (Carnegie Endowment, 3 May
+2023) <https://carnegieendowment.org/research/2023/05/reconciling-the-us-approach-to-ai?lang=en> accessed 13
+May 2024.
+7
+The White House, “Blueprint for an AI Bill of Rights: Making Automated Systems Work for the American People”
+<https://www.whitehouse.gov/ostp/ai-bill-of-rights/> accessed 13 ay 2024.
+8
+The White House “Fact Sheet: Biden-Harris Administration Secures Voluntary Commitments from Leading
+Artificial Intelligence Companies to Manage the Risks Posed by AI” <https://www.whitehouse.gov/briefingroom/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-fromleading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/ > accessed 11 May 2024.
+9
+The White House, “Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial
+Intelligence” <https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-thesafe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/> accessed 13 May 2024.
+10
+ibid.
+
+39
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+The State of Illinois also passed the AI Video Interview Act in 2020, which requires full disclosure
+by employers and informed consent by applicants before the using AI Hiring Tools which must
+entail a fair and unbiased process.
+The Utah AI Policy Act (Senate Bill 149), was signed into law by Governor Spencer Cox on 13
+March 2024, and came into effect on 1 May 2024.The law aims to regulate the use of generative
+AI, promote consumer protection regarding AI and creates the Office of AI Policy (OAIP). The
+OAIP is charged with the responsibility of creating and administering the State’s AI learning
+laboratory program, make rules related to the program and provide guidance on AI-related matters
+to inform the State’s AI regulatory framework.11
+On 17 May 2024, the Colorado Artificial Intelligence (AI) Act, also known as Senate Bill 24-205
+was signed into law by Colorado Governor Jared Polis. This is the first comprehensive AI
+legislation by a US State. The law will come into effect on 1 February 2026.
+The law regulates developers and deployers of high-risk AI systems and gives the attorney general
+exclusive enforcement powers. The law also imposes obligations on AI developers and deployers
+regarding transparency and disclosure, documentation, impact assessment and risk management.
+They must also take reasonable care to protect individuals from the risk of “algorithmic
+discrimination” which is defined as “conditions in which the use of AI results in unlawful treatment
+or disfavors an individual or group.”12
+FTC Guidelines and Enforcement Action
+The failure of companies to address AI risks as they relate to data privacy and protection, privacy
+rights, bias and discrimination, and automated decision-making tools causing harm to the public
+has been the subject of enforcement actions by the Federal Trade Commission (FTC). The FTC
+under section 5 of its enabling law, the FTC Act has the power to bring enforcement actions against
+companies for unfair, deceptive and abusive actions.13
+In December 2023, the FTC banned Rite Aid from using its “AI facial recognition security system”
+after it falsely tagged customers in December 2023.14 The AI system was used for predictive
+policing to identify patrons deemed likely to shoplift or engage in other criminal behavior. Despite
+countless false positives and deficiencies Rite Aid utilized it for 8 years resulting in undue harm
+to customers. Incidentally, the new EU AI Act classifies such AI systems under “unacceptable risk”
+and prohibits it.
+
+Utah State Legislature, “Artificial Intelligence Policy Act” <https://le.utah.gov/~2024/bills/static/SB0149.html>
+accessed 1 June 2024.
+12
+Colorado General Assembly “Consumer Protection for Artificial Intelligence” <Consumer Protections for
+Artificial Intelligence | Colorado General Assembly> accessed 1 June 2024.
+13
+The FTC was originally set up in 1914 to enforce anti-trust laws.
+14
+Rite Aid Corporation, FTC v. <https://www.ftc.gov/legal-library/browse/cases-proceedings/2023190-rite-aidcorporation-ftc-v> accessed 3 May 2024.
+11
+
+40
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+In July 2023, the FTC required Amazon to overhaul its data deletion practices following allegations
+that its Alexa voice assistant violated COPPA.15
+The Federal Trade Commission (FTC) has also issued guidelines and conducted workshops on AI.
+These are aimed to curb unfair competition and build capacity and raise awareness around AI
+development and deployment. The FTC website is awash with resources on AI.16
+AI lawsuits in the US Courts
+The judicial landscape in the US has not been spared the effects of the AI ague. This is owed in
+part to the array of lawsuits against one particular AI company, Open AI. Little known by the public
+until a few years ago, when it released ChatGPT its ground-breaking generative AI model that
+sparked an AI revolution in the GenAI field. Open AI has been sued for by the New York Times
+and a group of leading Authors for copyright infringement,17 false accusation and defamation via
+output generated by its ChatGPT model 18 and more recently risks a potential lawsuit from actor
+Scarlett Johansson for violation of publicity rights19 via its latest AI voice assistant model named
+“Sky.” Open AI had approached Johansson to voice its AI model in September 2023, but she
+declined for personal reasons. Nine months later the company released the new AI model, which
+sounded eerily similar to Johansson’s voice. The company claimed that it had hired a voice actor.
+Ultimately OpenAI pulled the voice down after much public outcry and increased scrutiny. 20
+Open AI has been accused of training its AI models with copyrighted material, scraped from the
+internet, without consent of the copyright owners. Open AI has pleaded “fair use” in its defense.
+In 2023 Stability AI was sued in the UK and US by Getty for using its images without permission
+to train its GenAI model, Stable Diffusion.
+It must be noted that these cases are poised to deepen the US jurisprudence in the area of privacy
+and intellectual property. It also underscores the need for clear guidelines and regulations to protect
+privacy and IP rights as they relate to AI.
+UNITED KINGDOM (UK)
+As seen in the introductory sections above, the UK has a rich history in AI development, dating
+back to the Difference Engine designed by Charles Babbage in the 1820s; Alan Turing’s code
+breaking work on the Enigma Machine during the second world war (WWII) and his seminal 1950
+paper “Computing Machinery and Intelligence” proposing the “Turing Test” or “Imitation Game,”
+Amazon.com (Alexa) US, v. <https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3128-amazoncomalexa-us-v> accessed 29 April 2024.
+16
+See FTC <https://search.ftc.gov/search?utf8=%E2%9C%93&affiliate=ftc_prod&query=AI&commit=Search >
+accessed 2 June 2024.
+17
+NYT v Open AI; and RR Martin & Ors v Open AI.
+18
+Walter v Open AI.
+19
+Unlawful use of one’s likeness, image, name, voice or signature for commercial gain or profit.
+20
+The facts of Scarlett Johansson’s case are similar to earlier voice misappropriation cases – Bette Milder v Ford
+(Motor Ad) and Tom Waits v Frito-Lay (Dorito radio commercial/ad).
+15
+
+41
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+and the Dartmouth Conference held in 1956. Also worthy of note are the Knowledge based system
+(KBS) and Edinburgh Prolog Programming Language developed in the 1970s and 1980s which
+helped to advance Machine Learning and AI.
+UK is a party to the OECD AI Principles. The UK also adopted the UNESCO Recommendation
+on the Ethics of AI, as well as the G7 Hiroshima AI Process. All these are aimed at ethical, safe,
+innovative and trustworthy AI which drives and shapes UK’s approach to AI.
+The UK has taken a liberal stance on AI regulation and governance. It has no specific AI
+legislation. There are however relevant UK laws, and policies with implications for AI in respect
+of data privacy, intellectual property, employment, consumer protection, online safety and product
+liability. These include: UK GDPR; Data Protection Act; Consumer Protection Act; Online Safety
+Act; Equality Act; Advanced Research and Invention Agency Act; Guide to using AI in the public
+sector; ICO’s Guidance on the AI Auditing Framework; AI Standards Hub; and Frontier AI
+Taskforce.21
+In September 2021, UK as part of its National AI Strategy announced its 10-year plan “to make
+Britain a global AI superpower.” The plan is premised on three key assumptions and three key
+actions. The assumptions are: The key drivers of progress in AI are access to people, data,
+computing power and finance; AI will become mainstream in much of the UK economy; and AI
+governance and regulation must keep pace with AI development. 22
+The key actions include - Investing in the long-term needs of the AI ecosystem; Ensuring AI
+benefits all sectors and regions; and Governing AI effectively. 23
+In 2023, UK established the AI Safety Institute to lead innovation and safe AI research. The
+institute has been describes as UK’s “contribution to addressing a shared challenge posed to all of
+humanity” by AI. UK intends to be proactive in defining the trajectory of AI development.
+Minimise surprises and ensure public safety and interests by developing the sociotechnical
+infrastructure needed to understand the risks of advanced AI and enable its governance. 24
+In November 2023, the UK government hosted the UK AI Safety Summit at Bletchley Park,25
+Buckinghamshire. The summit comprised of government leaders, industry executives, civil society
+representatives, academics and researchers. The objective was to discuss and forge alliances toward
+responsible and safe AI. The outcome of the summit was the Bletchley Declaration issued by 28
+IAPP Global AI Law and Policy Tracker < https://iapp.org/resources/article/global-ai-legislation-tracker/>
+accessed 19 May 2024.
+22
+UK Gov, “National AI Strategy” (GOV.UK, updated 18 December 2022)
+<https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version> 17 May 2024
+23
+ibid.
+24
+UK Gov, “Introducing the AI Safety Institute” [Ministerial Foreword] (GOV.UK, November 2023)
+<https://www.gov.uk/government/publications/ai-safety-institute-overview/introducing-the-ai-safety-institute>
+accessed 17 May 2024.
+25
+The historic location of computer science development and the WWII codebreakers – Alan Turing, Max Neuman,
+Jack Good and Donald Michie.
+
+21
+
+42
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+countries and over 150 representatives world-wide, including US, UK, Canada, China, EU, Australia,
+India, Brazil, UAE, Japan, Nigeria, Rwanda and Singapore.26
+The Tortoise Media 2023 Global AI Index ranked UK fourth place, behind the US, China and
+Singapore. While on Oxford Insights’ 2023 AI Readiness Index UK ranked third place, among
+193 nations ranked, using three main pillars: Government; Technology; and Data &
+Infrastructure.27
+In May 2023, a claim was filed by Getty in a UK High Court against Stability AI for scraping the
+internet and using Getty images to train its generative AI model, Stable Diffusion without
+permission thereby infringing its copyright as protected under sections 22, 23 and 27 of the
+Copyright Designs and Patents Act 1988 (CDPA) in the UK. Stability AI in its defense claimed
+that no “article” also known “as infringing copy” was brought into the UK to train its AI model as
+required by the CDPA. The company further argued that the term “article” in sections 22, 23 and
+27 are limited to “physical and tangible items” and that intangible items (e.g., software) like Stable
+Diffusion are not covered and therefore exempt.
+Stability AI also pleaded the defense of “fair use” as Getty’s images were used temporarily and
+solely for training purposes. The case also raises the questions whether AI generated content can
+be considered original works or derivative works? Getty also claims that the images generated by
+Stable Diffusion bear its trademarks, thus constituting trademark infringement.
+In December 2023, the Court ruled that the case should go to full trial.
+The outcome of this case would have far reaching consequences for UK copyright law and how
+AI Actors choose to train their AI models without running afoul of the UK law. It would be
+interesting to see how the court rules on this novel issue and how businesses and policymakers
+react in due course.
+CANADA
+As noted earlier, in 2023 Canada was ranked among the top five countries in AI strategy by the
+Global AI Index instituted by the Tortoise Media.28 In Canada, the proposed Artificial Intelligence
+and Data Act (AIDA), which is part of Bill C-27, is intended to foster responsible AI practices,
+
+UK Gov, “Bletchley Declaration” (GOV.UK, 1 November 2023) <https://www.gov.uk/government/publications/aisafety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safetysummit-1-2-november-2023> accessed 19 May 2024.
+27
+Oxford Insight, AI Readiness Index < https://oxfordinsights.com/ai-readiness/ai-readiness-index/> accessed 22
+April 2024.
+28
+Canada is number 5 on the Global AI index <https://www.tortoisemedia.com/intelligence/global-ai/#rankings >
+accessed 27 May 2024.
+
+26
+
+43
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+protect Canadians from high-risk AI systems, and Canadian organizations for participation in AI
+development and deployment on the world stage.29
+Canada’s AI strategy includes a Voluntary AI code of conduct on GenAI 30 as well as directives on
+use of automated decision-making by the federal government and proposed amendment of the
+Ontario’s Workers Act requiring full disclosure by businesses on the use of AI Hiring Tools in
+their employment process.31
+Canada, like US and UK, is a party to the OECD AI principles. Canada also participated in the
+2023 UK AI Summit, which culminated in the Bletchley Declaration. Canada also hosted the
+Global AI Summit 2023 in Toronto. As part of the G7, Canada endorsed the 11 Hiroshima Process
+International Guiding Principles for Advanced AI systems. Canada also adopted UNESCO
+Recommendation on the Ethics of AI.32
+Canada’s AI governance approach is based largely on the G7 Hiroshima Process International
+Guiding Principles for Organizations Developing Advanced AI Systems and the Hiroshima Process
+International Code of Conduct for Organizations Developing Advanced AI Systems as well as the
+U.S. Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial
+Intelligence.33 This AI posture operates alongside extant laws on data privacy and protection,
+consumer protection, banking and human rights.34
+CHINA
+China was among the first nations to implement a framework for AI strategy and regulation
+alongside extant cybersecurity, data privacy and protection laws. 35 China was among 193 countries
+that adopted the UNESCO recommendations on the Ethics of AI. China also participated in the
+2023 UK AI summit which birthed the Bletchley Declaration. 36
+
+IAPP Global AI Law and Policy Tracker < https://iapp.org/resources/article/global-ai-legislation-tracker/>
+accessed 9 May 2024.
+30
+The Voluntary Code of Conduct on the Responsible Development and Management of Advanced for Generative
+AI Systems, announced by Minister Champagne on September 27, 2023, will enable Canadian companies to
+demonstrate that they are developing and using generative AI systems responsibly and strengthen Canadians’
+confidence in the technology.
+31
+IAPP Global AI Law and Policy tracker, ibid.
+32
+ibid.
+33
+Government of Canada, “Canada helps shape global dialogue on the responsible and safe use of artificial
+intelligence” (Canada.ca, 3 November 2023) <https://www.canada.ca/en/innovation-science-economicdevelopment/news/2023/11/canada-helps-shape-global-dialogue-on-the-responsible-and-safe-use-of-artificialintelligence.html> accessed 4 June 2024.
+34
+Personal Information Protection and Electronic Documents Act; Privacy Act; Consumer Product Safety Act; Food
+and Drugs Act; Motor Vehicle Safety Act; Bank Act; Human Rights Act; Criminal Code; and Quebec's Law 25.
+35
+Cybersecurity Law; Data Security Law; Personal Information Protection Law; and Shenzhen Special Economic
+Zone AI Industry Promotion Regulation.
+36
+IAPP Global AI Law and Policy Tracker < https://iapp.org/resources/article/global-ai-legislation-tracker/>
+accessed 9 May 2024.
+
+29
+
+44
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+The Tortoise Media 2023 Global AI Index ranked China second place, behind the US and ahead
+of Singapore, UK and Canada. Curiously, on the Oxford Insights’ 2023 AI Readiness Index China
+ranked sixteenth place, among 193 nations ranked.37
+In 2017 the Chinese State Council released the New Generation Artificial Intelligence
+Development Plan (AIDP).
+In June 2019, the National New Generation Artificial Intelligence Governance Expert Committee
+established in March 2019 by China’s Ministry of Science and Technology (MOST) released a
+document outlining eight principles for AI governance and “responsible AI.” 38
+The eight principles are: Harmony and friendliness; Fairness and justice; Inclusivity and sharing;
+Respect privacy; Secure/safe and controllable; Shared responsibility; Open collaboration; and
+Agile governance.
+1. Harmony and friendliness. AI systems should conform to and promote human values,
+ethics, and safety to humans and society.
+2. Fairness and justice. AI development should promote fairness and justice, protect the
+rights and interests of stakeholders, and promote equality of opportunity.
+3. Inclusivity and sharing. AI should: promote green development and meet the requirements
+of environmental friendliness and resource conservation; promote inclusive development,
+strengthen AI education and encourage open and orderly competition.
+4. Respect privacy. AI development should respect and protect personal privacy and fully
+protect the individual's right to know and right to choose.
+5. Secure/safe and controllable. AI systems should continuously improve transparency,
+explainability, reliability, and controllability, and gradually achieve auditability,
+supervisability, traceability, and trustworthiness.
+6. Shared responsibility. AI developers, users, and other interested parties should possess a
+strong sense of social responsibility and self-discipline, and strictly abide by laws,
+regulations, ethics, morals, standards, and norms.
+7. Open collaboration. Encourage exchanges and cooperation across disciplines, domains,
+regions, and borders; among international organizations, governments, businesses,
+academia and civil society for the development and governance of AI.
+8. Agile governance. Ensure innovative and trustworthy AI by continuously promoting
+governance principles throughout the AI life cycle for the benefit of humans and society.39
+In October 2021, the AI Governance Committee also released the Ethical Norms for New
+Generation Artificial Intelligence (Ethical Norms), whose purpose is to incorporate ethics into the
+
+Tortoise Media and Oxford Insights, ibid.
+See also Algorithm Watch “AI Ethics Guidelines Global Inventory”
+<https://inventory.algorithmwatch.org/?sfid=172&_sfm_i_location=China> accessed 6 May 2024.
+39
+ibid.
+
+37
+
+38
+
+45
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+entire artificial intelligence (AI) life cycle and to provide ethical guidance to natural persons, legal
+persons, and other related institutions engaged in AI-related activities. 40
+The Ethical Norms proposes six basic ethical requirements, namely: the advancement of human
+welfare, the promotion of fairness and justice, the protection of privacy and security, the assurance
+of controllability and trustworthiness, the strengthening of accountability, and improvements to
+the cultivation of ethics. It also puts forward 18 specific ethical requirements concerning AI
+management, research and development (R&D), supply, use, and other specific activities. 41
+On 10 July 2023, the MOST jointly with the Cybersecurity Administration, National Development
+and Reform Commission, Ministry of Education, Ministry of Science and Technology, Ministry of
+Industry and Information Technology, Ministry of Public Security, and State Administration of
+Radio and Television, promulgated China’s new “Interim Measures for the Management of
+Generative Artificial Intelligence Services” to take effect on 15 August 2023.42
+The rules address several global concerns, including: - content control/censorship; bias and
+discrimination; protection of IP rights; misinformation; and data privacy and protection.
+1. Content control/censorship – content generated shall embody the core socialist values and
+prohibits contents that is extremist, separatist, divisive, obscene, fake or harmful. 43
+2. Bias and Discrimination – effective measures shall be employed during the design and
+training of AI models to prevent discrimination based on race, ethnicity, faith, nationality,
+region, sex, age, profession, or health.44
+3. Protection of IP rights - intellectual property rights must be respected and not infringed
+in the development of AI models.45
+4. Misinformation - providers must employ effective measures to increase the quality of
+training data, and increase the truth, accuracy, objectivity, and diversity of training data.46
+In addition providers shall label AI generated content, like images and videos.47
+5. Data Privacy and Protection – providers must use data and foundational models that have
+lawful sources to train GenAI models, obtain consent where personal data is involved,
+comply with relevant data privacy and protection laws, protect individual’s publicity rights
+and prevent privacy torts, adhere to data minimization and purpose limitation principles,
+and promptly address individual request to access, rectify or delete personal data.48
+Center for Security and Emerging Technologies (CSET) <https://cset.georgetown.edu/publication/ethical-normsfor-new-generation-artificial-intelligence-released/> accessed 23 May 2024.
+41
+ibid, for full text and translation.
+42
+China Law Translate, “Interim Measures for the Management of Generative Artificial Intelligence Services”
+<https://www.chinalawtranslate.com/en/generative-ai-interim/ > accessed 29 May 2024
+43
+art 4(1).
+44
+art 4(2).
+45
+arts 4(3) and 7(2).
+46
+art 7(4).
+47
+art 12.
+48
+arts 4(4), 7(1)(3)(5) and 11.
+
+40
+
+46
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+The use of AI in China and by Chinese companies has witnessed an uptick in lawsuits on copyright,
+data protection and scraping.
+In November 2023, the Beijing Internet Court recognized and protected the copyright of Authors
+of AI generated works. Determining the eligibility of AI generated content for copyright protection
+is a complex and evolving legal and ethical question. It involves such factors as the level of human
+involvement, originality and creativity in the entire creation process. The court noted that the image
+had been created using a series of prompts and parameters that ultimately reflected the author’s
+creativity and personality. The court held that the author of an AI generated work is the person who
+directly makes the relevant settings to the AI model, instead of the AI model itself. 49 This position
+seems to be consistent with the U.S. Copyright Office’s position that a work can have copyright
+protection where its creation is AI assisted; but where wholly created by AI the work will not be
+protected.50
+In other lawsuits in China and overseas concerning data scraping and copyright infringement the
+courts have emphasized the importance of data privacy and protection and AI actors should ensure
+the lawful basis for data used in training their AI models. 51
+In February 2024, a Chinese court fined a GenAI developer/company for copyright violations. The
+company was sued because its GenAI images were too similar to their copyrighted images. The
+Court awarded $1,389 damages in favor of the plaintiff. Curiously the company was only required
+to have a mechanism to the generating of the infringing images, but no restrictions was imposed
+on using copyrighted material to train its AI model. 52
+SINGAPORE
+Singapore is a party to the OECD AI principles. Singapore participated in the 2023 UK AI Summit,
+from which emerged the Bletchley Declaration. Singapore also adopted the UNESCO
+Recommendation on the Ethics of AI. Singapore aims to be a global hub for AI design and
+development through its National AI Strategy. 53
+Singapore via the Personal Data Protection Commission (PDPC) has developed voluntary
+governance frameworks and initiatives for ethical AI, which include:
+
+IAM, “Beijing Internet Court rules that AI-generated content is eligible for copyright protection” (IAM, 3 January
+2024) <https://www.iam-media.com/article/beijing-internet-court-rules-ai-generated-content-eligible-copyrightprotection> accessed 3 June 2024.
+50
+Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence, 88 Fed. Reg.
+16,190 (Mar. 16, 2023) (to be codified at 37 C.F.R. § 202).
+51
+Retail Boss, “Shein: Nearly 100 lawsuit cases filed against it to date, report” (RetailBoss, 28 May 2024)
+<https://retailboss.co/nearly-100-lawsuit-cases-filed-against-it-to-date-report/> accessed 7 June 2024.
+52
+Johanna Costigan “China Rules AI firm Committed Copyright Infringement” (Forbes, 29 February 2024)
+<https://www.forbes.com/sites/johannacostigan/2024/02/29/china-rules-ai-firm-committed-copyrightinfringement/?sh=1c950dc1454d> accessed 17 April 2024.
+53
+IAPP Global AI Law and Policy tracker, ibid.
+49
+
+47
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+▪
+
+▪
+
+▪
+
+Model AI Governance frameworks – released in 2019, at the World Economic Forum
+Annual Meeting in Davos, Switzerland, with a second edition in January 2020, leveraging
+on Singapore’s participation in leading international platforms, such as the European
+Commission’s High-Level Expert Group and the OECD Expert Group on AI. 54
+The Model framework provides guidance to the AI actors in the private sector on ethical
+and governance issues related to the deployment of AI. The framework focuses primarily
+on four broad areas: internal governance structures and measures, human involvement in
+AI-augmented decision-making, operations management and stakeholder interaction and
+communication.55
+The framework has been described as a firm foundation for the responsible use of AI and
+its future evolution. It seeks to advance a human-centric approach to AI, facilitate
+innovation, safeguard public trust and ensure positive impact on the world in the present
+and for posterity.56
+AI Verify Foundation – a non-profit foundation that aims to harness the collective power
+of global open-source community to develop international guidelines, standards and AI
+testing tools to enable responsible AI. The Foundation partners and collaborates with
+Google, Microsoft, IBM, the Info-communications Media Development Authority
+(IMDA), Aicadium (Temasek’s AI Centre of Excellence), Red Hat, and Salesforce.57
+Proposed Advisory Guidelines on Use of Personal Data in AI Recommendation and
+Decision Systems – The guidelines seek to achieve consumer confidence and trust while
+promoting AI technology and innovation.
+
+Singapore is ranked second and third respectively behind the US and China on the 2023 ranking
+of Oxford Insights’ AI Readiness Index and Tortoise Media Global AI Index.58
+Singapore also has extant laws and policies relevant to AI, namely: Personal Data Protection Act,
+Computer Misuse Act, Copyright Act, Cybersecurity Act, and The Digital Economy Partnership
+Agreement.
+NIGERIA
+It has been noted that Africa is on the cusp of digitalization which is expected to be driven by the
+application of AI.59 With a population of over 220 million and abundant natural resources Nigeria
+is the largest democracy and a country of significant importance on the African continent.60 Nigeria
+
+Model AI Governance Framework (2nd edn, 2020), 7.
+ibid 10.
+56
+ibid 8.
+57
+AI Verify Foundation < https://aiverifyfoundation.sg/ai-verify-foundation/> accessed 2 June 2024.
+58
+ibid.
+59
+Damian Eke, ibid 1.
+60
+Nigeria is the 6th most populated countries in the world with a median age of 17.2. Being one of 7 countries that
+account for about half of the world population. Worldometer <https://www.worldometers.info/worldpopulation/nigeria-population/> accessed 23 April 2024.
+
+54
+
+55
+
+48
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+has a fast-growing technology start-up ecosystem.61 In 2021 Nigeria accounted for 25% of the $1.3
+billion funding to African tech start-ups. In November 2021 Nigeria adopted the UNESCO
+Recommendation on the Ethics of AI alongside 193 member countries. Nigeria also participated
+in the 2023 U.K. AI Summit, which concluded with the Bletchley Declaration.
+In August 2023, the Honourable Minister for Communication, Innovation and Digital economy
+called for AI experts of Nigerian decent globally to help co-create a National AI Strategy for
+Nigeria. The objective is to formulate an AI Strategy that would ensure innovative and trustworthy
+AI that is ethical, safe and beneficial to the Nigerian State and its citizens. By driving sustainable
+economic growth and positive impact in such areas as agriculture, education, healthcare, finance
+and public service.
+From April 15 to 18, 2024 Nigeria held the National Artificial Intelligence Strategy Workshop
+comprising 120 leading Nigerian AI experts and researchers from the public and private sector,
+including academia. The workshop was supported by UNESCO and other partners, like, Google,
+Meta and Microsoft. United Nations Development Programme (UNDP), National Centre for
+Artificial Intelligence and Robotics (NCAIR), Nigerian Communications Commission (NCC),
+National Information Technology Development Agency (NITDA), Universal Service Provision
+Fund (USPF), and Galaxy Backbone.
+At the close of the AI strategy workshop a number of strategic partnerships and projects to fasttrack Nigeria’s growth in the AI field were outlined:
+•
+
+•
+
+•
+
+61
+
+NCAIR Relaunch: The relaunch of new and improved capacity at the National Centre
+for Al and Robotics (NCAIR) to better fulfil its mandate. The Centre is a special purpose
+vehicle created to promote research and development on emerging technologies and
+their practical application in the areas of Nigerian national interest. As a digital
+innovation and research facility, NCAIR focuses on Artificial Intelligence (Al),
+Robotics and Drones, Internet of Things (loT), and other emerging technologies, aimed
+at transforming the Nigerian digital economy. The capacity building imperative is
+undertaken with support from global technology company, Cisco.
+Nigerian Multilingual Large Language Model: The multilingual LLM aims to build
+the most robust Nigerian large language model. To achieve this, the project will
+leverage the support of the 3 Million Technical Talent (3MTT) programme Fellows to
+collate high quality Nigerian language data and fuel the development some of the most
+sophisticated AI models. The project is developed by Awarri in partnership with NITDA
+and Data.org.
+Nigeria’s Computing Infrastructure Pilot: To accelerate the development of Al
+projects of national interest, Galaxy Backbone Limited will partner 21st Century
+Technologies to develop Nigeria’s national compute project. The Compute will be
+available to local researchers, startups, government entities working on critical Al
+
+Lagos in considered a notable tech and entertainment hub.
+
+49
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+•
+
+projects that are of national interest. It will reside at the Galaxy Backbone Data Centre
+and accessible through NCAIR.
+The AI Collective: The Nigeria Al Collective is a community of practice collaborating
+towards accelerating the nation’s collective prosperity through an inclusive Al
+Ecosystem. The Collective will harness the power of Al to drive economic prosperity,
+accelerate innovation and social development, and position Nigeria as a leading force
+in AI for good globally.62
+
+In order to leverage technology, build capacity and the technical backbone to drive the digital
+economy Nigeria launched several initiatives. These include the 3 Million Technical Talent
+(3MTT) program and the Nigeria AI Research Scheme, Digital Nigeria, and e-Government
+Initiative. The 3MTT program brings togethers fellows, training providers, partners and placement
+organizations in collaboration with NITDA to facilitate fellowship programs in 12 areas (software
+development, UI/UX design, data analysis & visualization, quality assurance, product
+management, data science, animation, AI/Machine Learning, cybersecurity, game development,
+cloud computing, and dev op).63
+The Nigeria AI Research Scheme aims to foster a vibrant and sustainable AI ecosystem in Nigeria
+by providing financial support, facilitating knowledge sharing and collaboration among
+individuals and organisations in the AI industry. AI researchers or start-ups are provided funding
+to support their work in 7 key areas (agriculture, education and workforce, finance, governance,
+utility, healthcare and sustainability).64
+The Digital Nigeria program was launched to empower innovators and entrepreneurs with the
+requisite skills to thrive in an emerging digital economy. In October 2023, the program held a
+conference on Emerging Technologies (Blockchain, AI). The next Digital Nigeria International
+Conference shall be held from October 22 to 24, 2024 with over 10,000 in-person attendees and
+5,000 virtually from all over the world. The Digital Nigeria conference offers an excellent platform
+for you to showcase your brand to industry peers, international technology experts, the press, and
+the wider blockchain, Web3, IoT, Startup Ecosystem and Investors, and AI, XR & Metaverse
+community.65
+The e-Government Initiative seeks to leverage technology to boost public service productivity by
+improving service delivery, drive transparency, accountability and good governance. This would
+include establishing and activating the National E-Government Master Plan, Government Service
+Portal (GSP), Government Contact Centre (GCC), Open Data Portal, Electronic Document
+FMCIDE, “Dr. Tijani Wraps Up Artificial Intelligence Strategy Workshop; Announces Groundbreaking
+Partnerships with Cisco, 21st Century Technologies, others” (FMCIDE, 19 April 2024) < https://fmcide.gov.ng/honminister-dr-bosun-tijani-wraps-up-artificial-intelligence-strategy-workshop-announces-groundbreakingpartnerships-with-cisco-21st-century-technologies-others/> accessed 23 April 2024.
+63
+FMCIDE, “Our Initiatives” <https://fmcide.gov.ng/initiatives/> accessed 23 April 2024.
+64
+ibid.
+65
+ibid. See also Digital Nigeria Conference 2024 < https://digitalnigeria.gov.ng/> accessed 23 April 2024
+62
+
+50
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Management System (EDMS), the E-Government Capacity Building Program, and the National
+E-Health Strategic Framework.66
+In June 2023, Nigeria passed the Nigeria Data Protection Act (NDPA) which is based on the EU
+GDPR. The NDPA has robust provisions on data privacy and security, sensitive data, children and
+vulnerable persons and automated decision making.67 These are critical due to the intersection
+between AI and privacy and would definitely have implications for AI development and
+deployment within the Nigerian jurisdiction and digital economy.68
+On the Tortoise Media 2023 Global AI Index, Nigeria was ranked sixty-first out of 62 nations,
+while on the Oxford Insights’ AI Readiness index Nigeria was ranked 103 out of 193 counties
+ranked. Nigeria is also ranked 49th and 54th place for “talent” and “government strategy” on the
+Tortoise Index. It is expected that these rankings would improve over time with commitment and
+collaborative efforts by the public and private sector to achieve the objectives of the National AI
+Strategy to engender innovative and trustworthy AI.
+
+ibid.
+NDPA, ss 24 - 27, 30, 31, 37, and 39.
+68
+cf. EU AI Act.
+
+66
+67
+
+51
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+6.0 Next Steps
+Advancements in the development and deployment of AI and AI systems will continue to evolve
+and grow. It shall find intersections with humans and society igniting disruptive and
+transformational impacts. At the center of it all AI governance would seek to strike a balance
+between potential AI risks and benefits. More nations would pass laws and policies for AI
+governance. The AI regulatory landscape would further develop and crystallize with the
+implementation of laws and feedback from different quarters and levels. There would be more
+guidance and playbooks developed and issued from the collaborative efforts of governments,
+policymakers, academics, civil society, AI actors and other stakeholders.
+AI governance and responsible AI is crucial because of the potential benefits and risks associated
+with AI. This realization imposes different responsibilities on all AI stakeholders, especially
+Governments, AI Actors and consumers, to collectively foster ethical, innovative, responsible, safe
+and trustworthy AI.
+Governments have a responsibility to adopt AI strategies and enact laws that promote innovative
+and trustworthy AI. AI Actors have a duty not to cause harm through their AI systems and to
+comply with relevant laws and policies. Consumers and end users of AI should also do their part
+by educating themselves about their rights as they relate to AI. AI literacy is paramount. The EU
+GDPR, EU AI Act and the US State laws contain provisions about full disclosure, consent, bias
+and discrimination and automated decision making, stipulating the rights and obligations of AI
+actors and consumers.
+Organizations involved in the development and deployment of AI are the most affected by the EU
+AI Act.1 Both the NIST and ISO frameworks are aimed at helping organizations achieve ethical,
+safe and trustworthy AI. Organizations would need to be proactive and committed in their approach
+to AI and AI governance in order to remain compliant with government laws and policies, conform
+to industry standards and sustain customer confidence and public trust. An organization’s AI
+governance framework must reflect its unique risk tolerance, corporate goals, culture and core
+values, industry and geographical footprint.
+Getting Your Organizations AI ready
+The AI revolution may be described as a Promethean moment akin to the discovery of fire, the
+invention of the wheel, or the internet. Change is coming. Organizations and their board of
+directors should be prepared and must have a strategy for AI and AI governance. The
+aforementioned strategies and frameworks can be of assistance in establishing a robust AI
+governance framework. Taken together they can be broken down into four major steps, namely:
+For example, big tech companies in the e-commerce and social media spaces that use big data and AI in their
+business operations.
+1
+
+52
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+Understanding AI; AI Strategy; AI Risk assessment and AI Risk Management; and Human capital
+Management and Capacity Development.
+1. Understanding AI – This involves the planning and discovery stage. Organizations must
+include AI knowledge and education as a board agenda. There must be management buy-in on AI.
+The senior management must understand how AI impacts their business operations, their industry
+and domain. Clearly identify your organization’s objectives on the use and relevance of AI to its
+business. Who are you as an AI Actor? Are you a provider or deployer? This would help determine
+your rights and compliance obligations under relevant laws, like the EU AI Act.
+2. AI Strategy – The organization must set up an AI Steering/Oversight Committee on AI
+Governance. The Committee must have the right skillsets. It should be cross-functional and
+multidisciplinary comprising professionals impacted by AI use such as HR, Legal, Compliance,
+IT, Sales and Marketing including C-Suite executives (e.g., CPO, CTO, CFO, COO, CISO) to
+integrate a top-bottom involvement and commitment. Their terms of reference would be coming
+up with AI policies and procedures that align with the overall objectives and goals of the
+organization, are compliant with legal and regulatory requirements and are capable of fostering
+innovative, responsible, safe and trustworthy AI.
+As part of its AI strategy the organization should adopt an appropriate AI Risk Management
+Framework (e.g., NIST or ISO) and take cognizance of the relevant international and domestic
+laws and regulations (like EU AI Act, AIDA, NDPA and US State laws) depending on its
+jurisdiction and activities. The framework should be activated and integrated throughout the AI
+lifecycle, that is, design, planning, development and deployment.
+3. AI Risk Assessment and AI Risk Management – The organization must determine its AI risk
+profile, in particular its risk priority and risk tolerance. The Organization must conduct an AI model
+inventory and map all the AI and AI systems being designed, developed, deployed or used across
+the organization depending on the organization’s AI actor status. Are you developing closedsource/proprietary AI or deploying open-source/third-party solution? Are there AI risks associated
+with third party vendors or contractors?
+Next the identified AI must be classified according to sensitivity and risk level
+(Unacceptable/Prohibited risk, High-risk, Limited risk, Minimal risk and General Purpose AI).
+You then have to assess the risks associated with your AI system(s). In the case of high-risk
+intended to be placed on the EU single market, a conformity assessment would be required. Other
+assessments, like fundamental rights impact assessment, restrictions and obligations may also be
+required depending on the AI risk classifications. Where personal data is involved a data inventory,
+data mapping, and risk assessment would be necessary. Implement PbD, PET, DPIA or PIA and
+
+53
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+ROPA obligations in compliance with relevant laws and regulations2 where applicable. It is also
+important to establish data provenance and data lineage.
+Armed with the results of the AI systems, and data inventory and the risk assessments conducted
+the Organization must develop critical policies such as an AI Internal Use Policy, AI Governance
+Policy, and AI RMF. Other policies may include data privacy and security policies together with
+incident response and data breach policies. These policies must align with and would form part of
+the organization’s overall AI governance program.
+The organization must establish and activate its AI governance program. The organization must
+communicate and implement its policies. Employees must be apprised of the organization’s AI
+policies. Relevant policies,3 disclosures4 and rights5 should also be communicated to consumers
+in accordance to relevant international and domestic laws and regulations. 6
+Risk owners and critical officers should be identified with roles and responsibilities assigned. Two
+key roles would be an AI Ethics Officer and an AI Governance Officer.7 The former would be
+responsible for ensuring responsible and trustworthy AI throughout the AI lifecycle. The AI
+Ethicist would look at issues like systems fairness and AI bias and discrimination risks. The latter,
+the AI governance officer would be more akin to carrying out a Governance, Risk and Compliance
+(GRC) role, especially operationalizing frameworks, policies and practices to ensure trustworthy
+AI and overseeing legal and regulatory compliance requirements.
+The AI governance program should identify, evaluate and treat the risks by implementing technical
+and organizational controls, safeguards and countermeasures to mitigate risks and vulnerabilities.
+Ensure data governance with sufficient testing and validation of training datasets for data accuracy
+and quality.8 Implement human oversight to ensure accuracy and eliminate harm. There should be
+measures to manage risk of AI and algorithm bias, as well as AI “hallucination” phenomenon.9
+
+E-Government Act, EU GDPR and AI Act. Privacy by Design (PbD) and Privacy Enhancing Technology (PET) are
+intended to address privacy risks. DPIAs and PIAs are used to assess privacy risk; and a Report of Processing
+Activities (ROPA) facilitates transparency and accountability. See GDPR, arts 25, 30, and 35.
+3
+For example: AI use policy, privacy policy, copyright policy, privacy notice, use terms and conditions, warranties
+and representation, and product liability.
+4
+Disclosure about whether AI (like automated decision making) is being interacted with or used in a process or
+decision involving the benefits, rights and freedoms of an individual; or if out-put is AI generated; or how data is
+collected, used, shared or sold; how to make a complaint or seek remediation on an issue involving organization’s AI
+and AI systems. EU AI Act, arts 50 and 86.
+5
+where data is involved, these include the rights to consent, opt-out/opt-in, access, restrict use or sale, rectify or
+erasure.
+6
+Like the EU AI Act, GDPR, NYC LL 144 regarding Automated Employee Tools and Colorado AI Act.
+7
+Other emergent roles in the AI era could be AI consultant, AI researcher, AI designer, AI trainer, Machine learning
+engineer, AI data steward, AI operations (AIOps) engineer, AI compliance officer, and AI auditor. Roles may overlap
+depending on the designation the organization chooses.
+8
+The EU AI Act, art 57 provides for AI regulatory sandbox to test AI systems before placement on the market.
+9
+RAG and Grounding may be applicable here. EU AI Act, art 15.
+2
+
+54
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+There should be continuous monitoring of AI performance and periodic audits of data privacy,
+cybersecurity and AI risks to guarantee regulatory compliance and evaluate the effectiveness of
+the program.
+All activities must be documented and recorded throughout the AI lifecycle, including technical
+documentation in the case of high-risk AI, for review internally or externally by auditors or
+supervisory authorities. Under the EU AI Act providers must report any incidents or malfunctions
+of high-risk AI systems to the relevant authorities. This will help maintain accountability and
+transparency.10
+4. Human Capital Management and Capacity Development – There should be allocation of
+roles and responsibilities across the organization and AI lifecycle. There should be monitoring and
+accountability by holding managers and desk officers accountable for tasks and activities.
+Humans are the most valuable asset of an organization however they are also its weakest. They are
+prone to cyberattacks, social engineering, bias, negligence, incompetence and other human failings
+and vices. These vulnerabilities can be mitigated through training and awareness which should be
+general as well as role specific.
+There should be a robust and structured AI literacy program with general training and awareness
+about the benefits and risks of AI; the organization’s AI policies and procedure; AI principles and
+AI risk management; the risk of AI solutionism and over-dependency on AI tools;11 ethical and
+responsible AI; data management and data governance; data privacy and security as well as privacy
+enhancement.12
+The training should include all employees and where necessary third-party vendors and
+contractors. There should be contracts between the organization and its vendors and contractors
+securing their commitment to adhere to the organization’s AI governance policies and compliance
+requirements during the pendency of contracts. Non-Disclosure Agreements (NDAs) may also be
+used where applicable.
+There should also be technical and targeted training to upskill and reskill, to enhance competency
+and capacity of critical AI officers across the AI lifecycle to achieve compliance. The organization
+must be proactive and stay up to date with AI trends and regulatory requirements to succeed.
+
+EU AI Act, arts 12, 18, 19 and 73 cf. Report on Processing Activity (ROPA), data breach notification, and Data
+Protection Impact Assessment (DPIA) requirements under GDPR, arts 30, 33 and 35.
+11
+In May 2023 it was reported that Samsung had banned ChatGPT outright because an employee uploaded sensitive
+source code to ChatGPT which was leaked externally, another employee uploaded a confidential recording to
+ChatGPT to create a summary. Other companies to restrict the use of ChatGPT by employees are Amazon and JP
+Morgan in January and February 2023, respectively. Siladitya Ray “Samsung Bans ChatGPT Among Employees
+After Sensitive Code Leak” (Forbes, 2 May 2023) <Samsung Bans ChatGPT Among Employees After Sensitive
+Code Leak (forbes.com)> accessed 4 June 2024.
+12
+EU AI Act, art 4.
+10
+
+55
+
+© AI Governance: An Overview (Dec. 2023 – May 2024) Revised June 2024 | Alex wodi
+
+AI actors should embrace communication and collaboration as well as knowledge and experience
+sharing within the AI community. The wealth of resources available on different platforms and
+initiatives should be leveraged for success.
+The OECD, NIST and ISO/IEC have useful guides for implementing AI principles, standards,
+governance, and risk management. The OECD AI observatory also has a catalog of AI tools,
+templates, metrics, methodologies and resources available to organizations to facilitate and boost
+their AI governance program.
+Effective AI governance incorporates privacy and data governance practices into AI lifecycle.
+From the design and planning stage to the development and deployment stages. In view of the
+significance of data to AI, and the overlaps between privacy practices and AI governance,
+businesses would do well to leverage the expertise and competency of their privacy professionals
+and adapt existing privacy, cybersecurity, and GRC architecture to foster a robust AI risks
+management and AI governance program.
+By being pragmatic and adopting a proactive approach to AI strategy and AI governance
+governments, organizations and consumers would stay ahead of the curve and be prepared for the
+AI revolution. AI has potential risks, but it also has potential benefits for humans and the planet in
+such area as health, education, finance, agriculture, cybersecurity, public service, including finding
+solutions for SDGs. We should all embrace AI with an open mind and seek ways to employ its
+power to positively impact our daily lives and society.
+
+56
+
+

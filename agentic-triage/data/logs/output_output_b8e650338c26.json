@@ -1,0 +1,12 @@
+{
+  "output_id": "output_b8e650338c26",
+  "workflow": "literature_triage",
+  "session_id": "0c048cb1",
+  "summary": "Triaged 0 papers. Top result: none",
+  "claims": [],
+  "sources_consulted": [],
+  "agent_version": "literature_triage_v1",
+  "model_provider": "deepseek",
+  "model_version": "",
+  "created_at": "2026-08-06T14:06:21.556656+00:00"
+}

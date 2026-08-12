@@ -1,0 +1,470 @@
+html.document-hidden *,html.document-hidden *::before,html.document-hidden *::after{animation-play-state:paused!important}
+/* ============================================================
+   matrAIx.ai — Dark Theme (Auto-detected or explicit)
+   Dark background with white text
+   ============================================================ */
+
+/* Smooth theme transitions */
+html.theme-transitioning,
+html.theme-transitioning * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* Light theme override - highest priority (overrides media query) */
+[data-theme="light"] {
+  --bg:        #ffffff !important;
+  --bg-2:      #f8f9fa !important;
+  --bg-3:      #f3f4f6 !important;
+  --ink:       #1a1a1a !important;
+  --ink-dim:   #404040 !important;
+  --phos:      #4A8FC2 !important;
+  --phos-deep: #365B8F !important;
+  --amber:     #d97706 !important;
+  --rose:      #dc2626 !important;
+  --cyan:      #6BC0E8 !important;
+  --line:      rgba(74, 143, 194, 0.12) !important;
+  --line-soft: rgba(74, 143, 194, 0.06) !important;
+  --glow:      0 0 22px rgba(74, 143, 194, 0.25) !important;
+}
+
+/* Dark mode: system preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Colors - Dark Theme */
+    --bg:        #0a0a0a;      /* near-black background */
+    --bg-2:      #1a1a1a;      /* slightly lighter dark */
+    --bg-3:      #262626;      /* darker cards */
+    --ink:       #f5f5f5;      /* primary text - white */
+    --ink-dim:   #b0b0b0;      /* muted text - lighter grey */
+    --phos:      #4A8FC2;      /* accent remains same saturated blue */
+    --phos-deep: #365B8F;      /* deeper accent */
+    --amber:     #d97706;      /* warning accent */
+    --rose:      #dc2626;      /* fail accent */
+    --cyan:      #6BC0E8;      /* data/highlight - cyan-blue */
+    --line:      rgba(74, 143, 194, 0.2);
+    --line-soft: rgba(74, 143, 194, 0.1);
+    --glow:      0 0 22px rgba(74, 143, 194, 0.35);
+  }
+
+  /* ---------- Header ---------- */
+
+  .nav {
+    background: linear-gradient(to bottom, rgba(10,10,10,0.92), rgba(10,10,10,0));
+    border-bottom: 1px solid var(--line-soft);
+    backdrop-filter: blur(8px);
+  }
+
+  .nav-toggle {
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+
+  .nav-toggle:hover {
+    border-color: var(--phos);
+    color: var(--phos);
+  }
+
+  /* ---------- Background layers ---------- */
+
+  #sim {
+    opacity: 0.15;
+  }
+
+  .grain {
+    opacity: 0.03;
+  }
+
+  .scanlines {
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,0) 0px,
+      rgba(255,255,255,0) 2px,
+      rgba(255,255,255,0.02) 3px,
+      rgba(255,255,255,0) 4px
+    );
+    opacity: 0.5;
+  }
+
+  .vignette {
+    background: radial-gradient(120% 90% at 50% 35%, transparent 45%, rgba(0,0,0,0.4) 100%);
+  }
+
+  /* ---------- Buttons ---------- */
+
+  .btn-ghost {
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+
+  .btn-ghost:hover {
+    border-color: var(--phos);
+    color: var(--phos);
+    box-shadow: inset 0 0 18px rgba(74, 143, 194, 0.12), 0 0 14px rgba(74, 143, 194, 0.2);
+  }
+
+  .btn-solid {
+    background: var(--phos);
+    color: #ffffff;
+    border-color: var(--phos);
+  }
+
+  .btn-solid:hover {
+    background: #5a9fd4;
+    box-shadow: 0 0 40px rgba(74, 143, 194, 0.4);
+  }
+
+  /* ---------- Cards & Panels ---------- */
+
+  .card {
+    background: #1a1a1a;
+    border: 1px solid rgba(74, 143, 194, 0.15);
+  }
+
+  .card:hover {
+    background: #262626;
+    transform: translateY(-4px);
+  }
+
+  .telemetry {
+    border: 1px solid var(--line);
+    background: rgba(10,10,10,0.75);
+    backdrop-filter: blur(6px);
+  }
+
+  .tele-cell {
+    border-right: 1px solid var(--line-soft);
+  }
+
+  .panel {
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .closing {
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .foot {
+    border-top: 1px solid var(--line);
+    background: linear-gradient(to bottom, rgba(10,10,10,0.95), rgba(5,5,5,0.9));
+    backdrop-filter: blur(8px);
+  }
+
+  .foot .brand-name em {
+    background: linear-gradient(90deg, #a855f7, #4A8FC2);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* ---------- Behavior grid & status indicators ---------- */
+
+  .cell {
+    background: rgba(74, 143, 194, 0.1);
+    border: 1px solid var(--line-soft);
+  }
+
+  .cell.pass {
+    background: rgba(74, 143, 194, 0.25);
+    box-shadow: 0 0 8px rgba(74, 143, 194, 0.5);
+  }
+
+  .cell.watch {
+    background: rgba(217, 119, 6, 0.25);
+    box-shadow: 0 0 8px rgba(217, 119, 6, 0.4);
+  }
+
+  .cell.fail {
+    background: rgba(220, 38, 38, 0.25);
+    box-shadow: 0 0 8px rgba(220, 38, 38, 0.4);
+  }
+
+  .sw-idle {
+    background: rgba(74, 143, 194, 0.1);
+    border: 1px solid var(--line);
+  }
+
+  /* ---------- Responsive ---------- */
+
+  @media (max-width: 820px) {
+    .nav-links {
+      background: linear-gradient(to bottom, rgba(10,10,10,0.98), rgba(10,10,10,0.95));
+      border-bottom: 1px solid var(--line-soft);
+    }
+  }
+
+  /* ---------- Text and dots ---------- */
+
+  body, p, li, span, div, a {
+    color: var(--ink);
+  }
+
+  .dot {
+    background: var(--ink-dim);
+  }
+
+  .dot.live {
+    background: var(--phos);
+    box-shadow: 0 0 8px rgba(74, 143, 194, 0.6);
+  }
+
+  .hero-eyebrow .ver {
+    border: 1px solid rgba(74, 143, 194, 0.4);
+  }
+
+  .nav-links a {
+    color: var(--ink);
+  }
+
+  .nav-links a:hover {
+    color: var(--phos);
+  }
+
+  .nav-links a::after {
+    background: var(--phos);
+    box-shadow: 0 0 8px rgba(74, 143, 194, 0.5);
+  }
+
+  .label, .caption, .subtitle, .description,
+  .hero-eyebrow, .panel-head p, .subhead,
+  .tele-label, .stat-cap, .stat-label, .stat-val,
+  .eyebrow, .lead, h1, h2, h3, h4, h5, h6,
+  .panel-head, .closing h2, .closing,
+  .headline, .sec-title, .tele-val,
+  .card, .card *, .telemetry, .telemetry *,
+  .btn-ghost, .os-btn {
+    color: var(--ink) !important;
+  }
+
+  /* ---------- OS Card Styling (dark theme) ---------- */
+
+  .os-card {
+    background: #1a1a1a;
+    border: 2px solid var(--line);
+    box-shadow: 0 4px 12px rgba(74, 143, 194, 0.15);
+  }
+
+  .os-card-bar {
+    background: linear-gradient(to right, #262626, #1a1a1a);
+    border-bottom: 1px solid var(--line-soft);
+  }
+
+  .os-card-body {
+    background: #1a1a1a;
+  }
+}
+
+/* Allow manual toggle via data-theme attribute */
+[data-theme="dark"] {
+  --bg:        #0a0a0a;
+  --bg-2:      #1a1a1a;
+  --bg-3:      #262626;
+  --ink:       #f5f5f5;
+  --ink-dim:   #b0b0b0;
+  --phos:      #4A8FC2;
+  --phos-deep: #365B8F;
+  --amber:     #d97706;
+  --rose:      #dc2626;
+  --cyan:      #6BC0E8;
+  --line:      rgba(74, 143, 194, 0.2);
+  --line-soft: rgba(74, 143, 194, 0.1);
+  --glow:      0 0 22px rgba(74, 143, 194, 0.35);
+
+  --font-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono:  "JetBrains Mono", ui-monospace, monospace;
+  --font-disp:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono:       "JetBrains Mono", ui-monospace, monospace;
+  --disp:       "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --text-xs:   0.64rem;
+  --text-sm:   0.8rem;
+  --text-base: 1rem;
+  --text-lg:   1.25rem;
+  --text-xl:   1.56rem;
+  --text-2xl:  1.95rem;
+  --text-3xl:  2.44rem;
+  --text-4xl:  3.05rem;
+  --text-5xl:  3.81rem;
+
+  --leading-tight:  1.1;
+  --leading-snug:   1.2;
+  --leading-normal: 1.6;
+  --leading-loose:  1.8;
+
+  --tracking-tight:   -0.02em;
+  --tracking-snug:    -0.01em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.05em;
+  --tracking-wider:   0.1em;
+  --tracking-widest:  0.15em;
+}
+
+[data-theme="dark"] .nav {
+  background: linear-gradient(to bottom, rgba(10,10,10,0.92), rgba(10,10,10,0));
+}
+
+[data-theme="dark"] #sim {
+  opacity: 0.15;
+}
+
+[data-theme="dark"] .grain {
+  opacity: 0.03;
+}
+
+[data-theme="dark"] .scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0) 0px,
+    rgba(255,255,255,0) 2px,
+    rgba(255,255,255,0.02) 3px,
+    rgba(255,255,255,0) 4px
+  );
+  opacity: 0.5;
+}
+
+[data-theme="dark"] .vignette {
+  background: radial-gradient(120% 90% at 50% 35%, transparent 45%, rgba(0,0,0,0.4) 100%);
+}
+
+[data-theme="dark"] .btn-ghost {
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+[data-theme="dark"] .btn-ghost:hover {
+  border-color: var(--phos);
+  color: var(--phos);
+  box-shadow: inset 0 0 18px rgba(74, 143, 194, 0.12), 0 0 14px rgba(74, 143, 194, 0.2);
+}
+
+[data-theme="dark"] .btn-solid {
+  background: var(--phos);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .btn-solid:hover {
+  background: #5a9fd4;
+  box-shadow: 0 0 40px rgba(74, 143, 194, 0.4);
+}
+
+[data-theme="dark"] .card {
+  background: #1a1a1a;
+  border: 1px solid rgba(74, 143, 194, 0.15);
+}
+
+[data-theme="dark"] .card:hover {
+  background: #262626;
+}
+
+[data-theme="dark"] .os-card {
+  background: #1a1a1a;
+  border: 2px solid var(--line);
+  box-shadow: 0 4px 12px rgba(74, 143, 194, 0.15);
+}
+
+[data-theme="dark"] .os-card-bar {
+  background: linear-gradient(to right, #262626, #1a1a1a);
+}
+
+[data-theme="dark"] .os-card-body {
+  background: #1a1a1a;
+}
+
+[data-theme="dark"] .label,
+[data-theme="dark"] .caption,
+[data-theme="dark"] .subtitle,
+[data-theme="dark"] .description,
+[data-theme="dark"] .hero-eyebrow,
+[data-theme="dark"] .panel-head p,
+[data-theme="dark"] .subhead,
+[data-theme="dark"] .tele-label,
+[data-theme="dark"] .stat-cap,
+[data-theme="dark"] .stat-label,
+[data-theme="dark"] .stat-val,
+[data-theme="dark"] .eyebrow,
+[data-theme="dark"] .lead,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] .panel-head,
+[data-theme="dark"] .closing h2,
+[data-theme="dark"] .closing,
+[data-theme="dark"] .headline,
+[data-theme="dark"] .sec-title,
+[data-theme="dark"] .tele-val,
+[data-theme="dark"] .card,
+[data-theme="dark"] .card *,
+[data-theme="dark"] .telemetry,
+[data-theme="dark"] .telemetry *,
+[data-theme="dark"] .btn-ghost,
+[data-theme="dark"] .os-btn {
+  color: var(--ink) !important;
+}
+
+[data-theme="dark"] .foot {
+  border-top: 1px solid var(--line);
+  background: linear-gradient(to bottom, rgba(10,10,10,0.95), rgba(5,5,5,0.9));
+  backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .foot .brand-name em {
+  background: linear-gradient(90deg, #a855f7, #4A8FC2);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================================
+   Fix: an explicitly chosen LIGHT theme must beat the OS-level
+   `@media (prefers-color-scheme: dark)` block above.
+   When the OS is in dark mode but the user forces light on the
+   site, that media query still matches the OS and leaks hardcoded
+   dark backgrounds (e.g. the black nav bar). These higher-specificity
+   [data-theme="light"] rules restore the intended light appearance.
+   ============================================================ */
+[data-theme="light"] .nav {
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--line-soft);
+}
+[data-theme="light"] .scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 0px,
+    rgba(0,0,0,0) 2px,
+    rgba(0,0,0,0.03) 3px,
+    rgba(0,0,0,0) 4px
+  );
+}
+[data-theme="light"] .vignette {
+  background: radial-gradient(120% 90% at 50% 35%, transparent 45%, rgba(0,0,0,0.08) 100%);
+}
+[data-theme="light"] .card {
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+}
+[data-theme="light"] .card:hover {
+  background: #eff1f5;
+}
+[data-theme="light"] .telemetry {
+  background: rgba(255,255,255,0.75);
+}
+[data-theme="light"] .foot {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.95), rgba(248,249,250,0.9));
+}
+[data-theme="light"] .os-card,
+[data-theme="light"] .os-card-body {
+  background: var(--bg-2);
+}
+[data-theme="light"] .os-card-bar {
+  background: linear-gradient(to right, var(--bg-3), var(--bg-2));
+}
+@media (max-width: 820px) {
+  [data-theme="light"] .nav-links {
+    background: #ffffff !important;
+  }
+}
+

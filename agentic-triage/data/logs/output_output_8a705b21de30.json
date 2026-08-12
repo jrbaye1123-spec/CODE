@@ -1,0 +1,34 @@
+{
+  "output_id": "output_8a705b21de30",
+  "workflow": "literature_triage",
+  "session_id": "24e5ce1b",
+  "summary": "Triaged 4 papers. Top result: OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+  "claims": [
+    {
+      "claim_id": "claim_5cd8ae64a04f",
+      "claim_text": "We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state.",
+      "source_document": "https://arxiv.org/abs/2608.05144v1",
+      "source_location": "abstract, sentence 2",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:52.956873+00:00"
+    },
+    {
+      "claim_id": "claim_ac4a52a2bdc2",
+      "claim_text": "We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA.",
+      "source_document": "https://arxiv.org/abs/2608.05138v1",
+      "source_location": "abstract, sentence 2",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T13:47:52.958809+00:00"
+    }
+  ],
+  "sources_consulted": [
+    "https://arxiv.org/abs/2608.05131v1",
+    "https://arxiv.org/abs/2608.05144v1",
+    "https://arxiv.org/abs/2608.05141v1",
+    "https://arxiv.org/abs/2608.05138v1"
+  ],
+  "agent_version": "literature_triage_v1",
+  "model_provider": "keyword",
+  "model_version": "",
+  "created_at": "2026-08-06T13:47:52.959620+00:00"
+}

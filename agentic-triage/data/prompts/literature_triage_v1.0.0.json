@@ -1,0 +1,13 @@
+{
+  "version_id": "v1.0.0",
+  "workflow": "literature_triage",
+  "role": "classification",
+  "template": "Classify the following paper: {paper_text}",
+  "variables": [
+    "paper_text"
+  ],
+  "created_at": "2026-08-06T13:12:09.935210+00:00",
+  "created_by": "test",
+  "changelog": "Initial classification prompt",
+  "is_active": true
+}

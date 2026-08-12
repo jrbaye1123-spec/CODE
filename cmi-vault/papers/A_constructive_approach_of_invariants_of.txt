@@ -1,0 +1,2005 @@
+International Journal of Solids and Structures 51 (2014) 3579–3588
+
+Contents lists available at ScienceDirect
+
+International Journal of Solids and Structures
+journal homepage: www.elsevier.com/locate/ijsolstr
+
+A constructive approach of invariants of behavior laws with respect
+to an infinite symmetry group – Application to a biological anisotropic
+hyperelastic material with one fiber family
+Anh-Tuan Ta a,⇑, Frédéric Holweck a, Nadia Labed a, Alain Thionnet b,c, François Peyraut a
+a
+b
+c
+
+IRTES-M3M, UTBM, 90010 Belfort cedex, France
+Université de Bourgogne, BP 47870, 21078 Dijon, France
+Centre des Matériaux, Mines Paristech, CNRS UMR 7633, BP 87, 91003 Evry cedex, France
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 12 July 2013
+Received in revised form 21 February 2014
+Available online 8 July 2014
+Keywords:
+Anisotropic hyperelastic material
+Biomechanics
+Theory of invariants
+
+a b s t r a c t
+In this paper, six new invariants associated with an anisotropic material made of one fiber family are
+calculated by presenting a systematic constructive and original approach. This approach is based on
+the development of mathematical techniques from the theory of invariants:
+ Definition of the material symmetry group.
+ Definition of the generalized Reynolds Operator.
+ Calculation of an integrity basis for invariant polynomials.
+ Comparison between the new (constructed) invariants and the classical ones.
+
+1. Introduction
+1.1. Problem setting
+From the mid-1950s, the theory of invariants has been widely
+studied and used (Ericksen and Rivlin, 1954; Rivlin and Ericksen,
+1955; Spencer, 1971; Boehler, 1977, 1978, 1979; Wang, 1970;
+Smith, 1965, 1971; Liu, 1982; Zheng and Boehler, 1994;
+Holzapfel et al., 2000, 2002; Schröder and Neff, 2003; Peng et al.,
+2006) in the context of behavior laws of anisotropic materials
+and biomechanical applications. For example invariants are
+proposed to build the constitutive laws to investigate internal
+deformation and stress of anisotropic materials such as composite
+material, biological soft tissues (ligaments, tendons, arterial walls)
+(Weiss et al., 1996; Almeida and Spilker, 1998; Rüter and Stein,
+2000). They are also used to understand the influence of collagen
+fibers in the behavior of the temporomandibular joint disc (del
+Palomar and Doblare, 2006) or to simulate the mechanical behavior of the posterior sclera under acute elevations of intraocular
+pressure (Girard et al., 2009). Invariants appear to explain the
+mechanical behavior of human annulus fibrosus (Caner et al.,
+⇑ Corresponding author.
+E-mail addresses: anh-tuan.ta@utbm.fr (A.-T. Ta), frederic.holweck@utbm.fr
+(F. Holweck), nadia.labed@utbm.fr (N. Labed), alain.thionnet@ensmp.fr
+(A. Thionnet), francois.peyraut@utbm.fr (F. Peyraut).
+http://dx.doi.org/10.1016/j.ijsolstr.2014.06.019
+0020-7683/Ó 2014 Elsevier Ltd. All rights reserved.
+
+Ó 2014 Elsevier Ltd. All rights reserved.
+
+2007) or to model and simulate the hyperelastic behavior of a thin,
+transversely isotropic and incompressible thermoplastic membrane (Erchiqui et al., 2005). Recently they also showed up in the
+study of the expansive growth of cell walls by presenting a fiberreinforced hyperelastic–viscoplastic model (Huang et al., 2012).
+In general, the energy densities modeling biological soft tissues
+are often separated into isotropic and anisotropic parts (Weiss
+et al., 1996; Holzapfel et al., 2000, 2002; Peng et al., 2006;
+Balzani et al., 2006) by assuming that anisotropy is due to the collagen fibers behavior (Gasser et al., 2006). The anisotropy is represented by introducing a structural tensor, which allows a
+coordinate-invariant formulation of the constitutive equations
+(Spencer, 1987; Boehler, 1987; Zheng and Spencer, 1993a,b). However, the classical invariants associated with those laws can lead to
+numerical problems. In order to take into account stability condition and ellipticity, Schröder et al. (2005) have proposed free
+energy functions satisfying a priori the Legendre–Hadamard condition. Additionally, new invariants are proposed in Steigmann
+(2003) and Balzani et al. (2006) by replacing the classical ones
+accordingly to polyconvex considerations. Moreover, Merodio
+and Ogden (2006) have investigated the destabilizing influence of
+the invariant I8 due to an ellipticity fail. New invariants are also
+determined from physical considerations by various authors
+(Criscione et al., 2001; Lu and Zhang, 2005; Shariff, 2008). In
+Criscione et al. (2001) five new invariants are defined thanks to a
+
+3580
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+specific choice, which carries physical meaning, of the reference
+configuration basis. In Lu and Zhang (2005) a specific splitting,
+imposed by physical conditions, of the right Cauchy–Green strain
+tensor leads to five other invariants which inherit of physical
+interpretations.
+More recently, a new constructive method to derive the behavior laws for composite anisotropic media was introduced by
+Thionnet and Martin (2006). This systematic method allows us to
+write an invariant polynomial in a unique form surely. We did
+use this new method to study in details the case of a biomechanical
+material with two fiber families (Ta et al., 2013) and obtained several improvements to this case. This method, based on the theory
+of invariants for finite group action, can be applied straightforwardly when the symmetry group of the material is finite. In the
+case of a material with one fiber family, the symmetry group is
+made of all rotations around the fiber axis. The cardinality of this
+group is therefore not finite. This raises some theoretical difficulties once we compare to the case with a finite group action. For
+instance in the case of a infinite group the classical Reynolds Operator is not defined (classically it depends on the cardinality of the
+group) and there is no hope to apply Noether’s theorem (which
+also requires to work with a finite material symmetry group). In
+this paper we overcome these difficulties for a symmetry group
+made of all rotations around an axis a (the one fiber family
+direction).
+All over this paper we consider a biological material with one
+fiber family represented by the preferred direction a. It is assumed
+that the material has the same material properties in this direction
+a. Typically, this kind of material is used to model the soft tissues
+such as ligaments and tendons (Holzapfel et al., 2002). It is obvious
+that the material properties are invariant under the action of all
+rotations around the fiber axis a. Therefore, we conclude that the
+material symmetry group, denoted by S, contains all rotations
+around a.
+In other words,
+
+S ¼ fQ h ; 8h 2 ½0; 2pg
+
+ð1Þ
+
+where Q h is the rotation matrix around the axis a with angle h. To
+write in a simpler form Q h , we will work directly in the reference
+basis a; b; c (Fig. 1).
+
+0
+
+1 0 0
+
+B
+Qh ¼ @0
+0
+
+c
+s
+
+1
+
+C
+s A
+c
+
+where c and s represent cos h and sin h respectively.
+
+Fig. 1. Material with one fiber family.
+
+ð2Þ
+
+1.2. Kinematics of deformation
+Before developing our mathematical construction of the new
+invariants, we briefly recall some basic notions on kinematic of
+solid deformation. Consider a deformable body B undergoing large
+strains (Fig. 2). The body B occupies in its initial configuration an
+open, simply connected and bounded domain X0  R3 . The closure
+ 0 of X0 represents the reference configuration of B. A material
+X
+particle M of B is identified by its reference position vector
+ 0 . The interval It :¼ ½O; T denotes the time interval of a loadX2X
+ing process. The successive deformed configuration XðtÞ of B with
+t 2 It , are defined by a one-parameter differentiable and invertible
+mapping u:
+
+  It ! R3
+uðX; tÞ : X
+
+ð3Þ
+
+The position of a particle of the body in the current configuration
+
+XðtÞ is defined by its current position vector x ¼ uðX; tÞ. The dis-
+
+placement of a material point corresponds to the difference
+between its current and initial positions.
+
+u ¼ uðX; tÞ  X
+
+ð4Þ
+
+The transformation gradient F is defined by
+
+FðX; tÞ ¼
+
+@xðX; tÞ
+@uðX; tÞ
+¼Iþ
+@X
+@X
+
+ð5Þ
+
+where I is the unity tensor, and is required to be such that
+J ¼ detðFÞ > 0. The strain measure adopted here is the Green–
+Lagrange strain tensor E:
+
+E¼
+
+1
+ðC  IÞ
+2
+
+ð6Þ
+
+where
+
+C ¼ FT F
+
+ð7Þ
+
+is the right Cauchy–Green strain tensor. The second Piola–Kirchhoff
+stress tensor S and the corresponding Cauchy stress tensor r are
+given by
+
+S¼2
+
+@W
+;
+@C
+
+r ¼ J1 FSFT
+
+ð8Þ
+
+where W is the strain energy density of the model. Classically W
+depends on the principal invariants of C and additional mixed
+invariants to account for the material anisotropy (Spencer, 1987;
+Boehler, 1987; Zheng and Spencer, 1993b). In this paper, we
+develop a new constructive approach to exhibit a new family of
+invariants.
+
+Fig. 2. Reference and current configurations.
+
+3581
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+1.3. Overview of the paper
+
+2.2. Representation of the symmetry group S as a linear group
+
+The paper is organized as follows, in Section 2 we introduce
+mathematical definitions and tools to apply the ideas of the theory
+of invariants, that we already used in Ta et al. (2013). The definitions and tools need to be adapted to the case of an infinite symmetry group. In particular we define a generalized Reynolds
+Operator and prove some properties of this new theoretical tool.
+In Section 3 we apply our new techniques to build six new basic
+invariants which generate all invariant polynomials in 6 variables
+(the six components of the right Cauchy–Green strain tensor) with
+respect to a one fiber family. In Section 4 we compare our new
+invariants with the classical ones usually introduced in the literature and provide some physical interpretations as well as their
+reduction to the special case of infinitesimal deformation. Finally
+in Section 5 we initiate a first step in the direction of writing a constitutive relation by calculating the kinematic tensors associated
+with our new set of invariants.
+
+In our situation, in order to build hyperelastic behavior laws, we
+would like to write invariant polynomials in the tensor variable C
+where C denotes the right Cauchy–Green strain tensor (7). In other
+words the problem is now to find a polynomial function f which is
+invariant under the material symmetry group S (see Thionnet and
+Martin, 2006):
+
+f ðQ h CQ Th Þ ¼ f ðCÞ;
+
+8Q h 2 S
+
+ð11Þ
+
+To do so we identify the symmetric tensor
+
+0
+
+C 11
+B
+C ¼ @ C 12
+
+C 12
+C 22
+
+x ¼ ð C 11
+
+C 12
+
+C 13
+
+C 23
+
+with a vector
+
+1
+C 13
+C
+C 23 A
+C 33
+
+C 13
+
+C 22
+
+C 23
+
+C 33 Þ 2 W
+
+6
+
+We recall some notations introduced in our previous work (Ta
+et al., 2013) and introduce new theoretical tools to work on the
+specific case of invariant polynomials respecting a one fiber family.
+
+where W ¼ R is the real vector space of dimension 6. Thanks to
+this identification our problem is equivalent to find polynomial
+functions f in the 6 variables defining x which are invariant under
+the action of S.
+Let us describe the action of S on the variable x 2 W.
+First we can notice that
+
+2.1. Notations
+
+ðQ h CQ Th Þij ¼ ðQ hik Q hjl ÞC kl
+
+2. Notations and new theoretical tools
+
+A bold-face lowercase letter, say a, and a bold-face capital letter,
+say A, will denote a vector and a second order tensor respectively.
+The theory of invariants involves the use of mathematical tools
+such as tensor analysis and polynomial algebra (Cox et al., 2007).
+Therefore, we recall some basic definitions related to these two
+fields and some invariant properties with regard to the symmetry
+group S considered in this work (i.e. the group of symmetry
+respecting one family of fibers, i.e. all rotations around an axis a).
+The group of all orthogonal transformations of R3
+(PPT ¼ PT P ¼ I) is denoted by O3 and O3þ is called the group of
+all rotations or the rotation group of R3 (PPT ¼ PT P ¼ I; detP > 0,
+where I is the identity tensor and det represents the determinant
+of a matrix).
+Material symmetry group is a subgroup of O3þ defined as the
+invariance group of the material. This subgroup will be denoted S
+hereafter.
+Vector space of polynomials: We write R½x1 ; . . . ; xn  for the vector
+space of real polynomials in n variables which is also a polynomial
+ring. This notation will be shortened in R½x with x ¼ ðx1 ; . . . ; xn Þ.
+Vector space of invariant polynomials: We write R½x1 ; . . . ; xn G for
+the vector space of real polynomials in n variables which are
+invariant under the action of the group G. This vector space is a
+polynomial ring which will be denoted for short by R½xG .
+A monomial of R½x1 ; . . . ; xn  of multidegree a is denoted:
+
+xa ¼ xa11 xa22 . . . xann
+
+ð9Þ
+n
+
+where a ¼ ða1 ; a2 ; . . . ; an Þ 2 N . The total degree jaj of the monomial
+xa is defined by jaj ¼ a1 þ a2 þ . . . þ an .
+A set of generators: Let K  R½x1 ; . . . ; xn  be a subring of the ring
+of real polynomials in n variables. A set of generators of K is a finite
+family of polynomials fg 1 ; g 2 ; . . . ; g s g such that
+
+8P 2 K; 9Q 2 R½y1 ; . . . ; ys  : P ¼ Q ðg 1 ; g 2 ; . . . ; g s Þ
+
+ð10Þ
+
+An integrity basis: A set of generators is called an integrity basis
+if none of its elements can be written as a polynomial in the other
+elements of this set.
+
+ð12Þ
+
+The relation between ðQ h CQ Th Þij and C kl is linear, i.e. for each rotation
+
+Q h 2 S there exists a linear map given by a 6  6 matrix AðQ h Þ such
+that
+
+1
+ðQ h C Q Th Þ11
+C
+B
+B ðQ h C Q Th Þ12 C
+C
+B
+C
+B
+B ðQ h C Q Th Þ13 C
+C
+B
+AðQ h Þx ¼ B
+C
+T
+B ðQ h C Q h Þ22 C
+C
+B
+B ðQ C Q T Þ C
+@ h
+h 23 A
+0
+
+ð13Þ
+
+ðQ h C Q Th Þ33
+
+Remark 1. The operator A transforms an element of our symmetry
+group S to a linear transformation on W, one can thus interpret A as
+an application A : S ! GLðWÞ where GLðWÞ stands for all linear
+applications on the vector space W. Such a map is called a
+representation of S.
+The invariant property (11) can then be written as
+
+f ðAðQ h ÞxÞ ¼ f ðxÞ 8Q h 2 S
+
+ð14Þ
+
+For the calculations that we will perform later, one needs to
+understand how S acts on the monomials xa where
+a ¼ ða1 ; . . . ; a6 Þ is a multidegree in six components. By definition
+(9), the generic term in ðAðQ h ÞxÞa can be developed in terms of
+the components of AðQ h Þx:
+
+ðAðQ h ÞxÞa ¼ ðAðQ h ÞxÞa11 ðAðQ h ÞxÞa22    ðAðQ h ÞxÞa66
+
+ð15Þ
+
+To determine the components of AðQ h Þx or equivalently the components of Q h C Q Th we write the matrix C in the basis a; b; c (Fig. 1)
+which is adapted to the action of the group of rotations S. One
+obtains:
+
+q1 q4 q5
+C
+B
+C ¼ @ q4 q2 q6 A
+q5 q6 q3
+0
+
+1
+
+ð16Þ
+
+3582
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+with
+
+q1 ¼ hC a; ai q2 ¼ hC b; bi q3 ¼ hC c; ci
+q4 ¼ hC a; bi q5 ¼ hC a; ci q6 ¼ hC b; ci
+It leads to
+0
+
+2. If P is a S-invariant polynomial, then RS ðPÞ ¼ P,
+3. RS is a linear operator.
+
+ð17Þ
+Proof.
+
+q1
+c q4  s q5
+s q4 þ c q 5
+C
+B
+csðq2  q3 Þ þ ðc2  s2 Þq6 A
+Q h CQ Th ¼ @ cq4  sq5 c2 q2 þ s2 q3  2csq6
+2
+2
+2
+2
+sq4 þ cq5 csðq2  q3 Þ þ ðc  s Þq6 s q2 þ c q3 þ 2csq6
+1
+
+ð18Þ
+
+1. Let us prove that, 8x,
+
+q1
+
+1
+
+B
+C
+cq4  sq5
+B
+C
+B
+C
+C
+B
+sq4 þ cq5
+C
+B
+AðQ h Þx ¼ B
+C
+2
+2
+c
+q
+þ
+s
+q
+
+2cs
+q
+C
+B
+2
+3
+6
+C
+B
+@ csðq2  q3 Þ þ ðc2  s2 Þq6 A
+
+ð19Þ
+
+s2 q2 þ c2 q3 þ 2csq6
+
+Remark 2. The choice of an adapted basis to describe explicitly the
+action of S on the components of C will not have any incidence on
+the objectivity of the invariant polynomials we obtain. Indeed the
+relations (17) prove that the variables q1 ; . . . ; q6 can be defined
+without any references to a basis.
+In the classical theory of invariant polynomials for the action of
+a finite subgroup G of GLðWÞ one can obtain by the application of
+the Reynolds Operator and the Noether Theorem a family of generator of the ring of invariant polynomials in a finite number of steps.
+The key point is that the number of needed generators is controlled
+by the cardinality of G which in this case is finite. In our previous
+work (Ta et al., 2013) we took advantage of the fact that the symmetry group which preserves two fibers families is finite. Then we
+were able to apply those techniques in order to build up a family of
+generators (an integrity basis). With the one family fiber case the
+situation is more subtle because the group AðSÞ is now infinite
+and we need to adapt the tools of the theory of invariants.
+
+RS ðPÞðAðQ h1 ÞxÞ ¼
+
+Definition 1. Let P 2 R½x be a polynomial in the 6 dimensional
+variable x and let A : S ! GLðWÞ the operator introduced in Eq. (13)
+which expresses a rotation Q h as a linear operator AðQ h Þ on W. The
+generalized Reynolds Operator for our group S is defined by
+
+RS ðPÞðxÞ ¼
+
+1
+2p
+
+Z 2p
+0
+
+PðAðQ h ÞxÞdh
+
+ð20Þ
+
+Let us now check that this adapted Reynolds Operator satisfies
+the expected properties:
+Proposition 1. Let RS be the generalized Reynolds Operator provided
+by Definition 1. Then the following properties hold:
+1. RS ðPÞ is a S-invariant polynomial for all P 2 R½x,
+
+1
+2p
+
+Z 2p
+0
+
+PðAðQ h ÞAðQ h1 ÞxÞdh
+
+ð22Þ
+
+The rotation obtained by composition of two rotations of angle h
+and h1 with same axis a is a rotation of angle h þ h1 and axis a. Thus,
+
+RS ðPÞðAðQ h1 ÞxÞ ¼
+
+1
+2p
+
+Z 2p
+
+PðAðQ hþh1 ÞxÞdh:
+
+0
+
+ð23Þ
+
+The following change of variables h2 ¼ h þ h1 leads to:
+Z 2pþh1
+1
+RS ðPÞðAðQ h1 ÞxÞ ¼
+PðAðQ h2 ÞxÞdh2
+2p h1
+ Z h1
+Z 2p
+1
+¼
+
+PðAðQ h2 ÞxÞdh2 þ
+PðAðQ h2 ÞxÞdh2
+2p
+0
+0
+
+Z 2pþh1
+ð24Þ
+PðAðQ h2 ÞxÞdh2
+þ
+2p
+
+An other change of variable h3 ¼ h2  2p in the third integral of (24)
+gives:
+
+Z 2pþh1
+2p
+
+PðAðQ h2 ÞxÞdh2 ¼
+
+Z h1
+0
+
+PðAðQ h3 þ2p ÞxÞdh3
+
+ð25Þ
+
+with obviously Q h3 þ2p ¼ Q h3 . Then the first and third integral of the
+right hand side of (24) cancel. Therefore we obtain,
+
+RS ðPÞðAðQ h1 ÞxÞ ¼
+
+1
+2p
+
+Z 2p
+0
+
+PðAðQ h2 ÞxÞdh2 ¼ RS ðPÞðxÞ
+
+ð26Þ
+
+which proves the first property.
+2. Let us now show that if P is S-invariant then RS ðPÞ ¼ P. By definition we have
+
+2.3. Generalized Reynolds Operator
+As pointed out in the previous section, the fact that the
+symmetry group S of our material is an infinite subgroup of O3þ
+requires the introduction of new tools. We first define a generalization of the Reynolds Operator adapted to our situation: instead of
+summing over all elements of a finite group, like in the classical
+Reynolds Operator, we take a continuous sum (integral) over all
+possible rotations around the axis a. More precisely we set:
+
+ð21Þ
+
+By definition
+
+In other words we get an explicit description of the action of S
+on the vector space W of variables:
+
+0
+
+8h1 2 ½0; 2p:
+
+RS ðPÞðAðQ h1 ÞxÞ ¼ RS ðPÞðxÞ;
+
+RS ðPÞðxÞ ¼
+
+1
+2p
+
+Z 2p
+0
+
+PðAðQ h ÞxÞdh
+
+ð27Þ
+
+The polynomial P is S-invariant and thus
+
+RS ðPÞðxÞ ¼
+
+1
+2p
+
+Z 2p
+
+PðxÞdh
+
+0
+
+ð28Þ
+
+But PðxÞ does not depend on h, i.e.:
+
+RS ðPÞðxÞ ¼ PðxÞ
+
+1
+2p
+
+Z 2p
+0
+
+dh ¼ PðxÞ:
+
+ð29Þ
+
+3. Finally let us show the linearity of RS . We denote by P and Q two
+polynomials and k a scalar, then
+Z 2p
+1
+RS ðkP þ Q ÞðxÞ ¼
+ðkP þ Q ÞðAðQ h ÞxÞdh
+2p 0
+Z 2p
+1
+ðkPðAðQ h ÞxÞ þ Q ðAðQ h ÞxÞÞdh
+¼
+2p 0
+Z 2p
+1
+PðAðQ h ÞxÞdh
+¼k
+2p 0
+Z 2p
+1
+Q ðAðQ h ÞxÞdh ¼ kRS ðPÞðxÞ þ RS ðQ ÞðxÞ: ð30Þ
+þ
+2p 0
+h
+
+3583
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+Remark 3. Proposition 1 is the analogue of the classical properties
+of the Reynolds Operator for finite group as stated in Cox et al.
+(2007) page 337. The Proposition says that we have defined a linear
+map RS : R½x ! R½xS which sends any polynomial to an invariant
+polynomial for the group S.
+The next proposition will be useful to build the S-invariant
+polynomials:
+Proposition 2. Let RS : R½x ! R½xS , be the linear map defined by
+the generalized Reynolds Operator. Then,
+
+F¼
+
+R 2p
+1
+
+RS ðxa Þ ¼ 2p
+
+0
+
+1
+
+2
+
+computation
+
+
+
+1
+RS xð0;2;0;0;0;0Þ ¼
+2p
+
+Z 2p
+0
+
+of
+
+
+
+RS xð0;2;0;0;0;0Þ
+
+is
+
+ðcq4  sq5 Þ2 dh
+
+also
+
+ð32Þ
+
+using
+
+1 2
+cos 2h 2
+ðq þ q25 Þ þ
+ðq4  q25 Þ  sin 2hq4 q5
+2 4
+2
+
+ð33Þ
+
+we get
+
+ðAðQ h ÞxÞa dh; 8a ¼ ða1 ; . . . ; a6 Þ 2 N6
+
+where xa denotes the monomial xa ¼ xa1 xa2 . . . xa6 .
+
+Example 2. The
+straightforward:
+
+ðcq4  sq5 Þ2 ¼
+
+1. RS is surjective, i.e. RS ðR½xÞ ¼ R½xS ,
+2. A set of generators of the vector space R½xS is given by
+
+n
+
+Example 1. Recall
+that xð1;0;0;0;0;0Þ
+¼ q , then using (31), (15), and
+ ð1;0;0;0;0;0Þ
+
+R 2p 1
+¼ 21p 0 q1 dh ¼ q1 .
+(19), we have RS x
+
+o
+
+ð31Þ
+
+6
+
+
+ 1
+RS xð0;2;0;0;0;0Þ ¼ ðq24 þ q25 Þ
+2
+
+ð34Þ
+
+If we consider all images RS ðxa Þ with jaj 6 3 there are
+     
+
+
+8
+7
+6
+6þk1
+83 ¼
+þ
+þ
+monomials to calculate
+3
+2
+1
+k
+!
+
+represents the number of monomials of degree k in 6 variables .
+Proof.
+1. Let P 2 R½xS , by definition R½xS  R½x (an invariant polynomial in the variable x is a polynomial in x). Then by Property
+2 of Proposition 1 we have RS ðPÞ ¼ P proving that P 2 R½xS
+has a preimage (itself) in P 2 R½x.
+2. It is clear that F0 ¼ fxa ; 8a ¼ ða1 ; . . . ; a6 Þ 2 N6 g is a basis of R½x.
+Then by surjection and linearity of RS the image of F 0 is a generating family of R½xS . But F ¼ RS ðF 0 Þ which completes the proof. h
+
+Remark 4. In the classical theory of invariant polynomials under a
+finite group action, the Noether Theorem insures us that we can
+build a generating family of invariant polynomials by considering
+the image by the (classical) Reynolds Operator of the monomials
+of degree less than the cardinality of the finite symmetry group.
+There is no such a result in our situation where S is an infinite
+group. However Proposition 2 tells us that the image of monomials
+will play an important part to construct a family of invariant polynomials which will generate R½xS .
+3. A constructive integrity basis for invariant polynomials
+respecting a one fiber family symmetry constraint
+In this section we prove the main result of this paper by producing an integrity basis for the polynomials of the 6 dimensional
+variable x (i.e. the vector version of the tensor C) which are
+invariant under the symmetry group S of all rotations around
+the axis a. In a first step we use a constructive approach based
+on the tools defined in the previous section to build an integrity
+basis for all such polynomials with the additional condition that
+we only consider polynomials of degree less than three. Then
+by a technical induction argument one shows that the basis
+obtained in the first step is in fact an integrity basis for all Sinvariant polynomials.
+3.1. The case of invariant polynomials of degree less than three
+Let us apply our generalized Reynolds Operator to build a set of
+generators for the invariant polynomials of degree less than three.
+We denote by R3 ½x the ring of polynomials of degree less than
+three and by R3 ½xS , the ring of S-invariant polynomials of degree
+less than three. Proposition 2 tells us that it is enough to consider
+the set fRS ðxa Þ; with jaj 6 3g to obtain generators of R3 ½xS .
+Let us compute a few examples:
+
+The monomials xa of degree jaj with jaj 6 3, whose images RS ðxa Þ
+are nonzero, are given in Tables 1 and 2.
+Within this table we should notice that some nonlinear combinations exist. For instance if we denote by K 1 ¼ q1 and
+
+
+K 2 ¼ q2 þ q3 , then RS xð1;0;0;1;0;0Þ ¼ 12 K 1 K 2 . Similarly in degree 3,
+ ð3;0;0;0;0;0Þ 
+¼ K 31 .
+RS x
+Looking for such combinations we can reduce this family to a
+set of generators of R3 ½xS made of only 6 elements in the following
+sense.
+Proposition 3. Let P 2 R3 ½xS , then P can be written as a polynomial
+in the invariants K 1 ; . . . K 6 where
+
+K 1 ¼ q1
+
+K 4 ¼ q26  q2 q3
+
+K 2 ¼ q2 þ q3
+2
+4 þ
+
+K3 ¼ q
+
+q
+
+2
+5
+
+K 5 ¼ ðq25  q24 Þq6 þ q4 q5 ðq2  q3 Þ
+2
+4 
+
+K 6 ¼ ðq
+
+ð35Þ
+
+2
+5 Þð
+
+q q2  q3 Þ þ 4q4 q5 q6
+
+More precisely there exist
+b
+b
+K bi ¼ K 1i1 . . . K 6i6 2 R3 ½xS and
+
+ai 2 R
+
+and
+
+PðxÞ ¼ a1 K b1 þ    þ an K bn
+
+bi 2 N
+
+6
+
+such
+
+that
+
+ð36Þ
+
+Proof. First of all each polynomial K i is S-invariant according to:
+
+
+
+
+
+
+
+K 1 ¼ RS xð1;0;0;0;0;0Þ ; K 2 ¼ 2RS xð0;0;0;1;0;0Þ ; K 3 ¼ 2RS xð0;2;0;0;0;0Þ
+
+
+
+2
+
+
+K 4 ¼ 2RS xð0;0;0;0;2;0Þ  ½RS xð0;0;0;1;0;0Þ  ; K 5 ¼ 4RS xð0;0;2;0;1;0Þ
+
+
+
+ 
+
+K 6 ¼ 8½RS xð0;2;0;1;0;0Þ  RS xð0;0;0;1;0;0Þ RS xð0;2;0;0;0;0Þ 
+
+ð37Þ
+
+Table 1
+Nonzero invariants RS ðxa Þ with jaj 6 2.
+jaj
+
+a ¼ ða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ
+
+RS ðxa Þ
+
+1
+
+ð1; 0; 0; 0; 0; 0Þ
+ð0; 0; 0; 1; 0; 0Þ, ð0; 0; 0; 0; 0; 1Þ
+
+q1
+1
+2 ðq2 þ q3 Þ
+q21
+1
+2 q1 ðq2 þ q3 Þ
+1
+2
+2
+2 ðq4 þ q5 Þ
+2
+1
+2
+8 ½4ðq6  q2 q3 Þ þ 3ðq2 þ q3 Þ 
+2
+1
+2
+8 ½4ðq6  q2 q3 Þ þ ðq2 þ q3 Þ 
+2
+1
+2
+½4ð
+q
+
+q
+q
+Þ
+þ
+ð
+q
+þ
+q
+Þ
+
+2 3
+2
+3
+6
+8
+
+2
+
+ð2; 0; 0; 0; 0; 0Þ
+
+ð1; 0; 0; 1; 0; 0Þ, ð1; 0; 0; 0; 0; 1Þ
+
+ð0; 2; 0; 0; 0; 0Þ, ð0; 0; 2; 0; 0; 0Þ
+
+ð0; 0; 0; 2; 0; 0Þ, ð0; 0; 0; 0; 0; 2Þ
+ð0; 0; 0; 1; 0; 1Þ
+
+ð0; 0; 0; 0; 2; 0Þ
+
+3584
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+Table 2
+Nonzero invariants RS ðxa Þ with jaj ¼ 3.
+jaj
+
+a ¼ ða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ
+
+RS ðxa Þ
+
+3
+
+ð3; 0; 0; 0; 0; 0Þ
+
+q31
+1 2
+2 q1 ðq2 þ q3 Þ
+1
+2
+2
+2 q1 ðq4 þ q5 Þ
+2
+1
+2
+8 q1 ½4ðq6  q2 q3 Þ þ 3ðq2 þ q3 Þ 
+2
+1
+2
+q
+½4ð
+q
+
+q
+q
+Þ
+þ
+ð
+q
+þ
+q
+Þ
+2 3
+2
+3 
+6
+8 1
+2
+1
+2
+q
+½4ð
+q
+
+q
+q
+Þ
+þ
+ð
+q
+þ
+q
+Þ
+
+1
+2
+3
+2
+3
+6
+8
+1
+2
+2
+4 ½ðq5  q4 Þq6 þ q4 q5 ðq2  q3 Þ
+1
+2
+2
+½ð
+q
+
+q
+Þ
+5
+4 q6 þ q4 q5 ðq2  q3 Þ
+4
+1
+2
+2
+2
+2
+8 ½ðq4  q5 Þðq2  q3 Þ þ 4q4 q5 q6 þ 2ðq4 þ q5 Þðq2 þ q3 Þ
+1
+2
+2
+½ð
+q
+
+q
+Þð
+q
+
+q
+Þ
+þ
+4
+q
+q
+q
+
+2
+3
+4
+5
+6
+5
+4
+8
+2
+1
+2
+16 ðq2 þ q3 Þ½12ðq6  q2 q3 Þ þ 5ðq2 þ q3 Þ 
+2
+1
+2
+ð
+q
+þ
+q
+Þ½4ð
+q
+
+q
+q
+Þ
+
+ð
+q
+þ
+q
+Þ
+
+2
+3
+2 3
+2
+3
+6
+16
+2
+1
+2
+16 ðq2 þ q3 Þ½4ðq6  q2 q3 Þ þ ðq2 þ q3 Þ 
+
+ð2; 0; 0; 1; 0; 0Þ, ð2; 0; 0; 0; 0; 1Þ
+
+ð1; 2; 0; 0; 0; 0Þ, ð1; 0; 2; 0; 0; 0Þ
+
+ð1; 0; 0; 2; 0; 0Þ, ð1; 0; 0; 0; 0; 2Þ
+
+ð1; 0; 0; 1; 0; 1Þ
+ð1; 0; 0; 0; 2; 0Þ
+
+ð0; 2; 0; 0; 1; 0Þ, ð0; 1; 1; 0; 0; 1Þ
+
+ð0; 0; 2; 0; 1; 0Þ, ð0; 1; 1; 1; 0; 0Þ
+
+ð0; 2; 0; 1; 0; 0Þ, ð0; 0; 2; 0; 0; 1Þ
+
+ð0; 1; 1; 0; 1; 0Þ
+
+ð0; 0; 0; 3; 0; 0Þ, ð0; 0; 0; 0; 0; 3Þ
+
+ð0; 0; 0; 2; 0; 1Þ, ð0; 0; 0; 1; 0; 2Þ
+
+ð0; 0; 0; 1; 2; 0Þ, ð0; 0; 0; 0; 2; 1Þ
+
+Then by the surjection of RS one knows that P 2 R3 ½xS is a linear
+combination of the 34 monomials of Tables 1. But each monomial
+of Tables 1 and 2 can be expressed in terms of products and combinations of K 1 ; . . . ; K 6 as it can be checked by direct calculation. .
+This family of invariant polynomials F ¼ fK 1 ; . . . ; K 6 g is enough
+to write all S-invariant polynomials of degree less than three as a
+polynomial in K 1 ; . . . ; K 6 . In the next section we will establish a
+much stronger statement by proving that F is in fact an integrity
+basis of all invariant polynomials, i.e. F generates R½xS .
+3.2. The general case
+We now prove that the integrity basis of Proposition 2 above is
+in fact an integrity basis for R½xS . The proof is based on an reduction argument on the degree of RS ðxa Þ. To facilitate the reading of
+the next recursive formulas, we introduce the following notation:
+a1 a2
+
+a6
+
+bðaÞ ¼ bða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ ¼ RS ðx1 x2 . . . x6 Þ
+
+ð38Þ
+
+i.e. bðaÞ is the image by the generalized Reynolds Operator of
+the monomial xa with a ¼ ða1 ; . . . ; a6 Þ. To prove Theorem 1 which
+will be presented later, we need the following lemmas. The proofs
+of each lemma is based on long elementary calculation, mostly
+based on integration by parts techniques involving formulas
+obtained by differentiating the components of AðQ h Þðxa Þ. For the
+sake of the reading we only state the formulas.
+Lemma 1 (The induction formula on the parameter a2 ). With
+respect to the previous notations, we have
+
+¼ ða2  1 þ a4 þ a5 þ a6 ÞK 3 bða1 ; a2  2; a3 ; a4 ; a5 ; a6 Þ
+1
+þ a4 ðK 6  K 2 K 3 Þbða1 ; a2  2; a3 ; a4  1; a5 ; a6 Þ
+2
+ a5 K 5 bða1 ; a2  2; a3 ; a4 ; a5  1; a6 Þ
+
+þ a6 K 2 bða1 ; a2 ; a3 ; a4 ; a5 ; a6  1Þ
+
+½a2 þ a3 þ 2ða4 þ a5 þ a6 Þbða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ
+
+¼ ða3  1 þ a4 þ a5 þ a6 ÞK 3 bða1 ; a2 ; a3  2; a4 ; a5 ; a6 Þ
+1
+ a4 ðK 6 þ K 2 K 3 Þbða1 ; a2 ; a3  2; a4  1; a5 ; a6 Þ
+2
+þ a5 K 5 bða1 ; a2 ; a3  2; a4 ; a5  1; a6 Þ
+
+1
+þ a6 ðK 6  K 2 K 3 Þbða1 ; a2 ; a3  2; a4 ; a5 ; a6  1Þ
+2
+þ a4 K 2 bða1 ; a2 ; a3 ; a4  1; a5 ; a6 Þ
+þ a6 K 2 bða1 ; a2 ; a3 ; a4 ; a5 ; a6  1Þ
+
+ð40Þ
+
+Remark 6. In this formula the terms bðaÞ are meaningful only if
+the exponents are non-negative, i.e. a1 P 0; a2 P 0; a3 P 2;
+a4 P 1; a5 P 1; a6 P 1. Again the conditions on a4 a5 and a6 can
+be relaxed because if a4 ; a5 or a6 are zero, there is no terms b with
+a4 ; a5 or a6 in factor in Eq. (40).
+Lemma 3 (The induction formula on the parameter a5 in the case
+a2 ¼ a3 ¼ 0.). With respect to the previous notations, we have,
+
+4½a4 þ a5 þ a6 bða1 ; 0; 0; a4 ; a5 ; a6 Þ ¼ 2a4 K 2 bða1 ; 0; 0; a4  1; a5 ; a6 Þ
+þ ða5  1ÞðK 22 þ 4K 4 Þbða1 ; 0; 0; a4 ; a5  2; a6 Þ
+þ 2a6 K 2 bða1 ; 0; 0; a4 ; a5 ; a6  1Þ
+
+ð41Þ
+
+Remark 7. The induction formula (41) decrements a4 by 1 (first
+term bðaÞ), a5 by 2 (second term bðaÞ) and a6 by 1 (third term in
+bðaÞ). We also remark that the first and third terms have factors
+a4 and a6 respectively.
+
+½a2 þ a3 þ 2ða4 þ a5 þ a6 Þbða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ
+
+1
+ a6 ðK 6 þ K 2 K 3 Þbða1 ; a2  2; a3 ; a4 ; a5 ; a6  1Þ
+2
+þ a4 K 2 bða1 ; a2 ; a3 ; a4  1; a5 ; a6 Þ
+
+Lemma 2 (The induction formula on the parameter a3 ). With
+respect with the previous notations, we have
+
+Lemma 4 (The case a2 ¼ a3 ¼ 1). With respect to the previous notations, we have
+
+bða1 ; 1; 1; a4 ; a5 ; a6 Þ ¼ a4 bða1 ; 0; 2; a4  1; a5 þ 1; a6 Þ
+ð39Þ
+
+Remark 5. It should be noted that the terms bðaÞ involved in (39)
+are meaningful only if the exponents are non-negative. In other
+words, a1 P 0; a2 P 2; a3 P 0; a4 P 1; a5 P 1; a6 P 1. However it
+is important to notice that the conditions on a4 a5 and a6 can be
+relaxed because if a4 ; a5 or a6 are zero, the terms b with a4 a5 or
+a6 in factor are removed from the Eq. (39).
+
+1
+ a5 bða1 ; 0; 2; a4 þ 1; a5  1; a6 Þ
+2
+1
+þ a5 bða1 ; 0; 2; a4 ; a5  1; a6 þ 1Þ
+2
+ a6 bða1 ; 0; 2; a4 ; a5 þ 1; a6  1Þ
+
+ð42Þ
+
+Remark 8. The recursive formula (42) exhibits four terms in b
+where a2 is set to 0 and a3 to 2.
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+Lemma 5 (From bða1 ; 0; 0; a4 ; 0; a6 Þ to bða1 ; 0; 0; a4 ; 0; 0Þ). With
+respect to the previous notations, we have
+
+bða1 ; 0; 0; a4 ; 0; a6 Þ ¼
+
+
+a6 
+X
+a6
+k¼0
+
+k
+
+ð1Þk K 2a6 k bða1 ; 0; 0; a4 þ k; 0; 0Þ
+ð43Þ
+
+Lemma 6 (Special cases). With respect to the previous notations, we
+have
+
+bða1 ; 1; 0; a4 ; a5 ; a6 Þ ¼ 0
+
+ð44Þ
+
+bða1 ; 0; 1; a4 ; a5 ; a6 Þ ¼ 0
+
+ð45Þ
+
+bða1 ; 0; 0; a4 ; 1; a6 Þ ¼ 0
+
+ð46Þ
+
+bða1 ; 0; 0; a4 ; 0; 0Þ ¼ K a11
+
+a4
+X
+
+q¼0
+q even
+
+a4
+q
+
+!
+
+q
+q
+2
+
+!
+
+1
+2q
+
+2
+
+
+
+1
+K2
+2
+
+a4 q
+
+q
+
+½4K 4 þ K 22 2 2p
+ð47Þ
+
+We can now state our main Theorem:
+Theorem 1. An integrity basis of all invariant polynomials R½xS is
+given by:
+
+F ¼ fK 1 ; K 2 ; K 3 ; K 4 ; K 5 ; K 6 g
+
+ð48Þ
+
+3585
+
+Our algorithm stops after Step 5 and proves that every
+bða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ can be written only in terms of
+K 1 ; K 2 ; K 3 ; K 4 ; K 5 ; K 6 . It means F is an integrity basis of all invariant
+polynomials under the symmetry material group.
+Remark 9. Although F is an integrity basis, a relation between the
+generators exists and one can check that 4K 25 ¼ K 23 ð4K 4 þ K 22 ÞK 26 .
+Moreover it can be proved with a computer software that this is
+the only one relation.
+Theorem 1 states that any invariant polynomial P of the 6dimensional variable x 2 W which is invariant under the group of
+rotations S around the axis a can be written as
+
+PðxÞ ¼ Q ðK 1 ; . . . ; K 6 Þ
+where Q is a real polynomial in 6 variables. Moreover this explicit
+expression of P with respect to the integrity basis F is unique up
+to the relation
+
+4K 25  K 23 ð4K 4 þ K 22 Þ þ K 26 ¼ 0
+
+ð49Þ
+
+In the language of invariant theory and polynomial rings, the
+Hilbert’s basis Theorem says that any finitely generated ring of
+invariant polynomials can be written as a quotient of a polynomial
+ring in the generators modulo the relations. This leads to a more
+‘‘classical invariant theory’’ formulation of Theorem 1:
+Theorem 2. Theorem 1 and the relation (49) are equivalent to the
+following isomorphism:
+
+where K i are defined by (35).
+
+R½xS ’ R½K 1 ; . . . ; K 6 =h4K 25  K 23 ð4K 4 þ K 22 Þ þ K 26 i
+
+Proof. Recall that K i are invariant under the symmetry material
+group by (37). Our goal is to prove that every element
+bða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ of R½xS can be written as a polynomial in
+the invariants K i .
+The proof is based on an algorithm (see Fig. 3) which will allow
+us to express bða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ in terms of K i and another
+bða~1 ; a~2 ; a~3 ; a~4 ; a~5 ; a~6 Þ of lower degree.
+
+Remark 10. As already mentioned in Remark 2, the generators K i
+are given in terms of frame indifferent quantities, namely the qj
+defined in (17). A consequence is that the invariant polynomials
+given by Theorem 2 are objective functions. There is no need here,
+after imposing the required symmetry conditions, to deal with the
+objectivity like it was treated in two steps in Thionnet and Martin
+(2006). The objectivity is given by our frame indifferent choice of
+variables x ¼ ðq1 ; . . . ; q6 Þ.
+
+We start with any bða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ.
+
+4. The new (constructed) invariants and the classical ones
+ Step 1: we use repeatedly (39) until bða1 ; a2 ; a3 ; a4 ; a5 ; a6 Þ can
+or
+be
+written
+in
+terms
+of
+bða1 ; 0; a3 ; a4 ; a5 ; a6 Þ
+bða1 ; 1; a3 ; a4 ; a5 ; a6 Þ and K 2 ; K 3 ; K 5 ; K 6 .
+ Step 2: we use repeatedly (40) until
+– bða1 ; 0; a3 ; a4 ; a5 ; a6 Þ can be written in terms of
+bða1 ; 0; 1; a4 ; a5 ; a6 Þ and bða1 ; 0; 0; a4 ; a5 ; a6 Þ;
+– bða1 ; 1; a3 ; a4 ; a5 ; a6 Þ can be written in terms of bða1 ; 1; 1;
+a4 ; a5 ; a6 Þ and bða1 ; 1; 0; a4 ; a5 ; a6 Þ and K 2 ; K 3 ; K 5 ; K 6 .
+Here we can show that bða1 ; 0; 1; a4 ; a5 ; a6 Þ ¼ 0 and
+bða1 ; 1; 0; ;a4 ; a5 ; a6 Þ ¼ 0 by (44) and (45). By using (42), we also
+can write bða1 ; 1; 1; a4 ; a5 ; a6 Þ in terms of bða1 ; 0; 2; a4 ; a5 ; a6 Þ. Using
+again (40), bða1 ; 0; 2; a4 ; a5 ; a6 Þ can be written in terms of
+bða1 ; 0; 0; a4 ; a5 ; a6 Þ. Finally, every bða1 ; 0; a3 ; a4 ; a5 ; a6 Þ can be written only in terms of bða1 ; 0; 0; a4 ; a5 ; a6 Þ and K 2 ; K 3 ; K 5 ; K 6 .
+ Step 3: we use repeatedly (41) until bða1 ; 0; 0; a4 ; a5 ; a6 Þ can be
+written in terms of bða1 ; 0; 0; a4 ; 0; a6 Þ or bða1 ; 0; 0; a4 ; 1; a6 Þ and
+K 2 ; K 4 . By (46), we have bða1 ; 0; 0; a4 ; 1; a6 Þ ¼ 0, i.e. every
+bða1 ; 0; 0; a4 ; a5 ; a6 Þ can be written only in terms of
+bða1 ; 0; 0; a4 ; 0; a6 Þ and K 2 ; K 4 .
+ Step 4: we use repeatedly (43) to show that bða1 ; 0; 0; a4 ; 0; a6 Þ
+can be written in terms of bða1 ; 0; 0; a4 ; 0; 0Þ and K 2 .
+ Step 5: we use (47) to show that bða1 ; 0; 0; a4 ; 0; 0Þ is a polynomial of K 1 ; K 2 ; K 4 .
+
+It is important to point out at this stage that we obtained our
+new set of invariant polynomials by a purely constructive method
+based on the mathematical theory of invariant. Therefore the
+physical and mechanical interpretations provided in this Section can only be given a posteriori.Nevertheless we will see that
+our invariants allows us to recover the classical ones and furnish
+more information about the ring of invariant polynomials.
+Each of the 6 invariant polynomials we obtained as generators
+of R½xS has a physical interpretation:
+ K 1 represents the elongation squared in the fiber direction
+
+K 1 ¼ q1 ¼ hCa; ai ¼ kFak2
+
+ð50Þ
+
+ K 2 takes into account the sum of two squared elongations in the
+two directions b and c in the isotropic plan
+
+K 2 ¼ q2 þ q3 ¼ hCb; bi þ hCc; ci ¼ kFbk2 þ kFck2
+
+ð51Þ
+
+ K 3 is the square of the length of the projection of the vector Ca
+on the isotropic plane ðObcÞ
+
+K 3 ¼ q24 þ q25 ¼ hCa; bi2 þ hCa; ci2
+
+ð52Þ
+
+3586
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+Fig. 3. Recursive algorithm.
+
+ K 4 is directly connected to the shear angle u between the fiber
+and the matrix as introduced in Peng et al. (2006). A straightforward calculation (see Eq. (58)) leads to
+
+sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+I3
+I3
+¼
+cos u ¼
+J 4 ðJ 5  I1 J 4 þ I2 Þ
+K1K4
+
+ð53Þ
+
+ K 5 represents the negative value of the volume of a cube formed
+by a; Ca and C2 a
+
+K 5 ¼ detðajCajC2 aÞ
+
+2
+
+ð54Þ
+
+It should be noticed that a; Ca and C a result from the application of
+I; C and C2 to the fiber direction a. As these tensors are used in classical stress tensor representation, that suggests that a strong link
+exists between K 5 and the force applied to the surface oriented by
+the unit vector a. To study in details this result, it requires many
+technical developments which will be presented in a forthcoming
+paper. In particular, it will be demonstrated that the stress vector
+can be expressed by
+6
+2 X
+@W @K i
+rn ¼ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+F
+a
+K 4 i¼1 @K i @C
+
+ð55Þ
+
+where n represents the outward unit normal to the deformed
+surface corresponding to the reference surface oriented by a. To
+evaluate the contribution of K 5 in the calculation of rn, it will be
+additionally demonstrated that
+
+8
+0 if a is an eigenvector of C
+>
+<
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃpﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+@K 5
+a ¼
+F
+p1ﬃﬃ
+K 26 þ 4K 25 K 2 K 3  K 6 otherwise
+>
+2
+K
+2
+@C
+3
+:
+
+I1 ¼ trC ¼ q1 þ q2 þ q3
+1
+I2 ¼ ½ðtrCÞ2  trðC2 Þ ¼ ðq1 q2 þ q1 q3 þ q2 q3 Þ  ðq24 þ q25 þ q26 Þ
+2
+I3 ¼ detC ¼ q1 q2 q3 þ 2q4 q5 q6  ðq1 q26 þ q2 q25 þ q3 q24 Þ
+J 4 ¼ trðCa  aÞ ¼ q1
+
+J 5 ¼ trðC2 a  aÞ ¼ q21 þ q24 þ q25
+
+ð56Þ
+
+ð57Þ
+
+In the literature it is considered that the response of a material
+with a fiber family is strongly anisotropic and requires the
+introduction of additional structural tensor (Boehler, 1977, 1978,
+
+ð58Þ
+
+The first three classical invariants are the isotropic invariants
+I1 ; I2 and I3 who only depend on C. The last two are the mixed
+invariants J 4 and J 5 who take into account the anisotropy of the
+material by coupling C and the structural tensor a  a.
+Thanks to (58) and the definition of K i (35), we can easily
+express these classical invariants in terms of K 1 ; K 2 ; K 3 ; K 4 ; K 6 :
+
+I1 ¼ K 1 þ K 2
+
+J4 ¼ K 1
+
+I2 ¼ K 1 K 2  K 3  K 4 J 5 ¼ K 21 þ K 3
+1
+I3 ¼ K 1 K 4 þ ðK 6  K 2 K 3 Þ
+2
+
+ K 6 takes into account the sum of the change of volume of
+material
+
+K 6 ¼ K 2 K 3 þ 2K 1 K 4 þ 2I3
+
+1979). This structural tensor represents the anisotropy of material
+and is connected to the preferred direction of fiber. Most of the
+models of behavior laws in biomechanics (Klisch and Lotz, 1999;
+Holzapfel et al., 2000; Schröder and Neff, 2003; Merodio and
+Ogden, 2003; Merodio and Ogden, 2005; Erchiqui et al., 2005; del
+Palomar and Doblare, 2006; Balzani et al., 2006; Caner et al.,
+2007; Guo et al., 2007; Girard et al., 2009; Peng et al., 2010;
+deBotton and Shmuel, 2010; Huang et al., 2012) use the five
+following invariants:
+
+ð59Þ
+
+Conversely,
+
+K 1 ¼ J4
+
+K 3 ¼ J 5  J 24
+
+K 2 ¼ I1  J 4
+
+K 4 ¼ I1 J 4  J 5  I2
+
+K 6 ¼ I1 ðJ 5 þ J 24 Þ  3J 4 J 5 þ J 34 þ 2I3  2I2 J 4
+
+ð60Þ
+
+Comparing the degrees of the two families of invariants, we
+remark that there are the same number of invariant polynomial
+for each degree except in degree 3 (see Table 3).
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+Table 3
+Comparison of the degrees of the two families of
+invariants polynomials.
+Degree
+
+Classical invariants
+
+New invariants
+
+1
+2
+3
+
+I1 ; J4
+I2 ; J5
+I3
+
+K1; K2
+K3; K4
+K5; K6
+
+Table 4
+Kinematic tensors.
+@K 1
+@C
+@K 2
+@C
+@K 3
+@C
+@K 4
+@C
+@K 5
+@C
+
+Remark 11. Some of our new invariants appeared in the literature
+from more empirical approach. For example K 2 is used to model
+the crosslink’s ability to resist shear force along the fiber direction
+(Hollingsworth and Wagner, 2011). The invariants K 1 ; K 2 and K 4
+are proposed in Schröder and Neff (2003) to satisfy the polyconvexity conditions for the strain energy function. The invariant K 4 is
+used in Peng et al. (2006) to model the fiber–matrix shear
+interaction. Finally the invariant K 3 is linked to the invariant b4
+pﬃﬃﬃﬃﬃ
+K
+of Criscione et al. (2001) by the relation b4 ¼ K 1 3 .
+Remark 12. It is important to point out that K 5 can not be written
+as a polynomial in I1 ; I2 ; I3 ; J 4 and J 5 . However as it is explained in
+Remark 9 we have a relation (49) among the new invariants which
+can be used to express K 25 as a polynomial in the other K i . This
+means therefore that K 25 can be written as a polynomial in the classic invariants. The invariant K 5 thus appears to play a particular
+role which will be deeply investigated in a forthcoming work.
+Remark 13. If we consider the special case of infinitesimal
+deformations:
+
+E’
+
+1
+ðru þ ruT Þ ¼ e;
+2
+
+ð61Þ
+
+then a straightforward computation shows that
+
+K 1 ’ 1 þ 2trðea  aÞ
+
+K 2 ’ 2½1 þ trðeÞ  trðea  aÞ
+
+K 4 ’ 1  2½trðeÞ  trðea  aÞ
+K 3 ’ 0;
+
+K 5 ’ 0;
+
+3587
+
+ð62Þ
+
+K 6 ’ 0:
+
+One observes that only the already known invariants K 1 ; K 2 and K 4
+are non zero. Thus it means that the three new invariants K 3 ; K 5 and
+K 6 will play a part only when we consider non linear cases.
+Some differences exist between the classical approach and the
+results obtained. First of all in the classical literature the list of
+basic invariants is not uniquely defined and if the polynomials
+I1 ; I2 ; I3 ; J 4 ; J 5 are the most commonly used, others choices can be
+made (see Boehler, 1977, 1978, 1979). On the other hand our
+invariants K 1 ; . . . ; K 6 are uniquely determined by construction up
+to the relation (49). We do not make any choices and this is only
+the geometry (one fiber family) of the problem and the invariant
+theory techniques (adapted with the generalized Reynolds Operator) which lead to the list of invariants. Secondly in the classical
+setting we have two types of invariants by separating the energy
+density in an isotropic part (I1 ; I2 ; I3 ) and an anisotropic part
+(J 4 ; J 5 ). This splitting does not appear in our invariants and some
+of them (K 2 ; K 4 ; K 5 ; K 6 ) take into account these two parts.
+Thus we consider that those new invariants carry meaningful
+information to understand behavior laws of material made of one
+fiber family. They appear naturally (by construction) and are deeply linked to the geometry of our problem. It does not require to
+separate the free energy function in isotropic and anisotropic part
+as we see usually in the literature (Holzapfel et al., 2000; Holzapfel
+et al., 2002; Peng et al., 2006; Hariton et al., 2007; Kroon and
+Holzapfel, 2008; Girard et al., 2009; deBotton and Shmuel, 2009;
+Kao et al., 2010; Chamoret et al., 2013). Complementary developments regarding the meaning of the invariants K 1 ; . . . ; K 6 and their
+
+@K 6
+@C
+
+aa
+
+bbþcc
+
+q4 ða  b þ b  aÞ þ q5 ða  c þ c  aÞ
+q3 b  b  q2 c  c þ q6 ðb  c þ c  bÞ
+1
+2
+
+1
+þ
+q5 ðq2  q3 Þ  q4 q6 ða  b þ b  aÞ
+2
+
+1
+q ðq  q3 Þ þ q5 q6 ða  c þ c  aÞ
+þ
+2 4 2
+
+q4 q5 ðb  b  c  cÞ þ ðq25  q24 Þðb  c þ c  bÞ
+
+ðq24  q25 Þðb  b  c  cÞ þ 2q4 q5 ðb  c þ c  bÞ
+þ ½2q5 q6 þ q4 ðq2  q3 Þða  b þ b  aÞ
+þ ½2q4 q6  q5 ðq2  q3 Þða  c þ c  aÞ
+
+use to build behavior laws, will be presented in a forthcoming
+paper.
+5. Kinematic tensors
+The kinematic tensors associated to a chosen set of invariants
+are relevant when we consider the Piola Kirchhoff stress tensor
+and the Cauchy stress tensor. For instance using (8), the Cauchy
+stress tensor can be written as
+
+!
+6
+2 X
+@W @K i T
+r¼ F
+F
+J
+@K i @C
+i¼1
+
+ð63Þ
+
+@K 1 @ q1
+¼
+¼aa
+@C
+@C
+
+ð64Þ
+
+The expression (63) shows that it is necessary to calculate the derivative of each invariant K i with respect to C. Here, we can use (35)
+where K i is given as a function of qi and the definition (17) where
+qi is given as a function of C. For example the kinematic tensor
+we obtain for the first invariant is nothing but the so-called structural tensor:
+
+Similarly, for the second invariant we get:
+
+@K 2 @ q2 @ q3
+¼
+þ
+¼bbþcc
+@C
+@C
+@C
+
+ð65Þ
+
+The procedure is exactly the same for the last four invariants. Without any specific difficulties, one obtains the following results listed
+in Table 4.
+6. Conclusion
+In this paper we extended our constructive approach to build
+biomechanical behavior laws (Ta et al., 2013) to the case of an
+anisotropic material made of one fiber family. The case of one fiber
+family is more subtle to the one of two fiber families already solved
+in our previous paper (Ta et al., 2013). Indeed with one fiber family,
+the symmetry group of the material is made of all rotations around
+the symmetry axis a and thus is an infinite group. To deal with that
+case we had to adapt the classical invariant theory of finite group
+and introduce new theoretical tools such that the generalized Reynolds Operator. Thanks to this new concept we were able to build a
+family of 6 invariants polynomials K 1 ; . . . ; K 6 which generates all
+invariant polynomials with respect to the symmetry of the material. With our new 6 invariants we recover the 5 classically used
+in the literature. We discussed the differences between the classical and our new constructive approach. We also wrote explicitly
+the kinematic tensors associated to our new invariants as a first
+step toward the obtention of new biomechanical behavior laws.
+We are convinced that the new invariants obtained will deliver
+interesting insights in order to understand the nature of behavior
+laws for material with one fiber family structure.
+
+3588
+
+A.-T. Ta et al. / International Journal of Solids and Structures 51 (2014) 3579–3588
+
+This paper is part of a longer term project where we intend to
+build new model of hyperelastic behavior laws with the following
+three steps approach:
+ Step 1: find new set of invariant polynomials. In the case of
+anisotropic materials there is no general method and this paper,
+as well as our previous one Ta et al. (2013), open new perspectives on the subject by introducing constructive method.
+ Step 2: express explicit form of the energy density W in terms of
+the new invariants. This step can be investigated by,
+1. Considerations on ellipticity and convexity of the strain
+energy density W (Knowles and Sternberg, 1975;
+Horgan, 1996; Schröder and Neff, 2003; Peyraut, 2004).
+2. Identification of material parameters by using efficient
+approach in biomechanics (Harb et al., 2014).
+ Step 3: Finite element implementation. This last part involves
+programming (Chamoret et al., 2013) and validation of the
+models with comparison to closed form solution in the simplest
+cases (Peyraut et al., 2010).
+This paper completes step 1 of the project.
+References
+Almeida, E., Spilker, R., 1998. Finite element formulations for hyperelastic
+transversely isotropic biphasic soft tissues. Comput. Methods Appl. Mech.
+Eng. 151, 513–538.
+Balzani, D., Neff, P., Schröder, J., Holzapfel, G., 2006. A polyconvex framework for
+soft biological tissues. adjustment to experimental data. Int. J. Solids Struct. 43
+(20), 6052–6070.
+Boehler, J., 1977. On irreducible representations for isotropic scalar functions. J.
+Appl. Math. Mech. 57 (6), 323–327.
+Boehler, J., 1978. Loi de comportement anisotrope des milieux continus. J.
+Mecanique 17 (2), 153–190.
+Boehler, J., 1979. A simple derivation of representations for non-polynomial
+constitutive equations in some cases of anisotropy. J. Appl. Math. Mech. 59
+(4), 157–169.
+Boehler, J., 1987. Introduction to the invariant formulation of anisotropic
+constitutive equations. In: Boehler, J.P. (Ed.), Applications of Tensor Functions
+in Solids Mechanics, CISM Course No. 292. Springer Verlag.
+Caner, F., Guo, Z., Moran, B., Bazant, Z., Carol, I., 2007. Hyperelastic anisotropic
+microplane constitutive model for annulus fibrosus. J. Biochem. Eng. 129, 632–
+641.
+Chamoret, D., Roth, S., Feng, Z.Q., Yan, X.T., Gomes, S., Peyraut, F., 2013. A novel
+approach to modelling and simulating the contact behaviour between a human
+hand model and a deformable object. Comput. Methods Biomech. Biomed. Eng.
+16, 130–140.
+Cox, D., Little, J., O’Shea, D., 2007. Ideals, Varieties and algorithms. Springer,
+Invariant Theory of Finite Groups, p. 338.
+Criscione, J., Douglas, A., Hunter, W., 2001. Physically based strain invariant set for
+materials exhibiting transversely isotropic behavior. J. Mech. Phys. Solids 49,
+871–897.
+deBotton, G., Shmuel, G., 2009. Mechanics of composites with two families of
+finitely extensible fibers undergoing large deformations. J. Mech. Phys. Solids
+57, 1165–1181.
+deBotton, G., Shmuel, G., 2010. A new variational estimate for the effective response
+of hyperelastic composites. J. Mech. Phys. Solids 58, 466–483.
+del Palomar, A., Doblare, M., 2006. The effect of collagen reinforcement in the
+behaviour of the temporomandibular joint disc. J. Biomech. 39, 1075–1085.
+Erchiqui, F., Bendada, A., Gakwaya, A., 2005. Analysis of long fibers direction of
+transversely isotropic hyperelastic material for thermoforming application. J.
+Reinf. Plast. Compos. 24, 961–975.
+Ericksen, J., Rivlin, R., 1954. Large elastic deformations of homogeneous anisotropic
+materials. J. Ration. Mech. 3, 281–301.
+Gasser, T., Ogden, R., Holzapfel, G., 2006. Hyperelastic modelling of arterial layers
+with distributed collagen fibre orientations. J. R. Soc. Interface 3, 15–35.
+Girard, M., Downs, J.C., Burgoyne, C., Suh, J., 2009. Peripapillary and posterior scleral
+mechancis – part i: development of an anisotropic hyperelastic constitutive
+model. J. Biochem. Eng. 131 (0511011), 1–9.
+Guo, Z., Peng, X., Moran, B., 2007. Large deformation response of a hyperelastic fibre
+reinforced composite: theoretical model and numerical validation. Composites
+Part A 38, 1842–1851.
+Harb, N., Labed, N., Domaszewski, M., Peyraut, F., 2014. Optimization of material
+parameter identification in biomechanics. Struct. Multidiscip. Optim. 49, 337–
+349.
+Hariton, I., deBotton, G., Gasser, T., Holzapfel, G., 2007. Stress-driven collagen fiber
+remodeling in arterial walls. Biomech. Model. Mechanobiol. 6, 163–175.
+Hollingsworth, N.T., Wagner, D.R., 2011. Modeling shear behavior of the annulus
+fibrosus. J. Mech. Behav. Biomed. Mater. 4, 1103–1114.
+
+Holzapfel, G., Gasser, T., Ogden, R., 2000. A new constitutive framework for arterial
+wall mechanics and a comparative study of material models. J. Elast. 61, 1–48.
+Holzapfel, G., Gasser, T., Stadler, M., 2002. A structural model for the viscoelastic
+behavior of arterial walls: Continuum formulation and finite element analysis.
+Eur. J. Mech. A/Solids 21, 441–463.
+Horgan, C., 1996. Remarks on ellipticity for the generalized blatz-ko constitutive
+model for a compressible nonlinearly elastic solid. J. Elast. 42, 165–176.
+Huang, R., Becker, A., Jones, I., 2012. Modelling cell wall growth using a fibrereinforced hyperelastic-viscoplastic constitutive law. J. Mech. Phys. Solids 60,
+750–783.
+Kao, P., Lammers, S., Hunter, K., Stendmark, K., Shandas, R., Qi, H., 2010. Constitutive
+modeling of anisotropic finite-deformation hyperelastic behaviours of soft
+materials reinforced by tortuous fibers. Int. J. Struct. Changes Solids 2, 19–29.
+Klisch, S., Lotz, J., 1999. Application of a fiber-reinforced continuum theory to
+multiple deformations of the annulus fibrosus. J. Biomech. 32, 1027–1036.
+Knowles, J., Sternberg, E., 1975. On the ellipticity of the equations of nonlinear
+elastostatics for a special material. J. Elast. 5, 341–361.
+Kroon, M., Holzapfel, G., 2008. A new constitutive model for multi-layered
+collagenous tissues. J. Biomech. 41, 2766–2771.
+Liu, I., 1982. On representations of an anisotropic invariant. J. Eng. Sci. 20 (10),
+1099–1109.
+Lu, J., Zhang, L., 2005. Physically motivated invariant formulation for transversely
+isotropic hyperelasticity. Int. J. Solids Struct. 24, 6015–6031.
+Merodio, J., Ogden, R., 2003. Instabilities and loss of ellipticity in fiber-reinforced
+compressible non-linearly elastic solids under plane deformation. Int. J. Solids
+Struct. 40, 4707–4727.
+Merodio, J., Ogden, R., 2005. Mechanical response of fiber-reinforced incompressible
+non-linearly elastic solids. Int. J. Non-Linear Mech. 40, 213–227.
+Merodio, J., Ogden, R., 2006. The influence of the invariant i8 on the stressdeformation and ellipticity characteristics of doubly fiber-reinforced nonlinearly elastic solids. Int. J. Non-Linear Mech. 41, 556–563.
+Peng, X., Guo, Z., Moran, B., 2006. An anisotropic hyperelastic constitutive model
+with fiber-matrix shear interaction for the human annulus fibrosus. J. Appl.
+Mech. 73 (5), 815.
+Peng, X., Guo, Z., Zia-Ur-Rechman, Harrison, P., 2010. A simple anisotropic fiber
+reinforced hyperelastic constitutive model for woven composite fabrics. Int. J.
+Mater. Form. 3, 723–726.
+Peyraut, F., 2004. Loading restrictions for the blatz-ko hyperelastic modelapplication to a finite element analysis. Int. J. Non-Linear Mech. 39,
+969–976.
+Peyraut, F., Feng, Z.Q., Labed, N., Renaud, C., 2010. A closed form solution for the
+uniaxial tension test of biological soft tissues. Int. J. Non-Linear Mech. 45, 535–
+541.
+Rivlin, R., Ericksen, J., 1955. Stress-deformation relations for isotropic materials. J.
+Ration. Mech. Anal. 4, 323–425.
+Rüter, M., Stein, E., 2000. Analysis, finite element computation and error estimation
+in transversely isotropic nearly incompressible finite elasticity. Comput.
+Methods Appl. Mech. Eng. 190, 519–541.
+Schröder, J., Neff, P., 2003. Invariant formulation of hyperelastic transverse isotropy
+based on polyconvex free energy functions. Int. J. Solids Struct. 40, 401–445.
+Schröder, J., Neff, P., Balzani, D., 2005. A variational approach for materially stable
+anisotropic hyperelasticity. Int. J. Solids Struct. 42, 4352–4371.
+Shariff, M., 2008. Nonlinear transversely isotropic elastic solids: an alternative
+representation. Q. J. Mech. Appl. Math. 61, 129–149.
+Smith, G., 1965. On isotropic integrity bases. Arch. Ration. Mech. Anal. 18,
+282–292.
+Smith, G., 1971. On isotropic functions of symmetric tensors, skew-symmetric
+tensors and vectors. J. Eng. Sci. 9, 899–916.
+Spencer, A., 1971. Continuum Physics. Academic Press, chapter Theory of invariants.
+pp. 239–353.
+Spencer, A., 1987. Isotropic polynomial invariants and tensor functions. In: Boehler,
+J.P. (Ed.), Applications of Tensor Functions in Solids Mechanics, CISM Course No.
+282. Springer Verlag.
+Steigmann, D., 2003. Frame-invariant polyconvex strain-energy functions for some
+anisotropic solids. mathematics and mechanics of solids. Math. Mech. Solids 8,
+497–506.
+Ta, A., Labed, N., Holweck, F., Thionnet, A., Peyraut, F., 2013. A new invariant-based
+method for building biomechanical behavior laws – application to an
+anisotropic hyperelastic material with two fiber families. Int. J. Solids Struct.
+50, 2251–2258.
+Thionnet, A., Martin, C., 2006. A new constructive method using the theory of
+invariants to obtain material laws. Int. J. Solids Struct. 43, 325–345.
+Wang, C., 1970. A new representation theorem for isotropic functions: an answer to
+professor G. F. Smith’s criticism of my papers on representations for isotropic
+functions, part 1 and part 2. J. Ration. Mech. Anal. 36 (3), 166–197.
+Weiss, J., Maker, B., Govindjee, S., 1996. Finite element implementation of
+incompressible, transversely isotropic hyperelasticity. Comput. Methods Appl.
+Mech. Eng. 135, 107–128.
+Zheng, Q., Boehler, J., 1994. Tensor function representations as applied to
+formulating constitutive laws for clinotropic materials. Acta Mech. Sin. 4,
+336–348.
+Zheng, Q., Spencer, A., 1993a. On the canonical representations for Kronecker
+powers of orthogonal tensors with application to material symmetry problems.
+Int. J. Eng. Sci. 31, 617–635.
+Zheng, Q., Spencer, A., 1993b. Tensors which characterize anisotropies. Int. J. Eng.
+Sci. 31, 679–693.
+
+

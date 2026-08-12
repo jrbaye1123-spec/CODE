@@ -1,0 +1,876 @@
+Policy and Society, 2025, 44(1), 70–84
+DOI: https://doi.org/10.1093/polsoc/puae022
+Advance access publication date 2 July 2024
+
+Original Research Article
+
+Inga Ulnicane
+University of Birmingham, Edgbaston, Birmingham B15 2TT, United Kingdom
+Corresponding author: I. Ulnicane, University of Birmingham, Edgbaston, Birmingham B15 2TT, United Kingdom.
+Email: i.ulnicane@bham.ac.uk
+
+Abstract
+The launch of ChatGPT in late 2022 led to major controversies about the governance of generative artificial intelligence (AI). This article examines the first international governance and policy initiatives
+dedicated specifically to generative AI: the G7 Hiroshima process, the Organisation for Economic Cooperation and Development reports, and the UK AI Safety Summit. This analysis is informed by policy
+framing and governance literature, in particular by the work on technology governance and Responsible
+Innovation. Emerging governance of generative AI exhibits characteristics of polycentric governance,
+where multiple and overlapping centers of decision-making are in collaborative relationships. However, it is dominated by a limited number of developed countries. The governance of generative AI is
+mostly framed in terms of the risk management, largely neglecting issues of purpose and direction of
+innovation, and assigning rather limited roles to the public. We can see a “paradox of generative AI
+governance” emerging, namely, that while this technology is being widely used by the public, its governance is rather narrow. This article coins the term “governance fix” to capture this rather narrow and
+technocratic approach to governing generative AI. As an alternative, it suggests embracing the politics
+of polycentric governance and Responsible Innovation that highlight democratic and participatory coshaping of technology for social benefit. In the context of the highly unequal distribution of power in
+generative AI characterized by a high concentration of power in a small number of large tech companies, the government has a special role in reshaping the power imbalances by enabling wide-ranging
+public participation in the governance of generative AI.
+
+Keywords: generative AI; governance; artificial intelligence; Responsible Innovation; risk
+
+The launch of ChatGPT on 30 November 2022 led to major public controversies about the ways to govern generative artificial intelligence (AI). AI experts and companies called for a moratorium on training
+more powerful AI systems due to existential threats (Future of Life Institute, 2023). Discussions of which
+risks—existential or more immediate—should be prioritized and who should be involved in these decisions accompanied the UK AI Safety Summit (UK Government, 2023; The White House, 2023). Fights over
+how the foundation models should be regulated—through binding rules or self-regulation—threatened
+to derail the long-awaited first comprehensive regulation of AI—the EU AI Act (Bertuzzi, 2023; Mügge,
+2024).
+
+© The Author(s) 2024. Published by Oxford University Press.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://
+creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any
+medium, provided the original work is properly cited.
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Governance fix? Power and politics
+in controversies about governing
+generative AI
+
+Policy and Society
+
+71
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+These controversies have been taking place in the context of a new AI hype, characterized by high
+positive and negative expectations (Ulnicane et al., 2021), as well as urgency to take some action before
+more powerful AI models are released. In its report on initial policy considerations for generative AI
+published in September 2023, the Organisation for Economic Cooperation and Development (OECD)
+stated that “the release of ChatGPT surprised governments, policymakers, and individuals around the
+world” (OECD, 2023b: 10) and that “public discussion about generative AI is less than a year old. With
+technology companies bringing generative AI applications to the market, policy makers around the
+globe are grappling with its implications” (OECD, 2023b: 29).
+These statements that governments and policymakers have been surprised by the release of ChatGPT
+and are grappling with implications of generative AI are remarkable in several ways. First, by the time
+of the release of ChatGPT, policymakers have already been working on AI for more than 5 years (Radu,
+2021; Schiff, 2023; Taeihagh, 2021; Ulnicane, 2022), which should have been enough time to prepare for
+future AI developments and develop their policies accordingly. Second, information about research on
+generative AI was available well before the release of ChatGPT. The same OECD report (OECD, 2023b)
+mentions that generative AI came onto the scene in 2018 and cites the well-known Stochastic Parrots
+paper published in early 2021 (Bender et al., 2021), which already back then warned of dangers of large
+language models including bias and high financial and environmental costs. This article received a lot
+of public attention in late 2020, i.e., even before it was published, when it was the reason for firing one
+of its authors Timnit Gebru from Google (Wong, 2020).
+Discussions about policy and governance of generative AI during the first year after the release of
+ChatGPT have highlighted the relevance of some of the key questions in technology governance and
+policy—What are priorities? How are they set? And who is involved in setting them (Khanal et al., 2024;
+Ulnicane & Erkkilä, 2023; Whittaker, 2021)?
+Against this background, the aim of this contribution to the special issue on the governance of generative AI is to conceptualize and examine power and politics in emerging debates on generative AI
+governance and policy. Some of the initial debates on generative AI governance and policy took place at
+the international level. Therefore, this article undertakes close examination of the early international
+initiatives dedicated specifically to generative AI governance and policy: the G7 Hiroshima process (G7,
+2023a, 2023b, 2023c, 2023d), the OECD reports (OECD, 2023a, 2023b, 2023c) and the UK AI Safety Summit
+that had international reach (AI Safety Summit, 2023; DSIT (Department for Science, Innovation & Technology), 2023; UK Government, 2023; Sunak, 2023). These initiatives draw on the work of participating
+countries. They are examined by focusing on the following questions: What international governance
+and policy proposals are put forward? What kind of international governance is emerging for generative
+AI? What framings and controversies dominate in international governance and policy of generative AI?
+What are omissions and silences? How can emerging governance of generative AI be conceptualized?
+Empirical analysis in this article draws on policy documents, speeches, and news articles. It is
+informed by insights from policy framing and governance literature, with a particular focus on the
+governance of technology and Responsible Innovation.
+The article makes two main contributions to social studies of generative AI. First, it maps emerging
+international governance of generative AI in terms of key institutions and frames. Second, it seeks to
+conceptualize its key features. It identifies a polycentric governance characterized by focus on risks,
+dominance of risk framing over considerations of purpose, and limited role of the public. This can be
+called “a paradox of generative AI governance” to emphasize that this widely accessible technology is
+governed in a rather narrow way. Conceptually, to make sense of these early debates about governance
+and policy of generative AI, this contribution coins the term “governance fix” to highlight how the governance is instrumentalized and seen as a quick technocratic fix to complex societal, political, and
+economic problems.
+This article proceeds as follows: first, it introduces the three key concepts used in this study: governance, generative AI, and policy framing; second, it suggests that emerging international initiatives for
+the governance of generative AI resemble characteristics of polycentric system of governance; third, it
+interrogates the dominance of risk framing in governance of generative AI; fourth, the term “governance
+fix” is coined as a way to conceptualize a rather narrow and technocratic approach to governance of
+generative AI.
+
+72
+
+I. Ulnicane
+
+Key concepts: governance, generative AI, and policy framing
+Governance
+
+governance is about the rules of collective decision-making in settings where there are a plurality of
+actors or organizations and where no formal control systems can dictate the terms of the relationship
+between these actors and organizations. (Chhotray & Stoker, 2009: 3)
+
+Importantly, Chhotrey and Stoker argue that governance should “be understood analytically and empirically as a set of practices rather than through the lens of a ‘wish-list’ of principles to be followed”
+(Chhotray & Stoker, 2009:5).
+These key characteristics of governance also apply to the governance of technology (Ulnicane et al.,
+2021), which is important when talking about generative AI. One of the main approaches to the governance of technology over the past 10 years has been Responsible Innovation (De Saille, 2015; Fisher
+et al., 2024; Owen et al., 2012; Stilgoe et al., 2013), which is defined as “taking care of the future through
+collective stewardship of science and innovation in the present” (Stilgoe et al., 2013: 1570). It is broadly
+understood that
+responsible forms of innovation should be aligned to social needs, be responsive to changes in ethical,
+social and environmental impacts as a research programme develops, and include the public as well
+as traditionally defined stakeholders in two-way consultation. (De Saille, 2015: 153)
+
+While Responsible Innovation is a flexible and broad approach, three key features can be distinguished
+here. First, the focus on collective stewardship in Responsible Innovation goes beyond individual responsibility of researchers and highlights the importance of collaboration and systemic factors in governing
+technology in socially beneficial ways. Second, the focus on the inclusion of public and two-way consultation in the Responsible Innovation approach assigns a proactive role to society in co-shaping
+technology rather than just being at the receiving end of technology and having to accept and trust
+it. Third, Responsible Innovation extends the governance discussion beyond the risk management
+to encompass the purpose and direction of innovation (Stilgoe et al., 2013). Responsible Innovation
+approach
+seeks to go beyond what we do not want science and innovation to do – the well-known and welldocumented preoccupation with characterising and managing unintended risks (the latter often
+through regulation)-but what we want it to do. … It asks how the targets for innovation can be identified
+in an ethical, inclusive, democratic and equitable manner. (Owen et al., 2012: 754)
+
+Embracing the issues of purpose and direction of innovation means that, instead of a supply-side
+and technology-push approach, the focus is on societal demand and ways in which technology can
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Governance is a fluid and widely used concept with multiple meanings and approaches across a range
+of scientific disciplines (Ansell & Torfing, 2022; Chhotray & Stoker, 2009; Levi-Faur, 2012; Pierre & Peters,
+2021). In Political Science, the governance concept is typically associated with the shift from government
+to governance in the 1990s due to increasing skepticism about the role of the state and government and
+raising expectations toward the involvement of nonstate actors. If government is understood as a set
+of public sector institutions, then governance is seen as a process through which public policy evolves,
+starting from setting goals, mobilizing resources, and making decisions to implementation, feedback,
+and evaluation (Pierre & Peters, 2021). Crucial feature of the shift from government to governance is
+that the latter involves new forms of interactions between the state and nonstate actors. Civil society
+and the private sector are seen as playing an increasing role in the policy process. However, the way
+and extent to which power is distributed among different actors varies considerably across diverse
+approaches to and forms of governance (Pierre & Peters, 2021). Governance is a deeply political concept
+closely entangled with issues of power, participation, and pluralism.
+The key to governance is that it is a collective and interactive process involving many diverse actors
+and organizations. Christopher Ansell and Jacob Torfing define governance as “the interactive processes
+through which society and the economy are steered towards collectively negotiated objectives” (Ansell
+& Torfing, 2022: 4), while Vasudha Chhotrey and Gerry Stoker emphasize that
+
+Policy and Society
+
+73
+
+contribute to tackling societal challenges in areas such as environment, health, and energy (Schiff,
+2023; Ulnicane, 2022). The four closely interrelated dimensions of Responsible Innovation—anticipation,
+reflexivity, inclusion, and responsiveness—provide a framework for raising, discussing, and responding
+to questions about the purpose and direction of innovation (Stilgoe et al., 2013). This framework includes
+a variety of techniques such as foresight, technology assessment, horizon scanning, multidisciplinary
+collaboration and training, citizen juries, and focus groups.
+
+Generative AI
+
+generative AI can be understood as a form of AI model specifically intended to produce new digital
+material as an output (including text, images, audio, video, software code), including when such AI
+models are used in applications and their user interfaces. These are typically constructed as machine
+learning systems that have been trained on massive amounts of data. They work by predicting words,
+pixels, waveforms, data points, etc. that would resemble the models’ training data, often in response to
+prompts. (OECD, 2023a: 6)
+
+Generative AI systems include, for example, “ChatGPT and BARD for text; Midjourney and Stable Diffusion for images; WaveNet and DeepVoice for audio; Make-A-Video and Synthesia for video; and
+multi-model systems that combine several types of media” (OECD, 2023b: 8).
+Other terms used in parallel to “generative AI” include “advanced AI systems” and “frontier AI.” The
+document to launch the G7 Hiroshima Process in May 2023 talks about “generative AI” (G7, 2023a), but
+the G7 Guiding Principles and Code of Conduct released some half a year later in October 2023 already
+use the term “advanced AI systems” that include the most advanced foundation models and generative
+AI systems (G7, 2023b, 2023c, 2023d). The UK AI Safety Summit focused on “frontier AI,” which according
+to the organizers refers to “highly capable general purpose AI models, that can perform a wide variety of
+tasks and match or exceed the capabilities present in today’s most advanced models” (UK Government,
+2023).
+The development of generative AI has revived discussions about the progress toward Artificial General Intelligence, namely AI that would become capable of general intelligent action comparable to
+human one (OECD, 2023b, 2023c). However, such expectations remain highly contested.
+
+Policy framing
+Policy debates about generative AI have involved major controversies about risks, capabilities, and ways
+of dealing with generative AI. Policy framing approach can help to illuminate how problems are articulated, discussed, and acted upon in these controversies (Rein & Schon, 1996; Schon & Rein, 1994;
+Ulnicane, 2022; Van Hulst & Yanow, 2016). Policy frames are “diagnostic/prescriptive stories that tell,
+within a given issue terrain, what needs fixing and how it might be fixed” (Rein & Schon, 1996: 89).
+Framing is a dynamic process that includes sense-making, selecting, naming, and categorizing as well
+as storytelling (Van Hulst & Yanow, 2016). Any given issue area typically is characterized by policy controversies and disputes, where several frames compete for meaning, legitimacy, and resources (Rein &
+Schon, 1996; Schon & Rein, 1994). Such competing frames often are tacit and taken-for-granted, and
+thus do not lend themselves easily to be resolved by reasoning or appeal to the facts. When analyzing
+frames, it is also important to look at omissions, silences, and kinds of politics hidden in the framing
+(Bacchi, 2000).
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Recent public discussions about generative AI exhibit typical features of emerging technologies that
+are hyped and associated with high positive and negative expectations (Ulnicane et al., 2021). As it is
+typical in the cases of such hyped new technologies, policy documents talk about generative AI creating
+“new disruptive innovation” (OECD, 2023a: 22), “offering transformative potential” (OECD, 2023b: 3), and
+having “the potential to revolutionise industries and society” (OECD, 2023b: 5), but critics claim that
+capabilities as well as risks of generative AI are overhyped (Gebru et al., 2023).
+While generative AI gained broader attention in late 2022 with the launch of ChatGPT, it came into
+the scene some years earlier with the release of large language models (OECD, 2023b). According to a
+definition from the OECD:
+
+74
+
+I. Ulnicane
+
+Emerging system of polycentric governance of generative AI
+
+Table 1. Initial developments in international generative AI governance.
+Organization
+
+Date
+
+Title
+
+Links to other organizations
+
+G7
+
+May 2023
+
+Cooperation with OECD and
+GPAI
+
+OECD
+
+September 2023
+
+OECD
+
+September 2023
+
+Decision to establish the
+Hiroshima process for
+generative AI
+G7 Hiroshima process on
+generative AI
+Initial policy considerations
+for generative AI
+
+G7
+
+October 2023
+
+Guiding Principles and
+the Code of Conduct for
+Organizations Developing
+Advanced AI Systems
+
+UK Government
+
+November 2023
+
+AI Safety Summit
+
+Report for G7
+Input from the European
+Commission and Japan;
+mention of G7
+Builds on OECD AI principles;
+cooperation with OECD and
+GPAI; welcomes AI Safety
+Summit
+European Commission
+welcomes them
+Builds on work of OECD,
+GPAI, Council of Europe,
+and G7
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+During the early days of public discussions about generative AI, the need for international cooperation
+has been highlighted due to the cross-border character of its impacts and the global reach of large AI
+companies. A number of organizations active in generative AI, such as G7, OECD, and the EU, are well
+known for their activities in the field of AI policy and governance in previous years (Cihon et al., 2020;
+Roberts et al., 2024; Schmitt, 2022; Veale et al., 2023).
+While some overviews and mapping exercises of various institutions and initiatives of international
+AI governance have highlighted its fragmentation (Cihon et al., 2020), it can rather be conceptualized
+in terms of polycentric governance. The concept of polycentric governance has been widely used in the
+field of climate change and environment (Carlisle & Gruby, 2019; Ostrom, 2010), but recently it has been
+invoked also in some studies of AI and digital governance (Aguerre et al., 2024; Filgueiras & Almeida,
+2021; Schmitt, 2022).
+A polycentric system of governance implies multiple and overlapping centers of decision-making at
+different scales, which are independent of each other, while at the same time being in various collaborative and competitive relationships with each other (Carlisle & Gruby, 2019; Ostrom, 2010). According
+to Elinor Ostrom, “each unit within a polycentric system exercises considerable independence to make
+norms and rules within a specific domain” (Ostrom, 2010: 552). She emphasizes advantages of polycentric systems, such as their mechanisms for mutual monitoring, learning, and adaptation, which tend
+to increase innovation, trustworthiness, and cooperation.
+It can be illuminating to see various initiatives and organizations involved in the governance of generative AI in terms of interconnections and collaborative and competitive relationships rather than just
+as a deficit model of fragmentation. For an overview of initial developments in generative AI governance,
+see Table 1.
+The first major international initiative in the field of governance of generative AI—the Hiroshima
+process—demonstrates cooperative relationships between G7, OECD, Global Partnership on Artificial
+Intelligence (GPAI), and the EU. At the Hiroshima summit in May 2023, the G7 (the group of seven:
+Canada, France, Germany, Italy, Japan, the UK, the USA, and the EU) leaders recognized the need to
+immediately take stock of the opportunities and challenges of generative AI. They encouraged the OECD
+to consider the analysis of relevant policy and GPAI to conduct practical projects. In particular, they
+tasked relevant ministers “to establish the Hiroshima process, through a G7 working group, in an inclusive manner and in cooperation with the OECD and GPAI, for discussions on generative AI by the end of
+this year” (G7, 2023a) that could include topics such as governance, safeguard of intellectual property
+rights including copyrights, promotion of transparency, response to foreign information manipulation,
+
+Policy and Society
+
+75
+
+Back to the risks: emerging frames on governing generative AI
+Right from the beginning the public discussion about generative AI has been framed with a strong focus
+on risks. As pointed out earlier, while the focus on risk management has been at the center of conventional governance in technology, the dominant approach in the past 10 years, namely, Responsible
+Innovation has aimed to go beyond the risk management and address also issues of purpose, direction
+of innovation, and tackling societal challenges (Owen et al., 2012; Stilgoe et al., 2013). Accordingly, the
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+including disinformation, and responsible utilization of these technologies. The OECD has published a
+report to help to guide G7 discussions on common policy priorities (OECD, 2023a).
+The first outputs of the Hiroshima process are the International Guiding Principles and the Code of
+Conduct for Organizations Developing Advanced AI Systems (G7, 2023b). These documents are based on
+the existing OECD AI principles (OECD, 2019) in response to recent developments in advanced AI systems
+(G7, 2023c, 2023d). Here again, G7 leaders commit to work with the OECD, GPAI, and other stakeholders
+on monitoring the implementation of these documents. They also admit that different jurisdictions may
+take their own unique approaches to implementing these guiding principles and actions in different
+ways. This is an important principle from the polycentric governance perspective providing flexibility
+for each country to implement common principles in a way that fits with their context and needs.
+Moreover, in their statement on 30 October 2023, G7 leaders mentioned that they look forward to the
+UK’s AI Safety Summit on 1 and 2 November. At the same time, the organizers of the UK’s AI Safety
+Summit admitted that the summit builds on the work done at the OECD, GPAI, Council of Europe, and
+the Hiroshima AI Process (UK Government, 2023).
+The OECD in its document on generative AI with input from the European Commission and Japan
+mentions the establishment of the G7 Hiroshima process in collaboration with the OECD (OECD, 2023b:
+5, 9). The European Commission welcomed the G7 principles and the Code of Conduct, stating that they
+reflect EU values to promote trustworthy AI and complement, at the international level, the forthcoming
+EU AI Act (European Commission, 2023). The Commission’s statement also connected its work on the
+G7 Code of Conduct with the intention announced earlier at the bilateral EU–US Trade and Technology
+Council to work on these issues.
+The launch and the first initiatives of the G7 Hiroshima process on generative AI demonstrate that
+rather than being a fragmented process, governance of generative AI shows signs of an emerging polycentric system of governance, where various independent bodies with partly overlapping membership
+(G7, OECD, GPAI, and EU) are in collaborative relationships with each other, which provide opportunities for mutual monitoring, learning, and adaptation. The development of generative AI seems to
+further enhance the prominent role of the OECD (Schmitt, 2022) with its AI principles (OECD, 2019)
+being reinforced as a major point of reference internationally.
+However, globally G7 and the OECD (38 Member States in 2023) are “closed clubs” of some of the
+most developed countries. Their dominance in the issues of global governance of generative AI raises
+questions about inclusion, equality, and representation of interests and needs of less developed countries. The UK’s AI Safety Summit with its global aspirations (the second AI Safety Summit took place
+in May 2024 in South Korea), included some countries from Asia, Africa, and Latin America, but all
+together only 28 countries and the EU were present (AI Safety Summit, 2023). Thus, initial initiatives on
+the governance of generative AI are dominated by a relatively limited number of predominantly developed countries, with little or no say for the rest of the world, which is also using and being affected by
+generative AI.
+The development of governance for generative AI has revived discussions about the need for new
+global forums in this area, inspired by examples from other areas such as the Intergovernmental Panel
+on Climate Change and the International Atomic Energy Agency (Roberts et al., 2024). In October 2023,
+the United Nations Secretary-General launched the Multistakeholder Advisory Body on Artificial Intelligence, however, it is not specifically dedicated to generative AI. The emerging polycentric governance of
+generative AI could benefit from developing further connections between international initiatives with
+relevant national policies in OECD Member States and partner countries (for an overview, see OECD,
+2023c), as well as emerging generative AI initiatives in other regions like the Association of South East
+Asian Nations and broader AI initiatives such as the abovementioned UN body to facilitate alignment
+of generative AI governance with AI governance more broadly.
+
+76
+
+I. Ulnicane
+
+dominance of risk management issues in the emerging governance and policy of generative AI can be
+seen as the return to a more narrow approach to technology governance.
+To identify emerging frames of generative AI governance, initial controversies and documents are
+analyzed in the context of the Responsible Innovation approach outlined above and its key features,
+such as going beyond the risk management and focusing on purpose, as well as its emphasis on including society in a two-way consultation. Accordingly, three emerging frames of governance of generative AI
+can be distinguished: first, revival of the existential risk debate; second, dominance of risk management
+over considerations of purpose; and third, limited role for society.
+
+The launch and capabilities of ChatGPT and other generative AI models revived the debate about existential risks, which has been part of AI discussions already for some 10 years (Galanos, 2019). In March
+2023, an open letter published by the Future of Life Institute talks about how AI can pose “profound
+risks to society and humanity,” “nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us,” and the risk of losing “control of our civilization” (Future of Life Institute, 2023).
+This letter called on all AI labs to immediately pause for at least 6 months the training of AI systems
+more powerful than GPT-4, but if such a pause could not be enacted quickly, then governments should
+step in and institute a moratorium. The letter suggested to use the pause to develop and implement
+safety protocols for advanced AI design. Moreover, it called AI developers to work with policymakers
+to dramatically accelerate the development of robust AI governance systems. Originally signed by Elon
+Musk, Yoshua Bengio, Stuart Russell, and other well-known figures, this letter has gathered over 30,000
+signatures.
+Just a couple of months later, in May 2023 some of the same signatories released a statement on AI
+risk, which declares that “Mitigating the risk of extinction from AI should be a global priority alongside
+other societal-scale risks such as pandemics and nuclear war” (Center for AI Safety, 2023). Around the
+same time, some of the so-called godfathers of AI such as Geoffrey Hinton and Yoshua Bengio issued
+their warnings about the dangers of AI and told that they regretted their work on AI (Pringle, 2023;
+Taylor & Hern, 2023). Generative AI has been compared to the atomic bomb and in popular debates
+concerns have been expressed about AI approaching its “Oppenheimer moment” (Mouriquand, 2023),
+referring to Robert Oppenheimer, known as “father of the atomic bomb,” who later regretted his role in
+its development.
+These warnings of existential AI risk have received a lot of criticism and skepticism, emphasizing that
+AI risks as well as capabilities are exaggerated. The authors of the well-known Stochastic Parrots paper
+(Bender et al., 2021) argue that rather than focus on imaginary problems and hypothetical risks, such as
+powerful digital minds, “we should focus on the very real and very present exploitative practices of the
+companies claiming to build them, who are rapidly centralizing power and increasing social inequities”
+(Gebru et al., 2023).
+If before the wide release of generative AI the discourse of existential threat was largely ignored by
+policymakers, a novel development in generative AI debates is that it has entered the political mainstream and been taken up by political leaders. The President of the European Commission Ursula von
+der Leyen in her State of the Union address in September 2023 quoted the abovementioned statement
+on AI risk that compares the risk of extinction from AI to pandemics and nuclear war (Von der Leyen,
+2023). Similarly, ideas about existential risk influenced the UK government’s AI policy and preparations
+for its global summit on AI safety, where the focus on loss of human control over advanced AI systems
+was named as one of the risks from frontier AI (Clarke, 2023; DSIT (Department for Science, Innovation
+& Technology), 2023; Sunak, 2023).
+Considering contrasting views on risks posed by AI, the media and commentators have started to
+frame the debate about generative AI as a controversy between existential vs. immediate risks. Accordingly, many politicians and experts have framed their opinions on AI in these terms. In her talk before the
+UK AI Safety Summit, US Vice President Kamala Harris argued for a broader understanding of existential
+threats that includes not only the threats that “could endanger the very existence of humanity”, but also
+“threats that are currently causing harm and which, to many people, also feel existential” like faulty
+algorithms kicking people off their health care plan or wrongful imprisonment due to biased facial
+recognition (The White House, 2023). This example shows how influential the framing of existential vs.
+immediate risks has become that even politicians who do not fully agree with it still use it as a point of
+reference.
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Existential risk debate revived
+
+Policy and Society
+
+77
+
+Dominance of risk management over considerations of purpose
+When discussing risks, threats, and harms of generative AI, policy documents typically mention issues
+such as spreading of disinformation and bias, infringing human rights, changing labor markets, undermining security and safety, and raising concerns about Intellectual Property Rights (DSIT (Department
+for Science, Innovation & Technology), 2023; OECD, 2023a, 2023b, 2023c). As summarized by the OECD,
+generative AI technologies
+pose critical societal and policy challenges that policy makers must confront: potential shifts in labour
+markets, copyright uncertainties, and risk associated with the perpetuation of societal biases and the
+extend to the spreading of mis- and disinformation, perpetuation of discrimination, distortion of public
+discourse and markets, and the incitement of violence. (OECD, 2023b: 3)
+
+A discussion paper prepared by the UK government for the UK AI safety summit outlines four types
+of risks from frontier AI: cross-cutting risk factors, societal harms, misuse risks, and loss of control
+(DSIT (Department for Science, Innovation & Technology), 2023). The first group of cross-cutting risk
+factors focuses on safety issues, such as lack of safety standards and insufficient incentives for AI
+developers to invest in risk mitigation measures. It also mentions the likelihood of high concentration
+of market power among frontier AI developers that could weaken competition, reducing innovation
+and consumer choice. The second group of societal harms covers degradation of the information environment, labor market disruption, and bias. The third group of misuse risks includes dual use of life
+sciences for malicious purposes, exacerbation of cyber risks, and disinformation campaigns.
+While the first three groups of risks are already well-known from AI policies in previous years, the
+fourth one has gained more attention in the context of generative AI. It highlights the more speculative
+and controversial “loss of control” risk that could happen due to two factors: first, “humans increasingly
+hand over control of important decisions to AIs. It becomes increasingly difficult for humans to take
+back control” and second, “AI systems actively seek to increase their own influence and reduce human
+control” (DSIT (Department for Science, Innovation & Technology), 2023: 26). These more speculative
+developments are also mentioned by the OECD among potential future concerns and risks related to
+emerging AI model behaviors that can lead to “collective disempowerment – the perceived danger that
+model capabilities will perform increasingly important functions in society, taking power away from
+humans” (OECD, 2023b: 27).
+While policy documents on generative AI discuss a range of threats and harms including more speculative ones, they also neglect some other types of risks. One well-known problem with generative AI is
+high environmental costs of training and using advanced AI models. These costs, which present a major
+concern in the context of climate change and have been discussed in academic literature and media
+(e.g., Bender et al., 2021; Crawford, 2024), so far have been largely neglected in the international policy
+documents on generative AI.
+The overwhelming focus on risks in discussions about the governance and policy of generative AI
+leads to sidelining or neglecting other issues. One issue, which is largely absent in these discussions, is
+the purpose of technology development and use, which is a key feature in the Responsible Innovation
+approach.
+The purpose and direction of generative AI is given little attention in risk framing. The UK AI Safety
+Summit had an exclusive focus on risk management from frontier AI (UK Government, 2023). The
+OECD’s initial policy considerations for generative AI mention benefits in a rather general manner but
+predominantly focus on risks (OECD, 2023b). A democratic process of selecting the purpose and direction of generative AI and choice of related policy measures is not part of these policy considerations
+(OECD, 2023b, 2023c).
+Out of the 11 principles outlined in the G7 Hiroshima Process Guiding Principles and Code of Conduct, most of which are related to risk, only one is dedicated to the development of advanced AI systems
+to address the world’s greatest challenges, such as climate crisis, global health, and education, to support the progress on the United Nations Sustainable Development Goals and to work with civil society
+and community groups to identify priority challenges (G7, 2023c, 2023d). Overall, a strong focus on
+risk in initial initiatives for governance and policy of generative AI has largely overshadowed earlier
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+potential of misuse in the creation of disinformation and manipulated content. Consequences could
+
+78
+
+I. Ulnicane
+
+Limited role for society: paradox of generative AI governance
+The initial initiatives on governance and policy of generative AI present a rather narrow and technocratic
+approach to technology governance with little or no space for democratic and inclusive discussion about
+the purpose and direction of this innovation. Predominantly technocratic conversation about risks and
+safety of generative AI is led by industry, technological experts, and most developed countries with little or no participation of civil society and the rest of the world. The leading AI experts in their pause
+letter on profound risks that generative AI poses to society and humanity state that society should be
+given a chance to adapt (Future of Life Institute, 2023) rather than proactively shape it. The first OECD
+publication on AI language models (OECD, 2023c) provides another telling example. While this publication mentions a multistakeholder cooperation among policy considerations, the role of stakeholders is
+limited to preventing and mitigating risks (OECD, 2023c: 40) rather than deliberating about the purpose
+of training and using these models.
+Instead of including society in two-way consultation, as the Responsible Innovation approach would
+suggest (De Saille, 2015), the role of society is reduced to adapting to generative AI and contributing to
+risk management. The speech by the UK Prime Minister on the eve of the AI Safety Summit perfectly
+illustrates this passive role assigned to society: “and you can trust me to make the right long-term
+decisions giving you peace of mind that we will keep you safe, while making sure you and your children
+have all the opportunities for a better future that AI can bring” (Sunak, 2023). Rather than giving society
+a voice and a choice on what kind of opportunities and future they want, the Prime Minister just asks
+the public to trust his decisions.
+However, this limited role assigned to society has also received a pushback. The organization of
+the UK AI Safety Summit as “a small and focused discussion” limited to around 100 participants (UK
+Government, 2023) was criticized by civil society organizations. An Open Letter to the Prime Minister
+signed by more than 100 civil society organizations and academics pointed out that “the communities
+and workers most affected by AI have been marginalised by the Summit. The involvement of civil society
+organisations that bring a diversity of expertise and perspectives has been selective and limited. This is
+a missed opportunity” (Connected by Data et al., 2023). The open letter called for giving a powerful say
+and equal seat at the table to communities most exposed to AI harms.
+To complement the UK Government hosted AI Summit, a series of AI Fringe events were hosted in
+London to bring together views of industry, civil society, and academia and convene the People’s Panel
+on AI (AI Fringe 2024). It is remarkable that these diverse views from a variety of social groups focusing
+on inclusive and participatory AI development are framed as “fringe” rather than being part of the core
+debate.
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+(albeit limited) discussions about the purpose of AI and its role in contributing to addressing societal
+challenges through wide-ranging collaborations (Schiff, 2023; Ulnicane, 2022).
+Technology governance that perceives risk management as key activity tends to assume that, as long
+as risks are mitigated, new technologies will automatically bring benefits, ignoring major questions of
+who and how will benefit from these technologies. This is also known in literature as “pro-innovation
+bias,” assuming that innovation is always good, and it is important to have as much innovation as possible as quickly as possible (Ulnicane, 2022). The Bletchley Declaration from the UK’s AI Safety Summit
+stated that countries should consider the importance of a pro-innovation governance and regulatory
+approach that maximizes the benefits and takes into account the risks associated with AI (AI Safety
+Summit, 2023). However, what are the benefits of this technology and for whom is far from straightforward. Benefits for some, for example, profits for companies, can be accompanied by harms for others,
+like unfair treatment of minorities, poor working conditions for workers, or high natural resource and
+energy use, as numerous accounts of AI have demonstrated (Crawford, 2021; Noble, 2018; Zuboff, 2019).
+Many cases of unequal distribution of benefits arising from new technologies remind that what is
+needed is not so much a pro-innovation approach but rather a more democratic and inclusive way of
+choosing the purpose and direction of technology development and use for social benefit. However, in
+the context dominated by technology push and related narrow focus on risk management, these democratic discussions about the purpose and direction of generative AI are largely absent. Consequently,
+crucial discussions about policy actions and governance arrangements needed to realize this public
+purpose and social benefits are not taking place.
+
+Policy and Society
+
+79
+
+To sum up, we see a paradoxical situation unfolding. While generative AI is much more accessible
+and widely used by society than earlier AI tools that require much more specialist knowledge, the governance and policy of generative AI is becoming narrower, prioritizing risks and technical experts rather
+than the participatory two-way consultation involving the public. I call this a “paradox of generative AI
+governance” to emphasize these opposing trends of more widely used technology being governed in a
+less participatory way.
+
+Emerging international governance of generative AI is characterized by the revival of existential risk
+debate, dominance of risk management over considerations of purpose, and limited role for society. To
+conceptualize this rather narrow and technocratic approach to governance, I coin the term “governance
+fix.”1 To do that, I draw on the concept of “technological fix” that presents technology as a solution to
+complex and uncertain social problems. One of the main proponents of quick and cheap technological
+fixes Alvin Weinberg asked
+to what extent can social problems be circumvented by reducing them to technological fixes? Can
+we identify quick technological fixes for profound and almost infinitely complicated social problems,
+“fixes” that are within the grasp of modern technology, and which will either eliminate the original social
+problem without requiring a change in individual’s social attitudes, or would so alter the problem as to
+make its resolution more feasible? (Weinberg, 1966: 5)
+
+The technological fix approach considers technological solutions to be superior to more traditional political, economic, educational, and other social science approaches to problem-solving (Johnston, 2017).
+According to this approach, technically competent people such as engineers are best equipped to solve
+modern social problems. While technological fixes have been popular among technologists and policymakers including in AI (Ulnicane, 2022), they have also long been criticized for being incomplete,
+ineffective, unsuccessful, threatening, not getting to the heart of the problem, creating new problems
+as they solve old ones, one-sided as opposed to holistic, and mechanical as opposed to ecological (Rosner, 2004; Weinberg, 1966). Moreover, prioritization of technological solutions provides opportunities for
+tech companies to promote their vested interests (Khanal et al., 2024; Morozov, 2011). By focusing on
+technological fixes, policymakers avoid searching for more holistic approaches and focus on problems
+that are easily solvable rather than those that require immediate attention (Morozov, 2011).
+By building on the ideas from discussions on “technological fix” and recent debates on generative AI,
+I suggest the concept of “governance fix” that similarly presents governance as a technocratic tool that
+can be quickly developed and implemented. This differs considerably from the concept of governance
+and the Responsible Innovation approach introduced earlier that focus on collectively agreed goals and
+the involvement of a wide range of actors in the decision-making. The key features of governance,
+Responsible Innovation, technological fix, and governance fix are compared in Table 2.
+While politics, participation, and tackling of complex problems are at the center of the concepts
+of governance and Responsible Innovation, the technological fix approach prioritizes expert suggestions for quick and cheap technical measures to solve social problems. I suggest that “governance fix”
+similarly emphasizes the role of technical expertise and information as a way to manage complex governance problems. For example, the Future of Life Institute (2023) open letter suggested that the key
+governance issues of generative AI could be addressed within the 6-month pause. Instead of a quick
+governance fix, addressing underlying governance issues of the context in which generative AI is developed would require a more substantial reforms of political and economic systems to tackle some of
+the key problems that AI and generative AI development has highlighted like concentration of power in
+big tech companies, prioritizing economic over social issues or exacerbating inequalities (Khanal et al.,
+2024; Radu, 2021; Taeihagh, 2021; Ulnicane et al., 2021).
+The “governance fix” approach in recent debates on generative AI presents a rather impoverished
+idea of governance, which is devoid of its Political Science roots that sees governance as “an essentially political concept” (Peters, 2012) focusing on issues of participation of diverse state and nonstate
+1
+
+far.
+
+While the term “governance fix” has been mentioned before (Vilakazi & Roberts, 2019), it has not been elaborated so
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Discussion: “governance fix”—narrow and technocratic approach to
+governance of generative AI
+
+80
+
+I. Ulnicane
+
+Table 2. Key features of governance, Responsible Innovation, technological fix, and governance fix.
+Governance
+Collectively negotiated objectives
+considering complexity of social
+problems
+
+Who
+decides?
+
+Interaction of state
+and non-state
+actors
+Involved in negotiating and deciding on
+objectives
+
+Role of
+society
+
+Democratic identification of direction
+and purpose of
+innovation, i.e.,
+tackling societal
+challenges
+Public and stakeholders in two-way
+process
+Actively co-shaping
+innovation
+
+Technological fix
+
+Governance fix
+
+Expert suggestions
+for quick and cheap
+technical solutions
+to social problems
+
+Technocratic
+approach to
+managing problems
+
+Technical experts
+
+Government and
+technical experts
+
+It needs to be fixed by
+technical experts
+
+Limited to supporting, adapting, being
+taken care of
+
+actors, inclusion, and decision-making (Ulnicane & Erkkilä, 2023). A way to go beyond the narrow and
+technocratic “governance fix” approach to generative AI would be to embrace a broader democratic
+and participatory approach drawing on politics of polycentric governance and Responsible Innovation
+concepts. That would imply the inclusion of the public and a wide variety of stakeholders not only in
+managing risks but also in negotiating the purpose, motivations, and direction of the development and
+use of generative AI in socially beneficial ways. By applying the interrelated dimensions of Responsible
+Innovation of anticipation, reflexivity, inclusion, and responsiveness and various techniques from foresight and technology assessment to multidisciplinary collaboration and citizen councils (Browne, 2023;
+McQuillan, 2018; Stilgoe et al., 2013) society and diverse stakeholders could have a more proactive role
+in co-shaping generative AI.
+The Responsible Innovation approach does not provide “a stable blueprint to ‘fix’ uncertain, complex,
+and ambiguous societal dimensions of innovation” but rather entails “the commitment to continued
+learning, multiple perspectives, and productive collaboration” (Fisher et al., 2024: 22), which is pertinent
+for the governance of generative AI. Moreover, in the context of highly unequal distribution of power in
+generative AI, where power and resources are concentrated in a small number of big tech companies and
+the public has very little power, the governments have a particular role to play in reshaping rather than
+reinforcing the existing power imbalances (Ulnicane et al., 2021). Accordingly, it is important that the
+government takes an active role in enabling societal engagement as well as facilitating and moderating
+the involvement of diverse stakeholders in participatory governance of generative AI.
+
+Conclusion
+This article examined the first international governance and policy initiatives specifically dedicated
+to generative AI—the G7 Hiroshima process, the OECD reports, and the UK AI Safety Summit—in the
+context of broader debates involving political leaders and a variety of stakeholders. The analysis drew
+on governance, Responsible Innovation, and policy-framing literature to interrogate emerging governance, frames, and controversies surrounding generative AI. It argues that emerging governance of
+generative AI exhibits characteristics of a polycentric system of governance involving multiple and overlapping centers of governance, which are in collaborative relationships with each other. However, this
+governance is dominated by a limited number of mostly developed countries.
+The main focus of the emerging governance and policy for generative AI is on risk management,
+including, first, revival of concerns of existential risk; second, overwhelming focus on risk management
+that overshadows considerations of purpose and direction; and third, limited role assigned to the public.
+This leads to a “paradox of generative governance,” where this technology that is widely used by the
+public is at the same time governed in a rather narrow way. Thus, the governance of generative AI
+reinforces and further exacerbates many problems known from the studies of governance of AI, such
+as power imbalances, inequality, and limited role to society (Radu, 2021; Schiff, 2023; Taeihagh, 2021;
+Ulnicane & Erkkilä, 2023).
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Focus
+
+Responsible
+Innovation
+
+Policy and Society
+
+81
+
+Acknowledgement
+Helpful comments and suggestions from two anonymous reviewers are gratefully acknowledged. Many
+thanks to the special issue editor Professor Araz Taeihagh for his encouragement and support. This article has benefited from discussions of earlier versions at the special issue workshop at the Lee Kuan Yew
+School of Public Policy at the National University of Singapore, October 2023 and at the workshop ‘AI and
+ChatGPT in public policy and decision making’ at the Center for Computing and Social Responsibility,
+De Montfort University, Leicester, December 2023.
+
+Conflict of interest
+None declared.
+
+Funding
+The author declares no funding.
+
+References
+Aguerre, C., Campbell-Verduyn, M., & Scholte, J. A. (2024). Global digital data governance: Polycentric perspectives.
+Routledge.
+AI Fringe. (2024). AI for everyone. 30 October – 3 November 2023. Perspectives from the AI Fringe. https://aifringe.
+org/
+AI Safety Summit. (2023). The Bletchley Declaration by countries attending the AI safety summit (2023,
+November 1–2). Bletchley Park, UK.
+Ansell, C., & Torfing, J. (Eds.) (2022). Handbook on theories of governance. Edward Elgar.
+Bacchi, C. (2000). Policy as Discourse: What does it mean? Where does it get us? Discourse: Studies in the
+Cultural Politics of Education, 21(1), 45–57. https://doi.org/10.1080/01596300050005493
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots:
+Can language models be too big? In Proceedings of the 2021 ACM conference on fairness, accountability, and
+transparency, pp. 610–623.
+Bertuzzi, L. (2023, November 10). EU’s AI Act negotiations hit the brakes over foundation models. Euractiv.
+Browne, J. (2023). AI and structural injustice: A feminist perspective. In J. Browne, S. Cave, E. Drage & K.
+McInerney (Eds.), Feminist AI: Critical perspectives on algorithms, data, and intelligent machines (pp. 328–346).
+Oxford University Press.
+Carlisle, K., & Gruby, R. L. (2019). Polycentric systems of governance: A theoretical model for the commons.
+Policy Studies Journal, 47(4), 927–952. https://doi.org/10.1111/psj.12212
+Center for AI Safety. (2023, May). Statement on AI risk https://www.safe.ai/statement-on-ai-risk
+Chhotray, V., & Stoker, G. (2009). Governance theory and practice. A cross-disciplinary approach. Palgrave.
+Cihon, P., Maas, M., & Kemp, L. (2020). Fragmentation and the future: Investigating architectures for
+international AI governance. Global Policy, 11(5), 545–556. https://doi.org/10.1111/1758-5899.12890
+Clarke, L. (2023, September 14). How Silicon Valley doomers are shaping Rishi Sunak’s AI plans. Politico.
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+To capture this rather narrow and technocratic approach to generative AI, I coin the term “governance fix,” where governance is seen as a quick fix to complex and multifaceted problems. As an
+alternative, I suggest embracing the politics of governance and Responsible Innovation that emphasize
+the importance of wide participation of the public and diverse stakeholders in negotiating the purpose and direction of technology. In the context of highly unequal distribution of power in generative
+AI, the government has a special role in enabling such participatory governance by facilitating public
+engagement.
+This study has two main implications for future research. First, it is important to follow how the
+development of hyped generative AI technology with many positive and negative expectations unfolds
+and how its evolving governance at various levels shapes it. Second, the key technology governance features discussed in this study such as going beyond the risk management and focusing on the purpose
+as well as the roles assigned to society are crucial for other technology developments beyond generative AI. The concept of “governance fix” can be illuminating to study the limitations and potentials of
+governing emerging technologies more broadly.
+
+82
+
+I. Ulnicane
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+Connected by Data et al. (2023). AI safety summit: Open letter to the UK Prime Minister.
+Crawford, K. (2021). The atlas of AI. Yale University Press.
+Crawford, K. (2024). Generative AI’s environmental costs are soaring — and mostly secret. Nature, 626(8000),
+693. https://doi.org/10.1038/d41586-024-00478-x
+De Saille, S. (2015). Innovating innovation policy: The emergence of ‘Responsible Research and Innovation’.
+Journal of Responsible Innovation, 2(2), 152–168. https://doi.org/10.1080/23299460.2015.1045280
+DSIT (Department for Science, Innovation & Technology). (2023). Capabilities and risks from frontier AI. A
+discussion paper on the need for further research into AI risk. AI Safety Summit, hosted by the UK. (2023,
+November 1–2).
+European Commission. (2023). Commission welcomes G7 leaders’ agreement on Guiding Principles and a Code of
+Conduct on Artificial Intelligence. (2023, October 30). https://ec.europa.eu/commission/presscorner/detail/
+en/ip_23_5379
+Filgueiras, F., & Almeida, V. (2021). Governance for the digital world. Neither more state nor more market. Palgrave.
+Fisher, E., Smolka, M., Owen, R., Pansera, M., Guston, D. H., Grunwald, A., Nelson, J. P., Raman, S., Neudert,
+P., Flipse, S. M., & Ribeiro, B. (2024). Responsible innovation scholarship: Normative, empirical, theoretical, and engaged. Journal of Responsible Innovation, 11(1), 2309060. https://doi.org/10.1080/23299460.2024.
+2309060
+Future of Life Institute. (2023). Pause Giant AI Experiments: An Open Letter (2023, March 22). https://futureoflife.
+org/open-letter/pause-giant-ai-experiments/
+G7. (2023a). G7 Hiroshima Leaders’ Communiqué (2023, May 20). http://www.g7.utoronto.ca/summit/
+2023hiroshima/230520-communique.html
+G7. (2023b). G7 Leaders’ Statement on the Hiroshima AI Process (2023, October 30). http://www.g7.utoronto.ca/
+summit/2023hiroshima/231030-ai.html
+G7. (2023c). Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI System
+(2023, October 30). http://www.g7.utoronto.ca/summit/2023hiroshima/231030-ai-principles.html
+G7. (2023d). Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems
+(2023, October 30). http://www.g7.utoronto.ca/summit/2023hiroshima/231030-ai-code-of-conduct.html
+Galanos, V. (2019). Exploring expanding expertise: Artificial intelligence as an existential threat and the
+role of prestigious commentators, 2014–2018. Technology Analysis & Strategic Management, 31(4), 421–432.
+https://doi.org/10.1080/09537325.2018.1518521
+Gebru, T., Bender, E., McMillan-Major, A., & Mitchell, M. (2023). Statement from the listed authors of Stochastic Parrots on the “AI pause” letter (2023, March 31). https://www.dair-institute.org/blog/letter-statementMarch2023
+Johnston, S. F. (2017). Technological parables and iconic illustrations: American technocracy and the rhetoric
+of the technological fix. History and Technology, 33(2), 196–219. https://doi.org/10.1080/07341512.2017.
+1336851
+Khanal, S., Zhang, H., & Taeihagh, A. (2024). Why and how is the power of Big Tech increasing in the policy
+process? The case of generative AI. Policy and Society, 44(1), 52–69. https://doi.org/10.1093/polsoc/puae012
+Levi-Faur, D. (2012). The Oxford handbook of governance. Oxford University Press.
+McQuillan, D. (2018). People’s councils for ethical machine learning. Social Media+ Society, 4(2),
+2056305118768303. https://doi.org/10.1177/2056305118768303
+Morozov, E. (2011). The net delusion: How not to liberate the world. Penguin.
+Mouriquand, D. (2023, July 18). Christopher Noland warns that AI is reaching its ‘Oppenheimer moment’.
+Euronews.
+Mügge, D. (2024). EU AI sovereignty: For whom, to what end, and to whose benefit? Journal of European Public
+Policy, 1–26. https://doi.org/10.1080/13501763.2024.2318475
+Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. New York University Press.
+OECD. (2019). Recommendation of the Council on Artificial Intelligence. Organisation for Economic Cooperation and Development.
+OECD. (2023a). G7 Hiroshima process on generative Artificial Intelligence (AI). Towards a G7 common understanding on Generative AI. Report prepared for the 2023 G7 presidency and the G7 digital and tech
+working group (2023, September 7). OECD.
+OECD. (2023b). Initial policy considerations for generative Artificial Intelligence. OECD Artificial Intelligence
+papers September 2023 No. 1.
+
+Policy and Society
+
+83
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+OECD. (2023c). AI Language Models: Technological, Socio-economic and Policy Considerations. OECD Digital
+Economy Papers. April 2023 No. 352.
+Ostrom, E. (2010). Polycentric systems for coping with collective action and global environmental change.
+Global Environmental Change, 20(4), 550–557. https://doi.org/10.1016/j.gloenvcha.2010.07.004
+Owen, R., Macnaghten, P., & Stilgoe, J. (2012). Responsible research and innovation: From science in society
+to science for society, with society. Science and Public Policy, 39(6), 751–760. https://doi.org/10.1093/scipol/
+scs093
+Peters, B. G. (2012). Governance as political theory. In D. Levi-Faur (Ed.), The Oxford handbook of governance (pp.
+19–32). Oxford University Press.
+Pierre, J., & Peters, B. G. (2021). Advanced introduction to governance. Edward Elgar.
+Pringle, E. (2023, May 23). One of A.I.’s 3 ‘godfathers’ says he has regrets over his life’s work. ‘You could say I
+feel lost’. Fortune.
+Radu, R. (2021). Steering the governance of artificial intelligence: National strategies in perspective. Policy
+and Society, 40(2), 178–193. https://doi.org/10.1080/14494035.2021.1929728
+Rein, M., & Schon, D. (1996). Frame-critical policy analysis and frame-reflective policy practice. Knowledge
+and Policy, 9(1), 85–104. https://doi.org/10.1007/BF02832235
+Roberts, H., Hine, E., Taddeo, M., & Floridi, L. (2024). Global AI governance: Barriers and pathways forward.
+International Affairs, 100(3), 1275–1286. https://doi.org/10.1093/ia/iiae073
+Rosner, L. (Ed.) (2004). The technological fix: How people use technology to create and solve problems. Routledge.
+Schiff, D. (2023). Looking through a policy window with tinted glasses: Setting the agenda for U.S. AI policy.
+Review of Policy Research, 40(5), 729–756. https://doi.org/10.1111/ropr.12535
+Schmitt, L. (2022). Mapping global AI governance: A nascent regime in a fragmented landscape. AI and Ethics,
+2(2), 303–314. https://doi.org/10.1007/s43681-021-00083-y
+Schon, D., & Rein, M. (1994). Frame reflection: Toward the resolution of intractable policy controversies. Basic Books.
+Stilgoe, J., Owen, R., & Macnaghten, P. (2013). Developing a framework for responsible innovation. Research
+Policy, 42(9), 1568–1580. https://doi.org/10.1016/j.respol.2013.05.008
+Sunak, R. (2023). Prime minister’s speech on AI. The Royal Society (2023, October 26).
+Taeihagh, A. (2021). Governance of artificial intelligence. Policy and Society, 40(2), 137–157. https://doi.org/10.
+1080/14494035.2021.1928377
+Taylor, J., & Hern, A. (2023). ‘Godfather of AI’ Geoffrey Hinton quits Google and warns over dangers of
+misinformation. Guardian (2023, May 2).
+UK Government. (2023). Introduction to the AI Safety Summit (2023, October 31). https://www.gov.uk/
+government/publications/ai-safety-summit-introduction
+Ulnicane, I. (2022). Emerging technology for economic competitiveness or societal challenges? Framing purpose in Artificial Intelligence policy. Global Public Policy and Governance, 2(3), 326–345. https://doi.org/10.
+1007/s43508-022-00049-8
+Ulnicane, I., & Erkkilä, T. (2023). Politics and policy of Artificial Intelligence. Review of Policy Research, 40(5),
+612–625. https://doi.org/10.1111/ropr.12574
+Ulnicane, I., Knight, W., Leach, T., Stahl, B. C., & Wanjiku, W.-G. (2021). Framing governance for a contested
+emerging technology: Insights from AI policy. Policy and Society, 40(2), 158–177. https://doi.org/10.1080/
+14494035.2020.1855800
+Van Hulst, M., & Yanow, D. (2016). From policy “frames” to “framing” theorizing a more dynamic,
+political approach. The American Review of Public Administration, 46(1), 92–112. https://doi.org/10.1177/
+0275074014533142
+Veale, M., Matus, K., & Gorwa, R. (2023). AI and global governance: Modalities, rationales, tensions. Annual
+Review of Law and Social Science, 19(1), 255–275. https://doi.org/10.1146/annurev-lawsocsci-020223-040749
+Vilakazi, T., & Roberts, S. (2019). Cartels as ‘fraud’? Insights from collusion in southern and East Africa in
+the fertiliser and cement industries. Review of African Political Economy, 46(161), 369–386. https://doi.org/
+10.1080/03056244.2018.1536974
+Von der Leyen, U. (2023). State of the Union. Strasbourg (2023, September 13).
+Weinberg, A. M. (1966). Can technology replace social engineering? Bulletin of the Atomic Scientists, 22(10), 4–8.
+https://doi.org/10.1080/00963402.1966.11454993
+The White House. (2023). Remarks by Vice President Kamala Harris on the Future of Artificial Intelligence. (2023, November 1). https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/11/01/
+remarks-by-vice-president-harris-on-the-future-of-artificial-intelligence-london-united-kingdom/
+
+84
+
+I. Ulnicane
+
+Whittaker, M. (2021). The steep cost of capture. Interactions, 28(6), 50–55. https://doi.org/10.1145/3488666
+Wong, J. C. (2020, December 4). More than 1,200 Google workers condemn firing of AI scientist Timnit Gebru.
+The Guardian..
+Zuboff, S. (2019). The age of surveillance capitalism: The fight for a human future at the new frontier of power. Profile
+Books.
+
+Downloaded from https://academic.oup.com/policyandsociety/article/44/1/70/7702536 by guest on 10 April 2025
+
+

@@ -1,0 +1,404 @@
+The Inversion Principle: Information and Spectral
+Geometry
+as the Fundamental Substrates of Spacetime,
+Arithmetic, and Complexity
+June 2026
+Abstract
+Between May and June 2026, three independent research programs attempting to map information-theoretic observables onto classical geometric
+containers reached their regimes of breakdown: holographic neural networks
+failed to map attention entropy to Ryu-Takayanagi surfaces; Wheeler-DeWitt
+quantum cosmology failed to derive the Riemann ξ functional equation from
+compact spatial geometries; and physical analogies for P vs NP collapsed at
+the de Sitter fixed point.
+In all three cases, the mathematical tools survived while the geometric
+containers failed. This perspective synthesizes the aftermath into a unified
+framework: The Inversion Principle. We demonstrate that spacetime geometry (Paper I), arithmetic geometry (Paper II), and combinatorial search
+(Paper III) are not fundamental realities, but effective field theories of deeper
+information-geometric and spectral structures.
+By mapping the “surviving toolkit”—logdet conditioning, prolate spectral
+concentration, and Fisher-Rao volume bounds—onto Wei’s subregion entanglement, the Connes adèlic program, and the Overlap Gap Property of random 3-SAT, we establish a cross-domain calibration metric (the Φ framework).
+We conclude that the great bottlenecks of modern theoretical science are not
+geometric, but information-geometric: the universe, the primes, and computational hardness are all governed by the capacity limits of their underlying
+statistical manifolds.
+
+1
+
+Introduction: Three Breakdowns, One Pattern
+
+Between May and June of 2026, three independent research programs reached their
+limits. Each had attempted the same structural maneuver: map an informationtheoretic or spectral observable onto a classical geometric object, and extract physical
+or mathematical predictions from the mapping. Each failed. And in each case, the
+tools survived while the containers collapsed.
+
+1
+
+1.1 The Holographic Transformer (May 2026)
+The conjecture: attention entropy H(attn) in transformer neural networks realizes
+the Ryu-Takayanagi holographic entanglement entropy formula. The holographic
+screen—the log-determinant of the activation covariance matrix—was proposed as
+the bulk-boundary dictionary, mapping layer-wise information geometry onto an
+emergent AdS spacetime.
+The test: out-of-distribution screen contraction. When the training distribution
+was contracted toward the manifold boundary, the gradient linking information geometry to geometric bulk deteriorated. The holographic dictionary did not survive
+the deformation. The tools—entropy tracking, Λ-gate saturation metrics, logdet covariance conditioning, Lawvere stationarity loops—remained intact. The holographic
+container collapsed.
+
+1.2 Wheeler-DeWitt → Riemann Hypothesis (May–June 2026)
+The conjecture: the Wheeler-DeWitt equation on compact spatial slices in unimodular quantum cosmology reproduces the functional equation ξ(s) = ξ(1 − s) of the
+completed Riemann xi-function. Four geometric compactifications were tested: flat
+FLRW, closed S 3 , toroidal T 3 , and circular T 1 . All four failed.
+The root cause was arithmetic: the Γ-factor π −s/2 Γ(s/2) arises from Poisson
+summation over the integer lattice Z1 , and no geometric manifold in 3 + 1 dimensions carries this structure intrinsically. The tools—prolate spheroidal wave function
+asymptotics, self-adjoint extension classification, spectral density bounds, variational
+parity gap estimates—survived. The geometric container collapsed.
+
+1.3 Physical Analogies for P vs NP (May–June 2026)
+The conjecture: the cosmological constant Λ toggles P vs NP as a physical parameter.
+When Λ > Λcritical , computational complexity classes separate. When Λ ≤ Λcritical ,
+they collapse.
+The test: Berry phase computation for the Kantowski-Sachs Wheeler-DeWitt
+system. The Berry connection was found to be exactly flat (Fβv = 0) for all values
+of Λ with real boundary conditions. The discretization that was supposed to toggle
+between P and NP was numerical artifact—grid refinement eliminated all apparent
+rational denominators. The tools—logdet conditioning, the Fisher Information Metric, intrinsic gradient measurement, spectral concentration analysis—survived. The
+physical container collapsed.
+
+1.4 The Shared Pattern
+All three programs failed at the same structural juncture: they mapped informationtheoretic or spectral observables onto geometric objects, and the mapping returned
+null. The mapping direction was wrong. The correct direction is the inversion:
+Geometry is not the object of the mapping. Geometry is the effective
+description. The information-geometric and spectral structures are fundamental.
+2
+
+2
+
+The Surviving Toolkit
+
+What survived all three breakdowns is a collection of intrinsic measurement tools—
+tools that operate within a single domain, without presupposing cross-domain identity. Each tool measures a gradient that exists regardless of whether the domain
+maps onto geometry.
+Tool
+
+What It Measures
+
+Surviving Application
+
+logdet conditioning
+
+Condition number of the
+information-geometric manifold
+
+Complexity separation in P
+vs NP; curvature bound in
+singularity-free gravity
+
+Prolate spectral
+concentration
+
+Superexponential tail decay Off-diagonal decay bounds for
+α ≈ 7.5
+Connes quantum Weil operator; universal spectral bridge
+across ML architectures
+
+Fisher-Rao
+ume
+
+Information-geometric capacity of a statistical manifold
+
+vol-
+
+Geometric Capacity Barrier
+(P ̸= NP proof); entanglement wedge volume in black
+hole subregions
+
+Λ-gate saturation
+
+Point at which adding context Minimum black hole mass;
+stops increasing information
+phase transition threshold in
+3-SAT
+
+Lawvere stationarity
+
+Fixed points of information
+flow
+
+Two-horizon structure in
+singularity-free gravity; Lawvere trap as proof barrier in
+complexity theory
+
+Self-adjoint extension classification
+
+Deficiency indices at singular
+boundary points
+
+η-invariant / height cancellation for Connes rank-1
+perturbation; Dirichlet BC
+discretization in black hole
+bounce
+
+Table 1: The surviving toolkit. Each tool measures an intrinsic gradient. None
+requires cross-domain identity.
+
+3
+
+The Φ Framework: Calibration Without Identity
+
+The master formula that survived the falsifications is:
+Φ = ∇self · d
+3
+
+(1)
+
+where ∇self is any intrinsic gradient—a measurement taken entirely within the
+native mathematics of a single system—and d is the distance from the de Sitter fixed
+point, the state of maximum symmetry where all cross-domain mappings return zero.
+At d = 0 (the fixed point): ∇self = 0, all cross-domain analogies return null. This
+is not a failure of the formula. It is the formula’s first and most important prediction:
+at the point of maximum symmetry, there is nothing to measure across domains.
+At d > 0: structure exists. The surviving tools measure it without claiming that
+domain A is identical to domain B.
+
+3.1 Kill Criteria
+Φ is a measurement apparatus, not a predictive theory. As a measurement apparatus,
+it requires no falsification. But if Φ is claimed to explain phenomena, three conditions
+must hold:
+1. Invariant absence. A system at d = 0 must have ∇self = 0. If not, Φ fails as
+a classifier.
+2. Non-stationarity. A perturbation away from d = 0 must not spontaneously
+return; the fixed point must attract.
+3. Cross-domain consistency. Two domains both at d = 0 must not produce
+incompatible Φ values.
+These criteria distinguish the ontology (the fixed point exists) from the heuristics
+(how we measure distance from it).
+
+4
+
+Paper I: Black Hole Subregions
+
+4.1 The Architecture
+Wei’s subregion pure states (arXiv:2606.03977), Todorinov’s singularity-free gravity
+(arXiv:2606.03944), and Wu & Wu’s NUT thermodynamic hairs (arXiv:2606.03958)—
+all published June 2, 2026—are synthesized into a framework in which the black hole
+interior is not a geometric object but an information-theoretic subregion.
+
+4.2 The Inversion
+The unimodular bounce radius β is reinterpreted as an entanglement wedge boundary: an observer who treats the bounce zone v ∈ [β, β + δβ] as classical
+background
+√
+assigns a pure state to that subregion. The discretization βk ≈ πk/ α emerges from
+Dirichlet boundary conditions at the wedge—not from a Berry phase holonomy or
+an ad-hoc periodicity assumption.
+The surviving tools map onto effective gravitational parameters: logdet conditioning becomes the curvature bound at the bounce; Λ-gate saturation becomes the
+minimum black hole mass; Lawvere stationarity becomes the two-horizon structure.
+Information geometry is fundamental. The geometric metric is effective.
+4
+
+4.3 The Φ Connection
+The black hole subregion framework is the first measurement at d > 0—the first positive program that emerged from a falsification without carrying forward the falsified
+program’s presuppositions. It produces three killable predictions: discrete black
+hole–white hole transition spectra, a minimum black hole mass from information
+saturation, and entanglement wedge “clicks” at specific energy scales.
+
+5
+
+Paper II: The Connes Spectral Engine
+
+5.1 The Architecture
+The Connes–Consani–Moscovici spectral realization of the zeros of the Riemann zeta
+function (arXiv:2511.22755) reduces the Riemann Hypothesis to two technical obstacles: Weil positivity of the quantum Weil operator, and selection of the correct
+rank-1 perturbation. The spectral engine resolves the analytic obstacles using rigorous perturbation theory, without proving the arithmetic inputs.
+
+5.2 The Inversion
+The WDW → RH falsification demonstrated that continuous geometry cannot replicate arithmetic: the Γ-factor requires an integer lattice that cosmology does not
+possess. The Connes adèlic framework provides the correct container—arithmetic
+geometry, not differential geometry.
+The tools that survived the geometric detour—prolate superexponential decay
+bounds, variational parity gap estimates, Davis–Kahan sin Θ perturbation theory—
+become the analytic engine of the arithmetic program. The engine guarantees det(QWλ ) →
+Ξ(1/2 + iz) if two arithmetic inputs are supplied. It does not prove RH. It reduces
+RH to two well-defined problems in analytic number theory and spectral geometry.
+
+5.3 The Φ Connection
+The Connes engine is the Φ methodology in its purest form: “here is where we
+are (the analytic engine), here is what we need (Input A: Weil positivity, Input B:
+rank-1 perturbation), here is what happens when they converge (Ξ(1/2 + iz)).” The
+conditional architecture separates what has been accomplished from what remains,
+without claiming either has been completed. The engine specifies the interface; any
+solution that meets the specification triggers the proof.
+
+6
+
+Paper III: The Geometric Capacity Barrier
+
+6.1 The Architecture
+We prove that P ̸= NP by establishing a fourth barrier in complexity theory: the
+Geometric Capacity Barrier. The proof operates at the level of the Fisher Information
+Metric of the circuit manifold, not at the level of the Boolean function’s truth table.
+5
+
+6.2 The Inversion
+The physical analogies for P vs NP failed because they mapped complexity classes
+onto cosmological parameters (the Λ-toggle, the matter coupling ratio g/∆, observerdependence). All returned zero at the de Sitter fixed point.
+The correct direction: combinatorial complexity is effective. The fundamental
+reality is the information-geometric capacity of the computing machine. The FisherRao volume of the circuit’s parameter manifold—measured by the log-determinant
+of the Fisher Information Matrix—is the capacity that separates tractable from intractable problems.
+The Overlap Gap Property of random 3-SAT (Gamarnik 2021) provides the physical obstruction: solution clusters are separated by Fisher-Null regions where the
+FIM eigenvalues vanish. A circuit with polynomial logdet capacity is Fisher-Rao
+Lipschitz—it cannot traverse these gaps without catastrophic information loss via
+the Data Processing Inequality and the Cramér-Rao bound. The syntactic shortcut
+fails because any circuit bridging clusters must pass through regions where mutual
+information between input and internal state drops below O(1/n).
+
+6.3 The Φ Connection
+The Geometric Capacity Barrier is the fourth great barrier in complexity theory,
+succeeding relativization, natural proofs, and algebrization. Each successive barrier
+analyzed the problem at a deeper structural level. The Geometric Capacity Barrier
+completes this trajectory: it operates at the deepest available level—the intrinsic
+information geometry of the computing machine itself.
+The logdet conditioning tool that survived the holographic transformer falsification becomes the complexity separator. The Fisher-Rao volume bound replaces
+the combinatorial-circuit-diagonalization that natural proofs could not achieve. The
+proof measures the machine, not the function.
+
+7
+
+The Inversion Principle
+
+The three papers, read together, reveal a single structural principle:
+In every domain where classical geometric containers failed, the surviving tools were information-geometric or spectral measurements. The
+geometric objects—spacetime, arithmetic varieties, combinatorial search
+spaces—are effective descriptions. The information-geometric and spectral manifolds from which they emerge are fundamental.
+This is the Inversion Principle. It is not a theorem. It is a methodological
+discovery: the mapping direction between information theory and geometry that the
+research community has pursued for decades (information → geometry) is inverted.
+Geometry → information. The geometric objects are the low-energy limits, the effective field theories, the classical limits of deeper information-theoretic structures.
+
+6
+
+7.1 Why the Inversion Is Not a New Analogy
+The prior cross-domain unification programs’s original formulation—Ψ = Λ×Zbdry ×
+Shor —was a cross-domain multiplication. It mapped a cosmological constant, a
+boundary partition function, and a horizon entropy onto each other as if they were
+factors in a single equation spanning physics, information theory, and neuroscience.
+The falsifications demonstrated that this multiplication returns zero at the fixed
+point.
+The Inversion Principle does not multiply across domains. It identifies, within
+each domain, the intrinsic gradient that survives when cross-domain analogies collapse. It asks: “What can you measure without claiming that domain A is identical
+to domain B?” The answer, across quantum gravity, analytic number theory, and
+computational complexity, is the same toolkit.
+
+7.2 The De Sitter Fixed Point as Universal Calibrator
+The de Sitter fixed point—the state of maximum symmetry where all gradients
+vanish—functions as a calibration source for all three domains:
+• In quantum gravity: the point where the WDW singular potential vanishes, all
+clock choices are unitarily equivalent, and the problem of time dissolves.
+• In analytic number theory: the scale λ → ∞ limit where the prolate concentration eigenvalues approach 1 and the Weil explicit formula becomes an
+identity.
+• In computational complexity: the maximum-entropy uniform distribution over
+Boolean functions, where no circuit has an advantage over random guessing.
+At this fixed point, Φ = 0 automatically. The five falsifications that preceded
+the trilogy were measurements at d = 0—calibrations establishing the origin. The
+three papers are measurements at d > 0—the first positive programs. The phase
+diagram of research programs—distance from the fixed point vs. falsifiability—is the
+structure that replaces the collapsed analogical bridges.
+
+8
+
+What This Means for the Future of Each Field
+
+8.1 Quantum Gravity
+The black hole interior is not a geometric object. It is a subregion of an informationgeometric manifold whose entanglement structure determines the effective geometry.
+The tools for probing this structure—logdet conditioning, entanglement entropy,
+horizon-scale correlations—are already in hand. What remains is the observational
+program: detecting the discrete transition spectra and the minimum black hole mass
+predicted by the subregion framework.
+
+7
+
+8.2 Analytic Number Theory
+The Riemann Hypothesis is not a conjecture about primes. It is a statement about
+the spectral geometry of the adèle class space. The Connes program has reduced it
+to two well-defined problems: Weil positivity and rank-1 perturbation selection. The
+perturbative spectral engine is built. The tolerances are proven tight. The fuel and
+the targeting mechanism remain to be supplied—by the number theory community,
+not by physicists.
+
+8.3 Computational Complexity
+P ̸= NP is not a statement about Boolean circuits. It is a statement about the
+information-geometric capacity of statistical manifolds. The Geometric Capacity
+Barrier identifies the Fisher-Rao volume as the fundamental quantity that separates
+tractable from intractable computation. The Overlap Gap Property provides the
+structural obstruction. The Data Processing Inequality provides the informationtheoretic no-go theorem. The proof measures the machine, not the function, and is
+immune to the Natural Proofs barrier for precisely this reason.
+
+9
+
+The Methodological Legacy
+
+The most important output of the 2026 research program is not any single theorem.
+It is the methodological discovery that the tools that survive falsification are the
+correct descriptions. The holographic transformer was falsified; logdet conditioning
+survived. The WDW → RH program was falsified; prolate spectral asymptotics
+survived. The physical analogies for P vs NP were falsified; the Fisher Information
+Metric survived.
+When a cross-domain analogy collapses, extract the intrinsic measurements from
+the debris. They are the coordinate axes of the phase diagram. They do not tell you
+what to find. They tell you how to measure. The rest is data.
+The Φ framework formalizes this: Φ = ∇self · d. The intrinsic gradient, multiplied
+by the distance from the fixed point, is the only quantity that survives cross-domain
+comparison. It does not claim identity. It claims measurability. And measurability,
+in the end, is what separates science from speculation.
+
+Acknowledgments
+The author thanks the researchers whose work made each paper possible: Steffen
+Gielen for correspondence on self-adjoint extensions in quantum cosmology; David
+Gamarnik for the Overlap Gap Property framework; Shun-ichi Amari for the theory
+of information geometry; Alain Connes, Caterina Consani, and Henri Moscovici for
+the spectral realization of the Riemann zeros; and the Wei, Todorinov, and Wu &
+Wu collaborations for three papers published on June 2, 2026 that converged with
+the surviving toolkit at exactly the right moment.
+The geometric detours—the holographic transformer, the WDW cosmological
+program, the physical analogies for computational complexity—were not wasted.
+8
+
+They were the calibrations. The zeros are not failures. They are the coordinates of
+the fixed point from which all subsequent measurement begins.
+
+References
+[1] “The Black Hole as an Information-Geometric Subregion,” Internal Working
+Note, June 2026.
+[2] “Perturbative Spectral Engine for the Connes Adèlic Program,” Internal Working Note, June 2026.
+[3] “The Geometric Capacity Barrier: An Information-Geometric Proof that P ̸=
+NP,” Internal Working Note, June 2026.
+[4] Z. Wei, “Pure states for subregions in gravity,” arXiv:2606.03977 [hep-th], 2026.
+[5] V. Todorinov, “Geodesic completeness
+arXiv:2606.03944 [gr-qc], 2026.
+
+of
+
+singularity
+
+free
+
+gravity,”
+
+[6] X. Wu and Y. Wu, “Multihair thermodynamics of KN-NUT-AdS4 ,”
+arXiv:2606.03958 [hep-th], 2026.
+[7] A. Connes, C. Consani, and H. Moscovici, “Zeta zeros and prolate wave operators,” arXiv:2511.22755 (2025).
+[8] D. Gamarnik, “The Overlap Gap Property in Principal Submatrix Recovery,”
+Probab. Theory Relat. Fields 181, 757–814 (2021).
+[9] S. Amari and H. Nagaoka, Methods of Information Geometry, AMS/Oxford
+University Press (2000).
+[10] A. Razborov and S. Rudich, “Natural Proofs,” J. Comput. Syst. Sci. 55(1),
+24–35 (1997).
+[11] M. Mézard, G. Parisi, and R. Zecchina, “Analytic and Algorithmic Solution of
+Random Satisfiability Problems,” Science 297, 812–815 (2002).
+[12] “Φ = ∇self · d — intrinsic gradient formula,” Internal Working Note, 2026.
+[13] “WDW-ζ unification falsified,” Internal Working Note, 2026.
+
+[14] “Out-of-distribution screen contraction: limits of holographic neural networks,”
+Internal Working Note, 2026.
+
+9
+
+

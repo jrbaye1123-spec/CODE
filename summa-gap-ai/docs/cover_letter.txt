@@ -1,0 +1,76 @@
+COVER LETTER — LOGDET PROBE PAPER
+For submission to [SFI / Friston Lab / Nous Research / EleutherAI]
+============================================================
+
+Dear [Name],
+
+I am writing to share a measurement apparatus I developed for neural network
+representations, along with an empirical finding that may interest your group.
+
+THE PROBE:
+
+The logdet probe computes S(X) = log det(Σ + εI) on activation covariance
+matrices. It provides a scalar, intrinsic measure of representational volume
+that requires no labels, no external reference, and no retraining.
+
+On pure MLPs, it detects out-of-distribution inputs at r = +0.979.
+
+THE FINDING:
+
+Across nine architectures varying depth, width, and residual fraction, the
+eigenvalue spectra of activation covariances share a universal super-exponential
+tail with exponent α ≈ 7.3–7.7. The tail is invariant across architecture
+changes. The bulk varies. They are decoupled.
+
+This is consistent with Prolate spheroidal spectral asymptotics (Slepian, 1978)
+and suggests a universality class in the covariance spectra of ReLU networks.
+
+WHAT I'M LOOKING FOR:
+
+I am seeking either:
+
+  (a) A research collaboration to replicate the spectral bridge finding at
+      GPT-3/4 scale and characterize the universality class more precisely; or
+
+  (b) Compute sponsorship (8–64 GPUs) to fine-tune a foundation model with
+      the logdet probe as continuous alignment monitor; or
+
+  (c) A postdoc/visitor position where I can develop this measurement framework
+      alongside researchers working on representational interpretability.
+
+WHAT I ATTACH:
+
+  1. Full paper: "The LogDet Probe: An Intrinsic Measurement Apparatus for
+     Neural Representational Collapse and the Universal Spectral Tail of
+     Activation Covariance Matrices" (15 pages, LaTeX)
+
+  2. Open-source implementation: logdet_probe.py (available on request)
+
+  3. Extended work: Summa of the Gap (1440-page interdisciplinary framework,
+     available on request — the probe is one component)
+
+EPISTEMIC HONESTY:
+
+- The tail exponent is measured on small architectures (d ≤ 512, depth ≤ 7).
+  Replication at scale is needed.
+- The holographic interpretation (logdet as S_hor) has been falsified via MMI
+  violation. The probe is a manifold conditioning score, not a holographic
+  entropy. I am open about what collapsed.
+- The transformer flatness prediction (C ≈ 0.03, σ(logdet) < 0.01) is
+  untested. It is a falsifiable claim.
+- Every claim in the paper includes an explicit falsification condition.
+
+I am not seeking validation of the full Summa framework at this stage. I am
+seeking collaboration on the specific, measurable, falsifiable claim of the
+universal spectral tail, which can be tested in an afternoon on existing
+infrastructure.
+
+Thank you for your time.
+
+—
+Jacques N. K.
+[contact]
+August 2026
+
+============================================================
+END

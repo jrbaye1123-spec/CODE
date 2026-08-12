@@ -1,0 +1,186 @@
+Ulnicane, I. (2023) Against the new space race: global AI competition and cooperation for people. AI
+& Society 38(2): 681-683 https://doi.org/10.1007/s00146-022-01423-0
+Read only access link https://rdcu.be/cITgf
+
+Dr. Inga Ulnicane https://orcid.org/0000-0003-2051-1265
+
+Against the new space race: Global AI competition and cooperation for people
+
+Abstract:
+This Open Forum contribution critically interrogates the use of space race rhetoric in current
+discussions about Artificial Intelligence (AI). According to this rhetoric, similar to the space race of
+the 20th century, AI development is portrayed as a rivalry among superpowers where one country
+will win and reap major benefits, while others will be left behind. Using this rhetoric to frame AI
+development tends to prioritize narrow and short-term economic interests over broader and longerterm societal needs. Three particularly problematic aspects of using space race narrative in AI
+discussions are highlighted: first, perceiving technology development globally as a zero-sum game;
+second, pressuring governments to regulate less; and third, prioritising high technologies over social
+issues. This contribution invites to challenge underlying political assumptions of the AI space race
+discourse and to open up conversations about alternative futures.
+
+Keywords: Artificial Intelligence; space race; politics; policy; discourse; competition
+
+... the space dreams are problematic if the result is that earthly problems are neglected…
+(Coeckelbergh 2020: 195)
+
+Introduction
+In recent years, a number of countries have announced their ambitions to be the world leaders in
+Artificial Intelligence (AI) (Ulnicane et al 2021). Media and experts have often reinforced this
+competitiveness rhetoric depicting AI development and use as taking place ‘amid fierce global
+competition’ (European Commission 2018: 2) where one country is set to win and reap major
+economic, political and military benefits, while others will lose and be left behind. Emerging global AI
+rankings and comparisons (Savage 2020) further fuel this sense of urgent competition. AI
+development has been presented as ‘the next space race’ where two AI superpowers - the United
+States (US) and China - are competing for the world dominance (Allein and Husain 2017; Lee 2018).
+Similar to the space race of the 1950s and 1960s when the two major powers of the time - the US
+1
+
+and the Soviet Union – were perceived as competing for their superiority in then cutting-edge space
+technology, the development of AI as a key technology of the 21st century is presented as a rivalry
+between the superpowers. This contribution aims to draw attention to the shortcomings of this
+popular rhetoric and to the need for alternatives.
+
+Flawed narrative of glorious space race
+Today, the space race of the previous century still presents a powerful but flawed narrative. It is
+known for facilitating major investments in technology (O’Mara 2019), and recently it has been
+suggested that the lessons from the Apollo mission can help to achieve the United Nations’
+Sustainable Development Goals (SDGs) (Mazzucato 2021). However, others are more sceptical about
+the purposes - including ‘providing entertainment, propaganda, and a welcome distraction from
+more pressing and tedious problems’ (Edgerton 2019: 19) - and benefits of the US civil space
+programme. Moreover, heroic narrative of the space race glosses over its more problematic aspects,
+such as exclusion of women (Bartels 2021) or politically complex life stories of its main architects
+(ESA 2007; NASA 2017).
+
+In the context of this special issue ‘AI for People’, one question of particular interest is if the
+narratives such as ‘space race’ affect the lives of people. Did people even notice the beginning and
+the end of the space race? The stories of the 20th century space race highlight how deeply it affected
+American society and inspired young people to study science and engineering (Allen and Husain
+2017; Mazzucato 2021). It might not had been the same for everyone everywhere. During the mid1950s, when the space race started, lives of many people in the Soviet Union and its annexed
+countries might have been more affected by the regime thaw that followed the death of Stalin.
+Those deported to Siberia could return but most of them were neither inspired nor allowed to join
+the Soviet space programme. The end of the space race remains to be contested. According to one
+version, a symbolic end of the space race was the joint Apollo-Soyuz mission in 1975 (Royal
+Museums Greenwich 2021). It certainly did not change anything in lives of those living in the
+communist countries who had to wait some 15 more years to get their basic rights and freedoms.
+
+Space race and AI: Three problematic aspects
+While the space race narrative is problematic in itself for many reasons, so is its use in AI discussions.
+Using glorified and simplified version of the space race rhetoric to frame AI development tends to
+prioritize narrow and short-term economic interests over broader and longer-term societal needs.
+Three particularly problematic aspects of using space race narrative in AI discussions are highlighted
+
+2
+
+here: first, perceiving technology development globally as a zero-sum game; second, pressuring
+governments to regulate less; and third, prioritising high technologies over social issues.
+
+First, talk of the space race draws on a widely used discourse representing technology development
+as a global competition among nations and regions. Some well-known historical examples are
+European fears about the growing technology gap with the US in the late 1960s and American
+worries about the Japanese supremacy in the 1980s (O’Mara 2019). Such concerns tend to trigger
+calls for policies that boost competitiveness. However, it has been pointed out that the
+competitiveness discourse is ‘a dangerous obsession’ (Krugman 1994) because countries do not
+compete with each other the way corporations do. Technology development is not a zero-sum game
+where one country wins and others loose. It can also be a positive-sum game where many people
+benefit from technologies developed elsewhere. Additionally, implicit in this competitiveness
+discourse is assumption that more is better – it is desirable to have as much AI as possible and as
+fast as possible. However, having more AI and having it fast might not always be beneficial because
+algorithms can discriminate, self-driving cars can kill, and computing is energy intensive.
+
+Second, hyping the competitiveness discourse can put pressure on governments to regulate less.
+Powerful business interests promoting anti-regulation agenda can strategically use the
+competitiveness discourse to suggest that the European Union (EU) is lagging behind the US and
+China because of its regulation such as the General Data Protection Regulation focusing on
+safeguarding personal data, and imply that the EU should regulate less to become more competitive.
+
+Third, the global competitiveness discourse has tendency to focus on attractive high technologies
+rather than on complex societal issues. As reminded by the well-known ‘The Moon and the Ghetto’
+metaphor (Nelson 1977), countries are more likely to compete which will be the first to go to the
+moon rather than which will be the first to solve the problems of the ghetto. Global AI competition
+discourse focusses more on which country will rule the world and harvest the economic and military
+benefits rather than which will be the most successful in using AI for solving its most pressing social
+problems. So far, rather than tackling social problems, the use of AI tends to exacerbate them
+(Eubanks 2019). This highlights the need to ask questions about the purpose of AI development. Is it
+only economic efficiency, national prestige and military supremacy? Or is it also addressing societal
+challenges and the SDGs in areas such as climate change and global health? An emerging technology
+policy paradigm sees addressing of societal challenges rather than just economic competitiveness as
+
+3
+
+its objective (Diercks et al 2019). To address societal challenges that often span national borders,
+global cooperation rather than competition is needed.
+
+Opening-up alternative futures
+It is necessary to challenge popular but misleading narratives of AI space race or cold war (Bryson
+and Malikova 2021). Challenging such narratives does not mean just checking comparative data on
+national AI performance because the narratives of space race and cold war are not just about
+comparing national indicators. Rather these narratives represent certain political goals, priorities,
+ideas and values of the world they are trying to create. They can be challenged not by looking on
+data and evidence but rather by questioning their underlying political assumptions. What is the
+purpose of AI development and use? Who should benefit? Does it really make sense to compare AI
+development across nations? Is nation a relevant unit of analysis here? Should we focus on
+differences in type rather than differences in degree? Conversations about these questions can
+shape alternative narratives about desirable futures with or without AI that represent multiplicity of
+values and needs of diverse groups of people.
+
+Acknowledgment:
+This research has received funding from the European Union’s Horizon 2020 Research and
+Innovation Programme under the Grant Agreement No.945539 (HBP SGA3).
+
+References:
+Allen, J., and A. Husain (2017) The Next Space Race is Artificial Intelligence. Foreign Affairs, 3
+November.
+
+Bartels, M. (2021) ‘Mercury 13’ pilot Wally Funk will carry 60 years of history to space on Blue Origin
+flight. 19 July https://www.space.com/wally-funk-mercury-13-astronaut-history
+
+Bryson, J.J. and H. Malikova (2021) Is There an AI Cold War? Global Perspectives 2(1):
+24803. https://doi.org/10.1525/gp.2021.24803
+
+Coeckelbergh, M. (2020) AI Ethics. The MIT Press.
+
+Diercks, G., H. Larsen and F. Steward (2019) Transformative innovation policy: Addressing variety in
+an emerging policy paradigm. Research Policy 48(4): 880-894.
+
+4
+
+Edgerton, D. (2019) The Shock of the Old. Technology & Global History since 1900. Profile Books.
+
+ESA (2007) Sergei Korolev: Father of the Soviet Union’s success in space.
+https://www.esa.int/About_Us/ESA_history/50_years_of_humans_in_space/Sergei_Korolev_Father
+_of_the_Soviet_Union_s_success_in_space Accessed 30 July 2021.
+
+Eubanks, V. (2019) Automating Inequality. How High-Tech Tools Profile, Police, and Punish the Poor.
+Picador.
+
+European Commission (2018) Artificial Intelligence for Europe. Communication. Brussels.
+
+Krugman, P. (1994) Competitiveness: A Dangerous Obsession. Foreign Affairs 73(2): 28-44.
+
+Lee, K.F. (2018) AI Superpowers. China, Silicon Valley, and The New World Order. Houghton Mifflin
+Harcourt.
+
+Mazzucato, M. (2021) Mission Economy: A Moonshot Guide to Changing Capitalism. Allen Lane.
+
+NASA (2017) Biography of Wernher von Braun.
+https://www.nasa.gov/centers/marshall/history/vonbraun/bio.html Accessed 30 July 2021.
+
+Nelson, R.R. (1977) The Moon and the Ghetto. An Essay on Public Policy Analysis. W.W.Norton &
+Company.
+
+O’Mara, M. (2019) The Code: Silicon Valley and the Remaking of America. Penguin.
+
+Royal Museums Greenwich (2021) Space Race Timeline. Available at
+https://www.rmg.co.uk/stories/topics/space-race-timeline Accessed on 26 July 2021.
+
+Savage, N. (2020). The race to the top among the world's leaders in artificial intelligence. Nature
+588(7837): S102-S102.
+
+5
+
+Ulnicane, I., D.O. Eke, W. Knight, G. Ogoh and B.C. Stahl (2021) Good governance as a response to
+discontents? Déjà vu, or lessons for AI from other emerging technologies. Interdisciplinary Science
+Reviews 46(1-2): 71-93 https://doi.org/10.1080/03080188.2020.1840220
+
+6
+
+

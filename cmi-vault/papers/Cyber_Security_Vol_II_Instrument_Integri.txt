@@ -1,0 +1,377 @@
+Cyber Security
+Book II
+Instrument Integrity Audit
+June 18, 2026
+
+1
+
+Chapter 1
+
+The Surface That Answered
+Wrong
+The instrument that always
+reports healthy is the one you
+trust least.
+—Probe Architecture Principle
+
+A server reports NOMINAL. All three health channels report armed. The
+message reads “all channels healthy.” Below it, on the C-probe endpoint, the
+gate has been DEGRADED for days. Zero samples. Zero baseline. Volume
+channel uncalibrated with threshold set to zero. The shape channel has a
+threshold of 9.6 but no data. The periodicity channel has a threshold of 1 but
+no data. The gate states the truth directly: DEGRADED. The proxy above it
+reports the opposite.
+This is not a software bug in the conventional sense. No null pointer was
+accessed. No buffer was overrun. No request was dropped. The code executed
+correctly at every step. It parsed JSON. It matched a switch statement. It
+returned HTTP 200. Every unit test would have passed. The output was
+wrong.
+The failure is a structural blind spot: the proxy was asking the wrong endpoint for health data, and when it received an answer it could not parse,
+it silently defaulted to healthy. The error was discarded on line 191 of
+1
+
+INSTRUMENT INTEGRITY AUDIT
+
+main.go with a single underscore character. That character is the incident.
+
+1.1 Port Architecture Audit
+The investigation began with a port exposure question. The user asked
+whether port 8080 being probe-proxy indicated compromise. It did not —
+probe-proxy runs on port 8081. Port 8080 is the llama-server inference engine. The concern was valid: an unknown service on a non-localhost bind is
+a legitimate security question.
+$ ss -tlnp | grep -E ’:(8080|8081)’
+LISTEN 127.0.0.1:8080 (llama-server, pid=1376)
+LISTEN *:8081
+(probe-proxy, pid=1377)
+
+Two findings. First, the port mapping was wrong in the user’s mental model
+— probe-proxy is 8081, not 8080. Second, and more serious, probe-proxy was
+bound to all interfaces (*:8081) while llama-server was bound to localhost
+only (127.0.0.1:8080). The asymmetry was the real security finding.
+The fix was a one-character change in the Go source at line 120:
+// Before: binds *:8081
+addr := fmt.Sprintf(":%d", listenPort)
+// After: binds 127.0.0.1:8081
+addr := fmt.Sprintf("127.0.0.1:%d", listenPort)
+
+Rebuilt. Restarted. Zero firewall rules touched. Zero OS network configuration changed. The application itself now refuses to bind to anything except
+localhost. This is the correct fix: surface-level, at the application layer, guaranteed portable, and not dependent on host-specific iptables rules that could
+be reset or mismanaged.
+Post-fix port posture:
+127.0.0.1:8080
+127.0.0.1:8081
+127.0.0.1:8899
+
+llama-server
+probe-proxy
+metasearch
+
+(inference engine)
+(health gate)
+(search proxy)
+
+No services on all-interfaces. Uniform localhost mesh. This is the correct
+baseline.
+2
+
+CHAPTER 1. THE SURFACE THAT ANSWERED WRONG
+
+1.2 The Health Endpoint Discrepancy
+After the port lockdown, the health endpoint was checked:
+$ curl -s http://127.0.0.1:8081/health
+{"gate_status":0,"status":"NOMINAL","message":"all channels
+healthy"}
+
+Healthy. All good. Except the C-probe told a different story:
+$ curl -s http://127.0.0.1:8080/probe/metrics
+{"gate":"DEGRADED","channels":{"volume":{"samples":0,"threshold
+":0},
+"shape":{"samples":0,"threshold":9.6},
+"periodicity":{"samples":0,"threshold":1}}}
+
+Gate is DEGRADED. Zero samples. Volume channel uncalibrated (threshold
+zero means it can never arm). Shape and periodicity have thresholds set but
+no baseline. The C-probe is correctly refusing to report healthy. The Go
+proxy above it is reporting the opposite.
+
+3
+
+Chapter 2
+
+The Underscore That Discarded the Truth
+The error you don’t log is the one
+that will lie to you longest.
+—Debugging Principle
+
+The root cause was discovered in the systemd service file for probe-proxy:
+# /home/dev/.config/systemd/user/probe-proxy.service
+ExecStart=/home/dev/llama-probe-runtime/go-probe/probe-proxy \
+--upstream http://127.0.0.1:8080 \
+--port 8081 \
+--probe-gate http://127.0.0.1:8080/health
+
+The –probe-gate flag points to /health — the llama-server basic liveness check. This endpoint returns {"status":"ok"}. It has no gate
+field. It has no channels. It is not the probe metrics endpoint.
+The correct endpoint is /probe/metrics. The Go code’s own default
+value in main.go line 58 is correct:
+flag.StringVar(&probeGateURL, "probe-gate",
+"http://localhost:8080/probe/metrics",
+"llama-server probe metrics endpoint")
+
+4
+
+CHAPTER 2. THE UNDERSCORE THAT DISCARDED THE TRUTH
+
+But the systemd service overrides this with the wrong endpoint. The default
+is correct. The deployment is wrong.
+
+2.1 The Silent Parse Failure
+Why did the proxy report NOMINAL instead of failing loudly? Trace the
+code path in handleProbeHealth:
+var m probeMetrics
+_ = json.Unmarshal(body, &m)
+// ...
+g := strings.ToUpper(m.Gate)
+switch g {
+case "BLOCKED": // ...
+case "DEGRADED": // ...
+default:
+if resp.StatusCode == 503 { // ...
+} else if resp.StatusCode == 429 { // ...
+} else {
+health.GateStatus = 0
+health.Status = "NOMINAL"
+health.Message = "all channels healthy (C-probe)"
+}
+}
+
+Step by step:
+1. The proxy fetches /health and receives {"status":"ok"}.
+2. json.Unmarshal attempts to parse this into probeMetrics
+struct. It succeeds — the struct has no required fields, so an empty JSON
+object is valid. All fields remain zero-valued.
+3. m.Gate is the empty string "".
+4. strings.ToUpper("") is "".
+5. The switch statement matches no case — "" is not "BLOCKED" and not
+"DEGRADED".
+6. The default branch executes. resp.StatusCode is 200 (not 503,
+not 429).
+5
+
+INSTRUMENT INTEGRITY AUDIT
+
+7. The innermost else reports NOMINAL with message “all channels
+healthy (C-probe).”
+Not a single line of code failed. Not a single error was thrown. The system
+correctly parsed a response from the wrong endpoint and reported perfect
+health. The underscore on line 191 is not just discarding an error — it is
+discarding the entire structural health mechanism.
+
+2.2 The Fixes
+Three changes to main.go:
+1. Error logging on unmarshal failure.
+if err := json.Unmarshal(body, &m); err != nil {
+log.Printf("ERROR: probe metrics unmarshal failed: %v | raw
+=%s",
+err, string(body))
+// Return 502 DEGRADED with actionable message
+writeJSON(w, 502, probeHealthV7{
+GateStatus: 2,
+Status:
+"DEGRADED",
+Message:
+"probe metrics unparseable -- check --probegate endpoint",
+})
+return
+}
+
+The raw body is logged. The operator can see exactly what the wrong endpoint returned. The HTTP status is 502 (Bad Gateway), not 200. The gate
+status is DEGRADED, not NOMINAL.
+2. Empty gate field detection.
+if m.Gate == "" {
+log.Printf("WARN: probe metrics missing ’gate’ field -- "+
+"likely wrong endpoint. raw=%s", string(body))
+writeJSON(w, 502, probeHealthV7{
+GateStatus: 2,
+Status:
+"DEGRADED",
+Message:
+"probe response missing ’gate’ field -- "+
+"check --probe-gate endpoint",
+})
+return
+}
+
+6
+
+CHAPTER 2. THE UNDERSCORE THAT DISCARDED THE TRUTH
+
+Even if the JSON parses successfully (empty object into a struct with no required fields), the absence of the gate field is detected. This catches endpoint mismatches where the response is valid JSON but the wrong schema.
+3. Defensive default: unknown gate states degrade, not pass.
+switch g {
+case "NOMINAL":
+health.GateStatus = 0
+health.Status = "NOMINAL"
+case "BLOCKED":
+health.GateStatus = 1
+health.Status = "BLOCKED"
+health.Blocked = true
+case "DEGRADED":
+health.GateStatus = 2
+health.Status = "DEGRADED"
+default:
+log.Printf("WARN: unknown probe gate state %q -- "+
+"treating as DEGRADED", m.Gate)
+health.GateStatus = 2
+health.Status = "DEGRADED"
+health.Message = fmt.Sprintf("unknown gate state %q -- "+
+"treating as degraded", m.Gate)
+}
+
+The old default branch checked HTTP status codes (503, 429) as a fallback and reported NOMINAL as the final else. This was dangerous: any unexpected response from the C-probe that didn’t match expected schema was
+silently accepted as healthy. The new default treats everything unknown
+as DEGRADED — safety-first.
+4. Systemd service corrected.
+# Before: wrong endpoint
+--probe-gate http://127.0.0.1:8080/health
+# After: correct endpoint
+--probe-gate http://127.0.0.1:8080/probe/metrics
+
+After these fixes, the health endpoint tells the truth:
+$ curl -s http://127.0.0.1:8081/health
+{"gate_status":2,"status":"DEGRADED",
+"message":"C-probe: warmup / channels not armed"}
+
+7
+
+INSTRUMENT INTEGRITY AUDIT
+
+The gate is DEGRADED. The channels are not armed. Zero samples. This
+is the correct state for a probe with no inference traffic and no calibration
+baseline. The system is correctly reporting its own uncertainty.
+
+8
+
+Chapter 3
+
+Metasearch Deployment
+A search engine that knows what
+you searched is a search engine
+that knows who you are.
+—Privacy Engineering Principle
+
+A parallel security task was completed during this session: the deployment
+of a self-hosted metasearch engine at /home/dev/metasearch. This
+FastAPI application aggregates three upstream engines (Startpage, Mojeek,
+Wikipedia), strips tracking parameters, interleaves results in round-robin order, and serves them through a dark-themed interface on port 8899.
+
+3.1 Sandboxing
+The metasearch runs as a systemd user service with application-layer sandboxing:
+[Service]
+Type=simple
+ExecStart=/home/dev/metasearch/.venv/bin/python server.py
+Restart=always
+RestartSec=3
+ProtectSystem=strict
+ReadWritePaths=/home/dev/metasearch
+ReadOnlyPaths=/home/dev/.local/share/uv
+
+9
+
+INSTRUMENT INTEGRITY AUDIT
+
+ProtectHome=read-only
+PrivateTmp=yes
+PrivateDevices=yes
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+MemoryDenyWriteExecute=yes
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+UMask=0077
+
+Twenty-eight hardening directives. The service can write only to its own
+directory. It can read only its venv’s Python binary via a specific ReadOnlyPaths grant. It cannot fork, cannot gain privileges, cannot access
+devices, cannot execute writable memory, cannot open sockets beyond
+Unix/INET/INET6. The capability bounding set is empty — no Linux capabilities at all.
+The initial sandbox attempt used ProtectHome=yes (complete home directory block) and SystemCallFilter=@network-io @process
+@signal @timer. Both were too aggressive. The venv Python binary lives under ~/.local/share/uv which ProtectHome=yes
+blocked. The syscall filter blocked stat and statx calls needed for normal
+Python operation, producing a SIGSYS core dump.
+The corrected sandbox relaxes home to read-only and removes the syscall
+filter while keeping the remaining 26 directives intact. This is the principle
+of measured hardening: apply every restriction the application can survive,
+back off only the ones it cannot.
+
+3.2 Browser Homepage
+Brave (the only browser on the system) was configured to open the
+metasearch as its homepage. The Preferences JSON was edited directly
+while Brave was closed to avoid overwrite-on-exit:
+"homepage": "http://127.0.0.1:8899",
+"homepage_is_newtabpage": false,
+"session": {
+"restore_on_startup": 4,
+"startup_urls": ["http://127.0.0.1:8899"]
+}
+
+10
+
+CHAPTER 3. METASEARCH DEPLOYMENT
+
+This is a local-only search engine. It cannot be reached from the network.
+It keeps no logs. It strips tracking parameters from result URLs. It proxies through privacy-respecting upstreams. The browser opens to it on every
+launch.
+
+11
+
+Chapter 4
+
+Structural Findings
+4.1 The Underscore Is the Incident
+The proximate cause of the health misreporting was a systemd endpoint misconfiguration. The structural cause was a coding pattern: _ =
+json.Unmarshal(...). Discarding errors silently is a well-known
+anti-pattern in Go, but the conventional critique misses the deeper issue.
+When a health gate discards parse errors, it does not just fail to report problems — it actively fabricates health. The default branch in the switch
+statement is an assertion about the C-probe’s possible output states. When
+an unexpected state arrives (empty gate field from a liveness check endpoint),
+the assertion is falsified. The code responds by reporting the opposite of the
+truth.
+This is the Nominal as Quilting Point pattern: the signifier NOMINAL is produced at precisely the moment the system has measured nothing. The absence of data is presented as the presence of health. The empty signifier
+quilts the void.
+
+4.2 The Gap Between Proxy and Probe
+The probe-proxy architecture has a structural dependency: it must fetch
+health from the correct C-probe endpoint and parse the response correctly.
+The dependency is implicit — the Go code has no mechanism to verify it is
+12
+
+CHAPTER 4. STRUCTURAL FINDINGS
+
+talking to the right endpoint. It receives JSON. It parses JSON. It does not
+check whether the JSON contains gate data.
+The fixes make this dependency explicit:
+• Unmarshal errors are logged with the raw response body — wrong endpoint
+is immediately visible in logs
+• Missing gate field is detected as a distinct error case — wrong schema is
+caught
+• Unknown gate values default to degraded, not nominal — safety bias
+• Systemd service points to /probe/metrics — correct endpoint is
+deployment-enforced
+The implicit dependency is now an explicit, logged, monitored contract.
+
+4.3 The Book I Precedent
+This book is the second in a series. Book I covered the pre-gen gate architecture, the calibration anchor mechanism, the GRAMMAR.md hash verification pipeline, and the dual-hash system (SHA256 in thresholds.py, SHA3-256
+in calibration.json). Book II extends the security surface to the runtime probe
+infrastructure: port exposure, endpoint integrity, parse-error visibility, and
+the health-gate dependency chain.
+The series thesis: security in AI infrastructure is not about threat models or
+attack trees. It is about structural coupling — the architectural guarantees that
+make certain classes of failure impossible or immediately visible. A probe that
+silently discards parse errors is not a security hole waiting to be exploited. It
+is a structural design error that has already produced a false negative. The
+fix is not a patch. The fix is a different architecture for error handling.
+
+June 18, 2026 — Auburn, Washington
+
+13
+
+

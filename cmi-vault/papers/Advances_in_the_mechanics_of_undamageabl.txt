@@ -1,0 +1,1165 @@
+Article
+
+Advances in the mechanics of
+undamageable materials: General
+three-dimensional formulation
+
+International Journal of Damage
+Mechanics
+0(0) 1–17
+! The Author(s) 2018
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOI: 10.1177/1056789518806039
+journals.sagepub.com/home/ijd
+
+George Z Voyiadjis1 and Peter I Kattan2
+
+Abstract
+The theory of undamageable materials is extended to general states of deformation and damage.
+Undamageable materials are hypothetical materials that do not undergo any damage processes under
+the action of forces within the framework of continuum damage mechanics. In these types of materials, the
+damage variable remains zero throughout the deformation process. The authors developed previously the
+theory of undamageable materials for the one-dimensional case using scalars. In this work, the general
+three-dimensional formulation is presented using tensors. In this regard, a system of nonlinear partial
+differential equations governing the mechanics of undamageable materials is obtained. An attempt is made
+to solve the governing system using one single simplifying assumption. It is hope that the theoretical
+formulation presented in this work will open the way for future development of these types of new
+materials in practical applications.
+Keywords
+Damage mechanics, undamageable materials, three dimensional formulation, tensor formulation, higherorder strain energy
+
+Introduction
+The subject of continuum damage mechanics was pioneered by Kachanov (1958) and more fully
+developed by Lee et al. (1985), Voyiadjis and Kattan (1992, 2005, 2006, 2009), Sidoroﬀ (1981),
+Krajcinovic (1996), and Kattan and Voyiadjis (1993, 2001a, 2001b).
+In 1958, Kachanov pioneered the concept of eﬀective stress and introduced the topic of continuum damage mechanics. This development was followed by Rabotnov (1969) and by others later
+(Kattan and Voyiadjis, 2001a, 2001b; Ladeveze and Lemaitre, 1984; Voyiadjis and Kattan, 2005,
+2006, 2009, 2012a). In the framework of continuum damage mechanics, a scalar damage variable ’ is
+1
+2
+
+Department of Civil and Environmental Engineering, Louisiana State University, Baton Rouge, USA
+Independent Researcher, Petra Books, Amman, Jordan
+
+Corresponding author:
+George Z Voyiadjis, Department of Civil and Environmental Engineering, Louisiana State University, Baton Rouge, LA 70803, USA.
+Email: voyiadjis@eng.lsu.edu
+
+2
+
+International Journal of Damage Mechanics 0(0)
+
+introduced that has values in the range 0  ’  1. Thus, the value of the damage variable is zero
+when the virgin material is undamaged while the value approaches 1 upon complete rupture.
+However, practically the damage value cannot exceed 0.3–0.4 without violating the concept of a
+continuum mechanics.
+Research on damage mechanics accelerated rapidly in the past few years (Celentano et al., 2004;
+Doghri, 2000; Hansen and Schreyer, 1994; Kattan and Voyiadjis, 1990, 1993; Ladeveze et al., 1982;
+Lee et al., 1985; Lubineau, 2010; Lubineau and Ladeveze, 2008; Luccioni and Oller, 2003; Rice,
+1971; Sidoroﬀ, 1981; Voyiadjis, 1988; Voyiadjis and Kattan, 1990, 1992). Another approach to
+damage characterization is to use an entropy generation rate as a damage metric rather than the
+damage potential surface (Basaran and Nie, 2004; Basaran and Yan, 1998).
+Undamageable materials are hypothetical types of material that were ﬁrst postulated by the
+authors in 2012 (Voyiadjis and Kattan, 2012c, 2013, 2014a, 2014b). In these types of materials,
+the value of the damage variable remains identically zero throughout the deformation process. Thus,
+theoretically these materials cannot be damaged under the action of forces within the context of the
+theory of continuum damage mechanics. The full theoretical formulation was developed by the
+authors for the one-dimensional case using scalars (Voyiadjis and Kattan, 2012c, 2013, 2014a,
+2014b). In this work, the general three-dimensional formulation is developed using tensors.
+However, only the governing diﬀerential equations are presented without solution. They are so
+complicated that they may be unsolvable at the present time.
+
+Notion of an undamageable material
+Consider a body (in the form of a cylinder) in the initial undeformed and undamaged conﬁguration.
+Consider also the conﬁguration of the body that is both deformed and damaged after a set of
+external agencies act on it (see Figure 1). Next, consider a ﬁctitious conﬁguration of the body
+obtained from the damaged conﬁguration by removing all the damage that the body has undergone,
+i.e. this is the state of the body after it had only deformed without damage (see Figure 1). Therefore,
+in deﬁning a damage variable , its value must vanish in the ﬁctitious conﬁguration.
+The ﬁrst damage variable  is usually deﬁned as follows
+¼
+
+A  A
+A
+
+Figure 1. Damaged and fictitious undamaged configurations.
+
+ð1Þ
+
+3
+
+Voyiadjis and Kattan
+
+where A is the cross-sectional area in the damaged conﬁguration while A is the cross-sectional area
+ It is clear that when a body is undamaged, i.e. when
+in the ﬁctitious conﬁguration with A 4 A.
+
+A ¼ A, then  ¼ 0.
+ The value
+The stress in the ﬁctitious conﬁguration is called the eﬀective stress and is denoted by .
+of the eﬀective stress  may be obtained using the relation  A ¼ A where  is the stress in the
+damaged conﬁguration. Therefore, using this relation along with the deﬁnition in equation (1), one
+obtains
+ ¼
+
+
+1
+
+ð2Þ
+
+It should be mentioned that the equilibrium condition in the paragraph above reﬂects a meanﬁeld type of assumption on the stress redistribution (uniform over the resistive section) and therefore
+appears to be appropriate only in the dilute damage regime, away from the stress–strain peak where
+cooperate eﬀects dominate and damage localization takes place.
+One next needs to use one of the equivalence hypotheses that are used in the literature of damage
+mechanics. For this purpose, one introduces the following generalized hypothesis of elastic strain
+equivalence of order n. The expression for the generalized hypothesis was introduced recently by the
+authors within the context of the theory of undamageable materials (Voyiadjis and Kattan, 2012b,
+2012c, 2013, 2014a, 2014b). It will be shown that all the equivalence hypotheses of damage mechanics can be obtained as special cases of this generalized hypothesis
+1
+U ¼ "n
+2
+
+ð3Þ
+
+1
+U ¼  "n
+2
+
+ð4Þ
+
+1 n 1 n
+ " ¼ "
+2
+2
+
+ð5Þ
+
+where n ¼ 0, 1, 2, : . . . :. The classical hypothesis of elastic energy equivalence is obtained as a special
+case of equation (5) when n ¼ 1. Next one investigates what happens to equation (5) when n ! 1.
+To investigate this extreme and hypothetical case, one raises both sides of equation (5) to the power 1n
+to obtain
+1 1
+1 1
+ n " ¼  n "
+2
+2
+
+ð6Þ
+1
+
+1
+
+Substituting n ! 1 into equation (6) and noting that  1 ! 1 and  1 ! 1, equation (6)
+reduces to
+" ¼ "
+
+ð7Þ
+
+It is noted that the expression given in equation (7) represents exactly the hypothesis of elastic
+strain equivalence that is used frequently in the literature. The simple derivation in equations (5) to
+(7) established the missing link in damage mechanics and shows that the hypothesis of elastic strain
+equivalence is a special case of the hypothesis of elastic energy equivalence of order n when n ! 1.
+This extreme and special case is hypothetical, is not physically based, and should not be used in
+practical applications. Table 1 shows a summary of the results thus far.
+
+4
+
+International Journal of Damage Mechanics 0(0)
+Table 1. Various hypotheses of equivalence shown as special cases of equation (5).
+n
+n¼0
+n¼1
+n¼2
+...
+. . ..
+n!1
+
+Equation
+
+Hypothesis title
+
+ ¼ 
+
+Hypothesis of stress equivalence
+Hypothesis of elastic energy equivalence
+Hypothesis of elastic energy equivalence of order 2
+...
+...
+Hypothesis of elastic strain equivalence
+
+1  
+1
+2  " ¼ 2 "
+1  2
+1
+2
+2  " ¼ 2 "
+
+...
+. . ..
+" ¼ "
+
+General three-dimensional formulation
+In this section, the mathematical equations are systematically and consistently developed for the
+mechanics of undamageable materials for the general three-dimensional case of deformation and
+damage. For this purpose, tensor indicial notation as well as vectors (stress and strain) is used to
+simplify the representation of this formulation instead of the general tensors.
+The formulation starts with the generalized form of the elastic energy of order n. One then
+proceeds to derive systematically an expression for the generalized elastic constitutive relation for
+these types of materials. One starts with the following general expression
+1
+U ¼ f g T f" gn
+2
+
+ð8Þ
+
+Looking at equation (8), one ﬁrst needs to resolve what is meant by raising a vector to an integer
+exponent. For equation (8) to be consistent mathematically, it is re-written in the following form
+1
+U ¼ f g T f" gf" g T f" gf" g T f" gf" g T f" g . . .
+2
+
+ð9Þ
+
+where the term f"gT f"g is multiplied n1
+2 times. In this way and as written explicitly above, equation
+(9) is consistent mathematically. Studying the expression in equation (9) closely, one notices that the
+exponent n must be an odd integer. Consequently, n takes the values 1, 3, 5, 7, . . .. For n ¼ 1, one
+T
+obtains n1
+2 ¼ 0 terms of the form f"g f"g multiplied and in this case equation (9) reduces to the
+classical expression of elastic strain energy for linear elastic materials. For n ¼ 3, one obtains n1
+2 ¼ 1
+term of the form f"gT f"g used in equation (9). For n ¼ 5, one obtains n1
+¼
+2
+terms
+of
+the
+form
+2
+f"gT f"g used in equation (9). Thus equation (9) is consistent mathematically if one assumes the
+integer exponent to be an odd number. Check Appendix 1 for details about this new operation of
+vector exponentiation and how it can be extended to even values of the exponent n.
+Noting the following expression for the repeating term that is multiplied in the equation below
+f"gT f"g ¼ "211 þ "322 þ "233 ¼ jf"gj2
+
+ð10Þ
+
+Equation (9) can be written in the following simpliﬁed form
+
+n1 1
+1
+U ¼ f gT f"g f"gT f"g 2 ¼ f gT f"gjf"gjn1
+2
+2
+
+ð11Þ
+
+5
+
+Voyiadjis and Kattan
+
+One can generalize the dot product f"gT f"g to be equal to "kl "kl instead of "kk when using indicial
+notation for tensors.
+Thus, equation (9) can be written now in the following more simpliﬁed form
+1
+1
+U ¼ f gT f"g ¼  ij "ij
+2
+2
+
+ð12Þ
+
+where  is a scalar function given by  ¼ jf"gjn1 . In the subsequent derivation, one uses indicial
+notation for tensors. Using the basics of mechanics of materials one can also write the following
+general expression for the elastic strain energy
+U¼
+
+Z
+
+ij d"ij
+
+ð13Þ
+
+Equating equations (12) and (13) for the elastic strain energy, one obtains
+1
+ij "ij ¼
+2
+
+Z
+
+ij d"ij
+
+ð14Þ
+
+The objective now is to solve the above integral equation to ﬁnd an analytical closed-form
+expression for the stress tensor in terms of the strain tensor. For this purpose, one writes the
+following general expression for the stress tensor
+ij  fij ðf"gÞ
+
+ð15Þ
+
+where fij are the components of a second-rank unknown tensor function to be determined.
+Substituting equation (15) into equation (14), one obtains
+fij "ij ¼ 2
+
+Z
+
+fij d"ij
+
+ð16Þ
+
+Next one takes the derivative of both sides of equation (16) with respect to the strain tensor, i.e.
+one applies the derivative operator @"@kl to both sides of equation (16) to obtain
+@
+@fij
+@"ij
+"ij þ fij
+¼ 2fij ik jl
+fij "ij þ 
+@"kl
+@"kl
+@"kl
+
+ð17Þ
+
+where ij are the components of the second-rank identity tensor (Kroncker-delta). Simplifying equa@"
+tion (17) and noting that @"klij ¼ ik jl , one obtains
+@
+@fij
+"ij þ  fkl ¼ 2fkl
+fij "ij þ 
+@"kl
+@"kl
+
+ð18Þ
+
+In order to write equation (18) into a standard form for partial diﬀerential equations, one needs
+to ﬁnd an appropriate expression for the derivative @"@kl . This task is performed as follows
+
+6
+
+International Journal of Damage Mechanics 0(0)
+ ¼ jf"gj
+
+n1
+
+qﬃﬃﬃﬃﬃﬃn1 qﬃﬃﬃﬃﬃﬃﬃﬃn1
+n1
+¼ "mm
+¼
+"2mm
+¼
+"2kk
+
+@
+@"nn
+n1
+¼ ðn  1Þnk nl "n1
+¼ ðn  1Þ"n2
+mm ¼ ðn  1Þkl "mm
+mm
+@"kl
+@"kl
+
+ð19Þ
+
+ð20Þ
+
+Substituting equation (20) into equation (18) and simplifying, one obtains
+ðn  1Þkl "n1
+mm fij "ij þ 
+
+@fij
+"ij ¼ ð2  Þ fkl
+@"kl
+
+ð21Þ
+
+Substituting the right-hand side of equation (19) into equation (21), one obtains
+ðn  1Þkl fij "ij þ 
+
+@fij
+"ij ¼ ð2  Þ fkl
+@"kl
+
+ð22Þ
+
+Dividing both sides of equation (22) by , and substituting  ¼ "n1
+mm , one obtains
+
+
+@fij
+2
+"ij þ ðn  1Þkl fij "ij ¼ n1  1 fkl
+"mm
+@"kl
+
+ð23Þ
+
+Equation (23) represents a system of nonlinear simultaneous partial diﬀerential equations. This
+system is identiﬁed from the mathematics and physics literature as a nonlinear evolution system.
+It should be noted that the general three-dimensional equation (23) reduces to the scalar ordinary
+df n
+diﬀerential equation for the dimensional case d"
+" þ nf"n1 ¼ 2f (Voyiadjis and Kattan, 2012c, 2013,
+2014a, 2014b) when the appropriate substitutions are made (i.e. fij  f , "ij  "mm  ", kl ¼ 1, and
+@fij
+df
+@"kl  d").
+Thus, the mechanics of undamageable materials in three dimensions is governed by a nonlinear
+evolution system of partial diﬀerential equations. Next one attempts to solve this system for selected
+special cases.
+
+n ¼ 1: Classical hypothesis of elastic energy equivalence: Linear elasticity
+In this subsection, the special case n ¼ 1 is studied which represents the hypothesis of elastic energy
+equivalence that is used widely in the literature of continuum damage mechanics. In this case,
+equation (23) reduces to the following simple system of linear simultaneous partial diﬀerential
+equations:
+@fij
+"ij ¼ fkl
+@"kl
+
+ð24Þ
+
+The solution of the above system of partial diﬀerential equations is well known in the literature
+and reduces to the classical case of linear elasticity. The solution is given by the well-known elastic
+linear constitutive relation:
+fij ¼ Cijkl "kl
+
+ð25Þ
+
+7
+
+Voyiadjis and Kattan
+
+where Cijkl is the components of the fourth-rank elasticity tensor (usually denoted by Eijkl ) in the
+literature. Veriﬁcation of the solution given in equation (25) can be easily performed by substituting
+equation (25) back into the diﬀerential equation system (24).
+It should be noted that the linear diﬀerential equation system (24) reduces to the scalar ordinary
+df
+diﬀerential equation for the one-dimensional case d"
+" ¼ 2f (Voyiadjis and Kattan, 2012c, 2013,
+@f
+df
+). The solu2014a, 2014b) when the appropriate substitutions are made (i.e. fij  f , "ij  ", @"klij  d"
+tion for the scalar one-dimensional case was obtained by the authors (Voyiadjis and Kattan, 2012c,
+2013, 2014a, 2014b) as the classical linear elastic relation  ¼ E" (Hooke’s law) where E is Young’s
+modulus of elasticity.
+
+n ¼ 3: Hypothesis of elastic energy equivalence of order 3
+In this section, a nonlinear case is illustrated by considering n ¼ 3. Substituting n ¼ 3 into equation
+(23) one obtains the following nonlinear evolution equation system:
+
+
+@fij
+2
+"ij þ 2kl fij "ij ¼ 2  1 fkl
+"mm
+@"kl
+
+ð26Þ
+
+It should be noted that the authors investigated the case n ¼ 3 for the scalar one-dimensional case
+(Voyiadjis and Kattan, 2012c, 2013, 2014a, 2014b). In this case, the general tensorial nonlinear
+partial diﬀerential equation system reduces to one single nonlinear ordinary diﬀerential equation
+@f
+df
+as follows once the appropriate substitutions are made (fij  f , "ij  "mm  ", kl ¼ 1, and @"klij  d"
+):
+df 2
+" þ 3f"2 ¼ 2f
+d"
+
+ð27Þ
+
+The above nonlinear scalar ordinary diﬀerential equation is the governing diﬀerential equation for a
+type of nonlinear elastic material of order 3. This issue was investigated in detail for the scalar case by the
+author (Voyiadjis and Kattan, 2012c, 2013, 2014a, 2014b) and the following solution was obtained:
+¼
+
+C 1="2
+e
+"3
+
+ð28Þ
+
+where C is a constant of integration that may be related to the material’s parameters. It should be
+noted that the authors currently see no way of solving the general tensorial equation (26). The
+solution of the scalar case will suﬃce.
+
+Link to rubber materials
+In this section, the link between undamageable materials and rubber materials is presented. But ﬁrst one
+needs to explain the higher-order energy forms associate with undamageable materials. A graph is shown
+illustrating the stress–strain curves of undamageable materials for diﬀerent values of the exponent n.
+The general form of these types of energy forms are of the form U ¼ 12  "n . The corresponding
+ðn1Þ
+nonlinear stress–strain relation for this general form is given by  ¼ E "1n e2=½ðn1Þ"  (Voyiadjis and
+Kattan, 2012c, 2013, 2014a, 2014b). It is seen that this general form satisﬁes the initial conditions
+ ¼ 0 when " ¼ 0 because the limit of the expression for the stress approaches zero as the strain
+approaches zero. Thus, the higher-order strain energy forms with powers of strain only are valid
+and can be used in our discussion of undamageable materials.
+
+8
+
+International Journal of Damage Mechanics 0(0)
+
+Figure 2. Valid stress–strain curves for various values of n.
+
+Figure 3. Stress–strain curve for silicon rubber (from Arruda and Boyce, 1993).
+
+The stress–strain curves appearing in Figure 2 are similar to those of rubber materials. Arruda
+and Boyce (1993) conducted extensive investigation of the constitutive equations of elastic rubber
+materials. Figures 3 to 5 show the stress–strain curves obtained for diﬀerent types of rubber materials based on the work of Arruda and Boyce (1993).
+Thus, in order to design an undamageable material, the stress–strain relation of this hypothetical
+material will have to follow the highly nonlinear stress–strain relation given in Figure 2 when one
+
+Voyiadjis and Kattan
+
+9
+
+Figure 4. Stress–strain curve for gum rubber (from Arruda and Boyce, 1993).
+
+Figure 5. Stress–strain curve for neoprene rubber (from Arruda and Boyce, 1993).
+
+takes the limit as the value of n goes to inﬁnity. It is hoped that sometime in the future, the
+manufacturing technology will advance to such a stage that such a material can be realized.
+It is clear from Figure 2 that the derived stress–strain relationship for undamageable materials is
+distinctly diﬀerent from that for ordinary materials. Clearly, there is no degradation of the elastic
+modulus. Also, it is seen that the values of the stress remain identically zero until the strain reaches a
+certain critical value. As one approaches the hypothetical undamageable material (for higher values
+of n in Figure 2), it is clearly seen that the stress–strain curve remains almost horizontal indicating
+
+10
+
+International Journal of Damage Mechanics 0(0)
+
+absolutely no stress or damage in the material. The value of the stress becomes nonzero only after a
+considerable amount of strain has accumulated. At these high values of strain, it is also seen that the
+modulus of elasticity actually strengthens instead of degrading like in ordinary materials. This is the
+essence of the proposed undamageable materials.
+The relation of the presented concept of undamageable materials to the ideal locking material
+should be mentioned. Prager (1957) proposed the concept of an ideal locking material that was later
+formalized by Noble and Sewell (1972). It is clear that the ideal locking material may be obtained as
+the limit in Figure 2 as n tends to inﬁnity.
+
+Conclusion
+Undamageable materials are four-dimensional materials. There is a transformation from three
+dimensions to four dimensions as n goes to inﬁnity. Check Appendix 1 for vector exponentiation
+to see how this transformation is proved for vectors – it shows how a vector becomes a matrix as n
+goes to inﬁnity. A transformation occurs from a one-dimensional vector into a two-dimensional
+matrix.
+Undamageable . . .. Value of damage variable remains identically zero throughout the process of
+deformation and damage . . .
+Extremely large strains – expected and logical . . .
+The following are properties of four-dimensional materials that can be deduced based on the
+current investigation of the theory of undamageable materials:
+(1) The material as n ! 1 must be undamageable.
+(2) The value of the stress will remain equal to zero throughout the deformation process, for the
+speciﬁc case n ! 1.
+(3) The value of the damage variable will be equal to zero also throughout the deformation process.
+(4) The undamageable material has zero strain energy. This property is directly derived from property # 2 above.
+(5) The undamageable material has nonzero strain values. Thus, the undamageable material is a
+type of deformable material, not a rigid body.
+(6) The undamageable material is based on the proposed higher-order strain energy function
+U ¼ 12  "n taken in the limit when n ! 1.
+In this work, the general three-dimensional governing tensorial equations for undamageable
+materials have been derived. However, these general equations have not been solved. They are so
+complicated such that they may be unsolvable at the present time. However, the scalar case is
+solvable and references to the solution of the scalar case are given.
+Declaration of conflicting interests
+The author(s) declared no potential conﬂicts of interest with respect to the research, authorship, and/or publication of this article.
+
+Funding
+The author(s) received no ﬁnancial support for the research, authorship, and/or publication of this article.
+
+Voyiadjis and Kattan
+
+11
+
+References
+Arruda EM and Boyce MC (1993) A three-dimensional constitutive model for the large stretch behavior of
+rubber elastic materials. Journal of the Mechanics and Physics of Solids 41(2): 389–412.
+Basaran C and Nie S (2004) An irreversible thermodynamic theory for damage mechanics of solids.
+International Journal of Damage Mechanics 13(3): 205–224.
+Basaran C and Yan CY (1998) A thermodynamic framework for damage mechanics of solder joints.
+Transactions of the ASME, Journal of Electronic Packaging 120: 379–384.
+Celentano DJ, Tapia PE and Chaboche J-L (2004) Experimental and numerical characterization of damage
+evolution in steels. In: Buscaglia G, Dari E and Zamonsky O (eds) Mecanica Computacional. Vol XXIII,
+Bariloche: Argentina.
+Doghri I (2000) Mechanics of Deformable Solids: Linear and Nonlinear, Analytical and Computational Aspects.
+Germany: Springer-Verlag.
+Hansen NR and Schreyer HL (1994) A thermodynamically consistent framework for theories of elastoplasticity
+coupled with damage. International Journal of Solids and Structures 31(3): 359–389.
+Kachanov L (1958) On the creep fracture time. Izv Akad Nauk USSR Otd Tech 8: 26–31 (in Russian).
+Kattan PI and Voyiadjis GZ (1990) A coupled theory of damage mechanics and finite strain elastoplasticity – Part I: Damage and elastic deformations. International Journal of Engineering Science 28(5):
+421–435.
+Kattan PI and Voyiadjis GZ (1993) A plasticity-damage theory for large deformation of solids – Part II:
+Applications to finite simple shear. International Journal of Engineering Science 31(1): 183–199.
+Kattan PI and Voyiadjis GZ (2001a) Decomposition of damage tensor in continuum damage mechanics.
+Journal of Engineering Mechanics, ASCE 127(9): 940–944.
+Kattan PI and Voyiadjis GZ (2001b) Damage Mechanics with Finite Elements: Practical Applications with
+Computer Tools. Germany: Springer-Verlag.
+Krajcinovic D (1996) Damage Mechanics. Amsterdam, North Holland: Elsevier.
+Ladeveze P and Lemaitre J (1984) Damage effective stress in quasi-unilateral conditions. In: The 16th international congress of theoretical and applied mechanics, Lyngby, Denmark.
+Ladeveze P, Poss M and Proslier L (1982) Damage and fracture of tridirectional composites. In: Progress in
+science and engineering of composites. Proceedings of the fourth international conference on composite materials, Japan Society for Composite Materials, vol. 1, pp.649–658.
+Lee H, Peng K and Wang J (1985) An anisotropic damage criterion for deformation instability
+and its application to forming limit analysis of metal plates. Engineering Fracture Mechanics 21:
+1031–1054.
+Lubineau G and Ladeveze P (2008) Construction of a micromechanics-based intralaminar mesomodel, and
+illustrations in ABAQUS/standard. Computational Materials Science 43(1): 137–145.
+Lubineau G (2010) A pyramidal modeling scheme for laminates – Identification of transverse cracking.
+International Journal of Damage Mechanics 19(4): 499–518.
+Luccioni B and Oller S (2003) A directional damage model. Computer Methods in Applied Mechanics and
+Engineering 192: 1119–1145.
+Noble B and Sewell MJ (1972) On dual extremum principles in applied mechanics. Journal of the Institute of
+Mathematics and its Applications 9: 123–193.
+Prager W (1957) On ideal locking materials. Transactions of the Society of Rheology 1: 169–175.
+Rabotnov Y (1969) Creep rupture. In: Hetenyi M and Vincenti WG (eds) Proceedings of the twelfth international congress of applied mechanics, Stanford, 1968, pp.342–349. Berlin: Springer-Verlag.
+Rice JR (1971) Inelastic constitutive relations for solids: An internal variable theory and its application to metal
+plasticity. Journal of the Mechanics and Physics of Solids 19: 433–455.
+Sidoroff F (1981) Description of anisotropic damage application in elasticity. In: IUTAM colloqium on physical
+nonlinearities in structural analysis. Berlin: Springer-Verlag, pp. 237–244.
+
+12
+
+International Journal of Damage Mechanics 0(0)
+
+Voyiadjis GZ and Kattan PI (1990) A coupled theory of damage mechanics and finite strain elastoplasticity – Part II: Damage and finite strain plasticity. International Journal of Engineering Science 28(6):
+505–524.
+Voyiadjis GZ and Kattan PI (1992) A plasticity-damage theory for large deformation of solids – Part I:
+Theoretical formulation. International Journal of Engineering Science 30(9): 1089–1108.
+Voyiadjis GZ and Kattan PI (2005) Damage Mechanics. Boca Raton, Florida: Taylor and Francis (CRC Press).
+Voyiadjis GZ and Kattan PI (2006) Advances in Damage Mechanics: Metals and Metal Matrix Composites with
+an Introduction to Fabric Tensors, 2nd ed. Amsterdam, The Netherlands: Elsevier.
+Voyiadjis GZ and Kattan PI (2009) A comparative study of damage variables in continuum damage mechanics.
+International Journal of Damage Mechanics 18(4): 315–340.
+Voyiadjis GZ and Kattan PI (2012a) Mechanics of damage processes in series and in parallel: A conceptual
+framework. Acta Mechanica 223(9): 1863–1878.
+Voyiadjis GZ and Kattan PI (2012b) A new class of damage variables in continuum damage mechanics. ASME
+Journal of Materials and Technology 134(2): 021016.
+Voyiadjis GZ and Kattan PI (2012c) On the theory of elastic undamageable materials. ASME Journal of
+Materials and Technology 135(2): 021002.
+Voyiadjis GZ and Kattan PI (2013) Introduction to the mechanics and design of undamageable materials.
+International Journal of Damage Mechanics 22(3): 323–335.
+Voyiadjis GZ and Kattan PI (2014a) Healing and super healing in continuum damage mechanics. International
+Journal of Damage Mechanics 23(2): 245–260.
+Voyiadjis GZ and Kattan PI (2014b) Governing differential equations for the mechanics of undamageable
+materials. Engineering Transactions 62(3): 241–267.
+Voyiadjis GZ (1988) Degradation of elastic modulus in elastoplastic coupling with finite strains. International
+Journal of Plasticity 4: 335–353.
+
+Appendix
+Notation
+A
+A
+E
+E
+[M]
+n
+U
+U
+"
+"
+f" g
+f"g
+
+
+f g
+f g
+
+
+Cross-sectional area in the deformed/damaged configuration
+Cross-sectional area in the effective/undamaged configuration
+Elastic modulus in the deformed/damaged configuration
+Effective elastic modulus (in the effective/undamaged configuration)
+Matrix representation of fourth-rank damage effect tensor (based on cross-sectional area)
+Integer exponent with values n ¼ 0,1,2,3,. . .. . ..
+Elastic strain energy in the deformed/damaged configuration
+Effective elastic strain energy (in the effective/undamaged configuration)
+Elastic strain
+Effective elastic strain
+Vector representation of the second-rank strain tensor
+Vector representation of the second-rank effective strain tensor
+Cauchy stress
+Effective Cauchy stress
+Vector representation of the second-rank stress tensor
+Vector representation of the second-rank effective stress tensor
+Scalar cross-sectional damage variable
+
+13
+
+Voyiadjis and Kattan
+
+Appendix 1
+Exponentiation of vectors
+In this appendix, a new operation in matrix algebra is proposed. The operation deals with raising a
+vector to an integer exponent. A vector fxg is considered to be raised to the integer exponent n.
+Before proceeding with the new operation of vector exponentiation, one ﬁrst considers the following
+two well-known vector operations:
+The Dot Product fxgT fxg (also known
+ as the InnerTProduct, and the Scalar Product) is given by the
+following equation for a vector fxg ¼ x1 x2 x3 , where the superscript ‘‘T’’ indicates the transpose operation
+8 9
+< x1 =
+
+
+ð29Þ
+x2 ¼ x21 þ x22 þ x23 ¼ 
+fxgT fxg ¼ x1 x2 x3
+: ;
+x3
+where  is a scalar. This product always produces a scalar. Note that this dot product lowers the
+vector from a one-dimensional vector to a zero-dimensional scalar.
+The Dyadic Product fxgfxgT (also known as the Outer Product, Matrix Product or the Tensor
+Product) is given by the following equation for the same vector fxg considered above
+8 9
+3
+2 2
+x1
+x1 x2 x1 x3
+>
+=
+< x1 >
+ 6
+7
+ð30Þ
+x1 x2 x3 ¼ 4 x2 x1
+fxgfxgT ¼ x2
+x22
+x2 x3 5 ¼ ½A
+>
+> ;
+:
+2
+x3
+x3 x1 x3 x2
+x3
+
+where [A] is a square matrix or a tensor represented by a matrix. This product always produces a
+matrix or a tensor that may be represented by a matrix. Note that this dyadic product raises the
+vector from a one-dimensional vector to a two-dimensional matrix.
+There is a third vector product that is used in the literature called the Cross Product or the Vector
+Product but this product does not play a role in the new proposed operation of vector exponentiation. The cross product is not discussed here.
+Next one proceeds to deﬁne the operation of raising the vector fxg to the integer exponent n. In
+the next discussion, one will have to consider the cases when n takes the values 1, 2, 3, 4, and 5 in
+detail to try to arrive at a general conclusion and to observe the pattern that is emerging. As will be
+seen in the next few equations, the operation of vector exponentiation is transformative if certain
+conditions are satisﬁed by the integer exponent n.
+n ¼ 1: There is only one outcome as follows
+fxg1 ¼ fxg
+
+ð31Þ
+
+In this case, the result is a vector and indeed it is obviously the same vector. So, raising a vector to
+the exponent 1 does not change the vector and is similar to raising a scalar or a matrix to the
+exponent 1.
+n ¼ 2: There are two possible outcomes as follows
+fxg2 ¼
+
+(
+
+fxgT fxg ¼ 
+fxgfxgT ¼ ½A
+
+ð32Þ
+
+14
+
+International Journal of Damage Mechanics 0(0)
+
+Thus, it is clear that raising a vector to the exponent 2 has two possible outcomes. The ﬁrst
+outcome produces a scalar  while the second outcome produces a matrix [A]. The probabilities of
+each outcome are listed below with the symbol P denoting probability
+Pðscalar, n ¼ 2Þ ¼
+
+1
+2
+
+ð33Þ
+
+Pðmatrix, n ¼ 2Þ ¼
+
+1
+2
+
+ð34Þ
+
+n ¼ 3: There are two possible outcomes but both produce a vector as follows
+fxg3 ¼
+
+fxg2 fxg ¼ fxg
+fxg2 fxg ¼ ½Afxg
+
+ð35Þ
+
+Clearly raising a vector to the exponent 3 always produces a vector although two possible different vectors can be produced.
+n ¼ 4: There are four possible outcomes as follows
+8 2 2
+fxg fxg ¼    ¼ 2
+>
+>
+> 2 2
+<
+fxg fxg ¼   ½A ¼ ½A
+fxg4 ¼
+> fxg2 fxg2 ¼ ½A   ¼ ½A
+>
+>
+: 2 2
+fxg fxg ¼ ½A  ½A ¼ ½A2
+
+ð36Þ
+
+Thus, it is clear that raising a vector to the exponent 4 has four possible outcomes. The
+ﬁrst outcome produces a scalar 2 while the three other outcomes produce matrices, namely ½A
+(twice) and ½A2 . The probabilities of each outcome are listed below with the symbol P denoting
+probability
+1
+4
+3
+Pðmatrix, n ¼ 4Þ ¼
+4
+Pðscalar, n ¼ 4Þ ¼
+
+ð37Þ
+ð38Þ
+
+n ¼ 5: There are four possible outcomes but all produce a vector as follows
+8 2 2
+fxg fxg fxg ¼     fxg ¼ 2 fxg
+>
+>
+>
+< fxg2 fxg2 fxg ¼   ½A  fxg ¼ ½Afxg
+fxg5 ¼
+> fxg2 fxg2 fxg ¼ ½A    fxg ¼ ½Afxg
+>
+>
+: 2 2
+fxg fxg fxg ¼ ½A  ½A  fxg ¼ ½A2 fxg
+
+ð39Þ
+
+Clearly raising a vector to the exponent 5 always produces a vector although four possible different vectors can be produced.
+
+15
+
+Voyiadjis and Kattan
+
+n ¼ 6: There are eight possible outcomes as follows
+8
+>
+fxg4 fxg2 ¼ 2   ¼ 3
+>
+>
+>
+>
+>
+fxg4 fxg2 ¼ 2  ½A ¼ 2 ½A
+>
+>
+>
+>
+4
+2
+2
+>
+>
+> fxg fxg ¼ ½A   ¼  ½A
+>
+< fxg4 fxg2 ¼ ½A  ½A ¼ ½A2
+fxg6 ¼
+> fxg4 fxg2 ¼ ½A   ¼ 2 ½A
+>
+>
+>
+>
+>
+fxg4 fxg2 ¼ ½A  ½A ¼ ½A2
+>
+>
+>
+>
+>
+fxg4 fxg2 ¼ ½A2   ¼ ½A2
+>
+>
+>
+: 4 2
+fxg fxg ¼ ½A2  ½A ¼ ½A3
+
+ð40Þ
+
+Thus is clear that raising a vector to the exponent 6 has eight possible outcomes. The ﬁrst
+outcome produces a scalar 3 while the three other outcomes produce matrices, namely 2 ½A
+(three times), ½A2 (three times), and ½A3 . The probabilities of each outcome are listed below
+with the symbol P denoting probability
+Pðscalar, n ¼ 6Þ ¼
+
+1
+8
+
+ð41Þ
+
+Pðmatrix, n ¼ 6Þ ¼
+
+7
+8
+
+ð42Þ
+
+n ¼ 7: There are eight possible outcomes but all eight produce vectors as follows
+8
+>
+fxg4 fxg2 fxg ¼ 2    fxg ¼ 3 fxg
+>
+>
+>
+4
+2
+>
+2
+2
+>
+>
+> fxg fxg hxi ¼   ½A  fxg ¼  ½Afxg
+>
+>
+4
+2
+>
+fxg fxg fxg ¼ ½A    fxg ¼ 2 ½Afxg
+>
+>
+>
+< fxg4 fxg2 fxg ¼ ½A  ½A  fxg ¼ ½A2 fxg
+f xg 7 ¼
+>
+fxg4 fxg2 fxg ¼ ½A    fxg ¼ 2 ½Afxg
+>
+>
+>
+>
+>
+fxg4 fxg2 fxg ¼ ½A  ½A  fxg ¼ ½A2 fxg
+>
+>
+>
+>
+> fxg4 fxg2 fxg ¼ ½A2    fxg ¼ ½A2 fxg
+>
+>
+>
+: 4 2
+fxg fxg fxg ¼ ½A2  ½A  fxg ¼ ½A3 fxg
+
+ð43Þ
+
+Clearly raising a vector to the exponent 7 always produces a vector although eight possible
+diﬀerent vectors can be produced.
+n ¼ 8: There are 16 possible outcomes that will not be listed. However, it is noted that only one
+outcome produces a scalar while the other 15 outcomes produce matrices. Thus the probabilities for
+this case are as follows
+Pðscalar, n ¼ 8Þ ¼
+
+1
+16
+
+ð44Þ
+
+16
+
+International Journal of Damage Mechanics 0(0)
+
+Table 2. Summary: n is an odd integer.
+n
+
+1
+
+3
+
+5
+
+7
+
+9
+
+1
+
+ðn þ 1Þ=2
+P(vector) decimal
+
+1
+1
+
+2
+1
+
+3
+1
+
+4
+1
+
+5
+1
+
+1
+1
+
+Table 3. Summary: n is an even integer.
+n
+
+2
+
+4
+
+6
+
+8
+
+10
+
+1
+
+n=2
+
+1
+
+2
+
+3
+
+4
+
+5
+
+1
+2n=2
+
+1
+2
+
+1
+4
+
+1
+8
+
+1
+16
+
+1
+32
+
+1
+0
+
+P(matrix) decimal
+
+1
+2
+
+3
+4
+
+7
+8
+
+15
+16
+
+31
+32
+
+1
+
+P(vector) percentage
+
+50%
+
+75%
+
+87.5%
+
+93.75%
+
+96.875%
+
+100%
+
+Pðmatrix, n ¼ 8Þ ¼
+
+15
+16
+
+ð45Þ
+
+n ¼ 9: There are 16 possible outcomes but all 16 produce vectors although diﬀerent vectors can
+come out of this operation.
+n ¼ 10: There are 32 possible outcomes that will not be listed. However, it is noted that only one
+outcome produces a scalar while the other 31 outcomes produce matrices. Thus the probabilities for
+this case are as follows
+Pðscalar, n ¼ 10Þ ¼
+
+1
+32
+
+ð46Þ
+
+Pðmatrix, n ¼ 10Þ ¼
+
+31
+32
+
+ð47Þ
+
+The above results are summarized in Table 2 (when n is an odd integer) and Table 3 (when n is an
+even integer) as follows:
+In general and based on the patterns emerging from the above results and Tables 2 and 3, one
+arrives at the following conclusions:
+(1) When the integer exponent n is odd, the vector exponentiation always produces a vector. The
+nature of the vector never changes under this operation and for this range of values for the
+exponent. The results of this case are summarized in Table 2.
+(2) When the integer exponent n is even, the vector exponentiation changes the nature of the vector.
+This is very interesting as the vector can devolve into a scalar or evolve into a matrix. The nature
+of the vector is changed under this operation and for the values of exponent speciﬁed. The results
+are summarized in Table 3. It is shown that for low even values of the integer exponent, e.g.
+n ¼ 2, the probability of the vector becoming a scalar is 0.5 and the probability of the vector
+
+17
+
+Voyiadjis and Kattan
+
+becoming a matrix is also 0.5. However, as the even values of the exponent become larger, the
+probability of the vector becoming a scalar diminishes considerably while the probability of the
+vector becoming a matrix increases exponentially. In this case, the probability of the vector
+becoming a matrix is giving by the following expression
+Pðmatrix, n evenÞ ¼ 1 
+
+
+1
+lim 1  n2 ¼ 1
+n!1
+2
+
+1
+2n=2
+
+ð48Þ
+ð49Þ
+
+It is noted from the above expression that as n ! 1, the probability becomes 100% and the vector
+is guaranteed to become a matrix. Thus at inﬁnity, the vector undergoes a transformation – it changes
+from a one-dimensional vector into a two-dimensional matrix. Thus, the vector evolves and crosses
+dimensions. This transformation of the vector happens only when the integer exponent has an even
+value and approaches inﬁnity.
+The above remark about the transformation of the vector at inﬁnity can be generalized to
+undamageable materials. As explained in Section 5 on The True Nature of Undamageable
+Materials, the material transforms from a three-dimensional material as n ! 1 into a four-dimensional material in the same way that is illustrated above for vectors.
+
+

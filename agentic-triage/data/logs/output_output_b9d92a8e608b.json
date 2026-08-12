@@ -1,0 +1,41 @@
+{
+  "output_id": "output_b9d92a8e608b",
+  "workflow": "literature_triage",
+  "session_id": "bd88f78c",
+  "summary": "Triaged 3 papers. Top result: Structured Pruning of Attention Heads in Large Language Models",
+  "claims": [
+    {
+      "claim_id": "claim_711af6047f19",
+      "claim_text": "We demonstrate that up to 60% of attention heads in large transformer \n            models are redundant for downstream tasks.",
+      "source_document": "https://arxiv.org/abs/2401.001",
+      "source_location": "abstract, sentence 3",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T12:41:54.539680+00:00"
+    },
+    {
+      "claim_id": "claim_551fa82bc4d9",
+      "claim_text": "We propose Constitutional AI, a method for training AI assistants that are \n            both helpful and harmless.",
+      "source_document": "https://arxiv.org/abs/2401.002",
+      "source_location": "abstract, sentence 1",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T12:41:54.539975+00:00"
+    },
+    {
+      "claim_id": "claim_f6cf165aee70",
+      "claim_text": "We demonstrate that this approach significantly reduces \n            harmful outputs while maintaining helpfulness.",
+      "source_document": "https://arxiv.org/abs/2401.002",
+      "source_location": "abstract, sentence 4",
+      "confidence": 0.85,
+      "extraction_timestamp": "2026-08-06T12:41:54.539997+00:00"
+    }
+  ],
+  "sources_consulted": [
+    "https://arxiv.org/abs/2401.003",
+    "https://arxiv.org/abs/2401.001",
+    "https://arxiv.org/abs/2401.002"
+  ],
+  "agent_version": "literature_triage_v1",
+  "model_provider": "default",
+  "model_version": "1.0",
+  "created_at": "2026-08-06T12:41:54.540317+00:00"
+}

@@ -1,0 +1,1377 @@
+Published in: The British Journal for the Philosophy of Science (2016), DOI:
+10.1093/bjps/axv058.
+
+The Metaphysics of Constitutive Mechanistic Phenomena
+Marie I. Kaiser
+Universität zu Köln, Philosophisches Seminar
+Richard-Strauß-Str. 2, D-50937 Köln, kaiser.m@uni-koeln.de
+Beate Krickel
+Ruhr-University Bochum, Department of Philosophy II
+Universitätsstraße 150, D-44780 Bochum, beate.krickel@rub.de
+Abstract
+The central aim of this paper is to specify the ontological nature of constitutive mechanistic
+phenomena (i.e. of phenomena that are explained in constitutive mechanistic explanations).
+After identifying three criteria of adequacy that any plausible approach to constitutive
+mechanistic phenomena must satisfy, we present four different suggestions, found in the
+mechanistic literature, of what mechanistic phenomena might be. We argue that none of these
+suggestions meets the criteria of adequacy. According to our analysis, constitutive
+mechanistic phenomena are best understood as what we will call ‘object-involving
+occurrents’. Furthermore, on the basis of this notion, we will clarify what distinguishes
+constitutive mechanistic explanations from etiological ones.
+1
+
+Introduction
+
+2
+
+Criteria of Adequacy
+2.1 Descriptive adequacy
+2.2 Constitutive-etiological distinction
+2.3 Constitution
+
+3
+
+The Ontological Nature of Constitutive Mechanistic Phenomena
+3.1 Phenomena as input-output relations
+3.2 Phenomena as end states
+3.3 Phenomena as dispositions
+3.4 Phenomena as behaviours
+
+4
+
+Phenomena as Object-Involving Occurrents
+4.1 What object-involving occurrents are and why we need them
+4.2 The object in the phenomenon
+4.3 The adequacy of option (5)
+
+5
+
+Conclusion
+
+1 Introduction
+The notion of a phenomenon plays a crucial role in the debate about mechanisms and
+mechanistic explanation (hereafter ‘MEx’) that has become popular in the philosophy of the
+life sciences in the last two decades. A central claim of the so-called New Mechanists1 is that
+scientific explanation consists in discovering and describing2 mechanisms that are responsible
+for phenomena. There is an ongoing debate about what mechanisms are and what
+characterizes mechanistic explanation. Surprisingly, though, there is almost no discussion
+about the nature of phenomena in the context of the mechanistic approach (hereafter
+‘mechanistic phenomena’). The goal of this paper is to fill this gap by providing a coherent
+metaphysical analysis of constitutive mechanistic phenomena.
+Note that MExs (and their corresponding phenomena) are said to come in two varieties:
+etiological and constitutive MExs. The difference between these two types of MEx is that in
+etiological MExs mechanisms are said to cause phenomena, whereas constitutive MEx is
+grounded in a non-causal relation called (mechanistic) constitution3, which is supposed to
+hold between the mechanism and the phenomenon. Even though the New Mechanists also
+discuss etiological MExs,4 in this paper we will focus on constitutive MEx for the following
+two reasons: first, constitutive MExs are central to the New Mechanistic approach. There is a
+vast literature discussing various phenomena that are explained by constitutive MExs (i.e. by
+MExs that explicitly refer to relations of constitution) such as the human heart pumping blood
+(Bechtel and Abrahamsen [2005], pp. 425; Bechtel [2006], pp. 29–30; Glennan [2010], pp.
+257; Craver and Darden [2013], 98–117), a cell synthesizing proteins (Machamer et al.
+[2000], pp. 18–21; Darden [2002], pp. 357; Craver and Darden [2013], pp. 31–4, 164–7),
+long-term potentiation at synapses of neurons (Machamer et al. [2000], pp. 8–11; Craver and
+1
+Our paper focuses on Peter Machamer’s, Lindley Darden’s, and Carl F. Craver’s (hereinafter ‘MDC’) position.
+Stuart Glennan’s view about the metaphysics of mechanisms differs from MDC’s view in some important
+respects: at least in his earlier publications, Glennan criticizes MDC’s dualistic thesis that mechanisms consist of
+entities and activities and defends a monistic view about the ontological nature components of mechanisms
+([2002]). Furthermore, Glennan seems to take bare objects like clocks or cars as mechanisms, even if they are
+not involved in a process (such as ticking or driving, [1996]).
+2
+Defenders of the ontic view about scientific explanation (e.g. Craver [2014]) argue that MExs do not refer to
+mechanisms and are not representations of mechanisms, but that mechanisms themselves (which exist in the
+world) do the explaining and are the explanantia of MExs. Even though our account of constitutive mechanistic
+phenomena is compatible with both views, we stick to the received, more common view that explanations are
+representations, rather than things in the world itself.
+3
+The New Mechanists borrow the term ‘constitution’ from Wesley Salmon ([1984]). It must not be confused
+with the term as it is used in metaphysical debates (e.g. Baker [1997]). During the last years the notion of
+mechanistic constitution has gained increasing attention (e.g. Harbecke [2010]; Leuridan [2012]; Gillett [2013];
+Baumgartner and Gebharter [2015]). But so far no approach has been developed that has found common
+acceptance.
+4
+Among the examples of etiological MExs discussed are explanations of adaptive evolutionary outcomes
+(Skipper and Milstein [2005]; Barros [2008]; Glennan [2009]), of the fall of the Roman Empire (Glennan [2010],
+p. 259), and of developmental results such as the formation of a gamete (Glennan [2002], p. 349).
+
+2
+
+Darden [2001], pp. 115–7; [2013], pp. 167–72; Craver [2007], pp. 65–72), spatial memory of
+humans (Craver [2007], pp. 165–70; Bechtel [2008], pp. 49–88; Bechtel and Richardson
+[2010], pp. 134–44), and cellular respiration (Bechtel [2006], pp. 36–7; Bechtel and
+Richardson [2010], pp. 51–9, 72–88).5 Constitutive MEx are at least as important to the New
+Mechanists as etiological MEx. Second, contrary to etiological mechanistic phenomena, the
+nature of constitutive mechanistic phenomena is far less understood. Etiological MExs are
+grounded in a causal relation between the mechanism and its phenomenon. Hence, etiological
+mechanistic phenomena are whatever the relata of causation are taken to be (e.g. events).
+Causation, events and related topics have long been the subjects of intensive discussions in
+metaphysics and in philosophy of science. In contrast, the notions of mechanistic constitution
+and of constitutive MEx have gained little philosophical attention to date.
+So far, no explicit account of constitutive mechanistic phenomena has been provided. We
+think that such an account is essential to the mechanistic approach because the most central
+assumptions about constitutive MExs and constitutive mechanisms cannot be understood as
+long as one does not know what constitutive mechanistic phenomena are exactly. To see this,
+consider how three major claims of the New Mechanists hinge on the notion of a constitutive
+mechanistic phenomenon (note that the first claim applies also to etiological mechanistic
+phenomena):
+1. Phenomena are the things that are explained by describing mechanisms.
+2. Phenomena are the things that are constituted by mechanisms.
+3. Phenomena are individuative for the mechanisms that constitute them.
+The first claim states that phenomena are the things that are the objects of (constitutive)
+MExs; they are the things that are explained by describing the mechanisms that constitute
+them. Obviously, in order to understand what exactly MExs are, we also need to understand
+what the two parts of an explanation—the explanandum and the explanans—refer to. The
+explanans of a MEx (i.e. what does the explaining) is said to refer to a mechanism; the
+explanandum (i.e. what is to be explained) is supposed to refer to the phenomenon that is
+constituted (or caused) by the mechanism. Hence, we need to understand what mechanistic
+phenomena are in order to fully understand constitutive MExs. The second point has already
+
+Other examples of constitutive MExs include the explanation of how cells convert light energy into chemical
+energy (i.e. photosynthesis; Tabery [2004]), of Mendel’s law of independent segregation (Glennan [2002], pp.
+346–7; Craver and Darden [2013], pp. 149–51), of the action potential (Craver [2007], pp. 114–21; Craver and
+Darden [2013], pp. 43–50), and of HIV replication in host cells (Steel [2008], pp. 55–8).
+5
+
+3
+
+been introduced: in the case of constitutive MExs, phenomena are supposed to be constituted
+by mechanisms. To understand this constitution claim we need to know what it is that is taken
+to be constituted by a mechanism. A third major claim of the New Mechanists is that
+mechanisms are individuated via the phenomena they explain (e.g. Glennan [2002], p. 344).6
+Roughly, a mechanism is held to consist of only those entities and activities that are
+constitutively relevant to the phenomenon the mechanism is supposed to explain (Craver
+[2007], pp. 139–60). The way in which the phenomenon is characterized thus determines the
+individuation of the mechanism, that is, it determines which entities and activities belong to
+the mechanism, and which do not (Craver and Darden [2001]). This implies that if we do not
+know what phenomena are, we cannot identify the components of mechanisms.
+Given this importance of the notion of a phenomenon to the mechanistic approach, it is
+surprising that no account of mechanistic phenomena has been provided yet. Carl F. Craver
+refers to phenomena as ‘S’s ing’ ([2007], pp. 7, 121, 140), where ‘S’ is supposed to refer to
+a system, but it remains unclear what a system is and which system is meant. Many authors
+characterize the phenomenon to be explained in constitutive MExs as the ‘behaviour of the
+mechanism as a whole’ (Craver [2007], pp. 6, 161; Bechtel [2011], pp. 540; Leuridan [2012],
+pp. 401) but, as we will show in Section 3, this idea is inconsistent. In other passages Craver
+states that the phenomenon can be understood in terms of a ‘complex input-output
+relationship’ ([2007], p. 145) which seems to be incompatible with his idea that phenomena
+are ‘acting entities’ ([2007], p. 188). Besides these scattered claims no coherent account of
+constitutive mechanistic phenomena has been provided. The goal of this paper is to fill this
+gap. More specifically, our aim is to clarify what the phenomena of constitutive MExs are,
+how they are related to the mechanism and its components, and how they differ from
+phenomena that are explained by etiological MExs.
+
+Our paper proceeds as follows: in Section 2, we introduce three criteria that any adequate
+approach to constitutive mechanistic phenomena must meet. In Section 3, we critically
+discuss four different suggestions of how the ontological nature of constitutive mechanistic
+phenomena could be spelled out that can be identified in the mechanistic literature. We reject
+the ideas that constitutive mechanistic phenomena are input-output relations (Section 3.1),
+end states (Section 3.2), dispositions (Section 3.3), or bare behaviours (Section 3.4). In
+Section 4, we develop an alternative account of constitutive mechanistic phenomena,
+according to which phenomena are concrete particulars that consist of a combination of an
+object (or system) and a behaviour, activity, process, event, or state (we will use the term
+6
+
+This claim has come to be known as ‘Glennan’s law’ (Illari and Williamson [2012], pp. 133).
+
+4
+
+‘occurrent’ to summarize these kinds of entities) in which the object is involved (Section 4.1).
+We elaborate on what the objects are that are involved in constitutive mechanistic phenomena
+(Section 4.2), and we conclude with confirming the adequacy of our account (Section 4.3).
+2 Criteria of Adequacy
+In this section we identify three criteria of adequacy that a plausible metaphysics of
+constitutive mechanistic phenomena must satisfy. Providing these criteria is necessary
+because a problem arises when trying to specify what constitutive mechanistic phenomena
+are. Recall the three claims of the New Mechanists that we introduced in the introduction:
+constitutive mechanistic phenomena are the objects of explanation, they are constituted by
+mechanisms, and they are individuative for mechanisms. The problem is that, so to speak, we
+have free variables at both sides of these equations: not only does the concept of a
+mechanistic phenomenon remain unclear, but many notions on the right hand side are also in
+need of specification. It is not clear what distinguishes etiological from constitutive MExs nor
+what mechanistic constitution is supposed to be. Moreover, the notion of constitutive
+relevance that is central to the individuation of mechanisms is afflicted with problems. This
+raises the worry that the development of a metaphysics of constitutive mechanistic
+phenomena is rather arbitrary: one could just postulate what constitutive mechanistic
+phenomena are and specify the remaining concepts (of constitution, of constitutive relevance,
+and of etiological vs. constitutive MEx) respectively. In order to avoid this objection, we will
+introduce three criteria that constrain the adequacy of a metaphysical account of constitutive
+mechanistic phenomena: (C1) descriptive adequacy, (C2) constitutive-etiological difference,
+and (C3) constitution.
+2.1 Descriptive adequacy
+The first criterion (C1) is inferred from a methodological (or metametaphysical) claim about
+the goals and criteria of adequacy that the New Mechanists accept. All proponents of the
+mechanistic approach agree that they seek to develop a philosophical account that provides an
+understanding of how science actually works, in particular of why it is successful (and why it
+sometimes fails). For instance, Craver’s theory of constitutive relevance is supposed to
+account for the different strategies (‘interlevel experiments’) that neuroscientists successfully
+use to identify components of mechanisms and to determine their boundaries ([2007], pp.
+144–52). Likewise, the New Mechanists hold that a plausible philosophical analysis of the
+concept ‘mechanism’ must account for examples of mechanisms and MExs that are
+5
+
+considered paradigmatic and important to a certain scientific field, for example, because these
+mechanisms play a crucial role with regard to a specific scientific aim, such as the
+manipulation of the brain (Craver [2007]). This methodological stance might be characterized
+as being ‘naturalistic’ (Bechtel [2008]). Another way to put it is to say that the New
+Mechanists accept the criterion of ‘descriptive adequacy’ (Machamer et al. [2000], p. 8). This
+criterion states that a philosophical theory about science is adequate only if it correctly
+‘describes’ actual scientific practice or the ontological commitments of for instance scientific
+explanations (see Kaiser [unpublished (b)]).
+We think that this methodological stance also can be applied to metaphysical projects like
+ours. In other words, we associate our project of clarifying the metaphysics of constitutive
+mechanistic phenomena with the recent tradition of naturalized, scientific, or descriptive
+metaphysics (e.g. Ross et al. [2007]; Maudlin [2007], Callender [2011]).7 A naturalistic
+metaphysician states that scientific practice or scientific knowledge (e.g. our best scientific
+theories and explanations) is crucial to how we should think about the world.8 For our case,
+this implies that any plausible metaphysics of constitutive mechanistic phenomena must
+account for how phenomena are in fact characterized in constitutive mechanistic explanations,
+models, theories, and investigative practices of the life sciences. In other words, a
+metaphysical thesis about what constitutive mechanistic phenomena are is descriptively
+adequate only if it captures paradigmatic and important examples of phenomena that are
+successfully constitutively-mechanistically explained and investigated in scientific practice.9
+The examples of constitutive mechanistic phenomena that we consider in this paper are those
+that we take to be paradigmatic and important to the life sciences (e.g. because they are
+instances of successful science).10 Among them are the contraction of a muscle fibre, the
+generation and transmission of an action potential, phototropism (i.e. plants growing in the
+direction of light), a rat showing spatial memory, the replication of DNA during cell division,
+and the coexistence of two species in an ecosystem. Since the New Mechanists also accept the
+methodological principle of descriptive adequacy and discuss primarily examples that are
+
+7
+Except for that we do not share the widespread reductionist view that only the physical sciences or only
+scientific theories are an adequate source of metaphysical claims.
+8
+For instance, Maudlin claims that ‘when choosing the fundamental posits of one’s ontology, one must look to
+scientific practice rather than to philosophical prejudice.’ ([2007], p. 1) and Callender argues that ‘[l]aying bare
+the metaphysical assumptions of our best [scientific] theories of the world is a crucial and important part of
+understanding the world.’ ([2011], p. 3).
+9
+Hence, we assume that, for instance, scientific explanations give rise to important metaphysical insights (e.g.
+into what constitutive mechanistic phenomena are). This, however, does not imply that epistemological relations
+(as explanatory relations) are confused with ontological ones (as relations of mechanistic constitution).
+10
+What it means to identify paradigmatic and important examples is specified in Kaiser ([unpublished (b)]).
+
+6
+
+paradigmatic and important to the life sciences we analyze several examples that are also
+covered by the mechanistic literature.
+2.2 Constitutive-etiological distinction
+The second criterion of adequacy (C2) relies on the claim that there exist two different kinds
+of MExs: constitutive and etiological ones (e.g. Craver [2007], p. 74).11 In constitutive MExs
+a phenomenon is explained by a mechanism that constitutes the phenomenon. This is often
+expressed by the phrase that a phenomenon is explained by its ‘underlying mechanism’ (e.g.
+Machamer et al. [2000], p. 16; Bechtel [2005]; Craver [2007], p. 140) and the constitutive
+relations described in constitutive MExs are said to give rise to different levels of organization
+(Craver [2007], pp. 163–95). We will say more about what constitution in this context means
+in the next section. The explanation of spatial memory is a much discussed example of a
+constitutive MEx: the relation between the phenomenon and the underlying mechanism in this
+case is depicted for instance as the relation between a rat navigating through the Morris Water
+Maze and the rat’s hippocampus generating spatial maps (Craver [2007], pp. 165–70; see also
+Bechtel [2008], pp. 49–88; Bechtel and Richardson [2010], pp. 134–44).
+In etiological MExs, in contrast, phenomena are explained by their preceding causes. A
+standard neuroscientific example of an etiological MEx is the explanation of neurotransmitter
+release (Craver [2007], pp. 22–8). Here, an event (the release of neurotransmitters into the
+synaptic cleft) is explained by its previous causes (Ca2+-channels opening, influx of Ca2+, the
+creation of a pore, and so on).
+The crucial difference between constitutive and etiological MExs seems to be that in the
+former case the mechanism and the phenomenon are related by a constitution relation, which
+is supposed to be a non-causal relation, whereas in the case of etiological MExs the
+mechanism as a whole causes the phenomenon. An approach to mechanistic phenomena
+should not blur the distinction between these two types of MEx, but rather be compatible with
+it and provide the grounds for making sense of it.
+One might object that a MEx can be etiological as well as constitutive. There are three
+possible interpretations of this claim: First, one might hold that a MEx is strictly speaking
+both. This amounts to a logical contradiction. Causation requires cause and effect to occur at
+different times, whereas constitution requires the constituent and the constituted entity to
+The New Mechanists borrow the distinction between etiological and constitutive mechanisms from Wesley
+Salmon ([1984]). According to Salmon, constitutive mechanisms ‘account for a given phenomenon by providing
+a causal analysis of the phenomenon itself’, while an etiological explanation ‘tells the causal story leading up to
+its occurrence’ ([1984], p. 297).
+11
+
+7
+
+occur at the same time. Second, one might hold that one and the same going-on in the world
+can be explained by providing an etiological MEx and by providing a constitutive MEx. For
+instance, one can etiologically explain protein synthesis by describing how a certain sequence
+of causes leads to the synthesis of a protein, or one can constitutively explain protein
+synthesis by referring to the components of a cell and describing how they act and interact
+such that the cell synthesizes proteins. On a closer inspection, however, it turns out that what
+we are explaining is not the same phenomenon, but two different phenomena: the etiological
+MEx explains the end-result (there being a protein) and the constitutive MEx explains the
+process of protein synthesis (we want to know what happens at every step of protein
+synthesis). Third, one might hold that some MExs have etiological as well as constitutive
+aspects. For example, mechanisms that constitute phenomena are usually triggered by some
+input that can be described as a cause of the mechanism. In some contexts, this input might be
+considered as a part of the explanation of the phenomenon (e.g. in the case of a neuronal
+signal triggering the mechanism of muscle contraction). One might hold that while the
+mechanism constitutes the phenomenon (and thus makes up the constitutive part of the
+explanation) the input causes the phenomenon (and thus makes up the etiological part of the
+explanation). We agree that this might be an accurate description of some MExs. Still, from a
+metaphysical point of view the two different aspects can be clearly distinguished.
+2.3 Constitution
+As we have pointed out, in constitutive MExs mechanisms are supposed to constitute
+phenomena. In a nutshell, our third criterion of adequacy (C3) states that constitutive
+mechanistic phenomena have to be such that they can plausibly be constituted by
+mechanisms. Since this criterion requires knowing what constitution is, we will begin with an
+explication of this notion.
+The first thing to note is that the term ‘constitution’ (or ‘constitutive’, as in ‘constitutive
+MExs’) is a technical term invented by the New Mechanists that is not necessarily connected
+to the term ‘constitution’ as it is used in metaphysics (Craver [2007], pp. 108, fn. 1). Second,
+it is not entirely clear what the New Mechanists take constitution to be. Here, we will assume
+a rather weak and, as we think, uncontroversial notion of constitution that is based on (but not
+identical to) Craver’s notion of constitutive relevance (Craver [2007], pp. 139–60):12
+
+12
+
+Other, more substantial accounts of mechanistic constitution are Harbecke ([2010]) and Gillett ([2013]).
+
+8
+
+(Constitution) The collection of those entities and activities that are constitutively relevant
+to a phenomenon P make up the constitutive mechanism M for P. In this case, the M is said
+to constitute P.13
+According to Craver, constitutive relevance is a binary relation between a mechanism’s
+component, which is characterized as an ‘acting entity’, that is, as ‘X’s -ing’ ([2007], p. 145;
+
+more on this claim below), and a certain phenomenon, which is referred to as ‘S’s ψ-ing’.14
+
+Craver identifies two conditions that must be satisfied for an acting entity (X’s -ing) to be
+
+constitutively relevant to a certain phenomenon (S’s ψ-ing):
+(1) Parthood condition: X must be a part of S, and
+
+(2) Mutual manipulability condition: X’s -ing and S’s ψ-ing must be mutually
+manipulable.
+Craver’s characterization of constitutive relevance has recently been subject to criticism (see
+Leuridan [2012], Baumgartner and Gebharter [2015]). These criticisms mainly focus on the
+mutual manipulability condition. Since this condition is not central for our line of reasoning,
+we will not discuss these objections here. A further problem of Craver’s account is that it is
+not clear what exactly ‘S’ refers to (we will elaborate on this problem in Sections 3.5 and 4.2).
+A third problem is that Craver leaves open how the parthood relation should be spelled out in
+this context (see Leuridan [2012]). It is not clear whether the parthood condition requires only
+spatial parthood (between entities, i.e. objects) or temporal parthood as well (between
+activities, i.e. occurrences). Craver seems to have both in mind (at one point he adds in
+brackets that temporal inclusion is also required; [2007], p. 153) but he never explicitly states
+that. We will argue that spatial parthood is not always required for something to be a
+component in a constitutive mechanism (see Sections 4.2 and 4.3). Furthermore, there are
+good reasons to assume that the parthood condition also has to require temporal parthood
+
+between the ϕ-ings and the -ing. To see this, we need to have a closer look at what
+mechanisms are.
+
+Note that constitutive relevance is only a necessary condition for constitution. Plausibly, the notion of
+constitution also implies that the mechanism (given a certain context) is sufficient for the phenomenon.
+Furthermore, we agree that constitution understood in this way is as problematic as Craver’s approach to
+constitutive relevance. But we show that these problems either can be solved or do not influence the validity of
+our line of argument.
+14
+In contrast, constitution is a binary relation between the mechanism as a whole M (not one singular
+component) and the phenomenon P (i.e. S’s ψ-ing).
+13
+
+9
+
+There are various characterizations of mechanisms on the market. The following
+characterization summarizes the central ideas that are important for our purposes: ‘a
+mechanism for a phenomenon consists of entities and activities organized in such a way that
+they are responsible15 for the phenomenon’ (Illari and Williamson [2012], p. 120). This
+characterization highlights one important feature of mechanisms: they are said to be
+composed of entities and activities.16 This claim is often called ‘entity-activity dualism’ (see
+Machamer et al. [2000]; Machamer [2004]; Bogen [2008]; Illari and Williamson [2013]; for a
+different view see Glennan [1996], [2002]; for critical views see Tabery [2004]; Psillos
+[2004]; Campaner [2006]; Torres [2008]). The basic idea of this dualistic thesis is that
+mechanisms consist of components that belong to two distinct ontological categories: entities
+(which are conceived as material objects that have certain, relatively stable properties) and
+activities (which are the things that objects do or are engaged in).
+We think that there are good reasons to characterize the components of mechanisms not in
+terms of entities and activities, but in terms of objects and occurrents. First, in metaphysical
+debates the term ‘entity’ is used as an umbrella term for everything that exists (according to a
+certain ontology). Hence, ‘entity’ might refer to properties, processes, relations, events, and so
+on, not only to material objects, as the New Mechanists understand this term. Instead of
+‘entity’ we will thus use the term ‘object’ (or sometimes ‘component object’) to avoid
+misunderstandings.
+Second, we see two major problems for the notion of an activity: on the one hand,
+activities are conceived of as irreducible and fundamental things that involve an unanalyzable
+kind of ‘activeness’ and ‘productiveness’ (see Machamer [2004]; Bogen [2008]; for a critic
+see Psillos [2004]; Krickel [unpublished]). We want our approach to be neutral with regard to
+the question of whether there exist irreducible activities in this problematic sense. On the
+other hand, the category of activities is unnecessarily narrow. It excludes, for example, states
+of objects such as the voltage-gated sodium channel being open. Furthermore, it excludes
+passive behaviours such as the release of calcium ions from the endoplasmic reticulum into
+the cytosol from being components of mechanisms. All we need for the purpose of the present
+paper is the claim that mechanisms are composed of objects and of the states, events, or
+We think that the term ‘is responsible for’ is too vague and metaphorical. It should be replaced by the more
+precise terms ‘constitutes’ (for constitutive mechanisms) and ‘causes’ (for etiological mechanisms).
+16
+We are aware of the fact that other possible features of mechanisms, such as their start- and end-conditions
+and their regularity (for objections see Illari and Williamson [2012]; Bogen [2005]; Andersen [2012]; Craver and
+Kaiser [2013]; Krickel [unpublished]), may also be relevant in this context. For example, if it turns out that
+mechanisms are necessarily regular, then mechanistic phenomena are also necessarily regular. And if
+mechanisms have start and end conditions phenomena also have start and end conditions. The approach we will
+develop in Section 4 can easily be extended such that it captures these further features.
+
+15
+
+10
+
+processes in which these objects are (engaged). Activities are plausibly characterized as
+special kinds of processes (e.g. as causal processes that involve changes and an object that is
+‘active’—whatever that exactly means). We will thus speak of mechanisms as constituted by
+occurrents, rather than by activities (or ‘operations’, Bechtel [2006], [2008]) because we do
+not want our account of mechanistic phenomena to be committed to the problematic notion of
+an activity. We chose the term ‘occurrents’ because in metaphysics states, events, and
+processes are generally subsumed under this label. Examples of occurrents are football
+matches, muscle contraction, diffusion, and the like. We have to make one restriction with
+regard to the claim that mechanisms consist of objects and occurrents: Machamer et al.
+introduced the notion of an activity primarily to account for the fact that ‘mechanisms do
+things’, that ‘[t]hey are active’ ([2000], p. 5). Whatever is meant by these quotes, the idea that
+‘mechanisms do things’ seems to exclude that mechanisms are composed of states that merely
+consist in the instantiations of dispositions (rather than in their manifestations). Hence, our
+claim that mechanisms consist of occurrents is restricted to events, processes and states that
+do not merely consist in the having or instantiation of dispositions (we will call them nondispositional occurrents). Occurrents are usually contrasted with the category of continuants.
+Continuants are objects like tables, stones, cells, muscle fibres, and the like. It is not easy to
+specify the difference between occurrents and continuants. Intuitively, they differ in how they
+are spread out in time (see Simons [1991]): while continuants exist in time, that is, for a
+certain duration, occurrents occur during a certain time interval. Occurrents are temporally
+extended and have temporal parts in a way that continuants do not.17 To sum up, we will
+assume that the ‘entity-activity dualism’ defended by the New Mechanists is better expressed
+in terms of objects (i.e. continuants) and occurrents (see Krickel [unpublished] for more
+detailed arguments).
+Now, let us come back to Craver’s characterization of constitutive relevance and his
+parthood condition. Since constitutive mechanisms are composed of objects that are engaged
+in occurrents and are thus not only extended in space but also in time, it is plausible to assume
+that constitutive relevance requires not only spatial parthood18 (between the components
+objects, the Xs, and the S in the phenomenon) but also temporal parthood: an occurrent (ϕ-
+
+ing) is a component of the mechanism for a certain phenomenon (S’s -ing) only if it occurs
+In some sense continuants are also temporally extended: since continuants necessarily exist in time and space,
+they have to exist for a certain time interval (it makes no sense to hold that they exist only at time points).
+Another attempt to characterize the difference between continuants and occurrents is to claim that the former are
+wholly present at each moment they exist, whereas the latter are spread out in time and thus are wholly present
+only given a certain time span (see Lewis [1986]; Simons [1991]; Smith [2012]).
+18
+Note that in Sections 4.2 and 4.3 we criticize the spatial parthood condition and argue that it should not be
+interpreted as a necessary condition.
+
+17
+
+11
+
+during the phenomenon’s occurrence (the -ing), that is, only if the -ings are temporal parts
+
+of the -ing. If we took the parthood condition to involve only spatial parthood between
+mechanistic component objects and phenomena objects this would have odd consequences
+given that mechanisms are also composed of occurrents. For example, a particular occurrence
+of an ion-channel opening at ti can only be a component of the mechanism for a particular
+occurrence of the action potential that occurs during a time interval including ti. It cannot be
+constitutively relevant for an action potential that occurs, for instance, two days later than ti.
+Hence, Craver’s parthood condition should be modified:
+(1*) Parthood condition: X must be a spatial part of S, and -ing must occur during -ing.
+One consequence of this modified notion of constitutive relevance that is particularly relevant
+to our analysis is the following. Because constitutive relevance plausibly requires mechanistic
+components to occur at the same place and time as the phenomenon, phenomena must be
+entities that have spatial and temporal parts and that are spatially and temporally extended.
+In sum, we take three criteria of adequacy to be crucial for any plausible metaphysical
+approach to constitutive mechanistic phenomena:
+(C1) Descriptive adequacy:
+
+An approach to constitutive mechanistic phenomena
+must account for how they are characterized in the
+explanatory and investigative practices of the life
+sciences.
+
+(C2) Constitutive-etiological
+difference:
+
+An approach to constitutive mechanistic phenomena
+must be consistent with and make sense of the difference
+between etiological and constitutive MEx.
+
+(C3) Constitution:
+
+Constitutive mechanistic phenomena must be such that
+they can plausibly be constituted by mechanisms. This
+requires that phenomena must have spatial and temporal
+parts, that is, that they must be spatially and temporally
+extended.
+
+12
+
+In the next two sections we will put these three criteria to work. Our analysis will show that
+each of them provides important constraints on what is a plausible metaphysics of constitutive
+mechanistic phenomena.
+3 The Ontological Nature of Constitutive Mechanistic Phenomena
+In this section we identify and discuss four different ways of spelling out the ontological
+nature of constitutive mechanistic phenomena. Each of these four options is implicitly or
+explicitly suggested by different authors working on mechanisms and MExs. We will argue
+that none of these suggestions meet all criteria of adequacy developed in the previous section.
+Here is an overview of the four possible interpretations of the ontological nature of
+phenomena we are going to reject, plus our own suggestion (option 5):
+1. Input-output
+
+The phenomenon is a complex input-output relationship.
+(Cummins [1983]; Craver [2007])
+
+2. End state
+
+The phenomenon is the end state of a mechanism.
+(Craver and Bechtel [2007])
+
+3. Disposition
+
+The phenomenon is a dispositional property/capacity.
+(Cummins [1983]; Ylikoski [2013])
+
+4. Behaviour
+
+The phenomenon is a behaviour. (Glennan [2002];
+Craver [2007])
+
+5. Object-involving
+occurrent (OIO)
+
+The phenomenon is an object (S) engaged in an
+
+occurrent (-ing).
+
+3.1 Phenomena as input-output relations
+The first option is that phenomena explained by constitutive MExs are input-output relations.
+Following Robert Cummins ([1983]), Craver often characterizes constitutive mechanistic
+phenomena in this way (e.g. [2007], pp. 145, 214; see also Glennan [2002], p. 347, [2005], p.
+445). That they refer to constitutive mechanistic phenomena (and not to etiological ones or to
+both) is indicated, for example, by the fact that when Craver talks about interlevelexperiments (which are methods for intervening into constitutive mechanisms) he assumes
+that ‘S’s ψ-ing can be understood as a complex input–output relationship’ (Craver [2007], p.
+145).
+The suggestion that constitutive mechanistic phenomena are input-output relations can be
+interpreted in at least two ways: first, a phenomenon might be the input-event plus the output13
+
+event. According to this interpretation, the process between the input and the output does not
+belong to the phenomenon. Rather, this process is the mechanism itself (or the mechanism’s
+
+working, referred to as ‘S’s -ing’). Figure 1 illustrates this suggestion (in this and in the
+following figures the grey areas symbolize the phenomenon, the dashed line the mechanism):
+
+Fig. 1: Option (1a) Phenomena as inputs plus outputs of mechanisms.
+This interpretation is suggested by claims such as ‘[b]etween these inputs and outputs is a
+mechanism’ (Craver [2007], p. 146).19 According to this option, explaining a mechanistic
+phenomenon amounts to giving a description of the causal steps that lead from the input to the
+output (i.e. that connect the first, earlier part of the phenomenon with the second, later part).
+Some examples of the explananda of constitutive MExs might be characterized in that way.
+For instance, one might say that MExs explain the fact that a muscle fibre is not contracted at
+t1, but contracted at a later time t5, or the fact that there exists one DNA double strand at t1,
+but two of them at a later time t5.
+One problem with this suggestion is that if phenomena were just input-events or inputprocesses plus output-events or output-processes, the difference between etiological and
+constitutive mechanisms and MExs would vanish. Recall that etiological mechanisms are the
+causes of their phenomena which take place earlier than the phenomena they produce.
+According to the first reading of option (1), constitutive mechanisms are also just causes of
+(the latter part) of a phenomenon. In other words, this interpretation blurs the difference
+between etiological and constitutive MExs since it implies that both etiological and
+constitutive mechanisms occur at different times than the phenomena, and that in both cases
+the grounding relation would be causation. Hence, the first reading of option (1) violates (C2).
+A second objection is that constitutive MExs understood in this way do not represent a
+constitution relation at all. Because the constitutive mechanism takes place temporally
+between the two parts of the phenomenon (i.e. the input-event and the output-event) the
+mechanism and its components cannot be said to be temporally included in the phenomenon.
+However, as we have argued in the previous section, temporal parthood seems to be a
+It should be emphasized that only few passages in Craver ([2007]) support this reading and that claims can
+also be found that explicitly suggest the opposite.
+19
+
+14
+
+requirement for constitution (in addition to spatial parthood). This suggestion thus violates
+(C3): if phenomena are the inputs plus the outputs of mechanisms, they are not such that they
+can plausibly be constituted by mechanisms.
+A final problem is that the first reading of option (1) does not satisfy (C1). That is, it does
+not correspond to how scientists in fact characterize the phenomena for which they provide
+constitutive MExs. According to this reading, phenomena consist of two events or processes,
+where one is a cause of a mechanism and the latter is an effect of that mechanism. But the
+action potential, for example, is not modelled as the process that leads to the opening of the
+ion-channels near the axon hillock plus the process that is caused by the release of
+neurotransmitter into the synaptic cleft. Rather, neuroscientists characterize the action
+potential as what happens between these two processes, for example as a certain voltage
+pattern along a neuron’s axon.
+There is a second interpretation of option (1). On this second reading, depicted in Figure 2,
+the claim that phenomena are input-output relations is supposed to be a claim about how
+phenomena are individuated: a phenomenon P is whatever satisfies a particular causal profile
+described by a certain input-output relation.
+
+Fig. 2: Option (1b) Phenomena as things individuated by causal roles.
+This interpretation is compatible with many different assumptions about what kinds of things
+constitutive mechanistic phenomena are, whether they are material objects, categorical
+properties, dispositions or capacities, manifestations of dispositions or capacities, processes,
+events, and so on. Everything in our metaphysical repertoire that can be individuated by a
+causal profile is a possible candidate for being a phenomenon. Consider for instance the
+mechanism of muscle contraction. According to the second reading of option (1), the
+phenomenon-to-be-explained in this case might, for example, be the capacity of a muscle
+fibre to contract if a neuronal signal arrives. The phenomenon in question, the capacity, is
+individuated by the stimulus conditions—the incoming neuronal signal (the input)—and the
+manifestation result—the contracted muscle fibre (the output). Alternatively, the
+explanandum phenomenon in this case might be characterized as the process of contraction,
+which is individuated by its causal profile, for example by the causes that lead to the process
+15
+
+of contraction (i.e. an incoming neuronal signal) and by the effects of the contraction process.
+Due to the fact that the second reading of option (1) does not specify whether phenomena are
+capacities, objects, processes, and so on it provides no basis for evaluating criteria (C2) and
+(C3). It thus fails to provide a complete account of constitutive mechanistic phenomena.
+With regard to criterion (C1) the second reading of option (1) is also problematic. The
+reason is that this way of individuating constitutive mechanistic phenomena is too simplified
+and neglects the fact that many phenomena that are studied in the life sciences are what
+Craver calls ‘multifaceted’ ([2007], p. 125; see also Craver and Darden [2013], pp. 56-60).
+Craver argues that in order to fully characterize a phenomenon one must also know its
+precipitating and inhibiting conditions (i.e. the conditions under which the phenomenon
+occurs and fails to occur), its different manifestations (i.e. different instances of the same
+phenomenon), and its modulation conditions (i.e. the conditions that change certain features
+of the phenomenon). In order to individuate a phenomenon it is thus not sufficient to merely
+state its typical causes and effects. Rather, one also has to state in which way the instances of
+a phenomenon differ under different circumstances and different sets of inputs and outputs.
+Take for example the action potential. This phenomenon is only partially characterized by
+mentioning its inputs (e.g. stimulating the neuron) and outputs (e.g. activating neighbouring
+cells). Instead, the action potential essentially consists in a certain pattern of electrical current
+along the axon that can be divided into different phases and that can peak at different values.
+But these features of the action potential cannot be accounted for by just mentioning the
+typical inputs and outputs. An input-output description is underdetermined with regard to
+what happens between the occurrence of the input and the output. For example, it is at least
+possible that there is a typical action potential input followed by a typical action potential
+output without the typical pattern of electrical current occurring. Furthermore, especially
+when it comes to explanation, the input-output characterization of phenomena is insufficient:
+scientists do not merely want to know how stimulating a neuron activates its neighbouring
+neuron. They also want to explain the pattern of electrical current along the neuron’s axon
+that occurs when the neuron gets stimulated. An explanation of the action potential is
+complete only if it explains how this pattern is produced. Hence, the second reading of option
+(1) also violates criterion (C1).
+3.2 Phenomena as end states
+Option (2) states that constitutive mechanistic phenomena are end states of mechanisms. The
+claim is, for example, that the mechanism for cell division explains how the state of there
+16
+
+being two cells is brought about; that the mechanism for muscle contraction explains how a
+the state of the muscle fibre being contracted is reached; or that the mechanism for species
+coexistence explains how the state of two species coexisting in a certain geographic area came
+to happen. Another example, taken from the mechanistic literature, is the constitutive MEx of
+how a heart attack causes the death of a general (Craver and Bechtel [2007]). Craver’s and
+Bechtel’s idea seems to be that ‘the state of death’ ([2007], p. 557) of the general is explained
+by how a variety of physiological mechanisms cease to function. Their discussion reveals that
+this is a clear case of a constitutive MEx: they speak about parts and wholes (namely about
+the heart muscle being a part of the general) and argue that the ‘non-functioning [of certain
+physiological mechanisms] constitutes the general’s death’ (Craver and Bechtel [2007], p.
+557, our emphasis).
+The idea that constitutive mechanistic phenomena are end states of mechanisms can be
+interpreted in two ways: first, one might think that the end state of a mechanism is itself a
+component of the mechanism. Second, end states of mechanisms might be the results of
+mechanisms that obtain after the mechanism has occurred. In what follows we argue that both
+suggestions are inconsistent.
+Let us begin with the first interpretation of option (2). Consider the mechanism for cell
+division. The end state of this mechanism is the state of there being two cells. According to
+the first interpretation of option (2), this end state of there being two cells is a component of
+the mechanism. Now, does it make sense to say that the state of there being two cells is a
+constitutive mechanistic phenomenon given that it is a component of the mechanism? There
+are at least two reasons to reject this idea: first, what characterizes a state from a metaphysical
+point of view is that it involves no changes. Furthermore, states have no definitive ending (i.e.
+states do not end unless an intervening event occurs). For example, the state of there being
+two cells, the state of the muscle fibre being contracted, the state of two species coexisting,
+and the state of the general being dead exist principally infinitely (unless something happens
+that causes their ending).20 As a consequence, if one takes phenomena to be end states of
+mechanisms which are themselves parts of the mechanism, one is committed to the claims
+that the mechanism for cell division lasts as long as the there are two cells, that the
+mechanism that leads to the death of the general lasts as long as the death of the general, and
+
+Of course, as a matter of fact, most states have a start and an end. However, these start and end points are
+irrelevant to the identity of a state. Events differ from states in this respect. The event of the general’s dying
+occurs at a definitive time and has a clear ending—it ends when the general is dead. The event of the muscle
+fiber’s contracting ends when the muscle fiber is contracted.
+20
+
+17
+
+that the mechanisms for muscle contraction lasts as long as the muscle is contracted. This is
+an odd consequence.
+A further problem of this first interpretation of option (2) is that it is not descriptively
+adequate (and thus violates (C1)). Granted that the phenomenon to be explained is a certain
+state (e.g. there being two cells, the muscle being contracted, the general being dead), the
+objects involved in these states are not components of the mechanisms that explain these
+states. Rather, they are higher-level objects or wholes. What is to be explained is, for instance,
+the being contracted of the muscle fibre, not the states certain components of the mechanism
+for muscle fibre contraction are in (such as the overlapping of the actin and myosin
+filaments). It is thus odd to speak about the phenomenon as the end state of the mechanism
+(which is a collection of component objects and occurrents; recall Section 2.3). Rather, if at
+all, constitutive mechanistic phenomena are states of certain higher-level objects that are
+brought about by the mechanism in some way (it remains to be clarified how these objects
+might be related to the mechanisms, see Section 4.2).
+In contrast to this first interpretation, the second interpretation of option (2) seems to be a
+more plausible description of constitutive mechanistic phenomena. According to this reading,
+end states of mechanisms are results of mechanisms that occur after the mechanism’s
+occurrence. The mechanism for cell division, for instance, explains the state of there being
+two daughter cells, which is the result of the cell-division mechanism. Figure 3 illustrates this
+interpretation of option (2):
+
+Fig. 3: Option (2) Phenomena as end states.
+Still, taken as a suggestion for an analysis of constitutive mechanistic phenomena, the second
+interpretation of option (2) is also problematic. The reason is that it violates (C2) in that it
+blurs the distinction between etiological and constitutive MExs. If constitutive mechanistic
+phenomena are taken to be states that are the results of mechanisms, constitutive MExs just
+turn out to be etiological MExs. Remember that in etiological MExs phenomena are taken to
+be effects of mechanisms. In both types of MExs, then, the phenomenon would occur after the
+mechanism and their relation is a causal one.
+18
+
+3.3 Phenomena as dispositions
+A third option is to claim that constitutive MExs explain capacities or dispositions21 (Ylikoski
+[2013]). Figure 4 illustrates this idea. Note that there are different ways to interpret option (3).
+First, there are different views of the metaphysics of dispositions, which might require
+different analyses in the context of constitutive mechanisms. Here, we will assume that
+dispositions are properties that are not necessarily manifest but merely potential. In this sense,
+an object can have a disposition without ever manifesting it. We thus take option (3) to be
+different from the idea that constitutive mechanistic phenomena are manifestations of
+dispositions. Second, option (3) can be read as stating that constitutive MExs explain an
+object’s having a disposition or its losing or acquiring a disposition. We will assume that the
+having of the disposition is what is to be explained (otherwise the grey box in Fig. 4 would
+have a definite ending or beginning). Third, authors who claim that constitutive MExs explain
+dispositions are not explicit in what they take the spatial and temporal relations between the
+(instantiation of the) disposition and the mechanism to be. Here we will make the assumption
+that the mechanism occurs during a time span when the object instantiates the disposition
+(without manifesting it).
+
+Fig. 4: Option (3) Phenomena as dispositions.
+The general idea that constitutive mechanistic phenomena are dispositions/capacities is prima
+facie plausible since it seems to correspond to the explanatory practice in the life sciences.
+When cognitive scientists want to explain spatial memory, they are interested in a certain
+capacity of, for example, humans (namely, the capacity of humans to navigate through
+familiar environments). Likewise, a phenomenon that botanists seek to explain is the
+disposition of plants to grow in the direction of light when exposed to it. This phenomenon is
+called ‘phototropism’ and it is typically explained by describing the constitutive mechanism
+of how the light source is detected, how this affects the polar transport of auxin (a plant
+21
+
+We use these two terms interchangeably.
+
+19
+
+hormone), which in turn causes differential growth in the shaded side and in the light-facing
+side of a stem.
+Despite its initial plausibility option (3) faces several problems. We will focus on two
+objections. The first problem is that explanations of dispositions do not refer to mechanisms
+as they are understood by the New Mechanists. The reason is the following: explanations of
+dispositions refer again to dispositions (not to their manifestations). To see this consider the
+following question that demands an explanation of a disposition: ‘What makes the glass
+fragile?’ (Ylikoski [2013]). The answer to this question might be something like ‘the bonds
+between the molecules the glass is made of are such that they are easily breakable by external
+impact.’ This answer refers to the parts of the glass and their dispositions (i.e. the chemical
+bonds being breakable).22 But given the framework of the New Mechanists this answer does
+not describe a mechanism since mechanisms consist of objects and non-dispositional
+occurrents (recall Section 2.3).23 Hence, explanations of dispositions, in contrast to
+explanations of manifestations of dispositions (see below) do not refer to mechanisms, and are
+thus not constitutive MExs.
+One might object that explanations of dispositions do not necessarily refer to dispositions.
+Rather, the explanation of, for example, the fragility of glass in fact mentions only nondispositional occurrents: ‘The glass is fragile because when a sufficiently large force is
+executed on it the bonds between the molecules break’. The breaking of the bonds is plausibly
+a non-dispositional occurrent. But the problem is that as soon as we introduce nondispositional occurrents into the explanation, the explanandum phenomenon changes. We no
+longer explain why the glass is disposed to break, but what happens when the glass is
+breaking. That is, we explain the manifestation of the disposition, not the having of the
+disposition itself.
+We thus conclude that option (3) violates criterion (C3): if constitutive mechanistic
+phenomena were (non-manifested) dispositions they could not plausibly be constituted, and
+thus constitutively explained, by mechanisms. Object-occurrent dualism (Section 2.3) implies
+that mechanisms are actually occurring. They are necessarily manifested and not merely
+potentially occurring. But dispositions are merely potential. Hence, mechanisms can only
+
+22
+Likewise, the contractability of a muscle fiber is explained by the dispositions of the muscle fiber’s parts such
+as the disposition of the endoplasmic reticulum to release calcium ions if an action potential arrives.
+23
+A dispositionalist will probably challenge this claim and argue that mechanisms in fact are composed of
+objects having certain dispositional properties. We agree that mechanisms conceived in this way clearly could
+explain dispositions. But this is not the view the New Mechanists have and the argumentative strategy of this
+paper is to accept their view and to analyze what, given this framework, constitutive mechanistic phenomena are.
+
+20
+
+constitute and constitutively explain the manifestations of an object’s dispositions, not the
+object’s dispositions as such.
+Second, if one takes a closer look at the explanatory practice of the life sciences the initial
+plausibility of option (3) vanishes: paradigmatic examples of constitutive MExs do not
+explain dispositions, but rather the processual manifestations of dispositions. Consider the
+mechanism of muscle contraction. The phenomenon that biologists want to explain by citing
+this mechanism is not the disposition of a muscle fibre to contract when a neuronal stimulus
+occurs. Rather, they want to explain the entire process of how a muscle fibre contracts.
+Similarly, the regulation mechanism of blood flow control does not explain the organism’s
+disposition to regulate its blood flow. Rather, the explanatory target of the MExs is the
+complex process of regulation—for instance, how the decrease of blood pressure caused by a
+sudden rise out of a warm bath is normalized again. To avoid misunderstandings: our claim is
+not that biologists never aim at explaining how certain objects have certain dispositions. We
+argue that these are not the phenomena that biologists explain when they offer constitutive
+mechanistic explanations. The metaphysical view that mechanistic phenomena are
+dispositions thus fails to satisfy (C1).
+3.4 Phenomena as behaviours
+Another possible interpretation of the ontological nature of phenomena of MExs is that they
+are behaviours. This option is suggested by Craver’s prevalent claim that constitutive MExs
+explain the behaviour of the mechanism as a whole, which he also refers to as the -ing of S
+
+(e.g. [2007], pp. 139, 214). This characterization has been taken over by several other authors
+(e.g. Bechtel [2011], p. 540; Leuridan [2012], p. 401). Figure 5 illustrates option (4).
+
+Fig. 5: Option (4) Phenomena as behaviours.
+In order to evaluate option (4), we have to distinguish two claims: first, we have to discuss
+the claim that a constitutive mechanistic phenomenon is the behaviour of the mechanism.
+21
+
+Second, the idea might be that the phenomenon just is a behaviour (without specifying the
+object that is engaged in the behaviour). Let us start with the first claim. We will show that,
+from an ontological point of view, the phrase ‘behaviour of a mechanism’ is deeply flawed.
+First of all, it is not entirely clear what Craver and others have in mind when they talk about
+the behaviour of a mechanism. There are two possible interpretations, which arise from a
+distinction that has been introduced by Stuart Glennan. On the one hand, the behaviour of the
+mechanism might be understood as the ‘external behaviour of the mechanism’ ([2005], p.
+447; our emphasis). For example, the external behaviour of a muscle fibre is contracting and
+external behaviours of an organism may include reproducing or hunting. On the other hand,
+the behaviour of the mechanism might be understood as the ‘internal working [or internal
+behaviour] of the mechanism’ (Glennan [2005], p. 447). For example, the internal behaviours
+of the muscle fibre when it contracts consist in various molecules moving and binding to each
+other and so on; the internal behaviours of an organism extend from the circulation of blood
+to the production of germ cells to the digestion of food.
+The problem is that in the context of the mechanistic approach no interpretation
+successfully states what constitutive mechanistic phenomena are. Constitutive mechanisms
+cannot explain the external behaviour of a mechanism as a whole. The reason is that
+behaviours in this external sense can only be ascribed to objects (this is a conceptual truth).
+But according to the mechanistic approach, mechanisms are no objects. The reason is that, as
+we have shown in Section 2.3, the New Mechanists assume that mechanisms consist of
+component objects and component occurrents. As a consequence, mechanisms themselves
+not only have locations, more or less clear spatial boundaries, and spatial parts, but they also
+have durations, involve changes, and also have temporal parts. Hence, also mechanisms are
+things that occur. There is something going on when a mechanism occurs. Mechanisms do not
+merely consist of spatially extended component-objects that are only disposed to act but do
+not actually perform any action (as, e.g. Glennan [1996], [2002] thinks)24. Without the wheels
+in the clock moving and interlocking, there is no mechanism that is responsible for keeping
+the time; without the heart pumping blood through the organism there is no mechanism for
+oxygen transport; and without the actin and myosin filaments sliding past each other there is
+no mechanism for muscle contraction. A mechanism exists only if its component objects are
+Glennan is the only mechanist who holds the view that mechanisms are objects like machines (e.g. [1996], p.
+51). Glennan does not defend entity-activity dualism. Instead, he argues that mechanisms are complex systems,
+such as hearts ([2002], p. 344), watches, cells, organisms, or social groups ([2002], p. 345) that have parts with
+certain dispositional properties. If the dispositions become manifest, the parts interact with each other such that
+they produce a particular phenomenon. The interactions are characterized by certain kinds of generalizations (see
+[1996], [2002], [2005]). In recent years, however, Glennan’s position seems to have become more similar to
+MDC’s dualism (he speaks about mechanisms as being constituted by entities, interactions, and activities).
+24
+
+22
+
+involved in certain occurrents and a certain phenomenon in fact occurs.25 This implies that
+mechanisms are occurrents rather than continuants (i.e. objects).
+In a nutshell: external behaviours in the sense characterized above can only be ascribed to
+objects. Mechanisms are no objects since they are composed of component objects and
+occurrents. Hence, mechanisms cannot be engaged in external behaviours. An example can
+help to further clarify our argument: if a certain volume of gas cools down, this can be
+explained by the mechanism of molecules decreasing in speed. In this case, the phenomenon
+to be explained by the constitutive MExs is the behaviour (the cooling down) of a certain
+object (the volume of gas). It would not make sense to ascribe the behaviour (the cooling
+down) to the mechanism, that is, the collection of the moving and interacting gas molecules. It
+is the gas that cools down, and not the collection of the moving and interacting molecules that
+cools down. It would be a category mistake to ascribe behaviours such as cooling down to
+processes such as the molecules decreasing their speed. The latter might be the cause or
+constituent of the behaviour, but it is not the agent in it. Besides this, ascribing external
+behaviours that are to be explained (such as navigating the Morris Water Maze, or keeping the
+time, or the like) to mechanisms amounts to committing the mereological fallacy (see Bennett
+and Hacker [2003]). It is not the brain that is thinking—only persons, of which brains are
+parts, can think. In the same sense, it is not the spatial memory mechanism that navigates the
+Morris Water Maze, nor is it the clock-mechanism that keeps the time. Rats navigate the
+Morris Water Maze, and clocks keep the time.
+Nor can constitutive mechanistic phenomena be the internal behaviours of mechanisms.
+Rather, the internal behaviours of mechanisms are the occurrences/activities of the objects
+that are the components of the mechanisms. But these occurrences/activities are supposed to
+be what explains the phenomenon that is brought about by the mechanism. Hence, they
+cannot be the phenomenon-to-be-explained. If one takes the phrase ‘behaviour of the
+mechanism as a whole’ to refer to internal behaviours of mechanisms, one confuses the
+explanandum phenomenon with what the explanans refers to.
+Hence, the first interpretation of option (4), according to which constitutive mechanistic
+phenomena are behaviours of mechanisms, is inconsistent. What about the second
+interpretation? According to this interpretation, constitutive mechanistic phenomena are not
+behaviours of mechanisms, but just behaviours (i.e. bare behaviours that exclude the object
+
+This implies that, strictly speaking, there exist no such things as ‘inactive mechanisms’ that exist but do not
+work or proceed. One might commonsensically accept that objects like clocks and hearts are mechanisms. But
+this can only be loose talk since, in the mechanistic framework, entity-activity dualism implies that mechanisms
+are things that occur and that are thus not only spatially, but also temporally extended.
+25
+
+23
+
+that is engaged in the behaviour; see Illari and Williamson [2012]). This idea might be
+plausible at least at the type-level: scientists are often interested in, for example,
+photosynthesis, osmosis, spatial memory, and so on, without being interested in the particular
+objects that are engaged in these processes. Still, constitutive mechanistic phenomena cannot
+be bare behaviours in this sense—at least not primarily. Here is why: first, the New
+Mechanists assume entity-activity dualism (or rather ‘object-occurrent dualism’; recall
+Section 2.3). One of their main reasons to accept this dualism is that they reject the idea that
+there can exist activities/occurrents without there being an entity/object that is engaged in it.
+Hence, they should also reject the claim that phenomena are bare behaviours. Second, (C3)
+requires constitutive mechanistic phenomena to be such that they can be constituted by
+mechanisms. We have argued that this implies that phenomena must be such that they can
+have spatial parts. But behaviours as such cannot have spatial parts. Only the objects that
+exhibit behaviours can have spatial parts (this is why behaviours might be said to indirectly
+have spatial parts). Constitutive mechanistic phenomena can thus not be bare behaviours.
+To conclude, it is plausible to assume that constitutive mechanistic phenomena are objects
+that are engaged in behaviours. But these objects cannot be mechanisms. But, then, what are
+the objects and how are they related to the mechanism? These questions (and others) will be
+addressed in the next section, in which we present our own suggestion for how to understand
+the ontological nature of constitutive mechanistic phenomena.
+4 Phenomena as Object Involving Occurrents
+Figure 6 provides an overview of the four suggestions discussed in the previous section that
+turned out to be inadequate characterizations of constitutive mechanistic phenomena:
+
+24
+
+Fig. 6: Overview of the four options discussed in Section 3.
+In this section we introduce our own proposal for spelling out the metaphysics of constitutive
+mechanistic phenomena.
+4.1 What object-involving occurrents are and why we need them
+Option (5), our own approach, states that the phenomena explained by constitutive MExs are
+object-involving occurrents (OIOs)26. We take OIOs to consist of an object (or system) that is
+engaged in a certain occurrent. As already mentioned in Section 2.3, occurrents are process,
+event, and states (where activities, behaviours, and the like are plausibly special kinds of
+processes, events, or states). Some of these occurrents involve changes (such as events or
+processes), others do not (such as states), some might exist only at particular points in time (as
+some authors claim is true of events), some imply definite endings (as is the case with many
+processes), and so on. Recall that the only constraint is that the occurrents that make up OIOs
+must be non-dispositional, that is, they cannot be states which consist in the having of a
+disposition (instead of being manifestations of dispositions). Objects are, for example,
+organisms, brains, cells, or ion-channels. The objects engaged in constitutive mechanistic
+phenomena typically have relatively clear spatial boundaries (such as membranes), which
+surround objects and allow a distinction between inside and outside (see Kaiser [2015],
+[unpublished (a)]). Our notion of an object is also supposed to refer to systems. Systems are
+
+26
+
+We thank Geert Keil for suggesting this label.
+
+25
+
+typically composed of more than one object and most biological systems, such as gene
+regulatory networks, the immune system, populations, or ecosystems, have less clear spatial
+boundaries than objects. OIOs have spatial as well as temporal parts. They occur at the
+locations of the objects and they have durations. The view that constitutive mechanistic
+phenomena are OIOs is depicted in Figure 7. Note that the figure leaves open the exact spatial
+relations between the phenomenon and the mechanism (we will specify them in Sections 4.2
+and 4.3).
+
+Fig. 7: Option (5) Phenomena as object-involving occurrents (OIOs).
+We take typical examples of OIOs to be a muscle fibre contracting (an object showing an
+activity/behaviour), an ion channel’s being open (a state of an object), the neurotransmitter’s
+being released (an object engaged in, what we will call, a passive behaviour), and an
+organism’s reproduction (an object that is involved in a complex process). All of these
+examples are phenomena that life scientists study, manipulate, and seek to explain by
+developing constitutive MExs.
+From a metaphysical point of view, phenomena are primarily tokens such as a particular
+muscle fibre contracting, a particular neuron in Peter’s brain firing, a particular rat navigating
+the Morris Water Maze, and the like. Corresponding phenomena types are described by
+generic generalizations, like ‘muscles contract when a certain stimulus is present’, ‘neurons
+fire when a certain stimulus is present’, and ‘rats find the platform when put into a Morris
+Water Maze’. The validity of these generalizations depends on the existence of the
+corresponding phenomena tokens.27
+
+Note that this view is compatible with the fact that scientific research often begins with phenomenon types.
+One interesting question that might be discussed in this context is the question of how idealized phenomena
+types can have concrete instances. We do not want to address this question here because it needs more careful
+analysis that cannot be provided in this paper.
+27
+
+26
+
+Note that the introduction of the term ‘object-involving occurrents’ is not meant to
+introduce some new ontological category. At least according to one reading of events, OIOs
+are simply events (if events are taken to necessarily involve events).We use the term ‘objectinvolving occurrent’ rather than ‘event’ since the notion of an event is highly ambiguous
+(some hold that events are property instantiations in objects, others hold that they involve
+property instantiations in space-time regions; some hold that events necessarily involve
+change, others deny that, and so on). By using the term ‘object-involving occurrent’ we
+emphasize that constitutive mechanistic phenomena consist of both objects and the occurrents
+in which the objects are engaged. Constitutive mechanistic phenomena always involve objects
+because the kind of object involved in a phenomenon is crucial for identifying the mechanism
+that produces and explains the phenomenon (more on this in the next section). Furthermore,
+constitutive mechanistic phenomena must involve occurrents because what needs an
+explanation is not an object as such, but only what the object is doing or how it is behaving.28
+It is worth emphasizing that the view we present in this paper is monistic and pluralistic at
+the same time. We argue that constitutive mechanistic phenomena cannot be conceived of as
+input-output relations, as end states, as instantiations of dispositions (rather than their
+manifestations), as bare behaviours (without involved objects), or as external behaviours of
+mechanisms. Instead, we claim that they are object-involving occurrents (OIOs). This is a
+monistic view because we argue that all constitutive mechanistic phenomena are of the same
+ontological kind (i.e. it gives one answer to the question ‘What are constitutive mechanistic
+phenomena?’). However, in another respect our account is also pluralistic as the occurrents in
+which objects can be involved are of different kinds: they are, for instance, behaviours,
+events, processes, activities, or states that are manifestations of dispositions.
+4.2 The object in the phenomenon
+As we have argued in Section 3.4, the object that is engaged in the behaviour to be explained
+by a constitutive MEx cannot be the mechanism. Mechanisms are not the kind of things we
+can ascribe behaviours to (since mechanisms already consist of internal behaviours, that is, of
+component occurrents) and a mechanism cannot be what does the explaining and be part of
+what is explained at the same time. It is not the mechanism of muscle contraction that is
+contracting. Nor is it the action potential mechanism that fires, or the spatial memory
+mechanism that navigates through the Morris Water Maze. Rather, the relevant objects are
+The concept of an ‘acting entity’ (Craver [2007], p. 189) that Craver introduces shares some similarities with
+our concept of an object-involving occurrent. Both involve objects that ‘do something’, that engage in
+occurrents.
+
+28
+
+27
+
+individuals that in most cases are larger objects or systems that contain one or often more
+mechanisms (or at least a great deal of the objects that constitute the mechanisms). It is the
+muscle fibre (not the mechanism of muscle contraction) that contracts; it is the neuron (not
+the action potential mechanism) that fires; it is the cell that divides (not the cell division
+mechanism); and it is the mouse (not the spatial memory mechanism) that navigates through
+the Morris Water Maze. These objects (i.e. the muscle fibre, the neuron, the cell, and the
+mouse), to which we ascribe the behaviours or occurrents to be explained (i.e. contraction,
+firing, division, and navigating), cannot be mechanisms for two reasons. First, as we have
+already shown, mechanisms consist of component objects and occurrents and are thus not the
+kind of thing to which we can attribute behaviours. Second, even if we leave the component
+occurrents/activities aside and consider only component objects/entities, in most cases the
+objects or systems that show the behaviours to be explained will be different from the
+collection of all the component objects that constitute the mechanism for that behaviour.
+Let us dwell on this last point. We see at least two major respects in which the object or
+system that is involved in the mechanistic phenomenon differs from the collection of all
+component objects/entities that constitute the mechanism: first, biological objects like muscle
+fibres, neurons, cells, or mice often exhibit more than one characteristic behaviour, each of
+which is often the result of a different underlying mechanism (see Kaiser [2015],
+[unpublished (a)]). For example, cells not only undergo mitosis (i.e. cell division), but also
+produce proteins, replicate their genome, grow, and die. Organisms such as mice not only
+navigate through the Morris Water Maze (i.e. memorize spatially), but also reproduce,
+survive, defend themselves, and so on. If an object exhibits more than one characteristic
+behaviour it (at least) consists of all those component objects whose occurrents are relevant to
+bringing about these different behaviours. It does not merely consist of those component
+objects that are relevant to the one behaviour that is to be explained.29 Cells that divide, for
+instance, do not merely consist of those component objects that constitute the mechanism for
+cell division (e.g. chromosomes and centrioles). They are also composed of objects (e.g.
+ribosomes, tRNAs, and amino acids) that are relevant to other characteristic behaviours of
+cells, such as protein synthesis or apoptosis (cell death).30 In contrast, mechanisms are always
+for one specific phenomenon and are composed of only those component objects that are
+relevant to this phenomenon.
+Of course, how exactly the notion of relevance can be spelled out (i.e. under which conditions an object is a
+part of another object) is an urgent question. Answering this question amounts to providing an account of
+(biological) parthood, which is the task for a separate paper (see Kaiser [unpublished (a)]).
+30
+This is the reason why the phenomenon-box in Figure 6 is larger/higher than the mechanism-box.
+29
+
+28
+
+Second, the objects involved in mechanistic phenomena are individuated differently from
+the collection of all component objects that constitute a given mechanism. Spatial boundaries,
+such as the cell membrane, the skin of an organism, or the blood-brain barrier are very
+important to the demarcation of objects from their environment (see Kaiser [2015],
+[unpublished (a)]). This is not true for mechanisms because mechanisms ‘frequently
+transgress compartmental [physical] boundaries’ (Craver [2007], p. 141). The mechanism for
+action potential, for instance, consists not only of ion channels, the neuronal membrane, and
+ions that are located inside of the neuron. In addition, ions that are located outside of the
+neuron are also components of the mechanism. Another example is the mechanism for muscle
+contraction that includes an incoming, external neuronal signal (i.e. neurotransmitters that
+bind to receptor molecules outside of the muscle fibre). Hence, a mechanism can have objects
+as components that are not (or at least not all of the time)31 parts of the object or system that
+shows the behaviour that is explained by this mechanism. In short, mechanisms can
+encompass external objects.32
+These considerations reveal an important distinction: generally speaking, the conditions
+under which something is a component in a mechanism (hereinafter ‘componency’) differ
+from the conditions for being a part of an object (hereinafter ‘parthood’). The centrioles, for
+example, are parts of the cell, but not components in the mechanism for protein synthesis
+because their activity is irrelevant to the synthesis of proteins, but relevant to another
+characteristic behaviour of the cell, namely cell division. The distinction between
+componency and parthood is already implicit in Craver’s account of constitutive relevance
+([2007], pp. 139–60), according to which mechanisms are composed of all and only those
+
+objects and occurrents (X’s -ing) that satisfy parthood and mutual manipulability (recall
+Section 2.3). According to this account, componency presupposes parthood.
+Still, the distinction between componency and parthood encounters at least two problems
+in the context of Craver’s approach to constitutive relevance. First, Craver seems to think that
+phenomena are behaviours of mechanisms as wholes (S’s -ings). Hence, the system (the ‘S’)
+
+that is referred to in the parthood condition must be the mechanism as a whole. But this
+obviously blurs the distinction between parthood and componency and it renders the approach
+This is a point of divergence. One of us thinks that components of mechanisms have to be spatial parts of the
+phenomenon-OIO at least at some time during the occurrence of the mechanism (where spatial parthood here is
+understood as an object occupying a sub-region of the spatio-temporal region occupied by another object;
+Leuridan [2012]; Krickel [unpublished]). The other claims that something can be a component of a mechanism
+even if it is never a spatial part of the phenomenon-OIO (Kaiser [2015], [unpublished (a)]).
+32
+David M. Kaplan seems to rely on a similar assumption when he argues that ‘the gecko adhesion mechanism
+is spatially distributed to include external components spanning the boundary between the gecko and its
+environment’ ([2012], p. 552; our emphasis).
+
+31
+
+29
+
+to constitutive relevance circular. We might solve this problem by modifying Craver’s
+approach: the system mentioned in the parthood condition might not be the mechanism as a
+whole, but rather a larger object or system (in the sense characterized in Section 4.1) that is
+engaged in the behaviour-to-be-explained (the ψ-ing).
+In this case, a second problem occurs: if the parthood condition is supposed to be a
+necessary condition for being a mechanistic component, this contradicts the claim that some
+mechanisms transgress spatial boundaries and include occurring objects/acting entities that
+are external to the object or system whose behaviour is to be explained (see Kaiser [2015],
+[unpublished (a)]). Component objects that are located outside of the spatial boundary of a
+(higher-level) object are not parts of it and thus cannot be components of mechanisms that are
+responsible for behaviours of these objects. Consider, for example, the action potential
+mechanism. This mechanism is responsible for the firing behaviour of neurons. Hence, the
+object or system that is referred to in the parthood condition is the neuron. For neurons to fire
+it is crucial that certain ions at a certain point of time diffuse out of the neuron. Now, if
+constitutive relevance requires that the components of the mechanism for the firing of the
+neuron are parts of the neuron, these ions could not be considered components of the
+mechanism because they are not parts of the neuron. A plausible way to solve this problem is
+to weaken the parthood condition and require only the majority of components of a
+mechanism to be parts of the corresponding object or system.
+4.3 The adequacy of option (5)
+In this section we show how the view that mechanistic phenomena (tokens) are objectinvolving occurrences (OIOs) meets the three criteria of adequacy that we introduced in
+Section 2. We will elaborate on these points in turn.
+First, as the various examples that we have discussed indicate, option (5) captures
+paradigmatic examples of the phenomena of constitutive MExs, such as the contraction of a
+muscle fibre, the firing of a neuron, cell division, the cell synthesizing proteins, growing,
+dying, and replicating DNA, the navigation of a mouse through the Morris Water Maze, or the
+vision of a mammal. Hence, our approach to constitutive mechanistic phenomena satisfies
+(C1).
+Second, criterion of adequacy (C3) states that constitutive mechanistic phenomena have to
+be such that they can plausibly be constituted by mechanisms. We have argued that this
+implies (at least) that constitutive mechanistic phenomena must be such that they can have
+spatial parts, and that they must be temporally extended. OIOs satisfy this criterion:
+30
+
+occurrents are extended in time. Objects are extended in space. OIOs inherit these features.
+Thus, phenomena as OIOs meet the third criterion of adequacy (C3).
+Third, concerning (C2) one might object that our analysis reveals that the ontological
+natures of constitutive and etiological mechanistic phenomena are not that different.
+Etiological MExs describe phenomena as being caused by mechanisms. If one assumes that
+the relata of causation are events, it is plausible to assume that etiological mechanistic
+phenomena are events. One might further argue that events are not that different from our
+OIOs—depending on what one takes events to be, either all OIOs are events or at least some
+OIOs are events. This would imply that the phenomena involved in etiological MExs are of
+the same or a similar ontological kind as those involved in constitutive MExs (contra Ylikoski
+[2013]). This is not a problematic consequence since our analysis reveals that the difference
+between constitutive and etiological mechanistic phenomena lies somewhere else, namely in
+their relation to mechanisms. In a nutshell, in etiological MExs the phenomenon occurs
+temporally after the mechanism has occurred. In constitutive MExs the phenomenon (i)
+occurs at the same time as the mechanism occurs and (ii) most components of constitutive
+mechanisms are spatially contained in the object or system that constitutes the OIO that is the
+phenomenon. Etiological mechanisms might, but need not be spatially contained in the object
+or system that constitutes the phenomenon.
+Let us enter into further details. Consider spatial relations first. As we have argued in
+Section 4.2, it is plausible to assume that the majority of the components of constitutive
+mechanisms are spatially contained in (i.e. located inside of the spatial boundary of) the
+
+object or system S whose behaviour (-ing) is to be explained. For example, the mechanism
+
+for muscle contraction consists of actin and myosin filaments, sarcoplasmic reticula, calcium
+ions, and so on, which are all located inside of the cell membrane of the muscle fibre.
+Constitutive mechanisms may also encompass component objects that are external to the
+phenomenon-object (e.g. the neuronal signal is external to the muscle fibre), but the majority
+of the components are parts of the phenomenon-object and thus spatially contained within it.
+With respect to etiological mechanisms there exists no requirement of this kind. Components
+of etiological mechanisms may or may not be spatially contained in the phenomenon-object
+or system whose behaviour is to be explained. For example, the etiological explanation of
+why a certain phenotypic trait (e.g. brown skin colour) became prevalent in a population of
+mice refers not only to parts of the members of the population (and their genetic
+constituency), but also and in particular to environmental factors (such as the plants that grow
+
+31
+
+in the area where the mice live) that are not spatially contained in the object whose state is to
+be explained (i.e. the prevalence of mice with brown skin colour in the population).33
+Furthermore, for constitutive MExs spatial parthood between mechanisms (more precisely,
+their component objects) and phenomena (more precisely, the object involved in the
+phenomenon) is not sufficient. Temporal relations between the occurrences, in which the
+phenomenon-object is involved, and the component occurrents, which constitute the
+mechanism, must be taken into account as well (in addition to relevance relations that are
+supposed to be covered by the mutual manipulability requirement). In the case of constitutive
+mechanisms the occurrents that are components of the mechanism occur during the
+explanandum phenomenon’s taking place (recall Section 2.3). For example, the release of
+calcium ions from the endoplasmic reticulum into the cytosol (a component of the mechanism
+for muscle contraction) occurs during the contraction of the muscle fibre (the phenomenon to
+be explained). By contrast, etiological mechanisms occur earlier than the phenomena they
+explain. For example, the etiological mechanism that causes the prevalence of mice with
+brown skin colour in a population and that describes the interactions between brown and nonbrown mice with the environment (e.g. that brown mice are better hidden from predators)
+occurs before the event that the brown colour trait is prevalent in a population occurs.
+To sum up, what characterizes constitutive mechanisms and distinguishes them from
+etiological ones is that, first, the majority of the components of constitutive mechanisms (but
+not necessarily all of them) are spatially contained in the phenomenon-object, and second,
+that constitutive mechanisms occur during the same time span as the phenomena they explain.
+Hence, our account of the ontological nature of mechanistic phenomena it is in line with and
+makes sense of the difference between etiological and constitutive mechanisms (C2).
+5 Conclusion
+In this paper, we have developed an account of the ontological nature of phenomena that are
+explained by constitutive MExs. This account fills a gap in the mechanistic literature because
+the metaphysics of constitutive mechanistic phenomena has not been specified yet. Filling this
+gap is important because three claims that lie at the heart of the New Mechanistic approach
+crucially hinge on the notion of a constitutive phenomenon: mechanisms are supposed to
+constitutively explain phenomena, they do so because they constitute phenomena, and
+33
+Of course, one could doubt that this is a mechanistic explanation at all. But defending this claim is the task of
+the New Mechanists, not ours. Furthermore, one could also question whether this is an etiological MEx (rather
+than a constitutive one). However, if this were a constitutive MEx the explanandum phenomenon would have to
+be different: the change of allele frequencies in the population, and not the prevalence of a certain trait in a
+population, would have to be the phenomenon to be explained.
+
+32
+
+phenomena are said to determine the individuation of the mechanisms that constitute them.
+Only if we know what constitutive mechanistic phenomena are can we make sense of these
+three major claims.
+According to our approach, phenomena explained by constitutive MExs can best be
+understood as object-involving occurrents (OIOs), which are objects or systems that are
+involved in a certain process or event, or are in a certain state. Typically, the phenomena that
+are investigated by the life sciences are organisms or parts/groups of organisms, which are
+engaged in certain behaviours or activities. Understanding constitutive mechanistic
+phenomena as OIOs enables us to make sense of the three claims of the New Mechanists.
+First, in constitutive MExs mechanisms explain the behaviours of objects. Second, the
+difference between etiological and constitutive MExs consists in the fact that the components
+of constitutive mechanisms occur during the same time span in which the phenomenon
+occurs, whereas etiological mechanisms occur before the phenomena they explain.
+Furthermore, in constitutive mechanisms most of the components are spatially contained in
+the OIO that constitutes the phenomenon, whereas etiological mechanisms are not spatially
+restricted. Hence, according to our view, a necessary condition for mechanistic constitution is
+the following: a mechanism constitutes a phenomenon only if every component of the
+mechanism occurs during the phenomenon’s occurrence, and most of the components are
+spatially contained in the phenomenon. Finally, our approach also clarifies the individuationclaim. A mechanism is composed of only those objects and occurrents that are constitutively
+relevant to the phenomenon that the mechanism is supposed to explain. According to our
+approach, this implies that a component of a mechanism must be relevant to a particular
+behaviour of an object, where it must be the case that the component-occurrent occurs during
+the phenomenon-occurrent, and the component-object is a spatial part of the phenomenonobject (at least most of them). Of course, this is only a necessary condition—we still have to
+specify when a putative component is relevant to the phenomenon. This is an urgent question,
+but an answer goes beyond the scope of this paper.
+We are confident that our analysis of the metaphysics of mechanistic phenomena can be
+used to enrich and clarify other questions in the mechanistic literature, for instance: What is
+the mechanistic level relation, and what are its relata? What are higher-level interventions, in
+contrast to lower-level interventions? Are phenomena multiply realizable (or rather multiply
+constitutable) by different mechanisms?
+
+33
+
+Funding
+This work was partially supported by the Deutsche Forschungsgemeinschaft (DFG) [FOR1063].
+Acknowledgements
+We would like to thank the members of the Kolloquium zur theoretischen Philosophie
+(Universität zu Köln), of the Lake Geneva Biological Interest Group (lgBIG, Université de
+Genève), and of the Lehrstuhlkolloquium of Prof. Keil (Humboldt-Universität zu Berlin) for
+comments on earlier drafts. Our thanks also go to Kelley Schiffman and Tim Steeger for proof
+reading and formatting.
+References
+Andersen, H. [2012]: ‘The Case for Regularity in Mechanistic Causal Explanation’, Synthese,
+189, pp. 415–32.
+Baker, L. R. [1997]: ‘Why Constitution is Not Identity’, The Journal of Philosophy, 94: 599–
+621.
+Barros, B. [2008]: ‘Natural Selection as a Mechanism’, Philosophy of Science, 75, pp. 306–
+322.
+Baumgartner, M. and Gebharter, A. [2015]: ‘Constitutive Relevance, Mutual Manipulability,
+and Fat-Handedness’, The British Journal for the Philosophy of Science.
+Bechtel, W. [2005]: ‘The Challenge of Characterizing Operations in the Mechanisms
+underlying Behaviour’, Journal of the Experimental Analysis of Behaviour,
+84[3], pp. 313–25.
+Bechtel, W. [2006]: Discovering Cell Mechanisms. The Creation of Modern Cell Biology,
+Cambridge: Cambridge University Press.
+Bechtel, W. [2008]: Mental Mechanisms. Philosophical Perspectives on Cognitive
+Neuroscience, New York and London: Taylor and Francis Group.
+Bechtel, W. [2011]: ‘Mechanism and Biological Explanation’, Philosophy of Science, 78, pp.
+533–57.
+Bechtel, W. and Abrahamsen, A. [2005]: ‘Explanation: a mechanist alternative’, Stud. Hist.
+Phil. Biol. & Biomed. Sci., 36, pp.421–41.
+Bennett, M. and Hacker, P. [2003]: Philosophical Foundations of Neuroscience. Oxford and
+Malden, Mass.: Wiley-Blackwell.
+34
+
+Bechtel, W. and Richardson, R.C. [2010]: Discovering Complexity. Decomposition and
+Localization as Strategies in Scientific Research, Cambridge: MIT Press.
+Bogen, J. [2005]: ‘Regularities and Causality; Generalizations and Causal Explanations’,
+Studies in History and Philosophy of Biological and Biomedical Sciences, 36,
+pp. 397–420.
+Bogen, J. [2008]: ‘Causally Productive Activities’, Studies in History and Philosophy of
+Science, 39, pp. 112–23.
+Campaner, R. [2006]: ‘Mechanisms and Counterfactuals: A Different Glimpse of the
+(Secret?) Connexion’, Philosophica, 77, pp. 15–44.
+Callender, C. [2011]: ‘Philosophy of Science and Metaphysics’, in S. French and J. Saatsi
+(eds), Continuum Companion to the Philosophy of Science, Continuum, pp.
+33–54.
+Craver, C. [2007]: Explaining the Brain, Oxford: Oxford University Press.
+Craver, C. [2014]: ‘The Ontic Account of Scientific Explanation’, in M. I. Kaiser, O. Scholz,
+D. Plenge, and A. Hüttemann (eds), Explanation in the Special Sciences –
+The Case of Biology and History [Synthese Library], Dordrecht: Springer, pp.
+27–52.
+Craver, C. F. and Bechtel, W. [2007]: ‘Top-down Causation without Top-down Causes’,
+Biology and Philosophy, 22, pp. 547–63.
+Craver, C. F. and Darden, L. [2001]: ‘Discovering Mechanisms in Neurobiology: The Case of
+Spatial Memory’, in P. Machamer, R. Grush, P. McLaughlin (eds), Theory
+and Method in Neuroscience, Pittsburgh: University of Pittsburgh Press, pp.
+112–37.
+Craver, C. F. and Darden, L. [2013]: In Search of Mechanisms. Discoveries across the Life
+Sciences, Chicago/London: University of Chicago Press.
+Craver, C. F. and Kaiser, M. I. [2013]: ‘Mechanisms and Laws: Clarifying the Debate’, in H. K. Chao, S.-T. Chen, and R. L. Millstein (eds), Mechanism and Causality in
+Biology and Economics, Dordrecht: Springer, pp. 125–45.
+Cummins, R. [1983]: The Nature of Psychological Explanation. Cambridge, MA: Bradford
+and MIT Press.
+Darden, L. [2002]: ‘Strategies for Discovering Mechanisms: Schema Instantiation, Modular
+Subassembly, Forward/Backward Chaining’, Philosophy of Science, 69[3],
+Supplement: Proceedings of the 2000 Biennial Meeting of the Philosophy of
+Science Association. Part II: Symposia Papers. (Sep., 2002), pp. 354–65.
+35
+
+Gillett, C. [2013]: ‘Constitution, and Multiple Constitution, in the Sciences: Using the Neuron
+to Construct a Starting Framework’, Minds and Machines 23[3], pp. 309–37.
+Glennan, S. [1996]: ‘Mechanism and the Nature of Causation’, Erkenntnis, 44, pp. 49–71.
+Glennan, S. [2002]: ‘Rethinking Mechanistic Explanation’, Philosophy of Science, 69, pp.
+342–53.
+Glennan, S. [2005]: ‘Modeling Mechanisms’, Studies in History and Philosophy of Science
+Part C, 36[2], pp. 443–64.
+Glennan, S. [2009]: ‘Productivity, relevance and natural selection’, Biology & Philosophy,
+24[3], pp. 325–39.
+Glennan, S. [2010]: ‘Ephemeral Mechanisms and Historical Explanation’, Erkenntnis, 72,
+251–66.
+Harbecke, J. [2010]: ‘Mechanistic Constitution in Neurobiological Explanations’,
+International Studies in the Philosophy of Science, 24, pp. 267–85.
+Illari, P. and Williamson, J. [2013]: ‘In Defense of Activities’, Journal for General
+Philosophy of Science, 44, pp. 69–83.
+Illari, P. and Williamson, J. [2012]: ‘What is a mechanism? Thinking about mechanisms
+across the sciences’, European Journal of Philosophy of Science, 2, pp. 119–
+35.
+Kaiser, M. I. [2015]: Reductive Explanation in the Biological Sciences, Dordrecht: Springer.
+Kaiser, M. I. [unpublished (a)]: ‘Individuating Part-Whole Relations in the Biological World’.
+Kaiser, M. I. [unpublished (b)]: ‘Normativity in Philosophy of Science’.
+Kaplan, D. M. [2012]: ‘How to demarcate the boundaries of cognition’, Biol Philos, 27: pp.
+545–70.
+Krickel, B. [unpublished]: The Metaphysics of Mechanisms, Dissertation, HumboldtUniversität zu Berlin.
+Leuridan, B., [2012]: ‘Three Problems for the Mutual Manipulability Account of Constitutive
+Relevance in Mechanisms’, British Journal of Philosophy of Science, 63[2],
+pp. 1–29.
+Lewis, D. K. [1986]: On the plurality of worlds, Oxford: Blackwell.
+Machamer, P. [2004]: ‘Activities and Causation: The Metaphysics and Epistemology of
+Mechanisms’, International Studies in the Philosophy of Science, 18[1], pp. 27–39.
+Machamer, P., Darden, L., and Craver, C. [2000]: ‘Thinking about Mechanisms’, Philosophy
+of Science, 67, pp. 1–25.
+Maudlin, T. [2007]: The Metaphysics within Physics, Oxford: Oxford University Press.
+36
+
+Psillos, S. [2004]: ‘A Glimpse of the Secret Connexion: Harmonizing Mechanisms with
+Counterfactuals’, Perspectives on Science, 12, pp. 288–319.
+Ross, D., Ladyman, J. and Spurrett, D. [2007]: ‘In Defence of Scientism,’ in D. Ross and J.
+Ladyman (eds), Every Thing Must Go. Metaphysics Naturalized, Oxford:
+Oxford University Press, pp. 1–65.
+Salmon, W. [1984]: ‘Scientific Explanation: Three Basic Conceptions’, PSA: Proceedings of
+the Biennial Meeting of the Philosophy of Science Association, Volume II:
+Symposia and Invited Papers, pp. 293–305.
+Simons, P. M. [1991]: ‘On being spread out in time: temporal parts and the problem of
+change’, in W. Spohn, B. van Fraassen, and B. Skyrms (eds), Existence and
+Explanation, Kluwer Academic Publishers, pp. 131–47.
+Skipper, R.A. and Milstein, R.L. [2005]: ‘Thinking about evolutionary mechanisms: natural
+selection’, Studies in History and Philosophy of Biological and Biomedical
+Sciences, 36, 327–47.
+Smith, B. [2012]: ‘Classifying Processes: An Essay in Applied Ontology’, Ratio, 25, pp.463–
+88.
+Steel, D. P. [2008]: Across the Boundaries. Extrapolation in Biology and Social Science,
+Oxford/New York: Oxford University Press.
+Tabery, J. [2004]: ‘Synthesizing Activities and Interactions in the Concept of a Mechanism’,
+Philosophy of Science, 71, pp. 1–15.
+Torres, P. J. [2008]: ‘A Modified Conception of Mechanism’, Erkenntnis, 71[2], pp. 233–51.
+Ylikoski, P. [2013]: ‘Causal and Constitutive Explanation Compared,’ Erkenntnis, 78, pp.
+277–97.
+
+37
+
+
