@@ -179,11 +179,14 @@ def probe_memory_bus(sample_sec: float = 0.5) -> dict:
         "l2_fill_rsp_src.dram_io_near",
         "l2_fill_rsp_src.dram_io_far",
     ]
-    event_args = " ".join(f"-e {e}" for e in dram_events)
+    dram_cmd = ["perf", "stat"]
+    for _e in dram_events:
+        dram_cmd.extend(["-e", _e])
+    dram_cmd.extend(["-a", "--", "sleep", str(sample_sec)])
     try:
         out = subprocess.run(
-            f"perf stat {event_args} -a -- sleep {sample_sec}",
-            shell=True, capture_output=True, text=True, timeout=sample_sec + 10,
+            dram_cmd,
+            capture_output=True, text=True, timeout=sample_sec + 10,
         )
         if out.returncode == 0 and out.stderr:
             for line in out.stderr.split("\n"):
@@ -220,11 +223,14 @@ def probe_memory_bus(sample_sec: float = 0.5) -> dict:
             ])
 
     if umc_events:
-        umc_args = " ".join(f"-e {e}" for e in umc_events)
+        umc_cmd = ["perf", "stat"]
+        for _e in umc_events:
+            umc_cmd.extend(["-e", _e])
+        umc_cmd.extend(["-a", "--", "sleep", str(sample_sec)])
         try:
             out = subprocess.run(
-                f"perf stat {umc_args} -a -- sleep {sample_sec}",
-                shell=True, capture_output=True, text=True, timeout=sample_sec + 10,
+                umc_cmd,
+                capture_output=True, text=True, timeout=sample_sec + 10,
             )
             if out.returncode == 0 and out.stderr:
                 ch_data = {}

@@ -178,7 +178,7 @@ class AgentOps:
             if deviation > 0.25:  # 25% deviation triggers alert
                 severity = "critical" if deviation > 0.50 else "warning"
                 return DriftAlert(
-                    alert_id=hashlib.md5(str(datetime.now(timezone.utc).isoformat()).encode()).hexdigest()[:8],
+                    alert_id=hashlib.md5(str(datetime.now(timezone.utc).isoformat()).encode(), usedforsecurity=False).hexdigest()[:8],
                     workflow=workflow,
                     metric="latency",
                     baseline_value=baseline_avg_latency,
@@ -211,7 +211,7 @@ class AgentOps:
 
         if jaccard < 0.5:  # Less than 50% overlap in output patterns
             return DriftAlert(
-                alert_id=hashlib.md5(str(datetime.now(timezone.utc).isoformat()).encode()).hexdigest()[:8],
+                alert_id=hashlib.md5(str(datetime.now(timezone.utc).isoformat()).encode(), usedforsecurity=False).hexdigest()[:8],
                 workflow=workflow,
                 metric="output_hash_diversity",
                 baseline_value=float(len(baseline_hashes)),

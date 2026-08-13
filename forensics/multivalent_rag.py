@@ -122,7 +122,7 @@ class DenseRetriever:
             return
         
         texts = [c["text"] for c in chunks]
-        ids = [hashlib.md5(f"{source_file}:{c['start']}".encode()).hexdigest()
+        ids = [hashlib.md5(f"{source_file}:{c['start']}".encode(), usedforsecurity=False).hexdigest()
                for c in chunks]
         
         # Skip already-indexed chunks
@@ -341,7 +341,7 @@ class VaultRAG:
             
             # Skip if already indexed (simple hash check)
             if not force:
-                file_hash = hashlib.md5(rel_path.encode()).hexdigest()
+                file_hash = hashlib.md5(rel_path.encode(), usedforsecurity=False).hexdigest()
                 marker = self.index_dir / "indexed" / f"{file_hash}.done"
                 if marker.exists():
                     continue
@@ -357,7 +357,7 @@ class VaultRAG:
             # Mark as indexed
             marker_dir = self.index_dir / "indexed"
             marker_dir.mkdir(parents=True, exist_ok=True)
-            marker = marker_dir / f"{hashlib.md5(rel_path.encode()).hexdigest()}.done"
+            marker = marker_dir / f"{hashlib.md5(rel_path.encode(), usedforsecurity=False).hexdigest()}.done"
             marker.touch()
             
             indexed_count += 1

@@ -73,7 +73,7 @@ class VaultWatcher:
             if any(p in {".git", ".obsidian", ".brain", "_hermes"} for p in parts):
                 continue
             try:
-                h = hashlib.md5(md_file.read_bytes()).hexdigest()
+                h = hashlib.md5(md_file.read_bytes(), usedforsecurity=False).hexdigest()
                 hashes[str(md_file.relative_to(VAULT))] = h
             except Exception:
                 pass

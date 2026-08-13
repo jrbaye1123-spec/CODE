@@ -66,7 +66,7 @@ LOG_EVERY = 10
 # Data
 VAULT_PATH = Path.home() / "Desktop/backup-20260606/vault"
 OUTPUT_DIR = Path.home() / "gpt2_moe_1m/vault-gpt-moe-trained"
-LOG_FILE = Path("/tmp/gpt2-moe-1m-train.log")
+LOG_FILE = Path.home() / ".cache" / "gpt2-moe-1m-train.log"
 
 device = "cpu"
 

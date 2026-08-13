@@ -109,7 +109,7 @@ MAX_GRAD_NORM = 1.0
 # Data
 VAULT_PATH = Path.home() / "Desktop/backup-20260606/vault"
 OUTPUT_DIR = Path.home() / "gpt2_moe_1m/vault-gpt-expert"
-LOG_FILE = Path("/tmp/gpt2-moe-expert-train.log")
+LOG_FILE = Path.home() / ".cache" / "gpt2-moe-expert-train.log"
 
 # CPU thread setup
 torch.set_num_threads(16)

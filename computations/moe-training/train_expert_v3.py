@@ -99,7 +99,7 @@ MAX_GRAD_NORM = 1.0
 # Paths
 VAULT_PATH = Path.home() / "Documents/ObsidianVault"
 OUTPUT_DIR = Path.home() / "gpt2_moe_1m/vault-gpt-expert-llama"
-LOG_FILE = Path("/tmp/llama-moe-train.log")
+LOG_FILE = Path.home() / ".cache" / "llama-moe-train.log"
 
 # CPU
 torch.set_num_threads(16)

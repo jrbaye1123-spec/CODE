@@ -67,21 +67,24 @@ def ingest_dataset(dataset_path: str, output_dir: str,
         for f in input_files:
             table_name = f.stem.replace("-", "_").replace(".", "_")
             suffix = f.suffix.lower()
+            # Quote identifiers/literals so hostile filenames can't inject SQL
+            safe_table = '"' + table_name.replace('"', '""') + '"'
+            safe_path = str(f).replace("'", "''")
 
             if suffix == ".csv":
-                con.execute(f"CREATE OR REPLACE TABLE {table_name} AS "
-                           f"SELECT * FROM read_csv_auto('{f}')")
+                con.execute(f"CREATE OR REPLACE TABLE {safe_table} AS "
+                           f"SELECT * FROM read_csv_auto('{safe_path}')")
             elif suffix == ".parquet":
-                con.execute(f"CREATE OR REPLACE TABLE {table_name} AS "
-                           f"SELECT * FROM read_parquet('{f}')")
+                con.execute(f"CREATE OR REPLACE TABLE {safe_table} AS "
+                           f"SELECT * FROM read_parquet('{safe_path}')")
             elif suffix in (".json", ".jsonl"):
-                con.execute(f"CREATE OR REPLACE TABLE {table_name} AS "
-                           f"SELECT * FROM read_json_auto('{f}')")
+                con.execute(f"CREATE OR REPLACE TABLE {safe_table} AS "
+                           f"SELECT * FROM read_json_auto('{safe_path}')")
             else:
                 print(f"  Skipping unsupported format: {suffix}")
                 continue
 
-            row_count = con.execute(f"SELECT COUNT(*) FROM {table_name}").fetchone()[0]
+            row_count = con.execute(f"SELECT COUNT(*) FROM {safe_table}").fetchone()[0]
             table_info[table_name] = {"rows": row_count, "source": f.name}
             print(f"  Imported {f.name} → {table_name} ({row_count} rows)")
 

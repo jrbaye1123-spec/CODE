@@ -190,7 +190,8 @@ def propose_heuristic(body: str, title: str) -> list[EdgeProposal]:
 
             # Generate stable proposal ID
             prop_id = hashlib.md5(
-                f"{title}|{actual_source}|{actual_relation}|{actual_target}".encode()
+                f"{title}|{actual_source}|{actual_relation}|{actual_target}".encode(),
+                usedforsecurity=False
             ).hexdigest()[:12]
 
             proposals.append(EdgeProposal(
@@ -332,7 +333,8 @@ Return ONLY the JSON array, no other text."""
                 variant = RELATION_TO_VARIANT.get(item.get("relation", ""), "generic")
 
             prop_id = hashlib.md5(
-                f"{title}|{item.get('source_title','')}|{item.get('relation','')}|{item.get('target_title','')}".encode()
+                f"{title}|{item.get('source_title','')}|{item.get('relation','')}|{item.get('target_title','')}".encode(),
+                usedforsecurity=False
             ).hexdigest()[:12]
 
             proposals.append(EdgeProposal(

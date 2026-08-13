@@ -131,7 +131,7 @@ echo "  llama-cli --model $MODEL --lora $LORA_OUT -p 'Explain Go rules'"
     with open(output_script, 'w') as f:
         f.write(script)
     
-    os.chmod(output_script, 0o755)
+    os.chmod(output_script, 0o700)
     print(f"Training script created: {output_script}")
     return output_script
 

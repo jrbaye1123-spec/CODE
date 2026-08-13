@@ -24,7 +24,7 @@ from pathlib import Path
 import numpy as np
 
 # ── Protocol constants ──────────────────────────────────────────────
-SOCKET_PATH = "/tmp/accumulationd.sock"
+SOCKET_PATH = f"/tmp/accumulationd-{os.getuid()}.sock"
 HEADER_FMT = "!I"  # 4-byte length prefix
 MAX_MSG = 2**20     # 1 MB max message
 
@@ -469,7 +469,7 @@ class AccumulationDaemon:
         server = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
         server.bind(self.socket_path)
         server.listen(5)
-        os.chmod(self.socket_path, 0o666)
+        os.chmod(self.socket_path, 0o600)
         self.running = True
 
         print(f"accumulationd v0.1.0 running on {self.socket_path}")
