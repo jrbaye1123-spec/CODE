@@ -1,0 +1,4 @@
+# Sentinel watchdog — checks auth failures, runaway processes, and
+# unexpected listening ports every 5 minutes. Notifies via desktop.
+# To pause:  crontab -e   (and comment this line)  or  crontab -r (remove all)
+*/5 * * * * DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /home/nakamichi/.local/bin/python3 /home/nakamichi/projects/sentinel/sentinel.py --once
