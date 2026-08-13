@@ -15,6 +15,9 @@ from governance.services.token_service import (
 from governance.services.handoff_runtime import HandoffEnvelope, HandoffRuntime
 from governance.services.pathway_registry import PathwayRegistry
 
+# Test signing secret — TokenValidator now fails closed without it
+os.environ.setdefault("VAULT_GOVERNANCE_SECRET", "test-governance-secret")
+
 ok = fail = 0
 def c(name, cond):
     global ok, fail

@@ -6,6 +6,7 @@ No actor may act outside their token scope.
 """
 import hashlib
 import json
+import os
 import time
 import uuid
 from dataclasses import dataclass, field
@@ -13,6 +14,19 @@ from datetime import datetime, timezone, timedelta
 from typing import List, Optional, Dict
 
 UTC = timezone.utc
+
+GOVERNANCE_SECRET_ENV = "VAULT_GOVERNANCE_SECRET"
+
+
+def _governance_secret() -> str:
+    """Resolve the token-signing secret from the environment (fail-closed)."""
+    secret = os.environ.get(GOVERNANCE_SECRET_ENV, "").strip()
+    if not secret:
+        raise RuntimeError(
+            f"{GOVERNANCE_SECRET_ENV} is not set; refusing to sign/verify "
+            "capability tokens with a hardcoded secret"
+        )
+    return secret
 
 
 @dataclass
@@ -38,12 +52,13 @@ class CapabilityToken:
             return True
         return action in self.allowed_actions
 
-    def sign(self, secret: str = "vault-governance-secret") -> str:
+    def sign(self, secret: Optional[str] = None) -> str:
+        key = secret or _governance_secret()
         payload = f"{self.token_id}|{self.subject_id}|{self.subject_role}|{self.issued_at}|{self.expires_at}"
-        self.signature = hashlib.sha256((payload + secret).encode()).hexdigest()
+        self.signature = hashlib.sha256((payload + key).encode()).hexdigest()
         return self.signature
 
-    def verify(self, secret: str = "vault-governance-secret") -> bool:
+    def verify(self, secret: Optional[str] = None) -> bool:
         expected = self.sign(secret)
         return self.signature == expected
 
@@ -132,8 +147,8 @@ def promotion_token(human: bool = True) -> CapabilityToken:
 class TokenValidator:
     """Validates capability tokens at runtime."""
 
-    def __init__(self, secret: str = "vault-governance-secret"):
-        self.secret = secret
+    def __init__(self, secret: Optional[str] = None):
+        self.secret = secret or _governance_secret()
 
     def validate(self, token: CapabilityToken, action: str) -> bool:
         """Return True if token is valid and allows the action."""
