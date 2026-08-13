@@ -15,7 +15,6 @@ All original works: AI systems, computational projects, research frameworks, and
 | `agentic-triage/` | AI agent triage system |
 | `myosu-framework/` | MyOSU framework |
 | `matraix-clone/` | Matraix clone project |
-| `post_quantum_memoir/` | Post-quantum memoir |
 | `Muse-Glimmer/` | Muse Glimmer application |
 | `ai-governance-vault/` | AI governance research |
 | `js-wall/` | JavaScript wall project |
