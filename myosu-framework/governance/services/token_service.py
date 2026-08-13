@@ -5,6 +5,7 @@ Every actor (human, agent, service) carries a scoped capability token.
 No actor may act outside their token scope.
 """
 import hashlib
+import hmac
 import json
 import os
 import time
@@ -52,16 +53,34 @@ class CapabilityToken:
             return True
         return action in self.allowed_actions
 
+    def _signed_payload(self) -> str:
+        """Canonical serialization of every authorization-relevant field."""
+        data = {
+            "token_id": self.token_id,
+            "subject_id": self.subject_id,
+            "subject_role": self.subject_role,
+            "allowed_actions": self.allowed_actions,
+            "forbidden_actions": self.forbidden_actions,
+            "project_id": self.project_id,
+            "risk_tier": self.risk_tier,
+            "issued_at": self.issued_at,
+            "expires_at": self.expires_at,
+        }
+        return json.dumps(data, sort_keys=True, separators=(",", ":"))
+
     def _digest(self, secret: str) -> str:
-        payload = f"{self.token_id}|{self.subject_id}|{self.subject_role}|{self.issued_at}|{self.expires_at}"
-        return hashlib.sha256((payload + secret).encode()).hexdigest()
+        return hmac.new(
+            secret.encode(), self._signed_payload().encode(), hashlib.sha256
+        ).hexdigest()
 
     def sign(self, secret: Optional[str] = None) -> str:
         self.signature = self._digest(secret or _governance_secret())
         return self.signature
 
     def verify(self, secret: Optional[str] = None) -> bool:
-        return self.signature == self._digest(secret or _governance_secret())
+        return hmac.compare_digest(
+            self.signature, self._digest(secret or _governance_secret())
+        )
 
     def to_dict(self) -> dict:
         return {
