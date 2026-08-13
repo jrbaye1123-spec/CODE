@@ -52,15 +52,16 @@ class CapabilityToken:
             return True
         return action in self.allowed_actions
 
-    def sign(self, secret: Optional[str] = None) -> str:
-        key = secret or _governance_secret()
+    def _digest(self, secret: str) -> str:
         payload = f"{self.token_id}|{self.subject_id}|{self.subject_role}|{self.issued_at}|{self.expires_at}"
-        self.signature = hashlib.sha256((payload + key).encode()).hexdigest()
+        return hashlib.sha256((payload + secret).encode()).hexdigest()
+
+    def sign(self, secret: Optional[str] = None) -> str:
+        self.signature = self._digest(secret or _governance_secret())
         return self.signature
 
     def verify(self, secret: Optional[str] = None) -> bool:
-        expected = self.sign(secret)
-        return self.signature == expected
+        return self.signature == self._digest(secret or _governance_secret())
 
     def to_dict(self) -> dict:
         return {
